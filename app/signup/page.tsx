@@ -6,13 +6,12 @@ import Link from 'next/link';
 
 export default function SignUpPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900 flex items-center justify-center p-4">
+    <div className="min-h-screen page-bg flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <Link href="/">
-            <h1 className="text-3xl font-bold gradient-text cursor-pointer">
-              Product Factory
-            </h1>
+          <Link href="/" className="inline-flex items-center gap-3">
+            <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-teal-400 to-blue-500" />
+            <h1 className="text-3xl font-bold gradient-text heading-font">InvoiceFlow</h1>
           </Link>
         </div>
 
@@ -22,7 +21,7 @@ export default function SignUpPage() {
           <div className="mt-6 text-center">
             <Link href="/login" className="text-sm text-gray-400 hover:text-white transition-colors">
               Already have an account?{' '}
-              <span className="text-blue-400 font-medium">Login</span>
+              <span className="text-teal-300 font-medium">Login</span>
             </Link>
           </div>
         </Card>

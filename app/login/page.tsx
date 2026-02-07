@@ -1,53 +1,39 @@
 'use client';
 
 import { useState } from 'react';
-import LoginForm from '@/components/auth/LoginForm';
-import SignUpForm from '@/components/auth/SignUpForm';
-import Card from '@/components/ui/Card';
-import Link from 'next/link';
+import { useAuth } from '@/contexts/AuthContext';
 
 export default function LoginPage() {
-  const [mode, setMode] = useState<'login' | 'signup'>('login');
+  const { signInWithGoogle } = useAuth();
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const onGoogleSignIn = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      await signInWithGoogle();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Unable to sign in.');
+      setLoading(false);
+    }
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900 flex items-center justify-center p-4">
-      <div className="w-full max-w-md">
-        <div className="text-center mb-8">
-          <Link href="/">
-            <h1 className="text-3xl font-bold gradient-text cursor-pointer">
-              Product Factory
-            </h1>
-          </Link>
-        </div>
+    <div className="min-h-screen page-bg px-4 py-20 text-slate-100">
+      <div className="mx-auto max-w-md rounded-2xl border border-white/10 bg-slate-950/70 p-8 backdrop-blur">
+        <h1 className="heading-font text-3xl font-bold">Sign in to InvoiceFlow</h1>
+        <p className="mt-2 text-sm text-slate-400">Use your Google account via Supabase Auth.</p>
 
-        <Card>
-          {mode === 'login' ? <LoginForm /> : <SignUpForm />}
-          
-          <div className="mt-6 text-center">
-            <button
-              onClick={() => setMode(mode === 'login' ? 'signup' : 'login')}
-              className="text-sm text-gray-400 hover:text-white transition-colors"
-            >
-              {mode === 'login' ? (
-                <>
-                  Don't have an account?{' '}
-                  <span className="text-blue-400 font-medium">Sign up</span>
-                </>
-              ) : (
-                <>
-                  Already have an account?{' '}
-                  <span className="text-blue-400 font-medium">Login</span>
-                </>
-              )}
-            </button>
-          </div>
-        </Card>
+        <button
+          onClick={onGoogleSignIn}
+          disabled={loading}
+          className="mt-8 w-full rounded-lg bg-teal-500 px-4 py-3 text-sm font-semibold text-slate-900 transition hover:bg-teal-400 disabled:cursor-not-allowed disabled:opacity-60"
+        >
+          {loading ? 'Redirecting...' : 'Continue with Google'}
+        </button>
 
-        <div className="mt-8 text-center">
-          <Link href="/" className="text-sm text-gray-400 hover:text-white transition-colors">
-            ← Back to home
-          </Link>
-        </div>
+        {error && <p className="mt-4 text-sm text-rose-300">{error}</p>}
       </div>
     </div>
   );

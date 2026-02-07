@@ -4,13 +4,12 @@ import PricingCards from '@/components/pricing/PricingCards';
 
 export default function PricingPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900">
-      <header className="border-b border-white/10 backdrop-blur-sm bg-black/20">
+    <div className="min-h-screen page-bg">
+      <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/">
-            <h1 className="text-2xl font-bold gradient-text cursor-pointer">
-              Product Factory
-            </h1>
+          <Link href="/" className="flex items-center gap-3">
+            <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-teal-400 to-blue-500" />
+            <h1 className="text-2xl font-bold gradient-text heading-font">InvoiceFlow</h1>
           </Link>
           <div className="flex gap-4">
             <Link href="/login">
@@ -25,11 +24,11 @@ export default function PricingPage() {
 
       <main className="container mx-auto px-4 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-white mb-4">
+          <h2 className="text-5xl font-bold text-white mb-4 heading-font">
             Simple, Transparent Pricing
           </h2>
           <p className="text-xl text-gray-300">
-            Choose the plan that works for you
+            Start free. Upgrade when you want unlimited invoices.
           </p>
         </div>
 
@@ -37,7 +36,7 @@ export default function PricingPage() {
 
         <div className="mt-16 text-center">
           <p className="text-gray-400 mb-4">
-            All plans include full access to features, priority support, and regular updates.
+            All plans include Gmail sync, secure OAuth, and CSV export.
           </p>
           <p className="text-sm text-gray-500">
             Secure payment processing by Stripe

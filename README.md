@@ -1,82 +1,49 @@
-# Product Factory
+# InvoiceFlow
 
-A production-ready Next.js 14 template with authentication, payments, admin dashboard, and beautiful UI components. Clone and customize to launch products 2.5x faster.
+AI-powered invoice and expense auto-organizer for SMBs. Connect Gmail, auto-detect invoices, extract key fields, and export clean CSVs in minutes.
 
-## 🚀 Features
+## ✅ MVP Features
 
-- **Authentication** - Google OAuth, email/password, magic links via Supabase Auth
-- **Payments** - Stripe subscriptions with webhooks and customer portal
-- **Admin Dashboard** - User management, analytics (MRR, churn, revenue)
-- **UI Components** - Glassmorphism design system with dark mode
-- **Database** - Supabase (PostgreSQL) with RLS policies
-- **TypeScript** - Fully typed with strict mode
-- **Deployment Ready** - Vercel config and CI/CD setup
+- Gmail OAuth connection
+- Auto-fetch and detect invoices
+- AI extraction: vendor, amount, date, category
+- Dashboard with filters and search
+- CSV export
+- Supabase Auth
+- Stripe subscriptions (Free / Pro)
+- Landing page with pricing
 
-## 📋 Prerequisites
+## 🧱 Tech Stack
 
-- Node.js 18+ and npm
-- Supabase account ([supabase.com](https://supabase.com))
-- Stripe account ([stripe.com](https://stripe.com))
-- Vercel account for deployment (optional)
+- Next.js 14 + TypeScript
+- Gmail API (OAuth)
+- Supabase (PostgreSQL + Auth)
+- Gemini API (extraction)
+- Stripe (payments)
+- Vercel (deploy)
 
 ## 🏁 Quick Start
 
-### 1. Clone the template
+### 1. Install
 
 ```bash
-git clone <your-repo-url> my-product
-cd my-product
+cd invoiceflow
 npm install
 ```
 
-### 2. Set up Supabase
-
-1. Create a new project at [supabase.com](https://supabase.com)
-2. Go to Project Settings → API
-3. Copy your project URL and anon key
-4. Run the migration:
-   ```bash
-   # Install Supabase CLI
-   npm install -g supabase
-   
-   # Link your project
-   supabase link --project-ref your-project-ref
-   
-   # Run migrations
-   supabase db push
-   ```
-
-5. Enable Google OAuth:
-   - Go to Authentication → Providers
-   - Enable Google
-   - Add your OAuth credentials from Google Cloud Console
-   - Add authorized redirect URL: `https://your-project.supabase.co/auth/v1/callback`
-
-### 3. Set up Stripe
-
-1. Create account at [stripe.com](https://stripe.com)
-2. Get API keys from Developers → API keys
-3. Create products:
-   - Go to Products → Add Product
-   - Create "Monthly" plan (e.g., $29/month)
-   - Create "Yearly" plan (e.g., $299/year)
-   - Copy the Price IDs
-
-4. Set up webhook:
-   - Go to Developers → Webhooks → Add endpoint
-   - URL: `https://your-domain.com/api/webhooks/stripe`
-   - Events: Select all `checkout`, `customer`, and `invoice` events
-   - Copy the webhook signing secret
-
-### 4. Configure environment variables
+### 2. Configure environment
 
 ```bash
 cp .env.example .env.local
 ```
 
-Edit `.env.local` with your keys:
+Fill in values:
 
 ```env
+# App
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_APP_NAME=InvoiceFlow
+
 # Supabase
 NEXT_PUBLIC_SUPABASE_URL=https://xxx.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJxxx...
@@ -86,145 +53,82 @@ SUPABASE_SERVICE_ROLE_KEY=eyJxxx...
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_xxx
 STRIPE_SECRET_KEY=sk_test_xxx
 STRIPE_WEBHOOK_SECRET=whsec_xxx
+NEXT_PUBLIC_STRIPE_PRICE_PRO=price_xxx
 
-# App
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-NEXT_PUBLIC_APP_NAME=My Product
+# Gmail OAuth
+GMAIL_CLIENT_ID=xxx.apps.googleusercontent.com
+GMAIL_CLIENT_SECRET=xxx
 
-# Stripe Price IDs
-NEXT_PUBLIC_STRIPE_PRICE_MONTHLY=price_xxx
-NEXT_PUBLIC_STRIPE_PRICE_YEARLY=price_xxx
+# Gemini
+GEMINI_API_KEY=xxx
 ```
 
-### 5. Run development server
+### 3. Supabase schema
+
+```bash
+# Install Supabase CLI
+npm install -g supabase
+
+# Link your project
+supabase link --project-ref your-project-ref
+
+# Run migrations
+supabase db push
+```
+
+### 4. Run dev server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Open `http://localhost:3000`
 
-## 🧪 Testing
+## 🧪 Test Flow
 
-### Test Authentication
-1. Click "Get Started"
-2. Sign up with email or Google
-3. Check email for verification (if using email)
-4. Login and access dashboard
+1. Sign up / Login
+2. Connect Gmail
+3. Click “Sync Invoices”
+4. View invoices in dashboard
+5. Export CSV
 
-### Test Payments
-1. Go to Pricing page
-2. Click Subscribe (use test card: `4242 4242 4242 4242`)
-3. Verify subscription appears in dashboard
-4. Click "Manage Subscription" to test customer portal
-
-### Test Webhooks Locally
-```bash
-# Install Stripe CLI
-brew install stripe/stripe-cli/stripe
-
-# Login to Stripe
-stripe login
-
-# Forward webhooks to local server
-stripe listen --forward-to localhost:3000/api/webhooks/stripe
-
-# Use the webhook secret shown in terminal in your .env.local
-```
-
-## 📁 Project Structure
-
-```
-product-factory/
-├── app/
-│   ├── api/              # API routes
-│   ├── auth/             # Auth callback
-│   ├── admin/            # Admin dashboard
-│   ├── dashboard/        # User dashboard
-│   ├── login/            # Login page
-│   ├── signup/           # Signup page
-│   ├── pricing/          # Pricing page
-│   └── page.tsx          # Landing page
-├── components/
-│   ├── ui/               # Reusable UI components
-│   ├── auth/             # Auth forms
-│   ├── admin/            # Admin components
-│   └── pricing/          # Pricing components
-├── contexts/             # React contexts (auth)
-├── lib/                  # Utilities and configs
-├── supabase/
-│   └── migrations/       # Database migrations
-└── public/               # Static assets
-```
-
-## 🎨 Customization
-
-### Branding
-1. Update `NEXT_PUBLIC_APP_NAME` in `.env.local`
-2. Replace "Product Factory" in components
-3. Update metadata in `app/layout.tsx`
-4. Add your logo to `public/` folder
-
-### Styling
-- Color scheme: `app/globals.css`
-- Component styles: `components/ui/`
-- Tailwind config: `tailwind.config.ts`
-
-### Features
-- Add pages: Create in `app/` directory
-- Add components: Create in `components/`
-- Add API routes: Create in `app/api/`
-
-## 🚀 Deployment
-
-### Deploy to Vercel
+## 🚀 Deploy (Vercel)
 
 1. Push to GitHub
 2. Import to Vercel
-3. Add environment variables
+3. Add env vars
 4. Deploy
 
-Vercel will auto-detect Next.js and configure build settings.
+## 📁 Structure
 
-### Post-Deployment
+```
+invoiceflow/
+├── app/
+│   ├── api/              # API routes (Stripe, Gmail, Invoices)
+│   ├── dashboard/        # User dashboard
+│   ├── login/            # Auth
+│   ├── pricing/          # Pricing page
+│   └── page.tsx          # Landing page
+├── components/
+│   ├── auth/
+│   ├── invoices/
+│   ├── pricing/
+│   └── ui/
+├── lib/
+│   ├── gemini.ts
+│   ├── gmail.ts
+│   ├── stripe.ts
+│   └── supabase.ts
+└── supabase/
+    └── migrations/
+```
 
-1. Update Supabase OAuth redirect:
-   - Add production URL to Supabase auth settings
-   
-2. Update Stripe webhook:
-   - Add production webhook endpoint
-   - Update `STRIPE_WEBHOOK_SECRET` in Vercel
+## Notes
 
-3. Test production flows:
-   - Authentication
-   - Payment checkout
-   - Webhook processing
-
-## 📚 Documentation
-
-- [ARCHITECTURE.md](./ARCHITECTURE.md) - System architecture and design
-- [COMPONENTS.md](./COMPONENTS.md) - UI components documentation
-- [DEPLOYMENT.md](./DEPLOYMENT.md) - Deployment guide
-
-## 🛠️ Tech Stack
-
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Database:** Supabase (PostgreSQL)
-- **Auth:** Supabase Auth
-- **Payments:** Stripe
-- **Deployment:** Vercel
-- **Forms:** React Hook Form + Zod
-
-## 📄 License
-
-MIT License - feel free to use for any project!
-
-## 🤝 Support
-
-Need help? Check the documentation or create an issue.
+- Gmail scopes are limited to read-only + metadata.
+- Tokens are stored in Supabase; consider encrypting for production.
+- QuickBooks export is CSV-only in MVP (API integration can be added).
 
 ---
 
-**Built with ❤️ to help you ship products faster**
+Built for speed and real-world SMB workflows.

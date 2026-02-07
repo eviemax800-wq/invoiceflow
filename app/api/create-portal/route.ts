@@ -1,9 +1,12 @@
 import { NextResponse } from 'next/server';
+import { cookies } from 'next/headers';
+import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs';
+import type { Database } from '@/lib/database.types';
 import { createPortalSession } from '@/lib/stripe';
-import { supabase } from '@/lib/supabase';
 
-export async function POST(request: Request) {
+export async function POST() {
   try {
+    const supabase = createRouteHandlerClient<Database>({ cookies });
     const {
       data: { user },
       error: authError,
@@ -13,7 +16,6 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    // Get user's subscription to find Stripe customer ID
     const { data: subscription } = await supabase
       .from('subscriptions')
       .select('stripe_customer_id')

@@ -1,12 +1,14 @@
 import { NextResponse } from 'next/server';
+import { cookies } from 'next/headers';
+import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs';
+import type { Database } from '@/lib/database.types';
 import { createCheckoutSession, createStripeCustomer, getStripeCustomerByEmail } from '@/lib/stripe';
-import { supabase } from '@/lib/supabase';
 
 export async function POST(request: Request) {
   try {
     const { priceId } = await request.json();
 
-    // Get current user from Supabase
+    const supabase = createRouteHandlerClient<Database>({ cookies });
     const {
       data: { user },
       error: authError,
@@ -16,14 +18,12 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    // Get or create Stripe customer
     let customer = await getStripeCustomerByEmail(user.email!);
-    
+
     if (!customer) {
       customer = await createStripeCustomer(user.email!, user.id);
     }
 
-    // Create checkout session
     const session = await createCheckoutSession({
       customerId: customer.id,
       priceId,

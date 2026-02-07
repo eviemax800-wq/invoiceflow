@@ -2,181 +2,139 @@ import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
 import { stripe } from '@/lib/stripe';
-import { createClient } from '@supabase/supabase-js';
-
-const supabaseAdmin = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+import { supabaseAdmin } from '@/lib/supabase-admin';
 
 export async function POST(request: Request) {
   const body = await request.text();
-  const signature = headers().get('stripe-signature')!;
+  const signature = headers().get('stripe-signature');
+
+  if (!signature || !process.env.STRIPE_WEBHOOK_SECRET) {
+    return NextResponse.json({ error: 'Missing webhook signature setup' }, { status: 400 });
+  }
 
   let event: Stripe.Event;
 
   try {
-    event = stripe.webhooks.constructEvent(
-      body,
-      signature,
-      process.env.STRIPE_WEBHOOK_SECRET!
-    );
-  } catch (error: any) {
-    console.error('Webhook signature verification failed:', error.message);
+    event = stripe.webhooks.constructEvent(body, signature, process.env.STRIPE_WEBHOOK_SECRET);
+  } catch (error) {
     return NextResponse.json({ error: 'Invalid signature' }, { status: 400 });
+  }
+
+  const { data: existing } = await supabaseAdmin
+    .from('webhook_events')
+    .select('id')
+    .eq('stripe_event_id', event.id)
+    .maybeSingle();
+
+  if (existing) {
+    return NextResponse.json({ received: true, duplicate: true });
   }
 
   try {
     switch (event.type) {
       case 'checkout.session.completed': {
         const session = event.data.object as Stripe.Checkout.Session;
-        
-        if (session.mode === 'subscription') {
-          const subscription = await stripe.subscriptions.retrieve(
-            session.subscription as string
-          );
-          
-          await handleSubscriptionCreated(subscription, session.metadata?.userId!);
-        }
+        await handleCheckoutCompleted(session);
         break;
       }
-
-      case 'customer.subscription.updated': {
-        const subscription = event.data.object as Stripe.Subscription;
-        await handleSubscriptionUpdated(subscription);
+      case 'payment_intent.payment_failed': {
+        const paymentIntent = event.data.object as Stripe.PaymentIntent;
+        await handlePaymentFailed(paymentIntent);
         break;
       }
-
-      case 'customer.subscription.deleted': {
-        const subscription = event.data.object as Stripe.Subscription;
-        await handleSubscriptionCanceled(subscription);
+      case 'charge.refunded': {
+        const charge = event.data.object as Stripe.Charge;
+        await handleChargeRefunded(charge);
         break;
       }
-
-      case 'invoice.payment_succeeded': {
-        const invoice = event.data.object as Stripe.Invoice;
-        await handlePaymentSucceeded(invoice);
+      default:
         break;
-      }
-
-      case 'invoice.payment_failed': {
-        const invoice = event.data.object as Stripe.Invoice;
-        await handlePaymentFailed(invoice);
-        break;
-      }
     }
 
+    await supabaseAdmin.from('webhook_events').insert({
+      stripe_event_id: event.id,
+      type: event.type,
+    });
+
     return NextResponse.json({ received: true });
-  } catch (error: any) {
-    console.error('Webhook handler error:', error);
-    return NextResponse.json(
-      { error: 'Webhook handler failed' },
-      { status: 500 }
-    );
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown webhook failure';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
 
-async function handleSubscriptionCreated(
-  subscription: Stripe.Subscription,
-  userId: string
-) {
-  const item = subscription.items.data[0];
-  const price = item.price;
+async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
+  const invoiceId = session.metadata?.invoiceId;
+  const userId = session.metadata?.userId;
 
-  await supabaseAdmin.from('subscriptions').insert({
-    user_id: userId,
-    stripe_customer_id: subscription.customer as string,
-    stripe_subscription_id: subscription.id,
-    status: subscription.status,
-    plan_id: price.id,
-    interval: price.recurring?.interval || 'month',
-    amount: price.unit_amount || 0,
-    current_period_start: new Date((subscription as any).current_period_start * 1000).toISOString(),
-    current_period_end: new Date((subscription as any).current_period_end * 1000).toISOString(),
-  });
+  if (!invoiceId || !userId) {
+    return;
+  }
 
-  await supabaseAdmin.from('activity_logs').insert({
-    user_id: userId,
-    action: 'subscription_created',
-    metadata: { subscription_id: subscription.id },
-  });
-}
-
-async function handleSubscriptionUpdated(subscription: Stripe.Subscription) {
   await supabaseAdmin
-    .from('subscriptions')
+    .from('invoices')
     .update({
-      status: subscription.status,
-      current_period_start: new Date((subscription as any).current_period_start * 1000).toISOString(),
-      current_period_end: new Date((subscription as any).current_period_end * 1000).toISOString(),
-      cancel_at_period_end: subscription.cancel_at_period_end,
+      status: 'paid',
+      paid_at: new Date().toISOString(),
+      stripe_checkout_session_id: session.id,
     })
-    .eq('stripe_subscription_id', subscription.id);
+    .eq('id', invoiceId)
+    .eq('user_id', userId);
+
+  await supabaseAdmin.from('invoice_payments').insert({
+    user_id: userId,
+    invoice_id: invoiceId,
+    stripe_checkout_session_id: session.id,
+    stripe_payment_intent_id: typeof session.payment_intent === 'string' ? session.payment_intent : null,
+    amount_cents: session.amount_total ?? 0,
+    currency: session.currency ?? 'usd',
+    status: 'succeeded',
+  });
 }
 
-async function handleSubscriptionCanceled(subscription: Stripe.Subscription) {
+async function handlePaymentFailed(paymentIntent: Stripe.PaymentIntent) {
+  const sessionId = typeof paymentIntent.metadata?.checkoutSessionId === 'string'
+    ? paymentIntent.metadata.checkoutSessionId
+    : null;
+  const invoiceId = typeof paymentIntent.metadata?.invoiceId === 'string'
+    ? paymentIntent.metadata.invoiceId
+    : null;
+
+  if (!invoiceId && !sessionId) {
+    return;
+  }
+
+  if (invoiceId) {
+    await supabaseAdmin
+      .from('invoices')
+      .update({ status: 'overdue' })
+      .eq('id', invoiceId);
+  }
+
+  if (invoiceId && paymentIntent.currency) {
+    const amount = paymentIntent.amount ?? 0;
+    const userId = paymentIntent.metadata?.userId;
+    if (typeof userId === 'string') {
+      await supabaseAdmin.from('invoice_payments').insert({
+        user_id: userId,
+        invoice_id: invoiceId,
+        stripe_payment_intent_id: paymentIntent.id,
+        stripe_checkout_session_id: sessionId,
+        amount_cents: amount,
+        currency: paymentIntent.currency,
+        status: 'failed',
+      });
+    }
+  }
+}
+
+async function handleChargeRefunded(charge: Stripe.Charge) {
+  if (!charge.payment_intent) {
+    return;
+  }
+
   await supabaseAdmin
-    .from('subscriptions')
-    .update({ status: 'canceled' })
-    .eq('stripe_subscription_id', subscription.id);
-
-  const { data: sub } = await supabaseAdmin
-    .from('subscriptions')
-    .select('user_id')
-    .eq('stripe_subscription_id', subscription.id)
-    .single();
-
-  if (sub) {
-    await supabaseAdmin.from('activity_logs').insert({
-      user_id: sub.user_id,
-      action: 'subscription_canceled',
-      metadata: { subscription_id: subscription.id },
-    });
-  }
-}
-
-async function handlePaymentSucceeded(invoice: Stripe.Invoice) {
-  const { data: subscription } = await supabaseAdmin
-    .from('subscriptions')
-    .select('user_id')
-    .eq('stripe_subscription_id', (invoice as any).subscription as string)
-    .single();
-
-  if (subscription) {
-    await supabaseAdmin.from('payments').insert({
-      user_id: subscription.user_id,
-      stripe_payment_id: (invoice as any).payment_intent as string,
-      amount: invoice.amount_paid,
-      currency: invoice.currency,
-      status: 'succeeded',
-    });
-
-    await supabaseAdmin.from('activity_logs').insert({
-      user_id: subscription.user_id,
-      action: 'payment_succeeded',
-      metadata: {
-        invoice_id: invoice.id,
-        amount: invoice.amount_paid,
-      },
-    });
-  }
-}
-
-async function handlePaymentFailed(invoice: Stripe.Invoice) {
-  const { data: subscription } = await supabaseAdmin
-    .from('subscriptions')
-    .select('user_id')
-    .eq('stripe_subscription_id', (invoice as any).subscription as string)
-    .single();
-
-  if (subscription) {
-    await supabaseAdmin.from('activity_logs').insert({
-      user_id: subscription.user_id,
-      action: 'payment_failed',
-      metadata: {
-        invoice_id: invoice.id,
-        amount: invoice.amount_due,
-      },
-    });
-  }
+    .from('invoice_payments')
+    .update({ status: 'refunded' })
+    .eq('stripe_payment_intent_id', String(charge.payment_intent));
 }

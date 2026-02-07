@@ -1,124 +1,158 @@
--- Create profiles table
-CREATE TABLE IF NOT EXISTS profiles (
-  id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
-  email TEXT NOT NULL UNIQUE,
-  full_name TEXT,
-  avatar_url TEXT,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+create extension if not exists "pgcrypto";
+
+create table if not exists public.profiles (
+  id uuid primary key references auth.users(id) on delete cascade,
+  email text not null unique,
+  full_name text,
+  avatar_url text,
+  stripe_customer_id text,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
 );
 
--- Create subscriptions table
-CREATE TABLE IF NOT EXISTS subscriptions (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_id UUID NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,
-  stripe_customer_id TEXT NOT NULL,
-  stripe_subscription_id TEXT NOT NULL UNIQUE,
-  status TEXT NOT NULL,
-  plan_id TEXT NOT NULL,
-  interval TEXT NOT NULL,
-  amount INTEGER NOT NULL,
-  current_period_start TIMESTAMP WITH TIME ZONE NOT NULL,
-  current_period_end TIMESTAMP WITH TIME ZONE NOT NULL,
-  cancel_at_period_end BOOLEAN DEFAULT FALSE,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+create table if not exists public.clients (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references public.profiles(id) on delete cascade,
+  name text not null,
+  email text,
+  company text,
+  address text,
+  notes text,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
 );
 
--- Create payments table
-CREATE TABLE IF NOT EXISTS payments (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_id UUID NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,
-  stripe_payment_id TEXT NOT NULL UNIQUE,
-  amount INTEGER NOT NULL,
-  currency TEXT NOT NULL DEFAULT 'usd',
-  status TEXT NOT NULL,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+create table if not exists public.invoices (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references public.profiles(id) on delete cascade,
+  client_id uuid not null references public.clients(id) on delete cascade,
+  invoice_number text not null,
+  issue_date date not null,
+  due_date date not null,
+  amount_cents integer not null check (amount_cents > 0),
+  currency text not null default 'usd',
+  status text not null default 'draft' check (status in ('draft', 'sent', 'paid', 'overdue')),
+  notes text,
+  stripe_checkout_session_id text,
+  paid_at timestamptz,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  unique(user_id, invoice_number)
 );
 
--- Create activity_logs table
-CREATE TABLE IF NOT EXISTS activity_logs (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_id UUID REFERENCES profiles(id) ON DELETE CASCADE,
-  action TEXT NOT NULL,
-  metadata JSONB,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+create table if not exists public.invoice_payments (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references public.profiles(id) on delete cascade,
+  invoice_id uuid not null references public.invoices(id) on delete cascade,
+  stripe_payment_intent_id text,
+  stripe_checkout_session_id text,
+  amount_cents integer not null check (amount_cents >= 0),
+  currency text not null default 'usd',
+  status text not null check (status in ('succeeded', 'failed', 'refunded')),
+  created_at timestamptz not null default now()
 );
 
--- Enable Row Level Security
-ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;
-ALTER TABLE subscriptions ENABLE ROW LEVEL SECURITY;
-ALTER TABLE payments ENABLE ROW LEVEL SECURITY;
-ALTER TABLE activity_logs ENABLE ROW LEVEL SECURITY;
+create table if not exists public.email_events (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references public.profiles(id) on delete cascade,
+  invoice_id uuid not null references public.invoices(id) on delete cascade,
+  email_to text not null,
+  subject text not null,
+  resend_id text,
+  created_at timestamptz not null default now()
+);
 
--- Profiles policies
-CREATE POLICY "Users can view own profile"
-  ON profiles FOR SELECT
-  USING (auth.uid() = id);
+create table if not exists public.webhook_events (
+  id uuid primary key default gen_random_uuid(),
+  stripe_event_id text not null unique,
+  type text not null,
+  processed_at timestamptz not null default now()
+);
 
-CREATE POLICY "Users can update own profile"
-  ON profiles FOR UPDATE
-  USING (auth.uid() = id);
+create index if not exists idx_clients_user_id on public.clients(user_id);
+create index if not exists idx_invoices_user_id on public.invoices(user_id);
+create index if not exists idx_invoices_client_id on public.invoices(client_id);
+create index if not exists idx_invoice_payments_user_id on public.invoice_payments(user_id);
+create index if not exists idx_invoice_payments_invoice_id on public.invoice_payments(invoice_id);
+create index if not exists idx_email_events_user_id on public.email_events(user_id);
 
--- Subscriptions policies
-CREATE POLICY "Users can view own subscriptions"
-  ON subscriptions FOR SELECT
-  USING (auth.uid() = user_id);
+alter table public.profiles enable row level security;
+alter table public.clients enable row level security;
+alter table public.invoices enable row level security;
+alter table public.invoice_payments enable row level security;
+alter table public.email_events enable row level security;
+alter table public.webhook_events enable row level security;
 
--- Payments policies
-CREATE POLICY "Users can view own payments"
-  ON payments FOR SELECT
-  USING (auth.uid() = user_id);
+create policy "Users read own profile"
+  on public.profiles for select
+  using (auth.uid() = id);
 
--- Activity logs policies
-CREATE POLICY "Users can view own activity"
-  ON activity_logs FOR SELECT
-  USING (auth.uid() = user_id);
+create policy "Users update own profile"
+  on public.profiles for update
+  using (auth.uid() = id);
 
--- Create indexes
-CREATE INDEX idx_subscriptions_user_id ON subscriptions(user_id);
-CREATE INDEX idx_subscriptions_stripe_subscription_id ON subscriptions(stripe_subscription_id);
-CREATE INDEX idx_payments_user_id ON payments(user_id);
-CREATE INDEX idx_activity_logs_user_id ON activity_logs(user_id);
-CREATE INDEX idx_activity_logs_created_at ON activity_logs(created_at DESC);
+create policy "Users manage own clients"
+  on public.clients for all
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
 
--- Create function to update updated_at timestamp
-CREATE OR REPLACE FUNCTION update_updated_at_column()
-RETURNS TRIGGER AS $$
-BEGIN
-  NEW.updated_at = NOW();
-  RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
+create policy "Users manage own invoices"
+  on public.invoices for all
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
 
--- Create triggers for updated_at
-CREATE TRIGGER update_profiles_updated_at
-  BEFORE UPDATE ON profiles
-  FOR EACH ROW
-  EXECUTE FUNCTION update_updated_at_column();
+create policy "Users read own invoice payments"
+  on public.invoice_payments for select
+  using (auth.uid() = user_id);
 
-CREATE TRIGGER update_subscriptions_updated_at
-  BEFORE UPDATE ON subscriptions
-  FOR EACH ROW
-  EXECUTE FUNCTION update_updated_at_column();
+create policy "Users read own email events"
+  on public.email_events for select
+  using (auth.uid() = user_id);
 
--- Create function to handle new user signup
-CREATE OR REPLACE FUNCTION public.handle_new_user()
-RETURNS TRIGGER AS $$
-BEGIN
-  INSERT INTO public.profiles (id, email, full_name, avatar_url)
-  VALUES (
-    NEW.id,
-    NEW.email,
-    NEW.raw_user_meta_data->>'full_name',
-    NEW.raw_user_meta_data->>'avatar_url'
-  );
-  RETURN NEW;
-END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+create policy "Webhook events restricted"
+  on public.webhook_events for select
+  using (false);
 
--- Create trigger for new user signup
-CREATE TRIGGER on_auth_user_created
-  AFTER INSERT ON auth.users
-  FOR EACH ROW
-  EXECUTE FUNCTION public.handle_new_user();
+create or replace function public.update_updated_at_column()
+returns trigger as $$
+begin
+  new.updated_at = now();
+  return new;
+end;
+$$ language plpgsql;
+
+create trigger profiles_updated_at
+  before update on public.profiles
+  for each row
+  execute function public.update_updated_at_column();
+
+create trigger clients_updated_at
+  before update on public.clients
+  for each row
+  execute function public.update_updated_at_column();
+
+create trigger invoices_updated_at
+  before update on public.invoices
+  for each row
+  execute function public.update_updated_at_column();
+
+create or replace function public.handle_new_user()
+returns trigger as $$
+begin
+  insert into public.profiles (id, email, full_name, avatar_url)
+  values (
+    new.id,
+    new.email,
+    new.raw_user_meta_data->>'full_name',
+    new.raw_user_meta_data->>'avatar_url'
+  )
+  on conflict (id) do nothing;
+  return new;
+end;
+$$ language plpgsql security definer;
+
+drop trigger if exists on_auth_user_created on auth.users;
+create trigger on_auth_user_created
+  after insert on auth.users
+  for each row
+  execute function public.handle_new_user();

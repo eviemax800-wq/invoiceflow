@@ -5,35 +5,38 @@ import Button from '@/components/ui/Button';
 import Card, { CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { toast } from '@/components/ui/Toast';
 import { formatCurrency } from '@/lib/utils';
+import Link from 'next/link';
 
 const plans = [
   {
-    id: 'monthly',
-    name: 'Monthly',
-    price: 2900,
+    id: 'free',
+    name: 'Free',
+    price: 0,
     interval: 'month',
-    priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_MONTHLY!,
     features: [
-      'Full access to all features',
-      'Priority support',
-      'Monthly updates',
-      'Cancel anytime',
+      '10 invoices per month',
+      'Gmail sync',
+      'CSV export',
+      'Email support',
     ],
+    cta: 'Start Free',
+    href: '/signup',
   },
   {
-    id: 'yearly',
-    name: 'Yearly',
-    price: 29900,
-    interval: 'year',
-    priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_YEARLY!,
+    id: 'pro',
+    name: 'Pro',
+    price: 2900,
+    interval: 'month',
+    priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_PRO!,
     features: [
-      'Full access to all features',
+      'Unlimited invoices',
+      'Priority Gmail sync',
+      'Advanced categorization',
+      'QuickBooks-ready export',
       'Priority support',
-      'Monthly updates',
-      '2 months free',
-      'Cancel anytime',
     ],
     popular: true,
+    cta: 'Go Pro',
   },
 ];
 
@@ -65,10 +68,10 @@ export default function PricingCards() {
   return (
     <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
       {plans.map((plan) => (
-        <Card key={plan.id} className={plan.popular ? 'border-blue-500/50' : ''}>
+        <Card key={plan.id} className={plan.popular ? 'border-teal-400/60' : ''}>
           {plan.popular && (
             <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+              <span className="bg-gradient-to-r from-teal-400 to-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                 MOST POPULAR
               </span>
             </div>
@@ -84,23 +87,31 @@ export default function PricingCards() {
           </CardHeader>
           <CardContent>
             <ul className="space-y-3 mb-6">
-              {plan.features.map((feature, i) => (
-                <li key={i} className="flex items-start gap-3 text-gray-300">
-                  <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              {plan.features.map((feature) => (
+                <li key={feature} className="flex items-start gap-3 text-gray-300">
+                  <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   {feature}
                 </li>
               ))}
             </ul>
-            <Button
-              variant={plan.popular ? 'primary' : 'secondary'}
-              className="w-full"
-              onClick={() => handleSubscribe(plan.priceId, plan.id)}
-              isLoading={loading === plan.id}
-            >
-              Subscribe
-            </Button>
+            {plan.id === 'free' ? (
+              <Link href={plan.href!}>
+                <Button variant="secondary" className="w-full">
+                  {plan.cta}
+                </Button>
+              </Link>
+            ) : (
+              <Button
+                variant="primary"
+                className="w-full"
+                onClick={() => handleSubscribe(plan.priceId!, plan.id)}
+                isLoading={loading === plan.id}
+              >
+                {plan.cta}
+              </Button>
+            )}
           </CardContent>
         </Card>
       ))}
