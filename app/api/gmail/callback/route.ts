@@ -34,7 +34,7 @@ export async function GET(request: Request) {
           refresh_token: refreshToken,
           scope: tokens.scope || null,
           expiry: tokens.expiry_date ? new Date(tokens.expiry_date).toISOString() : null,
-        },
+        } as any,
         { onConflict: 'user_id' }
       );
 
