@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Button from '@/components/ui/Button';
 
+export const dynamic = 'force-dynamic';
 export default function HomePage() {
   return (
     <div className="min-h-screen page-bg">

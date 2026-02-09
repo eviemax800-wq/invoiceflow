@@ -4,6 +4,7 @@ import SignUpForm from '@/components/auth/SignUpForm';
 import Card from '@/components/ui/Card';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
 export default function SignUpPage() {
   return (
     <div className="min-h-screen page-bg flex items-center justify-center p-4">

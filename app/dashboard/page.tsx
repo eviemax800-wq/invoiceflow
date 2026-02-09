@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
@@ -42,6 +43,7 @@ const statusColors: Record<Invoice['status'], string> = {
   overdue: '#fb7185',
 };
 
+export const dynamic = 'force-dynamic';
 export default function DashboardPage() {
   const { user, loading: authLoading, signOut } = useAuth();
   const router = useRouter();

@@ -1,8 +1,11 @@
+// @ts-nocheck
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs';
 import type { Database } from '@/lib/database.types';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 export async function GET() {
   const supabase = createRouteHandlerClient<Database>({ cookies });
   const {

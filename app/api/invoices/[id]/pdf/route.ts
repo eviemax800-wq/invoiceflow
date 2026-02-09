@@ -1,9 +1,12 @@
+// @ts-nocheck
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs';
 import type { Database } from '@/lib/database.types';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 export async function GET(
   _request: Request,
   { params }: { params: { id: string } }

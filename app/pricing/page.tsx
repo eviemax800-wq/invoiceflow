@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Button from '@/components/ui/Button';
 import PricingCards from '@/components/pricing/PricingCards';
 
+export const dynamic = 'force-dynamic';
 export default function PricingPage() {
   return (
     <div className="min-h-screen page-bg">

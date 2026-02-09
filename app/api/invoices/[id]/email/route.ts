@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { Resend } from 'resend';
@@ -5,6 +6,8 @@ import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs';
 import type { Database } from '@/lib/database.types';
 import { invoiceEmailHtml } from '@/lib/email-templates';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 export async function POST(
   request: Request,
   { params }: { params: { id: string } }

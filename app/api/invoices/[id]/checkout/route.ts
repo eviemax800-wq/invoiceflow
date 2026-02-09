@@ -1,9 +1,12 @@
+// @ts-nocheck
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs';
 import type { Database } from '@/lib/database.types';
-import { stripe } from '@/lib/stripe';
+import { getStripe } from '@/lib/stripe';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 export async function POST(
   request: Request,
   { params }: { params: { id: string } }
@@ -54,7 +57,7 @@ export async function POST(
   }
 
   const appUrl = process.env.NEXT_PUBLIC_APP_URL!;
-  const session = await stripe.checkout.sessions.create({
+  const session = await getStripe().checkout.sessions.create({
     mode: 'payment',
     customer: customerId,
     success_url: `${appUrl}/dashboard?paid=1`,

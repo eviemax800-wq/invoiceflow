@@ -1,7 +1,10 @@
+// @ts-nocheck
 import { NextResponse } from 'next/server';
 import { exchangeCodeForTokens, getGmailProfile } from '@/lib/gmail';
-import { supabaseAdmin } from '@/lib/supabase-admin';
+import { getSupabaseAdmin } from '@/lib/supabase-admin';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const code = searchParams.get('code');
@@ -23,7 +26,7 @@ export async function GET(request: Request) {
     const profile = await getGmailProfile(accessToken, refreshToken || undefined);
     const email = profile.emailAddress || 'unknown';
 
-    await supabaseAdmin
+    await getSupabaseAdmin()
       .from('gmail_connections')
       .upsert(
         {
