@@ -31,11 +31,8 @@ export async function POST() {
     .eq('user_id', user.id)
     .single();
 
-  if (!connection) {
+  if (!connection || !connection.access_token) {
     return NextResponse.json({ error: 'Gmail not connected' }, { status: 400 });
-  }
-  if (!connection.access_token) {
-    return NextResponse.json({ error: 'Missing Gmail access token' }, { status: 400 });
   }
 
   try {
