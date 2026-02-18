@@ -16,8 +16,24 @@ const ibmPlex = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "InvoiceFlow - Auto-Organize Invoices",
-  description: "AI-powered Gmail invoice extraction, categorization, and export for SMBs.",
+  metadataBase: new URL("https://invoiceflow-v1.vercel.app"),
+  title: "InvoiceFlow — AI-Powered Invoice Management",
+  description: "Auto-extract invoices from Gmail, categorize with AI, and export to CSV/PDF. Built for freelancers and small businesses.",
+  openGraph: {
+    title: "InvoiceFlow — AI-Powered Invoice Management",
+    description: "Auto-extract invoices from Gmail, categorize with AI, and export to CSV/PDF. Built for freelancers and small businesses.",
+    siteName: "InvoiceFlow",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "InvoiceFlow — AI-Powered Invoice Management",
+    description: "Auto-extract invoices from Gmail, categorize with AI, and export to CSV/PDF.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
