@@ -15,7 +15,7 @@ const plans = [
     price: 0,
     interval: 'month',
     features: [
-      '10 invoices per month',
+      '5 invoices per month',
       'Gmail sync',
       'CSV export',
       'Email support',
@@ -26,7 +26,7 @@ const plans = [
   {
     id: 'pro',
     name: 'Pro',
-    price: 2900,
+    price: 1900,
     interval: 'month',
     priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_PRO!,
     features: [
@@ -38,6 +38,21 @@ const plans = [
     ],
     popular: true,
     cta: 'Go Pro',
+  },
+  {
+    id: 'premium',
+    name: 'Premium',
+    price: 3900,
+    interval: 'month',
+    priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_PREMIUM!,
+    features: [
+      'Everything in Pro',
+      'AI-powered categorization',
+      'Multi-inbox support',
+      'Custom export templates',
+      'Dedicated support',
+    ],
+    cta: 'Go Premium',
   },
 ];
 
@@ -67,7 +82,7 @@ export default function PricingCards() {
   };
 
   return (
-    <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+    <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
       {plans.map((plan) => (
         <Card key={plan.id} className={plan.popular ? 'border-teal-400/60' : ''}>
           {plan.popular && (

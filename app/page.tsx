@@ -47,8 +47,8 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="flex gap-6 text-sm text-slate-400">
-              <div>✅ Free tier: 10 invoices/mo</div>
-              <div>✅ Pro: $29/mo unlimited</div>
+              <div>✅ Free tier: 5 invoices/mo</div>
+              <div>✅ Pro: $19/mo unlimited</div>
             </div>
           </div>
 
@@ -131,6 +131,8 @@ export default function HomePage() {
           <span>© 2026 InvoiceFlow. All rights reserved.</span>
           <div className="flex gap-6 mt-4 md:mt-0">
             <Link href="/pricing" className="hover:text-white">Pricing</Link>
+            <Link href="/privacy" className="hover:text-white">Privacy</Link>
+            <Link href="/terms" className="hover:text-white">Terms</Link>
             <Link href="/login" className="hover:text-white">Login</Link>
           </div>
         </div>
@@ -174,7 +176,7 @@ const features = [
   {
     icon: '💳',
     title: 'Simple pricing',
-    description: 'Free tier for 10 invoices/month. Pro is $29/month unlimited.',
+    description: 'Free tier for 5 invoices/month. Pro is $19/month unlimited.',
   },
 ];
 
