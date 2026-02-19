@@ -37,7 +37,21 @@ export async function POST(request: Request) {
     switch (event.type) {
       case 'checkout.session.completed': {
         const session = event.data.object as Stripe.Checkout.Session;
-        await handleCheckoutCompleted(session);
+        if (session.mode === 'subscription') {
+          await handleSubscriptionCheckout(session);
+        } else {
+          await handleCheckoutCompleted(session);
+        }
+        break;
+      }
+      case 'customer.subscription.updated': {
+        const subscription = event.data.object as Stripe.Subscription;
+        await handleSubscriptionUpdated(subscription);
+        break;
+      }
+      case 'customer.subscription.deleted': {
+        const subscription = event.data.object as Stripe.Subscription;
+        await handleSubscriptionDeleted(subscription);
         break;
       }
       case 'payment_intent.payment_failed': {
@@ -64,6 +78,70 @@ export async function POST(request: Request) {
     const message = error instanceof Error ? error.message : 'Unknown webhook failure';
     return NextResponse.json({ error: message }, { status: 500 });
   }
+}
+
+async function handleSubscriptionCheckout(session: Stripe.Checkout.Session) {
+  const userId = session.metadata?.userId;
+  if (!userId) return;
+
+  const subscriptionId = typeof session.subscription === 'string'
+    ? session.subscription
+    : session.subscription?.id;
+  const customerId = typeof session.customer === 'string'
+    ? session.customer
+    : session.customer?.id;
+
+  if (!subscriptionId || !customerId) return;
+
+  const subscription = await getStripe().subscriptions.retrieve(subscriptionId);
+  const priceId = subscription.items.data[0]?.price.id ?? '';
+  const proPriceId = process.env.NEXT_PUBLIC_STRIPE_PRICE_PRO ?? '';
+  const plan = priceId === proPriceId ? 'pro' : 'premium';
+
+  await getSupabaseAdmin().from('subscriptions').upsert({
+    user_id: userId,
+    stripe_customer_id: customerId,
+    stripe_subscription_id: subscriptionId,
+    stripe_price_id: priceId,
+    plan,
+    status: subscription.status === 'active' ? 'active' : 'incomplete',
+    current_period_start: new Date(subscription.current_period_start * 1000).toISOString(),
+    current_period_end: new Date(subscription.current_period_end * 1000).toISOString(),
+    cancel_at_period_end: subscription.cancel_at_period_end,
+  }, { onConflict: 'user_id' });
+
+  await getSupabaseAdmin()
+    .from('profiles')
+    .update({ stripe_customer_id: customerId })
+    .eq('id', userId);
+}
+
+async function handleSubscriptionUpdated(subscription: Stripe.Subscription) {
+  const priceId = subscription.items.data[0]?.price.id ?? '';
+  const proPriceId = process.env.NEXT_PUBLIC_STRIPE_PRICE_PRO ?? '';
+  const plan = priceId === proPriceId ? 'pro' : 'premium';
+
+  await getSupabaseAdmin()
+    .from('subscriptions')
+    .update({
+      stripe_price_id: priceId,
+      plan,
+      status: subscription.status === 'active' ? 'active'
+        : subscription.status === 'past_due' ? 'past_due'
+        : subscription.status === 'canceled' ? 'canceled'
+        : 'incomplete',
+      current_period_start: new Date(subscription.current_period_start * 1000).toISOString(),
+      current_period_end: new Date(subscription.current_period_end * 1000).toISOString(),
+      cancel_at_period_end: subscription.cancel_at_period_end,
+    })
+    .eq('stripe_subscription_id', subscription.id);
+}
+
+async function handleSubscriptionDeleted(subscription: Stripe.Subscription) {
+  await getSupabaseAdmin()
+    .from('subscriptions')
+    .update({ status: 'canceled', cancel_at_period_end: false })
+    .eq('stripe_subscription_id', subscription.id);
 }
 
 async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {

@@ -40,7 +40,7 @@ export async function POST(
   let customerId = profile?.stripe_customer_id;
 
   if (!customerId) {
-    const customer = await stripe.customers.create({
+    const customer = await getStripe().customers.create({
       email: user.email,
       metadata: { userId: user.id },
     });
@@ -56,7 +56,10 @@ export async function POST(
     }
   }
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL!;
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL;
+  if (!appUrl) {
+    return NextResponse.json({ error: 'App URL not configured' }, { status: 500 });
+  }
   const session = await getStripe().checkout.sessions.create({
     mode: 'payment',
     customer: customerId,

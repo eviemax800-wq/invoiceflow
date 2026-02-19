@@ -28,7 +28,7 @@ const plans = [
     name: 'Pro',
     price: 1900,
     interval: 'month',
-    priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_PRO!,
+    priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_PRO || '',
     features: [
       'Unlimited invoices',
       'Priority Gmail sync',
@@ -44,7 +44,7 @@ const plans = [
     name: 'Premium',
     price: 3900,
     interval: 'month',
-    priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_PREMIUM!,
+    priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_PREMIUM || '',
     features: [
       'Everything in Pro',
       'AI-powered categorization',
@@ -60,6 +60,10 @@ export default function PricingCards() {
   const [loading, setLoading] = useState<string | null>(null);
 
   const handleSubscribe = async (priceId: string, planId: string) => {
+    if (!priceId) {
+      toast.error('Pricing not configured yet. Please try again later.');
+      return;
+    }
     setLoading(planId);
     try {
       const response = await fetch('/api/create-checkout', {

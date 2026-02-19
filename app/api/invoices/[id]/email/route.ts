@@ -47,7 +47,7 @@ export async function POST(
   }
 
   const resend = new Resend(resendApiKey);
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL!;
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://invoiceflow.app';
 
   const email = await resend.emails.send({
     from: fromEmail,
