@@ -3,11 +3,11 @@ import Button from '@/components/ui/Button';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'InvoiceFlow vs QuickBooks, Xero, FreshBooks & More | Compare',
-  description: 'See how InvoiceFlow compares to QuickBooks, Xero, FreshBooks, Wave, Bonsai, and HoneyBook. Free tier, AI-powered, no hidden fees.',
+  title: 'InvoiceFlow vs QuickBooks, Xero, MYOB, FreshBooks & More | Compare',
+  description: 'See how InvoiceFlow compares to QuickBooks, Xero, MYOB, FreshBooks, Wave, Bonsai, and HoneyBook. Free tier, AI-powered, no hidden fees.',
   openGraph: {
-    title: 'InvoiceFlow vs The Big 6 — Honest Comparison',
-    description: 'Free tier, AI-powered invoice management. See how InvoiceFlow stacks up against QuickBooks, Xero, FreshBooks, Wave, Bonsai, and HoneyBook.',
+    title: 'InvoiceFlow vs The Big 7 — Honest Comparison',
+    description: 'Free tier, AI-powered invoice management. See how InvoiceFlow stacks up against QuickBooks, Xero, MYOB, FreshBooks, Wave, Bonsai, and HoneyBook.',
   },
 };
 
@@ -33,6 +33,17 @@ const competitors = [
     hiddenFees: 'API pricing backlash',
     painPoint: 'Entry plan +169% since 2021. Ignite $35/mo caps at 20 invoices — forces $75/mo for unlimited. JAX AI is accounting-focused, not invoicing.',
     slug: 'xero',
+  },
+  {
+    name: 'MYOB',
+    minPrice: '$34/mo',
+    freeInvoices: '0',
+    trustpilot: '2.1/5',
+    trustpilotColor: 'text-red-400',
+    aiFeatures: 'None',
+    hiddenFees: 'Payroll unbundled (+$2/emp/mo)',
+    painPoint: 'Taken private by KKR for A$2B. Business Lite $34/mo minimum for basic invoicing. Price increase Mar 2026 confirmed. Support rated "Poor" on Trustpilot.',
+    slug: 'myob',
   },
   {
     name: 'FreshBooks',
@@ -118,7 +129,7 @@ export default function ComparePage() {
             Based on real user reviews and public pricing data
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4 heading-font">
-            InvoiceFlow vs <span className="gradient-text">The Big 6</span>
+            InvoiceFlow vs <span className="gradient-text">The Big 7</span>
           </h2>
           <p className="text-lg text-slate-300 max-w-2xl mx-auto">
             Tired of overpriced invoicing tools that keep raising prices? InvoiceFlow gives you
@@ -196,7 +207,7 @@ export default function ComparePage() {
                 <td className="py-3 px-4 text-emerald-400 bg-teal-500/5">GST + ABN</td>
                 {competitors.map((c) => (
                   <td key={c.name} className="py-3 px-4 text-slate-400">
-                    {c.name === 'Xero' ? 'Yes' : c.name === 'HoneyBook' ? 'US/CA only' : 'Limited'}
+                    {c.name === 'Xero' || c.name === 'MYOB' ? 'Yes' : c.name === 'HoneyBook' ? 'US/CA only' : 'Limited'}
                   </td>
                 ))}
               </tr>
@@ -205,7 +216,7 @@ export default function ComparePage() {
                 <td className="py-3 px-4 text-white font-semibold bg-teal-500/5 rounded-b-xl">Invoicing only</td>
                 {competitors.map((c) => (
                   <td key={c.name} className="py-3 px-4 text-slate-400">
-                    {c.name === 'QuickBooks' || c.name === 'Xero' || c.name === 'Wave' ? 'Full accounting' :
+                    {c.name === 'QuickBooks' || c.name === 'Xero' || c.name === 'Wave' || c.name === 'MYOB' ? 'Full accounting' :
                      c.name === 'HoneyBook' ? 'CRM + invoicing' : 'All-in-one'}
                   </td>
                 ))}
