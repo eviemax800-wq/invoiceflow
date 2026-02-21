@@ -131,6 +131,7 @@ export default function HomePage() {
           <span>© 2026 InvoiceFlow. All rights reserved.</span>
           <div className="flex gap-6 mt-4 md:mt-0">
             <Link href="/pricing" className="hover:text-white">Pricing</Link>
+            <Link href="/tools" className="hover:text-white">Free Tools</Link>
             <Link href="/compare" className="hover:text-white">Compare</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
