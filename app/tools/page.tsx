@@ -38,12 +38,11 @@ const tools = [
   {
     title: 'ABN Lookup',
     description:
-      'Verify any Australian Business Number instantly. Check GST registration status and business details.',
+      'Verify any Australian Business Number instantly. Check validity, entity type, and link to full ABR details.',
     href: '/tools/abn-lookup',
     icon: '\u{1F50D}',
     color: 'from-purple-400 to-pink-500',
-    badge: 'Coming soon',
-    comingSoon: true,
+    badge: 'New',
   },
   {
     title: 'Freelance Rate Calculator',
@@ -99,56 +98,32 @@ export default function ToolsPage() {
 
         <div className="grid sm:grid-cols-2 gap-6">
           {tools.map((tool) => (
-            <div key={tool.title} className="relative">
-              {tool.comingSoon ? (
-                <div className="glass rounded-2xl p-6 opacity-60 cursor-not-allowed h-full">
-                  <div className="flex items-start gap-4">
-                    <div
-                      className={`h-12 w-12 rounded-xl bg-gradient-to-br ${tool.color} flex items-center justify-center text-white text-xl font-bold shrink-0`}
-                    >
-                      {tool.icon}
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <h3 className="text-lg font-bold text-white heading-font">
-                          {tool.title}
-                        </h3>
-                        <span className="text-xs px-2 py-0.5 rounded-full bg-white/10 text-slate-400">
-                          {tool.badge}
-                        </span>
-                      </div>
-                      <p className="text-sm text-slate-400 mt-2">{tool.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ) : (
-                <Link
-                  href={tool.href}
-                  className="block glass rounded-2xl p-6 hover:bg-white/[0.08] hover:border-teal-500/30 border border-transparent transition-all h-full group"
+            <Link
+              key={tool.title}
+              href={tool.href}
+              className="block glass rounded-2xl p-6 hover:bg-white/[0.08] hover:border-teal-500/30 border border-transparent transition-all h-full group"
+            >
+              <div className="flex items-start gap-4">
+                <div
+                  className={`h-12 w-12 rounded-xl bg-gradient-to-br ${tool.color} flex items-center justify-center text-white text-xl font-bold shrink-0 group-hover:scale-110 transition-transform`}
                 >
-                  <div className="flex items-start gap-4">
-                    <div
-                      className={`h-12 w-12 rounded-xl bg-gradient-to-br ${tool.color} flex items-center justify-center text-white text-xl font-bold shrink-0 group-hover:scale-110 transition-transform`}
-                    >
-                      {tool.icon}
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <h3 className="text-lg font-bold text-white heading-font">
-                          {tool.title}
-                        </h3>
-                        {tool.badge && !tool.comingSoon && (
-                          <span className="text-xs px-2 py-0.5 rounded-full bg-teal-500/20 text-teal-400">
-                            {tool.badge}
-                          </span>
-                        )}
-                      </div>
-                      <p className="text-sm text-slate-400 mt-2">{tool.description}</p>
-                    </div>
+                  {tool.icon}
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-lg font-bold text-white heading-font">
+                      {tool.title}
+                    </h3>
+                    {tool.badge && (
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-teal-500/20 text-teal-400">
+                        {tool.badge}
+                      </span>
+                    )}
                   </div>
-                </Link>
-              )}
-            </div>
+                  <p className="text-sm text-slate-400 mt-2">{tool.description}</p>
+                </div>
+              </div>
+            </Link>
           ))}
         </div>
 
