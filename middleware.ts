@@ -1,7 +1,36 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
+// Rate limiter for API routes (per IP, 15 req/min)
+const rateLimitMap = new Map<string, { count: number; resetTime: number }>()
+const RATE_LIMIT_WINDOW = 60_000
+const RATE_LIMIT_MAX = 15
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now()
+  const entry = rateLimitMap.get(ip)
+  if (!entry || now > entry.resetTime) {
+    rateLimitMap.set(ip, { count: 1, resetTime: now + RATE_LIMIT_WINDOW })
+    return false
+  }
+  entry.count++
+  return entry.count > RATE_LIMIT_MAX
+}
+
 export function middleware(request: NextRequest) {
+  // Rate limit API routes (webhooks excluded via matcher)
+  if (request.nextUrl.pathname.startsWith('/api/')) {
+    const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
+      || request.headers.get('x-real-ip')
+      || 'unknown'
+    if (isRateLimited(ip)) {
+      return NextResponse.json(
+        { error: 'Too many requests. Please try again later.' },
+        { status: 429 }
+      )
+    }
+  }
+
   // Create response
   const response = NextResponse.next()
 
