@@ -16,7 +16,7 @@ const ibmPlex = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://invoiceflow-v1.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "https://invoiceflow-teal.vercel.app"),
   title: "InvoiceFlow — AI-Powered Invoice Management",
   description: "Auto-extract invoices from Gmail, categorize with AI, and export to CSV/PDF. Built for freelancers and small businesses.",
   openGraph: {
