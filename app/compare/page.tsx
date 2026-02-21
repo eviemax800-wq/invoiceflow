@@ -3,11 +3,11 @@ import Button from '@/components/ui/Button';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'InvoiceFlow vs QuickBooks, Xero, MYOB, FreshBooks & More | Compare',
-  description: 'See how InvoiceFlow compares to QuickBooks, Xero, MYOB, FreshBooks, Wave, Bonsai, and HoneyBook. Free tier, AI-powered, no hidden fees.',
+  title: 'InvoiceFlow vs QuickBooks, Xero, MYOB, Zoho & More | Compare',
+  description: 'See how InvoiceFlow compares to QuickBooks, Xero, MYOB, Zoho, FreshBooks, Wave, Bonsai, and HoneyBook. Free tier, AI-powered, no hidden fees.',
   openGraph: {
-    title: 'InvoiceFlow vs The Big 7 — Honest Comparison',
-    description: 'Free tier, AI-powered invoice management. See how InvoiceFlow stacks up against QuickBooks, Xero, MYOB, FreshBooks, Wave, Bonsai, and HoneyBook.',
+    title: 'InvoiceFlow vs The Big 8 — Honest Comparison',
+    description: 'Free tier, AI-powered invoice management. See how InvoiceFlow stacks up against QuickBooks, Xero, MYOB, Zoho, FreshBooks, Wave, Bonsai, and HoneyBook.',
   },
 };
 
@@ -79,6 +79,17 @@ const competitors = [
     slug: 'bonsai',
   },
   {
+    name: 'Zoho Invoice',
+    minPrice: 'Free',
+    freeInvoices: '500/yr cap',
+    trustpilot: '4.0/5',
+    trustpilotColor: 'text-green-400',
+    aiFeatures: 'None (Zia in Books only)',
+    hiddenFees: 'Forced migration to Zoho Books',
+    painPoint: 'Free but capped at 500 invoices/year. Outgrow it and you\'re pushed to Zoho Books — a different product. No AI. Auth issues. Limited integrations.',
+    slug: 'zoho',
+  },
+  {
     name: 'HoneyBook',
     minPrice: '$36/mo',
     freeInvoices: '0',
@@ -129,7 +140,7 @@ export default function ComparePage() {
             Based on real user reviews and public pricing data
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4 heading-font">
-            InvoiceFlow vs <span className="gradient-text">The Big 7</span>
+            InvoiceFlow vs <span className="gradient-text">The Big 8</span>
           </h2>
           <p className="text-lg text-slate-300 max-w-2xl mx-auto">
             Tired of overpriced invoicing tools that keep raising prices? InvoiceFlow gives you
@@ -207,7 +218,7 @@ export default function ComparePage() {
                 <td className="py-3 px-4 text-emerald-400 bg-teal-500/5">GST + ABN</td>
                 {competitors.map((c) => (
                   <td key={c.name} className="py-3 px-4 text-slate-400">
-                    {c.name === 'Xero' || c.name === 'MYOB' ? 'Yes' : c.name === 'HoneyBook' ? 'US/CA only' : 'Limited'}
+                    {c.name === 'Xero' || c.name === 'MYOB' ? 'Yes' : c.name === 'HoneyBook' ? 'US/CA only' : c.name === 'Zoho Invoice' ? 'Basic GST' : 'Limited'}
                   </td>
                 ))}
               </tr>
@@ -217,7 +228,7 @@ export default function ComparePage() {
                 {competitors.map((c) => (
                   <td key={c.name} className="py-3 px-4 text-slate-400">
                     {c.name === 'QuickBooks' || c.name === 'Xero' || c.name === 'Wave' || c.name === 'MYOB' ? 'Full accounting' :
-                     c.name === 'HoneyBook' ? 'CRM + invoicing' : 'All-in-one'}
+                     c.name === 'HoneyBook' ? 'CRM + invoicing' : c.name === 'Zoho Invoice' ? 'Ecosystem upsell' : 'All-in-one'}
                   </td>
                 ))}
               </tr>

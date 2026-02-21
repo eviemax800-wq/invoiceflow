@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://invoiceflow-teal.vercel.app';
 
-  const competitors = ['quickbooks', 'xero', 'myob', 'freshbooks', 'wave', 'bonsai', 'honeybook'];
+  const competitors = ['quickbooks', 'xero', 'myob', 'zoho', 'freshbooks', 'wave', 'bonsai', 'honeybook'];
 
   return [
     { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
