@@ -33,8 +33,7 @@ const tools = [
     href: '/tools/invoice-generator',
     icon: '\u{1F4C4}',
     color: 'from-blue-400 to-cyan-500',
-    badge: 'Coming soon',
-    comingSoon: true,
+    badge: 'New',
   },
   {
     title: 'ABN Lookup',
