@@ -48,12 +48,11 @@ const tools = [
   {
     title: 'Freelance Rate Calculator',
     description:
-      'Calculate your ideal hourly rate based on income goals, expenses, and billable hours.',
+      'Calculate your ideal hourly rate based on income goals, expenses, super, tax, and billable hours.',
     href: '/tools/rate-calculator',
     icon: '$',
     color: 'from-amber-400 to-orange-500',
-    badge: 'Coming soon',
-    comingSoon: true,
+    badge: 'New',
   },
 ];
 
