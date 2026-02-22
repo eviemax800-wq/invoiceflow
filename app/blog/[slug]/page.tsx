@@ -2089,6 +2089,607 @@ export const blogPosts: Record<string, BlogPost> = {
       <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> handles the invoicing so you can focus on the work. AI-powered, ATO-compliant, and free to start with up to 5 invoices per month. Create your first invoice in under 60 seconds.</p>
     `,
   },
+  'freelance-contract-australia': {
+    slug: 'freelance-contract-australia',
+    title: 'How to Write a Freelance Contract in Australia (2026)',
+    excerpt: 'A practical guide to freelance contracts in Australia — what to include, legal requirements, and how to protect yourself from scope creep, late payments, and disputes.',
+    category: 'Business',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Write a Freelance Contract in Australia | 2026 Guide',
+    seoDescription: 'Complete guide to freelance contracts in Australia. Learn the essential clauses, payment terms, IP ownership, and how to protect yourself from disputes and late payments.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Working without a contract is like sending an invoice with no amount on it — technically possible, but asking for trouble. In Australia, a good freelance contract protects you legally, sets clear expectations, and makes getting paid dramatically easier.</p>
+
+      <h2>Why Freelancers Need Contracts</h2>
+      <p>Many Australian freelancers skip contracts, especially when starting out. The client seems nice, the project seems straightforward, and writing a contract feels like overkill. Then reality hits:</p>
+      <ul>
+        <li><strong>Scope creep:</strong> "Can you just add this one more thing?" becomes 10 unpaid extras</li>
+        <li><strong>Late payments:</strong> No contractual terms = no legal basis to charge <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment fees</a></li>
+        <li><strong>IP disputes:</strong> Who owns the work? Without a contract, Australian copyright law says you do — but proving it costs more than writing the contract</li>
+        <li><strong>Payment disputes:</strong> "That's not what I asked for" with no written brief to reference</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Rule</h3>
+        <p class="text-slate-300 text-sm">Any project over $500 needs a contract. Period. Under $500? A detailed email confirmation with scope, timeline, and payment terms is the minimum. The 30 minutes you spend writing a contract can save you thousands in disputes.</p>
+      </div>
+
+      <h2>Essential Clauses for Every Freelance Contract</h2>
+
+      <h3>1. Parties and ABN</h3>
+      <p>Identify both parties clearly. Include your <a href="/blog/how-to-register-abn-australia" class="text-teal-400 hover:text-teal-300 underline">ABN</a>, business name, and the client's legal entity name. This matters for tax purposes — without your ABN on the contract, the client may withhold 47% of payments.</p>
+
+      <h3>2. Scope of Work</h3>
+      <p>The most important clause. Be specific about:</p>
+      <ul>
+        <li>Exactly what you'll deliver (list every deliverable)</li>
+        <li>What's explicitly <strong>not</strong> included (prevents scope creep)</li>
+        <li>Number of revision rounds (e.g., "2 rounds of revisions included")</li>
+        <li>Format of deliverables (source files, final formats, etc.)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Scope Creep Killer</h3>
+        <p class="text-slate-300 text-sm">Add this clause: "Any work outside the defined scope will be quoted separately and requires written approval before commencement." This single sentence prevents 90% of scope creep arguments.</p>
+      </div>
+
+      <h3>3. Timeline and Milestones</h3>
+      <p>Include start date, end date, and any milestones. Specify:</p>
+      <ul>
+        <li>Project start date (often tied to receiving the deposit)</li>
+        <li>Key milestones with dates</li>
+        <li>Final delivery date</li>
+        <li>What happens if the client causes delays (e.g., late feedback pushes deadlines)</li>
+      </ul>
+
+      <h3>4. Payment Terms</h3>
+      <p>The clause that matters most for your cash flow. Specify:</p>
+      <ul>
+        <li><strong>Total project fee</strong> (or hourly rate with estimated hours)</li>
+        <li><strong>Deposit amount</strong> (typically 30-50% upfront)</li>
+        <li><strong>Payment schedule</strong> (milestone-based or regular intervals)</li>
+        <li><strong>Payment method</strong> (bank transfer, Stripe, PayPal)</li>
+        <li><strong>Payment terms</strong> (Net 7, Net 14, Net 30 — shorter is better)</li>
+        <li><strong>Late payment fees</strong> (1-2% per month is standard in Australia)</li>
+        <li><strong>GST</strong> — state whether prices include or exclude <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST</a></li>
+      </ul>
+
+      <h3>5. Intellectual Property (IP)</h3>
+      <p>Under Australian copyright law (Copyright Act 1968), the creator owns the copyright by default — even if the client paid for it. This is different from employment, where the employer typically owns work product.</p>
+      <p>Your contract should clearly state:</p>
+      <ul>
+        <li>When IP transfers (usually upon final payment — not before)</li>
+        <li>Whether you retain a licence to use the work in your portfolio</li>
+        <li>What happens to IP if the client doesn't pay</li>
+        <li>Whether you transfer copyright or grant a licence (different things)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">IP Protection</h3>
+        <p class="text-slate-300 text-sm">Best practice: "IP transfers to Client upon receipt of final payment in full. Until final payment, all intellectual property remains with the Freelancer." This ensures you're never in a position where someone has your work but hasn't paid for it.</p>
+      </div>
+
+      <h3>6. Confidentiality</h3>
+      <p>Both parties should agree to keep sensitive information private. For most freelance work, a simple mutual NDA clause is sufficient — you don't need a separate 10-page NDA document.</p>
+
+      <h3>7. Termination</h3>
+      <p>What happens if either party wants to end the project early? Include:</p>
+      <ul>
+        <li>Notice period (7-14 days is standard)</li>
+        <li>Payment for work completed up to termination</li>
+        <li>Kill fee for early termination (typically 25-50% of remaining project value)</li>
+        <li>What happens to deposits (non-refundable after work commences)</li>
+      </ul>
+
+      <h3>8. Dispute Resolution</h3>
+      <p>Specify that disputes will be resolved under Australian law, and include a step process:</p>
+      <ul>
+        <li>Step 1: Direct negotiation between parties (7 days)</li>
+        <li>Step 2: Mediation through a neutral third party</li>
+        <li>Step 3: If all else fails, jurisdiction (which state's courts)</li>
+      </ul>
+      <p>Mediation is far cheaper than litigation — including it in your contract shows professionalism and keeps legal costs down.</p>
+
+      <h2>Contractor vs Employee: The Sham Contracting Risk</h2>
+      <p>Australia has strict laws around <a href="/blog/sole-trader-vs-company-australia" class="text-teal-400 hover:text-teal-300 underline">contractor vs employee</a> classification. Your contract should demonstrate a genuine contracting arrangement:</p>
+      <ul>
+        <li>You control <strong>how</strong> and <strong>when</strong> you work</li>
+        <li>You supply your own tools and equipment</li>
+        <li>You can delegate work or subcontract</li>
+        <li>You work for multiple clients (not exclusively one)</li>
+        <li>You invoice for completed work (not a salary)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Sham Contracting Warning</h3>
+        <p class="text-slate-300 text-sm">Penalties for sham contracting in Australia can exceed $93,900 per breach for the business (and $18,780 for individuals). If a client dictates your hours, provides your equipment, and you work exclusively for them, you may legally be an employee — regardless of what the contract says. The ATO and Fair Work look at the substance of the arrangement, not just the paperwork.</p>
+      </div>
+
+      <h2>Payment Structures That Work</h2>
+
+      <h3>Fixed Price Projects</h3>
+      <p>Best for well-defined projects with clear scope. Structure payments as:</p>
+      <ul>
+        <li><strong>50% deposit + 50% on completion</strong> (simple, works for smaller projects)</li>
+        <li><strong>30% deposit + 30% midpoint + 40% completion</strong> (better for larger projects)</li>
+        <li><strong>Monthly milestones</strong> (best for long-term projects — reduces cash flow risk)</li>
+      </ul>
+
+      <h3>Hourly/Day Rate Projects</h3>
+      <p>Best when scope is unclear or ongoing. Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">rate calculator</a> to set the right rate, then:</p>
+      <ul>
+        <li>Invoice weekly or fortnightly</li>
+        <li>Track hours transparently (share time logs with client)</li>
+        <li>Set a budget cap or require approval for hours exceeding estimate</li>
+      </ul>
+
+      <h2>Red Flags to Watch For</h2>
+      <p>Walk away (or negotiate harder) if a client:</p>
+      <ul>
+        <li>Refuses to sign any contract ("let's just get started")</li>
+        <li>Won't pay a deposit ("we'll pay everything at the end")</li>
+        <li>Wants all IP transferred before final payment</li>
+        <li>Insists on Net 60 or Net 90 payment terms</li>
+        <li>Won't put the scope in writing</li>
+        <li>Asks you to lower your rate "for future work"</li>
+      </ul>
+
+      <h2>Getting Paid: The Contract-to-Invoice Pipeline</h2>
+      <p>A good contract makes invoicing seamless. When your contract clearly defines the scope, milestones, and payment schedule, you can:</p>
+      <ol>
+        <li>Hit a milestone → Reference the contract clause in your invoice</li>
+        <li>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create professional invoices instantly</li>
+        <li>Include your <a href="/blog/freelance-invoice-checklist" class="text-teal-400 hover:text-teal-300 underline">invoice checklist</a> items (ABN, GST, payment terms)</li>
+        <li>If payment is late, reference the late payment clause in your follow-up</li>
+      </ol>
+      <p>With <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a>, you can create invoices in under 60 seconds that reference your contract terms. Free for up to 5 invoices per month.</p>
+    `,
+  },
+  'record-keeping-freelancers-australia': {
+    slug: 'record-keeping-freelancers-australia',
+    title: 'Record Keeping for Freelancers in Australia: ATO Requirements',
+    excerpt: 'What records the ATO requires Australian freelancers to keep, how long to keep them, and practical systems to make record keeping painless.',
+    category: 'Tax & Compliance',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'Record Keeping for Freelancers in Australia | ATO Requirements 2026',
+    seoDescription: 'ATO record keeping requirements for Australian freelancers. Learn what records to keep, how long to store them, and practical systems that save time at tax time.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">The ATO can audit you for up to 4 years after a tax return is lodged — 7 years if fraud is suspected. Poor record keeping is the number one reason freelancers overpay on tax or get caught out in audits. Here's exactly what you need to keep and how to organise it.</p>
+
+      <h2>What the ATO Requires</h2>
+      <p>Under Australian tax law, all businesses (including sole traders and freelancers) must keep records that:</p>
+      <ul>
+        <li>Explain all transactions</li>
+        <li>Are in English (or easily convertible)</li>
+        <li>Are kept for <strong>5 years</strong> from when they're prepared or the relevant transaction occurred</li>
+        <li>Are in writing (paper or electronic)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Penalty Alert</h3>
+        <p class="text-slate-300 text-sm">Failure to keep proper records can result in penalties of up to <strong>$1,110 per offence</strong> (2025-26 rate). If the ATO audits you and you can't substantiate deductions, they'll disallow them — and you'll owe back tax plus interest.</p>
+      </div>
+
+      <h2>Records Every Freelancer Must Keep</h2>
+
+      <h3>Income Records</h3>
+      <p>For every dollar you earn, you need a record. This includes:</p>
+      <ul>
+        <li><strong>Invoices issued</strong> — every invoice you send to clients (use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create professional ones)</li>
+        <li><strong>Bank statements</strong> — showing all business income received</li>
+        <li><strong>Payment confirmations</strong> — Stripe, PayPal, bank transfer receipts</li>
+        <li><strong>Contracts and agreements</strong> — documenting what each payment was for</li>
+        <li><strong>Foreign income records</strong> — if you <a href="/blog/invoicing-international-clients-australia" class="text-teal-400 hover:text-teal-300 underline">invoice international clients</a>, keep exchange rate records</li>
+      </ul>
+
+      <h3>Expense Records</h3>
+      <p>Every <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">business expense</a> you want to deduct needs supporting documentation:</p>
+      <ul>
+        <li><strong>Receipts</strong> — for every purchase over $10 (digital photos are fine)</li>
+        <li><strong>Invoices from suppliers</strong> — software subscriptions, contractors, equipment</li>
+        <li><strong>Credit card and bank statements</strong> — showing business-related transactions</li>
+        <li><strong>Travel records</strong> — logbooks for vehicle use, travel diaries for overnight trips</li>
+        <li><strong>Home office calculations</strong> — floor area percentages, utility bills</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Digital Records Are Fine</h3>
+        <p class="text-slate-300 text-sm">The ATO accepts digital records, including photos of receipts, PDF invoices, and electronic bank statements. You don't need to keep paper copies. Just make sure digital records are legible and backed up.</p>
+      </div>
+
+      <h3>GST Records (If Registered)</h3>
+      <p>If you're <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">registered for GST</a>, you also need:</p>
+      <ul>
+        <li>Tax invoices for all sales and purchases over $82.50</li>
+        <li><a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS</a> lodgement records and receipts</li>
+        <li>Records of GST-free and input-taxed sales</li>
+        <li>Records of GST credits claimed on business purchases</li>
+      </ul>
+      <p>Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to quickly verify GST amounts on invoices and receipts.</p>
+
+      <h3>Asset Records</h3>
+      <p>For any business asset (laptop, camera, desk, etc.):</p>
+      <ul>
+        <li>Purchase receipt with date and amount</li>
+        <li>Depreciation schedule (the ATO's instant asset write-off threshold is $20,000 for 2025-26)</li>
+        <li>Records of disposal or sale</li>
+        <li>Business-use percentage if shared with personal use</li>
+      </ul>
+
+      <h2>How Long to Keep Records</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Record Type</th>
+            <th class="text-left py-3 px-4 text-slate-400">Minimum Period</th>
+            <th class="text-left py-3 px-4 text-slate-400">Notes</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Income and expense records</td>
+            <td class="py-3 px-4">5 years</td>
+            <td class="py-3 px-4">From date of lodging return</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">BAS records</td>
+            <td class="py-3 px-4">5 years</td>
+            <td class="py-3 px-4">From date of lodging BAS</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Asset records</td>
+            <td class="py-3 px-4">5 years after disposal</td>
+            <td class="py-3 px-4">Keep the full life of the asset + 5 years</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">CGT records</td>
+            <td class="py-3 px-4">5 years after CGT event</td>
+            <td class="py-3 px-4">Could be decades for property/shares</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4"><a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Super</a> contributions</td>
+            <td class="py-3 px-4">5 years</td>
+            <td class="py-3 px-4">Keep Notice of Intent to claim forever</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Keep It Longer in Practice</h3>
+        <p class="text-slate-300 text-sm">While 5 years is the legal minimum, many accountants recommend keeping records for 7 years. If you're ever investigated for fraud, the ATO has no time limit. Storage is cheap — keep everything.</p>
+      </div>
+
+      <h2>A Practical Record Keeping System</h2>
+      <p>You don't need accounting software for this. Here's a simple system that works:</p>
+
+      <h3>Step 1: Separate Business Banking</h3>
+      <p>Open a dedicated business bank account. Every business payment goes in, every business expense comes out. This single step eliminates 80% of record keeping headaches — your bank statement <em>is</em> your income and expense record.</p>
+
+      <h3>Step 2: Digital Receipt Capture</h3>
+      <p>When you get a receipt (paper or email):</p>
+      <ul>
+        <li>Photo it immediately (phone camera is fine)</li>
+        <li>Save to a cloud folder (Google Drive, iCloud, Dropbox)</li>
+        <li>Name it consistently: <code class="text-teal-400 bg-teal-400/10 px-1 rounded">2026-02-22_Adobe_$32.99.pdf</code></li>
+      </ul>
+
+      <h3>Step 3: Monthly Reconciliation</h3>
+      <p>On the first of each month, spend 30 minutes:</p>
+      <ul>
+        <li>Check that every bank transaction has a matching receipt or invoice</li>
+        <li>Categorise expenses (software, travel, equipment, home office, etc.)</li>
+        <li>Flag anything unusual for your accountant</li>
+        <li>Update your income tracking spreadsheet or tool</li>
+      </ul>
+
+      <h3>Step 4: Quarterly BAS Prep</h3>
+      <p>If you're GST-registered, your <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS</a> is due quarterly. Good monthly records make BAS lodging a 15-minute job instead of a weekend panic.</p>
+
+      <h2>Home Office Record Keeping</h2>
+      <p>If you work from home (most freelancers do), you can claim a portion of household expenses. The ATO accepts two methods:</p>
+
+      <h3>Fixed Rate Method (67 cents/hour)</h3>
+      <p>Simpler — just track the hours you work from home. You'll need:</p>
+      <ul>
+        <li>A record of hours worked (timesheet, calendar, or app)</li>
+        <li>Evidence of additional running expenses incurred</li>
+      </ul>
+
+      <h3>Actual Cost Method</h3>
+      <p>More work but potentially higher deductions. You'll need:</p>
+      <ul>
+        <li>Floor plan measurements (your office area as % of total home)</li>
+        <li>Utility bills (electricity, gas, internet)</li>
+        <li>Home insurance and rates (rental or ownership)</li>
+        <li>Calculation showing business-use percentage</li>
+      </ul>
+
+      <h2>Vehicle Record Keeping</h2>
+      <p>If you use your car for business (client meetings, site visits):</p>
+
+      <h3>Logbook Method</h3>
+      <p>Keep a logbook for a continuous 12-week period showing:</p>
+      <ul>
+        <li>Date, start/end odometer, destination, purpose, km driven</li>
+        <li>Business-use percentage (calculated from the 12-week sample)</li>
+        <li>All car expenses (fuel, rego, insurance, servicing, depreciation)</li>
+      </ul>
+      <p>The logbook is valid for 5 years unless your circumstances change significantly.</p>
+
+      <h3>Cents Per Kilometre Method</h3>
+      <p>Simpler — claim 85 cents per business km (2025-26 rate), capped at 5,000 km. You just need a reasonable estimate of business km driven.</p>
+
+      <h2>What Happens If You Don't Keep Records</h2>
+      <p>If the ATO audits you and you can't produce records:</p>
+      <ul>
+        <li><strong>Deductions disallowed:</strong> You lose the tax benefit of expenses you can't prove</li>
+        <li><strong>Default assessments:</strong> The ATO estimates your income (usually higher than actual)</li>
+        <li><strong>Penalties:</strong> Up to $1,110 per offence for failure to keep records</li>
+        <li><strong>Interest:</strong> On any tax shortfall, compounding daily</li>
+        <li><strong>Increased scrutiny:</strong> Once audited, you're more likely to be audited again</li>
+      </ul>
+
+      <h2>Tools That Make It Easier</h2>
+      <p>You don't need complex accounting software. Most freelancers can manage with:</p>
+      <ul>
+        <li><strong><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a></strong> — for creating and tracking invoices (free up to 5/month)</li>
+        <li><strong>A cloud folder</strong> — for receipt photos and documents</li>
+        <li><strong>A spreadsheet</strong> — for monthly expense categorisation</li>
+        <li><strong>Your bank's export feature</strong> — download statements as CSV for tax time</li>
+      </ul>
+      <p>The key isn't which tool you use — it's building the habit of capturing records in real time. A receipt photographed today takes 5 seconds. Reconstructing it at tax time takes 30 minutes (if you can find it at all).</p>
+    `,
+  },
+  'how-to-quote-clients-freelancer': {
+    slug: 'how-to-quote-clients-freelancer',
+    title: 'How to Quote Clients as a Freelancer in Australia',
+    excerpt: 'A practical guide to creating freelance quotes that win work and protect your profit. Covers pricing strategies, quote templates, and common mistakes Australian freelancers make.',
+    category: 'Business',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Quote Clients as a Freelancer | Pricing Guide Australia 2026',
+    seoDescription: 'Learn how to quote freelance clients in Australia. Covers pricing strategies, what to include in quotes, when to use fixed vs hourly pricing, and mistakes that lose money.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">The quote is where freelancers either win or lose money — before the work even starts. Quote too high and you lose the gig. Quote too low and you're working for less than minimum wage once scope creep sets in. Here's how to get it right.</p>
+
+      <h2>Quote vs Estimate vs Invoice</h2>
+      <p>These get confused constantly, but they're different documents:</p>
+      <ul>
+        <li><strong>Quote:</strong> A fixed price for defined work. Once accepted, the price is locked in (legally binding in Australia)</li>
+        <li><strong>Estimate:</strong> An approximate cost that can change. Less commitment from you, but also less certainty for the client</li>
+        <li><strong>Invoice:</strong> A request for payment after work is completed. Create professional ones with our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a></li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Legal Note</h3>
+        <p class="text-slate-300 text-sm">Under Australian Consumer Law, a quote is generally considered a fixed price agreement. If you quote $5,000, you can't later invoice $7,000 without the client's written approval of the additional work. Use "estimate" if you're not sure about scope, and "quote" when scope is clearly defined.</p>
+      </div>
+
+      <h2>What to Include in Every Quote</h2>
+
+      <h3>1. Your Details</h3>
+      <ul>
+        <li>Business name and <a href="/blog/how-to-register-abn-australia" class="text-teal-400 hover:text-teal-300 underline">ABN</a></li>
+        <li>Contact information</li>
+        <li>Quote number (for tracking)</li>
+        <li>Date issued and expiry date (typically 14-30 days)</li>
+      </ul>
+
+      <h3>2. Scope of Work</h3>
+      <p>The most important section. Break the project into clear deliverables:</p>
+      <ul>
+        <li>What you'll deliver (be specific — "5-page website" not "a website")</li>
+        <li>What's included (e.g., 2 rounds of revisions, mobile responsive, etc.)</li>
+        <li>What's NOT included (content writing, stock photos, hosting setup, etc.)</li>
+        <li>Assumptions you're making (e.g., "assumes client provides all copy by March 1")</li>
+      </ul>
+
+      <h3>3. Pricing Breakdown</h3>
+      <p>Line-item pricing builds trust and helps clients understand value:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Item</th>
+            <th class="text-left py-3 px-4 text-slate-400">Description</th>
+            <th class="text-right py-3 px-4 text-slate-400">Amount</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Discovery & Planning</td>
+            <td class="py-3 px-4">Requirements gathering, wireframes</td>
+            <td class="py-3 px-4 text-right">$800</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Design</td>
+            <td class="py-3 px-4">5 page designs, mobile + desktop</td>
+            <td class="py-3 px-4 text-right">$2,000</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Development</td>
+            <td class="py-3 px-4">Responsive build, CMS setup</td>
+            <td class="py-3 px-4 text-right">$3,000</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Testing & Launch</td>
+            <td class="py-3 px-4">Cross-browser testing, deployment</td>
+            <td class="py-3 px-4 text-right">$700</td>
+          </tr>
+          <tr class="border-b border-white/10 font-semibold">
+            <td class="py-3 px-4" colspan="2">Subtotal</td>
+            <td class="py-3 px-4 text-right">$6,500</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4" colspan="2">GST (10%)</td>
+            <td class="py-3 px-4 text-right">$650</td>
+          </tr>
+          <tr class="font-bold text-white">
+            <td class="py-3 px-4" colspan="2">Total (inc. GST)</td>
+            <td class="py-3 px-4 text-right">$7,150</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>4. Timeline</h3>
+      <ul>
+        <li>Estimated start date</li>
+        <li>Key milestones with dates</li>
+        <li>Estimated completion date</li>
+        <li>Dependencies (e.g., "timeline begins after deposit and content received")</li>
+      </ul>
+
+      <h3>5. Payment Terms</h3>
+      <ul>
+        <li>Deposit required (30-50% is standard)</li>
+        <li>Payment schedule tied to milestones</li>
+        <li>Accepted payment methods</li>
+        <li>Late payment terms (reference your <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment policy</a>)</li>
+      </ul>
+
+      <h3>6. Terms and Conditions</h3>
+      <ul>
+        <li>Quote validity period (14-30 days)</li>
+        <li>Revision policy (how many rounds are included)</li>
+        <li>Additional work pricing (hourly rate for out-of-scope requests)</li>
+        <li>Cancellation terms</li>
+      </ul>
+
+      <h2>Fixed Price vs Hourly: When to Use Each</h2>
+
+      <h3>Use Fixed Price When:</h3>
+      <ul>
+        <li>The scope is clearly defined and unlikely to change</li>
+        <li>You've done similar projects before and know the effort</li>
+        <li>The client wants budget certainty</li>
+        <li>You can complete the work faster than expected (you keep the margin)</li>
+      </ul>
+
+      <h3>Use Hourly When:</h3>
+      <ul>
+        <li>Scope is unclear or evolving</li>
+        <li>It's an ongoing retainer or maintenance</li>
+        <li>The client keeps changing requirements</li>
+        <li>Discovery work (you don't know what you'll find)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip: Hybrid Pricing</h3>
+        <p class="text-slate-300 text-sm">Many experienced freelancers use hybrid pricing — fixed price for the defined scope, plus an hourly rate for additional requests. This gives the client budget certainty while protecting you from scope creep. Example: "$6,500 for the defined scope. Additional work at $120/hr + GST, quoted before commencement."</p>
+      </div>
+
+      <h2>How to Calculate Your Quote Price</h2>
+      <p>Start with your <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">hourly rate</a>, then work backwards:</p>
+      <ol>
+        <li><strong>Estimate hours honestly:</strong> List every task and estimate time for each</li>
+        <li><strong>Add a buffer:</strong> Multiply by 1.2-1.5x (things always take longer)</li>
+        <li><strong>Factor in admin time:</strong> Emails, meetings, revisions — typically 20-30% of project time</li>
+        <li><strong>Calculate:</strong> Total hours × hourly rate = your minimum price</li>
+        <li><strong>Add value pricing:</strong> If the outcome is worth $50K to the client, $6.5K is cheap regardless of hours</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Most Common Mistake</h3>
+        <p class="text-slate-300 text-sm">Freelancers consistently underestimate by 30-50%. If you think a project will take 40 hours, quote for 55-60. You'll either finish on time (and make decent money) or slightly over (and still make reasonable money). Underquoting makes you resent the project and deliver worse work.</p>
+      </div>
+
+      <h2>Australian Freelancer Rate Benchmarks</h2>
+      <p>Based on 2025-26 market data (use these to sanity-check your quotes):</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Skill</th>
+            <th class="text-left py-3 px-4 text-slate-400">Junior</th>
+            <th class="text-left py-3 px-4 text-slate-400">Mid</th>
+            <th class="text-left py-3 px-4 text-slate-400">Senior</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Web Development</td>
+            <td class="py-3 px-4">$60-90/hr</td>
+            <td class="py-3 px-4">$100-150/hr</td>
+            <td class="py-3 px-4">$150-250/hr</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Graphic Design</td>
+            <td class="py-3 px-4">$50-80/hr</td>
+            <td class="py-3 px-4">$80-130/hr</td>
+            <td class="py-3 px-4">$130-200/hr</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Copywriting</td>
+            <td class="py-3 px-4">$50-80/hr</td>
+            <td class="py-3 px-4">$80-120/hr</td>
+            <td class="py-3 px-4">$120-200/hr</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Marketing / SEO</td>
+            <td class="py-3 px-4">$60-90/hr</td>
+            <td class="py-3 px-4">$90-150/hr</td>
+            <td class="py-3 px-4">$150-250/hr</td>
+          </tr>
+          <tr class="border-b border-white/5">
+            <td class="py-3 px-4">Photography</td>
+            <td class="py-3 px-4">$60-100/hr</td>
+            <td class="py-3 px-4">$100-180/hr</td>
+            <td class="py-3 px-4">$180-350/hr</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>For detailed rate calculation including tax, super, and expenses, use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">freelance rate calculator</a>.</p>
+
+      <h2>Negotiation Tips</h2>
+
+      <h3>When the Client Says "Too Expensive"</h3>
+      <ul>
+        <li><strong>Don't drop your price.</strong> Drop scope instead. "I can reduce the cost to $4,500 by removing X and Y. Would that work?"</li>
+        <li><strong>Reframe value:</strong> "This website will generate $X per month in leads. The $7K investment pays for itself in 3 months."</li>
+        <li><strong>Offer payment plans:</strong> Same total price, but split across 3 monthly payments</li>
+      </ul>
+
+      <h3>When You're Competing on Price</h3>
+      <p>Don't race to the bottom. Instead, compete on:</p>
+      <ul>
+        <li><strong>Speed:</strong> "I can deliver in 2 weeks vs their 6 weeks"</li>
+        <li><strong>Expertise:</strong> "I've built 12 similar projects in this exact tech stack"</li>
+        <li><strong>Included extras:</strong> "My quote includes 30 days of post-launch support"</li>
+        <li><strong>Risk reduction:</strong> "50% deposit, 50% only if you're satisfied"</li>
+      </ul>
+
+      <h2>Common Quoting Mistakes</h2>
+
+      <h3>1. Quoting Before Understanding the Project</h3>
+      <p>Never give a price in the first meeting. Always say: "Let me review the requirements and send you a detailed quote by [date]." This gives you time to think, research, and price correctly.</p>
+
+      <h3>2. Forgetting GST</h3>
+      <p>If you're <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST-registered</a>, always clearly state whether your quote includes or excludes GST. Many freelancers quote $5,000 ex-GST, then shock the client with a $5,500 invoice. State it upfront. Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to get exact figures.</p>
+
+      <h3>3. Not Setting an Expiry Date</h3>
+      <p>Quotes should expire in 14-30 days. Without an expiry, a client can accept 6 months later when your costs have changed, and you're locked in to the old price.</p>
+
+      <h3>4. Skipping the Scope Exclusions</h3>
+      <p>What's NOT included is as important as what is. Clients assume everything is included unless you explicitly exclude it.</p>
+
+      <h3>5. Not Requiring a Deposit</h3>
+      <p>Always require 30-50% upfront before starting work. No deposit = no commitment from the client. You'll waste time on projects that never start.</p>
+
+      <h2>From Quote to Invoice</h2>
+      <p>Once the client accepts your quote:</p>
+      <ol>
+        <li>Send a <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a> referencing the quote</li>
+        <li>Invoice for the deposit (use <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> to create it in seconds)</li>
+        <li>Start work only after deposit clears</li>
+        <li>Invoice at each milestone per the agreed schedule</li>
+        <li>Final invoice on project completion</li>
+      </ol>
+      <p>Check our <a href="/blog/freelance-invoice-checklist" class="text-teal-400 hover:text-teal-300 underline">invoice checklist</a> to make sure every invoice is ATO-compliant and includes all required fields.</p>
+    `,
+  },
 };
 
 const allSlugs = Object.keys(blogPosts);
