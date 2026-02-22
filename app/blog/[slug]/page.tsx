@@ -270,6 +270,360 @@ export const blogPosts: Record<string, BlogPost> = {
       <p>Or <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">sign up for InvoiceFlow</a> to automate GST on all your invoices with AI-powered invoicing starting at $0/mo.</p>
     `,
   },
+  'invoicing-international-clients-australia': {
+    slug: 'invoicing-international-clients-australia',
+    title: 'How to Invoice International Clients from Australia (2026)',
+    excerpt: 'GST-free exports, currency conversion, payment methods, and tax obligations for Australian freelancers working with overseas clients.',
+    category: 'Invoicing',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'Invoice International Clients from Australia | 2026 Guide',
+    seoDescription: 'Complete guide for Australian freelancers invoicing international clients. GST-free exports, currency conversion, payment methods, and ATO compliance.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Working with international clients is one of the biggest advantages of freelancing in Australia. You get access to USD/GBP/EUR rates while living in a great timezone for Asia-Pacific overlap. But invoicing overseas clients has specific rules you need to follow.</p>
+
+      <h2>Are International Services GST-Free?</h2>
+      <p>In most cases, <strong>yes</strong>. Services you provide to overseas clients are generally classified as <strong>GST-free exports</strong> under Division 38 of the GST Act. This means:</p>
+      <ul>
+        <li>You do <strong>NOT</strong> charge GST on the invoice</li>
+        <li>You <strong>CAN</strong> still claim GST credits on your Australian business expenses</li>
+        <li>You report the income on your BAS as "GST-free exports" (label G2)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Why This Matters</h3>
+        <p class="text-slate-300 text-sm">If you're voluntarily GST-registered and all your clients are overseas, you effectively get a <strong>10% benefit</strong>: you claim GST credits on expenses (software, equipment, internet) but don't charge GST on income. This makes voluntary GST registration very attractive for export-focused freelancers.</p>
+      </div>
+
+      <h3>When International Services ARE Taxable</h3>
+      <p>Your services are NOT GST-free if:</p>
+      <ul>
+        <li>The service is provided to someone <strong>in Australia</strong> (even if they're a branch of an overseas company)</li>
+        <li>The service relates to <strong>Australian real property</strong> (e.g., architectural work for an Australian building)</li>
+        <li>The client is <strong>present in Australia</strong> when the service is performed</li>
+      </ul>
+
+      <h2>Currency: AUD or Foreign?</h2>
+      <p>You can invoice in any currency. Most Australian freelancers working internationally invoice in one of:</p>
+      <ul>
+        <li><strong>USD</strong> — most common, especially for US/global clients</li>
+        <li><strong>Client's local currency</strong> — reduces friction for the client</li>
+        <li><strong>AUD</strong> — simplest for your bookkeeping, but clients may resist</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">ATO Rule: Record in AUD</h3>
+        <p class="text-slate-300 text-sm">Regardless of what currency you invoice in, you must record the income in AUD for tax purposes. Use the exchange rate on the <strong>date of the transaction</strong>. The RBA publishes daily exchange rates you can reference.</p>
+      </div>
+
+      <h2>Payment Methods for International Clients</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Method</th>
+            <th class="text-left py-3 px-4 text-slate-400">Fees</th>
+            <th class="text-left py-3 px-4 text-slate-400">Speed</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Wise</td><td class="py-3 px-4">0.4-1.5%</td><td class="py-3 px-4">1-2 days</td><td class="py-3 px-4">Best rates, regular payments</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Stripe</td><td class="py-3 px-4">2.9% + $0.30</td><td class="py-3 px-4">2-7 days</td><td class="py-3 px-4">Professional, auto-reconcile</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">PayPal</td><td class="py-3 px-4">2.6% + FX markup</td><td class="py-3 px-4">Instant</td><td class="py-3 px-4">Clients who prefer it</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Bank Transfer</td><td class="py-3 px-4">$20-40/transfer</td><td class="py-3 px-4">3-5 days</td><td class="py-3 px-4">Large invoices ($5K+)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Airwallex</td><td class="py-3 px-4">0.5-1%</td><td class="py-3 px-4">1-2 days</td><td class="py-3 px-4">Multi-currency accounts</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip: Hold USD</h3>
+        <p class="text-slate-300 text-sm">If you receive regular USD payments, consider a multi-currency account (Wise, Airwallex) to hold USD and convert when the AUD/USD rate is favourable. The AUD fluctuates 5-10% annually against USD — timing conversions can save thousands.</p>
+      </div>
+
+      <h2>What to Include on an International Invoice</h2>
+      <ul>
+        <li><strong>Your ABN</strong> — even for overseas clients</li>
+        <li><strong>"Export — no GST applicable"</strong> — make it clear why there's no GST</li>
+        <li><strong>Currency clearly stated</strong> — "Amount due: USD $5,000.00"</li>
+        <li><strong>Payment instructions</strong> — bank details, Wise link, or Stripe payment link</li>
+        <li><strong>Your country</strong> — "ABN: XX XXX XXX XXX | Australia"</li>
+        <li><strong>Payment terms</strong> — Net 14 is standard for international clients</li>
+      </ul>
+      <p>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create professional international invoices.</p>
+
+      <h2>Tax Obligations for International Income</h2>
+      <p>As an Australian tax resident, you pay tax on <strong>worldwide income</strong>:</p>
+      <ul>
+        <li><strong>Income tax:</strong> All international income is taxable at your marginal rate</li>
+        <li><strong>Foreign income tax offset:</strong> If the client's country withholds tax, you can claim an offset</li>
+        <li><strong>GST:</strong> Report as GST-free exports on your BAS (label G2)</li>
+        <li><strong>Super:</strong> Set aside 11.5% for superannuation (recommended, not legally required for sole traders)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Watch Out: US Client Withholding (W-8BEN)</h3>
+        <p class="text-slate-300 text-sm">US clients may ask you to complete a <strong>W-8BEN form</strong>. This reduces US withholding tax from 30% to 5% under the Australia-US tax treaty. Always complete it — otherwise 30% of your payment goes to the IRS.</p>
+      </div>
+
+      <h2>Protecting Against Late International Payments</h2>
+      <ul>
+        <li><strong>Upfront deposits:</strong> 50% before starting is standard internationally</li>
+        <li><strong>Milestone payments:</strong> Break large projects into paid milestones</li>
+        <li><strong>Clear contracts:</strong> Specify governing law (Australian law) and payment terms</li>
+        <li><strong>Online payments:</strong> Make it as easy as clicking a link via Stripe</li>
+        <li><strong>Shorter terms:</strong> Net 7 or Net 14 for new international clients</li>
+      </ul>
+
+      <h2>Start Invoicing International Clients</h2>
+      <p>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create professional invoices — or <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">sign up for InvoiceFlow</a> to automate invoicing with AI. Free for up to 5 invoices/month.</p>
+      <p>Need to calculate your rate? Our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">freelance rate calculator</a> factors in Australian tax brackets and super automatically.</p>
+    `,
+  },
+  'best-invoicing-software-australia': {
+    slug: 'best-invoicing-software-australia',
+    title: 'Best Invoicing Software for Australian Freelancers (2026)',
+    excerpt: 'We compared 9 invoicing tools on price, features, and AU compliance. Find out what actually works for Australian freelancers.',
+    category: 'Software',
+    readTime: '12 min read',
+    date: 'February 2026',
+    seoTitle: 'Best Invoicing Software Australia 2026 | Freelancer Comparison',
+    seoDescription: 'Compared 9 invoicing tools for Australian freelancers. Pricing, GST compliance, features, and honest reviews. Find the best fit for your freelance business.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Choosing invoicing software shouldn't take longer than actually invoicing your clients. We compared 9 popular tools on what matters most to Australian freelancers: price, GST compliance, ease of use, and whether you actually need full accounting software just to send an invoice.</p>
+
+      <h2>The Short Version</h2>
+      <ul>
+        <li><strong>Best overall for freelancers:</strong> InvoiceFlow — free tier, AI-powered, AU-native</li>
+        <li><strong>Best free option:</strong> Wave — truly free invoicing (but read the caveats below)</li>
+        <li><strong>Best full accounting:</strong> Xero — Australian-made, great ecosystem</li>
+        <li><strong>Avoid for freelancing:</strong> QuickBooks, MYOB — bloated, expensive, designed for businesses with employees</li>
+      </ul>
+
+      <h2>The Comparison Table</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Software</th>
+            <th class="text-left py-3 px-4 text-slate-400">Price (AUD/mo)</th>
+            <th class="text-left py-3 px-4 text-slate-400">Free Tier</th>
+            <th class="text-left py-3 px-4 text-slate-400">AI</th>
+            <th class="text-left py-3 px-4 text-slate-400">Trustpilot</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5 bg-teal-500/5"><td class="py-3 px-4 font-semibold text-teal-400">InvoiceFlow</td><td class="py-3 px-4">$0-39</td><td class="py-3 px-4 text-teal-400">5 inv/mo</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4">New</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Xero</td><td class="py-3 px-4">$35-78</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4 text-amber-400">Basic</td><td class="py-3 px-4">3.8/5</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">MYOB</td><td class="py-3 px-4">$11-150</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4 text-red-400">2.1/5</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">QuickBooks</td><td class="py-3 px-4">$20-275</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4 text-amber-400">Basic</td><td class="py-3 px-4 text-red-400">1.1/5</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">FreshBooks</td><td class="py-3 px-4">$19-76</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4">3.4/5</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Wave</td><td class="py-3 px-4">$0-19</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4 text-red-400">1.2/5</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Zoho Invoice</td><td class="py-3 px-4">$0-30</td><td class="py-3 px-4 text-teal-400">5 clients</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4">3.7/5</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Bonsai</td><td class="py-3 px-4">$25-79</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4">4.1/5</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">HoneyBook</td><td class="py-3 px-4">$36-129</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4 text-amber-400">CRM only</td><td class="py-3 px-4">3.5/5</td></tr>
+        </tbody>
+      </table>
+
+      <h2>1. InvoiceFlow — Best for AU Freelancers</h2>
+      <p><strong>Price:</strong> Free (5 inv/mo) | Pro $19/mo | Premium $39/mo</p>
+      <p>Built specifically for Australian freelancers. AI extracts invoice data from Gmail, auto-calculates GST, handles ABN compliance. Unlike accounting-first tools, it focuses on invoicing — the thing you actually need to get paid.</p>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">Try InvoiceFlow free &rarr;</a></p>
+
+      <h2>2. Xero — Best Full Accounting</h2>
+      <p><strong>Price:</strong> Ignite $35/mo (20 invoices) | Grow $78/mo</p>
+      <p>The Australian standard for small business accounting. But Ignite caps at 20 invoices — beyond that you're forced to $78/mo. Entry prices up 169% since 2021. Overkill for freelancers who just invoice.</p>
+      <p><a href="/compare/xero" class="text-teal-400 hover:text-teal-300 underline">Full Xero comparison &rarr;</a></p>
+
+      <h2>3. MYOB — Legacy Incumbent</h2>
+      <p><strong>Price:</strong> Solo $11/mo | Lite $34/mo | Pro $63/mo</p>
+      <p>KKR-owned since 2019. Trustpilot 2.1/5. Users report appalling support and hidden price increases. MYOB Solo ($11/mo, launched 2025) is accounting-first with basic invoicing.</p>
+      <p><a href="/compare/myob" class="text-teal-400 hover:text-teal-300 underline">Full MYOB comparison &rarr;</a></p>
+
+      <h2>4. QuickBooks — US Giant, AU Misfit</h2>
+      <p><strong>Price:</strong> Solopreneur $20/mo (2 invoices!) | Simple Start $35/mo</p>
+      <p>Trustpilot 1.1/5 — worst on this list. Solopreneur plan limits you to 2 invoices/month. Prices up 40-88% since 2020. Designed for US market.</p>
+      <p><a href="/compare/quickbooks" class="text-teal-400 hover:text-teal-300 underline">Full QuickBooks comparison &rarr;</a></p>
+
+      <h2>5. FreshBooks — Clean UX, No Free Tier</h2>
+      <p><strong>Price:</strong> Lite $19/mo (5 clients) | Plus $33/mo</p>
+      <p>Best UI of the traditional tools. But no free tier, 5-client cap on Lite, and aggressive promo pricing that jumps to full price. No AI features.</p>
+      <p><a href="/compare/freshbooks" class="text-teal-400 hover:text-teal-300 underline">Full FreshBooks comparison &rarr;</a></p>
+
+      <h2>6. Wave — Free But Risky</h2>
+      <p><strong>Price:</strong> Free invoicing | Pro $19/mo</p>
+      <p>Genuinely free invoicing. But Trustpilot 1.2/5 after H&R Block acquisition. Reports of $50K+ payment holds lasting months, account lockouts, zero support for free users.</p>
+      <p><a href="/compare/wave" class="text-teal-400 hover:text-teal-300 underline">Full Wave comparison &rarr;</a></p>
+
+      <h2>7. Zoho Invoice — Budget Option</h2>
+      <p><strong>Price:</strong> Free (5 clients) | Standard $15/mo</p>
+      <p>Solid and affordable, part of Zoho ecosystem. Free tier limited to 5 clients. UI feels dated. AU-specific features less polished than Xero.</p>
+      <p><a href="/compare/zoho" class="text-teal-400 hover:text-teal-300 underline">Full Zoho comparison &rarr;</a></p>
+
+      <h2>8. Bonsai — Acquired by Zoom</h2>
+      <p><strong>Price:</strong> Essentials $25/mo (minimum for invoicing)</p>
+      <p>Basic plan ($15/mo) has no invoicing. Hidden 1% platform fee on Stripe. Only 2 features in 5 years. Future under Zoom uncertain.</p>
+      <p><a href="/compare/bonsai" class="text-teal-400 hover:text-teal-300 underline">Full Bonsai comparison &rarr;</a></p>
+
+      <h2>9. HoneyBook — Expensive All-in-One</h2>
+      <p><strong>Price:</strong> Starter $36/mo | Essentials $59/mo</p>
+      <p>CRM with invoicing bolted on. 89% price increase Feb 2025. US + Canada only. Designed for event planners, not freelancers.</p>
+      <p><a href="/compare/honeybook" class="text-teal-400 hover:text-teal-300 underline">Full HoneyBook comparison &rarr;</a></p>
+
+      <h2>What AU Freelancers Actually Need</h2>
+      <p>Most freelancers don't need full accounting software. You need:</p>
+      <ul>
+        <li><strong>GST-compliant invoicing</strong> — auto-calculate and display GST correctly</li>
+        <li><strong>ABN on every invoice</strong> — to avoid 47% withholding</li>
+        <li><strong>Online payments</strong> — let clients pay with one click</li>
+        <li><strong>Professional templates</strong> — look established</li>
+        <li><strong>CSV/PDF export</strong> — for your accountant at tax time</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Bottom Line</h3>
+        <p class="text-slate-300 text-sm">If you just need to send invoices and get paid, you don't need Xero, MYOB, or QuickBooks. <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — free for up to 5 invoices/month, $19/mo for unlimited.</p>
+      </div>
+
+      <h2>Try Our Free Tools</h2>
+      <ul>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — instantly calculate GST</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Invoice Generator</a> — create professional invoices free</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a> — figure out what to charge</li>
+        <li><a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN Lookup</a> — verify any ABN instantly</li>
+      </ul>
+    `,
+  },
+  'sole-trader-vs-company-australia': {
+    slug: 'sole-trader-vs-company-australia',
+    title: 'Sole Trader vs Company in Australia: Which Structure for Freelancers?',
+    excerpt: 'The pros, cons, and real tax implications of operating as a sole trader vs a company. When to make the switch.',
+    category: 'Business',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Sole Trader vs Company Australia | Freelancer Guide 2026',
+    seoDescription: 'Sole trader or company for your freelance business in Australia? Compare tax rates, liability, costs, and learn when it makes sense to incorporate.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Every Australian freelancer eventually asks: should I stay as a sole trader or set up a company? The answer depends on your income, risk profile, and where you want your business to go.</p>
+
+      <h2>Quick Comparison</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Factor</th>
+            <th class="text-left py-3 px-4 text-slate-400">Sole Trader</th>
+            <th class="text-left py-3 px-4 text-slate-400">Company (Pty Ltd)</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Setup cost</td><td class="py-3 px-4 text-teal-400">Free (ABN only)</td><td class="py-3 px-4">$538+ (ASIC)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Annual cost</td><td class="py-3 px-4 text-teal-400">$0</td><td class="py-3 px-4">$310/yr (ASIC)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Tax rate</td><td class="py-3 px-4">Marginal (19-45%)</td><td class="py-3 px-4 text-teal-400">Flat 25%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Liability</td><td class="py-3 px-4 text-red-400">Unlimited</td><td class="py-3 px-4 text-teal-400">Limited</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Compliance</td><td class="py-3 px-4 text-teal-400">Minimal</td><td class="py-3 px-4">ASIC filings, reports</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Getting money out</td><td class="py-3 px-4 text-teal-400">Yours anytime</td><td class="py-3 px-4">Salary/dividends only</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Accountant cost</td><td class="py-3 px-4 text-teal-400">$500-1,500/yr</td><td class="py-3 px-4">$2,000-5,000/yr</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Sole Trader: The Default for Freelancers</h2>
+      <p>Most Australian freelancers start — and stay — as sole traders:</p>
+      <ul>
+        <li><strong>Free to set up:</strong> Just apply for an ABN through the Australian Business Register</li>
+        <li><strong>No separate entity:</strong> You ARE the business</li>
+        <li><strong>Simple tax:</strong> One personal tax return</li>
+        <li><strong>Full control:</strong> No directors, no shareholders, no board meetings</li>
+      </ul>
+
+      <h3>Sole Trader Tax Rates (2025-26)</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Taxable Income</th>
+            <th class="text-left py-3 px-4 text-slate-400">Tax Rate</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$0 - $18,200</td><td class="py-3 px-4 text-teal-400">0%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$18,201 - $45,000</td><td class="py-3 px-4">16%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$45,001 - $135,000</td><td class="py-3 px-4">30%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$135,001 - $190,000</td><td class="py-3 px-4">37%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$190,001+</td><td class="py-3 px-4 text-red-400">45%</td></tr>
+        </tbody>
+      </table>
+      <p>Plus 2% Medicare levy, and potentially Medicare levy surcharge (1-1.5%) without private health insurance above $93,000.</p>
+
+      <h2>Company: When It Makes Sense</h2>
+      <p>Companies pay a flat <strong>25% tax rate</strong> (base rate entities under $50M turnover). The tax gap:</p>
+      <ul>
+        <li>At $100K: Sole trader ~$24,367 vs Company $25,000. <strong>Almost the same.</strong></li>
+        <li>At $150K: Sole trader ~$40,717 vs Company $37,500. <strong>Company saves $3,217.</strong></li>
+        <li>At $200K: Sole trader ~$59,217 vs Company $50,000. <strong>Company saves $9,217.</strong></li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Catch: Getting Money Out</h3>
+        <p class="text-slate-300 text-sm">Company money isn't YOUR money. You must pay yourself via salary (taxed at personal rates + super required), dividends (franked, still taxed at marginal rate), or director fees. Transferring company money to your personal account creates a <strong>Division 7A loan</strong> with strict repayment and interest requirements.</p>
+      </div>
+
+      <h2>The Real Break-Even Point</h2>
+
+      <h3>Stay Sole Trader If:</h3>
+      <ul>
+        <li>Taxable income (after deductions) under <strong>$130K</strong></li>
+        <li>You want maximum simplicity</li>
+        <li>You want to access all your money freely</li>
+        <li>No significant liability risks</li>
+        <li>No plans for employees or partners</li>
+      </ul>
+
+      <h3>Consider a Company If:</h3>
+      <ul>
+        <li>Income consistently exceeds <strong>$150K+</strong></li>
+        <li>You want to retain profits and reinvest</li>
+        <li>You need asset protection</li>
+        <li>Planning to bring on employees</li>
+        <li>You want to eventually sell the business</li>
+        <li>Family members could receive dividends (income splitting)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Talk to an Accountant First</h3>
+        <p class="text-slate-300 text-sm">A company adds $2,000-5,000/yr in compliance costs. If your tax saving is less than compliance cost, you're losing money. A good accountant will model your specific situation.</p>
+      </div>
+
+      <h2>PSI Rules: The ATO's Freelancer Trap</h2>
+      <p><strong>Personal Services Income (PSI)</strong> rules are critical. If your income is mainly from personal skills, the ATO treats it as PSI regardless of structure. This means you <strong>can't split income</strong> with family or retain profits at the 25% company rate.</p>
+      <p>Most freelancers pass the <strong>results test</strong> (paid for results, not hours) — but get professional advice to confirm.</p>
+
+      <h2>What About a Trust?</h2>
+      <p>Family trusts can distribute income to beneficiaries in lower tax brackets. But:</p>
+      <ul>
+        <li>Setup: $1,000-2,000 (trust deed)</li>
+        <li>Must distribute ALL income each year</li>
+        <li>Annual compliance: $2,000-4,000</li>
+        <li>Increased ATO scrutiny</li>
+        <li>Only beneficial with family members on low/no income</li>
+      </ul>
+
+      <h2>Invoicing Under Either Structure</h2>
+      <ul>
+        <li><strong>Sole trader:</strong> Invoice under your name or trading name, with your personal ABN</li>
+        <li><strong>Company:</strong> Invoice under the company name, with the company ABN</li>
+      </ul>
+      <p>Either way, use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create GST-compliant invoices.</p>
+
+      <h2>Tools for Your Freelance Business</h2>
+      <ul>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Rate Calculator</a> — factor in tax, super, and expenses</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — instantly calculate GST for invoices</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Invoice Generator</a> — create compliant invoices free</li>
+        <li><a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN Lookup</a> — verify client ABNs before invoicing</li>
+      </ul>
+      <p>Or <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">sign up for InvoiceFlow</a> — AI-powered invoicing built for Australian freelancers. Free to start.</p>
+    `,
+  },
   'freelance-rates-australia': {
     slug: 'freelance-rates-australia',
     title: 'Freelance Rates in Australia: What to Charge in 2026',
