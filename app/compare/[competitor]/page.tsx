@@ -424,9 +424,44 @@ export default async function CompetitorPage({ params }: { params: Promise<{ com
   if (!data) notFound();
 
   const otherCompetitors = allSlugs.filter((s) => s !== slug);
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://invoiceflow-teal.vercel.app';
+  const pageUrl = `${siteUrl}/compare/${slug}`;
+
+  const comparisonJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: data.seoTitle,
+    description: data.seoDescription,
+    url: pageUrl,
+    inLanguage: 'en-AU',
+    isPartOf: { '@type': 'WebSite', name: 'InvoiceFlow', url: siteUrl },
+    about: {
+      '@type': 'SoftwareApplication',
+      name: 'InvoiceFlow',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web',
+      offers: [
+        { '@type': 'Offer', price: '0', priceCurrency: 'AUD', name: 'Free' },
+        { '@type': 'Offer', price: '19', priceCurrency: 'AUD', name: 'Pro' },
+        { '@type': 'Offer', price: '39', priceCurrency: 'AUD', name: 'Premium' },
+      ],
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Compare', item: `${siteUrl}/compare` },
+      { '@type': 'ListItem', position: 3, name: `InvoiceFlow vs ${data.name}`, item: pageUrl },
+    ],
+  };
 
   return (
     <div className="min-h-screen page-bg">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(comparisonJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">

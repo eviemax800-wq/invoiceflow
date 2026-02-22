@@ -26,6 +26,24 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
+function parseDate(dateStr: string): string {
+  // Convert "February 2026" to "2026-02-01"
+  const months: Record<string, string> = {
+    January: '01', February: '02', March: '03', April: '04', May: '05', June: '06',
+    July: '07', August: '08', September: '09', October: '10', November: '11', December: '12',
+  };
+  const parts = dateStr.split(' ');
+  if (parts.length === 2 && months[parts[0]]) {
+    return `${parts[1]}-${months[parts[0]]}-01`;
+  }
+  return '2026-02-01';
+}
+
+function readTimeMinutes(readTime: string): number {
+  const match = readTime.match(/(\d+)/);
+  return match ? parseInt(match[1], 10) : 8;
+}
+
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts[slug];
@@ -37,8 +55,58 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const otherCategoryPosts = allSlugs.filter((s) => s !== slug && blogPosts[s].category !== currentCategory);
   const relatedPosts = [...sameCategoryPosts.slice(0, 3), ...otherCategoryPosts.slice(0, Math.max(0, 3 - sameCategoryPosts.length))].slice(0, 3);
 
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://invoiceflow-teal.vercel.app';
+  const articleUrl = `${siteUrl}/blog/${slug}`;
+  const isoDate = parseDate(post.date);
+  const wordCount = post.content.replace(/<[^>]*>/g, '').split(/\s+/).length;
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.seoDescription,
+    url: articleUrl,
+    datePublished: isoDate,
+    dateModified: isoDate,
+    wordCount,
+    timeRequired: `PT${readTimeMinutes(post.readTime)}M`,
+    articleSection: post.category,
+    inLanguage: 'en-AU',
+    author: {
+      '@type': 'Organization',
+      name: 'InvoiceFlow',
+      url: siteUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'InvoiceFlow',
+      url: siteUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/icon.png`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': articleUrl,
+    },
+    isAccessibleForFree: true,
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}/blog` },
+      { '@type': 'ListItem', position: 3, name: post.title, item: articleUrl },
+    ],
+  };
+
   return (
     <div className="min-h-screen page-bg">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">

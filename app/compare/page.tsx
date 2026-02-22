@@ -113,8 +113,28 @@ const invoiceflow = {
 };
 
 export default function ComparePage() {
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://invoiceflow-teal.vercel.app';
+
+  const compareJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'InvoiceFlow vs QuickBooks, Xero, MYOB & More',
+    description: 'See how InvoiceFlow compares to the Big 8 invoicing tools. Free tier, AI-powered, no hidden fees.',
+    url: `${siteUrl}/compare`,
+    inLanguage: 'en-AU',
+    numberOfItems: competitors.length,
+    isPartOf: { '@type': 'WebSite', name: 'InvoiceFlow', url: siteUrl },
+    about: {
+      '@type': 'SoftwareApplication',
+      name: 'InvoiceFlow',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web',
+    },
+  };
+
   return (
     <div className="min-h-screen page-bg">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(compareJsonLd) }} />
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
