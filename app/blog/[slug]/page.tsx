@@ -7184,6 +7184,643 @@ Best,
       </ul>
     `,
   },
+
+  'freelance-bookkeeping-australia': {
+    slug: 'freelance-bookkeeping-australia',
+    title: 'Freelance Bookkeeping: Simple System for Australian Freelancers (2026)',
+    excerpt: 'A practical, no-nonsense bookkeeping system for Australian freelancers. Set up in one afternoon, maintain in 30 minutes a week, and never panic at BAS time again.',
+    category: 'Finance',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelance Bookkeeping Australia | Simple System for Sole Traders 2026',
+    seoDescription: 'Set up a simple freelance bookkeeping system in one afternoon. Covers income tracking, expense categories, BAS prep, GST, and ATO record keeping for Australian freelancers.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Most freelancers don't need an accountant for day-to-day bookkeeping. What they need is a simple system they'll actually maintain. This guide gives you exactly that — a practical bookkeeping setup you can run in 30 minutes a week, with everything the ATO expects at tax time.</p>
+
+      <h2>Why Freelancers Need Bookkeeping (Even If You Hate Numbers)</h2>
+      <p>Three reasons this matters beyond "the ATO told me to":</p>
+      <ol>
+        <li><strong>You're losing money right now.</strong> Most freelancers miss $2,000–$5,000 in legitimate <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductions</a> because they don't track expenses properly. That's money you earned and gave away</li>
+        <li><strong>BAS lodgement becomes trivial.</strong> If your books are current, <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">quarterly BAS</a> takes 15 minutes. If they're not, it's 4 hours of panic and guesswork</li>
+        <li><strong>You know your actual numbers.</strong> Revenue minus expenses minus tax = what you actually earn. Most freelancers can't answer "what did you make last quarter?" accurately. That's a problem when you're trying to <a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">raise your rates</a></li>
+      </ol>
+
+      <h2>The 3-Account Banking System</h2>
+      <p>Before you track anything, set up the right foundation. You need three bank accounts:</p>
+
+      <table>
+        <thead><tr><th>Account</th><th>Purpose</th><th>What Goes In</th><th>What Goes Out</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Business Operating</strong></td><td>All income and expenses</td><td>All client payments</td><td>Business expenses, transfers to Tax + Personal</td></tr>
+          <tr><td><strong>Tax Savings</strong></td><td>GST + income tax reserve</td><td>30% of every payment received</td><td>BAS payments, income tax, <a href="/blog/payg-instalments-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">PAYG instalments</a></td></tr>
+          <tr><td><strong>Personal</strong></td><td>Your "salary"</td><td>Regular transfers from Operating</td><td>Rent, groceries, personal expenses</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The 30% Rule</h3>
+        <p class="text-slate-300 text-sm">Every time you receive a payment, immediately transfer 30% to your Tax Savings account. This covers GST (10%) plus income tax (~20% for most freelancers in the $45K–$135K bracket). See <a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">our cash flow guide</a> for the detailed breakdown by income level.</p>
+      </div>
+
+      <p>For bank recommendations, see our guide on <a href="/blog/best-business-bank-accounts-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">best business bank accounts for freelancers</a>. The short version: Up Business (fee-free, auto-categorisation) or ING Business Optimiser (fee-free with conditions).</p>
+
+      <h2>What to Track: The 5 Categories</h2>
+      <p>Keep it simple. Every transaction fits into one of five categories:</p>
+
+      <h3>1. Income</h3>
+      <p>Every dollar a client pays you. Track:</p>
+      <ul>
+        <li>Date received</li>
+        <li>Client name</li>
+        <li>Invoice number (from your <a href="/blog/freelance-invoice-checklist" class="text-teal-400 hover:text-teal-300 underline">invoicing system</a>)</li>
+        <li>Amount (ex-GST and inc-GST)</li>
+        <li>Payment method (bank transfer, Stripe, PayPal)</li>
+      </ul>
+
+      <h3>2. Business Expenses</h3>
+      <p>Anything you spend to earn income. Common categories for freelancers:</p>
+      <table>
+        <thead><tr><th>Category</th><th>Examples</th><th>Typical Annual Range</th></tr></thead>
+        <tbody>
+          <tr><td>Software & subscriptions</td><td>Adobe, Figma, Slack, hosting, domains</td><td>$1,200–$4,000</td></tr>
+          <tr><td>Equipment</td><td>Laptop, monitor, desk, chair, peripherals</td><td>$500–$3,000</td></tr>
+          <tr><td>Professional development</td><td>Courses, books, conferences, memberships</td><td>$300–$2,000</td></tr>
+          <tr><td>Marketing</td><td>Website hosting, paid ads, portfolio tools</td><td>$200–$1,500</td></tr>
+          <tr><td>Insurance</td><td>PI, PL, income protection (see <a href="/blog/freelancer-insurance-guide-australia" class="text-teal-400 hover:text-teal-300 underline">insurance guide</a>)</td><td>$1,800–$5,000</td></tr>
+          <tr><td>Phone & internet</td><td>Business portion of phone + internet bills</td><td>$600–$1,200</td></tr>
+          <tr><td>Travel & transport</td><td>Client meetings, co-working, conferences</td><td>$200–$3,000</td></tr>
+          <tr><td>Home office</td><td>Electricity, depreciation (see <a href="/blog/working-from-home-tax-deductions-australia" class="text-teal-400 hover:text-teal-300 underline">WFH guide</a>)</td><td>$1,500–$3,000</td></tr>
+          <tr><td>Contractors</td><td>Subcontractors, virtual assistants</td><td>Varies</td></tr>
+          <tr><td>Superannuation</td><td>Voluntary contributions (see <a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">super guide</a>)</td><td>$0–$30,000</td></tr>
+        </tbody>
+      </table>
+
+      <h3>3. GST Collected</h3>
+      <p>If you're <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">registered for GST</a>, track GST on every invoice you issue. Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to split amounts instantly.</p>
+
+      <h3>4. GST Paid</h3>
+      <p>GST you pay on business expenses. You claim this back as GST credits on your BAS.</p>
+
+      <h3>5. Transfers</h3>
+      <p>Money moving between your own accounts (Operating → Tax Savings, Operating → Personal). These aren't income or expenses — they're just internal movements. Track them to reconcile accounts.</p>
+
+      <h2>The Weekly 30-Minute Routine</h2>
+      <p>Block 30 minutes on Friday afternoon. Here's the exact process:</p>
+
+      <table>
+        <thead><tr><th>Step</th><th>Action</th><th>Time</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><strong>Open bank feed.</strong> Review all transactions since last Friday</td><td>5 min</td></tr>
+          <tr><td>2</td><td><strong>Categorise each transaction.</strong> Income, expense (which category), transfer, or personal (flag for removal)</td><td>10 min</td></tr>
+          <tr><td>3</td><td><strong>Photograph/save receipts.</strong> For any expense over $82.50 (or any you want to claim), save the receipt digitally</td><td>5 min</td></tr>
+          <tr><td>4</td><td><strong>Match invoices to payments.</strong> Mark paid invoices in your <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">invoicing system</a>. Flag overdue ones for <a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">follow-up</a></td><td>5 min</td></tr>
+          <tr><td>5</td><td><strong>Check your numbers.</strong> Income this week, expenses this week, running total for the quarter</td><td>5 min</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-emerald-400/20 bg-emerald-500/5">
+        <h3 class="text-emerald-400 font-semibold mb-2">The Non-Negotiable Rule</h3>
+        <p class="text-slate-300 text-sm">Never let bookkeeping slip past 2 weeks. Once you're 3+ weeks behind, it becomes a project instead of a routine. A 30-minute weekly habit prevents 8-hour quarterly catchups.</p>
+      </div>
+
+      <h2>Quarterly BAS Prep (15 Minutes If Books Are Current)</h2>
+      <p>If you've been doing the weekly routine, BAS prep is trivial:</p>
+      <ol>
+        <li><strong>Total income for the quarter</strong> (ex-GST) → goes to label G1</li>
+        <li><strong>Total GST collected</strong> → goes to label 1A</li>
+        <li><strong>Total GST paid on expenses</strong> → goes to label 1B</li>
+        <li><strong>GST owed</strong> = 1A minus 1B (this is what you pay the ATO)</li>
+        <li>If on <a href="/blog/payg-instalments-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">PAYG instalments</a>, fill in T1–T9 labels</li>
+      </ol>
+      <p>Lodge via myGov by the due date (see our <a href="/blog/australian-freelancer-tax-calendar" class="text-teal-400 hover:text-teal-300 underline">tax calendar</a> for all 2026 deadlines). Pay from your Tax Savings account.</p>
+
+      <h2>Spreadsheet vs Software: What to Use</h2>
+      <p>Most freelancers earning under $150K don't need accounting software. Here's the honest comparison:</p>
+
+      <table>
+        <thead><tr><th>Option</th><th>Cost</th><th>Best For</th><th>Limitations</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Google Sheets / Excel</strong></td><td>Free</td><td>Freelancers with &lt; 50 transactions/month</td><td>Manual data entry, no bank feeds, no auto-reconciliation</td></tr>
+          <tr><td><strong>InvoiceFlow</strong></td><td>Free – $19/mo</td><td>Freelancers who want invoicing + basic tracking without accounting bloat</td><td>Not full accounting (by design — see <a href="/blog/why-freelancers-dont-need-accounting-software" class="text-teal-400 hover:text-teal-300 underline">why that's good</a>)</td></tr>
+          <tr><td><strong>Wave</strong></td><td>Free – $19/mo</td><td>Freelancers who want free accounting</td><td>Payment holds, declining support (see <a href="/compare/wave" class="text-teal-400 hover:text-teal-300 underline">Wave comparison</a>)</td></tr>
+          <tr><td><strong>Xero</strong></td><td>$35–$78/mo</td><td>Growing businesses with 100+ transactions/month</td><td>Overkill for most freelancers (see <a href="/compare/xero" class="text-teal-400 hover:text-teal-300 underline">Xero comparison</a>)</td></tr>
+          <tr><td><strong>MYOB</strong></td><td>$11–$63/mo</td><td>Australian businesses wanting local support</td><td>Legacy interface, expensive (see <a href="/compare/myob" class="text-teal-400 hover:text-teal-300 underline">MYOB comparison</a>)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Simple Spreadsheet Template</h2>
+      <p>If you're starting with a spreadsheet, create two tabs:</p>
+
+      <h3>Tab 1: Income Tracker</h3>
+      <table>
+        <thead><tr><th>Date</th><th>Client</th><th>Invoice #</th><th>Amount (ex-GST)</th><th>GST</th><th>Total (inc-GST)</th><th>Date Paid</th><th>Method</th></tr></thead>
+        <tbody>
+          <tr><td>15/01/2026</td><td>Acme Co</td><td>INV-042</td><td>$2,000</td><td>$200</td><td>$2,200</td><td>22/01/2026</td><td>Bank transfer</td></tr>
+          <tr><td>20/01/2026</td><td>Smith Design</td><td>INV-043</td><td>$800</td><td>$80</td><td>$880</td><td>25/01/2026</td><td>Stripe</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Tab 2: Expense Tracker</h3>
+      <table>
+        <thead><tr><th>Date</th><th>Description</th><th>Category</th><th>Amount (ex-GST)</th><th>GST</th><th>Total</th><th>Receipt?</th></tr></thead>
+        <tbody>
+          <tr><td>03/01/2026</td><td>Adobe Creative Cloud</td><td>Software</td><td>$54.50</td><td>$5.45</td><td>$59.95</td><td>Yes</td></tr>
+          <tr><td>05/01/2026</td><td>Officeworks — toner</td><td>Office supplies</td><td>$36.36</td><td>$3.64</td><td>$40.00</td><td>Yes</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip: The $82.50 Rule</h3>
+        <p class="text-slate-300 text-sm">You need a tax invoice (receipt with ABN and GST) to claim GST credits on purchases over $82.50 (inc-GST). Below that threshold, a regular receipt is fine. But save everything — the ATO requires you to keep records for 5 years. See our <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">record keeping guide</a> for the full rules.</p>
+      </div>
+
+      <h2>Receipt Management System</h2>
+      <p>Paper receipts fade. Digital receipts get lost in email. Here's a simple system:</p>
+      <ol>
+        <li><strong>Photograph paper receipts immediately.</strong> Use your phone's built-in scanner or a dedicated app. Store in a folder called "Receipts 2025-26"</li>
+        <li><strong>Create monthly subfolders.</strong> Receipts/2026-01, Receipts/2026-02, etc.</li>
+        <li><strong>Forward digital receipts.</strong> Create a dedicated email folder or label for business receipts. Forward all purchase confirmations there</li>
+        <li><strong>Name files consistently.</strong> Format: YYYY-MM-DD_vendor_amount.pdf (e.g., 2026-01-03_adobe_59.95.pdf)</li>
+      </ol>
+      <p>Cloud storage (Google Drive, iCloud, Dropbox) counts as valid record keeping under ATO rules.</p>
+
+      <h2>The End-of-Financial-Year Checklist</h2>
+      <p>On June 30 (or the weekend after), run through this checklist before lodging your <a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">tax return</a>:</p>
+      <ol>
+        <li><strong>Reconcile all accounts.</strong> Every transaction categorised, no loose ends</li>
+        <li><strong>Review expense categories.</strong> Any personal expenses accidentally included? Remove them</li>
+        <li><strong>Check invoice payments.</strong> Any unpaid invoices? These are still income if you use accrual accounting (most freelancers use cash basis — income counts when received)</li>
+        <li><strong>Calculate home office.</strong> Hours log complete? Method chosen? (see <a href="/blog/working-from-home-tax-deductions-australia" class="text-teal-400 hover:text-teal-300 underline">WFH deductions guide</a>)</li>
+        <li><strong>Asset depreciation.</strong> Update depreciation schedule for equipment purchased this year</li>
+        <li><strong>Super contributions.</strong> Made voluntary contributions? Submit Notice of Intent before lodging (see <a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">super guide</a>)</li>
+        <li><strong>Review prepaid expenses.</strong> Any subscriptions paid annually? Apportion to the correct financial year</li>
+        <li><strong>Generate summary.</strong> Total income, total expenses, net profit. This is what your tax return is based on</li>
+      </ol>
+
+      <h2>Common Bookkeeping Mistakes</h2>
+      <ul>
+        <li><strong>Mixing personal and business accounts.</strong> The ATO flags this. Keep them separate. Always</li>
+        <li><strong>Claiming 100% of mixed-use expenses.</strong> If your phone is 60% business, claim 60%. Not 100%. The ATO knows</li>
+        <li><strong>Not tracking cash payments.</strong> If a client pays cash, it's still income. Record it</li>
+        <li><strong>Ignoring bank fees.</strong> Transaction fees, merchant fees (Stripe 1.75%), and account fees are all deductible</li>
+        <li><strong>Forgetting to claim depreciation.</strong> That $2,500 laptop is deductible — either instant write-off or over 4 years. Don't miss it</li>
+        <li><strong>Not reconciling regularly.</strong> Monthly at minimum. Weekly is better. Annually is a disaster waiting to happen</li>
+      </ul>
+
+      <h2>When to Get Professional Help</h2>
+      <p>DIY bookkeeping works for most freelancers, but consider a professional if:</p>
+      <ul>
+        <li>Your annual revenue exceeds $200K (complexity increases significantly)</li>
+        <li>You have employees or regular contractors (payroll obligations)</li>
+        <li>You're changing business structure (sole trader → company — see <a href="/blog/sole-trader-vs-company-australia" class="text-teal-400 hover:text-teal-300 underline">our comparison</a>)</li>
+        <li>You have international clients (foreign currency, withholding tax treaties)</li>
+        <li>You're being audited (get a tax agent immediately)</li>
+      </ul>
+      <p>A registered BAS agent costs $100–$200 per quarter. A tax agent costs $300–$800 for an annual return. If that's less than the deductions they find that you missed, it pays for itself.</p>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping for Freelancers</a> — ATO requirements and 5-year rules</li>
+        <li><a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS Guide for Australian Freelancers</a> — Quarterly lodgement walkthrough</li>
+        <li><a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Tax Deductions for Freelancers</a> — Everything you can claim</li>
+        <li><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Management</a> — The 3-account system in detail</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">Free GST Calculator</a> — Split GST from any amount</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create ATO-compliant invoices</li>
+      </ul>
+    `,
+  },
+
+  'invoice-payment-terms-explained': {
+    slug: 'invoice-payment-terms-explained',
+    title: 'Invoice Payment Terms Explained: Net 7, 14, 30 Guide for Freelancers',
+    excerpt: 'What do payment terms like Net 7, Net 14, and Net 30 actually mean? How do they affect your cash flow? Which should you use? A practical guide for Australian freelancers.',
+    category: 'Invoicing',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'Invoice Payment Terms Explained | Net 7, 14, 30 Guide for Freelancers',
+    seoDescription: 'Understand invoice payment terms: Net 7, Net 14, Net 30, EOM, and more. Learn which terms to use for different clients, how to enforce them, and protect your cash flow.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Payment terms are the rules of when and how you get paid. They sit on every invoice you send, and choosing the right ones can mean the difference between healthy cash flow and constantly chasing money. Here's what every term means, which to use when, and how to enforce them.</p>
+
+      <h2>Standard Payment Terms Explained</h2>
+      <p>Payment terms follow a standard format used globally. Here's every common term you'll encounter:</p>
+
+      <table>
+        <thead><tr><th>Term</th><th>What It Means</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Due on Receipt</strong></td><td>Payment is due immediately when the invoice is received</td><td>Invoice sent Monday → payment expected Monday</td></tr>
+          <tr><td><strong>Net 7</strong></td><td>Payment due within 7 calendar days of the invoice date</td><td>Invoice dated Feb 1 → payment due by Feb 8</td></tr>
+          <tr><td><strong>Net 14</strong></td><td>Payment due within 14 calendar days</td><td>Invoice dated Feb 1 → payment due by Feb 15</td></tr>
+          <tr><td><strong>Net 21</strong></td><td>Payment due within 21 calendar days</td><td>Invoice dated Feb 1 → payment due by Feb 22</td></tr>
+          <tr><td><strong>Net 30</strong></td><td>Payment due within 30 calendar days</td><td>Invoice dated Feb 1 → payment due by Mar 3</td></tr>
+          <tr><td><strong>Net 60</strong></td><td>Payment due within 60 calendar days</td><td>Invoice dated Feb 1 → payment due by Apr 2</td></tr>
+          <tr><td><strong>EOM</strong></td><td>Payment due at the end of the month</td><td>Invoice sent any time in Feb → payment due Feb 28</td></tr>
+          <tr><td><strong>EOM+30</strong></td><td>Payment due 30 days after the end of the month</td><td>Invoice sent in Feb → payment due Mar 31</td></tr>
+          <tr><td><strong>2/10 Net 30</strong></td><td>2% discount if paid within 10 days, otherwise full amount due in 30 days</td><td>$1,000 invoice → $980 if paid within 10 days, $1,000 if paid day 11–30</td></tr>
+          <tr><td><strong>50/50</strong></td><td>50% upfront before work begins, 50% on completion</td><td>$5,000 project → $2,500 deposit + $2,500 final</td></tr>
+          <tr><td><strong>COD</strong></td><td>Cash on delivery — payment when goods/services are delivered</td><td>Rare for freelancers, common in product businesses</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">"Net" = Calendar Days, Not Business Days</h3>
+        <p class="text-slate-300 text-sm">A common source of confusion: "Net 30" means 30 calendar days, including weekends and public holidays. If the due date falls on a weekend, convention is to accept payment on the next business day — but the official due date is still the calendar date.</p>
+      </div>
+
+      <h2>Which Payment Terms Should You Use?</h2>
+      <p>The right terms depend on your client type, project size, and relationship. Here's a practical framework:</p>
+
+      <table>
+        <thead><tr><th>Scenario</th><th>Recommended Terms</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>New client, first project</td><td><strong>50% upfront + Net 7</strong></td><td>Reduces risk. Proves they pay. You're not a bank</td></tr>
+          <tr><td>Small project (&lt; $2,000)</td><td><strong>Due on Receipt</strong> or <strong>Net 7</strong></td><td>Small amounts should be paid quickly. No reason to extend credit</td></tr>
+          <tr><td>Regular retainer client</td><td><strong>Net 14</strong></td><td>Reasonable for established relationships. Matches fortnightly pay cycles</td></tr>
+          <tr><td>Corporate / enterprise client</td><td><strong>Net 30</strong> (reluctantly)</td><td>Large companies have accounts payable cycles. You may have no choice</td></tr>
+          <tr><td>Large project ($5K+)</td><td><strong>Milestone payments</strong></td><td>30% upfront, 30% mid-project, 40% on completion. Never have more than 40% outstanding</td></tr>
+          <tr><td>Ongoing monthly work</td><td><strong>Invoice on 1st, Net 14</strong></td><td>Predictable billing cycle. Both parties know what to expect</td></tr>
+          <tr><td>Rush / weekend work</td><td><strong>Due on Receipt</strong></td><td>You dropped everything for them. They can pay immediately</td></tr>
+        </tbody>
+      </table>
+
+      <h3>The Freelancer's Default: Net 14</h3>
+      <p>If you're unsure, start with <strong>Net 14</strong>. Here's why:</p>
+      <ul>
+        <li><strong>Net 7 is tight.</strong> Some clients genuinely can't process payments that fast (especially if accounts payable runs weekly). Net 7 creates friction</li>
+        <li><strong>Net 30 is too generous.</strong> You're not a corporation with 90 days of cash reserves. A month without payment can be crippling for a freelancer</li>
+        <li><strong>Net 14 is the sweet spot.</strong> Gives clients a reasonable window without destroying your <a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">cash flow</a></li>
+      </ul>
+
+      <h2>How Payment Terms Affect Your Cash Flow</h2>
+      <p>Let's make this concrete. Say you invoice $10,000/month. Here's what your average cash-on-hand looks like under different terms:</p>
+
+      <table>
+        <thead><tr><th>Payment Terms</th><th>Avg Days to Payment</th><th>Cash Gap</th><th>Annual Cash Tied Up</th></tr></thead>
+        <tbody>
+          <tr><td>Due on Receipt</td><td>3 days (realistic)</td><td>Minimal</td><td>~$1,000</td></tr>
+          <tr><td>Net 7</td><td>10 days (people are late)</td><td>$3,333</td><td>$3,333 outstanding at any time</td></tr>
+          <tr><td>Net 14</td><td>18 days</td><td>$6,000</td><td>$6,000 outstanding at any time</td></tr>
+          <tr><td>Net 30</td><td>38 days</td><td>$12,667</td><td>$12,667 outstanding at any time</td></tr>
+          <tr><td>Net 60</td><td>65 days</td><td>$21,667</td><td>$21,667 outstanding at any time</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Hidden Cost of Net 30</h3>
+        <p class="text-slate-300 text-sm">Notice the "Avg Days to Payment" column is always higher than the terms. That's because almost nobody pays on the exact due date. Net 30 clients pay on day 38 on average. Net 60 clients pay on day 65+. Factor this into your <a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">cash flow planning</a>.</p>
+      </div>
+
+      <h2>How to State Payment Terms on Your Invoice</h2>
+      <p>Be clear and specific. Vague terms get ignored. Here are examples:</p>
+
+      <h3>Good (Clear and Enforceable)</h3>
+      <ul>
+        <li>"Payment due within 14 days of invoice date (by 15 February 2026)"</li>
+        <li>"50% deposit due before work commences. Balance due within 7 days of delivery"</li>
+        <li>"Net 14. Late payments incur 1.5% monthly interest per our agreement dated 5 Jan 2026"</li>
+      </ul>
+
+      <h3>Bad (Vague and Ignorable)</h3>
+      <ul>
+        <li>"Please pay promptly" — means nothing legally</li>
+        <li>"Payment terms: standard" — standard for whom?</li>
+        <li>"Due soon" — not a term</li>
+      </ul>
+
+      <p>Always include the <strong>actual due date</strong> on your invoice, not just the payment term. "Net 14" plus "Due: 15 February 2026" removes all ambiguity. Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create invoices with clear payment terms built in.</p>
+
+      <h2>Early Payment Discounts: Do They Work?</h2>
+      <p>The "2/10 Net 30" structure (2% discount for payment within 10 days) is common in B2B. Should freelancers use it?</p>
+
+      <h3>The Math</h3>
+      <p>Offering 2% off for paying 20 days early works out to an annualised return of ~36% for the client. That's a strong incentive.</p>
+      <p>For a $5,000 invoice:</p>
+      <ul>
+        <li>Paid in 10 days: $4,900 (you lose $100)</li>
+        <li>Paid in 30 days: $5,000 (full amount)</li>
+      </ul>
+      <p>You're essentially paying $100 to get $4,900 twenty days earlier. That's worth it if you need cash flow. It's not worth it if you don't.</p>
+
+      <h3>When It Makes Sense</h3>
+      <ul>
+        <li>You have high-value corporate clients who can process early payment if incentivised</li>
+        <li>Your cash flow is tight and 20 days matters</li>
+        <li>The 2% is less than the interest on debt you'd otherwise take on</li>
+      </ul>
+
+      <h3>When It Doesn't</h3>
+      <ul>
+        <li>Your invoices are small (2% of $500 = $10 — not enough incentive for the client)</li>
+        <li>Your cash flow is healthy and you don't need faster payment</li>
+        <li>The client already pays on time (you're discounting for nothing)</li>
+      </ul>
+
+      <h2>Enforcing Payment Terms</h2>
+      <p>Terms on an invoice are only as good as your willingness to enforce them. Here's the escalation process:</p>
+
+      <table>
+        <thead><tr><th>Timeline</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Day of invoice</strong></td><td>Send invoice with clear due date</td></tr>
+          <tr><td><strong>Due date -3 days</strong></td><td>Friendly reminder email: "Just a heads up — invoice #042 is due on Friday"</td></tr>
+          <tr><td><strong>Due date</strong></td><td>If unpaid, send polite follow-up: "Invoice #042 was due today. Can you confirm when payment will be processed?"</td></tr>
+          <tr><td><strong>Due date +7 days</strong></td><td>Firmer follow-up with late fee notice (if your contract includes one)</td></tr>
+          <tr><td><strong>Due date +14 days</strong></td><td>Phone call. Email isn't working. A direct conversation usually resolves it</td></tr>
+          <tr><td><strong>Due date +30 days</strong></td><td>Formal letter of demand (see <a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">our chasing guide</a>)</td></tr>
+          <tr><td><strong>Due date +60 days</strong></td><td>Consider small claims tribunal (see <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment fees guide</a>)</td></tr>
+        </tbody>
+      </table>
+
+      <p>For email templates at each stage, see our <a href="/blog/payment-reminder-email-templates-freelancers" class="text-teal-400 hover:text-teal-300 underline">payment reminder templates</a>.</p>
+
+      <h2>Late Payment Fees in Australia</h2>
+      <p>You can charge late payment fees, but only if:</p>
+      <ol>
+        <li>It's stated in your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a></li>
+        <li>The rate is "reasonable" (courts have rejected excessive rates)</li>
+        <li>The client agreed to it before work began</li>
+      </ol>
+      <p>Standard rates in Australia: <strong>1.5% per month</strong> (18% pa) or the RBA cash rate + a margin. Include the exact wording in your contract. More detail in our <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment fees guide</a>.</p>
+
+      <h2>How to Negotiate Better Terms</h2>
+      <p>When a client asks for Net 60 or longer terms, don't just accept. Here's how to push back professionally:</p>
+
+      <h3>Script 1: The Standard Response</h3>
+      <p><em>"Our standard terms are Net 14. We're happy to discuss Net 21 for ongoing engagements, but Net 60 isn't something we can accommodate as a small business. Would Net 21 work for your accounts payable cycle?"</em></p>
+
+      <h3>Script 2: The Deposit Compromise</h3>
+      <p><em>"We understand your payment cycle is monthly. We can work with Net 30 if we can structure it as 50% upfront, 50% Net 30 on completion. That way both sides have skin in the game."</em></p>
+
+      <h3>Script 3: The Premium for Extended Terms</h3>
+      <p><em>"We can accommodate Net 60, but our pricing reflects our payment terms. Net 60 pricing is 10% higher than our standard Net 14 rate to account for the extended credit period."</em></p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-emerald-400/20 bg-emerald-500/5">
+        <h3 class="text-emerald-400 font-semibold mb-2">Power Move: Quote Two Prices</h3>
+        <p class="text-slate-300 text-sm">In your <a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">proposals</a>, quote two prices: "$4,500 (Net 14)" and "$5,000 (Net 30)". This frames faster payment as a discount rather than slow payment as a penalty. Clients almost always pick the lower price.</p>
+      </div>
+
+      <h2>Payment Terms by Industry</h2>
+      <p>What's "normal" varies by sector. Here's what Australian freelancers typically see:</p>
+
+      <table>
+        <thead><tr><th>Industry</th><th>Common Terms</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Startups & SMBs</td><td>Net 7 – Net 14</td><td>Smaller companies pay faster. Use this to your advantage</td></tr>
+          <tr><td>Marketing & agencies</td><td>Net 14 – Net 30</td><td>Agencies often wait until their client pays them. Push back on this</td></tr>
+          <tr><td>Corporate / enterprise</td><td>Net 30 – Net 60</td><td>Accounts payable bureaucracy. Often non-negotiable. Factor into pricing</td></tr>
+          <tr><td>Government</td><td>Net 30 (policy)</td><td>AU government has a 30-day payment policy. They're usually reliable</td></tr>
+          <tr><td>Web / app development</td><td>Milestones</td><td>30/30/40 or 50/50. Never do 100% on completion for dev projects</td></tr>
+          <tr><td>Design & creative</td><td>50% up / 50% final</td><td>Standard for project work. Protects against scope creep and ghosting</td></tr>
+          <tr><td>Consulting / coaching</td><td>Due on Receipt</td><td>Sessions are pay-as-you-go or monthly retainer in advance</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Payment Terms in Your Contract</h2>
+      <p>Your invoice terms should match your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a>. Include these clauses:</p>
+      <ol>
+        <li><strong>Payment terms:</strong> "Invoices are payable within [14] calendar days of the invoice date"</li>
+        <li><strong>Late fees:</strong> "Overdue invoices attract interest at 1.5% per month (18% per annum)"</li>
+        <li><strong>Deposit:</strong> "A deposit of [50%] of the quoted amount is due before work commences"</li>
+        <li><strong>Suspension clause:</strong> "The Provider reserves the right to suspend work if any invoice remains unpaid for more than [14] days past the due date"</li>
+        <li><strong>Recovery costs:</strong> "The Client agrees to pay all reasonable costs incurred in recovering overdue amounts, including collection agency fees and legal costs"</li>
+      </ol>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">How to Get Clients to Pay Faster</a> — 7 practical tactics</li>
+        <li><a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">How to Chase Overdue Invoices</a> — 5-stage escalation framework</li>
+        <li><a href="/blog/payment-reminder-email-templates-freelancers" class="text-teal-400 hover:text-teal-300 underline">Payment Reminder Email Templates</a> — Copy-paste templates for every stage</li>
+        <li><a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">Late Payment Fees in Australia</a> — Legal framework and recommended rates</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">How to Write a Freelance Contract</a> — Include proper payment clauses</li>
+        <li><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Management</a> — Plan around your payment terms</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create invoices with clear payment terms</li>
+      </ul>
+    `,
+  },
+
+  'how-to-handle-client-disputes-freelancer-australia': {
+    slug: 'how-to-handle-client-disputes-freelancer-australia',
+    title: 'How to Handle Client Disputes as a Freelancer in Australia',
+    excerpt: 'Client disputes happen. What matters is how you handle them. A practical guide to resolving payment disputes, scope disagreements, and quality complaints without burning bridges or losing money.',
+    category: 'Client Management',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Handle Client Disputes as a Freelancer | Australian Guide 2026',
+    seoDescription: 'Practical guide to resolving freelance client disputes in Australia. Covers payment disputes, scope disagreements, quality complaints, mediation, and small claims tribunal.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Disputes are part of freelancing. A 2024 survey found that 71% of Australian freelancers experienced at least one client dispute per year, with payment disputes being the most common (43%), followed by scope disagreements (31%) and quality complaints (18%). The good news: most disputes are resolvable without lawyers, tribunals, or torched relationships.</p>
+
+      <h2>The 4 Types of Freelance Disputes</h2>
+      <p>Almost every freelance dispute falls into one of four categories:</p>
+
+      <table>
+        <thead><tr><th>Type</th><th>What It Looks Like</th><th>Typical Trigger</th><th>Resolution Path</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Payment disputes</strong></td><td>Client refuses to pay, pays late, disputes the amount, or wants a discount after delivery</td><td>Unclear payment terms, scope creep, client cash flow problems</td><td>Escalation framework (see below)</td></tr>
+          <tr><td><strong>Scope disputes</strong></td><td>"That should have been included" / "That's not what I asked for"</td><td>Vague scope documents, verbal agreements, no change order process</td><td>Contract review, negotiation, compromise</td></tr>
+          <tr><td><strong>Quality disputes</strong></td><td>"This isn't up to standard" / "I'm not happy with the work"</td><td>Misaligned expectations, subjective quality standards, no acceptance criteria</td><td>Revision rounds, independent review, partial refund</td></tr>
+          <tr><td><strong>Timeline disputes</strong></td><td>"You said it would be done by Friday" / project delays</td><td>Unrealistic estimates, client-side delays blocking progress, scope changes</td><td>Documentation, timeline revision, renegotiation</td></tr>
+        </tbody>
+      </table>
+
+      <h2>The Universal Dispute Resolution Framework</h2>
+      <p>Regardless of the dispute type, follow this 5-step framework:</p>
+
+      <h3>Step 1: Stop. Don't React Emotionally</h3>
+      <p>When a client sends an angry email or disputes an invoice, your instinct is to fire back. Don't. Wait 24 hours before responding. Emotional responses escalate disputes; measured responses resolve them.</p>
+      <p>Read the message twice. Identify the specific complaint (not the emotion). Write your response, then sleep on it.</p>
+
+      <h3>Step 2: Document Everything</h3>
+      <p>Before responding, gather your evidence:</p>
+      <ul>
+        <li>Original <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a> or agreement</li>
+        <li>Scope document / brief / <a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">proposal</a></li>
+        <li>All email correspondence (especially approvals)</li>
+        <li>Invoices and payment records</li>
+        <li>Time logs and deliverable records</li>
+        <li>Any change requests (written or verbal — note dates for verbal ones)</li>
+      </ul>
+      <p>This is why <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">record keeping</a> matters. In a dispute, the freelancer with documentation wins.</p>
+
+      <h3>Step 3: Acknowledge and Clarify</h3>
+      <p>Respond with acknowledgment, not agreement. Show you take their concern seriously without admitting fault.</p>
+      <p><em>"Thank you for raising this. I want to make sure we resolve it properly. To clarify, the specific concern is [restate their complaint]. Is that accurate? I'd like to review the project brief and our correspondence to find the best path forward."</em></p>
+
+      <h3>Step 4: Propose a Resolution</h3>
+      <p>Based on your documentation review, propose a fair resolution. Always offer options — people feel better when they have choices:</p>
+      <ul>
+        <li><strong>Option A:</strong> Your preferred resolution (usually completing/revising the work)</li>
+        <li><strong>Option B:</strong> A compromise (partial refund, additional revisions, reduced scope)</li>
+        <li><strong>Option C:</strong> The nuclear option (full refund and project termination — only if appropriate)</li>
+      </ul>
+
+      <h3>Step 5: Formalise the Agreement</h3>
+      <p>Whatever you agree on, put it in writing. A simple email confirming the resolution terms is sufficient:</p>
+      <p><em>"To confirm our discussion: [resolution details]. I'll [your action] by [date], and [their action] by [date]. If this reflects our agreement, please reply confirming."</em></p>
+
+      <h2>Handling Payment Disputes</h2>
+      <p>Payment disputes are the most common and most stressful. Here's the specific playbook:</p>
+
+      <h3>"I'm not paying because I'm not happy with the work"</h3>
+      <ol>
+        <li>Check your contract. Do you have defined acceptance criteria? Revision limits?</li>
+        <li>If the work meets the brief, point to the brief and offer a reasonable number of revisions</li>
+        <li>If the work genuinely doesn't meet the brief, fix it. Take responsibility</li>
+        <li>If the client keeps moving goalposts, that's a <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">scope creep</a> issue, not a quality issue</li>
+      </ol>
+
+      <h3>"I'm not paying the full amount"</h3>
+      <ol>
+        <li>Review what was delivered vs. what was agreed</li>
+        <li>If you delivered everything: stand firm. Send the invoice again with a reminder of the agreement</li>
+        <li>If delivery was partial: offer a proportional payment</li>
+        <li>If there were genuine issues: negotiate. A 10% discount to avoid a 3-month dispute is often worth it</li>
+      </ol>
+
+      <h3>"I can't pay right now"</h3>
+      <ol>
+        <li>This is usually a cash flow issue, not a dispute. Be understanding but firm</li>
+        <li>Offer a payment plan: "I understand. Can we agree to 50% now and 50% in 14 days?"</li>
+        <li>Pause any ongoing work until existing invoices are settled</li>
+        <li>Don't extend more credit. Send future invoices with "Due on Receipt" terms</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The 80/20 Rule of Payment Disputes</h3>
+        <p class="text-slate-300 text-sm">80% of payment disputes are caused by unclear scope or terms, not bad-faith clients. Before escalating, ask yourself: "Was the scope crystal clear? Were the payment terms explicit? Did I get written approval at each milestone?" If the answer is no to any of these, the dispute is at least partly preventable. Learn from it.</p>
+      </div>
+
+      <h2>Handling Scope Disputes</h2>
+      <p>Scope disputes happen when there's a gap between what the client expected and what you delivered. The fix is almost always in the documentation:</p>
+
+      <h3>If You Have a Written Scope</h3>
+      <p>Point to it. Specifically highlight the "What's Included" and (critically) "What's Not Included" sections. If the disputed item is listed as "not included", you're protected.</p>
+      <p>For how to write bulletproof scope documents, see our <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">scope creep guide</a>.</p>
+
+      <h3>If You Don't Have a Written Scope</h3>
+      <p>This is harder. Review all emails, messages, and meeting notes. Look for any written confirmation of what was agreed. If the scope was purely verbal, you're in a "he said / she said" situation. Options:</p>
+      <ul>
+        <li><strong>Compromise:</strong> Do some of the disputed work as a goodwill gesture, but document everything going forward</li>
+        <li><strong>Split the difference:</strong> "I'll do X and Y from the disputed items, but Z is a separate project that I'll quote separately"</li>
+        <li><strong>Learn:</strong> This is why you always get scope in writing. Always. See our <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract guide</a></li>
+      </ul>
+
+      <h2>Handling Quality Disputes</h2>
+      <p>Quality is subjective. "I don't like it" is not the same as "it doesn't meet the brief". Here's how to navigate:</p>
+
+      <h3>Legitimate Quality Issues</h3>
+      <p>If your work genuinely has bugs, errors, or doesn't match the approved design:</p>
+      <ul>
+        <li>Fix it. No charge. This is your professional obligation</li>
+        <li>Don't make excuses. Apologise, fix, deliver</li>
+        <li>Review your QA process to prevent recurrence</li>
+      </ul>
+
+      <h3>Subjective "I Don't Like It"</h3>
+      <p>If the work meets the brief but the client simply doesn't like it:</p>
+      <ul>
+        <li>Check your contract for revision limits (e.g., "2 rounds of revisions included")</li>
+        <li>If within revision limits: revise. Ask specific questions — "What specifically would you change?"</li>
+        <li>If revisions are exhausted: additional revisions are billed at your hourly rate. This should be in your contract</li>
+        <li>If they want a completely different direction: that's a new project with a new quote</li>
+      </ul>
+
+      <h3>Getting an Independent Opinion</h3>
+      <p>When quality is disputed and neither side will budge, suggest an independent review:</p>
+      <p><em>"I want to make sure you get quality work. I'm confident this meets the brief, but I understand you see it differently. Would you be open to having an independent [designer/developer/copywriter] review the work against the original brief? We can split the cost of the review."</em></p>
+
+      <h2>When to Walk Away (and When to Fight)</h2>
+      <p>Not every dispute is worth winning. Here's a decision framework:</p>
+
+      <table>
+        <thead><tr><th>Amount in Dispute</th><th>Client Relationship Value</th><th>Recommendation</th></tr></thead>
+        <tbody>
+          <tr><td>&lt; $500</td><td>Low (one-off)</td><td>Write it off. Not worth your time. Learn the lesson</td></tr>
+          <tr><td>&lt; $500</td><td>High (recurring)</td><td>Negotiate. Preserve the relationship. Set clear terms for next time</td></tr>
+          <tr><td>$500–$5,000</td><td>Low</td><td>Pursue through formal channels (letter of demand → small claims)</td></tr>
+          <tr><td>$500–$5,000</td><td>High</td><td>Negotiate a compromise. The relationship is worth more than the dispute</td></tr>
+          <tr><td>&gt; $5,000</td><td>Any</td><td>Always pursue. Letter of demand → mediation → tribunal. Consider legal advice</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Formal Dispute Resolution in Australia</h2>
+      <p>If informal resolution fails, here's the escalation path:</p>
+
+      <h3>1. Letter of Demand</h3>
+      <p>A formal letter stating what's owed, the basis for the claim, and a deadline (usually 14 days). This alone resolves ~60% of disputes because it signals you're serious. See our <a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">invoice chasing guide</a> for a template.</p>
+
+      <h3>2. Mediation</h3>
+      <p>Free or low-cost mediation services exist in every state:</p>
+      <ul>
+        <li><strong>VIC:</strong> Dispute Settlement Centre of Victoria (DSCV) — free</li>
+        <li><strong>NSW:</strong> Community Justice Centres — free</li>
+        <li><strong>QLD:</strong> Dispute Resolution Branch — free</li>
+        <li><strong>SA:</strong> Equal Opportunity Commission — free mediation</li>
+        <li><strong>WA:</strong> Citizens Advice Bureau — low cost</li>
+      </ul>
+      <p>Mediation is voluntary (both parties must agree) but has a ~75% success rate. It's confidential and much faster than tribunal.</p>
+
+      <h3>3. Small Claims Tribunal</h3>
+      <p>If mediation fails or the other party refuses, each state has a small claims tribunal:</p>
+
+      <table>
+        <thead><tr><th>State</th><th>Tribunal</th><th>Limit</th><th>Filing Fee</th></tr></thead>
+        <tbody>
+          <tr><td>VIC</td><td>VCAT</td><td>$15,000</td><td>$75.50</td></tr>
+          <tr><td>NSW</td><td>NCAT</td><td>$20,000</td><td>$53</td></tr>
+          <tr><td>QLD</td><td>QCAT</td><td>$25,000</td><td>$77.45</td></tr>
+          <tr><td>WA</td><td>Magistrates Court</td><td>$75,000</td><td>$92</td></tr>
+          <tr><td>SA</td><td>SACAT</td><td>$12,000</td><td>$94</td></tr>
+          <tr><td>TAS</td><td>Magistrates Court</td><td>$5,000</td><td>$87.50</td></tr>
+          <tr><td>ACT</td><td>ACAT</td><td>$25,000</td><td>$120</td></tr>
+          <tr><td>NT</td><td>Local Court</td><td>$25,000</td><td>$50</td></tr>
+        </tbody>
+      </table>
+
+      <p>You don't need a lawyer for small claims. Prepare your documentation, present your case, and the tribunal decides. Decisions are legally binding.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Jurisdiction Tip</h3>
+        <p class="text-slate-300 text-sm">If your client is in a different state, the tribunal in their state usually has jurisdiction (not yours). This can make small claims impractical for interstate disputes under $2,000 — the travel cost exceeds the claim. Your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a> should specify which state's laws govern the agreement.</p>
+      </div>
+
+      <h2>Prevention: How to Avoid Disputes Entirely</h2>
+      <p>The best dispute is the one that never happens. Build these safeguards into every project:</p>
+
+      <ol>
+        <li><strong>Written contract.</strong> Every time. No exceptions. Include scope, payment terms, revision limits, dispute resolution clause (see <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract guide</a>)</li>
+        <li><strong>Detailed scope document.</strong> Include "What's Not Included" section. Get written sign-off (see <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">scope creep guide</a>)</li>
+        <li><strong>Clear payment terms.</strong> On the contract AND the invoice. Include late fee clause (see <a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300 underline">payment terms guide</a>)</li>
+        <li><strong>Upfront deposit.</strong> 50% for projects under $5K, 25-30% for larger ones. Proves commitment</li>
+        <li><strong>Regular check-ins.</strong> Don't disappear for 4 weeks then deliver. Show progress weekly. Get approval at milestones</li>
+        <li><strong>Written approvals.</strong> Before moving to the next phase, get email confirmation: "Approved to proceed to Phase 2"</li>
+        <li><strong>Change order process.</strong> Any scope change = written change order with revised price and timeline. No verbal agreements</li>
+        <li><strong>Client vetting.</strong> Use <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">red flag screening</a> before accepting projects. Bad clients create disputes; good clients rarely do</li>
+      </ol>
+
+      <h2>Email Templates for Disputes</h2>
+
+      <h3>Acknowledging the Dispute</h3>
+      <p><em>"Hi [Name], thank you for sharing your concerns about [specific issue]. I take this seriously and want to resolve it properly. I'm reviewing our original agreement and correspondence now and will come back to you with a proposed resolution by [date]. In the meantime, could you confirm [specific clarifying question]?"</em></p>
+
+      <h3>Proposing a Resolution</h3>
+      <p><em>"Hi [Name], I've reviewed the project brief, our correspondence, and the deliverables. Here's what I've found: [factual summary]. I'd like to propose the following resolution: [Option A]. Alternatively, we could [Option B]. Which would you prefer? I'm committed to finding a fair outcome for both of us."</em></p>
+
+      <h3>Declining an Unreasonable Request</h3>
+      <p><em>"Hi [Name], I understand your position, and I've considered it carefully. However, based on our signed agreement dated [date] and the scope document approved on [date], [the disputed item] was not included in the project scope. I'm happy to quote this as additional work if you'd like it completed. For the current scope, the invoice of $[amount] reflects the agreed work which has been delivered."</em></p>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">How to Write a Freelance Contract</a> — The #1 dispute prevention tool</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">How to Handle Scope Creep</a> — Stop scope disputes before they start</li>
+        <li><a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">How to Chase Overdue Invoices</a> — Escalation framework and letter of demand</li>
+        <li><a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">Late Payment Fees in Australia</a> — Legal framework for charging interest</li>
+        <li><a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">Client Red Flags</a> — Screen out problem clients early</li>
+        <li><a href="/blog/how-to-fire-client-professionally-freelancer" class="text-teal-400 hover:text-teal-300 underline">How to Fire a Client</a> — When resolution isn't possible</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Clear invoices reduce payment disputes</li>
+      </ul>
+    `,
+  },
 };
 
 const allSlugs = Object.keys(blogPosts);
