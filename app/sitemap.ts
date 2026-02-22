@@ -4,7 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://invoiceflow-teal.vercel.app';
 
   const competitors = ['quickbooks', 'xero', 'myob', 'zoho', 'freshbooks', 'wave', 'bonsai', 'honeybook'];
-  const blogSlugs = ['how-to-create-tax-invoice-australia', 'gst-guide-australian-freelancers', 'freelance-rates-australia', 'invoicing-international-clients-australia', 'best-invoicing-software-australia', 'sole-trader-vs-company-australia', 'why-freelancers-dont-need-accounting-software', 'get-clients-pay-invoices-faster', 'freelance-invoice-checklist', 'tax-deductions-australian-freelancers', 'bas-guide-australian-freelancers', 'how-to-register-abn-australia'];
+  const blogSlugs = ['how-to-create-tax-invoice-australia', 'gst-guide-australian-freelancers', 'freelance-rates-australia', 'invoicing-international-clients-australia', 'best-invoicing-software-australia', 'sole-trader-vs-company-australia', 'why-freelancers-dont-need-accounting-software', 'get-clients-pay-invoices-faster', 'freelance-invoice-checklist', 'tax-deductions-australian-freelancers', 'bas-guide-australian-freelancers', 'how-to-register-abn-australia', 'superannuation-for-freelancers-australia', 'late-payment-fees-australia-freelancers', 'how-to-start-freelancing-australia'];
 
   return [
     { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },

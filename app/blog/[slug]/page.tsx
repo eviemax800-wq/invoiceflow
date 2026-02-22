@@ -1567,6 +1567,528 @@ export const blogPosts: Record<string, BlogPost> = {
       <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> helps you create professional, ATO-compliant invoices with your ABN, GST calculations, and payment tracking — all powered by AI. Free for up to 5 invoices/month.</p>
     `,
   },
+  'superannuation-for-freelancers-australia': {
+    slug: 'superannuation-for-freelancers-australia',
+    title: 'Superannuation for Australian Freelancers: Complete Guide (2026)',
+    excerpt: 'Everything freelancers and sole traders need to know about super in Australia — contribution rates, tax deductions, choosing a fund, and the new contractor obligations.',
+    category: 'Tax & Super',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Superannuation for Freelancers Australia | 2026 Super Guide',
+    seoDescription: 'Complete guide to superannuation for Australian freelancers and sole traders. Learn the 11.5% SG rate, tax deductions, choosing a fund, and contractor super obligations.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">As a freelancer in Australia, nobody's paying super for you. That's both a risk and an opportunity. This guide covers everything you need to know about superannuation as a self-employed Australian — including the tax deductions most freelancers miss.</p>
+
+      <h2>Do Freelancers Have to Pay Super?</h2>
+      <p>If you're a <strong>sole trader or independent contractor</strong>, you're generally not required to pay super for yourself. It's voluntary. However, there are critical exceptions:</p>
+      <ul>
+        <li><strong>If you're "principally for labour"</strong> — If you work under a contract that's mainly for your personal labour and skill (not supplying materials or equipment), the entity paying you may be required to pay your super. This applies even if you have an ABN.</li>
+        <li><strong>If you employ anyone</strong> — You must pay super for employees at the current SG rate</li>
+        <li><strong>If you're a contractor but effectively an employee</strong> — The ATO may deem you an employee for super purposes, making the hiring entity liable</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Important: Contractor Super Changes</h3>
+        <p class="text-slate-300 text-sm">The "principally for labour" test catches many freelancers who think they're exempt. If you provide services to a single client, work on their premises, or use their tools — the client may owe you super at 11.5%. If you suspect this applies to you, check with the ATO or an accountant. Getting this wrong creates big back-payment liabilities for both parties.</p>
+      </div>
+
+      <h2>The 2025-26 Super Guarantee Rate</h2>
+      <p>The SG rate for 2025-26 is <strong>11.5%</strong> of ordinary time earnings. This rate is legislated to increase:</p>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Financial Year</th>
+            <th class="text-left py-3 px-4 text-slate-400">SG Rate</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">2024-25</td><td class="py-3 px-4">11.5%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">2025-26</td><td class="py-3 px-4">11.5%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">2026-27 onwards</td><td class="py-3 px-4">12%</td></tr>
+        </tbody>
+      </table>
+      <p>For freelancers paying voluntarily, these rates are a useful benchmark — contributing at least 11.5% keeps you on par with employees.</p>
+
+      <h2>Why You Should Pay Super (Even Though You Don't Have To)</h2>
+      <p>Most freelancers skip super. Here's why that's a mistake:</p>
+
+      <h3>1. Tax Deduction</h3>
+      <p>Personal super contributions are <strong>fully tax-deductible</strong> up to the concessional cap ($30,000/year for 2025-26). This means:</p>
+      <ul>
+        <li>Earning $120K? Contributing $20K to super saves you ~$7,400 in tax (at the 37% marginal rate + 2% Medicare)</li>
+        <li>The contribution is taxed at 15% inside super — that's a 22% tax saving on every dollar contributed</li>
+        <li>You can claim the deduction on your tax return by lodging a "Notice of Intent to Claim" with your super fund</li>
+      </ul>
+
+      <h3>2. Compound Growth</h3>
+      <p>Super earnings are taxed at 15% (vs your marginal rate of up to 45%). Starting at 30, contributing $500/month to super with 7% average returns gives you approximately $800,000 by age 60. Starting at 40? About $370,000. The gap is $430,000 — that's what 10 years of compounding buys.</p>
+
+      <h3>3. Government Co-Contribution</h3>
+      <p>If your total income is under $58,445 (2025-26), the government matches 50c for every $1 you contribute (after-tax/non-concessional) up to $500/year. Free money — most freelancers earning modestly don't know about this.</p>
+
+      <h3>4. Spouse Contribution Tax Offset</h3>
+      <p>If your spouse earns under $40,000, you can contribute to their super and claim a tax offset of up to $540.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Freelancer Super Strategy</h3>
+        <p class="text-slate-300 text-sm">The optimal approach for most freelancers earning $80K-$200K: (1) Contribute enough to maximise the tax deduction without exceeding the $30K concessional cap. (2) Lodge a Notice of Intent to Claim before doing your tax return. (3) Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">freelance rate calculator</a> to factor super into your hourly rate — otherwise you're effectively subsidising your retirement from your hourly earnings.</p>
+      </div>
+
+      <h2>How to Contribute to Your Own Super</h2>
+
+      <h3>Step 1: Choose a Super Fund</h3>
+      <p>If you don't already have one from previous employment, compare funds based on:</p>
+      <ul>
+        <li><strong>Fees:</strong> Industry funds (e.g., AustralianSuper, HESTA, UniSuper) typically charge 0.5-1% vs retail funds at 1-2%+</li>
+        <li><strong>Performance:</strong> Check 10-year returns (after fees) on the ATO's YourSuper comparison tool</li>
+        <li><strong>Insurance:</strong> Most funds include basic life + TPD + income protection</li>
+        <li><strong>Investment options:</strong> Choose your risk level (growth/balanced/conservative)</li>
+      </ul>
+      <p>For most freelancers, a low-fee industry fund in a "growth" or "high growth" option is the best choice — you're decades from retirement, so maximise growth.</p>
+
+      <h3>Step 2: Make Contributions</h3>
+      <p>Two ways to contribute:</p>
+      <ul>
+        <li><strong>BPAY/direct transfer</strong> to your super fund's nominated account. Use your member number as reference.</li>
+        <li><strong>Set up a recurring transfer</strong> (e.g., $500/fortnight) so you don't have to think about it</li>
+      </ul>
+      <p>Tip: Many freelancers set aside super in a separate bank account (11.5% of every invoice payment) and transfer to super quarterly — aligning with <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS lodgement</a> dates.</p>
+
+      <h3>Step 3: Lodge a Notice of Intent to Claim</h3>
+      <p>This is the step most people miss. To claim the tax deduction, you must:</p>
+      <ol>
+        <li>Complete a "Notice of intent to claim or vary a deduction for personal super contributions" form (available from your fund or the ATO)</li>
+        <li>Send it to your super fund <strong>before</strong> lodging your tax return</li>
+        <li>Receive an acknowledgement from your fund</li>
+        <li>Include the deduction in your tax return</li>
+      </ol>
+      <p><strong>If you skip this step, you cannot claim the deduction.</strong> The timing matters — the notice must be lodged before you do your tax return or roll over/withdraw the money.</p>
+
+      <h2>Contribution Caps (2025-26)</h2>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Type</th>
+            <th class="text-left py-3 px-4 text-slate-400">Cap</th>
+            <th class="text-left py-3 px-4 text-slate-400">Tax Treatment</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Concessional (before-tax)</td><td class="py-3 px-4">$30,000/year</td><td class="py-3 px-4">Taxed at 15% in fund, deductible for you</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Non-concessional (after-tax)</td><td class="py-3 px-4">$120,000/year</td><td class="py-3 px-4">Not taxed going in, earnings taxed at 15%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Carry-forward unused</td><td class="py-3 px-4">Up to 5 years if balance &lt;$500K</td><td class="py-3 px-4">Same as concessional</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Carry-forward is powerful for freelancers</strong> with variable income. Had a quiet year and only contributed $5K? Next year you can contribute up to $55K ($30K current year + $25K carry-forward) if your total super balance is under $500K. This is perfect for freelancers who have lumpy income — make a big contribution after a great project.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Exceeding the Cap</h3>
+        <p class="text-slate-300 text-sm">Go over the $30K concessional cap and the excess is added to your assessable income and taxed at your marginal rate (minus the 15% already paid). You also pay an interest charge. The ATO will notify you — don't panic, but don't ignore it. You can elect to withdraw the excess from your fund.</p>
+      </div>
+
+      <h2>Super and Your Freelance Rate</h2>
+      <p>When you're employed, super is on top of your salary. As a freelancer, super comes out of your earnings. If you want to contribute 11.5% to super, you need to factor it into your rate.</p>
+      <p>Example: If you want to take home $80K after super and tax:</p>
+      <ul>
+        <li>Super (11.5%): $10,353</li>
+        <li>Pre-super income needed: ~$90,353</li>
+        <li>Plus tax on $90,353: ~$21,442 (incl Medicare)</li>
+        <li>Gross income needed: ~$111,795</li>
+        <li>Working 1,760 billable hours/year: <strong>~$63.50/hour minimum</strong></li>
+      </ul>
+      <p>Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">freelance rate calculator</a> to compute your rate with super included.</p>
+
+      <h2>Super vs Other Investments</h2>
+      <p>Should you put money in super or invest outside it? The short answer: <strong>do both</strong>, but super first for the tax benefit.</p>
+      <ul>
+        <li><strong>Super advantage:</strong> 15% tax on contributions + 15% on earnings = huge tax savings vs marginal rate</li>
+        <li><strong>Super disadvantage:</strong> Locked until preservation age (currently 60). Can't touch it for emergencies or business needs</li>
+        <li><strong>Strategy:</strong> Max the concessional cap ($30K) for the tax deduction, then invest additional savings outside super for liquidity</li>
+      </ul>
+      <p>As a freelancer, liquidity matters more than for employees (no sick pay, no paid leave). Don't lock all your savings in super — keep 3-6 months of expenses accessible. See our <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductions guide</a> for other ways to reduce your tax bill.</p>
+
+      <h2>Common Super Mistakes Freelancers Make</h2>
+
+      <h3>1. Not Contributing at All</h3>
+      <p>The biggest mistake. Skipping super for 5-10 years costs hundreds of thousands in compound growth. Even $200/month is better than nothing.</p>
+
+      <h3>2. Forgetting the Notice of Intent</h3>
+      <p>Contribute $20K but forget to lodge the notice? You've just made a non-concessional contribution — no tax deduction. Always lodge the notice before your tax return.</p>
+
+      <h3>3. Multiple Super Accounts</h3>
+      <p>Many freelancers have 3-4 accounts from previous jobs, each charging fees. Consolidate into one fund via myGov. Exceptions: if one fund has better insurance or you'd trigger a capital gains event.</p>
+
+      <h3>4. Wrong Investment Option</h3>
+      <p>If you're under 45, "conservative" or "balanced" options likely cost you returns over decades. For long time horizons, growth or high growth options historically outperform — you can ride out volatility.</p>
+
+      <h3>5. Not Factoring Super into Your Rate</h3>
+      <p>If your rate doesn't account for 11.5% super, you're effectively paying yourself less than an equivalent employee. Calculate what you need using our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">rate calculator</a>.</p>
+
+      <h2>Key Takeaways</h2>
+      <ul>
+        <li>Freelancer super is technically voluntary (for genuine sole traders) but strategically essential</li>
+        <li>The 2025-26 SG rate is 11.5%, rising to 12% from 2026-27</li>
+        <li>Concessional contributions up to $30K/year are tax-deductible (saving up to 22% vs marginal rate)</li>
+        <li>You MUST lodge a Notice of Intent to Claim the deduction</li>
+        <li>Factor super into your freelance rate or you're subsidising retirement from earnings</li>
+        <li>Carry-forward unused caps make super ideal for freelancers with variable income</li>
+      </ul>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> helps you track your income, send ATO-compliant invoices, and stay on top of your freelance finances — making it easier to plan and fund your super contributions. Free to start.</p>
+    `,
+  },
+  'late-payment-fees-australia-freelancers': {
+    slug: 'late-payment-fees-australia-freelancers',
+    title: 'Late Payment Fees in Australia: What Freelancers Can Legally Charge',
+    excerpt: 'Can you charge interest on overdue invoices in Australia? Yes — but only if you set it up correctly. Here\'s the legal framework, recommended rates, and how to enforce payment.',
+    category: 'Getting Paid',
+    readTime: '8 min read',
+    date: 'February 2026',
+    seoTitle: 'Late Payment Fees Australia | What Freelancers Can Legally Charge',
+    seoDescription: 'Can Australian freelancers charge late payment fees? Yes. Learn the legal framework, recommended interest rates, contractual requirements, and how to enforce overdue invoices.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Late payments are the single biggest cash flow killer for Australian freelancers. The average small business invoice in Australia is paid 6.4 days late, and 30% of invoices are paid after terms. You can charge late payment fees — but only if you do it right. Here's exactly how.</p>
+
+      <h2>Can You Legally Charge Late Fees in Australia?</h2>
+      <p><strong>Yes.</strong> There's no Australian law that prevents you from charging interest or fees on overdue invoices. However, there are two requirements:</p>
+      <ol>
+        <li><strong>The fee must be agreed to in advance</strong> — either in your contract, terms of service, or stated clearly on the invoice before the work begins</li>
+        <li><strong>The fee must be reasonable</strong> — the Australian Consumer Law prohibits "unfair contract terms." A 2% monthly interest charge (24% p.a.) is generally accepted. A 50% penalty is not.</li>
+      </ol>
+      <p>You cannot unilaterally impose late fees after the fact. If your contract doesn't mention late payment terms and your invoice doesn't either, you have no legal basis to charge them — you can only ask nicely.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Golden Rule</h3>
+        <p class="text-slate-300 text-sm">Put late payment terms in writing BEFORE you start work. The best place: your freelance contract or terms of engagement. Second best: clearly stated on every invoice. Without prior written agreement, late fees are unenforceable — no matter how justified they feel.</p>
+      </div>
+
+      <h2>Recommended Late Payment Rates</h2>
+      <p>There's no legally prescribed rate for B2B late payments in Australia (unlike the EU which has a statutory rate). These are the most common and defensible rates:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Rate Type</th>
+            <th class="text-left py-3 px-4 text-slate-400">Typical Range</th>
+            <th class="text-left py-3 px-4 text-slate-400">Notes</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Monthly interest</td><td class="py-3 px-4">1.5% - 2%</td><td class="py-3 px-4">Most common. 2%/month = 24% p.a.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Annual interest</td><td class="py-3 px-4">10% - 24% p.a.</td><td class="py-3 px-4">Often tied to RBA rate + margin</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Flat fee</td><td class="py-3 px-4">$25 - $50 per reminder</td><td class="py-3 px-4">Administrative cost recovery</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Debt recovery costs</td><td class="py-3 px-4">Actual costs</td><td class="py-3 px-4">Can charge if specified in contract</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Our recommendation:</strong> 1.5% per month (18% p.a.) is the sweet spot — high enough to motivate prompt payment, low enough to be clearly reasonable if ever challenged. Pair it with a flat $25 admin fee for each overdue reminder sent.</p>
+
+      <h2>How to Set Up Late Payment Terms</h2>
+
+      <h3>1. Include in Your Contract</h3>
+      <p>Your freelance contract should include a payment clause like this:</p>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 bg-white/5">
+        <p class="text-slate-300 text-sm font-mono">"Payment is due within [14/30] days of invoice date. Invoices not paid within the specified terms will incur a late payment fee of 1.5% per month on the outstanding balance, calculated from the due date until payment is received in full. An administrative fee of $25 per reminder may also be charged. The Client agrees to reimburse reasonable debt recovery costs if collection action is required."</p>
+      </div>
+
+      <h3>2. State on Every Invoice</h3>
+      <p>Even if your contract covers it, include a brief note on every invoice:</p>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 bg-white/5">
+        <p class="text-slate-300 text-sm font-mono">"Payment terms: Due within 14 days. Late payments attract 1.5% monthly interest per our agreed terms."</p>
+      </div>
+      <p>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create professional invoices with payment terms and notes built in.</p>
+
+      <h3>3. Send Clear Payment Reminders</h3>
+      <p>Before charging late fees, send reminders. A typical sequence:</p>
+      <ul>
+        <li><strong>Day before due:</strong> Friendly reminder that payment is due tomorrow</li>
+        <li><strong>Due date:</strong> Confirmation that the invoice is now due</li>
+        <li><strong>7 days overdue:</strong> First overdue notice — mention late fees will apply</li>
+        <li><strong>14 days overdue:</strong> Second notice — include calculated late fee amount</li>
+        <li><strong>30 days overdue:</strong> Final notice — warn of formal collection/legal action</li>
+      </ul>
+      <p>For more strategies, read our guide on <a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">getting clients to pay invoices faster</a>.</p>
+
+      <h2>Overdue Invoice Follow-Up Templates</h2>
+
+      <h3>7-Day Overdue Email</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 bg-white/5">
+        <p class="text-slate-300 text-sm">Subject: Invoice [#INV-001] — Payment Now Overdue</p>
+        <br/>
+        <p class="text-slate-300 text-sm">Hi [Name],</p>
+        <br/>
+        <p class="text-slate-300 text-sm">I wanted to follow up on invoice #INV-001 for $[amount], which was due on [date]. The payment is now 7 days overdue.</p>
+        <br/>
+        <p class="text-slate-300 text-sm">Please arrange payment at your earliest convenience. As noted in our agreement, a late fee of 1.5% per month applies to overdue balances.</p>
+        <br/>
+        <p class="text-slate-300 text-sm">If you've already sent payment, please disregard this note. Otherwise, let me know if there are any issues I can help resolve.</p>
+        <br/>
+        <p class="text-slate-300 text-sm">Thanks,<br/>[Your Name]</p>
+      </div>
+
+      <h3>30-Day Overdue Email</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 bg-white/5">
+        <p class="text-slate-300 text-sm">Subject: URGENT: Invoice [#INV-001] — 30 Days Overdue</p>
+        <br/>
+        <p class="text-slate-300 text-sm">Hi [Name],</p>
+        <br/>
+        <p class="text-slate-300 text-sm">Invoice #INV-001 for $[amount] is now 30 days past due. A late fee of $[fee amount] has been applied per our agreed terms, bringing the total outstanding to $[total].</p>
+        <br/>
+        <p class="text-slate-300 text-sm">I need to receive payment within the next 7 days. If payment is not received by [date], I will need to escalate this through formal debt recovery channels, with all associated costs passed on per our contract terms.</p>
+        <br/>
+        <p class="text-slate-300 text-sm">I'd much prefer to resolve this between us. Please reply to confirm when payment will be made.</p>
+        <br/>
+        <p class="text-slate-300 text-sm">Regards,<br/>[Your Name]</p>
+      </div>
+
+      <h2>What If They Still Don't Pay?</h2>
+      <p>If your invoices remain unpaid after 30-60 days, you have several options:</p>
+
+      <h3>1. Formal Letter of Demand</h3>
+      <p>A letter of demand is a formal written notice stating the debt, the amount including late fees, and a deadline (usually 14 days). It signals that you're serious and is often required before legal action. Templates are available from legal aid services.</p>
+
+      <h3>2. Debt Collection Agency</h3>
+      <p>Collection agencies typically charge 10-25% of the recovered amount. They handle the chasing so you can focus on work. Worth it for debts over $1,000 where you've exhausted friendly options.</p>
+
+      <h3>3. Small Claims Tribunal</h3>
+      <p>For debts under $25,000 in most states (varies by jurisdiction):</p>
+      <ul>
+        <li><strong>NSW:</strong> NSW Civil and Administrative Tribunal (NCAT) — debts up to $100K</li>
+        <li><strong>VIC:</strong> Victorian Civil and Administrative Tribunal (VCAT) — debts up to $100K</li>
+        <li><strong>QLD:</strong> Queensland Civil and Administrative Tribunal (QCAT) — debts up to $25K</li>
+      </ul>
+      <p>Filing fees are typically $50-$300. You don't need a lawyer. The process takes 4-12 weeks.</p>
+
+      <h3>4. Payment Plan Negotiation</h3>
+      <p>Sometimes the client genuinely can't pay the full amount right now. Offering a payment plan (e.g., 3 monthly instalments) often recovers more than hardline collection. Get the plan in writing with dates and amounts.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Prevention &gt; Collection</h3>
+        <p class="text-slate-300 text-sm">The best late payment strategy is not needing one. Use our <a href="/blog/freelance-invoice-checklist" class="text-teal-400 hover:text-teal-300 underline">invoice checklist</a> to make sure every invoice is clear and complete. Request deposits (30-50% upfront) for new clients. Use milestone billing for large projects. And always have a signed contract before starting work.</p>
+      </div>
+
+      <h2>GST on Late Payment Fees</h2>
+      <p>Good news: <strong>interest charges on overdue invoices are GST-free</strong> under Division 40 of the GST Act. You don't need to add GST to your late payment interest. However, if you charge a flat "administration fee" (not interest), the ATO may consider it part of your supply — meaning GST could apply if you're registered. Safest approach: call it "interest" and calculate it as a percentage of the overdue amount.</p>
+      <p>For more on GST, see our complete <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST guide for freelancers</a>. Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to check amounts.</p>
+
+      <h2>Checklist: Setting Up Late Payment Protection</h2>
+      <ul>
+        <li>Include late payment clause in your freelance contract (1.5%/month + $25 admin fee + debt recovery costs)</li>
+        <li>Add payment terms note on every invoice (due date + late fee reference)</li>
+        <li>Request 30-50% deposit from new clients before starting work</li>
+        <li>Set up automatic payment reminders (day before, due date, +7, +14, +30)</li>
+        <li>Keep records of all communication about overdue payments</li>
+        <li>Have a letter of demand template ready (legal aid websites have free ones)</li>
+        <li>Know your state's small claims tribunal and fee structure</li>
+      </ul>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> tracks your invoice payment status, sends automated reminders, and flags overdue invoices — so you spend less time chasing and more time earning. Free for up to 5 invoices/month.</p>
+    `,
+  },
+  'how-to-start-freelancing-australia': {
+    slug: 'how-to-start-freelancing-australia',
+    title: 'How to Start Freelancing in Australia: Complete Beginner Guide (2026)',
+    excerpt: 'Everything you need to start freelancing in Australia — from getting an ABN and setting your rates to sending your first invoice and managing tax. The complete step-by-step guide.',
+    category: 'Getting Started',
+    readTime: '12 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Start Freelancing in Australia | Complete Beginner Guide 2026',
+    seoDescription: 'Complete guide to starting a freelance business in Australia. Covers ABN registration, setting rates, invoicing, GST, tax deductions, superannuation, and finding clients.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Australia has over 1.1 million independent contractors and freelancers — and the number grows every year. Whether you're leaving a full-time job, starting a side hustle, or going all-in from day one, this guide covers every step from zero to your first paid invoice.</p>
+
+      <h2>Step 1: Get Your ABN</h2>
+      <p>Your ABN (Australian Business Number) is the first thing you need. It's free, takes 10 minutes, and you usually get it instantly.</p>
+      <ul>
+        <li>Go to <strong>abr.gov.au</strong> — the only legitimate, free registration site</li>
+        <li>Choose <strong>Sole Trader</strong> as your business structure (right for most freelancers)</li>
+        <li>You'll need your TFN, address, and a description of your business activities</li>
+        <li><strong>Never pay</strong> for ABN registration — scam sites charge $50-200+ for something that's free</li>
+      </ul>
+      <p>Read our <a href="/blog/how-to-register-abn-australia" class="text-teal-400 hover:text-teal-300 underline">detailed ABN registration guide</a> for the full step-by-step process.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Without an ABN, You Lose 47%</h3>
+        <p class="text-slate-300 text-sm">If you invoice without an ABN, your client is legally required to withhold 47% of the payment for tax purposes. Always include your ABN on every invoice. Use our <a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN lookup tool</a> to verify your ABN is active.</p>
+      </div>
+
+      <h2>Step 2: Decide on GST Registration</h2>
+      <p>GST registration is <strong>mandatory if your turnover exceeds $75,000/year</strong>. Below that, it's optional.</p>
+      <p><strong>Register early if:</strong> You sell to businesses (they claim back the GST anyway), you have significant business expenses (you can claim GST credits), or you expect to hit $75K within the year.</p>
+      <p><strong>Wait if:</strong> You sell mainly to individuals (they can't claim GST back, so your prices go up 10%), or your turnover is well under $75K.</p>
+      <p>Read our <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">complete GST guide for freelancers</a> for the full breakdown on registration, BAS lodgement, and claiming credits.</p>
+
+      <h2>Step 3: Set Your Freelance Rate</h2>
+      <p>Your rate needs to cover more than just your living expenses. As a freelancer, you also pay for:</p>
+      <ul>
+        <li><strong>Superannuation</strong> (11.5% — nobody pays this for you)</li>
+        <li><strong>Tax</strong> (including Medicare levy, no PAYG withholding)</li>
+        <li><strong>Leave</strong> (sick days, holidays — all unpaid)</li>
+        <li><strong>Insurance</strong> (professional indemnity, public liability)</li>
+        <li><strong>Business expenses</strong> (software, equipment, office, internet)</li>
+        <li><strong>Non-billable time</strong> (admin, invoicing, marketing, learning — 20-30% of your week)</li>
+      </ul>
+
+      <p>A good rule of thumb: take what you'd earn as an employee and multiply by 1.4-1.6x for your freelance rate. So $80K salary ≈ $55-65/hour freelance rate.</p>
+
+      <p>Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">freelance rate calculator</a> to compute your exact hourly, daily, and annual rates with tax, super, and non-billable time factored in.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Average Australian Freelance Rates (2026)</h3>
+        <p class="text-slate-300 text-sm">Web development: $80-180/hr. Graphic design: $60-120/hr. Writing/copywriting: $50-100/hr. Marketing/SEO: $70-150/hr. Consulting: $100-250/hr. Photography: $80-200/hr. These vary by experience, location, and specialisation. See our full <a href="/blog/freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">freelance rates guide</a> for detailed breakdowns by industry.</p>
+      </div>
+
+      <h2>Step 4: Set Up Your Invoicing</h2>
+      <p>Professional invoicing isn't just about getting paid — it's a legal requirement. Every invoice you send must include:</p>
+      <ul>
+        <li>Your business name and ABN</li>
+        <li>The word "Tax Invoice" (if GST-registered) or "Invoice"</li>
+        <li>Date of issue and a unique invoice number</li>
+        <li>Description of the service provided</li>
+        <li>Amount, GST (if applicable), and total</li>
+        <li>Your payment details (BSB, account number)</li>
+        <li>Payment terms (e.g., "Due within 14 days")</li>
+      </ul>
+      <p>Read our <a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">tax invoice guide</a> for every required field, and use our <a href="/blog/freelance-invoice-checklist" class="text-teal-400 hover:text-teal-300 underline">invoice checklist</a> to make sure you never miss anything.</p>
+      <p>Create professional invoices instantly with our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> — no signup required.</p>
+
+      <h2>Step 5: Open a Business Bank Account</h2>
+      <p>Not legally required for sole traders, but extremely recommended. Benefits:</p>
+      <ul>
+        <li>Clean separation of business and personal finances</li>
+        <li>Easier BAS and tax return preparation</li>
+        <li>Looks more professional when clients pay you</li>
+        <li>Instant visibility of business cash flow</li>
+      </ul>
+      <p>Most Australian banks let you open a business account online with just your ABN. Some charge monthly fees ($5-10/mo); others are free for sole traders. Compare: Up Business (free), Macquarie Business (free, interest-bearing), CBA Smart Access (free first year).</p>
+
+      <h2>Step 6: Get Insurance</h2>
+      <p>At minimum, consider:</p>
+      <ul>
+        <li><strong>Professional Indemnity (PI):</strong> Covers claims if your work causes a client financial loss. Essential for consultants, designers, developers, writers — anyone giving advice or producing work. Most clients require it. Typical cost: $300-800/year.</li>
+        <li><strong>Public Liability (PL):</strong> Covers injury/damage to others or their property. Important if you meet clients in person, attend events, or work on client premises. Typical cost: $200-500/year.</li>
+        <li><strong>Income Protection:</strong> Replaces income if you can't work due to illness or injury. As a freelancer, you have no sick pay — this is your safety net. Check if your super fund includes it.</li>
+      </ul>
+      <p>Insurance premiums are <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax-deductible</a>.</p>
+
+      <h2>Step 7: Understand Your Tax Obligations</h2>
+      <p>As a freelancer, tax works differently than employment:</p>
+
+      <h3>No PAYG Withholding</h3>
+      <p>Nobody withholds tax from your payments. You receive the full invoiced amount. This means you need to set money aside for tax yourself. A good rule: <strong>put 30% of every payment into a separate savings account for tax</strong>.</p>
+
+      <h3>Quarterly BAS</h3>
+      <p>If you're GST-registered, you lodge a Business Activity Statement quarterly. Due dates: Oct 28, Feb 28, Apr 28, Jul 28. See our <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS guide</a>.</p>
+
+      <h3>PAYG Instalments</h3>
+      <p>After your first tax return shows freelance income, the ATO may put you on quarterly PAYG instalments — essentially pre-paying your income tax throughout the year. This is normal, not a penalty.</p>
+
+      <h3>Tax Deductions</h3>
+      <p>Freelancers can claim a lot of deductions that employees can't:</p>
+      <ul>
+        <li>Home office expenses (67c/hour flat rate or actual cost method)</li>
+        <li>Equipment under $20,000 (instant asset write-off)</li>
+        <li>Software subscriptions, internet, phone (business percentage)</li>
+        <li>Professional development and courses</li>
+        <li>Vehicle expenses for business travel</li>
+        <li>Superannuation contributions</li>
+      </ul>
+      <p>Read our complete <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductions guide for freelancers</a> — it covers every deduction you're entitled to.</p>
+
+      <h2>Step 8: Set Up Superannuation</h2>
+      <p>As a sole trader, paying super is voluntary — but skipping it is a mistake. You miss out on:</p>
+      <ul>
+        <li><strong>Tax deductions:</strong> Up to $30K/year of concessional contributions are deductible</li>
+        <li><strong>Compound growth:</strong> Starting 5 years later costs hundreds of thousands at retirement</li>
+        <li><strong>Government co-contributions:</strong> Up to $500/year free if your income is under ~$58K</li>
+      </ul>
+      <p>Aim to contribute at least 11.5% of your income (the current SG rate). Our <a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">super guide for freelancers</a> covers contribution strategies, tax optimisation, and common mistakes.</p>
+
+      <h2>Step 9: Find Your First Clients</h2>
+      <p>The hardest part of freelancing isn't the work — it's finding the work. Proven strategies:</p>
+
+      <h3>Warm Network (Start Here)</h3>
+      <ul>
+        <li>Tell everyone you know that you're freelancing — former colleagues, friends, LinkedIn connections</li>
+        <li>Most first clients come from warm referrals, not cold outreach</li>
+        <li>Offer a "mates rate" for your first 2-3 projects to build testimonials</li>
+      </ul>
+
+      <h3>Freelance Platforms</h3>
+      <ul>
+        <li><strong>Upwork:</strong> Largest platform. Best for ongoing relationships. Higher rates than Fiverr. Australian freelancers average $74/hr.</li>
+        <li><strong>Fiverr:</strong> Good for productised services (logos, website builds, SEO audits). Lower starting rates but quick wins.</li>
+        <li><strong>Freelancer.com:</strong> Australian-owned. Competitive bidding. Lower average rates.</li>
+      </ul>
+
+      <h3>Content Marketing</h3>
+      <ul>
+        <li>Write on LinkedIn about your expertise (3x/week minimum)</li>
+        <li>Answer questions on Reddit in your niche (r/freelance, r/webdev, industry subs)</li>
+        <li>Build a simple portfolio website showing your best work</li>
+      </ul>
+
+      <h3>Direct Outreach</h3>
+      <ul>
+        <li>Identify businesses that need your skill (bad websites, no social media, slow processes)</li>
+        <li>Send short, specific emails: "I noticed [specific issue]. I can fix it in [timeframe] for [price]. Here's an example: [portfolio link]"</li>
+        <li>Follow up once after 5 days. Don't spam.</li>
+      </ul>
+
+      <h2>Step 10: Protect Yourself with Contracts</h2>
+      <p>Never start work without a signed agreement. Your freelance contract should cover:</p>
+      <ul>
+        <li><strong>Scope of work</strong> — Exactly what you'll deliver, and what's out of scope</li>
+        <li><strong>Timeline</strong> — Milestones, deadlines, dependencies on the client</li>
+        <li><strong>Payment terms</strong> — Rate, invoicing schedule, due dates, late fees (see our <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment fees guide</a>)</li>
+        <li><strong>Revisions</strong> — How many rounds are included, cost of extras</li>
+        <li><strong>IP ownership</strong> — Who owns the work product after payment (usually the client)</li>
+        <li><strong>Termination</strong> — How either party can end the engagement, notice period, payment for work done</li>
+      </ul>
+      <p>Free contract templates are available from business.gov.au and various legal template sites.</p>
+
+      <h2>The Freelancer Starter Checklist</h2>
+      <p>Print this and tick off each item:</p>
+      <ul>
+        <li>Register an ABN at abr.gov.au (free, instant)</li>
+        <li>Decide on GST registration (mandatory over $75K turnover)</li>
+        <li>Calculate your freelance rate (use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">rate calculator</a>)</li>
+        <li>Set up professional invoicing (use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">invoice generator</a>)</li>
+        <li>Open a business bank account</li>
+        <li>Get professional indemnity insurance</li>
+        <li>Create a freelance contract template</li>
+        <li>Set up a super fund and start contributing</li>
+        <li>Set aside 30% of income for tax</li>
+        <li>Create a basic portfolio or LinkedIn presence</li>
+        <li>Tell your network you're available</li>
+        <li>Send your first invoice and get paid</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">You Don't Need to Be Perfect</h3>
+        <p class="text-slate-300 text-sm">Most freelancers overthink the setup and delay starting. The truth: you need an ABN and a bank account. Everything else (GST, insurance, fancy website) can come after your first client pays you. Get started, get paid, then optimise.</p>
+      </div>
+
+      <h2>Common Mistakes New Freelancers Make</h2>
+
+      <h3>1. Undercharging</h3>
+      <p>New freelancers often set rates based on their employee salary divided by hours. This ignores super, tax, leave, non-billable time, and expenses. Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">rate calculator</a> — you'll likely find you need to charge more than you think.</p>
+
+      <h3>2. No Contract</h3>
+      <p>Working without a contract means no protection if the client doesn't pay, changes scope, or disputes ownership. A simple contract takes 30 minutes to set up and saves you from disasters.</p>
+
+      <h3>3. Not Saving for Tax</h3>
+      <p>Your first tax bill as a freelancer is a shock if you haven't saved. Set up a separate savings account and transfer 30% of every payment automatically.</p>
+
+      <h3>4. Ignoring Super</h3>
+      <p>Every year without super contributions costs you exponentially at retirement. Start small ($200/month) and increase as income grows.</p>
+
+      <h3>5. Saying Yes to Everything</h3>
+      <p>Bad clients, low-rate projects, and scope creep kill freelance businesses. It's better to say no and wait for the right opportunities than to fill your calendar with unprofitable work.</p>
+
+      <h2>Ready to Start?</h2>
+      <p>You now have everything you need to launch your freelance career in Australia. The setup takes a weekend. The first client might take a few weeks. But every successful freelancer started exactly where you are now.</p>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> handles the invoicing so you can focus on the work. AI-powered, ATO-compliant, and free to start with up to 5 invoices per month. Create your first invoice in under 60 seconds.</p>
+    `,
+  },
 };
 
 const allSlugs = Object.keys(blogPosts);
