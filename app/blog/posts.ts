@@ -7817,4 +7817,624 @@ Best,
       </ul>
     `,
   },
+
+  'freelance-tools-stack-australia': {
+    slug: 'freelance-tools-stack-australia',
+    title: 'Essential Freelance Tools Stack for Australian Freelancers (2026)',
+    excerpt: 'The complete software toolkit every Australian freelancer needs in 2026 — from invoicing and accounting to project management, communication, and AI tools.',
+    category: 'Getting Started',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Essential Freelance Tools Stack Australia 2026 | Software Guide',
+    seoDescription: 'Complete guide to the best software tools for Australian freelancers in 2026. Invoicing, accounting, project management, communication, AI, and more — with pricing.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">You don't need 47 subscriptions to run a freelance business. You need 6-8 tools that actually work together. This guide covers the essential tools stack for Australian freelancers in 2026 — what you need, what you don't, and how to keep costs under $50/month.</p>
+
+      <h2>The Freelance Tools Stack Framework</h2>
+      <p>Every freelance business needs tools across these seven categories. The trick isn't finding the "best" tool in each category — it's finding tools that work together without creating more admin work than they save.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Category</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">What It Does</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Priority</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Invoicing</td><td class="py-3 px-4">Send invoices, track payments, manage GST</td><td class="py-3 px-4 text-green-400">Day 1</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Banking</td><td class="py-3 px-4">Separate business finances, track income</td><td class="py-3 px-4 text-green-400">Day 1</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Communication</td><td class="py-3 px-4">Client emails, video calls, messaging</td><td class="py-3 px-4 text-green-400">Day 1</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Project Management</td><td class="py-3 px-4">Track tasks, deadlines, deliverables</td><td class="py-3 px-4 text-yellow-400">Week 1</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Contracts & Proposals</td><td class="py-3 px-4">Send proposals, sign contracts digitally</td><td class="py-3 px-4 text-yellow-400">Week 1</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Time Tracking</td><td class="py-3 px-4">Log billable hours, track profitability</td><td class="py-3 px-4 text-yellow-400">Month 1</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">AI & Automation</td><td class="py-3 px-4">Accelerate work, automate repetitive tasks</td><td class="py-3 px-4 text-blue-400">Month 1-3</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>1. Invoicing & Payment Tools</h2>
+      <p>This is the one category you can't skip. You need a way to send professional invoices and get paid reliably.</p>
+
+      <h3>What to Look For</h3>
+      <ul>
+        <li><strong>ATO-compliant tax invoices</strong> with ABN, GST, and proper formatting (see <a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">tax invoice guide</a>)</li>
+        <li><strong>Online payment links</strong> — clients who can pay in 2 clicks pay 15-20% faster</li>
+        <li><strong>Automatic payment reminders</strong> — eliminates awkward follow-up emails</li>
+        <li><strong>GST tracking</strong> — auto-calculate GST so BAS time isn't painful</li>
+        <li><strong>Client management</strong> — store client details, payment history, outstanding amounts</li>
+      </ul>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Tool</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Price</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Best For</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">AU Compliance</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">InvoiceFlow</td><td class="py-3 px-4">Free – $19/mo</td><td class="py-3 px-4">Freelancers who want invoicing without accounting bloat</td><td class="py-3 px-4 text-green-400">Full (GST, ABN, BAS)</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Xero</td><td class="py-3 px-4">$35-$78/mo</td><td class="py-3 px-4">Freelancers who need full accounting</td><td class="py-3 px-4 text-green-400">Full</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Wave</td><td class="py-3 px-4">Free – $19/mo</td><td class="py-3 px-4">Budget-conscious, but limited AU features</td><td class="py-3 px-4 text-yellow-400">Partial</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Stripe Invoicing</td><td class="py-3 px-4">0.4% per invoice</td><td class="py-3 px-4">Tech-savvy freelancers already using Stripe</td><td class="py-3 px-4 text-yellow-400">Basic</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Our Pick</h3>
+        <p class="text-slate-300 text-sm">For most Australian freelancers, you don't need Xero or MYOB. You need a tool that sends professional invoices, tracks payments, handles GST, and doesn't charge you $35/month for features you'll never use. See our <a href="/compare" class="text-teal-400 hover:text-teal-300 underline">competitor comparison</a> for the full breakdown.</p>
+      </div>
+
+      <h2>2. Business Banking</h2>
+      <p>A separate business bank account isn't optional — it's how you stay sane at tax time. The <a href="/blog/freelance-bookkeeping-australia" class="text-teal-400 hover:text-teal-300 underline">3-account system</a> (operating + tax + personal) is the simplest way to manage freelance finances.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Bank</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Monthly Fee</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Key Feature</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Up Business</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">Auto-categorisation, multiple savers, instant transfers</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">ING Business</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">Fee-free ATMs, competitive savings rate</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Macquarie Business</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">Offset account, high interest on savings</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">CBA Business</td><td class="py-3 px-4">$10</td><td class="py-3 px-4">Branch access, best Xero integration</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>See the full comparison in our <a href="/blog/best-business-bank-accounts-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">business bank accounts guide</a>.</p>
+
+      <h2>3. Communication Tools</h2>
+      <p>Most freelancers already have these. The key is separating personal and business communication.</p>
+
+      <h3>Email</h3>
+      <ul>
+        <li><strong>Google Workspace</strong> ($9.60/mo) — Professional email (you@yourbusiness.com.au), Google Drive, Calendar</li>
+        <li><strong>Gmail</strong> (free) — Fine for starting out. Create a separate business Gmail</li>
+        <li><strong>Proton Mail</strong> (free – $5.99/mo) — Privacy-focused, good for sensitive client data</li>
+      </ul>
+
+      <h3>Video Calls</h3>
+      <ul>
+        <li><strong>Zoom</strong> (free for 40 min) — Industry standard</li>
+        <li><strong>Google Meet</strong> (free with Gmail) — Good enough for most calls</li>
+        <li><strong>Cal.com</strong> (free) — Open-source Calendly alternative for booking</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Boundary Tip</h3>
+        <p class="text-slate-300 text-sm">Pick ONE primary communication channel per client and stick to it. If a client emails, Slacks, WhatsApps, AND texts you — that's a <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">red flag</a>.</p>
+      </div>
+
+      <h2>4. Project Management</h2>
+      <p>You don't need a project management tool until you're juggling 3+ clients.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Tool</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Free Tier</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Best For</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Notion</td><td class="py-3 px-4">Yes (generous)</td><td class="py-3 px-4">All-in-one: docs, tasks, databases, wikis</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Trello</td><td class="py-3 px-4">Yes (10 boards)</td><td class="py-3 px-4">Visual kanban boards, simple task tracking</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Linear</td><td class="py-3 px-4">Yes (250 issues)</td><td class="py-3 px-4">Developer/designer freelancers</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Google Sheets</td><td class="py-3 px-4">Yes</td><td class="py-3 px-4">Simple tracking, no learning curve</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>5. Contracts & Proposals</h2>
+      <p>E-signatures are legally binding in Australia under the <em>Electronic Transactions Act 1999</em>.</p>
+
+      <ul>
+        <li><strong>DocuSign</strong> (free for 3 signatures/mo) — Industry standard</li>
+        <li><strong>HelloSign</strong> (free for 3 signatures/mo) — Simpler interface</li>
+        <li><strong>PandaDoc</strong> (free for e-signatures) — Proposals + contracts + signatures</li>
+      </ul>
+
+      <p>For contract templates, see our <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">freelance contract guide</a>. For proposals, see the <a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">proposal guide</a>.</p>
+
+      <h2>6. Time Tracking</h2>
+      <p>Even with fixed pricing, tracking time reveals which clients are profitable. Read our <a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">time tracking guide</a> for the full breakdown.</p>
+
+      <ul>
+        <li><strong>Toggl Track</strong> (free for up to 5) — Best free time tracker</li>
+        <li><strong>Clockify</strong> (free unlimited) — Completely free, unlimited projects</li>
+        <li><strong>Harvest</strong> ($10.80/mo) — Time tracking + invoicing in one</li>
+      </ul>
+
+      <h2>7. AI & Automation Tools</h2>
+      <p>If you're not using AI tools in your freelance workflow in 2026, you're working harder than you need to.</p>
+
+      <h3>AI Writing & Communication</h3>
+      <ul>
+        <li><strong>ChatGPT / Claude</strong> — Draft proposals, rewrite emails, brainstorm ideas</li>
+        <li><strong>Grammarly</strong> (free – $18/mo) — Catch errors in client-facing writing</li>
+      </ul>
+
+      <h3>Automation</h3>
+      <ul>
+        <li><strong>Zapier</strong> (free for 100 tasks/mo) — Connect tools together</li>
+        <li><strong>Make.com</strong> (free for 1,000 ops/mo) — More powerful, steeper learning curve</li>
+      </ul>
+
+      <h2>The $0/Month Starter Stack</h2>
+      <p>Just getting started? Here's a complete stack that costs nothing:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Category</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Free Tool</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Limitations</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Invoicing</td><td class="py-3 px-4">InvoiceFlow Free</td><td class="py-3 px-4">5 invoices/month</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Banking</td><td class="py-3 px-4">Up Business</td><td class="py-3 px-4">None</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Email</td><td class="py-3 px-4">Gmail</td><td class="py-3 px-4">No custom domain</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Video Calls</td><td class="py-3 px-4">Google Meet</td><td class="py-3 px-4">60 min limit</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Project Mgmt</td><td class="py-3 px-4">Notion</td><td class="py-3 px-4">Generous free tier</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Contracts</td><td class="py-3 px-4">HelloSign</td><td class="py-3 px-4">3 signatures/month</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Time Tracking</td><td class="py-3 px-4">Clockify</td><td class="py-3 px-4">None</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">AI</td><td class="py-3 px-4">ChatGPT Free</td><td class="py-3 px-4">Limited messages/day</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>Total cost: $0/month.</strong> This handles everything until you're earning $3-5K/month consistently.</p>
+
+      <h2>The Professional Stack ($30-50/month)</h2>
+      <p>Upgrade when you're earning consistently:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Category</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Tool</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Cost/mo</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Invoicing</td><td class="py-3 px-4">InvoiceFlow Pro</td><td class="py-3 px-4">$19</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Email</td><td class="py-3 px-4">Google Workspace</td><td class="py-3 px-4">$9.60</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">AI</td><td class="py-3 px-4">ChatGPT Plus</td><td class="py-3 px-4">$20</td></tr>
+            <tr class="border-b border-white/10 font-semibold"><td class="py-3 px-4">Total</td><td class="py-3 px-4"></td><td class="py-3 px-4">~$49/mo</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Tools You Probably Don't Need</h2>
+      <ul>
+        <li><strong>Full accounting software</strong> (Xero, MYOB, QuickBooks) — see <a href="/blog/why-freelancers-dont-need-accounting-software" class="text-teal-400 hover:text-teal-300 underline">why freelancers don't need accounting software</a></li>
+        <li><strong>CRM software</strong> — A spreadsheet works until 50+ contacts</li>
+        <li><strong>All-in-one platforms</strong> (HoneyBook, Bonsai) — $25-59/month for features you can get free with separate tools</li>
+      </ul>
+
+      <h2>Free Tools for Australian Freelancers</h2>
+      <p>We've built free tools specifically for Australian freelancers — no signup required:</p>
+      <ul>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Add or remove GST instantly</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Invoice Generator</a> — Create professional PDF invoices free</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Rate Calculator</a> — Calculate your ideal hourly rate</li>
+        <li><a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN Lookup & Validator</a> — Verify client ABNs before starting work</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-start-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">How to Start Freelancing in Australia</a> — Complete 10-step getting started guide</li>
+        <li><a href="/blog/freelance-bookkeeping-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Bookkeeping</a> — Simple record-keeping system</li>
+        <li><a href="/blog/best-business-bank-accounts-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Best Business Bank Accounts</a> — Full comparison of AU banks</li>
+        <li><a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Time Tracking Guide</a> — Why and how to track your hours</li>
+        <li><a href="/compare" class="text-teal-400 hover:text-teal-300 underline">Invoicing Software Comparison</a> — How InvoiceFlow compares to the Big 7</li>
+      </ul>
+    `,
+  },
+
+  'how-to-get-repeat-clients-freelancer': {
+    slug: 'how-to-get-repeat-clients-freelancer',
+    title: 'How to Get Repeat Clients and Build Recurring Revenue as a Freelancer',
+    excerpt: 'Stop chasing new clients every month. Learn how to turn one-off projects into ongoing relationships and build predictable monthly income as a freelancer.',
+    category: 'Growth',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Get Repeat Clients as a Freelancer | Recurring Revenue Guide',
+    seoDescription: 'Learn how to turn one-off freelance projects into repeat clients and recurring revenue. Strategies for client retention, retainers, and building predictable income.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">The most expensive thing in freelancing isn't doing the work — it's finding the work. Acquiring a new client costs 5-25x more (in time and effort) than keeping an existing one. Yet most freelancers spend 80% of their marketing effort on new clients and almost nothing on retention.</p>
+
+      <h2>The Economics of Repeat Clients</h2>
+      <p>Say you charge $2,000 per project and spend an average of 5 hours finding each new client.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Metric</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">New Client</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Repeat Client</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Acquisition time</td><td class="py-3 px-4">5 hours</td><td class="py-3 px-4">0.5 hours</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Proposal needed</td><td class="py-3 px-4">Yes</td><td class="py-3 px-4">Usually not</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Onboarding time</td><td class="py-3 px-4">2-3 hours</td><td class="py-3 px-4">0 hours</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Scope creep risk</td><td class="py-3 px-4">Medium-High</td><td class="py-3 px-4">Low</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Payment reliability</td><td class="py-3 px-4">Unknown</td><td class="py-3 px-4">Proven</td></tr>
+            <tr class="border-b border-white/10 font-semibold"><td class="py-3 px-4">Effective hourly rate</td><td class="py-3 px-4">Lower</td><td class="py-3 px-4">20-40% higher</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>A freelancer with 5 repeat clients earning $2,000/month each has a <strong>$120K/year business with zero marketing costs</strong>.</p>
+
+      <h2>Why Clients Don't Come Back</h2>
+      <ol>
+        <li><strong>They didn't know you offered more.</strong> You delivered a logo and they didn't realise you also do brand guidelines and social templates. #1 reason — easiest to fix</li>
+        <li><strong>The project ended and nobody followed up.</strong> Out of sight, out of mind</li>
+        <li><strong>The experience was fine but not memorable.</strong> "Fine" doesn't create loyalty</li>
+        <li><strong>They had a bad experience.</strong> Late delivery, communication gaps, unexpected costs</li>
+        <li><strong>Their needs changed.</strong> They hired in-house, pivoted, or ran out of budget</li>
+      </ol>
+
+      <h2>7 Strategies for Repeat Business</h2>
+
+      <h3>1. The "What's Next" Email</h3>
+      <p>Within 48 hours of delivering the final project, send an email that includes:</p>
+      <ul>
+        <li>Genuine thanks for the project</li>
+        <li>A summary of what was delivered and its expected impact</li>
+        <li><strong>2-3 specific suggestions for what they should do next</strong> — and how you can help</li>
+      </ul>
+      <p><em>"Now that your website is live, the three things that would maximise your investment are: (1) setting up Google Analytics, (2) creating 4-5 blog posts targeting your key search terms, and (3) optimising your Google Business Profile. I can help with all three — happy to send a proposal."</em></p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Why This Works</h3>
+        <p class="text-slate-300 text-sm">You're not asking "do you have more work?" (needy). You're showing them exactly what they need next (valuable). You're positioning yourself as someone who understands their business.</p>
+      </div>
+
+      <h3>2. The 90-Day Check-In System</h3>
+      <p>Set a calendar reminder for 90 days after every project. Reach out with a genuine question about how the deliverable is performing, one useful observation, and an open door.</p>
+
+      <h3>3. Productise Follow-On Services</h3>
+      <p>Turn common "what's next" recommendations into packaged services:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Initial Project</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Follow-On Package</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Price</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Website build</td><td class="py-3 px-4">Monthly maintenance + analytics</td><td class="py-3 px-4">$500/mo</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Brand identity</td><td class="py-3 px-4">Quarterly brand refresh + templates</td><td class="py-3 px-4">$300/quarter</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Copywriting</td><td class="py-3 px-4">Monthly blog content (4 posts)</td><td class="py-3 px-4">$1,200/mo</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">App development</td><td class="py-3 px-4">Support + feature retainer</td><td class="py-3 px-4">$2,000/mo</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Fixed packages are easier for clients to approve than open-ended quotes. See our <a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">retainer agreements guide</a> for templates.</p>
+
+      <h3>4. Deliver More Than Expected (Strategically)</h3>
+      <p>Not unpaid work. Strategic extras that cost you 15 minutes but save them 2 hours — like a mobile-responsive version they didn't ask for, or a brief competitive analysis alongside new copy.</p>
+
+      <h3>5. Build a Referral Engine</h3>
+      <p>Happy clients won't refer you unless you make it easy:</p>
+      <ul>
+        <li>Ask directly after successful delivery</li>
+        <li>Be specific: <em>"I'm looking for more [industry] clients who need [specific thing]"</em></li>
+        <li>Consider a referral incentive: 10% off next project per referral</li>
+        <li>Send a pre-written referral email they can forward</li>
+      </ul>
+
+      <p>More strategies in our <a href="/blog/how-to-find-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">finding clients guide</a>.</p>
+
+      <h3>6. Create a Client Newsletter</h3>
+      <p>Monthly, under 300 words. Industry news, tips, a brief case study, and one subtle CTA: "Currently booking for [month] — reply if you have something coming up."</p>
+
+      <h3>7. Offer Retainer Packages</h3>
+      <p>The ultimate recurring revenue model. Key principles:</p>
+      <ul>
+        <li>Start with your best clients only</li>
+        <li>Price for value, not hours</li>
+        <li>Include clear boundaries (what's in, what's extra)</li>
+        <li>Minimum 3-month commitment</li>
+      </ul>
+      <p>Full guide: <a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements for Australian Freelancers</a></p>
+
+      <h2>The Repeat Client Revenue Model</h2>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Month</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Retainer Clients</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Retainer $</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">+ Projects</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Total</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Month 1</td><td class="py-3 px-4">1</td><td class="py-3 px-4">$1,500</td><td class="py-3 px-4">$3,000</td><td class="py-3 px-4">$4,500</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Month 3</td><td class="py-3 px-4">2</td><td class="py-3 px-4">$3,000</td><td class="py-3 px-4">$3,000</td><td class="py-3 px-4">$6,000</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Month 6</td><td class="py-3 px-4">3</td><td class="py-3 px-4">$5,000</td><td class="py-3 px-4">$2,000</td><td class="py-3 px-4">$7,000</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Month 12</td><td class="py-3 px-4">4</td><td class="py-3 px-4">$7,000</td><td class="py-3 px-4">$2,000</td><td class="py-3 px-4">$9,000</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>By Month 12, 78% of income is predictable. Less time marketing, more time doing actual work.</p>
+
+      <h2>Client Retention Checklist</h2>
+      <ol>
+        <li>Send "what's next" email within 48 hours of delivery</li>
+        <li>Ask for a testimonial (use it for your <a href="/blog/freelance-portfolio-guide-australia" class="text-teal-400 hover:text-teal-300 underline">portfolio</a>)</li>
+        <li>Ask for a referral (specific, not generic)</li>
+        <li>Set 90-day calendar reminder for check-in</li>
+        <li>Add to client newsletter list (with permission)</li>
+        <li>Document their preferences and project history</li>
+        <li>Identify 2-3 follow-on services you could offer</li>
+        <li>Create a packaged follow-on proposal</li>
+      </ol>
+
+      <h2>When to Let a Client Go</h2>
+      <p>Not all repeat clients are worth keeping. Let go of clients who:</p>
+      <ul>
+        <li>Consistently pay late despite clear <a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300 underline">payment terms</a></li>
+        <li>Require more management than the work itself</li>
+        <li>Resist price increases after 12+ months</li>
+        <li>Create <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">scope creep</a> on every project</li>
+        <li>Show <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">red flag behaviours</a></li>
+      </ul>
+      <p>See our guide on <a href="/blog/how-to-fire-client-professionally-freelancer" class="text-teal-400 hover:text-teal-300 underline">how to fire a client professionally</a>.</p>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements</a> — Contract templates for recurring engagements</li>
+        <li><a href="/blog/how-to-find-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">How to Find Freelance Clients</a> — 12 strategies for client acquisition</li>
+        <li><a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">How to Write a Winning Proposal</a> — Template for follow-on proposals</li>
+        <li><a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">How to Raise Your Rates</a> — Increase prices for existing clients</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Professional invoices for retainer billing</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a> — Set retainer rates that reflect your true value</li>
+      </ul>
+    `,
+  },
+
+  'digital-marketing-freelancers-australia': {
+    slug: 'digital-marketing-freelancers-australia',
+    title: 'Digital Marketing for Freelancers: How to Get Found Online Without a Big Budget',
+    excerpt: 'A practical guide to SEO, content marketing, LinkedIn, and online presence for Australian freelancers who want more inbound leads without spending thousands on ads.',
+    category: 'Growth',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'Digital Marketing for Freelancers Australia | Get Found Online Guide',
+    seoDescription: 'Practical digital marketing guide for Australian freelancers. SEO, content marketing, LinkedIn strategy, and portfolio optimization to get more inbound clients.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Most freelancers rely on referrals and platforms like Upwork to find clients. That works — until it doesn't. When referrals dry up or platform fees eat your margins, you need clients finding <em>you</em>. This guide covers practical digital marketing strategies that work for solo freelancers without a marketing budget.</p>
+
+      <h2>The Freelancer Marketing Funnel</h2>
+      <p>People don't go from "never heard of you" to "here's $5,000" in one step:</p>
+
+      <ol>
+        <li><strong>Discovery:</strong> They find you (Google, LinkedIn, referral, content)</li>
+        <li><strong>Evaluation:</strong> They check your work (portfolio, testimonials, blog)</li>
+        <li><strong>Trust:</strong> They believe you can solve their problem (case studies, expertise)</li>
+        <li><strong>Contact:</strong> They reach out (form, email, DM)</li>
+        <li><strong>Conversion:</strong> You close the project (proposal, call, contract)</li>
+      </ol>
+
+      <p>Most freelancers focus on Step 5 while neglecting Steps 1-3. If nobody's reaching out, the problem isn't your closing skills — it's your visibility.</p>
+
+      <h2>1. SEO for Freelancers (Free, Long-Term)</h2>
+      <p>SEO is the highest-ROI marketing channel because it works while you sleep. Once a page ranks, it generates leads for months or years with zero ongoing cost.</p>
+
+      <h3>What to Optimise</h3>
+      <ul>
+        <li><strong>Portfolio site</strong> — Include city, services, and niche in the title. "Sarah Chen | UX Designer Melbourne | SaaS & FinTech"</li>
+        <li><strong>Service pages</strong> — One page per core service. "Website Design for Melbourne Small Businesses" ranks better than "My Services"</li>
+        <li><strong>Blog posts</strong> — Write about problems your ideal clients search for</li>
+        <li><strong>Google Business Profile</strong> — Free, shows up in local searches</li>
+      </ul>
+
+      <h3>Quick SEO Wins</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Action</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Time</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Impact</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Set up Google Business Profile</td><td class="py-3 px-4">30 min</td><td class="py-3 px-4 text-green-400">High</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Add city + service to homepage title</td><td class="py-3 px-4">5 min</td><td class="py-3 px-4 text-green-400">High</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Create service-specific landing pages</td><td class="py-3 px-4">2 hrs</td><td class="py-3 px-4 text-green-400">High</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Submit sitemap to Google Search Console</td><td class="py-3 px-4">15 min</td><td class="py-3 px-4 text-yellow-400">Medium</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4">Write 1 blog post targeting a client question</td><td class="py-3 px-4">2-3 hrs</td><td class="py-3 px-4 text-green-400">High (compounds)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">SEO Reality Check</h3>
+        <p class="text-slate-300 text-sm">SEO takes 3-6 months to show results. Commit to one post per week for 3 months, then evaluate. The compounding effect of 12-20 posts generates consistent traffic.</p>
+      </div>
+
+      <h2>2. LinkedIn Strategy (Free, Medium-Term)</h2>
+      <p>LinkedIn is the #1 platform for B2B freelancers. If your clients are businesses, this is your primary social channel.</p>
+
+      <h3>Profile Optimisation</h3>
+      <ul>
+        <li><strong>Headline:</strong> Not "Freelance Designer". Write "I help SaaS companies increase conversions through user-centred design | Melbourne"</li>
+        <li><strong>About section:</strong> Lead with what you do for clients, not your career history</li>
+        <li><strong>Featured section:</strong> Pin your best case studies and articles</li>
+        <li><strong>Recommendations:</strong> Get 5+ from past clients with specific results mentioned</li>
+      </ul>
+
+      <h3>Content Strategy</h3>
+      <ul>
+        <li><strong>Post 3x/week:</strong> Monday (insight/tip), Wednesday (case study), Friday (opinion/question)</li>
+        <li><strong>Format:</strong> Short-form text posts (no links in the post — LinkedIn deprioritises external links)</li>
+        <li><strong>Engagement hack:</strong> Comment on 10 posts from people in your target industry before posting your own</li>
+      </ul>
+
+      <h3>Outreach</h3>
+      <ul>
+        <li>Connect with 5-10 potential clients per week. <strong>No pitch in the connection request</strong></li>
+        <li>Engage with their content for a week before any business conversation</li>
+        <li>Share something genuinely useful, then offer help when the time is right</li>
+      </ul>
+
+      <h2>3. Content Marketing (Free, Long-Term)</h2>
+      <p>Start with the questions your clients ask in discovery calls. Every question is a blog post:</p>
+      <ul>
+        <li>"How much does a website cost in Australia?" → Write that article</li>
+        <li>"What's the difference between a logo and a brand?" → Write that article</li>
+        <li>"Do I need an ABN for my side hustle?" → Write that article (or use our <a href="/blog/how-to-register-abn-australia" class="text-teal-400 hover:text-teal-300 underline">ABN guide</a>)</li>
+      </ul>
+
+      <h3>Content Formats That Work</h3>
+      <ul>
+        <li><strong>How-to guides</strong> — Step-by-step tutorials</li>
+        <li><strong>Comparison posts</strong> — See our <a href="/compare" class="text-teal-400 hover:text-teal-300 underline">comparison pages</a> as an example</li>
+        <li><strong>Case studies</strong> — Project breakdowns showing process and results</li>
+        <li><strong>Resource lists</strong> — "Best tools for [niche]" attract traffic and are easy to write</li>
+      </ul>
+
+      <h3>Content Distribution</h3>
+      <p>Writing is 40% of the work. Distribution is 60%. After publishing:</p>
+      <ol>
+        <li>Share summary on LinkedIn (link in first comment, not the post)</li>
+        <li>Post a discussion on relevant Reddit subreddits</li>
+        <li>Repurpose key points as 3-5 tweets/threads</li>
+        <li>Email to your client list</li>
+      </ol>
+
+      <h2>4. Portfolio & Social Proof</h2>
+      <p>Your portfolio is your 24/7 sales page. Every element should answer: "Can this person solve my problem?"</p>
+      <ul>
+        <li><strong>3-5 best projects</strong> — Quality over quantity</li>
+        <li><strong>Results, not just deliverables</strong> — "Redesigned checkout → 34% increase in conversions" beats "Redesigned the checkout flow"</li>
+        <li><strong>Process documentation</strong> — Clients buy process confidence</li>
+        <li><strong>Specific testimonials</strong> — "Delivered our MVP in 3 weeks, $2K under budget" beats "Great to work with"</li>
+      </ul>
+
+      <p>Full guide: <a href="/blog/freelance-portfolio-guide-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Portfolio Guide</a></p>
+
+      <h2>5. Email Marketing (Almost Free, High-ROI)</h2>
+      <p>Email returns $36 for every $1 spent. Build your list from past clients, blog subscribers, networking contacts, and lead magnets (free templates, checklists, mini-guides).</p>
+
+      <p>Monthly newsletter format: one useful tip, one recent project highlight, one CTA. Keep it under 300 words.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Budget Email Tools</h3>
+        <p class="text-slate-300 text-sm">Mailchimp (500 contacts free), Resend (100 emails/day free), or Buttondown ($0 for 100 subscribers). You don't need a $50/month platform until 1,000+ contacts.</p>
+      </div>
+
+      <h2>6. Community & Reddit Marketing</h2>
+      <p>Australian freelancer communities are goldmines — if you're useful first and promote never.</p>
+
+      <h3>Key Subreddits</h3>
+      <ul>
+        <li><strong>r/AusFinance</strong> (789K members) — Tax, invoicing, business questions</li>
+        <li><strong>r/freelance</strong> (350K members) — Share experience, answer questions</li>
+        <li><strong>r/smallbusiness</strong> — Help with problems you can solve</li>
+        <li><strong>r/webdev, r/graphic_design, r/copywriting</strong> — Niche communities</li>
+      </ul>
+
+      <p>After 50+ helpful comments (4-6 weeks), community members start tagging you when relevant questions come up. Your profile links to your portfolio.</p>
+
+      <h2>The 30-Day Marketing Kickstart</h2>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-white/20">
+              <th class="py-3 px-4 text-teal-400 font-semibold">Week</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Focus</th>
+              <th class="py-3 px-4 text-teal-400 font-semibold">Tasks</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Week 1</td><td class="py-3 px-4">Foundation</td><td class="py-3 px-4">Portfolio live, Google Business Profile, LinkedIn optimised</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Week 2</td><td class="py-3 px-4">Content</td><td class="py-3 px-4">Write 2 blog posts, set up email signup</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Week 3</td><td class="py-3 px-4">Social</td><td class="py-3 px-4">Post 3x on LinkedIn, comment on 30 posts, join 2 Reddit communities</td></tr>
+            <tr class="border-b border-white/10"><td class="py-3 px-4 font-medium">Week 4</td><td class="py-3 px-4">Outreach</td><td class="py-3 px-4">Connect with 20 prospects on LinkedIn, email 5 past contacts, ask 3 clients for testimonials</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>After 30 days, pick the 2 channels that generated the most interest and double down.</p>
+
+      <h2>Metrics to Track</h2>
+      <ul>
+        <li><strong>Inbound enquiries per month</strong> — How many potential clients contact you first</li>
+        <li><strong>Source of each enquiry</strong> — Which channel works best</li>
+        <li><strong>Enquiry-to-project conversion rate</strong> — How many become paying projects</li>
+        <li><strong>Inbound vs outbound project value</strong> — Inbound clients typically pay 15-30% more</li>
+        <li><strong>Cost per client acquired</strong> — Factor marketing time into your <a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">pricing</a></li>
+      </ul>
+
+      <h2>Common Marketing Mistakes</h2>
+      <ol>
+        <li><strong>Trying every channel at once.</strong> Pick 2-3 and do them well</li>
+        <li><strong>Stopping when busy.</strong> Marketing has a 2-3 month lag. Stop now → empty pipeline in Q2</li>
+        <li><strong>Making it about you.</strong> "I'm a talented designer" doesn't attract clients. "I help e-commerce brands increase sales through better UX" does</li>
+        <li><strong>No call to action.</strong> Every piece of content needs a clear next step</li>
+        <li><strong>Ignoring existing clients.</strong> A 5-minute check-in generates more revenue than 5 hours on social media</li>
+      </ol>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-find-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">How to Find Freelance Clients</a> — 12 strategies beyond digital marketing</li>
+        <li><a href="/blog/freelance-portfolio-guide-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Portfolio Guide</a> — Build a portfolio that converts</li>
+        <li><a href="/blog/how-to-get-repeat-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">How to Get Repeat Clients</a> — Client retention for recurring revenue</li>
+        <li><a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">How to Write a Winning Proposal</a> — Convert inbound leads into projects</li>
+        <li><a href="/blog/how-to-start-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">How to Start Freelancing in Australia</a> — Complete getting started guide</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Professional invoicing for new clients</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a> — Price your services before marketing them</li>
+      </ul>
+    `,
+  },
 };
