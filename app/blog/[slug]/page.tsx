@@ -624,6 +624,395 @@ export const blogPosts: Record<string, BlogPost> = {
       <p>Or <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">sign up for InvoiceFlow</a> — AI-powered invoicing built for Australian freelancers. Free to start.</p>
     `,
   },
+  'why-freelancers-dont-need-accounting-software': {
+    slug: 'why-freelancers-dont-need-accounting-software',
+    title: 'Why Freelancers Don\'t Need Accounting Software (Just Invoicing)',
+    excerpt: 'You\'re paying $35-78/month for features you\'ll never use. Here\'s why invoicing software beats accounting software for most Australian freelancers.',
+    category: 'Business',
+    readTime: '8 min read',
+    date: 'February 2026',
+    seoTitle: 'Why Freelancers Don\'t Need Accounting Software | Just Invoice',
+    seoDescription: 'Stop paying for accounting features you don\'t use. Most freelancers only need invoicing software. Compare the cost, complexity, and what you actually need.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Here's a question most freelancers never ask: do you actually need accounting software, or do you just need to send invoices and get paid? For the vast majority of Australian freelancers, the answer is the latter — and the difference saves you $400-900 per year.</p>
+
+      <h2>The Accounting Software Trap</h2>
+      <p>Every invoicing guide eventually tells you to "get accounting software." But look at what these tools actually include:</p>
+      <ul>
+        <li><strong>Chart of accounts</strong> — do you use this? Probably not.</li>
+        <li><strong>Bank reconciliation</strong> — most freelancers do this once a year with their accountant.</li>
+        <li><strong>Inventory management</strong> — you sell services, not stock.</li>
+        <li><strong>Payroll</strong> — you don't have employees.</li>
+        <li><strong>Purchase orders</strong> — you're a freelancer, not a procurement department.</li>
+        <li><strong>Fixed asset depreciation</strong> — your accountant handles this.</li>
+      </ul>
+      <p>You're paying $35-78/month for Xero or $20-275/month for QuickBooks to access features designed for businesses with 10+ employees, multiple departments, and complex reporting needs. Meanwhile, all you actually need to do is send an invoice and get paid.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Real Cost of Overkill</h3>
+        <p class="text-slate-300 text-sm">Xero Grow (unlimited invoices): <strong>$78/month = $936/year</strong>. That's $936 for a tool where you use maybe 3 of its 50+ features. The rest is complexity that slows you down and creates more things to go wrong at BAS time.</p>
+      </div>
+
+      <h2>What Freelancers Actually Need</h2>
+      <p>We surveyed Reddit threads, forums, and freelancer communities. The same 6 needs come up every time:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Need</th>
+            <th class="text-left py-3 px-4 text-slate-400">Accounting Software</th>
+            <th class="text-left py-3 px-4 text-slate-400">Invoicing Software</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Send invoices</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4 text-teal-400">Yes</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Accept online payments</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4 text-teal-400">Yes</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Calculate GST</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4 text-teal-400">Yes</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Track who owes you</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4 text-teal-400">Yes</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Export for accountant</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4 text-teal-400">Yes</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">ABN compliance</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4 text-teal-400">Yes</td></tr>
+          <tr class="border-b border-white/5 font-semibold"><td class="py-3 px-4">Monthly cost</td><td class="py-3 px-4 text-red-400">$35-78+</td><td class="py-3 px-4 text-teal-400">$0-19</td></tr>
+        </tbody>
+      </table>
+
+      <p>Every core freelancer need is met by invoicing software at a fraction of the cost. The extra $30-60/month buys you features your accountant uses once a year — and they have their own software anyway.</p>
+
+      <h2>The Accountant Argument</h2>
+      <p>The most common pushback: "But my accountant wants me on Xero." Let's unpack this:</p>
+      <ul>
+        <li><strong>Accountants recommend Xero because it makes THEIR job easier.</strong> They can log in, see your books, and do tax returns quickly. But you're paying $936/year for their convenience.</li>
+        <li><strong>A CSV export works just as well.</strong> Any good invoicing tool exports your income data as CSV or PDF. Your accountant can import this in minutes.</li>
+        <li><strong>Your accountant handles the complex stuff anyway.</strong> Depreciation schedules, BAS reconciliation, tax planning — they do this whether you're on Xero or not.</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip</h3>
+        <p class="text-slate-300 text-sm">Ask your accountant: "If I give you a clean CSV of all my invoices and a bank statement, can you do my tax return?" The answer is almost always yes. That's all you need — and invoicing software gives you that for free.</p>
+      </div>
+
+      <h2>When You DO Need Accounting Software</h2>
+      <p>To be fair, some freelancers genuinely need full accounting. You probably need it if:</p>
+      <ul>
+        <li><strong>You have employees</strong> — payroll, super contributions, PAYG withholding</li>
+        <li><strong>You sell physical products</strong> — inventory tracking, COGS</li>
+        <li><strong>You have complex expenses</strong> — multiple categories, asset depreciation, vehicle logbooks</li>
+        <li><strong>Revenue exceeds $500K+</strong> — at this point, you need real books</li>
+        <li><strong>You're a contractor with multiple entities</strong> — company + trust structures</li>
+      </ul>
+      <p>If none of these apply to you, invoicing software is almost certainly the right choice.</p>
+
+      <h2>The Cost Comparison</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Tool</th>
+            <th class="text-left py-3 px-4 text-slate-400">Type</th>
+            <th class="text-right py-3 px-4 text-slate-400">Monthly</th>
+            <th class="text-right py-3 px-4 text-slate-400">Annual</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Xero Grow</td><td class="py-3 px-4">Accounting</td><td class="text-right py-3 px-4">$78</td><td class="text-right py-3 px-4 text-red-400">$936</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">MYOB Pro</td><td class="py-3 px-4">Accounting</td><td class="text-right py-3 px-4">$63</td><td class="text-right py-3 px-4 text-red-400">$756</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">QuickBooks Simple Start</td><td class="py-3 px-4">Accounting</td><td class="text-right py-3 px-4">$35</td><td class="text-right py-3 px-4 text-red-400">$420</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">FreshBooks Lite</td><td class="py-3 px-4">Accounting</td><td class="text-right py-3 px-4">$19</td><td class="text-right py-3 px-4 text-amber-400">$228</td></tr>
+          <tr class="border-b border-white/5 bg-teal-500/5"><td class="py-3 px-4 text-teal-400 font-semibold">InvoiceFlow Pro</td><td class="py-3 px-4">Invoicing</td><td class="text-right py-3 px-4">$19</td><td class="text-right py-3 px-4 text-teal-400">$228</td></tr>
+          <tr class="border-b border-white/5 bg-teal-500/5"><td class="py-3 px-4 text-teal-400 font-semibold">InvoiceFlow Free</td><td class="py-3 px-4">Invoicing</td><td class="text-right py-3 px-4">$0</td><td class="text-right py-3 px-4 text-teal-400">$0</td></tr>
+        </tbody>
+      </table>
+
+      <h2>The Simplicity Advantage</h2>
+      <p>Beyond cost, there's a hidden benefit to invoicing-only tools: <strong>less can go wrong</strong>.</p>
+      <ul>
+        <li><strong>Less setup time.</strong> Xero takes 2-4 hours to configure. An invoicing tool takes 5 minutes.</li>
+        <li><strong>Less BAS stress.</strong> Fewer accounts means fewer places for errors to hide.</li>
+        <li><strong>Less learning curve.</strong> You don't need to understand double-entry bookkeeping.</li>
+        <li><strong>Fewer support tickets.</strong> Check the Trustpilot reviews for Xero, MYOB, and QuickBooks — most complaints are about features freelancers don't even use.</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Bottom Line</h3>
+        <p class="text-slate-300 text-sm">If you're a freelancer who sends invoices and uses an accountant for tax time, you don't need accounting software. You need invoicing software. Save $400-900/year and spend it on something that actually grows your business.</p>
+      </div>
+
+      <h2>Try InvoiceFlow Free</h2>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> is built for freelancers who just want to invoice and get paid. No chart of accounts. No inventory management. No payroll. Just invoicing, done right.</p>
+      <ul>
+        <li>Free for up to 5 invoices/month</li>
+        <li>AI-powered GST calculation and invoice creation</li>
+        <li>Online payments via Stripe</li>
+        <li>Export for your accountant in one click</li>
+      </ul>
+      <p>Or try our free tools: <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Invoice Generator</a> | <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> | <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a></p>
+    `,
+  },
+  'get-clients-pay-invoices-faster': {
+    slug: 'get-clients-pay-invoices-faster',
+    title: 'How to Get Clients to Pay Invoices Faster (7 Proven Tactics)',
+    excerpt: 'Late payments cost Australian freelancers $7,000+/year in lost cash flow. These 7 tactics dramatically reduce payment delays.',
+    category: 'Invoicing',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'Get Clients to Pay Invoices Faster | 7 Proven Tactics',
+    seoDescription: 'Stop chasing payments. 7 proven tactics to get clients to pay invoices faster, from payment terms to online payments and follow-up scripts.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Late payments are the silent killer of freelance businesses. The average Australian freelancer waits 33 days to get paid — but the average payment term is 14 days. That gap costs you real money in lost cash flow, stress, and time spent chasing payments instead of doing billable work.</p>
+
+      <h2>The Real Cost of Late Payments</h2>
+      <p>Late payments don't just hurt your bank balance. They compound:</p>
+      <ul>
+        <li><strong>Cash flow gaps:</strong> You still owe GST, super, and tax on money you haven't received</li>
+        <li><strong>Opportunity cost:</strong> Every hour chasing payments is an hour not earning</li>
+        <li><strong>Credit risk:</strong> The longer an invoice is unpaid, the less likely you'll ever see the money</li>
+        <li><strong>Mental health:</strong> Money anxiety is the #1 stressor for freelancers</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Numbers</h3>
+        <p class="text-slate-300 text-sm">Research shows that invoices paid after 90 days have only a <strong>73% chance of being collected</strong>. After 120 days, it drops to 57%. The longer you wait to follow up, the worse your odds.</p>
+      </div>
+
+      <h2>Tactic 1: Send Invoices Immediately</h2>
+      <p>This is the single biggest improvement most freelancers can make. Send the invoice the <strong>same day</strong> you complete the work — or better yet, the same hour.</p>
+      <p>Why it works:</p>
+      <ul>
+        <li>The client remembers the work and its value — it's fresh in their mind</li>
+        <li>It enters their payment cycle sooner (most companies pay on fixed schedules)</li>
+        <li>It signals professionalism — you're running a business, not doing favours</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Data Point</h3>
+        <p class="text-slate-300 text-sm">Invoices sent within 24 hours of project completion are paid <strong>15 days faster</strong> on average than invoices sent a week later. Every day you delay sending is roughly a day added to your payment wait.</p>
+      </div>
+
+      <h2>Tactic 2: Use Shorter Payment Terms</h2>
+      <p>Many freelancers default to "Net 30" because it sounds professional. But studies show:</p>
+      <ul>
+        <li><strong>Net 7:</strong> Average payment in 10 days</li>
+        <li><strong>Net 14:</strong> Average payment in 19 days</li>
+        <li><strong>Net 30:</strong> Average payment in 45 days</li>
+        <li><strong>Due on receipt:</strong> Average payment in 5 days</li>
+      </ul>
+      <p>Clients almost always pay later than the term. If you set Net 30, you'll wait 45+ days. Set Net 7 and you'll wait ~10 days.</p>
+
+      <h2>Tactic 3: Make It Ridiculously Easy to Pay</h2>
+      <p>Every friction point in the payment process adds days. The hierarchy of payment speed:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Payment Method</th>
+            <th class="text-left py-3 px-4 text-slate-400">Avg Days to Pay</th>
+            <th class="text-left py-3 px-4 text-slate-400">Why</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">Online payment link (Stripe)</td><td class="py-3 px-4 text-teal-400">1-3 days</td><td class="py-3 px-4">Click, pay, done</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">PayPal invoice</td><td class="py-3 px-4">3-5 days</td><td class="py-3 px-4">Quick but higher fees</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Bank transfer (BSB/Account)</td><td class="py-3 px-4">7-14 days</td><td class="py-3 px-4">Manual, multi-step</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-red-400">Cheque</td><td class="py-3 px-4 text-red-400">14-30 days</td><td class="py-3 px-4">Mail, deposit, clear</td></tr>
+        </tbody>
+      </table>
+
+      <p>Adding a "Pay Now" button to your invoices is the single best investment in payment speed. <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> includes Stripe-powered payment links on every invoice — clients click one button and you get paid.</p>
+
+      <h2>Tactic 4: Require Upfront Deposits</h2>
+      <p>For projects over $1,000, always require a deposit before starting:</p>
+      <ul>
+        <li><strong>Standard practice:</strong> 50% upfront, 50% on completion</li>
+        <li><strong>Conservative:</strong> 30% upfront, 30% at midpoint, 40% on delivery</li>
+        <li><strong>New clients:</strong> 50% upfront, non-negotiable (protects against ghost clients)</li>
+      </ul>
+      <p>Deposits do three things: they prove the client is serious, they fund your work-in-progress costs, and they reduce the final invoice size (smaller invoices get paid faster).</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">How to Ask for a Deposit</h3>
+        <p class="text-slate-300 text-sm">Frame it as standard practice, not a lack of trust: "We require a 50% deposit to secure your project start date. This covers initial setup and research. The remaining 50% is due on delivery." Most clients expect this — they'd be surprised if you didn't ask.</p>
+      </div>
+
+      <h2>Tactic 5: Send Payment Reminders</h2>
+      <p>Most freelancers are too polite to follow up. But research shows that a single follow-up email on the due date increases on-time payment by 30%. Here's a timeline:</p>
+
+      <h3>Before Due Date (Day -2)</h3>
+      <p><em>"Hi [Name], quick heads-up that invoice #[XX] for $[amount] is due in 2 days ([date]). Payment link: [link]. Let me know if you have any questions."</em></p>
+
+      <h3>On Due Date (Day 0)</h3>
+      <p><em>"Hi [Name], invoice #[XX] for $[amount] is due today. You can pay online here: [link]. Thanks!"</em></p>
+
+      <h3>Overdue (Day +7)</h3>
+      <p><em>"Hi [Name], invoice #[XX] for $[amount] was due [date]. I haven't received payment yet. Can you confirm this is being processed? Payment link: [link]."</em></p>
+
+      <h3>Seriously Overdue (Day +14)</h3>
+      <p><em>"Hi [Name], this is a final reminder for invoice #[XX] ($[amount]), now 14 days overdue. Please arrange payment by [date] to avoid late fees. I'd like to keep our working relationship positive — please let me know if there's an issue."</em></p>
+
+      <h2>Tactic 6: Add Late Payment Terms to Your Contract</h2>
+      <p>Your contract should include clear consequences for late payment. In Australia, common terms include:</p>
+      <ul>
+        <li><strong>Late fee:</strong> 1.5-2% per month on overdue amounts (compound or simple)</li>
+        <li><strong>Work suspension:</strong> "Work will be paused on any active projects until overdue invoices are settled"</li>
+        <li><strong>Collection costs:</strong> "Client agrees to pay reasonable collection costs for overdue amounts"</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Legal Note</h3>
+        <p class="text-slate-300 text-sm">In Australia, you can charge interest on overdue invoices if it's agreed in your contract. Without a contract clause, the default rate under most state legislation is the penalty interest rate published by the relevant court. Always include late payment terms in your freelance agreement.</p>
+      </div>
+
+      <h2>Tactic 7: Invoice the Right Person</h2>
+      <p>This sounds obvious, but it's a common reason invoices sit unpaid for weeks. Before starting any project, confirm:</p>
+      <ul>
+        <li><strong>Who receives the invoice?</strong> Often different from who hired you</li>
+        <li><strong>What format do they need?</strong> Some companies require POs, specific fields, or their invoicing portal</li>
+        <li><strong>What's their payment cycle?</strong> Many companies batch payments on the 1st or 15th — time your invoices accordingly</li>
+        <li><strong>What's their accounts payable email?</strong> ap@company.com, not your contact's personal email</li>
+      </ul>
+
+      <h2>Bonus: Offer a Small Early Payment Discount</h2>
+      <p>A 2% discount for payment within 7 days (called "2/7 Net 30") is surprisingly effective. On a $5,000 invoice, the client saves $100 for paying 23 days early. You lose $100 but gain $4,900 in cash flow three weeks sooner. For most freelancers, the cash flow benefit far outweighs the discount.</p>
+
+      <h2>Automate Everything</h2>
+      <p>The best payment strategy is one that runs itself. <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> automates:</p>
+      <ul>
+        <li>Invoice creation from Gmail with AI</li>
+        <li>One-click payment links on every invoice</li>
+        <li>GST calculation and ABN compliance</li>
+        <li>Payment tracking and overdue alerts</li>
+      </ul>
+      <p>Free for up to 5 invoices/month. Or try our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create a professional invoice right now — no sign-up required.</p>
+    `,
+  },
+  'freelance-invoice-checklist': {
+    slug: 'freelance-invoice-checklist',
+    title: 'What Should a Freelance Invoice Include? (Complete Checklist)',
+    excerpt: 'The definitive checklist of everything your freelance invoice needs. ATO-compliant, professional, and designed to get you paid faster.',
+    category: 'Invoicing',
+    readTime: '7 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelance Invoice Checklist Australia | What to Include',
+    seoDescription: 'Complete checklist of what to include on a freelance invoice in Australia. ATO requirements, professional formatting, and tips to get paid faster.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Missing a single field on your invoice can delay payment by weeks — or worse, trigger 47% withholding tax. This checklist covers every element your freelance invoice needs, from ATO-mandated fields to professional touches that speed up payment.</p>
+
+      <h2>The Essential Checklist</h2>
+      <p>Every freelance invoice in Australia should include these elements. Items marked with * are legally required for tax invoices.</p>
+
+      <h3>Your Business Details</h3>
+      <ul>
+        <li><strong>Business name or your name *</strong> — as registered with the ABR</li>
+        <li><strong>ABN (Australian Business Number) *</strong> — without this, the client must withhold 47% of payment</li>
+        <li><strong>Contact details</strong> — email, phone, address (professional credibility)</li>
+        <li><strong>Logo</strong> — optional but adds professionalism (increases payment speed by 3x according to FreshBooks data)</li>
+      </ul>
+
+      <h3>Client Details</h3>
+      <ul>
+        <li><strong>Client business name *</strong> (required for invoices $1,000+)</li>
+        <li><strong>Client ABN</strong> — not required, but useful for your records</li>
+        <li><strong>Contact person</strong> — the person who approves payment</li>
+        <li><strong>Billing address</strong> — required by some corporate clients</li>
+      </ul>
+
+      <h3>Invoice Details</h3>
+      <ul>
+        <li><strong>"Tax Invoice" or "Invoice" label *</strong> — "Tax Invoice" only if you're GST-registered</li>
+        <li><strong>Unique invoice number *</strong> — sequential (INV-001) or date-based (2026-02-001)</li>
+        <li><strong>Issue date *</strong> — when the invoice was created</li>
+        <li><strong>Due date</strong> — e.g., "Due 7 March 2026" or "Net 14 days"</li>
+        <li><strong>Purchase order number</strong> — if the client provided one (corporate clients often require this)</li>
+      </ul>
+
+      <h3>Line Items</h3>
+      <ul>
+        <li><strong>Description of each service *</strong> — specific enough that the client knows what they're paying for</li>
+        <li><strong>Quantity and unit price *</strong> (required for invoices $1,000+)</li>
+        <li><strong>Line total</strong> — quantity x unit price</li>
+        <li><strong>Date or period of service</strong> — when the work was performed</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip: Be Specific</h3>
+        <p class="text-slate-300 text-sm">Instead of "Design work — $2,000", write "Homepage redesign — wireframes, visual design, responsive mockups (3 rounds of revisions included) — Feb 1-14, 2026 — $2,000". Specific line items reduce payment queries by 60%.</p>
+      </div>
+
+      <h3>Financial Summary</h3>
+      <ul>
+        <li><strong>Subtotal</strong> — total before GST</li>
+        <li><strong>GST amount *</strong> — if GST-registered, show the GST as a separate line or state "Total includes GST of $X"</li>
+        <li><strong>Total amount payable *</strong> — the final amount due</li>
+        <li><strong>Currency</strong> — "AUD" for Australian dollars (critical for international clients)</li>
+      </ul>
+
+      <h3>Payment Details</h3>
+      <ul>
+        <li><strong>Bank account details</strong> — BSB, account number, account name</li>
+        <li><strong>Payment link</strong> — Stripe or PayPal "Pay Now" button (reduces time-to-payment by 50%+)</li>
+        <li><strong>Payment terms</strong> — "Net 7", "Net 14", "Due on receipt"</li>
+        <li><strong>Late payment terms</strong> — "1.5% monthly interest on overdue amounts" (if in your contract)</li>
+        <li><strong>Reference</strong> — what the client should use as a payment reference</li>
+      </ul>
+
+      <h2>GST Rules: Tax Invoice vs Regular Invoice</h2>
+      <p>The type of invoice you send depends on your GST registration:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Scenario</th>
+            <th class="text-left py-3 px-4 text-slate-400">Label</th>
+            <th class="text-left py-3 px-4 text-slate-400">Show GST?</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">GST-registered, AU client</td><td class="py-3 px-4 font-semibold">Tax Invoice</td><td class="py-3 px-4 text-teal-400">Yes — show GST separately</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">GST-registered, overseas client</td><td class="py-3 px-4 font-semibold">Invoice</td><td class="py-3 px-4">No — GST-free export</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Not GST-registered</td><td class="py-3 px-4 font-semibold">Invoice</td><td class="py-3 px-4">No — do NOT show GST</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Critical Warning</h3>
+        <p class="text-slate-300 text-sm">If you're not GST-registered, do NOT charge GST on invoices. It's illegal to collect GST without remitting it to the ATO. Similarly, never label an invoice as "Tax Invoice" unless you are GST-registered and the sale is taxable.</p>
+      </div>
+
+      <h2>Professional Touches That Speed Up Payment</h2>
+      <p>Beyond the legal requirements, these elements make a real difference:</p>
+
+      <h3>1. Professional Design</h3>
+      <p>A well-designed invoice signals that you're running a real business. Studies show professional-looking invoices are paid 3x faster than plain-text invoices.</p>
+
+      <h3>2. Clear Payment Instructions</h3>
+      <p>Don't make the client figure out how to pay you. Include a prominent payment link or button — and repeat your bank details even if you've sent them before.</p>
+
+      <h3>3. Project Summary</h3>
+      <p>A one-line project summary at the top reminds the approver what this was for. "Website redesign — Phase 2 deliverables as per SOW dated 15 Jan 2026."</p>
+
+      <h3>4. Thank You Note</h3>
+      <p>A brief "Thank you for your business" at the bottom. Small touch, but it humanises the transaction and builds goodwill.</p>
+
+      <h2>Common Invoice Mistakes</h2>
+      <ul>
+        <li><strong>Missing ABN</strong> — triggers 47% withholding tax. Always include it.</li>
+        <li><strong>Wrong label</strong> — "Tax Invoice" when not GST-registered, or "Invoice" when you should use "Tax Invoice"</li>
+        <li><strong>Vague descriptions</strong> — "Consulting work" tells the client nothing. Be specific.</li>
+        <li><strong>No due date</strong> — if you don't set a deadline, the client won't either</li>
+        <li><strong>Duplicate invoice numbers</strong> — creates BAS confusion. Use a numbering system.</li>
+        <li><strong>Wrong GST calculation</strong> — use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to get it right</li>
+        <li><strong>No payment link</strong> — bank-transfer-only invoices take 2-3x longer to get paid</li>
+      </ul>
+
+      <h2>Free Invoice Templates and Tools</h2>
+      <p>Don't start from scratch. Use these free resources:</p>
+      <ul>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — create a professional, ATO-compliant invoice in minutes</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — get your GST calculations right every time</li>
+        <li><a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN Lookup</a> — verify client ABNs before invoicing</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a> — make sure you're charging enough</li>
+      </ul>
+      <p>Or <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">sign up for InvoiceFlow</a> — AI-powered invoicing that handles all of this automatically. Free for up to 5 invoices/month.</p>
+    `,
+  },
   'freelance-rates-australia': {
     slug: 'freelance-rates-australia',
     title: 'Freelance Rates in Australia: What to Charge in 2026',
