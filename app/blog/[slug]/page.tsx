@@ -1138,6 +1138,435 @@ export const blogPosts: Record<string, BlogPost> = {
       <p>Or skip the manual work entirely — <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">sign up for InvoiceFlow</a> and let AI handle your invoicing. Free for up to 5 invoices/month, or $19/mo for unlimited.</p>
     `,
   },
+  'tax-deductions-australian-freelancers': {
+    slug: 'tax-deductions-australian-freelancers',
+    title: 'Tax Deductions for Australian Freelancers: The Complete 2026 Guide',
+    excerpt: 'Every tax deduction Australian freelancers and sole traders can claim in 2025-26, from home office to equipment, super, and vehicle expenses.',
+    category: 'Tax',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Tax Deductions for Australian Freelancers | 2025-26 Complete Guide',
+    seoDescription: 'Complete guide to tax deductions for Australian freelancers and sole traders in 2025-26. Home office, equipment, vehicle, super, insurance, and more.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">As a freelancer or sole trader in Australia, tax deductions are one of your biggest financial levers. Every dollar you legitimately deduct is a dollar you don't pay tax on. This guide covers every deduction available to you in the 2025-26 financial year.</p>
+
+      <h2>How Tax Deductions Work for Freelancers</h2>
+      <p>Unlike employees who get a salary and claim a few work-related expenses, freelancers can deduct any expense that's directly related to earning income. This includes your workspace, tools, insurance, professional development, and even a portion of your home bills.</p>
+      <p>The key rule: the expense must have a <strong>direct connection to earning your income</strong>. Personal expenses don't count, and mixed-use items must be apportioned.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Golden Rule</h3>
+        <p class="text-slate-300 text-sm">Keep records of everything. The ATO can audit you for up to 4 years (or longer if they suspect fraud). Digital records are fine — scan receipts, save invoices, and keep a log of business use for shared expenses. Apps like InvoiceFlow automatically store your invoice records, which helps at tax time.</p>
+      </div>
+
+      <h2>Home Office Deductions</h2>
+      <p>If you work from home (as most Australian freelancers do), you have two methods to claim home office expenses:</p>
+
+      <h3>Method 1: Fixed Rate (67 cents per hour)</h3>
+      <p>From 1 July 2023, the ATO's revised fixed rate is <strong>67 cents per hour</strong> worked from home. This covers:</p>
+      <ul>
+        <li>Electricity and gas</li>
+        <li>Phone and internet data</li>
+        <li>Stationery and computer consumables</li>
+      </ul>
+      <p>You still need to keep a record of hours worked from home — a timesheet, diary, or roster.</p>
+
+      <h3>Method 2: Actual Cost</h3>
+      <p>Calculate the actual cost of running your home office. This includes:</p>
+      <ul>
+        <li><strong>Electricity:</strong> Proportion used by your office (e.g., floor area of office ÷ total floor area × electricity bill)</li>
+        <li><strong>Internet:</strong> Business percentage of your plan (often 50-80%)</li>
+        <li><strong>Phone:</strong> Business percentage of calls and data</li>
+        <li><strong>Cleaning:</strong> Proportion for your dedicated office space</li>
+        <li><strong>Depreciation:</strong> On office furniture (desk, chair, shelves)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Which Method Saves More?</h3>
+        <p class="text-slate-300 text-sm">If you work 40 hours/week from home, the fixed rate gives you ~$1,393/year. The actual cost method often yields $2,000-4,000+ depending on your setup. Calculate both and use whichever is higher. If you have a dedicated office room (not a kitchen table), actual cost almost always wins.</p>
+      </div>
+
+      <h2>Equipment and Technology</h2>
+      <p>This is usually the biggest deduction category for freelancers:</p>
+
+      <h3>Instant Write-Off (Under $20,000)</h3>
+      <p>Under the instant asset write-off scheme (extended for the 2025-26 year), you can immediately deduct the full cost of any business asset under $20,000. This includes:</p>
+      <ul>
+        <li>Laptops and computers</li>
+        <li>Monitors, keyboards, mice, webcams</li>
+        <li>Phones and tablets</li>
+        <li>Software licences (annual subscriptions)</li>
+        <li>Printers and scanners</li>
+        <li>Camera equipment (for photographers/videographers)</li>
+        <li>Office furniture (desk, ergonomic chair)</li>
+      </ul>
+
+      <h3>Items Over $20,000</h3>
+      <p>For items costing more than $20,000 (rare for most freelancers), you depreciate the cost over the effective life of the asset. For example, a $25,000 high-end workstation might be depreciated over 4 years.</p>
+
+      <h3>Mixed-Use Items</h3>
+      <p>If you use a laptop 70% for business and 30% personal, you can only claim 70% of the cost. Keep a log for the first 4 weeks to establish your business-use percentage.</p>
+
+      <h2>Vehicle and Travel</h2>
+
+      <h3>Vehicle Expenses</h3>
+      <p>If you drive for business (client meetings, site visits, supply runs), you can claim using the <strong>cents per kilometre method</strong>:</p>
+      <ul>
+        <li><strong>85 cents per km</strong> (2025-26 rate) — maximum 5,000 business km</li>
+        <li>No receipts needed, but you must be able to show how you calculated business km</li>
+        <li>Maximum deduction: $4,250/year</li>
+      </ul>
+      <p>For higher mileage, the <strong>logbook method</strong> tracks actual costs (fuel, insurance, registration, depreciation, repairs) multiplied by your business-use percentage from a 12-week logbook.</p>
+
+      <h3>Travel Expenses</h3>
+      <p>Travel for work purposes is deductible:</p>
+      <ul>
+        <li>Flights and accommodation for client work or conferences</li>
+        <li>Meals during overnight business travel (reasonable amounts)</li>
+        <li>Parking and tolls for business trips</li>
+        <li>Public transport to client sites (not regular commuting)</li>
+      </ul>
+
+      <h2>Professional Development</h2>
+      <ul>
+        <li>Online courses and certifications related to your field</li>
+        <li>Books, subscriptions, and journals</li>
+        <li>Conference and event tickets</li>
+        <li>Professional association memberships</li>
+        <li>Workshops and training programs</li>
+      </ul>
+
+      <h2>Insurance</h2>
+      <ul>
+        <li><strong>Professional indemnity insurance</strong> — fully deductible</li>
+        <li><strong>Public liability insurance</strong> — fully deductible</li>
+        <li><strong>Income protection insurance</strong> — deductible if held outside super</li>
+        <li><strong>Business contents insurance</strong> — covers equipment</li>
+      </ul>
+
+      <h2>Superannuation</h2>
+      <p>As a sole trader, super contributions aren't mandatory (except for some contractors). But voluntary contributions are one of the most powerful tax strategies available:</p>
+      <ul>
+        <li><strong>Concessional contributions</strong> (before-tax): Up to $30,000/year — taxed at 15% instead of your marginal rate</li>
+        <li><strong>Government co-contribution:</strong> If income is under $58,445, the government matches up to $500</li>
+        <li><strong>Carry forward:</strong> If you didn't max out in previous years, you can catch up (5-year rolling window)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Tax Saving Example</h3>
+        <p class="text-slate-300 text-sm">If you earn $120,000 and contribute $30,000 to super: you save ~$9,750 in tax (the difference between your 37% marginal rate and the 15% super tax rate). That's nearly $10K back in your pocket — just for paying your future self. Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">rate calculator</a> to factor super into your freelance rate.</p>
+      </div>
+
+      <h2>Other Commonly Missed Deductions</h2>
+      <ul>
+        <li><strong>Accounting and tax agent fees</strong> — yes, the cost of doing your tax is deductible</li>
+        <li><strong>Bank fees</strong> on your business account</li>
+        <li><strong>Website hosting and domain names</strong></li>
+        <li><strong>Cloud storage</strong> (Google Workspace, Dropbox, iCloud)</li>
+        <li><strong>Marketing costs</strong> (ads, social media tools, email platforms)</li>
+        <li><strong>Subscriptions</strong> (Canva, Adobe, invoicing software, project management)</li>
+        <li><strong>Postage and courier costs</strong></li>
+        <li><strong>Legal fees</strong> related to your business (contracts, disputes)</li>
+        <li><strong>Bad debts</strong> — invoices you've included as income but can't collect</li>
+      </ul>
+
+      <h2>What You Can NOT Claim</h2>
+      <ul>
+        <li>Fines and penalties (speeding tickets, ATO penalties)</li>
+        <li>Entertainment expenses (client lunches, unless directly income-producing)</li>
+        <li>Personal clothing (unless it's a uniform or protective gear)</li>
+        <li>Private health insurance (claimed on your tax return separately, not as a business deduction)</li>
+        <li>Child care costs</li>
+        <li>Mortgage or rent (unless you have a dedicated home office, and even then only a proportion)</li>
+      </ul>
+
+      <h2>BAS and GST Connection</h2>
+      <p>If you're registered for GST, your deductions interact with your quarterly BAS lodgement. You claim GST credits on business purchases, which reduces your BAS payment. Read our <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST guide for Australian freelancers</a> and use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">free GST calculator</a> for quick calculations.</p>
+
+      <h2>Keep Clean Records</h2>
+      <p>The easiest way to maximise your deductions is to keep clean records all year — not scramble at tax time. Separate your business and personal accounts, save digital receipts, and use invoicing software that tracks everything automatically.</p>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> keeps a record of every invoice you send, every payment received, and generates reports that make tax time painless. Free for up to 5 invoices/month.</p>
+    `,
+  },
+  'bas-guide-australian-freelancers': {
+    slug: 'bas-guide-australian-freelancers',
+    title: 'BAS for Freelancers: How to Lodge Your Business Activity Statement',
+    excerpt: 'A no-jargon guide to BAS for Australian freelancers. What it is, when it\'s due, how to fill it out, and common mistakes that trigger ATO audits.',
+    category: 'Tax',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'BAS Guide for Australian Freelancers | Lodge Your BAS Correctly',
+    seoDescription: 'Complete guide to BAS for Australian freelancers. Learn what a Business Activity Statement is, due dates for 2026, how to fill it out, and avoid common mistakes.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">If you're registered for GST as a freelancer in Australia, you need to lodge a Business Activity Statement (BAS) every quarter. It's not complicated once you understand it, but mistakes can be expensive. Here's the plain-English guide.</p>
+
+      <h2>What Is a BAS?</h2>
+      <p>A BAS (Business Activity Statement) is a form you submit to the ATO that reports your:</p>
+      <ul>
+        <li><strong>GST collected</strong> — the GST you charged on your invoices</li>
+        <li><strong>GST credits</strong> — the GST you paid on business purchases</li>
+        <li><strong>PAYG instalments</strong> — prepayments toward your income tax</li>
+      </ul>
+      <p>The difference between GST collected and GST credits is what you owe (or what the ATO owes you). PAYG instalments are separate — they're advance payments on your income tax bill.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Do I Need to Lodge a BAS?</h3>
+        <p class="text-slate-300 text-sm">Only if you're registered for GST. You <strong>must</strong> register if your annual turnover is $75,000 or more. Below that, it's optional. If you're not registered for GST, you don't lodge a BAS — you just do your annual tax return. Read our <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST guide</a> to decide if registration makes sense for you.</p>
+      </div>
+
+      <h2>BAS Due Dates 2025-26</h2>
+      <p>Most freelancers lodge quarterly. Here are the due dates:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Quarter</th>
+            <th class="text-left py-3 px-4 text-slate-400">Period</th>
+            <th class="text-right py-3 px-4 text-slate-400">Due Date</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Q1</td><td class="py-3 px-4">Jul — Sep 2025</td><td class="text-right py-3 px-4 font-semibold">28 October 2025</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Q2</td><td class="py-3 px-4">Oct — Dec 2025</td><td class="text-right py-3 px-4 font-semibold">28 February 2026</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Q3</td><td class="py-3 px-4">Jan — Mar 2026</td><td class="text-right py-3 px-4 font-semibold">28 April 2026</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Q4</td><td class="py-3 px-4">Apr — Jun 2026</td><td class="text-right py-3 px-4 font-semibold">28 July 2026</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Tax Agent Extension</h3>
+        <p class="text-slate-300 text-sm">If you use a registered tax agent (accountant), you often get extra time — typically an additional 4 weeks. But you still need to have your records ready. The extension doesn't mean you can procrastinate on record-keeping.</p>
+      </div>
+
+      <h2>How to Fill Out Your BAS</h2>
+      <p>A quarterly BAS for a freelancer is simpler than it looks. You mainly need three numbers:</p>
+
+      <h3>1. GST on Sales (Label 1A)</h3>
+      <p>Total GST you collected from clients during the quarter. If you invoiced $33,000 (including GST), the GST component is $3,000.</p>
+      <p>Quick formula: <strong>Total invoiced (inc. GST) ÷ 11 = GST collected</strong></p>
+      <p>Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">free GST calculator</a> to double-check your numbers.</p>
+
+      <h3>2. GST on Purchases (Label 1B)</h3>
+      <p>Total GST you paid on business expenses during the quarter. If you spent $5,500 (inc. GST) on business purchases, the GST credit is $500.</p>
+      <p>Only include purchases where you received a valid tax invoice from the supplier.</p>
+
+      <h3>3. Net GST (Label 9)</h3>
+      <p>GST collected (1A) minus GST credits (1B) = what you owe. If 1B is bigger than 1A, the ATO owes <em>you</em> a refund.</p>
+
+      <h3>PAYG Instalments (Label T7 or T8)</h3>
+      <p>If the ATO has set you up for PAYG instalments, you'll also see a pre-filled amount or rate. This is a prepayment toward your income tax — NOT additional GST. Most new freelancers won't have this initially; the ATO adds it after your first tax return shows business income.</p>
+
+      <h2>Example BAS for a Freelancer</h2>
+      <p>Let's say you're a graphic designer in Melbourne who invoiced $27,500 (inc. GST) and spent $4,400 (inc. GST) on business expenses in Q2:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Label</th>
+            <th class="text-left py-3 px-4 text-slate-400">Description</th>
+            <th class="text-right py-3 px-4 text-slate-400">Amount</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">G1</td><td class="py-3 px-4">Total sales (inc. GST)</td><td class="text-right py-3 px-4">$27,500</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">1A</td><td class="py-3 px-4">GST on sales ($27,500 ÷ 11)</td><td class="text-right py-3 px-4 font-semibold">$2,500</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">G11</td><td class="py-3 px-4">Total purchases (inc. GST)</td><td class="text-right py-3 px-4">$4,400</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">1B</td><td class="py-3 px-4">GST on purchases ($4,400 ÷ 11)</td><td class="text-right py-3 px-4 font-semibold">$400</td></tr>
+          <tr class="border-b border-white/10 bg-white/5"><td class="py-3 px-4 font-bold">9</td><td class="py-3 px-4 font-bold">Net GST to pay</td><td class="text-right py-3 px-4 font-bold text-teal-400">$2,100</td></tr>
+        </tbody>
+      </table>
+
+      <p>You'd pay the ATO $2,100 for this quarter. Simple.</p>
+
+      <h2>How to Lodge</h2>
+      <p>Three options:</p>
+      <ul>
+        <li><strong>MyGov / ATO Online:</strong> Free, straightforward. Link your myGov account to the ATO, log in, and the BAS form is pre-populated with some details.</li>
+        <li><strong>Through your accountant:</strong> They lodge electronically through their tax agent portal. Easiest option if you already have an accountant.</li>
+        <li><strong>Accounting software:</strong> Many tools can lodge directly with the ATO. Though for a freelancer doing simple invoicing, this is often overkill. Read <a href="/blog/why-freelancers-dont-need-accounting-software" class="text-teal-400 hover:text-teal-300 underline">why most freelancers don't need accounting software</a>.</li>
+      </ul>
+
+      <h2>Common BAS Mistakes</h2>
+
+      <h3>1. Claiming GST on Non-Taxable Purchases</h3>
+      <p>Not everything has GST. Common GST-free items: bank fees, some insurance premiums, government fees, some education. Don't claim GST credits on purchases that didn't include GST.</p>
+
+      <h3>2. Forgetting to Reconcile</h3>
+      <p>Don't just guess your totals. Check every invoice you sent and every business receipt. A $200 discrepancy might not matter this quarter, but cumulative errors trigger ATO attention.</p>
+
+      <h3>3. Missing the Deadline</h3>
+      <p>Late lodgement attracts a Failure to Lodge (FTL) penalty — currently $313 for each 28-day period late, up to 5 periods ($1,565 max). Late payment attracts interest (GIC rate, currently ~11%). Set a calendar reminder for 2 weeks before each due date.</p>
+
+      <h3>4. Not Separating GST-Free Income</h3>
+      <p>If some of your income is GST-free (e.g., exports, educational services), you need to report it separately on your BAS. Don't lump everything into 1A.</p>
+
+      <h3>5. Double-Counting</h3>
+      <p>If you use accounting software AND lodge manually, make sure you're not counting invoices twice. Pick one system and stick with it.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip: Set Aside GST Weekly</h3>
+        <p class="text-slate-300 text-sm">Open a separate high-interest savings account and transfer 10% of every payment you receive into it. When BAS time comes, the money is already there. This single habit prevents the #1 cash flow problem freelancers face — owing a large lump sum every quarter.</p>
+      </div>
+
+      <h2>PAYG Instalments Explained</h2>
+      <p>PAYG (Pay As You Go) instalments are the ATO's way of collecting your income tax throughout the year instead of one big bill at tax time. If the ATO puts you on PAYG, you'll see an instalment amount or rate on your BAS.</p>
+      <p><strong>Instalment amount method:</strong> ATO tells you exactly how much to pay each quarter (based on your last tax return).</p>
+      <p><strong>Instalment rate method:</strong> ATO gives you a percentage — you multiply it by your quarterly business income and pay that amount.</p>
+      <p>You can vary your instalment if your income changes significantly, but be careful — under-estimating can attract interest.</p>
+
+      <h2>Simplify Your BAS</h2>
+      <p>The hardest part of BAS isn't the maths — it's having clean records to work from. If your invoices are scattered across Word docs, emails, and spreadsheets, BAS day becomes a nightmare.</p>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> keeps every invoice organised, calculates GST automatically, and gives you quarterly summaries that make BAS lodgement trivial. Free to start, $19/mo for unlimited invoices.</p>
+      <p>Also check our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> for quick calculations and our <a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">tax invoice guide</a> to make sure your invoices are ATO-compliant.</p>
+    `,
+  },
+  'how-to-register-abn-australia': {
+    slug: 'how-to-register-abn-australia',
+    title: 'How to Get an ABN in Australia: Freelancer Registration Guide',
+    excerpt: 'Step-by-step guide to registering for an Australian Business Number as a freelancer. Covers eligibility, the application process, GST registration, and common mistakes.',
+    category: 'Getting Started',
+    readTime: '8 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Get an ABN in Australia | Freelancer Registration Guide 2026',
+    seoDescription: 'Step-by-step guide to registering for an ABN in Australia as a freelancer. Learn eligibility requirements, the free application process, and whether to register for GST.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Before you send your first invoice as a freelancer in Australia, you need an ABN (Australian Business Number). The good news: it's free, takes 10 minutes, and you get it instantly in most cases. Here's exactly how to do it.</p>
+
+      <h2>What Is an ABN?</h2>
+      <p>An ABN is an 11-digit number that identifies your business to the government, other businesses, and your clients. It's not the same as a TFN (Tax File Number) — your TFN is for personal tax, your ABN is for business.</p>
+      <p>As a freelancer, you'll use your ABN on:</p>
+      <ul>
+        <li>Every invoice you send (mandatory — without it, clients must withhold 47% of your payment)</li>
+        <li>Business contracts and agreements</li>
+        <li>GST registration and BAS lodgement</li>
+        <li>Government and business portals</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The 47% Withholding Rule</h3>
+        <p class="text-slate-300 text-sm">If you invoice without an ABN, your client is legally required to withhold 47% of the payment and send it to the ATO. This isn't optional for them — it's the law. Always include your ABN. Use our <a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN lookup tool</a> to verify your ABN is active and correctly formatted.</p>
+      </div>
+
+      <h2>Do You Need an ABN?</h2>
+      <p>You need an ABN if you're operating a business or enterprise. The ATO considers you to be operating a business if you:</p>
+      <ul>
+        <li>Intend to make a profit (not just a hobby)</li>
+        <li>Have regular, ongoing activity</li>
+        <li>Operate in a business-like manner (invoicing, marketing, keeping records)</li>
+        <li>Have multiple clients (though one client is fine if the work is genuinely freelance, not employment)</li>
+      </ul>
+
+      <h3>When You Don't Need One</h3>
+      <ul>
+        <li>Casual hobby selling (occasional craft sales, garage sales)</li>
+        <li>Employment (your employer already has one)</li>
+        <li>Earning less than $75 from performance-based work</li>
+      </ul>
+
+      <h2>How to Register: Step by Step</h2>
+
+      <h3>Step 1: Go to the Australian Business Register</h3>
+      <p>Visit <strong>abr.gov.au</strong> and click "Apply for an ABN." This is the only legitimate, free way to get an ABN. Never pay a third-party site — ABN registration is always free through the ABR.</p>
+
+      <h3>Step 2: Verify Your Identity</h3>
+      <p>You'll need your:</p>
+      <ul>
+        <li><strong>Tax File Number (TFN)</strong></li>
+        <li>Full legal name and date of birth</li>
+        <li>Australian residential address</li>
+        <li>Details of your business activities</li>
+      </ul>
+      <p>If you have a myGovID, you can use it to pre-fill some details.</p>
+
+      <h3>Step 3: Choose Your Business Structure</h3>
+      <p>Most freelancers choose <strong>Sole Trader</strong>. This means:</p>
+      <ul>
+        <li>You and the business are the same legal entity</li>
+        <li>Simplest structure — no company setup costs, no ASIC fees</li>
+        <li>You report business income on your personal tax return</li>
+        <li>You're personally liable for business debts</li>
+      </ul>
+      <p>Read our <a href="/blog/sole-trader-vs-company-australia" class="text-teal-400 hover:text-teal-300 underline">sole trader vs company guide</a> if you're unsure which structure is right for you.</p>
+
+      <h3>Step 4: Describe Your Business Activities</h3>
+      <p>The ABR will ask you to describe what your business does and select a Business Industry Code. Examples:</p>
+      <ul>
+        <li>Web developer → "Computer system design and related services" (700000)</li>
+        <li>Graphic designer → "Graphic design service" (700102)</li>
+        <li>Writer/copywriter → "Creative artists, musicians, writers and performers" (900000)</li>
+        <li>Photographer → "Photographic services" (694200)</li>
+        <li>Consultant → "Management consulting services" (696200)</li>
+      </ul>
+
+      <h3>Step 5: Choose Whether to Register for GST</h3>
+      <p>During ABN registration, you can also register for GST. This is <strong>mandatory if your turnover is $75,000+</strong>, optional below that threshold.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Should You Register for GST Early?</h3>
+        <p class="text-slate-300 text-sm"><strong>Pros:</strong> You can claim GST credits on business purchases (equipment, software, etc.), which reduces your net costs. Clients don't care about the 10% GST if they're GST-registered too (they claim it back). <strong>Cons:</strong> You must lodge BAS quarterly (more admin). You must charge GST to all customers, including individuals who can't claim it back. For most freelancers earning over $40K, registering early makes sense — the GST credits on equipment purchases alone often justify it. See our <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST guide</a> for the full breakdown.</p>
+      </div>
+
+      <h3>Step 6: Submit and Get Your ABN</h3>
+      <p>If your identity checks pass (which they usually do for Australian residents), you'll receive your ABN <strong>immediately</strong>. Save it, write it down, and add it to your invoice template right away.</p>
+
+      <h2>After You Get Your ABN</h2>
+
+      <h3>Register a Business Name (Optional)</h3>
+      <p>If you want to trade under a name other than your own (e.g., "Pixel Perfect Design" instead of "Jane Smith"), you need to register a business name through ASIC. Cost: $44 for 1 year or $102 for 3 years.</p>
+      <p>If you're happy trading under your own name, skip this step.</p>
+
+      <h3>Set Up Your Invoicing</h3>
+      <p>Your ABN goes on every invoice. Make sure your invoices also include all the <a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">required fields for tax invoices</a> (if you're GST-registered) or regular invoices (if you're not).</p>
+      <p>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create professional invoices with your ABN, GST calculations, and all required fields — no signup needed.</p>
+
+      <h3>Open a Business Bank Account</h3>
+      <p>Not legally required for sole traders, but highly recommended. Separating business and personal finances makes BAS lodgement easier, tax deductions cleaner, and your accountant happier. Most banks let you open a business account online with just your ABN.</p>
+
+      <h3>Keep Records from Day One</h3>
+      <p>The ATO requires you to keep records for 5 years. Start clean:</p>
+      <ul>
+        <li>Save every invoice you send</li>
+        <li>Keep receipts for all business expenses</li>
+        <li>Track income and expenses by quarter</li>
+        <li>Note the business-use percentage for shared items (phone, car, internet)</li>
+      </ul>
+
+      <h2>Common Mistakes When Getting an ABN</h2>
+
+      <h3>1. Paying a Third-Party Site</h3>
+      <p>Scam sites charge $50-200+ for ABN registration. The real ABR website (abr.gov.au) is completely free. If you're being asked to pay, you're on the wrong site.</p>
+
+      <h3>2. Not Being Eligible</h3>
+      <p>The ATO rejects ABN applications from people who are essentially employees (one client, set hours, employer-provided equipment). If you work for one company that controls how, when, and where you work, you're likely an employee and shouldn't have an ABN — that's "sham contracting" and both you and the company can face penalties.</p>
+
+      <h3>3. Wrong Business Structure</h3>
+      <p>Starting as a sole trader is fine for most freelancers. But if you're earning over $150K or have significant liability risk, consider getting advice about a company or trust structure before registering. Changing structures later means getting a new ABN.</p>
+
+      <h3>4. Forgetting to Cancel If You Stop</h3>
+      <p>If you stop freelancing, cancel your ABN through the ABR. An active ABN with no tax returns filed raises red flags with the ATO.</p>
+
+      <h2>ABN vs ACN vs TFN</h2>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Number</th>
+            <th class="text-left py-3 px-4 text-slate-400">What It Is</th>
+            <th class="text-left py-3 px-4 text-slate-400">Who Needs It</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">ABN</td><td class="py-3 px-4">Australian Business Number (11 digits)</td><td class="py-3 px-4">Any business or sole trader</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">ACN</td><td class="py-3 px-4">Australian Company Number (9 digits)</td><td class="py-3 px-4">Companies only (Pty Ltd, Ltd)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">TFN</td><td class="py-3 px-4">Tax File Number (9 digits)</td><td class="py-3 px-4">Every individual and entity</td></tr>
+        </tbody>
+      </table>
+      <p>As a freelance sole trader, you need a TFN (you already have one) and an ABN. You don't need an ACN — that's only for registered companies.</p>
+
+      <h2>Ready to Start Freelancing?</h2>
+      <p>Once you have your ABN, you're officially in business. The next steps: set up your invoicing, understand your <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductions</a>, figure out your <a href="/blog/freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">freelance rate</a>, and start landing clients.</p>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> helps you create professional, ATO-compliant invoices with your ABN, GST calculations, and payment tracking — all powered by AI. Free for up to 5 invoices/month.</p>
+    `,
+  },
 };
 
 const allSlugs = Object.keys(blogPosts);
