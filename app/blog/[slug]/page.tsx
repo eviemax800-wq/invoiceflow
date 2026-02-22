@@ -2690,6 +2690,468 @@ export const blogPosts: Record<string, BlogPost> = {
       <p>Check our <a href="/blog/freelance-invoice-checklist" class="text-teal-400 hover:text-teal-300 underline">invoice checklist</a> to make sure every invoice is ATO-compliant and includes all required fields.</p>
     `,
   },
+
+  'how-much-tax-freelancers-pay-australia': {
+    slug: 'how-much-tax-freelancers-pay-australia',
+    title: 'How Much Tax Do Freelancers Pay in Australia? (2025-26 Guide)',
+    excerpt: 'Complete breakdown of Australian freelancer tax rates for 2025-26, including income tax brackets, Medicare levy, PAYG instalments, and effective tax rates at every income level.',
+    category: 'Tax',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How Much Tax Do Freelancers Pay in Australia? | 2025-26 Tax Rates',
+    seoDescription: 'Australian freelancer tax rates explained for 2025-26. Income tax brackets, Medicare levy, PAYG instalments, effective rates from $50K-$200K, and legal ways to reduce your tax bill.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">One of the biggest shocks for new freelancers in Australia is discovering how much tax they actually owe. Unlike employees — where tax is automatically deducted from your pay — freelancers must calculate, save for, and pay their own tax. This guide breaks down exactly what you'll owe at every income level.</p>
+
+      <h2>The Short Answer</h2>
+      <p>Most Australian freelancers earning $80,000-$120,000 in profit pay an <strong>effective tax rate of 25-30%</strong> (including Medicare levy). That means for every $100 you earn, roughly $25-$30 goes to the ATO.</p>
+      <p>But your exact rate depends on your taxable income (profit, not revenue), deductions, super contributions, and whether you have private health insurance.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Key Distinction</h3>
+        <p class="text-slate-300 text-sm"><strong>Revenue</strong> is what clients pay you. <strong>Profit</strong> (taxable income) is revenue minus business expenses. You only pay tax on profit. A freelancer earning $120K revenue with $30K in expenses has a taxable income of $90K — and pays tax on $90K, not $120K.</p>
+      </div>
+
+      <h2>2025-26 Australian Tax Brackets (Stage 3 Cuts Applied)</h2>
+      <p>These rates apply from 1 July 2025 to 30 June 2026 for Australian residents:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Taxable Income</th>
+            <th class="text-left py-3 px-4 text-slate-400">Tax Rate</th>
+            <th class="text-left py-3 px-4 text-slate-400">Tax on This Bracket</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$0 – $18,200</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">Nil</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$18,201 – $45,000</td><td class="py-3 px-4">16%</td><td class="py-3 px-4">Up to $4,288</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$45,001 – $135,000</td><td class="py-3 px-4">30%</td><td class="py-3 px-4">Up to $27,000</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$135,001 – $190,000</td><td class="py-3 px-4">37%</td><td class="py-3 px-4">Up to $20,350</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$190,001+</td><td class="py-3 px-4">45%</td><td class="py-3 px-4">45c per $1 over $190K</td></tr>
+        </tbody>
+      </table>
+
+      <h2>What You Actually Pay: Real Examples</h2>
+      <p>Here's what freelancers at different income levels actually pay in tax (income tax + Medicare levy, before deductions or offsets):</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Taxable Income</th>
+            <th class="text-left py-3 px-4 text-slate-400">Income Tax</th>
+            <th class="text-left py-3 px-4 text-slate-400">Medicare (2%)</th>
+            <th class="text-left py-3 px-4 text-slate-400">Total Tax</th>
+            <th class="text-left py-3 px-4 text-slate-400">Effective Rate</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$5,788</td><td class="py-3 px-4">$1,000</td><td class="py-3 px-4 font-semibold text-teal-400">$6,788</td><td class="py-3 px-4">13.6%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$75,000</td><td class="py-3 px-4">$13,288</td><td class="py-3 px-4">$1,500</td><td class="py-3 px-4 font-semibold text-teal-400">$14,788</td><td class="py-3 px-4">19.7%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$100,000</td><td class="py-3 px-4">$20,788</td><td class="py-3 px-4">$2,000</td><td class="py-3 px-4 font-semibold text-teal-400">$22,788</td><td class="py-3 px-4">22.8%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$120,000</td><td class="py-3 px-4">$26,788</td><td class="py-3 px-4">$2,400</td><td class="py-3 px-4 font-semibold text-teal-400">$29,188</td><td class="py-3 px-4">24.3%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$150,000</td><td class="py-3 px-4">$36,838</td><td class="py-3 px-4">$3,000</td><td class="py-3 px-4 font-semibold text-teal-400">$39,838</td><td class="py-3 px-4">26.6%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$200,000</td><td class="py-3 px-4">$55,338</td><td class="py-3 px-4">$4,000</td><td class="py-3 px-4 font-semibold text-teal-400">$59,338</td><td class="py-3 px-4">29.7%</td></tr>
+        </tbody>
+      </table>
+
+      <p>Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">freelance rate calculator</a> to see your take-home pay at any income level with real 2025-26 tax brackets built in.</p>
+
+      <h2>Medicare Levy</h2>
+      <p>On top of income tax, you pay the <strong>Medicare levy of 2%</strong> of your taxable income. This funds Australia's public healthcare system.</p>
+      <ul>
+        <li><strong>Reduction threshold:</strong> Singles earning under $26,000 may get a reduction</li>
+        <li><strong>Full exemption:</strong> If your income is below $24,276, you don't pay it</li>
+        <li><strong>Medicare Levy Surcharge (MLS):</strong> An additional 1-1.5% if you earn over $93,000 and don't have private health insurance</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Private Health Insurance Tip</h3>
+        <p class="text-slate-300 text-sm">If you earn over $93,000, getting basic private hospital cover ($100-$150/month) often costs <strong>less</strong> than the Medicare Levy Surcharge. A freelancer on $120K would pay $1,200/yr in MLS vs potentially ~$1,500/yr for basic cover — but the cover actually provides hospital benefits. Worth comparing.</p>
+      </div>
+
+      <h2>HELP/HECS Repayments</h2>
+      <p>If you have a HELP (formerly HECS) student loan, repayments are automatically added to your tax bill once your income exceeds the minimum threshold ($54,435 for 2025-26). Rates are 1-10% of your total income depending on the bracket — not just the amount over the threshold.</p>
+      <p>This catches many freelancers off guard because it's calculated on your entire taxable income, not a marginal rate.</p>
+
+      <h2>PAYG Instalments: Paying Tax Throughout the Year</h2>
+      <p>Unlike employees, freelancers don't have tax deducted per paycheck. The ATO uses <strong>PAYG instalments</strong> to prevent a large lump-sum tax bill:</p>
+      <ul>
+        <li>After your first tax return showing business income, the ATO enters you into the PAYG instalment system</li>
+        <li>You pay quarterly instalments (usually via your <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS lodgement</a>)</li>
+        <li>Two methods: <strong>instalment amount</strong> (ATO tells you what to pay) or <strong>instalment rate</strong> (a percentage of your quarterly income)</li>
+        <li>Instalments are credits against your annual tax — you're pre-paying, not paying extra</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Cash Flow Strategy</h3>
+        <p class="text-slate-300 text-sm">Open a separate high-interest savings account and transfer 25-30% of every client payment into it immediately. This money is "the ATO's money" — don't touch it. When PAYG or annual tax is due, the money is already set aside. Many freelancers get into trouble by spending tax money.</p>
+      </div>
+
+      <h2>GST: Separate from Income Tax</h2>
+      <p>If you're <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">registered for GST</a> (mandatory at $75K+ turnover), GST is collected on top of your fees and remitted to the ATO. It's not your money — think of yourself as a GST collection agent.</p>
+      <p>Example: You invoice $1,100 (inc. GST). $1,000 is your fee, $100 is GST you owe the ATO. But you can claim GST credits on your business purchases, so you only remit the difference.</p>
+      <p>Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to quickly work out GST on any amount.</p>
+
+      <h2>7 Legal Ways to Reduce Your Tax Bill</h2>
+      <ol>
+        <li><strong>Claim all eligible deductions.</strong> Many freelancers miss deductions for home office, internet, phone, software, professional development, insurance, and travel. See our <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">complete tax deductions guide</a>.</li>
+        <li><strong>Make voluntary super contributions.</strong> Up to $30,000/year in concessional contributions is taxed at 15% instead of your marginal rate. A freelancer on $120K saves ~$4,500 by contributing $10K to super. Read our <a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">super guide</a>.</li>
+        <li><strong>Prepay expenses before June 30.</strong> Bring forward deductions — pay next year's insurance, subscriptions, or professional memberships before EOFY.</li>
+        <li><strong>Instant asset write-off.</strong> Business assets under $20,000 can be deducted immediately (not depreciated over years).</li>
+        <li><strong>Use the correct home office method.</strong> The actual cost method (tracking real expenses) often gives a larger deduction than the 67c/hr fixed rate method, especially if you work from home full-time.</li>
+        <li><strong>Income protection insurance.</strong> Premiums for income protection policies held outside super are 100% tax deductible.</li>
+        <li><strong>Structure correctly.</strong> At higher income levels ($150K+), operating through a company (25% tax rate) or trust may reduce your overall tax burden. See our <a href="/blog/sole-trader-vs-company-australia" class="text-teal-400 hover:text-teal-300 underline">sole trader vs company guide</a>.</li>
+      </ol>
+
+      <h2>Freelancer Tax Calendar 2025-26</h2>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Date</th>
+            <th class="text-left py-3 px-4 text-slate-400">What's Due</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">28 October 2025</td><td class="py-3 px-4">Q1 BAS + PAYG instalment (Jul-Sep)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">28 February 2026</td><td class="py-3 px-4">Q2 BAS + PAYG instalment (Oct-Dec)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">28 April 2026</td><td class="py-3 px-4">Q3 BAS + PAYG instalment (Jan-Mar)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">28 July 2026</td><td class="py-3 px-4">Q4 BAS + PAYG instalment (Apr-Jun)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">31 October 2026</td><td class="py-3 px-4">Annual tax return due (self-lodging)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">15 May 2027</td><td class="py-3 px-4">Annual tax return due (tax agent)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>First Year Freelancing? Budget for a Lump Sum</h2>
+      <p>Your first year is the toughest because PAYG instalments haven't kicked in yet. You'll file your first tax return and owe the full year's tax <em>plus</em> your first PAYG instalment for the current year. Budget 30-35% of your first year's profit for this.</p>
+
+      <h2>When to Get an Accountant</h2>
+      <p>DIY tax is fine when you're starting out, but consider a tax agent when:</p>
+      <ul>
+        <li>Your income exceeds $100K</li>
+        <li>You're considering incorporating (company structure)</li>
+        <li>You have complex deductions (vehicle, home office actual cost, depreciation)</li>
+        <li>You're earning international income</li>
+        <li>You want to optimise super contributions</li>
+      </ul>
+      <p>A good accountant costs $500-$1,500 annually but often saves multiples of that through proper deduction optimisation and structuring advice. Their fee is also tax deductible.</p>
+
+      <h2>Track Everything with InvoiceFlow</h2>
+      <p>Proper invoicing and <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">record keeping</a> are essential for accurate tax returns. <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> tracks your income automatically and makes BAS preparation simple — create professional invoices, track payments, and have your income records ready at tax time.</p>
+    `,
+  },
+
+  'freelancer-insurance-guide-australia': {
+    slug: 'freelancer-insurance-guide-australia',
+    title: 'Freelancer Insurance Guide Australia: What Cover Do You Actually Need?',
+    excerpt: 'Complete guide to business insurance for Australian freelancers — professional indemnity, public liability, income protection, and cyber liability explained with real costs and recommendations.',
+    category: 'Business',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelancer Insurance Guide Australia | What Cover You Need in 2026',
+    seoDescription: 'Australian freelancer insurance explained: professional indemnity, public liability, income protection, cyber liability. What you need, what it costs, and where to get it.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">As a freelancer, you don't have an employer's insurance covering you anymore. One bad project, one client dispute, one injury — and you're personally liable. This guide explains what insurance Australian freelancers actually need, what it costs, and what you can skip.</p>
+
+      <h2>The 4 Types of Insurance Freelancers Should Know About</h2>
+
+      <h3>1. Professional Indemnity (PI) Insurance</h3>
+      <p><strong>What it covers:</strong> Claims that your professional advice, services, or work product caused a client financial loss. Think: a coding error crashes a client's system, design work infringes someone's trademark, or consulting advice leads to a bad business decision.</p>
+      <p><strong>Who needs it:</strong> Every freelancer providing professional services — developers, designers, consultants, writers, marketers, accountants, engineers. Many corporate clients and government contracts <strong>require</strong> PI insurance as a condition of engagement.</p>
+      <p><strong>Typical cost:</strong> $300-$800/year for $1M-$2M cover (varies by profession, revenue, and claims history).</p>
+      <p><strong>Coverage amounts:</strong> $1M is standard minimum. $2M is common for tech/consulting. $5M-$10M for larger contracts.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Real Example</h3>
+        <p class="text-slate-300 text-sm">A freelance web developer delivers a Shopify store. Three months later, a security vulnerability causes a data breach. The client suffers $50K in losses and legal fees. Without PI insurance, the developer is personally liable. With PI insurance, the insurer handles the claim, covers legal defence, and pays the settlement.</p>
+      </div>
+
+      <h3>2. Public Liability (PL) Insurance</h3>
+      <p><strong>What it covers:</strong> Claims of bodily injury or property damage to third parties arising from your business activities. A client trips over your laptop cable at their office. You accidentally spill coffee on a client's equipment.</p>
+      <p><strong>Who needs it:</strong> Freelancers who work on client premises, attend meetings in person, run workshops/events, or have clients visit their home office. Required for most co-working spaces and client sites.</p>
+      <p><strong>Typical cost:</strong> $200-$500/year for $5M-$20M cover (it's cheaper than PI because claims are less common).</p>
+      <p><strong>Coverage amounts:</strong> $10M is the industry standard. Most venues, co-working spaces, and corporate offices require $10M or $20M minimum.</p>
+
+      <h3>3. Income Protection Insurance</h3>
+      <p><strong>What it covers:</strong> Replaces up to 75% of your income if illness or injury prevents you from working. Unlike employees who get sick leave, freelancers earn nothing when they can't work.</p>
+      <p><strong>Who needs it:</strong> Any freelancer who depends on their ability to work for income — especially sole breadwinners, freelancers without significant savings, or those with mortgages/dependents.</p>
+      <p><strong>Typical cost:</strong> $800-$2,500/year depending on age, health, waiting period, and benefit period. Cheaper options have longer waiting periods (90 days vs 30 days).</p>
+      <p><strong>Key features to compare:</strong></p>
+      <ul>
+        <li><strong>Waiting period:</strong> How long before payments start (14, 30, 60, or 90 days). Longer = cheaper premiums.</li>
+        <li><strong>Benefit period:</strong> How long payments continue (2 years, 5 years, or to age 65). Longer = more expensive.</li>
+        <li><strong>Agreed vs indemnity value:</strong> Agreed value locks in your benefit amount at policy start. Indemnity value calculates based on income at time of claim — riskier if your income drops.</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Tax Deduction</h3>
+        <p class="text-slate-300 text-sm">Income protection premiums paid outside of super are <strong>100% tax deductible</strong> as a personal tax deduction. A freelancer on a 30% marginal rate paying $1,500/yr in premiums effectively pays $1,050 after the tax benefit. See our <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductions guide</a> for more deduction strategies.</p>
+      </div>
+
+      <h3>4. Cyber Liability Insurance</h3>
+      <p><strong>What it covers:</strong> Costs associated with data breaches, cyber attacks, ransomware, and privacy violations. Covers notification costs, forensic investigation, legal fees, credit monitoring for affected individuals, and business interruption.</p>
+      <p><strong>Who needs it:</strong> Freelancers handling client data — developers, IT consultants, marketers with CRM access, anyone storing personal information. Australia's Privacy Act applies to businesses with $3M+ annual turnover, but smaller businesses can still face claims.</p>
+      <p><strong>Typical cost:</strong> $300-$700/year for $250K-$1M cover.</p>
+      <p><strong>Note:</strong> The Notifiable Data Breaches scheme requires businesses to notify affected individuals and the OAIC when a data breach is likely to cause serious harm. Even freelancers can be caught by this.</p>
+
+      <h2>What You Actually Need: By Profession</h2>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Freelancer Type</th>
+            <th class="text-center py-3 px-4 text-slate-400">PI</th>
+            <th class="text-center py-3 px-4 text-slate-400">PL</th>
+            <th class="text-center py-3 px-4 text-slate-400">Income Protection</th>
+            <th class="text-center py-3 px-4 text-slate-400">Cyber</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Web Developer / Designer</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-amber-400">Situational</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-teal-400">Essential</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Writer / Content Creator</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-slate-500">Low priority</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-slate-500">Low priority</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Marketing Consultant</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-amber-400">Situational</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-amber-400">Situational</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Photographer / Videographer</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-slate-500">Low priority</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">IT / Cloud Consultant</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-amber-400">Situational</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-teal-400">Essential</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Accountant / Bookkeeper</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-slate-500">Low priority</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-teal-400">Essential</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Personal Trainer / Coach</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-teal-400">Essential</td><td class="py-3 px-4 text-center text-slate-500">Low priority</td></tr>
+        </tbody>
+      </table>
+
+      <h2>How Much Does Freelancer Insurance Cost?</h2>
+      <p>Estimated annual costs for a freelancer earning $80K-$120K:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Insurance Type</th>
+            <th class="text-left py-3 px-4 text-slate-400">Annual Cost Range</th>
+            <th class="text-left py-3 px-4 text-slate-400">Typical Cover</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Professional Indemnity</td><td class="py-3 px-4">$300 – $800</td><td class="py-3 px-4">$1M – $2M</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Public Liability</td><td class="py-3 px-4">$200 – $500</td><td class="py-3 px-4">$10M – $20M</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Income Protection</td><td class="py-3 px-4">$800 – $2,500</td><td class="py-3 px-4">75% of income</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Cyber Liability</td><td class="py-3 px-4">$300 – $700</td><td class="py-3 px-4">$250K – $1M</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-white">Combined (PI + PL bundle)</td><td class="py-3 px-4 font-semibold text-teal-400">$400 – $1,000</td><td class="py-3 px-4">Discounted bundle</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Money-Saving Tip</h3>
+        <p class="text-slate-300 text-sm">Bundle PI + PL together — most insurers offer 15-25% discount for combined policies. For a developer, a combined PI+PL policy for $1M PI and $10M PL typically costs $450-$700/yr — less than buying them separately. Popular Australian options include BizCover, Insurance House, and Professional Insurance.</p>
+      </div>
+
+      <h2>Insurance in Your Contracts</h2>
+      <p>Many clients require proof of insurance before engaging you. Your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">freelance contract</a> should include an insurance clause specifying:</p>
+      <ul>
+        <li>What insurance you maintain (types and coverage amounts)</li>
+        <li>Willingness to provide certificates of currency on request</li>
+        <li>Requirement that insurance remains current for the contract duration</li>
+      </ul>
+      <p>Pro tip: having insurance signals professionalism and can justify higher rates. Clients feel safer working with insured freelancers.</p>
+
+      <h2>What You Can Skip</h2>
+      <ul>
+        <li><strong>Workers' compensation:</strong> Not required for sole traders with no employees in most states (you're not an employee of your own business). Required if you hire subcontractors — check your state's rules.</li>
+        <li><strong>Product liability:</strong> Only needed if you sell physical products. Digital products (software, designs) are covered by PI.</li>
+        <li><strong>Business interruption:</strong> Useful for businesses with premises/equipment, but overkill for most home-based freelancers.</li>
+        <li><strong>Management liability:</strong> For companies with directors/boards, not sole traders.</li>
+      </ul>
+
+      <h2>The Minimum Freelancer Insurance Stack</h2>
+      <p>If you can only afford one policy, get <strong>Professional Indemnity</strong>. It protects against the most common and expensive freelancer risk — a client claiming your work caused them financial harm.</p>
+      <p>The ideal stack for most freelancers:</p>
+      <ol>
+        <li><strong>PI + PL bundle</strong> (~$500-$700/yr) — covers your work and in-person interactions</li>
+        <li><strong>Income Protection</strong> (~$1,000-$1,500/yr with 90-day wait) — protects your ability to earn</li>
+        <li><strong>Cyber</strong> (if you handle data) (~$300-$500/yr) — covers the growing digital risk</li>
+      </ol>
+      <p>Total: roughly $1,800-$2,700/year — fully tax deductible as business expenses. At a 30% marginal rate, the after-tax cost is closer to $1,260-$1,890.</p>
+
+      <h2>Track Insurance as a Business Expense</h2>
+      <p>All business insurance premiums are tax deductible. Track them alongside your other expenses in <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> to ensure you claim every deduction at tax time. For more on what you can claim, see our <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductions guide</a>.</p>
+    `,
+  },
+
+  'how-to-accept-payments-freelancer-australia': {
+    slug: 'how-to-accept-payments-freelancer-australia',
+    title: 'How to Accept Payments as a Freelancer in Australia (2026 Guide)',
+    excerpt: 'Compare payment methods for Australian freelancers — bank transfer, Stripe, PayPal, BPAY, and card payments. Fees, settlement times, and which to use for each situation.',
+    category: 'Invoicing',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Accept Payments as a Freelancer in Australia | 2026 Guide',
+    seoDescription: 'Best payment methods for Australian freelancers compared: bank transfer, Stripe, PayPal, card payments, BPAY. Fees, settlement times, and setup guides.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Getting paid should be the easiest part of freelancing. But choosing the wrong payment method costs you money in fees, delays, and friction. This guide compares every payment option available to Australian freelancers and tells you exactly which to use and when.</p>
+
+      <h2>Payment Methods Compared</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Method</th>
+            <th class="text-left py-3 px-4 text-slate-400">Fees</th>
+            <th class="text-left py-3 px-4 text-slate-400">Settlement</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Bank Transfer (EFT)</td><td class="py-3 px-4 text-teal-400 font-semibold">Free</td><td class="py-3 px-4">Same day – 1 business day</td><td class="py-3 px-4">AU clients, large invoices</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Stripe</td><td class="py-3 px-4">1.75% + 30c (AU cards)</td><td class="py-3 px-4">2 business days</td><td class="py-3 px-4">Online payments, subscriptions</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">PayPal</td><td class="py-3 px-4">2.6% + 30c (AU)</td><td class="py-3 px-4">Instant to PayPal, 1-3 days to bank</td><td class="py-3 px-4">International clients</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">PayTo</td><td class="py-3 px-4">~$0.50 per transaction</td><td class="py-3 px-4">Near-instant</td><td class="py-3 px-4">Recurring payments</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">BPAY</td><td class="py-3 px-4">$0.50 – $1.50 per transaction</td><td class="py-3 px-4">1-2 business days</td><td class="py-3 px-4">Corporate/government</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Wise</td><td class="py-3 px-4">0.4% – 1.5% (varies by currency)</td><td class="py-3 px-4">1-2 business days</td><td class="py-3 px-4">International clients, best FX</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Square</td><td class="py-3 px-4">1.6% (in-person), 2.2% (online)</td><td class="py-3 px-4">1-2 business days</td><td class="py-3 px-4">In-person invoicing</td></tr>
+        </tbody>
+      </table>
+
+      <h2>1. Bank Transfer (EFT) — The Default for Australian Freelancers</h2>
+      <p><strong>Best for:</strong> Australian clients, invoices over $500, regular clients, maximum profit margin.</p>
+      <p>Direct bank transfer is the most common payment method for Australian freelancers. Zero fees, fast settlement via NPP (New Payments Platform), and most business clients prefer it.</p>
+      <p><strong>What you need on your invoice:</strong></p>
+      <ul>
+        <li>BSB number</li>
+        <li>Account number</li>
+        <li>Account name (must match your business/trading name)</li>
+        <li>Invoice number as payment reference</li>
+      </ul>
+      <p>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create professional invoices with bank details included.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip: Separate Business Account</h3>
+        <p class="text-slate-300 text-sm">Always use a separate business bank account for freelance income. It makes BAS preparation simple, tax time painless, and looks professional on invoices. Most banks offer free digital business accounts (Up Business, Macquarie Business, ING Business).</p>
+      </div>
+
+      <h3>Pros</h3>
+      <ul>
+        <li>Zero transaction fees</li>
+        <li>Same-day settlement via NPP (most major banks)</li>
+        <li>No merchant account needed</li>
+        <li>Familiar to all Australian businesses</li>
+      </ul>
+      <h3>Cons</h3>
+      <ul>
+        <li>Manual process — client must initiate payment</li>
+        <li>Hard to enforce payment (no auto-debit)</li>
+        <li>Matching payments to invoices requires reference numbers</li>
+        <li>Not practical for international payments (use Wise instead)</li>
+      </ul>
+
+      <h2>2. Stripe — Best for Online and Card Payments</h2>
+      <p><strong>Best for:</strong> Clients who prefer card payment, subscriptions, automated billing, online invoicing platforms.</p>
+      <p>Stripe is the most developer-friendly payment processor and integrates with virtually every invoicing tool. Fees are higher than bank transfer, but it removes payment friction — clients click a link and pay instantly.</p>
+
+      <h3>Stripe Fees in Australia (2026)</h3>
+      <ul>
+        <li><strong>Australian cards:</strong> 1.75% + 30c</li>
+        <li><strong>International cards:</strong> 2.9% + 30c</li>
+        <li><strong>Amex:</strong> Same as above (no surcharge)</li>
+        <li><strong>Bank debits:</strong> 1% + 30c (capped at $4)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Fee Impact Example</h3>
+        <p class="text-slate-300 text-sm">On a $5,000 invoice paid by Australian card via Stripe: <strong>$87.50 + $0.30 = $87.80 in fees</strong> (1.76%). On a $500 invoice: $8.75 + $0.30 = $9.05 (1.81%). The 30c fixed fee has more impact on smaller invoices. For invoices under $100, consider bank transfer instead.</p>
+      </div>
+
+      <p>When to use Stripe vs bank transfer: if the invoice is over $1,000 and the client is Australian, offer bank transfer first (saves $18+ in fees). If the client prefers card or is overseas, use Stripe.</p>
+
+      <h2>3. PayPal — The International Fallback</h2>
+      <p><strong>Best for:</strong> One-off international clients, platforms that only support PayPal, small payments where convenience matters more than fees.</p>
+      <p>PayPal is ubiquitous but expensive for Australian freelancers. The headline rate (2.6% + 30c) doesn't include currency conversion fees (3-4% on top) for international payments.</p>
+
+      <h3>PayPal Fees for Australian Sellers</h3>
+      <ul>
+        <li><strong>Domestic:</strong> 2.6% + 30c AUD</li>
+        <li><strong>International:</strong> 2.6% + 30c + 3-4% FX margin</li>
+        <li><strong>PayPal.Me links:</strong> Same rates, easier to share</li>
+        <li><strong>Withdrawal to AU bank:</strong> Free (1-3 business days)</li>
+      </ul>
+
+      <p>For international clients, <strong>Wise is almost always cheaper</strong> than PayPal. PayPal's hidden FX margins can add 3-4% on top of transaction fees, making the true cost 5-7% for international payments.</p>
+
+      <h2>4. Wise (Formerly TransferWise) — Best for International Payments</h2>
+      <p><strong>Best for:</strong> Regular international clients, multi-currency invoicing, best exchange rates.</p>
+      <p>Wise offers the mid-market exchange rate (the real rate you see on Google) with a transparent fee of 0.4-1.5% depending on the currency pair. For a US client paying $5,000 USD, Wise saves $150-$250 compared to PayPal.</p>
+      <p><strong>Key features for freelancers:</strong></p>
+      <ul>
+        <li>Local bank details in USD, GBP, EUR, NZD (clients pay local, you receive AUD)</li>
+        <li>Multi-currency account — hold and convert when rates are favourable</li>
+        <li>Batch payments for agencies paying multiple freelancers</li>
+        <li>Integrates with Xero and accounting software</li>
+      </ul>
+
+      <h2>5. PayTo — The New Australian Standard</h2>
+      <p>PayTo is Australia's new real-time payment initiation system (launched 2023-24). It lets you initiate payments directly from your client's bank account — like a modern direct debit but instant and with client control.</p>
+      <p><strong>Best for:</strong> Retainer clients, recurring invoices, subscription-style billing.</p>
+      <p>PayTo is still gaining adoption but will likely become the default for B2B payments in Australia. Watch for it in invoicing platforms through 2026.</p>
+
+      <h2>Which Payment Method to Use: Decision Framework</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Scenario</th>
+            <th class="text-left py-3 px-4 text-slate-400">Recommended Method</th>
+            <th class="text-left py-3 px-4 text-slate-400">Why</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">AU client, invoice > $500</td><td class="py-3 px-4 font-semibold text-teal-400">Bank Transfer</td><td class="py-3 px-4">Zero fees, fast</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">AU client, prefers card</td><td class="py-3 px-4 font-semibold text-teal-400">Stripe</td><td class="py-3 px-4">Low fees, instant</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">US/UK/EU client, regular</td><td class="py-3 px-4 font-semibold text-teal-400">Wise</td><td class="py-3 px-4">Best FX rates</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">US/UK/EU client, one-off</td><td class="py-3 px-4 font-semibold text-teal-400">Stripe or PayPal</td><td class="py-3 px-4">Convenience</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Retainer / monthly billing</td><td class="py-3 px-4 font-semibold text-teal-400">Stripe or PayTo</td><td class="py-3 px-4">Auto-billing</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Government / large corp</td><td class="py-3 px-4 font-semibold text-teal-400">Bank Transfer</td><td class="py-3 px-4">Standard process</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Small payment < $100</td><td class="py-3 px-4 font-semibold text-teal-400">Bank Transfer</td><td class="py-3 px-4">Fixed fees eat margin</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Offering Multiple Payment Options</h2>
+      <p>The best strategy is to offer 2-3 payment options on every invoice. This reduces payment friction and accommodates client preferences:</p>
+      <ol>
+        <li><strong>Primary:</strong> Bank transfer (BSB/account on every invoice)</li>
+        <li><strong>Secondary:</strong> Stripe payment link (for card payers)</li>
+        <li><strong>International:</strong> Wise local details or PayPal as fallback</li>
+      </ol>
+      <p>Most invoicing tools (including <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a>) let you include multiple payment methods on a single invoice.</p>
+
+      <h2>Payment Surcharging: Can You Pass Fees to Clients?</h2>
+      <p>Yes — Australian law allows businesses to pass on payment processing costs to customers, but with restrictions:</p>
+      <ul>
+        <li>You can only surcharge the <strong>actual cost</strong> of accepting that payment method (not more)</li>
+        <li>The surcharge must be clearly disclosed before payment</li>
+        <li>ACCC enforces this — excessive surcharging can result in penalties</li>
+        <li>Many freelancers offer a 2% discount for bank transfer instead of surcharging cards — same effect, better optics</li>
+      </ul>
+
+      <h2>GST on Payment Processing Fees</h2>
+      <p>Payment processing fees (Stripe, PayPal) are a business expense — you can claim the GST component as a GST credit on your <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS</a>. Keep the monthly statements as records.</p>
+      <p>However, when you <a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">create an invoice</a> for $1,100 (inc. GST) and receive $1,080.75 after Stripe fees, the full $1,100 is your revenue for GST purposes. You still owe GST on $1,100, and claim the Stripe fee separately.</p>
+
+      <h2>Getting Paid Faster: Payment Method Matters</h2>
+      <p>Research consistently shows:</p>
+      <ul>
+        <li>Invoices with <strong>payment links</strong> (Stripe/PayPal) get paid 15-20% faster than bank-transfer-only invoices</li>
+        <li><strong>Shorter payment terms</strong> combined with easy payment methods reduce average payment time from 23 days to 8 days</li>
+        <li>Offering <strong>multiple payment options</strong> reduces "I'll pay later" friction</li>
+      </ul>
+      <p>For more tactics on getting paid faster, read our <a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">complete guide to getting paid on time</a>.</p>
+
+      <h2>Setting Up Payment Methods on Your Invoices</h2>
+      <p>Every invoice should include:</p>
+      <ul>
+        <li>Your bank details (BSB, account number, account name)</li>
+        <li>A payment reference (invoice number)</li>
+        <li>Payment due date with clear terms</li>
+        <li>Optional: Stripe/PayPal payment link for card payments</li>
+        <li>Optional: late payment fee notice (see our <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment fees guide</a>)</li>
+      </ul>
+      <p>Use <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">our free invoice generator</a> to create professional invoices with all payment details included, then move to <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> when you want automated tracking, payment reminders, and GST reporting.</p>
+    `,
+  },
 };
 
 const allSlugs = Object.keys(blogPosts);
