@@ -4378,6 +4378,597 @@ export const blogPosts: Record<string, BlogPost> = {
       </ul>
     `,
   },
+  'best-business-bank-accounts-freelancers-australia': {
+    slug: 'best-business-bank-accounts-freelancers-australia',
+    title: 'Best Business Bank Accounts for Freelancers in Australia (2026)',
+    excerpt: 'Compare fee-free business accounts from major banks and neobanks. Find the right account for managing freelance income, expenses, and GST.',
+    category: 'Business Setup',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'Best Business Bank Accounts for Freelancers Australia 2026',
+    seoDescription: 'Compare the best business bank accounts for Australian freelancers in 2026. Fee-free options, transaction limits, integration features, and which bank to choose.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Your business bank account is the foundation of your freelance finances. The right account saves you hundreds in fees, simplifies BAS reporting, and makes tax time painless. Here's how to choose — and which accounts are worth opening in 2026.</p>
+
+      <h2>Why You Need a Separate Business Account</h2>
+      <p>Before we compare accounts, let's be clear: <strong>mixing personal and business finances is one of the most expensive mistakes freelancers make.</strong></p>
+      <p>Here's what happens when you don't separate:</p>
+      <ul>
+        <li><strong>Tax time chaos:</strong> You'll spend hours (or pay an accountant $200+/hr) to untangle business transactions from personal ones</li>
+        <li><strong>ATO audit risk:</strong> Mixed accounts make it harder to substantiate deductions — the ATO flags this</li>
+        <li><strong>GST reporting errors:</strong> When business and personal purchases are mixed, BAS mistakes are almost guaranteed</li>
+        <li><strong>No financial clarity:</strong> You can't tell if your business is profitable when everything's in one account</li>
+        <li><strong>Missed deductions:</strong> Business expenses buried in personal transactions get overlooked</li>
+      </ul>
+      <p>The ATO doesn't <em>require</em> a separate business account for sole traders, but they strongly recommend it — and every accountant in Australia will tell you the same thing.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The 3-Account System</h3>
+        <p class="text-slate-300 text-sm">Most successful freelancers use three accounts: (1) <strong>Business operating</strong> — all income and expenses, (2) <strong>Tax savings</strong> — auto-transfer 30% of every invoice payment for tax + GST + super, (3) <strong>Personal</strong> — pay yourself a regular "salary" from the operating account. This system prevents the #1 freelancer cash crisis: spending the tax money. See our <a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">cash flow management guide</a> for the full system.</p>
+      </div>
+
+      <h2>What to Look for in a Freelancer Business Account</h2>
+      <p>Not all business accounts are created equal. Here's what matters for freelancers:</p>
+
+      <h3>1. Monthly Fees</h3>
+      <p>Many banks charge $10-$30/month for business accounts. For a sole trader doing under $200K revenue, this is unnecessary. Several banks now offer <strong>genuinely fee-free</strong> business accounts — choose one of these.</p>
+
+      <h3>2. Transaction Limits</h3>
+      <p>Some "free" accounts limit you to 20-30 transactions per month, then charge $0.20-$0.50 per transaction. If you have multiple clients paying weekly, you'll blow through this quickly. Look for <strong>unlimited free transactions</strong>.</p>
+
+      <h3>3. Integration with Accounting/Invoicing Software</h3>
+      <p>Bank feed integration means your transactions automatically sync to your invoicing or accounting software. This saves hours of manual data entry and reduces BAS errors. Check if the bank integrates with your tools.</p>
+
+      <h3>4. Payment Speed</h3>
+      <p>PayID and NPP (New Payments Platform) enable instant transfers. Most major banks support this now, but some neobanks offer faster settlement from payment gateways like Stripe.</p>
+
+      <h3>5. Multi-Account Support</h3>
+      <p>For the 3-account system, you need a bank that lets you create multiple sub-accounts easily — ideally with automatic transfer rules.</p>
+
+      <h2>Best Business Bank Accounts Compared (2026)</h2>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Bank</th>
+            <th class="text-left py-3 px-4 text-slate-400">Monthly Fee</th>
+            <th class="text-left py-3 px-4 text-slate-400">Free Transactions</th>
+            <th class="text-left py-3 px-4 text-slate-400">Interest</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Up Business</td><td class="py-3 px-4 text-teal-400">$0</td><td class="py-3 px-4">Unlimited</td><td class="py-3 px-4">Up to 4.0% on savers</td><td class="py-3 px-4">Best overall — fee-free, great app</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">ING Business Optimiser</td><td class="py-3 px-4 text-teal-400">$0</td><td class="py-3 px-4">Unlimited</td><td class="py-3 px-4">Up to 5.0% (conditions)</td><td class="py-3 px-4">High interest savings</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Macquarie Business Account</td><td class="py-3 px-4 text-teal-400">$0</td><td class="py-3 px-4">Unlimited</td><td class="py-3 px-4">Up to 4.75%</td><td class="py-3 px-4">High interest + strong integrations</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">CommBank Business Transaction</td><td class="py-3 px-4">$10/mo</td><td class="py-3 px-4">30 (then $0.20 each)</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">Branch access, big bank reliability</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">ANZ Business Advantage</td><td class="py-3 px-4">$10/mo</td><td class="py-3 px-4">Unlimited electronic</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">Branch access, ANZ ecosystem</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">NAB Business Everyday</td><td class="py-3 px-4">$10/mo*</td><td class="py-3 px-4">Unlimited electronic</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">*Fee waived first 2 years for startups</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Westpac Business One</td><td class="py-3 px-4">$10/mo</td><td class="py-3 px-4">30 (then $0.20 each)</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">Branch access, bundled merchant</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Judo Bank Business</td><td class="py-3 px-4 text-teal-400">$0</td><td class="py-3 px-4">Unlimited</td><td class="py-3 px-4">Up to 4.65%</td><td class="py-3 px-4">High interest, SMB focused</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Big 4 vs Neobank Reality</h3>
+        <p class="text-slate-300 text-sm">The Big 4 banks (CBA, ANZ, NAB, Westpac) charge $10/month for basic business accounts — that's <strong>$120/year for the privilege of holding your money at 0% interest</strong>. Neobanks like Up, ING, and Macquarie offer fee-free accounts with interest on your balance. Unless you specifically need branch access or a dedicated relationship manager, a neobank is objectively better for sole traders.</p>
+      </div>
+
+      <h2>Our Top Pick: Up Business</h2>
+      <p>For most Australian freelancers, <strong>Up Business</strong> is the best choice in 2026:</p>
+      <ul>
+        <li><strong>$0 monthly fee</strong> — genuinely free, no conditions</li>
+        <li><strong>Unlimited transactions</strong> — no per-transaction fees</li>
+        <li><strong>Automatic categorisation</strong> — transactions are auto-tagged for easier BAS reporting</li>
+        <li><strong>Multiple "savers"</strong> — create dedicated sub-accounts for tax, GST, super, emergency fund</li>
+        <li><strong>Round-up and auto-transfer rules</strong> — automate the 30% tax savings transfer</li>
+        <li><strong>PayID + NPP</strong> — instant transfers</li>
+        <li><strong>Great app</strong> — real-time notifications, spending insights, search</li>
+        <li><strong>Xero and MYOB integration</strong> — bank feed support for accounting software</li>
+      </ul>
+      <p>The main limitation is no branch access (it's a subsidiary of Bendigo Bank) and no business lending products. If you need a business credit card or line of credit, you'll need a secondary relationship with a Big 4.</p>
+
+      <h2>Runner-Up: Macquarie Business Account</h2>
+      <p>If you want a more established institution:</p>
+      <ul>
+        <li>$0 monthly fee with unlimited transactions</li>
+        <li>Up to 4.75% interest on business savings</li>
+        <li>Strong accounting software integrations (Xero, MYOB, QuickBooks)</li>
+        <li>Business lending and credit available</li>
+        <li>24/7 phone support</li>
+      </ul>
+
+      <h2>When to Choose a Big 4 Bank</h2>
+      <p>A Big 4 account makes sense if you:</p>
+      <ul>
+        <li><strong>Need branch access</strong> — for cash deposits, bank cheques, or in-person service</li>
+        <li><strong>Want a business credit card</strong> — Big 4 bundled business packages often include cards</li>
+        <li><strong>Plan to borrow</strong> — business loans, overdrafts, or equipment finance are easier with an existing Big 4 relationship</li>
+        <li><strong>Have government or corporate clients</strong> — some require EFT to Big 4 accounts specifically</li>
+        <li><strong>Revenue over $500K</strong> — at higher volumes, relationship banking starts to add value</li>
+      </ul>
+      <p>If none of these apply, save the $120/year and bank with a neobank.</p>
+
+      <h2>Setting Up Your Freelance Banking System</h2>
+      <p>Here's the step-by-step setup most accountants recommend:</p>
+      <ol>
+        <li><strong>Open a fee-free business transaction account</strong> — all client payments go here</li>
+        <li><strong>Open a business savings account</strong> (same bank) — this is your tax reserve</li>
+        <li><strong>Set up an automatic transfer rule:</strong> 30% of every incoming payment goes to tax savings</li>
+        <li><strong>If registered for GST:</strong> Consider a third sub-account for GST specifically (you'll need it quarterly for BAS)</li>
+        <li><strong>Set up PayID</strong> — use your business email or ABN for instant payments from clients</li>
+        <li><strong>Connect bank feeds</strong> to your invoicing software (InvoiceFlow connects to most AU banks)</li>
+        <li><strong>Pay yourself a regular "salary"</strong> — weekly or fortnightly transfer to your personal account</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The 30% Rule</h3>
+        <p class="text-slate-300 text-sm">Transfer 30% of every client payment to your tax savings account immediately. This covers: income tax (~20-25% effective rate for most freelancers), Medicare levy (2%), and GST buffer (if registered). When BAS and tax time come, the money is already set aside. See our <a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">freelancer tax guide</a> for exact rates by income level.</p>
+      </div>
+
+      <h2>Business Account Features That Actually Matter</h2>
+      <p>Banks market dozens of features. Here's what <em>actually</em> matters for freelancers:</p>
+
+      <h3>Must Have</h3>
+      <ul>
+        <li><strong>PayID:</strong> Clients can pay instantly using your email/ABN instead of BSB + account number</li>
+        <li><strong>Bank feeds:</strong> Automatic transaction sync to your invoicing/accounting software</li>
+        <li><strong>Multiple sub-accounts:</strong> Separate pots for tax, operating, and GST</li>
+        <li><strong>Mobile app:</strong> Real-time balance and transaction notifications</li>
+      </ul>
+
+      <h3>Nice to Have</h3>
+      <ul>
+        <li><strong>Interest on balance:</strong> If you keep a cash reserve, earning 4-5% on it adds up</li>
+        <li><strong>Auto-categorisation:</strong> Reduces manual bookkeeping</li>
+        <li><strong>International transfers:</strong> If you have overseas clients, check FX fees (Wise Business may be better)</li>
+      </ul>
+
+      <h3>Don't Need</h3>
+      <ul>
+        <li><strong>Merchant facilities:</strong> Use Stripe or Square directly — much cheaper than bank-provided EFTPOS</li>
+        <li><strong>Business loans:</strong> Don't bundle banking with lending just to "build a relationship"</li>
+        <li><strong>Premium packages:</strong> "Gold" and "Platinum" business accounts are for larger businesses, not sole traders</li>
+      </ul>
+
+      <h2>International Payments: Wise Business</h2>
+      <p>If you have international clients, your bank's FX rate will eat your profits. The Big 4 charge 2-4% margin on foreign exchange — on a $5,000 USD invoice, that's $100-200 lost.</p>
+      <p>Consider <a href="/blog/how-to-accept-payments-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">Wise Business</a> as a secondary account for international payments:</p>
+      <ul>
+        <li>Hold balances in USD, GBP, EUR, and 50+ currencies</li>
+        <li>FX margin of 0.4-1.5% (vs 2-4% at Big 4 banks)</li>
+        <li>Local bank details in US, UK, EU — clients pay in their currency with no international wire fees</li>
+        <li>Australian-regulated, ABN support</li>
+      </ul>
+
+      <h2>Common Banking Mistakes Freelancers Make</h2>
+      <ol>
+        <li><strong>Using a personal account for business</strong> — makes tax time expensive and error-prone</li>
+        <li><strong>Not setting up automatic tax transfers</strong> — the #1 cause of freelancer tax debt</li>
+        <li><strong>Paying monthly fees they don't need</strong> — $120+/year for a basic account at a Big 4</li>
+        <li><strong>Keeping all cash in a 0% transaction account</strong> — your tax reserve should earn interest</li>
+        <li><strong>Using the bank's FX rates for international invoices</strong> — use Wise or similar</li>
+        <li><strong>Not connecting bank feeds</strong> — manual data entry wastes hours and introduces errors</li>
+        <li><strong>Opening too many accounts</strong> — 2-3 accounts is optimal, more creates complexity</li>
+      </ol>
+
+      <h2>Switching Banks: How to Migrate</h2>
+      <p>If you're currently paying fees, switching is straightforward:</p>
+      <ol>
+        <li>Open your new account (most neobanks approve same-day online)</li>
+        <li>Update your invoicing software with new bank details</li>
+        <li>Notify current clients of new payment details (include in your next invoice)</li>
+        <li>Set up PayID on the new account</li>
+        <li>Run both accounts in parallel for 1-2 months</li>
+        <li>Once all clients have migrated, close the old account</li>
+      </ol>
+      <p>Don't close the old account too early — some clients will keep paying to old details for a month or two.</p>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Management for Freelancers</a> — The 3-account system in detail</li>
+        <li><a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">How Much Tax Do Freelancers Pay</a> — Know exactly what to set aside</li>
+        <li><a href="/blog/how-to-accept-payments-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">How to Accept Payments</a> — Compare all payment methods</li>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping Guide</a> — ATO-compliant bookkeeping</li>
+        <li><a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS Guide for Freelancers</a> — Quarterly reporting made easy</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST on any amount</li>
+        <li><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — AI-powered invoicing with bank feed integration</li>
+      </ul>
+    `,
+  },
+  'how-to-find-freelance-clients-australia': {
+    slug: 'how-to-find-freelance-clients-australia',
+    title: 'How to Find Freelance Clients in Australia: 12 Proven Strategies',
+    excerpt: 'Practical client acquisition strategies that actually work for Australian freelancers — from warm outreach to platform positioning to content marketing.',
+    category: 'Growth',
+    readTime: '13 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Find Freelance Clients in Australia | 12 Strategies',
+    seoDescription: 'Discover 12 proven strategies to find freelance clients in Australia. From Upwork to LinkedIn to referrals — actionable tactics with real examples.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Finding clients is the #1 challenge for freelancers. Not skills. Not pricing. Not invoicing. It's consistently filling your pipeline with quality work. Here are 12 strategies that actually work in the Australian market — ranked by effort, cost, and effectiveness.</p>
+
+      <h2>Strategy 1: Your Warm Network (Start Here)</h2>
+      <p><strong>Effort:</strong> Low &nbsp; <strong>Cost:</strong> $0 &nbsp; <strong>Time to first client:</strong> 1-2 weeks</p>
+      <p>80% of first freelance clients come from people you already know. Before you spend money on ads or hours on cold outreach:</p>
+      <ol>
+        <li><strong>Tell everyone you know</strong> — Post on LinkedIn, tell friends, tell former colleagues. "I've started freelancing as a [your skill]. If you know anyone who needs help with [specific problem], I'd appreciate a referral."</li>
+        <li><strong>Contact former employers/managers</strong> — They know your work quality and often need project help. "I'm now freelancing and would love to support [company] on a project basis. Is there anything coming up where I could help?"</li>
+        <li><strong>Check in with contacts at old companies</strong> — People change roles. Your old manager's new company might need exactly what you do.</li>
+        <li><strong>Join industry events</strong> — In Melbourne, Sydney, and Brisbane, there are meetups for every industry. Show up, be helpful, follow up.</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The 10-Email Challenge</h3>
+        <p class="text-slate-300 text-sm">This week, send 10 personalised emails to people in your network. Not asking for work directly — just letting them know you're freelancing and what you specialise in. On average, 10 warm emails produce 1-2 leads and often your first paid project. That's a 10-20% conversion rate — no other channel comes close.</p>
+      </div>
+
+      <h2>Strategy 2: LinkedIn (Best Free Channel)</h2>
+      <p><strong>Effort:</strong> Medium &nbsp; <strong>Cost:</strong> $0 &nbsp; <strong>Time to first client:</strong> 2-4 weeks</p>
+      <p>LinkedIn is the single best free marketing channel for Australian freelancers. Here's the system:</p>
+
+      <h3>Profile Optimisation</h3>
+      <ul>
+        <li><strong>Headline:</strong> Not "Freelance Designer" — instead: "I help Australian startups ship products faster | UI/UX Design + Prototyping"</li>
+        <li><strong>Banner:</strong> Social proof or portfolio highlight (Canva has free templates)</li>
+        <li><strong>About section:</strong> Problem → Solution → Proof → CTA format. 3-4 paragraphs max.</li>
+        <li><strong>Featured section:</strong> Pin your best work, case studies, or lead magnet</li>
+        <li><strong>Experience:</strong> List your freelance business with key client wins (names if permitted)</li>
+      </ul>
+
+      <h3>Content Strategy</h3>
+      <p>Post 3-5 times per week. Mix these formats:</p>
+      <ul>
+        <li><strong>Behind-the-scenes:</strong> Show your process, tools, workspace. "Here's how I approach a new branding project..."</li>
+        <li><strong>Lessons learned:</strong> Share mistakes and insights from client work (anonymised). "3 things I wish I knew before my first $10K project..."</li>
+        <li><strong>Industry insights:</strong> Comment on trends in your field. Position yourself as someone who thinks deeply about your craft.</li>
+        <li><strong>Client results:</strong> (With permission) Before/after, metrics, testimonials. This is your strongest content type.</li>
+      </ul>
+
+      <h3>Direct Outreach</h3>
+      <p>When you see someone post about a problem you solve, send a brief connection request with context. After connecting, share a relevant resource (not a pitch). Build the relationship before asking for anything.</p>
+
+      <h2>Strategy 3: Upwork (Best Platform for Australians)</h2>
+      <p><strong>Effort:</strong> High (initially) &nbsp; <strong>Cost:</strong> $0-$20/mo &nbsp; <strong>Time to first client:</strong> 1-3 weeks</p>
+      <p>Upwork is the largest freelance marketplace, and Australian freelancers have a significant advantage: the platform's trust score favours English-speaking countries with strong legal systems.</p>
+
+      <h3>Getting Started</h3>
+      <ol>
+        <li>Create a complete profile with portfolio pieces and a professional photo</li>
+        <li>Set your rate at 70-80% of your target (you'll raise it after reviews)</li>
+        <li>Focus on fixed-price projects initially (clients feel less risk)</li>
+        <li>Apply to 10-15 jobs in your first week with personalised proposals</li>
+        <li>First 5 reviews are everything — overdeliver on early projects</li>
+      </ol>
+
+      <h3>Proposal Template That Works</h3>
+      <p>Structure every proposal: (1) Reference a specific detail from their job post, (2) Briefly state your relevant experience, (3) Propose a solution approach, (4) Include a timeline, (5) End with a question to start dialogue.</p>
+      <p>Avoid: generic proposals, copying your profile summary, leading with your rate, or writing more than 200 words.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Upwork Fee Structure</h3>
+        <p class="text-slate-300 text-sm">Upwork charges a sliding fee: 20% on first $500, 10% on $500-$10K, 5% over $10K per client. The key strategy is to build long-term client relationships — once you pass $10K with a client, you're only paying 5%. Australian freelancers average $74/hr on Upwork, the highest national average globally. See our <a href="/blog/how-to-accept-payments-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">payments guide</a> for a full fee comparison.</p>
+      </div>
+
+      <h2>Strategy 4: Referral System</h2>
+      <p><strong>Effort:</strong> Low (ongoing) &nbsp; <strong>Cost:</strong> $0-5% &nbsp; <strong>Time to first client:</strong> Variable</p>
+      <p>Referrals have the highest conversion rate of any acquisition channel. The problem is most freelancers don't have a <em>system</em> — they just hope clients recommend them.</p>
+      <p>Build a referral system:</p>
+      <ol>
+        <li><strong>Ask at the right moment:</strong> After delivering a result the client is excited about (not at the end of the project). "Really glad this worked out. Do you know anyone else who might need similar help?"</li>
+        <li><strong>Make it easy:</strong> Offer to draft a message they can forward. Most people want to refer you but don't want to write copy.</li>
+        <li><strong>Offer reciprocal value:</strong> Refer clients to other freelancers (designers, developers, copywriters). What goes around comes around.</li>
+        <li><strong>Consider a referral bonus:</strong> 5-10% of the first project value, or a gift card. Not required, but it keeps you top-of-mind.</li>
+        <li><strong>Follow up quarterly:</strong> A quick "How's everything going?" email to past clients keeps the relationship warm and reminds them you exist.</li>
+      </ol>
+
+      <h2>Strategy 5: Content Marketing & SEO</h2>
+      <p><strong>Effort:</strong> High &nbsp; <strong>Cost:</strong> $0 (+ time) &nbsp; <strong>Time to first client:</strong> 2-6 months</p>
+      <p>Content marketing is the long game, but it's the most sustainable. Once you rank for relevant keywords, clients come to you — no outreach required.</p>
+      <ul>
+        <li><strong>Start a blog</strong> on your portfolio site targeting "[your skill] + [industry/location]" keywords</li>
+        <li><strong>Write case studies:</strong> Show your process and results. "How I redesigned [type of product] and increased [metric] by [%]"</li>
+        <li><strong>Create free tools or templates:</strong> Give away useful resources to build email lists (like our <a href="/tools" class="text-teal-400 hover:text-teal-300 underline">free business tools</a>)</li>
+        <li><strong>Guest post</strong> on industry blogs and publications relevant to your target clients</li>
+      </ul>
+
+      <h2>Strategy 6: Niche Down</h2>
+      <p><strong>Effort:</strong> Low (strategic) &nbsp; <strong>Cost:</strong> $0 &nbsp; <strong>Time to impact:</strong> Immediate</p>
+      <p>The fastest way to get more clients is counterintuitive: <strong>work with fewer types of clients.</strong></p>
+      <p>Compare these two freelancer profiles:</p>
+      <ul>
+        <li>"I'm a web developer. I build websites." → Competing with millions of generalists globally</li>
+        <li>"I build e-commerce sites for Australian fashion brands using Shopify." → You're the obvious choice for that niche</li>
+      </ul>
+      <p>When you niche down, you can charge more (specialist premium), write targeted content, get referrals within the industry, and develop reusable systems that increase your efficiency.</p>
+
+      <h2>Strategy 7: Australian-Specific Platforms</h2>
+      <p><strong>Effort:</strong> Medium &nbsp; <strong>Cost:</strong> $0-$50/mo &nbsp; <strong>Time to first client:</strong> 1-4 weeks</p>
+      <p>Beyond Upwork, several platforms cater specifically to Australian freelancers and businesses:</p>
+      <ul>
+        <li><strong>Airtasker</strong> — Best for local services, smaller jobs ($50-$500). Good for building reviews quickly.</li>
+        <li><strong>Freelancer.com</strong> — Australian-founded (Matt Barrie). Large but competitive, similar to Upwork.</li>
+        <li><strong>Expert360</strong> — Premium consulting marketplace for experienced professionals ($150-$500+/hr).</li>
+        <li><strong>DesignCrowd</strong> — Australian design marketplace (contest + project-based).</li>
+        <li><strong>Fiverr</strong> — Good for productised services with clear deliverables. International but works well for Australians.</li>
+      </ul>
+
+      <h2>Strategy 8: Industry Communities & Forums</h2>
+      <p><strong>Effort:</strong> Medium &nbsp; <strong>Cost:</strong> $0 &nbsp; <strong>Time to first client:</strong> 1-3 months</p>
+      <p>The best clients hang out in communities specific to their industry. Find them and be genuinely helpful:</p>
+      <ul>
+        <li><strong>Reddit:</strong> r/freelance, r/SideProject, r/Entrepreneur, r/AusFinance, and industry-specific subreddits</li>
+        <li><strong>Slack communities:</strong> Many industries have active Slack groups where work opportunities are shared</li>
+        <li><strong>Facebook groups:</strong> Search "[your industry] Australia" — many have thousands of members</li>
+        <li><strong>IndieHackers:</strong> For tech/SaaS freelancers, founders actively look for builders</li>
+      </ul>
+      <p>The rule: provide value for 4 weeks before ever mentioning your services. Answer questions, share insights, be the person others tag when someone asks "does anyone know a good [your skill]?"</p>
+
+      <h2>Strategy 9: Cold Outreach (That Doesn't Feel Cold)</h2>
+      <p><strong>Effort:</strong> High &nbsp; <strong>Cost:</strong> $0 &nbsp; <strong>Time to first client:</strong> 2-4 weeks</p>
+      <p>Cold outreach works when it's not actually cold. The approach:</p>
+      <ol>
+        <li><strong>Identify 50 companies</strong> that match your ideal client profile</li>
+        <li><strong>Research each one:</strong> What are they working on? What problems might they have?</li>
+        <li><strong>Find the right person:</strong> Usually a marketing manager, product lead, or founder</li>
+        <li><strong>Lead with an insight:</strong> "I noticed [specific thing about their business]. Here's an idea that could help with [specific problem]..."</li>
+        <li><strong>Keep it short:</strong> 3-4 sentences max. No attachments. One clear next step.</li>
+      </ol>
+      <p>Response rate for good cold emails: 5-15%. Response rate for generic ones: &lt;1%.</p>
+
+      <h2>Strategy 10: Partnerships with Complementary Freelancers</h2>
+      <p><strong>Effort:</strong> Low &nbsp; <strong>Cost:</strong> $0 &nbsp; <strong>Time to first client:</strong> 2-6 weeks</p>
+      <p>Team up with freelancers who serve the same clients but offer different services. If you're a developer, partner with a designer. If you're a copywriter, partner with an SEO specialist.</p>
+      <ul>
+        <li>Refer clients to each other (mutual benefit)</li>
+        <li>Pitch together on larger projects (higher win rate)</li>
+        <li>Share industry intelligence and opportunities</li>
+        <li>Co-create content (webinars, guides, templates)</li>
+      </ul>
+
+      <h2>Strategy 11: Subcontracting for Agencies</h2>
+      <p><strong>Effort:</strong> Low &nbsp; <strong>Cost:</strong> $0 &nbsp; <strong>Time to first client:</strong> 1-2 weeks</p>
+      <p>Australian agencies frequently outsource to freelancers. The work is steady, the rates are decent (not premium, but reliable), and there's no sales effort once you're in.</p>
+      <ul>
+        <li>Reach out to 10-20 agencies in your city that do work in your skill area</li>
+        <li>Offer a day rate (agencies prefer this over hourly)</li>
+        <li>Emphasise reliability, communication, and turnaround speed — agencies care about this more than creativity</li>
+        <li>Be willing to white-label your work (it won't go in your portfolio, but the income is consistent)</li>
+      </ul>
+
+      <h2>Strategy 12: Speaking and Teaching</h2>
+      <p><strong>Effort:</strong> High &nbsp; <strong>Cost:</strong> $0-$200 &nbsp; <strong>Time to first client:</strong> 1-3 months</p>
+      <p>Nothing builds authority faster than teaching. Options in Australia:</p>
+      <ul>
+        <li><strong>Meetup talks:</strong> Local tech/design/marketing meetups always need speakers. 20 minutes + Q&A = immediate credibility.</li>
+        <li><strong>Workshops:</strong> General Assembly, Academy Xi, and industry associations run paid workshops. You get paid to market yourself.</li>
+        <li><strong>Conference speaking:</strong> Web Directions, YOW!, SydCSS, MelbCSS — submit to CFPs in your field.</li>
+        <li><strong>Online courses:</strong> Create a short course on Udemy or Skillshare. Students become clients.</li>
+      </ul>
+
+      <h2>The Client Acquisition Funnel</h2>
+      <p>Think of these strategies as a funnel:</p>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Stage</th>
+            <th class="text-left py-3 px-4 text-slate-400">Strategy</th>
+            <th class="text-left py-3 px-4 text-slate-400">Goal</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Immediate</td><td class="py-3 px-4">Warm network, former employers</td><td class="py-3 px-4">First 1-3 clients this month</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Short-term</td><td class="py-3 px-4">Upwork, LinkedIn, platforms</td><td class="py-3 px-4">Consistent pipeline in 1-3 months</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Medium-term</td><td class="py-3 px-4">Referrals, agencies, partnerships</td><td class="py-3 px-4">Sustainable income in 3-6 months</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Long-term</td><td class="py-3 px-4">Content, SEO, speaking, niche authority</td><td class="py-3 px-4">Clients come to you in 6-12 months</td></tr>
+        </tbody>
+      </table>
+      <p>Don't skip stages. Start with warm outreach, then build your platform presence, then invest in long-term content. Most freelancers fail because they start with content marketing (which takes months) instead of picking up the phone.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Numbers Game</h3>
+        <p class="text-slate-300 text-sm">Track your client acquisition metrics: proposals sent, response rate, discovery calls booked, projects won, average project value. Most successful freelancers convert at roughly: 10 proposals → 3 responses → 2 calls → 1 project. Knowing your numbers lets you predict revenue and identify where to improve.</p>
+      </div>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-start-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">How to Start Freelancing in Australia</a> — Complete beginner's guide</li>
+        <li><a href="/blog/how-to-quote-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">How to Quote Clients</a> — Win more projects with better quotes</li>
+        <li><a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">How to Price Your Services</a> — Beyond hourly rates</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Protect yourself and your client</li>
+        <li><a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">Get Paid Faster</a> — Once you've won the client, get paid on time</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Rate Calculator</a> — Know your numbers before quoting</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Professional invoices in minutes</li>
+        <li><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — Automated invoicing so you can focus on client work</li>
+      </ul>
+    `,
+  },
+  'freelance-portfolio-guide-australia': {
+    slug: 'freelance-portfolio-guide-australia',
+    title: 'Freelance Portfolio Guide: How to Win More Clients (2026)',
+    excerpt: 'Build a portfolio that converts visitors into clients. What to include, how to structure case studies, and common mistakes that cost freelancers projects.',
+    category: 'Growth',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelance Portfolio Guide Australia | Win More Clients 2026',
+    seoDescription: 'Build a freelance portfolio that wins clients. Learn what to include, how to write case studies, portfolio structure, and mistakes that cost you projects.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Your portfolio is your #1 sales tool. Not your resume. Not your LinkedIn. Not your Upwork profile. A strong portfolio converts browsers into paying clients — a weak one sends them to your competitor. Here's how to build one that wins work.</p>
+
+      <h2>Why Most Freelance Portfolios Don't Work</h2>
+      <p>The typical freelance portfolio is a gallery of screenshots with captions like "Website for Client X" and "Logo for Company Y." This tells potential clients almost nothing. They don't care what you made — they care about <strong>the results you deliver and the process you follow.</strong></p>
+      <p>Common portfolio mistakes:</p>
+      <ul>
+        <li><strong>Gallery format:</strong> Just images with no context — doesn't show your thinking or value</li>
+        <li><strong>Too many projects:</strong> 20+ items dilute quality. Clients don't browse — they skim.</li>
+        <li><strong>No results:</strong> "Designed a website" vs "Redesigned website that increased conversions by 35%" — one gets you hired</li>
+        <li><strong>Outdated work:</strong> Projects from 3+ years ago signal you haven't grown</li>
+        <li><strong>Missing CTA:</strong> No clear path from "nice portfolio" to "let me hire this person"</li>
+        <li><strong>Generic copy:</strong> "I'm a passionate designer who loves creating beautiful things" — says nothing</li>
+      </ul>
+
+      <h2>The 6 Essential Portfolio Elements</h2>
+
+      <h3>1. Headline That Positions You</h3>
+      <p>Your portfolio headline should answer: "What do you do, and who do you do it for?"</p>
+      <p>Weak headlines vs strong headlines:</p>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-red-400">Weak</th>
+            <th class="text-left py-3 px-4 text-teal-400">Strong</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Freelance Web Developer"</td><td class="py-3 px-4">"I build Next.js apps that help startups ship faster"</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Graphic Designer"</td><td class="py-3 px-4">"Brand identity for Australian food & hospitality businesses"</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Marketing Consultant"</td><td class="py-3 px-4">"I help e-commerce brands grow from $100K to $1M with paid social"</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Copywriter for hire"</td><td class="py-3 px-4">"SaaS conversion copy that turns free trials into paying customers"</td></tr>
+        </tbody>
+      </table>
+
+      <h3>2. 3-5 Case Studies (Not Screenshots)</h3>
+      <p>This is where most portfolios fail. A case study isn't a screenshot — it's a story with a structure:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Perfect Case Study Structure</h3>
+        <p class="text-slate-300 text-sm mb-3"><strong>1. The Problem:</strong> What challenge did the client face? Why did they come to you? (2-3 sentences)</p>
+        <p class="text-slate-300 text-sm mb-3"><strong>2. The Approach:</strong> What was your strategy? What decisions did you make and why? (3-5 sentences)</p>
+        <p class="text-slate-300 text-sm mb-3"><strong>3. The Work:</strong> Screenshots, mockups, or examples of what you delivered. Walk through key features. (visuals + captions)</p>
+        <p class="text-slate-300 text-sm mb-3"><strong>4. The Results:</strong> Measurable outcomes. Revenue increase, conversion rate improvement, time saved, user growth. Numbers beat adjectives.</p>
+        <p class="text-slate-300 text-sm"><strong>5. Client Testimonial:</strong> A quote from the client confirming the value. Even one sentence adds credibility.</p>
+      </div>
+
+      <p>If you don't have client testimonials or metrics yet, focus on the problem/approach/work sections. Even without results data, showing your <strong>thinking process</strong> differentiates you from freelancers who just show screenshots.</p>
+
+      <h3>3. Services With Clear Pricing Signals</h3>
+      <p>You don't need to list exact prices, but give potential clients enough information to self-qualify:</p>
+      <ul>
+        <li>"Projects typically range from $3,000-$10,000" (bracket pricing)</li>
+        <li>"Starting from $2,500 for a basic website" (anchor pricing)</li>
+        <li>"Day rate: $800+GST" (for ongoing/retainer work)</li>
+      </ul>
+      <p>Without pricing signals, you'll waste time on discovery calls with clients who have $500 budgets for $5,000 projects.</p>
+
+      <h3>4. About Section That Builds Trust</h3>
+      <p>Clients hire people they trust. Your about section should include:</p>
+      <ul>
+        <li>A professional photo (doesn't need to be a studio shot — just clear and well-lit)</li>
+        <li>Your background — relevant experience, not your life story</li>
+        <li>Why you freelance — shows intentionality, not desperation</li>
+        <li>Location — "Based in Melbourne, available Australia-wide" (local clients prefer local freelancers)</li>
+        <li>Social proof — "Worked with clients including [notable names]"</li>
+      </ul>
+
+      <h3>5. Clear Call to Action</h3>
+      <p>Every page on your portfolio should have a clear next step. Not "Check out my work!" — something specific:</p>
+      <ul>
+        <li>"Tell me about your project" → Contact form</li>
+        <li>"Book a free 15-minute call" → Calendar link (Calendly, Cal.com)</li>
+        <li>"Get a free project estimate" → Scoping questionnaire</li>
+      </ul>
+      <p>Put the CTA at the top of the page, after each case study, and at the bottom. Make it impossible to miss.</p>
+
+      <h3>6. Testimonials & Social Proof</h3>
+      <p>If you have them, display them prominently. Even 2-3 strong testimonials dramatically increase conversion. Formats that work:</p>
+      <ul>
+        <li>Pull quotes alongside case studies</li>
+        <li>Video testimonials (most powerful)</li>
+        <li>LinkedIn recommendation screenshots (if no written testimonials)</li>
+        <li>Star ratings from Upwork, Fiverr, or Google Reviews</li>
+      </ul>
+
+      <h2>Portfolio Platforms for Australian Freelancers</h2>
+      <p>Where to host your portfolio:</p>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Platform</th>
+            <th class="text-left py-3 px-4 text-slate-400">Cost</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+            <th class="text-left py-3 px-4 text-slate-400">SEO</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Your own domain + Next.js</td><td class="py-3 px-4">$15/yr domain + $0 Vercel</td><td class="py-3 px-4">Developers, maximum control</td><td class="py-3 px-4 text-teal-400">Excellent</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Squarespace</td><td class="py-3 px-4">$27-$49/mo</td><td class="py-3 px-4">Designers, photographers</td><td class="py-3 px-4">Good</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Webflow</td><td class="py-3 px-4">$14-$39/mo</td><td class="py-3 px-4">Designers who want code-level control</td><td class="py-3 px-4 text-teal-400">Excellent</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">WordPress</td><td class="py-3 px-4">$10-$25/mo (hosted)</td><td class="py-3 px-4">Content-heavy portfolios, blogging</td><td class="py-3 px-4 text-teal-400">Excellent</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Behance/Dribbble</td><td class="py-3 px-4">Free / $5/mo</td><td class="py-3 px-4">Supplementary, not primary</td><td class="py-3 px-4 text-red-400">Poor</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Notion + Super</td><td class="py-3 px-4">$12/mo</td><td class="py-3 px-4">Minimal effort, quick launch</td><td class="py-3 px-4">Average</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Own Your Platform</h3>
+        <p class="text-slate-300 text-sm">Don't rely solely on Behance, Dribbble, or Upwork as your portfolio. You don't control those platforms — they can change algorithms, charge fees, or shut down. Your own domain (yourname.com.au) is the only portfolio you truly own. Use marketplace profiles to drive traffic <em>to</em> your own site.</p>
+      </div>
+
+      <h2>What If You Don't Have Client Work Yet?</h2>
+      <p>Every freelancer starts with zero projects. Here's how to build a portfolio from scratch:</p>
+
+      <h3>Option 1: Personal Projects</h3>
+      <p>Build something real that demonstrates your skills. For developers: an open-source tool. For designers: a rebrand concept for a well-known company. For writers: published blog posts or a content series.</p>
+
+      <h3>Option 2: Pro Bono Work</h3>
+      <p>Do 2-3 projects for charities, early-stage startups, or friends' businesses. The work is real, the results are measurable, and you get testimonials. Cap it at 3 projects — then start charging.</p>
+
+      <h3>Option 3: Spec Work (Carefully)</h3>
+      <p>Create unsolicited redesigns or proposals for existing products. "I redesigned the Qantas booking experience" shows initiative and skill. Label it clearly as a concept piece.</p>
+
+      <h3>Option 4: Your Own Business</h3>
+      <p>You're a freelancer — that's a business. Build your own brand identity, website, invoicing system, and marketing materials to the same standard you'd deliver for a client. Meta? Yes. Effective? Very.</p>
+
+      <h2>Portfolio SEO for Client Acquisition</h2>
+      <p>A portfolio that ranks in Google is a portfolio that generates leads while you sleep:</p>
+      <ul>
+        <li>Target keywords like "[your skill] freelancer [city]" — e.g., "UX designer freelancer Melbourne"</li>
+        <li>Write alt text for all portfolio images (Google can't see screenshots)</li>
+        <li>Create a blog with industry-specific content (like you're reading now)</li>
+        <li>Get your site on Google Search Console and submit your sitemap</li>
+        <li>Build backlinks by guest posting, speaking, and contributing to industry resources</li>
+      </ul>
+
+      <h2>Updating Your Portfolio: The Quarterly Rule</h2>
+      <p>Your portfolio is a living document. Every quarter:</p>
+      <ol>
+        <li><strong>Add your best recent project</strong> as a new case study</li>
+        <li><strong>Remove your weakest project</strong> (quality over quantity)</li>
+        <li><strong>Update pricing signals</strong> if your rates have changed</li>
+        <li><strong>Check all links and forms</strong> — broken contact forms kill leads silently</li>
+        <li><strong>Review analytics</strong> — which projects get the most views? What pages convert?</li>
+        <li><strong>Refresh testimonials</strong> — ask recent clients for updated feedback</li>
+      </ol>
+
+      <h2>Portfolio Checklist</h2>
+      <p>Before launching or sharing your portfolio, verify:</p>
+      <ul>
+        <li>Clear headline positioning (who you help + what you do)</li>
+        <li>3-5 case studies with problem/approach/result structure</li>
+        <li>At least 2 client testimonials</li>
+        <li>Professional photo</li>
+        <li>Services with pricing signals</li>
+        <li>Clear CTA on every page</li>
+        <li>Mobile responsive (test at 375px width)</li>
+        <li>Page loads in under 3 seconds</li>
+        <li>Contact form works (test it!)</li>
+        <li>Custom domain (.com.au for Australian market)</li>
+        <li>Google Analytics or similar installed</li>
+        <li>No spelling or grammar errors</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-find-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">How to Find Freelance Clients</a> — 12 strategies beyond your portfolio</li>
+        <li><a href="/blog/how-to-start-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">How to Start Freelancing in Australia</a> — Complete beginner's guide</li>
+        <li><a href="/blog/how-to-quote-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">How to Quote Clients</a> — From portfolio visit to paid project</li>
+        <li><a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">How to Price Your Services</a> — Charge what you're worth</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Protect yourself when you win the project</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Rate Calculator</a> — Calculate your minimum viable rate</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Professional invoices for new clients</li>
+        <li><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — AI-powered invoicing so you can focus on client work</li>
+      </ul>
+    `,
+  },
 };
 
 const allSlugs = Object.keys(blogPosts);
