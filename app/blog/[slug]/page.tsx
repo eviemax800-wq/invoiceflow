@@ -4969,6 +4969,527 @@ export const blogPosts: Record<string, BlogPost> = {
       </ul>
     `,
   },
+  'common-invoicing-mistakes-freelancers': {
+    slug: 'common-invoicing-mistakes-freelancers',
+    title: '11 Invoicing Mistakes That Cost Australian Freelancers Money',
+    excerpt: 'The most expensive invoicing mistakes freelancers make — from missing ABNs to poor numbering systems — and how to fix each one before they cost you.',
+    category: 'Invoicing',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'Common Invoicing Mistakes Freelancers Make | How to Fix Them',
+    seoDescription: '11 costly invoicing mistakes Australian freelancers make and how to avoid them. Missing ABNs, wrong GST, late invoicing, and more — with practical fixes.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Most freelancers lose money not because they charge too little, but because their invoicing process has holes in it. A missing ABN triggers 47% withholding. A vague description invites disputes. A late invoice means late payment. Here are the 11 most expensive invoicing mistakes — and how to fix each one.</p>
+
+      <h2>1. Missing or Incorrect ABN</h2>
+      <p>This is the single most expensive invoicing mistake in Australia. If you don't include your ABN on an invoice, the payer is <strong>legally required to withhold 47% of the payment</strong> and send it to the ATO.</p>
+      <p>That's not a suggestion — it's mandatory under the <em>Taxation Administration Act 1953</em>. Your client has no choice.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Real Cost Example</h3>
+        <p class="text-slate-300 text-sm">On a $5,000 invoice without an ABN, you'd receive just $2,650 instead of $5,000. You can claim the $2,350 back at tax time, but that could be months away — and your cash flow takes a massive hit.</p>
+      </div>
+
+      <p><strong>Fix:</strong> Put your ABN on every invoice template as a permanent field. Use our <a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN lookup tool</a> to verify your ABN is active and correctly linked to your business name.</p>
+
+      <h2>2. Not Distinguishing Tax Invoice vs Regular Invoice</h2>
+      <p>If you're GST-registered, your invoices must be labelled "Tax Invoice" and show the GST component. If you're not GST-registered, labelling an invoice as "Tax Invoice" is misleading and could create problems for your client's BAS.</p>
+      <ul>
+        <li><strong>GST-registered (turnover $75K+):</strong> Use "Tax Invoice", show GST amount</li>
+        <li><strong>Not GST-registered:</strong> Use "Invoice", do NOT show GST</li>
+      </ul>
+      <p><strong>Fix:</strong> Check your GST registration status. If registered, ensure every invoice clearly shows GST as a separate line item. Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to get the numbers right.</p>
+
+      <h2>3. Vague Descriptions of Work</h2>
+      <p>"Design work — $3,000" is an invitation for a dispute. Clients forget what they agreed to, and vague invoices make it easy to challenge or delay payment.</p>
+      <p>Worse, the ATO expects invoices to contain a <strong>brief description of the items sold</strong>. "Various services" doesn't cut it during an audit.</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-red-400">Bad Description</th>
+            <th class="text-left py-3 px-4 text-teal-400">Good Description</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Design work</td><td class="py-3 px-4">Brand identity design: logo, business cards, letterhead (3 concept rounds, final files in AI/PNG/SVG)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Web development</td><td class="py-3 px-4">Next.js website development: 8 pages, mobile responsive, CMS integration, deployment to Vercel</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Consulting</td><td class="py-3 px-4">Digital strategy consultation: 2x 90-min sessions, competitor audit report, 12-month content calendar</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Fix:</strong> Reference the project scope, deliverables, or milestones from your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a>. If you quoted line items, invoice the same line items.</p>
+
+      <h2>4. Sending Invoices Late</h2>
+      <p>The longer you wait to invoice after completing work, the longer you wait to get paid. Studies show invoices sent within 24 hours of project completion are paid <strong>1.5x faster</strong> than those sent a week later.</p>
+      <p>There's also a psychological factor: the client remembers the value you delivered while it's fresh. A month later, they've mentally moved on.</p>
+      <p><strong>Fix:</strong> Set a rule — invoice the same day you deliver. If you do ongoing work, invoice on a consistent schedule (weekly or fortnightly). Use <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> to automate recurring invoices.</p>
+
+      <h2>5. No Payment Terms (or Too Generous Terms)</h2>
+      <p>If your invoice doesn't specify when payment is due, clients will pay whenever they feel like it. Net 30 is corporate standard, but as a freelancer, it's often too generous.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Optimal Payment Terms for Freelancers</h3>
+        <ul class="text-slate-300 text-sm space-y-1">
+          <li><strong>New clients:</strong> 50% upfront, balance due on delivery</li>
+          <li><strong>Regular clients:</strong> Net 7 or Net 14</li>
+          <li><strong>Corporate clients:</strong> Net 14 (negotiate down from their default Net 30)</li>
+          <li><strong>Large projects ($5K+):</strong> Milestone payments (33/33/34% split)</li>
+        </ul>
+      </div>
+
+      <p>Read our full guide on <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment fees</a> to understand your legal options when clients don't pay on time.</p>
+
+      <h2>6. Duplicate or Inconsistent Invoice Numbers</h2>
+      <p>Every invoice must have a unique number. Duplicate numbers create chaos at BAS time and raise red flags during an ATO audit. Common mistakes:</p>
+      <ul>
+        <li>Restarting numbering each year (INV-001 in 2025 AND 2026)</li>
+        <li>No numbering system at all ("Invoice for March")</li>
+        <li>Skipping numbers (gaps suggest deleted invoices to auditors)</li>
+      </ul>
+      <p><strong>Fix:</strong> Use a simple, sequential system like <code>INV-2026-001</code>. Never reuse or skip numbers. Invoicing software handles this automatically.</p>
+
+      <h2>7. Wrong GST Calculation</h2>
+      <p>This one catches freelancers both ways:</p>
+      <ul>
+        <li><strong>Charging GST when you shouldn't:</strong> If you're not GST-registered, don't charge GST. You'd owe the ATO money you shouldn't have collected.</li>
+        <li><strong>Not charging GST when you should:</strong> If you're registered and don't charge GST, you still owe the ATO 1/11th of the total. That comes directly out of your profit.</li>
+        <li><strong>Calculating GST wrong:</strong> GST is 1/11th of the GST-inclusive price, not 10% of the total. $110 inclusive = $10 GST (not $11).</li>
+      </ul>
+
+      <p><strong>Fix:</strong> Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> — it handles both adding and removing GST correctly. Double-check any manual calculations.</p>
+
+      <h2>8. Not Including Payment Details</h2>
+      <p>You'd be surprised how many freelancers send invoices without clear payment instructions. The client opens your invoice, wants to pay, and then has to email you to ask <em>how</em>. That's at least a 2-day delay.</p>
+      <p>Your invoice should include:</p>
+      <ul>
+        <li>Bank name and BSB/account number for direct deposit</li>
+        <li>PayID (phone or email) for instant payment</li>
+        <li>Payment link (Stripe, PayPal) if you accept online payments</li>
+        <li>International wire details (SWIFT/BIC) if you invoice overseas clients</li>
+      </ul>
+      <p>Read our guide on <a href="/blog/how-to-accept-payments-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">accepting payments</a> for a full comparison of payment methods and fees.</p>
+
+      <h2>9. Forgetting to Follow Up</h2>
+      <p>Sending an invoice and hoping for the best is not a strategy. <strong>60% of freelancers</strong> report being paid late at least once. Without follow-up, overdue invoices often slip through the cracks.</p>
+      <p>A simple follow-up schedule:</p>
+      <ul>
+        <li><strong>Day of:</strong> Send invoice with clear due date</li>
+        <li><strong>3 days before due:</strong> Friendly reminder ("Just a heads up, invoice #X is due on [date]")</li>
+        <li><strong>Due date:</strong> Payment reminder if not received</li>
+        <li><strong>7 days overdue:</strong> Firm but professional follow-up</li>
+        <li><strong>14+ days overdue:</strong> Phone call + written notice with late fee warning</li>
+      </ul>
+      <p>Check our guide on <a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">getting clients to pay faster</a> for email templates you can use at each stage.</p>
+
+      <h2>10. Not Keeping Copies</h2>
+      <p>The ATO requires you to keep records of all invoices for <strong>5 years</strong> from the date they were issued (or the date the income was assessed, whichever is later). This includes:</p>
+      <ul>
+        <li>Invoices you issued (sales)</li>
+        <li>Invoices you received (purchases)</li>
+        <li>Credit notes and adjustments</li>
+      </ul>
+      <p>Penalties for inadequate record keeping start at <strong>$1,110 per offence</strong> (2025-26 rates). Read our full guide on <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">ATO record keeping requirements</a>.</p>
+
+      <h2>11. Mixing Personal and Business Accounts</h2>
+      <p>Sending invoices with personal bank details or receiving payments into your personal account is messy. At tax time, you'll spend hours separating business transactions from personal ones. During an audit, the ATO may question every deposit.</p>
+      <p>A separate business account also makes your invoices look more professional — "ACME Design" looks better than "John Smith Savings".</p>
+      <p><strong>Fix:</strong> Open a dedicated business bank account. Read our comparison of the <a href="/blog/best-business-bank-accounts-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">best business bank accounts for Australian freelancers</a>.</p>
+
+      <h2>The Cost of Getting It Wrong</h2>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Mistake</th>
+            <th class="text-right py-3 px-4 text-slate-400">Typical Cost Per Year</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Missing ABN (47% withholding delays)</td><td class="text-right py-3 px-4 text-red-400">$2,000-$5,000 in cash flow</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Late invoicing (avg 15-day delay)</td><td class="text-right py-3 px-4 text-red-400">$1,500-$3,000 opportunity cost</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Wrong GST calculation</td><td class="text-right py-3 px-4 text-red-400">$500-$2,000 in over/underpayments</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">No follow-up on overdue invoices</td><td class="text-right py-3 px-4 text-red-400">$3,000-$8,000 in late/lost payments</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Poor record keeping (ATO penalty)</td><td class="text-right py-3 px-4 text-red-400">$1,110+ per offence</td></tr>
+          <tr class="border-b border-white/10 font-semibold"><td class="py-3 px-4">Combined annual cost</td><td class="text-right py-3 px-4 text-red-400">$8,000-$19,000+</td></tr>
+        </tbody>
+      </table>
+
+      <h2>How to Fix All 11 at Once</h2>
+      <p>The simplest way to eliminate all these mistakes is to use invoicing software that enforces best practices automatically:</p>
+      <ul>
+        <li>ABN saved permanently in your profile — appears on every invoice</li>
+        <li>Auto-numbering — sequential, never duplicated</li>
+        <li>GST calculated automatically based on your registration status</li>
+        <li>Payment terms set per client, with due dates calculated</li>
+        <li>Payment details embedded in every invoice</li>
+        <li>Automated reminders for overdue invoices</li>
+        <li>Cloud storage — all invoices kept for 5+ years</li>
+      </ul>
+      <p><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">Start with InvoiceFlow free</a> — 5 invoices per month, no credit card required. Or use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create a single professional invoice right now.</p>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">How to Create a Tax Invoice in Australia</a> — Get every field right</li>
+        <li><a href="/blog/freelance-invoice-checklist" class="text-teal-400 hover:text-teal-300 underline">Freelance Invoice Checklist</a> — Never miss a required field</li>
+        <li><a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">Get Clients to Pay Faster</a> — 7 proven tactics</li>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping for Freelancers</a> — ATO requirements explained</li>
+        <li><a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS Guide for Freelancers</a> — Lodge your BAS with confidence</li>
+      </ul>
+    `,
+  },
+  'how-to-chase-overdue-invoices-australia': {
+    slug: 'how-to-chase-overdue-invoices-australia',
+    title: 'How to Chase Overdue Invoices Without Damaging Client Relationships',
+    excerpt: 'A step-by-step framework for following up on late payments professionally — with email templates, escalation timelines, and when to involve debt recovery.',
+    category: 'Getting Paid',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Chase Overdue Invoices Australia | Email Templates & Timeline',
+    seoDescription: 'Step-by-step guide to chasing overdue invoices professionally. Email templates, escalation timeline, debt recovery options, and how to protect client relationships.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Late payment is the freelancer tax nobody talks about. A 2025 survey found that <strong>62% of Australian freelancers</strong> have experienced late payment, with the average overdue invoice taking 23 days past terms to be paid. That's 23 days of your money sitting in someone else's account. Here's how to get it back — without burning bridges.</p>
+
+      <h2>Why Clients Pay Late (It's Usually Not Malicious)</h2>
+      <p>Before you fire off an angry email, understand the most common reasons invoices go overdue:</p>
+      <ul>
+        <li><strong>It got lost:</strong> Your email landed in spam, or the accounts team never received it (40% of cases)</li>
+        <li><strong>Cash flow issues:</strong> The client is waiting on their own payments (25%)</li>
+        <li><strong>Approval bottleneck:</strong> The person who approved the work isn't the person who approves payment (15%)</li>
+        <li><strong>Dispute:</strong> They're unhappy with the work but haven't told you (10%)</li>
+        <li><strong>Disorganisation:</strong> They genuinely forgot (10%)</li>
+      </ul>
+      <p>Understanding the reason helps you choose the right approach. A "lost in spam" situation needs a gentle resend, not a stern warning.</p>
+
+      <h2>The 5-Stage Escalation Framework</h2>
+      <p>Follow this timeline from friendly reminder to formal action. Each stage is only triggered if the previous one doesn't get a response.</p>
+
+      <h3>Stage 1: Friendly Reminder (3 Days Before Due)</h3>
+      <p>Send a brief, warm reminder before the due date. This isn't chasing — it's professional courtesy that prevents the problem entirely.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Email Template: Pre-Due Reminder</h3>
+        <p class="text-slate-300 text-sm font-mono">Subject: Invoice #[NUMBER] — due [DATE]<br/><br/>Hi [Name],<br/><br/>Quick heads up that invoice #[NUMBER] for $[AMOUNT] is due on [DATE].<br/><br/>Payment details are on the invoice, but let me know if you need anything resent.<br/><br/>Thanks,<br/>[Your name]</p>
+      </div>
+
+      <h3>Stage 2: Payment Reminder (1-3 Days Overdue)</h3>
+      <p>The invoice is now overdue. Keep it friendly — assume it was an oversight.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Email Template: Just Overdue</h3>
+        <p class="text-slate-300 text-sm font-mono">Subject: Following up — Invoice #[NUMBER] (now due)<br/><br/>Hi [Name],<br/><br/>Just following up on invoice #[NUMBER] for $[AMOUNT], which was due on [DATE].<br/><br/>If payment has already been sent, please disregard this — sometimes bank transfers take a couple of days to appear.<br/><br/>Otherwise, could you let me know when I can expect payment? Happy to resend the invoice if needed.<br/><br/>Thanks,<br/>[Your name]</p>
+      </div>
+
+      <h3>Stage 3: Firm Follow-Up (7-10 Days Overdue)</h3>
+      <p>By now, the client has had your reminder and initial follow-up. Time to be more direct while staying professional.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Email Template: Firm Follow-Up</h3>
+        <p class="text-slate-300 text-sm font-mono">Subject: Invoice #[NUMBER] — 10 days overdue<br/><br/>Hi [Name],<br/><br/>I'm following up on invoice #[NUMBER] for $[AMOUNT], which was due on [DATE] and is now 10 days overdue.<br/><br/>I understand things can get busy, but I do need to receive payment to continue operations. Could you please confirm a payment date?<br/><br/>For reference, my payment terms include a late fee of 1.5% per month on overdue amounts, as outlined in our agreement.<br/><br/>I'd prefer to resolve this directly and keep working together. Please let me know if there's an issue I should be aware of.<br/><br/>Kind regards,<br/>[Your name]</p>
+      </div>
+
+      <p><strong>Key change at this stage:</strong> Mention your late fee clause (you should have one — see our <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment fees guide</a>). This signals you're serious without being aggressive.</p>
+
+      <h3>Stage 4: Final Notice (14-21 Days Overdue)</h3>
+      <p>This is your formal "last chance" notice. Use the phrase "final notice" — it carries weight. Consider switching from email to a phone call first.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Email Template: Final Notice</h3>
+        <p class="text-slate-300 text-sm font-mono">Subject: FINAL NOTICE — Invoice #[NUMBER], $[AMOUNT] overdue<br/><br/>Hi [Name],<br/><br/>Despite previous communications, invoice #[NUMBER] for $[AMOUNT] remains unpaid. This invoice was due on [DATE] — [X] days ago.<br/><br/>Please arrange payment within 7 days of this notice.<br/><br/>If I do not receive payment or a confirmed payment plan by [DATE + 7], I will need to explore formal recovery options, which may include:<br/>- Applying late fees as per our agreement<br/>- Engaging a debt recovery service<br/>- Filing a claim with the relevant tribunal<br/><br/>I would much prefer to resolve this amicably. Please contact me to discuss if there are circumstances affecting payment.<br/><br/>Regards,<br/>[Your name]</p>
+      </div>
+
+      <h3>Stage 5: Formal Action (30+ Days Overdue)</h3>
+      <p>If your final notice gets no response, you have three options:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Option</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+            <th class="text-left py-3 px-4 text-slate-400">Cost</th>
+            <th class="text-left py-3 px-4 text-slate-400">Timeline</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Letter of Demand</td><td class="py-3 px-4">Debts under $5K</td><td class="py-3 px-4">$50-$200 (lawyer)</td><td class="py-3 px-4">7-14 days</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Debt Recovery Agent</td><td class="py-3 px-4">$1K-$20K debts</td><td class="py-3 px-4">10-25% of recovered amount</td><td class="py-3 px-4">2-8 weeks</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Small Claims Tribunal</td><td class="py-3 px-4">Under $25K (VIC VCAT)</td><td class="py-3 px-4">$66-$223 filing fee</td><td class="py-3 px-4">4-12 weeks</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">State Tribunals for Small Claims</h3>
+        <ul class="text-slate-300 text-sm space-y-1">
+          <li><strong>VIC:</strong> VCAT — up to $25,000</li>
+          <li><strong>NSW:</strong> NCAT — up to $40,000</li>
+          <li><strong>QLD:</strong> QCAT — up to $25,000</li>
+          <li><strong>WA:</strong> Magistrates Court — up to $75,000</li>
+          <li><strong>SA:</strong> SACAT — up to $25,000</li>
+        </ul>
+      </div>
+
+      <h2>Phone Call vs Email: When to Pick Up the Phone</h2>
+      <p>Email creates a paper trail, but phone calls resolve issues faster. Use the phone when:</p>
+      <ul>
+        <li>The invoice is 7+ days overdue and email isn't working</li>
+        <li>You have a good relationship with the client and want to keep it</li>
+        <li>You suspect there's a dispute or issue the client hasn't raised</li>
+        <li>The client is a large company with an accounts payable department</li>
+      </ul>
+      <p><strong>Always follow up a phone call with a written summary email</strong> ("As discussed, payment of $X will be made by [date]"). This creates a record while keeping things personal.</p>
+
+      <h2>Prevention: 7 Ways to Stop Late Payments Before They Start</h2>
+      <ol>
+        <li><strong>Require deposits:</strong> 50% upfront for new clients, 30% for regulars. Non-negotiable for projects over $2,000.</li>
+        <li><strong>Shorter payment terms:</strong> Net 7 gets paid 30% faster than Net 30. Start short and extend for proven clients.</li>
+        <li><strong>Include late fee clause:</strong> 1.5% per month is standard in Australia. It doesn't need to be punitive — its existence is the deterrent.</li>
+        <li><strong>Make payment easy:</strong> Include PayID, bank details, and a payment link on every invoice. Remove every possible friction point.</li>
+        <li><strong>Invoice immediately:</strong> Send the invoice the day you deliver. Delay = delay.</li>
+        <li><strong>Automated reminders:</strong> Use invoicing software that sends reminders automatically at 3 days before, on the day, and 3/7/14 days after.</li>
+        <li><strong>Credit check new clients:</strong> For projects over $5,000, a quick ASIC search reveals if the company has been wound up, is under administration, or has a history of disputes.</li>
+      </ol>
+
+      <h2>What NOT to Do</h2>
+      <ul>
+        <li><strong>Don't get emotional.</strong> Angry emails feel good to send and terrible to receive. They escalate, not resolve.</li>
+        <li><strong>Don't threaten legal action in the first follow-up.</strong> It poisons the relationship instantly and often backfires.</li>
+        <li><strong>Don't withhold completed work as leverage.</strong> Unless your contract explicitly allows this, withholding deliverables can put YOU in breach.</li>
+        <li><strong>Don't badmouth the client publicly.</strong> No naming-and-shaming on social media. It's unprofessional and potentially defamatory.</li>
+        <li><strong>Don't keep working for a non-payer.</strong> Stop all work until outstanding invoices are settled. This is your strongest leverage.</li>
+      </ul>
+
+      <h2>The Numbers: Why Follow-Up Matters</h2>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Days Overdue</th>
+            <th class="text-right py-3 px-4 text-slate-400">Recovery Rate</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">0-7 days</td><td class="text-right py-3 px-4 text-teal-400">95%+</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">8-30 days</td><td class="text-right py-3 px-4 text-teal-400">85-90%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">31-60 days</td><td class="text-right py-3 px-4 text-amber-400">70-75%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">61-90 days</td><td class="text-right py-3 px-4 text-amber-400">50-55%</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">90+ days</td><td class="text-right py-3 px-4 text-red-400">Under 30%</td></tr>
+        </tbody>
+      </table>
+
+      <p>The message is clear: <strong>act early</strong>. Every week you delay follow-up reduces your chance of being paid.</p>
+
+      <h2>Dealing with "I Can't Pay Right Now"</h2>
+      <p>Sometimes clients genuinely can't pay the full amount. Rather than writing off the debt, offer a payment plan:</p>
+      <ul>
+        <li>Split the outstanding amount into 2-4 equal instalments</li>
+        <li>Set specific dates for each payment (not "when I can")</li>
+        <li>Get the agreement in writing (even a simple email confirmation works)</li>
+        <li>Continue charging late fees on any missed instalment dates</li>
+      </ul>
+      <p>A payment plan that gets you 100% over 2 months is better than aggressive action that gets you 0%.</p>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">Late Payment Fees in Australia</a> — What you can legally charge</li>
+        <li><a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">Get Clients to Pay Invoices Faster</a> — Prevention is better than cure</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Set payment terms upfront</li>
+        <li><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Management</a> — Survive while waiting for payment</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices with clear payment terms</li>
+        <li><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — Automated payment reminders so you never have to chase manually</li>
+      </ul>
+    `,
+  },
+  'freelancer-tax-calendar-australia-2026': {
+    slug: 'freelancer-tax-calendar-australia-2026',
+    title: 'Australian Freelancer Tax Calendar 2026: Every Deadline You Need',
+    excerpt: 'Every ATO deadline Australian freelancers need to know for 2025-26 and 2026-27 — BAS dates, PAYG instalments, tax return lodgement, super contributions, and more.',
+    category: 'Tax & Compliance',
+    readTime: '8 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelancer Tax Calendar Australia 2026 | BAS, PAYG & Tax Deadlines',
+    seoDescription: 'Complete 2026 tax calendar for Australian freelancers. BAS quarterly deadlines, PAYG instalments, tax return dates, super contributions, and key ATO dates.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Missing an ATO deadline doesn't just mean a penalty — it means interest charges that compound daily, potential audit flags, and unnecessary stress. This calendar covers every deadline a freelancer or sole trader needs to know for the 2025-26 and 2026-27 financial years.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Quick Reference: Key Rates for 2025-26</h3>
+        <ul class="text-slate-300 text-sm space-y-1">
+          <li><strong>GST rate:</strong> 10%</li>
+          <li><strong>GST registration threshold:</strong> $75,000 annual turnover</li>
+          <li><strong>Superannuation Guarantee rate:</strong> 11.5% (rises to 12% from 1 July 2026)</li>
+          <li><strong>Tax-free threshold:</strong> $18,200</li>
+          <li><strong>Medicare levy:</strong> 2% (exemption below $26,000 for singles)</li>
+          <li><strong>Instant asset write-off:</strong> $20,000 per asset (for businesses with turnover under $10M)</li>
+        </ul>
+      </div>
+
+      <h2>Q3 FY2025-26: January — March 2026</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Date</th>
+            <th class="text-left py-3 px-4 text-slate-400">Deadline</th>
+            <th class="text-left py-3 px-4 text-slate-400">Who</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Jan 2026</td><td class="py-3 px-4">December monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">28 Jan 2026</td><td class="py-3 px-4">Q2 super guarantee payment due</td><td class="py-3 px-4">Employers / contractors with employees</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">28 Feb 2026</td><td class="py-3 px-4">Q2 BAS due (Oct-Dec 2025)</td><td class="py-3 px-4">Quarterly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Feb 2026</td><td class="py-3 px-4">January monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Mar 2026</td><td class="py-3 px-4">February monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-amber-400">15 Mar 2026</td><td class="py-3 px-4">Tax return due (if lodging yourself, with tax debt from prior year)</td><td class="py-3 px-4">Self-lodgers with prior year debt</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Q4 FY2025-26: April — June 2026</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Date</th>
+            <th class="text-left py-3 px-4 text-slate-400">Deadline</th>
+            <th class="text-left py-3 px-4 text-slate-400">Who</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Apr 2026</td><td class="py-3 px-4">March monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">28 Apr 2026</td><td class="py-3 px-4">Q3 BAS due (Jan-Mar 2026)</td><td class="py-3 px-4">Quarterly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">28 Apr 2026</td><td class="py-3 px-4">Q3 super guarantee payment due</td><td class="py-3 px-4">Employers / contractors with employees</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 May 2026</td><td class="py-3 px-4">April monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-amber-400">15 May 2026</td><td class="py-3 px-4">Tax return due (tax agent managed, most individuals)</td><td class="py-3 px-4">Individuals using a tax agent</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Jun 2026</td><td class="py-3 px-4">May monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-amber-400">30 Jun 2026</td><td class="py-3 px-4">End of Financial Year 2025-26</td><td class="py-3 px-4">Everyone</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-amber-400">30 Jun 2026</td><td class="py-3 px-4">Last day for concessional super contributions (2025-26)</td><td class="py-3 px-4">All freelancers saving for retirement</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">EOFY Tip: Super Contributions</h3>
+        <p class="text-slate-300 text-sm">As a freelancer, you don't get employer super contributions. You can contribute up to <strong>$30,000</strong> in concessional (before-tax) super contributions per year. These are tax-deductible — if you're in the 32.5% tax bracket, a $10,000 super contribution saves you $1,750 in tax (you pay 15% contributions tax instead of 32.5% income tax). Make contributions before 30 June to claim the deduction in the current financial year.</p>
+      </div>
+
+      <h2>Q1 FY2026-27: July — September 2026</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Date</th>
+            <th class="text-left py-3 px-4 text-slate-400">Deadline</th>
+            <th class="text-left py-3 px-4 text-slate-400">Who</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">1 Jul 2026</td><td class="py-3 px-4">New super guarantee rate: 12% (up from 11.5%)</td><td class="py-3 px-4">Employers / contractors with employees</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Jul 2026</td><td class="py-3 px-4">June monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">28 Jul 2026</td><td class="py-3 px-4">Q4 BAS due (Apr-Jun 2026)</td><td class="py-3 px-4">Quarterly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">28 Jul 2026</td><td class="py-3 px-4">Q4 super guarantee payment due</td><td class="py-3 px-4">Employers / contractors with employees</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Aug 2026</td><td class="py-3 px-4">July monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Sep 2026</td><td class="py-3 px-4">August monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Q2 FY2026-27: October — December 2026</h2>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Date</th>
+            <th class="text-left py-3 px-4 text-slate-400">Deadline</th>
+            <th class="text-left py-3 px-4 text-slate-400">Who</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Oct 2026</td><td class="py-3 px-4">September monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">28 Oct 2026</td><td class="py-3 px-4">Q1 BAS due (Jul-Sep 2026)</td><td class="py-3 px-4">Quarterly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">28 Oct 2026</td><td class="py-3 px-4">Q1 super guarantee payment due</td><td class="py-3 px-4">Employers / contractors with employees</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-amber-400">31 Oct 2026</td><td class="py-3 px-4">Tax return due (self-lodgers)</td><td class="py-3 px-4">Individuals lodging their own return</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Nov 2026</td><td class="py-3 px-4">October monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">21 Dec 2026</td><td class="py-3 px-4">November monthly BAS due</td><td class="py-3 px-4">Monthly BAS lodgers</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Tax Return Deadlines: Self-Lodger vs Tax Agent</h2>
+      <p>Your tax return deadline depends on how you lodge:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Lodgement Method</th>
+            <th class="text-left py-3 px-4 text-slate-400">Deadline</th>
+            <th class="text-left py-3 px-4 text-slate-400">Notes</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Self-lodging (myTax)</td><td class="py-3 px-4 text-teal-400">31 October</td><td class="py-3 px-4">After the financial year ends (30 June)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Tax agent</td><td class="py-3 px-4 text-teal-400">Up to 15 May</td><td class="py-3 px-4">Must be registered with agent before 31 October</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">New tax agent client</td><td class="py-3 px-4 text-amber-400">Various</td><td class="py-3 px-4">Depends on when you register — ask your agent</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Overdue returns</td><td class="py-3 px-4 text-red-400">ASAP</td><td class="py-3 px-4">Penalties accrue. Lodge immediately or via tax agent</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Tax Agent Tip</h3>
+        <p class="text-slate-300 text-sm">If you earn over $100K as a freelancer, a tax agent typically saves you more than they cost. Average tax agent fee for a sole trader: $400-$800. Average additional deductions they find: $2,000-$5,000. That's a 3-6x return on investment.</p>
+      </div>
+
+      <h2>Penalties for Missing Deadlines</h2>
+      <p>The ATO's Failure to Lodge (FTL) penalty is calculated in <strong>penalty units</strong>. Each penalty unit is $330 (2025-26).</p>
+      <ul>
+        <li><strong>Small entities (turnover under $1M):</strong> 1 penalty unit ($330) for each 28-day period the return is overdue, up to a maximum of 5 penalty units ($1,650)</li>
+        <li><strong>Interest on unpaid tax:</strong> The General Interest Charge (GIC) is calculated daily at the 90-day bank bill rate + 7%. Currently around 11.36% per annum.</li>
+        <li><strong>Late BAS:</strong> Same penalty structure as tax returns</li>
+        <li><strong>Late super:</strong> Super guarantee charge = the unpaid amount + nominal interest (10%) + an administration fee ($20 per employee per quarter). NOT tax-deductible.</li>
+      </ul>
+
+      <h2>Monthly Checklist for Freelancers</h2>
+      <p>Set aside 30 minutes at the start of each month to stay on top of your obligations:</p>
+      <ul>
+        <li>Reconcile last month's invoices sent vs payments received</li>
+        <li>Follow up on any overdue invoices (use our <a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">overdue invoice guide</a>)</li>
+        <li>Categorise and file expense receipts</li>
+        <li>Check if any BAS, PAYG, or super deadlines fall this month</li>
+        <li>Set aside 30% of income into your tax savings account</li>
+        <li>Review upcoming project deliverables and plan invoicing</li>
+      </ul>
+      <p>Read our <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">record keeping guide</a> for the full system.</p>
+
+      <h2>EOFY Preparation Checklist (May-June)</h2>
+      <p>Start preparing 6-8 weeks before 30 June to maximise deductions and avoid the rush:</p>
+      <ol>
+        <li><strong>Bring forward expenses:</strong> Buy equipment, pay subscriptions annually, prepay insurance before 30 June to claim the deduction this year</li>
+        <li><strong>Make super contributions:</strong> Voluntary concessional contributions up to $30,000 cap. Lodge a Notice of Intent to claim the deduction.</li>
+        <li><strong>Review depreciating assets:</strong> Check if any equipment qualifies for instant asset write-off (under $20,000)</li>
+        <li><strong>Write off bad debts:</strong> If clients won't pay, formally write off the debt before 30 June to claim the deduction</li>
+        <li><strong>Reconcile all invoices:</strong> Ensure all income for the year is accounted for</li>
+        <li><strong>Gather deduction evidence:</strong> Home office log, vehicle logbook, professional development receipts</li>
+        <li><strong>Check your PAYG instalments:</strong> If you overpaid quarterly, you'll get a refund at tax time</li>
+      </ol>
+      <p>See our <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductions guide</a> for every deduction you can claim, and our <a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">tax return guide</a> for the step-by-step lodgement process.</p>
+
+      <h2>Calendar Sync: Add These to Your Calendar Now</h2>
+      <p>Don't rely on memory. Set recurring calendar reminders for:</p>
+      <ul>
+        <li><strong>Monthly (1st):</strong> Reconciliation and expense filing</li>
+        <li><strong>Quarterly (14 days before BAS due):</strong> BAS preparation reminder</li>
+        <li><strong>Quarterly (due date):</strong> BAS lodgement and payment</li>
+        <li><strong>Quarterly (super due date):</strong> Super contribution payment</li>
+        <li><strong>Annually (1 May):</strong> EOFY preparation begins</li>
+        <li><strong>Annually (30 June):</strong> Last day for current-year deductions</li>
+        <li><strong>Annually (31 October):</strong> Tax return due (self-lodgers)</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS Guide for Freelancers</a> — How to lodge step-by-step</li>
+        <li><a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Tax Deductions for Freelancers</a> — Every deduction you can claim</li>
+        <li><a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Superannuation Guide</a> — Contributions, caps, and tax savings</li>
+        <li><a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">How Much Tax Do Freelancers Pay?</a> — 2025-26 brackets and worked examples</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST for your BAS</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Rate Calculator</a> — Factor in tax obligations when setting rates</li>
+        <li><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — Track income and invoices automatically for BAS-ready records</li>
+      </ul>
+    `,
+  },
 };
 
 const allSlugs = Object.keys(blogPosts);
