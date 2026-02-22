@@ -5297,6 +5297,658 @@ export const blogPosts: Record<string, BlogPost> = {
       </ul>
     `,
   },
+  'payment-reminder-email-templates-freelancers': {
+    slug: 'payment-reminder-email-templates-freelancers',
+    title: 'Payment Reminder Email Templates for Australian Freelancers (2026)',
+    excerpt: 'Professional payment reminder email templates for every stage — from friendly nudge to final notice. Copy-paste templates that actually get freelancers paid.',
+    category: 'Getting Paid',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Payment Reminder Email Templates for Freelancers | Copy & Paste',
+    seoDescription: 'Professional payment reminder email templates for Australian freelancers. Friendly nudge to final notice — copy-paste templates that get you paid faster.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Chasing money is the worst part of freelancing. But the difference between getting paid in 14 days and waiting 90+ days often comes down to having the right follow-up system. These are the exact email templates you need — from gentle reminder to firm final notice.</p>
+
+      <h2>The Payment Follow-Up Timeline</h2>
+      <p>Most freelancers either chase too aggressively (damaging relationships) or too passively (damaging cash flow). Here's the timeline that balances both:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">When</th>
+            <th class="text-left py-3 px-4 text-slate-400">Email Type</th>
+            <th class="text-left py-3 px-4 text-slate-400">Tone</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">3 days before due</td><td class="py-3 px-4">Courtesy reminder</td><td class="py-3 px-4 text-teal-400">Friendly</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Due date</td><td class="py-3 px-4">Due today notice</td><td class="py-3 px-4 text-teal-400">Professional</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">3 days overdue</td><td class="py-3 px-4">Gentle follow-up</td><td class="py-3 px-4 text-amber-400">Polite</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">7 days overdue</td><td class="py-3 px-4">Second reminder</td><td class="py-3 px-4 text-amber-400">Direct</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">14 days overdue</td><td class="py-3 px-4">Firm notice</td><td class="py-3 px-4 text-amber-400">Firm</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">30 days overdue</td><td class="py-3 px-4">Final notice</td><td class="py-3 px-4 text-red-400">Formal</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">45+ days overdue</td><td class="py-3 px-4">Legal/collections warning</td><td class="py-3 px-4 text-red-400">Legal</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Key Principle</h3>
+        <p class="text-slate-300 text-sm">The best payment reminder doesn't feel like a chase — it feels like helpful admin. Assume goodwill first. Most late payments are due to oversight, not malice. Your tone should only escalate when the pattern makes it clear the delay is intentional.</p>
+      </div>
+
+      <h2>Template 1: Courtesy Reminder (3 Days Before Due)</h2>
+      <p>Send this before the invoice is even due. It sets expectations and catches any issues early.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-400 text-xs mb-3">SUBJECT LINE</p>
+        <p class="text-white font-semibold mb-4">Invoice #[NUMBER] — due [DATE]</p>
+        <p class="text-slate-400 text-xs mb-3">BODY</p>
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Hi [Name],</p>
+          <p>Quick heads up — invoice #[NUMBER] for $[AMOUNT] is due on [DATE].</p>
+          <p>I've attached it again for convenience. Payment can be made to:</p>
+          <p><strong>BSB:</strong> [XXX-XXX]<br/><strong>Account:</strong> [XXXXXXXX]<br/><strong>Reference:</strong> [Invoice number]</p>
+          <p>Let me know if you have any questions about the invoice.</p>
+          <p>Thanks,<br/>[Your name]</p>
+        </div>
+      </div>
+
+      <h2>Template 2: Due Today Notice</h2>
+      <p>A same-day reminder that's professional without being pushy.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-400 text-xs mb-3">SUBJECT LINE</p>
+        <p class="text-white font-semibold mb-4">Invoice #[NUMBER] due today — $[AMOUNT]</p>
+        <p class="text-slate-400 text-xs mb-3">BODY</p>
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Hi [Name],</p>
+          <p>Just a quick note that invoice #[NUMBER] for $[AMOUNT] is due today.</p>
+          <p>If you've already arranged payment, please disregard this email — bank transfers can take 1-2 business days to appear.</p>
+          <p>If you need the invoice resent or have any questions, just let me know.</p>
+          <p>Thanks,<br/>[Your name]</p>
+        </div>
+      </div>
+
+      <h2>Template 3: Gentle Follow-Up (3 Days Overdue)</h2>
+      <p>First overdue nudge. Still assuming goodwill — they probably just forgot.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-400 text-xs mb-3">SUBJECT LINE</p>
+        <p class="text-white font-semibold mb-4">Following up: Invoice #[NUMBER] — was due [DATE]</p>
+        <p class="text-slate-400 text-xs mb-3">BODY</p>
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Hi [Name],</p>
+          <p>Hope you're well. I wanted to check in on invoice #[NUMBER] for $[AMOUNT], which was due on [DATE].</p>
+          <p>I understand things get busy — just wanted to make sure it hasn't slipped through the cracks. I've attached the invoice again for your reference.</p>
+          <p>Is there anything you need from me to process the payment?</p>
+          <p>Thanks,<br/>[Your name]</p>
+        </div>
+      </div>
+
+      <h2>Template 4: Second Reminder (7 Days Overdue)</h2>
+      <p>More direct. You're now clearly following up on a late payment.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-400 text-xs mb-3">SUBJECT LINE</p>
+        <p class="text-white font-semibold mb-4">Payment overdue: Invoice #[NUMBER] — $[AMOUNT]</p>
+        <p class="text-slate-400 text-xs mb-3">BODY</p>
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Hi [Name],</p>
+          <p>I'm following up on invoice #[NUMBER] for $[AMOUNT], which was due on [DATE] — now 7 days overdue.</p>
+          <p>Could you let me know when I can expect payment? If there's an issue with the invoice or you need to arrange a different payment timeline, I'm happy to discuss.</p>
+          <p>Payment details:<br/><strong>BSB:</strong> [XXX-XXX]<br/><strong>Account:</strong> [XXXXXXXX]<br/><strong>Reference:</strong> [Invoice number]<br/><strong>Amount due:</strong> $[AMOUNT]</p>
+          <p>Thanks for your attention to this,<br/>[Your name]</p>
+        </div>
+      </div>
+
+      <h2>Template 5: Firm Notice (14 Days Overdue)</h2>
+      <p>Time to be clear this is a problem. Mention your payment terms and any late fee clauses.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-400 text-xs mb-3">SUBJECT LINE</p>
+        <p class="text-white font-semibold mb-4">OVERDUE: Invoice #[NUMBER] — 14 days past due</p>
+        <p class="text-slate-400 text-xs mb-3">BODY</p>
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Hi [Name],</p>
+          <p>I'm writing regarding invoice #[NUMBER] for $[AMOUNT], which is now 14 days overdue (original due date: [DATE]).</p>
+          <p>I've sent previous reminders on [dates] but haven't received payment or a response. As outlined in our agreement, payment terms are [NET 14/30] days.</p>
+          <p>Please arrange payment within the next 3 business days. If there are circumstances preventing timely payment, please contact me so we can discuss a resolution.</p>
+          <p>I value our working relationship and want to resolve this promptly.</p>
+          <p>Regards,<br/>[Your name]</p>
+        </div>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">When to Pause Work</h3>
+        <p class="text-slate-300 text-sm">If a client hasn't paid after 14 days and you're still doing work for them, consider pausing new deliverables until the balance is cleared. This is standard business practice, not confrontational. Your contract should include a clause allowing this — see our <a href="/blog/freelance-contract-australia" class="text-amber-400 hover:text-amber-300 underline">freelance contract guide</a>.</p>
+      </div>
+
+      <h2>Template 6: Final Notice (30 Days Overdue)</h2>
+      <p>This is your last email before escalation. Make it formal.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-400 text-xs mb-3">SUBJECT LINE</p>
+        <p class="text-white font-semibold mb-4">Final Notice: Invoice #[NUMBER] — 30 days overdue, $[AMOUNT]</p>
+        <p class="text-slate-400 text-xs mb-3">BODY</p>
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Dear [Name],</p>
+          <p>This is a final notice regarding invoice #[NUMBER] for $[AMOUNT], originally due on [DATE] — now 30 days overdue.</p>
+          <p>Despite multiple reminders sent on [list dates], this invoice remains unpaid.</p>
+          <p>Please arrange payment of the full amount within <strong>7 calendar days</strong> of this notice (by [SPECIFIC DATE]).</p>
+          <p>If payment is not received by this date, I will need to consider further options to recover the outstanding amount, which may include:</p>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>Engaging a debt collection agency</li>
+            <li>Filing a claim with the relevant state tribunal (e.g., VCAT in Victoria, NCAT in NSW)</li>
+            <li>Applying late payment interest as per our agreement</li>
+          </ul>
+          <p>I would prefer to resolve this between us. Please contact me to discuss payment arrangements if the full amount cannot be paid immediately.</p>
+          <p>Regards,<br/>[Your full name]<br/>[ABN]<br/>[Contact details]</p>
+        </div>
+      </div>
+
+      <h2>Template 7: Letter of Demand (45+ Days Overdue)</h2>
+      <p>If the final notice doesn't work, send a formal letter of demand. This is a legal precursor to small claims court and shows you're serious.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <p class="text-slate-400 text-xs mb-3">SUBJECT LINE</p>
+        <p class="text-white font-semibold mb-4">Letter of Demand — [Your Business Name] to [Client Name]</p>
+        <p class="text-slate-400 text-xs mb-3">BODY</p>
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Dear [Full Legal Name / Business Name],</p>
+          <p>This letter constitutes a formal demand for payment of $[AMOUNT] (inclusive of GST) for services rendered as detailed in Invoice #[NUMBER], dated [INVOICE DATE], with payment due on [DUE DATE].</p>
+          <p>The amount has been outstanding for [X] days despite multiple attempts to resolve this matter, including correspondence on [list all dates].</p>
+          <p>I demand payment of the full amount of <strong>$[AMOUNT]</strong> within <strong>14 days</strong> of the date of this letter (by [SPECIFIC DATE]).</p>
+          <p>If payment is not received by this date, I intend to commence proceedings in the [Victorian Civil and Administrative Tribunal / NSW Civil and Administrative Tribunal / relevant body] to recover the debt, plus any applicable interest, filing fees, and costs.</p>
+          <p>This letter may be tendered as evidence of your failure to pay in any subsequent proceedings.</p>
+          <p>I encourage you to settle this matter without the need for legal action.</p>
+          <p>Yours faithfully,<br/>[Your full legal name]<br/>[ABN: XX XXX XXX XXX]<br/>[Address]<br/>[Date]</p>
+        </div>
+      </div>
+
+      <h2>Subject Line Formulas That Get Opened</h2>
+      <p>Your subject line determines whether the email gets opened at all. These patterns work because they're specific and scan-friendly:</p>
+      <ul>
+        <li><strong>Include the invoice number:</strong> "Invoice #247" is more scannable than "Outstanding payment"</li>
+        <li><strong>Include the amount:</strong> "$2,750" creates urgency and specificity</li>
+        <li><strong>State the action:</strong> "Payment due" / "Payment overdue" / "Final notice"</li>
+        <li><strong>Avoid spam triggers:</strong> Skip ALL CAPS (except sparingly for "OVERDUE"), excessive punctuation, or threatening language early on</li>
+      </ul>
+
+      <h2>Tips for Better Payment Collection</h2>
+
+      <h3>1. Send Invoices Immediately</h3>
+      <p>The longer you wait to invoice, the longer you wait to get paid. Invoice on completion day — not "when you get around to it." InvoiceFlow lets you <a href="/signup" class="text-teal-400 hover:text-teal-300 underline">create and send invoices in under 2 minutes</a>.</p>
+
+      <h3>2. Make Payment Stupidly Easy</h3>
+      <p>Include bank details in every email. Add a PayID or payment link if possible. The fewer steps between "I should pay this" and "I've paid this," the faster you get paid.</p>
+
+      <h3>3. Set Expectations Upfront</h3>
+      <p>Define payment terms in your contract before starting work. "Net 14" means payment within 14 days of invoice date. Most Australian freelancers use Net 14 or Net 30.</p>
+
+      <h3>4. Automate Where Possible</h3>
+      <p>Manual follow-ups drain your energy and time. Use invoicing software with <a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">automatic payment reminders</a> so you never have to remember to chase.</p>
+
+      <h3>5. Keep Records of All Communication</h3>
+      <p>If you ever need to take legal action, you'll need evidence of every reminder sent. Always use email (not phone calls or verbal reminders) for your paper trail.</p>
+
+      <h3>6. Don't Apologise for Following Up</h3>
+      <p>You did the work. The invoice is legitimate. Don't start emails with "Sorry to bother you" — start with "Following up on" or "Quick note about." Being paid for your work isn't a bother.</p>
+
+      <h2>When to Escalate: State Tribunal Reference</h2>
+      <p>If your letter of demand is ignored, you can file a claim with your state's tribunal. These are designed for small claims and don't require a lawyer:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">State</th>
+            <th class="text-left py-3 px-4 text-slate-400">Tribunal</th>
+            <th class="text-left py-3 px-4 text-slate-400">Limit</th>
+            <th class="text-left py-3 px-4 text-slate-400">Filing Fee</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">VIC</td><td class="py-3 px-4">VCAT</td><td class="py-3 px-4">$15,000</td><td class="py-3 px-4">$74.60</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">NSW</td><td class="py-3 px-4">NCAT</td><td class="py-3 px-4">$20,000</td><td class="py-3 px-4">$53</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">QLD</td><td class="py-3 px-4">QCAT</td><td class="py-3 px-4">$25,000</td><td class="py-3 px-4">$80.10</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">WA</td><td class="py-3 px-4">Magistrates Court</td><td class="py-3 px-4">$10,000</td><td class="py-3 px-4">$102</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">SA</td><td class="py-3 px-4">SACAT</td><td class="py-3 px-4">$12,000</td><td class="py-3 px-4">$100</td></tr>
+        </tbody>
+      </table>
+
+      <p>Read our full <a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">overdue invoice guide</a> and <a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">late payment fees guide</a> for the complete legal framework.</p>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">How to Chase Overdue Invoices</a> — Complete escalation framework</li>
+        <li><a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">Late Payment Fees in Australia</a> — Legal framework for charging interest</li>
+        <li><a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">How to Get Clients to Pay Faster</a> — 7 prevention tactics</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contracts Guide</a> — Include payment clauses that protect you</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices in seconds</li>
+        <li><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — Automated payment reminders so you never chase manually</li>
+      </ul>
+    `,
+  },
+  'payg-instalments-australian-freelancers': {
+    slug: 'payg-instalments-australian-freelancers',
+    title: 'PAYG Instalments for Australian Freelancers: Complete Guide (2026)',
+    excerpt: 'Everything freelancers need to know about PAYG instalments — how the ATO calculates them, when they are due, how to vary them, and how to avoid overpaying or underpaying.',
+    category: 'Tax & Compliance',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'PAYG Instalments for Freelancers Australia 2026 | Complete Guide',
+    seoDescription: 'Complete guide to PAYG instalments for Australian freelancers. How the ATO calculates them, quarterly due dates, how to vary, and avoid overpaying or underpaying.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">If you've been freelancing for a year or more, the ATO has probably started charging you PAYG instalments — quarterly pre-payments on your expected tax bill. This guide explains exactly how they work, when they're due, and how to stop overpaying (or underpaying).</p>
+
+      <h2>What Are PAYG Instalments?</h2>
+      <p>PAYG (Pay As You Go) instalments are the ATO's way of making sure freelancers and sole traders pay tax throughout the year, rather than facing one massive bill at tax time.</p>
+      <p>If you're an employee, your employer already withholds tax from each pay. But as a freelancer, you receive your income in full — so the ATO asks you to make quarterly payments towards your expected annual tax liability.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Key Distinction</h3>
+        <p class="text-slate-300 text-sm"><strong>PAYG Instalments</strong> = pre-payments on YOUR income tax (what this guide covers).<br/><strong>PAYG Withholding</strong> = tax you withhold from EMPLOYEES' wages. Different system entirely. If you're a solo freelancer with no employees, you only need to worry about PAYG Instalments.</p>
+      </div>
+
+      <h2>When Does the ATO Put You on PAYG Instalments?</h2>
+      <p>The ATO automatically enters you into the PAYG instalment system when:</p>
+      <ul>
+        <li>You lodge a tax return showing <strong>instalment income of $4,000 or more</strong> (business and investment income)</li>
+        <li>Your tax on that income (after PAYG credits and offsets) is <strong>$1,000 or more</strong></li>
+      </ul>
+      <p>In practice, this means most freelancers earning over ~$25,000-30,000/year in business income will be entered automatically after their first (or second) tax return.</p>
+      <p>You'll receive a letter from the ATO telling you your instalment amount and when to start paying. This usually arrives in July-August after you lodge your return.</p>
+
+      <h2>The Two PAYG Instalment Methods</h2>
+      <p>The ATO offers two ways to calculate your quarterly instalments:</p>
+
+      <h3>Option 1: Instalment Amount (Simpler)</h3>
+      <p>The ATO tells you a fixed dollar amount to pay each quarter. They calculate this based on your most recent tax return.</p>
+      <ul>
+        <li><strong>Best for:</strong> Freelancers with steady, predictable income</li>
+        <li><strong>Pros:</strong> Simple — same amount each quarter, no calculation needed</li>
+        <li><strong>Cons:</strong> If your income drops, you'll overpay (and wait for a refund at tax time)</li>
+      </ul>
+
+      <h3>Option 2: Instalment Rate (More Flexible)</h3>
+      <p>The ATO gives you a percentage rate. Each quarter, you multiply your actual income by this rate to calculate your instalment.</p>
+      <ul>
+        <li><strong>Best for:</strong> Freelancers with variable income (most freelancers)</li>
+        <li><strong>Pros:</strong> Payments scale with income — pay less in quiet quarters</li>
+        <li><strong>Cons:</strong> You need to track your quarterly income</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Which Should You Choose?</h3>
+        <p class="text-slate-300 text-sm">If your income fluctuates (and for most freelancers it does), <strong>choose the instalment rate method</strong>. You'll report your actual income on your BAS each quarter, and the instalment will match reality. This avoids the common trap of overpaying in quiet quarters when using the fixed amount method.</p>
+      </div>
+
+      <h2>Worked Example: Both Methods</h2>
+      <p>Sarah is a freelance graphic designer who earned $100,000 last financial year. The ATO gives her:</p>
+      <ul>
+        <li><strong>Instalment amount:</strong> $5,250/quarter ($21,000/year)</li>
+        <li><strong>Instalment rate:</strong> 18%</li>
+      </ul>
+
+      <h3>Scenario: Quiet Quarter ($15,000 Income)</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Method</th>
+            <th class="text-left py-3 px-4 text-slate-400">Calculation</th>
+            <th class="text-left py-3 px-4 text-slate-400">Payment</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Fixed amount</td><td class="py-3 px-4">$5,250 (regardless of income)</td><td class="py-3 px-4 text-red-400">$5,250</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Rate method</td><td class="py-3 px-4">$15,000 x 18% = $2,700</td><td class="py-3 px-4 text-teal-400">$2,700</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Difference: $2,550 more cash in Sarah's pocket</strong> using the rate method in a quiet quarter. She'd get the overpayment back at tax time with the fixed method, but that could be 6-12 months away.</p>
+
+      <h3>Scenario: Busy Quarter ($35,000 Income)</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Method</th>
+            <th class="text-left py-3 px-4 text-slate-400">Calculation</th>
+            <th class="text-left py-3 px-4 text-slate-400">Payment</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Fixed amount</td><td class="py-3 px-4">$5,250 (regardless of income)</td><td class="py-3 px-4 text-teal-400">$5,250</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Rate method</td><td class="py-3 px-4">$35,000 x 18% = $6,300</td><td class="py-3 px-4 text-amber-400">$6,300</td></tr>
+        </tbody>
+      </table>
+      <p>In a big quarter, the rate method charges more — but that's accurate. You earned more, so your tax should be higher. Better to pay it now than face a surprise bill.</p>
+
+      <h2>PAYG Instalment Due Dates (2025-26)</h2>
+      <p>PAYG instalments are reported on your BAS. Due dates for quarterly lodgers:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Quarter</th>
+            <th class="text-left py-3 px-4 text-slate-400">Period</th>
+            <th class="text-left py-3 px-4 text-slate-400">BAS Due Date</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">Q1</td><td class="py-3 px-4">Jul — Sep 2025</td><td class="py-3 px-4">28 October 2025</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">Q2</td><td class="py-3 px-4">Oct — Dec 2025</td><td class="py-3 px-4">28 February 2026</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">Q3</td><td class="py-3 px-4">Jan — Mar 2026</td><td class="py-3 px-4">28 April 2026</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold text-teal-400">Q4</td><td class="py-3 px-4">Apr — Jun 2026</td><td class="py-3 px-4">28 August 2026 *</td></tr>
+        </tbody>
+      </table>
+      <p class="text-sm text-slate-400">* Q4 has a special due date — it's August, not July, to give time for end-of-year processing.</p>
+
+      <h2>How to Vary Your PAYG Instalments</h2>
+      <p>If your income has changed significantly (up or down), you can vary your instalments. This is done on your BAS form.</p>
+
+      <h3>When to Vary Down</h3>
+      <ul>
+        <li>You've lost a major client</li>
+        <li>You took time off (parental leave, travel, health)</li>
+        <li>Your income has dropped 20%+ from last year</li>
+        <li>You've increased deductible expenses significantly</li>
+      </ul>
+
+      <h3>When to Vary Up</h3>
+      <ul>
+        <li>Your income has jumped significantly</li>
+        <li>You don't want a big tax bill at the end of the year</li>
+        <li>You prefer steady cash flow over a lump sum</li>
+      </ul>
+
+      <h3>How to Vary (Step by Step)</h3>
+      <ol>
+        <li>Log into <strong>myGov</strong> &gt; ATO &gt; Business Portal</li>
+        <li>Go to your BAS for the current quarter</li>
+        <li>At label T7, enter your <strong>estimated tax</strong> for the full year</li>
+        <li>At label T8, enter your <strong>varied instalment amount</strong> for this quarter</li>
+        <li>Lodge the BAS</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Warning: Vary Carefully</h3>
+        <p class="text-slate-300 text-sm">If you vary your instalments too low and end up owing more than 15% beyond what you should have paid, the ATO can charge a <strong>General Interest Charge (GIC)</strong> on the shortfall — currently ~11.36% per annum. Only vary if you genuinely believe your income has changed. Don't vary down just to improve cash flow in the short term.</p>
+      </div>
+
+      <h2>PAYG Instalments on Your BAS</h2>
+      <p>If you lodge quarterly BAS, your PAYG instalment appears on the same form as your GST. The key labels are:</p>
+      <ul>
+        <li><strong>T1:</strong> Instalment income for the quarter (rate method) or left blank (amount method)</li>
+        <li><strong>T2:</strong> ATO-calculated instalment rate (pre-filled)</li>
+        <li><strong>T7:</strong> Estimated tax for the year (only if varying)</li>
+        <li><strong>T8:</strong> Varied amount (only if varying)</li>
+        <li><strong>T9:</strong> PAYG instalment amount to pay</li>
+      </ul>
+      <p>Your total BAS payment = GST payable (1A - 1B) + PAYG instalment (T9).</p>
+
+      <h2>How PAYG Instalments Reduce Your Tax Bill</h2>
+      <p>PAYG instalments aren't an extra tax — they're a <strong>pre-payment</strong> credited against your annual tax return.</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Scenario</th>
+            <th class="text-left py-3 px-4 text-slate-400">Annual Tax</th>
+            <th class="text-left py-3 px-4 text-slate-400">PAYG Paid</th>
+            <th class="text-left py-3 px-4 text-slate-400">Result</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Underpaid</td><td class="py-3 px-4">$24,000</td><td class="py-3 px-4">$21,000</td><td class="py-3 px-4 text-amber-400">Owe $3,000</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Exact</td><td class="py-3 px-4">$21,000</td><td class="py-3 px-4">$21,000</td><td class="py-3 px-4 text-teal-400">$0 owing</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Overpaid</td><td class="py-3 px-4">$18,000</td><td class="py-3 px-4">$21,000</td><td class="py-3 px-4 text-teal-400">$3,000 refund</td></tr>
+        </tbody>
+      </table>
+      <p>Many freelancers are surprised to get a refund at tax time — that's overpaid PAYG instalments being returned.</p>
+
+      <h2>How to Exit PAYG Instalments</h2>
+      <p>If your business income drops below $4,000 or your tax on business income is below $1,000, you can request to exit the system:</p>
+      <ol>
+        <li>Log into <strong>myGov</strong> &gt; ATO &gt; Business Portal</li>
+        <li>Go to <strong>PAYG instalments</strong> &gt; <strong>Manage</strong></li>
+        <li>Select <strong>"Withdraw from PAYG instalments"</strong></li>
+      </ol>
+      <p>You'll need to resume if your income rises again above the threshold.</p>
+
+      <h2>Common PAYG Instalment Mistakes</h2>
+      <ol>
+        <li><strong>Ignoring the ATO letter:</strong> If you don't pay, the ATO charges interest (GIC) automatically. They don't wait for you to notice.</li>
+        <li><strong>Treating instalments as extra tax:</strong> It's a pre-payment, not an additional tax. Every dollar of PAYG you pay reduces your year-end tax bill by a dollar.</li>
+        <li><strong>Not varying when income drops:</strong> If you lose a big client, vary immediately. Don't overpay for 3 quarters and wait for a refund.</li>
+        <li><strong>Varying too aggressively:</strong> Under-estimating triggers GIC penalties. Be honest with your estimates.</li>
+        <li><strong>Not including instalments in cash flow planning:</strong> Your BAS payment is GST + PAYG. Budget for both. Use our <a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">cash flow management guide</a> and the 30% tax savings rule.</li>
+      </ol>
+
+      <h2>PAYG Instalments vs Setting Aside 30%</h2>
+      <p>Many freelancers follow the "save 30% of income for tax" rule. Here's how PAYG instalments interact with that:</p>
+      <ul>
+        <li>If your PAYG instalments roughly equal 30% of your income, you're already covered — your tax savings account might not need extra contributions</li>
+        <li>If your PAYG instalments are lower than 30%, keep saving the difference — you may owe at tax time</li>
+        <li>If your PAYG instalments are higher than 30%, you might be overpaying — consider varying down</li>
+      </ul>
+      <p>The 30% rule is a rough guide. Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">freelance rate calculator</a> to calculate your actual effective tax rate.</p>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS Guide for Freelancers</a> — How to lodge your BAS step by step</li>
+        <li><a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">How Much Tax Do Freelancers Pay?</a> — 2025-26 tax brackets and worked examples</li>
+        <li><a href="/blog/freelancer-tax-calendar-australia-2026" class="text-teal-400 hover:text-teal-300 underline">Tax Calendar 2026</a> — Every ATO deadline for the year</li>
+        <li><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Management</a> — The 3-account system and 30% rule</li>
+        <li><a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">Sole Trader Tax Return Guide</a> — How PAYG credits appear on your return</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate your BAS GST component</li>
+        <li><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — Track income by quarter for accurate PAYG reporting</li>
+      </ul>
+    `,
+  },
+  'how-to-handle-scope-creep-freelancer': {
+    slug: 'how-to-handle-scope-creep-freelancer',
+    title: 'How to Handle Scope Creep as a Freelancer (Without Losing Clients)',
+    excerpt: 'Scope creep is the #1 profitability killer for freelancers. Learn how to identify it, prevent it with better contracts and quoting, and handle it when it happens.',
+    category: 'Business Skills',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Handle Scope Creep as a Freelancer | Prevention Guide',
+    seoDescription: 'Scope creep kills freelancer profits. Learn how to identify, prevent, and handle scope creep with better contracts, clear boundaries, and professional responses.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">You quoted $3,000 for a website. Three months later, you've built a website, a blog, an email system, three revisions of the logo the client "doesn't love," and you're working on weekends. Your effective hourly rate? $22. This is scope creep — and it's the most common way freelancers undercharge without realising it.</p>
+
+      <h2>What Is Scope Creep?</h2>
+      <p>Scope creep is when a project gradually expands beyond what was originally agreed, without a corresponding increase in price or timeline. It usually happens incrementally — one "small" request at a time.</p>
+      <p>The individual requests often seem reasonable. "Can you also..." or "While you're at it..." or "I just thought of one more thing..." None of these sound like scope changes in isolation. But collectively, they can double your workload.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Real Cost</h3>
+        <p class="text-slate-300 text-sm">A study of IT projects found that <strong>scope creep affects 52% of projects</strong> and is the #1 cause of project failure. For freelancers working on fixed-price projects, every hour of scope creep is an hour of unpaid work. A 20% scope increase on a $5,000 project = $1,000 of free labour.</p>
+      </div>
+
+      <h2>The 5 Types of Scope Creep</h2>
+
+      <h3>1. Feature Creep</h3>
+      <p>"Can we add a chat feature to the website?" New features that weren't in the original brief. The most obvious form — but still catches freelancers off guard because the client frames it as "simple."</p>
+
+      <h3>2. Revision Creep</h3>
+      <p>"I showed my partner and they think the colours should be different." Endless revision cycles beyond what was agreed. Often driven by too many stakeholders giving conflicting feedback.</p>
+
+      <h3>3. Specification Creep</h3>
+      <p>"When I said 'landing page,' I meant something like Apple.com." The client's expectations exceed what the scope document described. Happens when the initial brief was vague.</p>
+
+      <h3>4. Timeline Creep</h3>
+      <p>"We're not ready to launch yet — can you keep maintaining it?" The project never officially ends. You're pulled into ongoing support that wasn't quoted.</p>
+
+      <h3>5. Communication Creep</h3>
+      <p>"Can we hop on a quick call?" Weekly "quick calls" that eat 2-3 hours. Excessive meetings, Slack messages, and email threads that weren't factored into the project cost.</p>
+
+      <h2>How to Prevent Scope Creep (Before It Starts)</h2>
+
+      <h3>1. Write a Bulletproof Scope Document</h3>
+      <p>The best defence against scope creep is a detailed scope document attached to your contract. It should specify:</p>
+      <ul>
+        <li><strong>What IS included</strong> — specific deliverables, features, and pages</li>
+        <li><strong>What is NOT included</strong> — explicitly list common assumptions clients make</li>
+        <li><strong>Number of revision rounds</strong> — e.g., "2 rounds of revisions included"</li>
+        <li><strong>Definition of "revision"</strong> — e.g., "minor text/colour changes, not structural redesigns"</li>
+        <li><strong>Timeline and milestones</strong> — with specific delivery dates</li>
+        <li><strong>What happens with additional requests</strong> — change order process and rates</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-400 text-xs mb-3">EXAMPLE: "WHAT IS NOT INCLUDED" SECTION</p>
+        <div class="text-slate-300 text-sm space-y-2">
+          <p>The following are NOT included in this project scope and will be quoted separately if requested:</p>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>Logo design or branding work</li>
+            <li>Copywriting (client to provide all text content)</li>
+            <li>Stock photography (client to provide or purchase)</li>
+            <li>Email marketing setup or integration</li>
+            <li>SEO optimisation beyond basic on-page meta tags</li>
+            <li>Hosting management or domain registration</li>
+            <li>Ongoing maintenance after handover</li>
+            <li>Training beyond one 30-minute walkthrough session</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>2. Use Fixed-Price with Clear Boundaries</h3>
+      <p>Fixed-price projects are scope-creep magnets — but they're also what most clients prefer. The key is coupling fixed price with an airtight scope. Read our <a href="/blog/how-to-quote-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">quoting guide</a> for pricing frameworks.</p>
+
+      <h3>3. Build a Change Order Process</h3>
+      <p>Before the project starts, agree on how changes are handled:</p>
+      <ol>
+        <li>Client submits change request (email, not verbal)</li>
+        <li>You assess scope impact (time + cost)</li>
+        <li>You send a mini-quote for the additional work</li>
+        <li>Client approves in writing before work begins</li>
+        <li>Additional work is invoiced separately or added to the project total</li>
+      </ol>
+      <p>This should be a clause in your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">freelance contract</a>.</p>
+
+      <h3>4. Add a Buffer to Your Quote</h3>
+      <p>Experienced freelancers add 15-25% to their estimate for scope uncertainty. This isn't dishonest — it's realistic. If you've never had a project stay perfectly on scope, you already know why.</p>
+
+      <h3>5. Cap Revision Rounds</h3>
+      <p>"2 rounds of revisions included. Additional revision rounds billed at $[X]/hour." This single clause prevents the most common form of scope creep.</p>
+
+      <h2>How to Handle Scope Creep When It Happens</h2>
+
+      <h3>The 3-Step Response Framework</h3>
+      <p>When a client asks for something outside scope, use this framework:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Step 1: Acknowledge</h3>
+        <p class="text-slate-300 text-sm">"That's a great idea — I can see why you'd want that."</p>
+        <h3 class="text-teal-400 font-semibold mb-2 mt-4">Step 2: Clarify</h3>
+        <p class="text-slate-300 text-sm">"That falls outside the current project scope. Here's what it would involve..."</p>
+        <h3 class="text-teal-400 font-semibold mb-2 mt-4">Step 3: Offer Options</h3>
+        <p class="text-slate-300 text-sm">"I can do that as a separate mini-project for $[X], or we can swap it for [existing feature] to stay within budget. What works best?"</p>
+      </div>
+
+      <h3>Email Templates for Common Situations</h3>
+
+      <h4>Template 1: New Feature Request</h4>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Hi [Name],</p>
+          <p>Thanks for the idea — [feature] would definitely add value to the project.</p>
+          <p>Just to flag, this falls outside the current project scope (which covers [brief scope summary]). To add this, I'd estimate an additional [X] hours at $[rate]/hour = $[total].</p>
+          <p>Would you like me to:</p>
+          <p>a) Add it to the current project (adjusting timeline by [X] days and budget by $[X])<br/>b) Complete the current scope first, then quote it as a follow-up project<br/>c) Swap it for [lower-priority feature] to keep the budget the same</p>
+          <p>Happy to discuss either way.</p>
+        </div>
+      </div>
+
+      <h4>Template 2: Excessive Revisions</h4>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Hi [Name],</p>
+          <p>I've implemented the changes from rounds 1 and 2 as included in our agreement. For the additional changes you've outlined, I'd be happy to continue refining — these would be billed at my standard rate of $[X]/hour.</p>
+          <p>Before we proceed, it might help to consolidate all remaining feedback into one final round to make the most efficient use of your budget. Would you like to gather all remaining changes and send them through in one go?</p>
+        </div>
+      </div>
+
+      <h4>Template 3: "Quick Favour" Requests</h4>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <div class="text-slate-300 text-sm space-y-3">
+          <p>Hi [Name],</p>
+          <p>Happy to help with that. Just to keep things tidy on my end — since this is outside the [project name] scope, I'll log it separately. I estimate it'll take about [X] hours at $[rate]/hour.</p>
+          <p>I'll send a quick invoice once it's done. Sound good?</p>
+        </div>
+      </div>
+
+      <h2>The "Small Request" Trap</h2>
+      <p>The most dangerous scope creep comes in small packages. "Can you just..." is the phrase that has cost freelancers the most money in history.</p>
+      <p>The rule of thumb: <strong>if a "quick change" takes more than 15 minutes, it's scope creep.</strong> Even 15-minute tasks add up — ten of them is 2.5 hours of free work.</p>
+      <p>Track every request, no matter how small. At the end of the project, review how much time went to out-of-scope work. If it's more than 10% of the project, tighten your scope for next time.</p>
+
+      <h2>When to Absorb It (And When Not To)</h2>
+      <p>Not every out-of-scope request needs a change order. Sometimes it's worth absorbing:</p>
+
+      <h3>Absorb When:</h3>
+      <ul>
+        <li>It genuinely takes 5 minutes and strengthens the relationship</li>
+        <li>It's a high-value client with ongoing work potential</li>
+        <li>You underestimated the original scope (be honest with yourself)</li>
+        <li>It's your first project with a new client and you're building trust</li>
+      </ul>
+
+      <h3>Push Back When:</h3>
+      <ul>
+        <li>The request changes the project fundamentally</li>
+        <li>It'll take more than 1 hour of additional work</li>
+        <li>The client is a serial scope-creeper (pattern behaviour)</li>
+        <li>You've already absorbed multiple requests on this project</li>
+        <li>The request requires new skills or tools outside your expertise</li>
+      </ul>
+
+      <h2>Pricing Models That Minimise Scope Creep</h2>
+      <p>Your pricing model directly affects your scope creep risk:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Model</th>
+            <th class="text-left py-3 px-4 text-slate-400">Scope Creep Risk</th>
+            <th class="text-left py-3 px-4 text-slate-400">Why</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Hourly</td><td class="py-3 px-4 text-teal-400">Low</td><td class="py-3 px-4">Every extra request = more billable hours</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Fixed-price</td><td class="py-3 px-4 text-red-400">High</td><td class="py-3 px-4">Extra work doesn't increase payment</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Retainer</td><td class="py-3 px-4 text-amber-400">Medium</td><td class="py-3 px-4">Hours are capped, but clients may push boundaries</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Value-based</td><td class="py-3 px-4 text-teal-400">Low</td><td class="py-3 px-4">Price tied to outcome, not hours — changes don't affect cost</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-semibold">Hybrid (fixed + hourly overflow)</td><td class="py-3 px-4 text-teal-400">Low</td><td class="py-3 px-4">Base scope fixed, extras billed hourly</td></tr>
+        </tbody>
+      </table>
+
+      <p>The <strong>hybrid model</strong> is the best of both worlds for most freelancers. Read our <a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">pricing guide</a> for the full breakdown of each model.</p>
+
+      <h2>Prevention Checklist</h2>
+      <p>Use this checklist at the start of every project to minimise scope creep risk:</p>
+      <ul>
+        <li>Written scope document with deliverables listed</li>
+        <li>"Not included" section clearly defined</li>
+        <li>Revision rounds capped (2-3 max)</li>
+        <li>Change order process agreed in contract</li>
+        <li>Milestone payments tied to deliverables (not time)</li>
+        <li>Communication channels and response times agreed</li>
+        <li>Meeting frequency capped (e.g., "one 30-min call per week")</li>
+        <li>Project end date defined</li>
+        <li>Post-project support terms specified</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-quote-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">How to Quote Clients</a> — Build accurate quotes that prevent scope creep</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contracts Guide</a> — Essential clauses including change orders</li>
+        <li><a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">How to Price Freelance Services</a> — Pricing models that protect your profits</li>
+        <li><a href="/blog/common-invoicing-mistakes-freelancers" class="text-teal-400 hover:text-teal-300 underline">Common Invoicing Mistakes</a> — Don't let billing errors compound scope issues</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Rate Calculator</a> — Calculate your true hourly rate</li>
+        <li><a href="/signup" class="text-teal-400 hover:text-teal-300 underline">InvoiceFlow</a> — Invoice change orders and additional work professionally</li>
+      </ul>
+    `,
+  },
   'freelancer-tax-calendar-australia-2026': {
     slug: 'freelancer-tax-calendar-australia-2026',
     title: 'Australian Freelancer Tax Calendar 2026: Every Deadline You Need',
