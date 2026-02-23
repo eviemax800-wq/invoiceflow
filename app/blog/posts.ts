@@ -20890,4 +20890,614 @@ Yours sincerely,
       </ul>
     `,
   },
+
+  'invoicing-massage-therapists-allied-health-australia': {
+    slug: 'invoicing-massage-therapists-allied-health-australia',
+    title: 'How to Invoice as a Freelance Massage Therapist or Allied Health Practitioner in Australia',
+    excerpt: 'Complete invoicing guide for massage therapists, physiotherapists, and allied health practitioners in Australia — session pricing, health fund claims, HICAPS, room rental, and clinical compliance.',
+    category: 'Invoicing',
+    readTime: '18 min read',
+    date: '2026-02-24',
+    seoTitle: 'How to Invoice as a Massage Therapist in Australia | Pricing, Health Funds & HICAPS',
+    seoDescription: 'Australian massage therapist invoicing guide. Session pricing, health fund claiming, HICAPS setup, room rental models, clinical note requirements, and allied health tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Massage therapy and allied health is one of the fastest-growing freelance sectors in Australia — remedial massage, myotherapy, physiotherapy, osteopathy, naturopathy, and other modalities each have distinct invoicing requirements. What makes allied health invoicing unique is the intersection of clinical compliance, private health fund claiming, and multiple revenue streams (clinic, mobile, corporate, group). This guide covers everything Australian allied health freelancers need to invoice correctly, claim through health funds, and maximise their income.</p>
+
+      <h2>Session Pricing Models</h2>
+      <p>Most freelance massage therapists and allied health practitioners use time-based pricing, but successful practitioners layer additional revenue streams on top.</p>
+
+      <h3>Standard Session Rates (2026 Australian Market)</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Modality</th><th class="py-3 px-4 text-teal-400">30 min</th><th class="py-3 px-4 text-teal-400">45 min</th><th class="py-3 px-4 text-teal-400">60 min</th><th class="py-3 px-4 text-teal-400">90 min</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Relaxation Massage</td><td class="py-3 px-4">$50–$70</td><td class="py-3 px-4">$70–$90</td><td class="py-3 px-4">$80–$120</td><td class="py-3 px-4">$120–$170</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Remedial Massage</td><td class="py-3 px-4">$60–$85</td><td class="py-3 px-4">$80–$110</td><td class="py-3 px-4">$100–$140</td><td class="py-3 px-4">$140–$200</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Myotherapy</td><td class="py-3 px-4">$65–$90</td><td class="py-3 px-4">$85–$120</td><td class="py-3 px-4">$110–$150</td><td class="py-3 px-4">$150–$210</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Physiotherapy</td><td class="py-3 px-4">$70–$100</td><td class="py-3 px-4">$90–$130</td><td class="py-3 px-4">$120–$180</td><td class="py-3 px-4">$160–$240</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Osteopathy</td><td class="py-3 px-4">$75–$110</td><td class="py-3 px-4">$95–$140</td><td class="py-3 px-4">$130–$190</td><td class="py-3 px-4">$170–$260</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Naturopathy (initial consult)</td><td class="py-3 px-4">—</td><td class="py-3 px-4">—</td><td class="py-3 px-4">$120–$200</td><td class="py-3 px-4">$180–$300</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Pricing factors:</strong> Location (metro vs regional), experience level, specialisation (sports, pregnancy, clinical), and whether you're in a clinic or mobile.</p>
+
+      <h3>Initial Assessment vs Follow-Up</h3>
+      <p>Most allied health practitioners charge a premium for the initial consultation because it involves detailed health history, assessment, and treatment planning.</p>
+      <ul>
+        <li><strong>Initial assessment:</strong> 60–90 min, priced 20–40% above a standard session of the same duration. Example: standard 60 min = $120, initial assessment 60 min = $150–$170</li>
+        <li><strong>Follow-up sessions:</strong> Standard session rates. The treatment plan is already established</li>
+        <li><strong>Re-assessment:</strong> Every 4–6 sessions, charge at initial assessment rates. This is when you formally review progress and adjust the treatment plan. Health funds expect this documentation</li>
+      </ul>
+
+      <h3>Mobile / Home Visit Pricing</h3>
+      <p>Mobile massage and allied health visits command a premium because of travel time, equipment transport, and the convenience factor.</p>
+      <ul>
+        <li><strong>Standard mobile surcharge:</strong> $20–$40 on top of clinic rates for visits within 15km</li>
+        <li><strong>Distance surcharge:</strong> Additional $1–$2 per km beyond 15km</li>
+        <li><strong>Equipment transport:</strong> If you're bringing a portable table, linens, oils, and equipment — that's setup and packdown time. Factor in 30 minutes minimum</li>
+        <li><strong>Minimum booking:</strong> Many mobile practitioners set a 60-minute minimum to justify travel time</li>
+      </ul>
+
+      <h2>Health Fund Claiming and HICAPS</h2>
+      <p>This is the biggest differentiator in allied health invoicing. If your clients can claim through their private health insurance, you'll get more bookings and higher perceived value.</p>
+
+      <h3>How Health Fund Claiming Works</h3>
+      <ol>
+        <li><strong>You must be registered with a recognised association:</strong> For remedial massage, this means membership of associations like AAMT, AMT, ATMS, or Massage & Myotherapy Australia. Each health fund has its own list of approved associations</li>
+        <li><strong>Get a provider number:</strong> Each health fund issues you a provider number. Apply directly with each fund — major funds include Medibank, Bupa, HCF, nib, and AHSA</li>
+        <li><strong>Issue compliant receipts:</strong> Health fund receipts must include: your name and provider number, association membership number, date of service, type of treatment, duration, amount charged, ABN</li>
+        <li><strong>Client claims on the spot (HICAPS/Tyro) or manually:</strong> HICAPS terminals process claims instantly at point of sale. Manual claiming means the client submits the receipt to their fund</li>
+      </ol>
+
+      <h3>HICAPS / Tyro Setup</h3>
+      <div class="bg-slate-800/50 rounded-lg p-4 mb-4">
+        <p class="text-slate-300 text-sm"><strong>HICAPS</strong> (Health Industry Claims and Payments Service) is the dominant on-the-spot claiming terminal in Australia. <strong>Tyro</strong> offers a combined EFTPOS + health claiming solution. Having one of these dramatically increases bookings — clients prefer on-the-spot claiming because they only pay the gap amount upfront.</p>
+      </div>
+      <ul>
+        <li><strong>HICAPS terminal rental:</strong> $30–$60/month depending on plan. Per-claim fee: $0.30–$0.50</li>
+        <li><strong>Tyro:</strong> Combined EFTPOS + health claiming terminal. Monthly fee varies. Transaction fees apply</li>
+        <li><strong>Manual claiming:</strong> Free (the client submits receipts themselves). Works but reduces convenience and booking conversion</li>
+      </ul>
+      <p><strong>Key decision:</strong> If you see 15+ health fund clients per week, a HICAPS terminal pays for itself. Below that, manual receipts are fine.</p>
+
+      <h3>Gap Payments vs Full Payment</h3>
+      <p>When a client uses HICAPS, the typical flow is:</p>
+      <ol>
+        <li>You charge your full session fee (e.g., $120)</li>
+        <li>The HICAPS terminal processes the health fund claim (e.g., fund pays $60)</li>
+        <li>The client pays the gap (e.g., $60)</li>
+      </ol>
+      <p><strong>Your invoice should show:</strong> Total fee, health fund rebate amount, gap payment collected, and payment method for the gap.</p>
+
+      <h2>Multi-Session Packs and Prepayment</h2>
+      <p>Session packs increase client commitment and smooth out cash flow.</p>
+
+      <h3>Common Pack Structures</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Pack</th><th class="py-3 px-4 text-teal-400">Discount</th><th class="py-3 px-4 text-teal-400">Example (60 min @ $120)</th><th class="py-3 px-4 text-teal-400">Expiry</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">5-session pack</td><td class="py-3 px-4">5–10%</td><td class="py-3 px-4">$540–$570 (save $30–$60)</td><td class="py-3 px-4">3 months</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">10-session pack</td><td class="py-3 px-4">10–15%</td><td class="py-3 px-4">$1,020–$1,080 (save $120–$180)</td><td class="py-3 px-4">6 months</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Health Fund Claiming with Packs</h3>
+      <p><strong>Important:</strong> When a client has a prepaid pack, they can still claim each individual session through their health fund. Issue a receipt for each session at the per-session rate (not the discounted total). Example: 5-pack purchased for $570 ($114/session) — issue a receipt for $114 per session. The health fund rebate is based on the amount actually paid.</p>
+
+      <h3>Pack Expiry Under Australian Consumer Law</h3>
+      <p>Under Australian Consumer Law, gift cards and prepaid vouchers purchased after 1 November 2019 must have a minimum 3-year expiry. Multi-session packs sold to consumers are treated similarly. While you can set a recommended usage period (3–6 months), be cautious about forfeiting unused sessions on short expiry periods. Best practice: 3-month recommended use, 12-month absolute expiry, clearly stated in your terms.</p>
+
+      <h2>Room Rental and Clinic Arrangements</h2>
+      <p>Most freelance allied health practitioners don't own a clinic — they rent a room. How you structure this affects your invoicing and tax treatment.</p>
+
+      <h3>Room Rental Models</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Model</th><th class="py-3 px-4 text-teal-400">Typical Cost</th><th class="py-3 px-4 text-teal-400">Best For</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Flat weekly rent</td><td class="py-3 px-4">$150–$400/week</td><td class="py-3 px-4">Established practitioners with steady bookings (20+ clients/week)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Daily rent</td><td class="py-3 px-4">$50–$120/day</td><td class="py-3 px-4">Part-time practitioners or those building up (2–3 days/week)</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Per-session / revenue share</td><td class="py-3 px-4">25–40% of session fee</td><td class="py-3 px-4">New practitioners with few clients — lower risk, higher per-client cost</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Hourly rent</td><td class="py-3 px-4">$15–$35/hour</td><td class="py-3 px-4">Very part-time, 1–2 sessions/week at a specific location</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Transition strategy:</strong> Start with per-session or daily rent. Once you're consistently filling 4+ days/week, switch to flat weekly rent — the economics flip in your favour.</p>
+
+      <h3>Invoicing the Clinic (or the Clinic Invoicing You)</h3>
+      <p>Depending on the arrangement:</p>
+      <ul>
+        <li><strong>You rent a room:</strong> The clinic invoices YOU for rent. You invoice clients directly. This is the cleanest arrangement for tax purposes — room rent is a fully deductible business expense</li>
+        <li><strong>Revenue share:</strong> The clinic collects payment from clients, then pays you your share (minus their percentage). Invoice the clinic for your services rendered. Make sure you have a written agreement specifying the split, payment frequency (weekly is standard), and who owns the client relationship</li>
+        <li><strong>Subcontractor to the clinic:</strong> You invoice the clinic for hours worked or sessions delivered. The clinic handles client billing. Your invoice to the clinic should include your ABN and be formatted as a standard tax invoice</li>
+      </ul>
+
+      <h2>Corporate and Workplace Wellness Contracts</h2>
+      <p>Corporate wellness is a growing revenue stream. Companies book massage therapists for employee wellbeing programs, either as regular weekly sessions or one-off events.</p>
+
+      <h3>Corporate Pricing</h3>
+      <ul>
+        <li><strong>Chair massage (15–20 min per employee):</strong> $25–$40 per session, minimum 2-hour booking (6–8 employees)</li>
+        <li><strong>Table massage (30–60 min per employee):</strong> $80–$130 per session, minimum half-day booking</li>
+        <li><strong>Weekly retainer:</strong> $300–$600/day for on-site weekly visits (4–6 hours)</li>
+        <li><strong>Event wellness station:</strong> $500–$1,200 for a half-day or full-day event setup (conference, wellness day, team building)</li>
+      </ul>
+
+      <h3>Corporate Invoice Requirements</h3>
+      <p>Corporate clients typically require:</p>
+      <ul>
+        <li>A purchase order (PO) number on every invoice</li>
+        <li>Your ABN and GST status clearly shown</li>
+        <li>Detailed breakdown: date, number of sessions, duration, per-session rate</li>
+        <li>30-day payment terms (some large companies require 45 or 60 days — negotiate this upfront)</li>
+        <li>Insurance certificate of currency (public liability $10M+ for most corporates)</li>
+      </ul>
+
+      <h2>Cancellation and No-Show Policies</h2>
+      <p>No-shows and late cancellations are a major income drain for practitioners. A clear policy is essential.</p>
+      <ul>
+        <li><strong>24-hour cancellation policy:</strong> Industry standard. Cancellations with less than 24 hours notice are charged 50–100% of the session fee</li>
+        <li><strong>No-show:</strong> Full session fee charged. No exceptions (after the first offence — some practitioners offer one free pass)</li>
+        <li><strong>Late arrival:</strong> Session still ends at the scheduled time. The client receives the remaining time only. Full fee still applies</li>
+        <li><strong>How to enforce:</strong> Collect a credit card on file (use Stripe, Square, or your booking system). Charge automatically for no-shows. Communicate the policy at booking, in confirmation emails, and on your website</li>
+      </ul>
+      <p><strong>Invoicing no-shows:</strong> Issue a receipt/invoice for the full session fee with a note: "Missed appointment — less than 24 hours notice." Clients cannot claim no-show fees through health funds.</p>
+
+      <h2>GST Considerations for Allied Health</h2>
+      <ul>
+        <li><strong>Most allied health services are GST-free:</strong> Under GST Act Division 38, health services provided by registered health practitioners are GST-free. This includes remedial massage (if you hold appropriate qualifications and association membership), physiotherapy, osteopathy, chiropractic, and many other modalities</li>
+        <li><strong>Relaxation massage is NOT GST-free:</strong> Only therapeutic/remedial treatment by a qualified practitioner qualifies. Pure relaxation massage is a standard (taxable) supply. If you provide both, you need to separate them on your invoices</li>
+        <li><strong>Products and retail:</strong> Selling supplements, essential oils, heat packs, or other retail items — these are standard GST-taxable supplies, even if sold by a health practitioner</li>
+        <li><strong>Registration threshold still applies:</strong> Even though most services are GST-free, you still count GST-free turnover toward the $75K threshold. Once over $75K total turnover, you must register for GST (but your GST-free services remain GST-free — you just report them differently on BAS)</li>
+      </ul>
+
+      <h2>Clinical Documentation Requirements</h2>
+      <p>Health fund claiming and professional compliance require proper clinical notes. While this isn't strictly invoicing, incomplete notes can lead to health fund audits and clawbacks.</p>
+      <ul>
+        <li><strong>SOAP notes:</strong> Subjective (client's complaint), Objective (your findings), Assessment (your clinical reasoning), Plan (treatment plan). One per session minimum</li>
+        <li><strong>Treatment records:</strong> Date, duration, techniques used, areas treated, client response</li>
+        <li><strong>Consent:</strong> Written informed consent before first treatment. Update annually or when treatment approach changes</li>
+        <li><strong>Retention:</strong> Keep clinical records for 7 years (or until the client turns 25 if they were a minor when treated). Required by most association codes of conduct and some state health regulations</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>Not separating remedial from relaxation:</strong> Health funds only cover remedial/therapeutic treatment. If a 60-minute session includes 45 min remedial and 15 min relaxation, your receipt should reflect the remedial component only (or the full amount if the entire treatment was clinically indicated)</li>
+        <li><strong>Missing provider numbers on receipts:</strong> Each health fund has a different provider number for you. The receipt must show the correct provider number for the client's specific fund. Software like Cliniko, Halaxy, or Power Diary handles this automatically</li>
+        <li><strong>Not charging for initial assessments:</strong> Your initial consult takes longer and involves more clinical reasoning. Charge accordingly — clients expect it</li>
+        <li><strong>Underpricing mobile visits:</strong> If you're driving 30 minutes, setting up a table, treating for 60 minutes, packing down, and driving back — that's 2.5 hours for one session. Your mobile rate should reflect the full time commitment</li>
+        <li><strong>No cancellation policy enforcement:</strong> Having a policy you never enforce is worse than not having one. Enforce from day one</li>
+        <li><strong>Forgetting to invoice corporate clients:</strong> After a workplace wellness visit, invoice the same day. Corporate AP departments process faster when invoices arrive promptly</li>
+      </ol>
+
+      <h2>Allied Health Tax Deductions</h2>
+      <ul>
+        <li><strong>Room rental:</strong> Fully deductible — whether flat rent, daily, or revenue share</li>
+        <li><strong>Professional association fees:</strong> AAMT, AMT, ATMS, MMA, APA, AOA — $200–$800/yr, fully deductible</li>
+        <li><strong>Professional indemnity insurance:</strong> $200–$800/yr depending on modality and coverage level</li>
+        <li><strong>Public liability insurance:</strong> $300–$600/yr, fully deductible</li>
+        <li><strong>HICAPS terminal fees:</strong> Monthly rental + per-claim fees, fully deductible</li>
+        <li><strong>Massage table, equipment, and supplies:</strong> Table ($300–$2,000), linens, oils, creams, heat packs, therabands, taping supplies — instant asset write-off for items under $20,000</li>
+        <li><strong>Practice management software:</strong> Cliniko ($45–$99/mo), Halaxy (free–$29/mo), Power Diary ($7–$35/mo) — fully deductible</li>
+        <li><strong>CPD courses and conferences:</strong> Continuing Professional Development is mandatory for most associations. Courses ($200–$2,000), conference tickets, travel to events — all deductible</li>
+        <li><strong>Vehicle expenses:</strong> For mobile practitioners — fuel, rego, insurance via logbook method or 88c/km rate</li>
+        <li><strong>Home clinic:</strong> If you treat clients from a dedicated home treatment room — claim the proportionate area of rent/mortgage interest, utilities, insurance</li>
+      </ul>
+
+      <h2>Practice Management Software</h2>
+      <p>Dedicated allied health software handles booking, clinical notes, health fund claiming, and invoicing in one platform:</p>
+      <ul>
+        <li><strong>Cliniko:</strong> Most popular in AU allied health. Online booking, SOAP notes, health fund integration, invoicing. From $45/mo</li>
+        <li><strong>Halaxy:</strong> Australian-made, free tier available. Health fund claiming, Medicare billing, Telehealth. Good for solo practitioners</li>
+        <li><strong>Power Diary:</strong> Affordable, strong booking and clinical notes. From $7/mo</li>
+        <li><strong>InvoiceFlow:</strong> If you need standalone invoicing without the clinical features — clean, simple, and fast</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-personal-trainers-fitness-australia" class="text-teal-400 hover:text-teal-300 underline">Personal Trainer Invoicing</a> — Similar session-based pricing and pack structures</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Full GST guide including GST-free health services</li>
+        <li><a href="/blog/freelancer-insurance-guide-australia" class="text-teal-400 hover:text-teal-300 underline">Insurance Guide</a> — PI and public liability for health practitioners</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional health service invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-tutors-private-teachers-australia': {
+    slug: 'invoicing-tutors-private-teachers-australia',
+    title: 'How to Invoice as a Freelance Tutor or Private Teacher in Australia',
+    excerpt: 'Complete invoicing guide for tutors and private teachers in Australia — session rates, group pricing, term billing, no-show policies, subject premiums, and getting paid reliably.',
+    category: 'Invoicing',
+    readTime: '16 min read',
+    date: '2026-02-24',
+    seoTitle: 'How to Invoice as a Tutor in Australia | Pricing, Billing & Tax Guide',
+    seoDescription: 'Australian tutor invoicing guide. Session rates by subject and level, group pricing, term-based billing, cancellation policies, NDIS invoicing, and tax deductions for private tutors.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Private tutoring is a $7+ billion industry in Australia, and most tutors are sole traders or freelancers. Whether you tutor primary school maths, VCE/HSC subjects, university units, music, languages, or test prep — your invoicing needs to be professional, clear, and consistent. This guide covers the specific pricing models, billing structures, and tax requirements for Australian tutors and private teachers.</p>
+
+      <h2>Session Pricing by Subject and Level</h2>
+      <p>Tutor rates in Australia vary significantly by subject complexity, student level, and your qualifications. Here are current market rates:</p>
+
+      <h3>Primary School (Years 1–6)</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Subject</th><th class="py-3 px-4 text-teal-400">Per Hour</th><th class="py-3 px-4 text-teal-400">Notes</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">English / Literacy</td><td class="py-3 px-4">$40–$70</td><td class="py-3 px-4">Reading, writing, comprehension</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Maths / Numeracy</td><td class="py-3 px-4">$40–$70</td><td class="py-3 px-4">Foundation to Year 6 curriculum</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">NAPLAN Preparation</td><td class="py-3 px-4">$50–$80</td><td class="py-3 px-4">Premium for targeted test prep</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Selective School Entry</td><td class="py-3 px-4">$60–$100</td><td class="py-3 px-4">High demand, specialised prep</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Secondary School (Years 7–12)</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Subject</th><th class="py-3 px-4 text-teal-400">Years 7–10</th><th class="py-3 px-4 text-teal-400">Years 11–12 (VCE/HSC/QCE/ATAR)</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">English</td><td class="py-3 px-4">$50–$80</td><td class="py-3 px-4">$70–$120</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Maths (General/Standard)</td><td class="py-3 px-4">$50–$80</td><td class="py-3 px-4">$70–$120</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Maths (Specialist/Extension)</td><td class="py-3 px-4">$60–$90</td><td class="py-3 px-4">$80–$150</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Sciences (Physics, Chemistry, Biology)</td><td class="py-3 px-4">$55–$85</td><td class="py-3 px-4">$75–$140</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Languages (LOTE)</td><td class="py-3 px-4">$50–$80</td><td class="py-3 px-4">$70–$120</td></tr>
+        </tbody>
+      </table>
+
+      <h3>University and Adult Education</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Subject Area</th><th class="py-3 px-4 text-teal-400">Per Hour</th><th class="py-3 px-4 text-teal-400">Notes</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Undergraduate (Arts, Business)</td><td class="py-3 px-4">$60–$100</td><td class="py-3 px-4">Essay writing, exam prep</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Undergraduate (STEM)</td><td class="py-3 px-4">$70–$120</td><td class="py-3 px-4">Engineering, statistics, programming</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Postgraduate</td><td class="py-3 px-4">$80–$150</td><td class="py-3 px-4">Thesis support, advanced topics</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Professional Exams (CPA, CA)</td><td class="py-3 px-4">$100–$200</td><td class="py-3 px-4">High-stakes, specialised knowledge</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">English as a Second Language</td><td class="py-3 px-4">$40–$80</td><td class="py-3 px-4">Conversation, IELTS prep ($60–$100)</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Music and Performance</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Lesson Type</th><th class="py-3 px-4 text-teal-400">30 min</th><th class="py-3 px-4 text-teal-400">45 min</th><th class="py-3 px-4 text-teal-400">60 min</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Beginner instrument</td><td class="py-3 px-4">$35–$50</td><td class="py-3 px-4">$50–$70</td><td class="py-3 px-4">$60–$90</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Intermediate</td><td class="py-3 px-4">$45–$65</td><td class="py-3 px-4">$60–$85</td><td class="py-3 px-4">$75–$110</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Advanced / AMEB exam prep</td><td class="py-3 px-4">$55–$80</td><td class="py-3 px-4">$75–$110</td><td class="py-3 px-4">$90–$140</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Voice / Singing</td><td class="py-3 px-4">$45–$65</td><td class="py-3 px-4">$60–$90</td><td class="py-3 px-4">$80–$120</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Billing Models</h2>
+      <p>Tutors use several billing models. The right one depends on your volume, client base, and how much admin you want to do.</p>
+
+      <h3>1. Pay-Per-Session</h3>
+      <ul>
+        <li><strong>How it works:</strong> Client pays for each session individually, either before or at the session</li>
+        <li><strong>Best for:</strong> Casual tutoring, new clients, trial sessions</li>
+        <li><strong>Invoice frequency:</strong> Per-session or weekly batch</li>
+        <li><strong>Risk:</strong> Irregular income, more no-shows, higher admin</li>
+      </ul>
+
+      <h3>2. Term-Based Billing (Recommended)</h3>
+      <ul>
+        <li><strong>How it works:</strong> Client commits to a school term (typically 10 weeks). Invoice upfront or in 2–3 instalments</li>
+        <li><strong>Best for:</strong> Established tutors with reliable clients. This is how most successful tutors bill</li>
+        <li><strong>Typical structure:</strong> 10 weeks × 1 session/week × $100/session = $1,000/term. Invoice $500 at term start, $500 at mid-term</li>
+        <li><strong>Advantage:</strong> Guaranteed income for the term, fewer cancellations (clients feel committed), less admin</li>
+        <li><strong>Disadvantage:</strong> Larger upfront ask, may lose casual enquiries</li>
+      </ul>
+
+      <h3>3. Monthly Invoicing</h3>
+      <ul>
+        <li><strong>How it works:</strong> Invoice at the end of each month for sessions delivered that month</li>
+        <li><strong>Best for:</strong> Adult learners, university students, ongoing language tuition</li>
+        <li><strong>Invoice format:</strong> List each session date, duration, and rate. Show total at bottom</li>
+      </ul>
+
+      <h3>4. Session Packs</h3>
+      <ul>
+        <li><strong>5-pack:</strong> 5% discount. Example: 5 × $100 = $475 (save $25)</li>
+        <li><strong>10-pack:</strong> 10% discount. Example: 10 × $100 = $900 (save $100)</li>
+        <li><strong>Expiry:</strong> 3 months for 5-pack, 6 months for 10-pack. Clearly state in terms</li>
+        <li><strong>Best for:</strong> Test prep, exam cramming, intensive catch-up periods</li>
+      </ul>
+
+      <h2>Group Tutoring Pricing</h2>
+      <p>Group tutoring increases your effective hourly rate while reducing per-student cost — a win for everyone.</p>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Group Size</th><th class="py-3 px-4 text-teal-400">Per-Student Discount</th><th class="py-3 px-4 text-teal-400">Your Effective Hourly</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">1 (private)</td><td class="py-3 px-4">None (full rate)</td><td class="py-3 px-4">$100</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">2 students</td><td class="py-3 px-4">25–30% off each</td><td class="py-3 px-4">$140–$150</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">3 students</td><td class="py-3 px-4">35–40% off each</td><td class="py-3 px-4">$180–$195</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">4–6 students</td><td class="py-3 px-4">40–50% off each</td><td class="py-3 px-4">$200–$300</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Invoice for group sessions:</strong> Invoice each parent/student separately at the per-student rate. Don't show other students' names on the invoice (privacy). Each invoice shows: student name, session date/time, subject, duration, per-student group rate.</p>
+
+      <h2>Online vs In-Person Pricing</h2>
+      <p>Many tutors offer both online and in-person sessions, sometimes at different rates.</p>
+      <ul>
+        <li><strong>Same rate:</strong> Most tutors charge the same for online and in-person. The teaching quality is equivalent; you're just saving on travel</li>
+        <li><strong>Lower online rate:</strong> Some tutors discount online by $5–$10/hr to reflect lower overheads. This can attract price-sensitive students</li>
+        <li><strong>Travel surcharge for in-person:</strong> If you travel to the student's home, add $10–$20 for travel within 10km, $20–$40 for 10–20km. Beyond 20km, consider online only</li>
+      </ul>
+
+      <h2>Cancellation and No-Show Policy</h2>
+      <p>Tutors lose significant income to last-minute cancellations. A clear policy is essential — communicate it before the first session and include it in your terms.</p>
+      <ul>
+        <li><strong>24-hour notice:</strong> Cancellations with 24+ hours notice — no charge, session can be rescheduled within the same term/month</li>
+        <li><strong>Less than 24 hours:</strong> 50% of session fee charged. This is fair — you turned away other potential bookings for that slot</li>
+        <li><strong>No-show (no notification):</strong> Full session fee. No exceptions after the first occurrence</li>
+        <li><strong>Tutor cancellation:</strong> Offer a free make-up session or credit. Don't charge for sessions you cancel</li>
+        <li><strong>Exam period adjustment:</strong> During school exam periods (VCE/HSC exam weeks), allow flexible rescheduling without penalty — students' schedules genuinely shift</li>
+      </ul>
+      <div class="bg-slate-800/50 rounded-lg p-4 mb-4">
+        <p class="text-slate-300 text-sm"><strong>Enforcement tip:</strong> For term-based billing, cancellation fees are built in — the client has already paid. For pay-per-session, collect payment before each session (bank transfer or card on file). Never chase no-show fees after the fact — it's not worth the relationship damage.</p>
+      </div>
+
+      <h2>NDIS Tutoring and Invoicing</h2>
+      <p>If you support students with NDIS funding, you can invoice the NDIS directly (as a registered provider) or through the student's plan manager.</p>
+      <ul>
+        <li><strong>NDIS price guide:</strong> The NDIA publishes maximum prices for each support category. Tutoring typically falls under "Improved Daily Living" (capacity building). Check the current price guide for your specific support type</li>
+        <li><strong>Registered vs unregistered:</strong> Registered providers can work with all NDIS participants. Unregistered providers can only work with self-managed or plan-managed participants</li>
+        <li><strong>Invoice requirements:</strong> NDIS invoices must include: participant name, NDIS number, support item number, dates of service, hours delivered, unit price (within NDIS limits), total amount, your ABN and provider details</li>
+        <li><strong>Payment timeline:</strong> Plan managers typically pay within 5–10 business days. Self-managed participants pay you directly and claim from NDIS</li>
+      </ul>
+
+      <h2>Invoicing Parents vs Adults</h2>
+      <p>When tutoring minors, you're invoicing the parent/guardian — not the student. This creates some unique considerations:</p>
+      <ul>
+        <li><strong>Invoice addressed to:</strong> Parent/guardian name and email. Include the student's name and year level in the description</li>
+        <li><strong>Progress reporting:</strong> Parents expect updates on their child's progress. While not strictly part of invoicing, including a brief progress note with each invoice or term summary builds trust and justifies ongoing engagement</li>
+        <li><strong>Separated parents:</strong> Clarify upfront who is responsible for payment. Invoice one parent only (the one who engaged you). Split billing between two households creates admin headaches — avoid it</li>
+        <li><strong>Working With Children Check:</strong> Required in all Australian states for tutoring minors. Not an invoicing requirement, but most parents will ask. Reference your WWCC number in your terms of engagement</li>
+      </ul>
+
+      <h2>GST for Tutors</h2>
+      <ul>
+        <li><strong>Educational services exemption:</strong> Some tutoring services are GST-free under Division 38 of the GST Act IF they are part of a "course" that leads to a qualification. Most private tutoring (school subject support, exam prep) does NOT qualify for this exemption</li>
+        <li><strong>Standard GST rules apply:</strong> If your annual turnover exceeds $75K, you must register for GST and charge 10% on your fees. Below $75K, registration is optional</li>
+        <li><strong>Most tutors are under $75K:</strong> At $100/hr for 20 hours/week, 48 weeks/year = $96K — you'll hit $75K faster than you think if you're tutoring full-time</li>
+        <li><strong>Voluntary registration:</strong> Generally not recommended for tutors unless you have significant business expenses to claim GST credits on. Most of your costs (your time, rent) don't attract GST credits</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>Not invoicing regularly:</strong> Letting sessions accumulate without invoicing leads to large outstanding amounts that parents resist paying. Invoice weekly or per-term — never let it drift</li>
+        <li><strong>No written terms:</strong> Before the first session, send a Terms of Engagement document covering rates, cancellation policy, payment terms, and session structure. A simple 1-page document prevents 90% of disputes</li>
+        <li><strong>Underpricing VCE/HSC subjects:</strong> Year 12 ATAR subjects are premium — the stakes are high, your expertise is specialised, and demand peaks in Terms 2–4. Don't charge the same as Year 7 maths</li>
+        <li><strong>Not charging for materials:</strong> If you create custom worksheets, practice exams, or study notes — either build the cost into your rate or charge separately ($10–$30/term for materials). Your time creating resources has value</li>
+        <li><strong>Offering free trial sessions:</strong> Instead of free trials, offer a discounted first session (50% off). Free trials attract window-shoppers. A paid trial attracts committed clients</li>
+        <li><strong>Not tracking sessions:</strong> Keep a simple log: date, student name, subject, duration. This is your backup if any payment dispute arises, and it's needed for tax records</li>
+      </ol>
+
+      <h2>Tutor-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Teaching materials:</strong> Textbooks, workbooks, practice exams, stationery — all deductible. If you buy a textbook to tutor a specific student, it's a business expense</li>
+        <li><strong>Software and apps:</strong> Zoom/Google Meet subscription, whiteboard apps (Miro, Bitpaper), scheduling software (Calendly, Acuity), invoicing tools — all deductible</li>
+        <li><strong>Home office:</strong> If you tutor from home (online or in-person in a dedicated room), claim the proportionate area of rent/mortgage interest, electricity, internet</li>
+        <li><strong>Professional development:</strong> Teaching workshops, subject-specific courses, education conferences — deductible if they relate to your tutoring subjects</li>
+        <li><strong>Working With Children Check:</strong> The application fee is deductible as a business expense</li>
+        <li><strong>Vehicle expenses:</strong> Travel to students' homes — logbook method or 88c/km. Keep a logbook for the first 12 weeks, then use that percentage for the year</li>
+        <li><strong>Advertising:</strong> Tutoring platform fees (Superprof, Tutor Finder, Cluey), website hosting, business cards — all deductible</li>
+        <li><strong>Internet and phone:</strong> Business-use percentage of your internet and mobile plan. If 40% of your calls/data are tutoring-related, claim 40%</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/sole-trader-vs-company-australia" class="text-teal-400 hover:text-teal-300 underline">Sole Trader vs Company</a> — Which structure is right for tutors</li>
+        <li><a href="/blog/working-from-home-tax-deductions-australia" class="text-teal-400 hover:text-teal-300 underline">Home Office Deductions</a> — Claiming your home tutoring space</li>
+        <li><a href="/blog/how-to-find-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">Finding Clients</a> — Marketing strategies for tutors</li>
+        <li><a href="/blog/setting-boundaries-freelance-clients" class="text-teal-400 hover:text-teal-300 underline">Setting Boundaries</a> — Managing parent expectations professionally</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional tutor invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-makeup-artists-hair-stylists-australia': {
+    slug: 'invoicing-makeup-artists-hair-stylists-australia',
+    title: 'How to Invoice as a Freelance Makeup Artist or Hair Stylist in Australia',
+    excerpt: 'Complete invoicing guide for freelance makeup artists and hair stylists in Australia — bridal packages, kit fees, travel charges, trial sessions, early morning rates, and getting paid reliably.',
+    category: 'Invoicing',
+    readTime: '17 min read',
+    date: '2026-02-24',
+    seoTitle: 'How to Invoice as a Makeup Artist in Australia | Pricing, Bridal & Tax Guide',
+    seoDescription: 'Australian freelance makeup artist and hair stylist invoicing guide. Bridal packages, kit fees, travel charges, trial session pricing, early morning rates, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Freelance makeup artistry and hair styling is a booming industry in Australia — bridal, editorial, commercial, TV/film, and personal styling all have different pricing structures and invoicing requirements. What makes this profession unique is the combination of service fees, product costs (your kit), travel, unsociable hours (5am bridal call times), and the emotional stakes involved (it's someone's wedding day). This guide covers everything Australian freelance MUAs and hair stylists need to invoice professionally and protect their business.</p>
+
+      <h2>Service Pricing by Category</h2>
+
+      <h3>Bridal (Highest Revenue Segment)</h3>
+      <p>Bridal work is the bread and butter for most freelance MUAs in Australia. Pricing varies by experience, location, and what's included.</p>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Service</th><th class="py-3 px-4 text-teal-400">Price Range</th><th class="py-3 px-4 text-teal-400">Notes</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Bridal makeup (bride only)</td><td class="py-3 px-4">$250–$600</td><td class="py-3 px-4">Includes consultation, application, touch-up kit</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Bridal hair (bride only)</td><td class="py-3 px-4">$200–$500</td><td class="py-3 px-4">Updo, half-up, or styled down</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Bridal makeup + hair combo</td><td class="py-3 px-4">$400–$900</td><td class="py-3 px-4">Bundle discount vs separate booking</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Trial session (makeup)</td><td class="py-3 px-4">$150–$350</td><td class="py-3 px-4">Essential — 60–90 min, usually 4–8 weeks before wedding</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Trial session (hair)</td><td class="py-3 px-4">$120–$300</td><td class="py-3 px-4">Test styles, assess hair type, discuss accessories</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Bridesmaid / bridal party (each)</td><td class="py-3 px-4">$100–$250</td><td class="py-3 px-4">Per person, makeup only. Hair: $80–$200 each</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Mother of the bride/groom</td><td class="py-3 px-4">$100–$200</td><td class="py-3 px-4">Sometimes included in bridal package at reduced rate</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Flower girl</td><td class="py-3 px-4">$50–$100</td><td class="py-3 px-4">Light makeup or hair styling for young attendants</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Bridal Package Examples</h3>
+      <div class="bg-slate-800/50 rounded-lg p-4 mb-4">
+        <p class="text-white font-medium mb-2">Example Package: "Complete Bridal Experience" — $1,200–$2,500</p>
+        <ul class="text-slate-300 text-sm">
+          <li>Trial session (makeup + hair)</li>
+          <li>Wedding day bridal makeup + hair</li>
+          <li>Touch-up kit for the bride</li>
+          <li>3 bridesmaids (makeup + hair each)</li>
+          <li>Mother of the bride (makeup)</li>
+          <li>On-location travel included (within 30km)</li>
+        </ul>
+        <p class="text-slate-400 text-xs mt-2">Packages create perceived value and simplify the booking process. Price the package 10–15% below the sum of individual services to incentivise the bundle.</p>
+      </div>
+
+      <h3>Commercial / Editorial</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Type</th><th class="py-3 px-4 text-teal-400">Half Day (4 hrs)</th><th class="py-3 px-4 text-teal-400">Full Day (8 hrs)</th><th class="py-3 px-4 text-teal-400">Notes</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Fashion editorial (magazine)</td><td class="py-3 px-4">$300–$600</td><td class="py-3 px-4">$500–$1,200</td><td class="py-3 px-4">May be TFP (trade for portfolio) for emerging MUAs</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Commercial (advertising)</td><td class="py-3 px-4">$500–$1,000</td><td class="py-3 px-4">$800–$2,000</td><td class="py-3 px-4">Higher rates due to commercial usage</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">TV / Film</td><td class="py-3 px-4">$400–$800</td><td class="py-3 px-4">$600–$1,500</td><td class="py-3 px-4">MEAA rates may apply for union productions</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Music video</td><td class="py-3 px-4">$300–$600</td><td class="py-3 px-4">$500–$1,000</td><td class="py-3 px-4">Long hours, multiple looks, fast turnaround</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Corporate headshots / events</td><td class="py-3 px-4">$250–$500</td><td class="py-3 px-4">$400–$800</td><td class="py-3 px-4">Simple, professional looks. High volume</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Personal Styling and Events</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Service</th><th class="py-3 px-4 text-teal-400">Price Range</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Special occasion makeup (formal, gala, race day)</td><td class="py-3 px-4">$120–$250</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Special occasion hair styling</td><td class="py-3 px-4">$100–$200</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">School formal / prom makeup</td><td class="py-3 px-4">$80–$150</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Photoshoot (personal branding, maternity)</td><td class="py-3 px-4">$150–$350</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Makeup lesson (1-on-1, 60–90 min)</td><td class="py-3 px-4">$150–$300</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Group makeup workshop (2–3 hours)</td><td class="py-3 px-4">$80–$150 per person (min 4)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Kit Fee / Product Charge</h2>
+      <p>Your makeup kit is your most significant ongoing business expense. Professional products (MAC Pro, NARS, Charlotte Tilbury, Bobbi Brown, Laura Mercier) cost thousands to maintain. There are two approaches to covering this cost:</p>
+
+      <h3>Option 1: Kit Fee (Explicit)</h3>
+      <ul>
+        <li>Add a separate line item: "Kit fee" or "Professional products" — typically $20–$50 per client</li>
+        <li>Common for commercial and editorial work where the client is a company</li>
+        <li>Transparent — the client sees exactly what they're paying for</li>
+      </ul>
+
+      <h3>Option 2: Built Into Rate (Implicit)</h3>
+      <ul>
+        <li>Your service rate includes product costs. No separate line item</li>
+        <li>More common for bridal and personal clients — cleaner invoice, less sticker shock</li>
+        <li>You need to ensure your rates are high enough to cover product replenishment</li>
+      </ul>
+      <div class="bg-slate-800/50 rounded-lg p-4 mb-4">
+        <p class="text-slate-300 text-sm"><strong>Pro tip:</strong> A professional MUA's kit costs $3,000–$8,000 to build and $1,000–$3,000/year to maintain (products expire, brushes wear out, trends change). If you do 200 sessions/year, that's $5–$15/session in product cost alone. Factor this into your pricing — don't subsidise your clients' makeup with your own money.</p>
+      </div>
+
+      <h3>Specialty Products (Pass-Through)</h3>
+      <p>If a client requests specific products that aren't in your standard kit (e.g., prescription-grade skincare, luxury brand preference, prosthetics, special effects materials), charge these as a pass-through expense at cost + 15–20% for sourcing.</p>
+
+      <h2>Travel Charges</h2>
+      <p>Most MUA and hair work is on-location (client's home, venue, hotel). Travel charges are standard and expected.</p>
+      <ul>
+        <li><strong>Within 25km of your base:</strong> Usually included in your service rate (or a flat $0–$20 travel fee)</li>
+        <li><strong>25–50km:</strong> $30–$60 travel fee</li>
+        <li><strong>50–100km:</strong> $60–$120 travel fee, or 88c/km (ATO rate)</li>
+        <li><strong>100km+ (regional weddings):</strong> Negotiate travel fee + accommodation. Typical: $150–$300 travel allowance + accommodation at the venue or nearby</li>
+        <li><strong>Interstate or destination weddings:</strong> Full travel costs (flights, accommodation, meals) billed at cost, plus a per diem of $100–$200 for time away from your base. Invoice this as a separate line item with receipts</li>
+      </ul>
+
+      <h2>Early Morning and Unsociable Hours</h2>
+      <p>Bridal work often requires 4am–5am starts. Commercial shoots can run 12+ hours. Price accordingly:</p>
+      <ul>
+        <li><strong>Early morning call time (before 6am):</strong> Add $50–$100 early start surcharge</li>
+        <li><strong>Overtime (beyond booked hours):</strong> $75–$150/hour. Agree in advance and note in your contract</li>
+        <li><strong>Public holiday surcharge:</strong> 50–100% premium on standard rates. Easter Saturday, Christmas Eve, and New Year's Eve are premium dates</li>
+        <li><strong>Peak season surcharge:</strong> Some MUAs charge 10–20% more during peak wedding months (October–March in Australia)</li>
+      </ul>
+
+      <h2>Deposit and Payment Structure</h2>
+      <p>Bridal bookings happen 6–18 months in advance. A deposit structure protects both you and the client.</p>
+
+      <h3>Recommended Structure</h3>
+      <table class="w-full text-left border-collapse mb-6">
+        <thead><tr class="border-b border-white/10"><th class="py-3 px-4 text-teal-400">Payment</th><th class="py-3 px-4 text-teal-400">When</th><th class="py-3 px-4 text-teal-400">Amount</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Booking deposit (non-refundable retainer)</td><td class="py-3 px-4">At booking</td><td class="py-3 px-4">25–30% of total package</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Trial session payment</td><td class="py-3 px-4">At trial (4–8 weeks before event)</td><td class="py-3 px-4">Full trial fee</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Final balance</td><td class="py-3 px-4">7 days before the event</td><td class="py-3 px-4">Remaining balance</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Critical:</strong> Collect the final balance BEFORE the wedding day, not after. On the day, you're focused on the work, and chasing payments after an emotional event is awkward and unreliable.</p>
+
+      <h3>Non-Refundable Retainer vs Deposit</h3>
+      <div class="bg-slate-800/50 rounded-lg p-4 mb-4">
+        <p class="text-slate-300 text-sm">Under Australian Consumer Law, a "deposit" has specific legal implications — it may be refundable if services aren't provided. Use the term <strong>"non-refundable booking retainer"</strong> instead. This retainer secures the date (you're turning away other bookings) and is earned the moment you reserve the date. State this clearly in your booking terms: "The booking retainer of $[amount] is non-refundable and secures your date exclusively. This retainer is earned upon booking as compensation for reserving the date and declining other enquiries."</p>
+      </div>
+
+      <h2>Cancellation Policy</h2>
+      <p>Cancellations are inevitable — especially in the bridal industry (weddings get postponed, downsized, or cancelled). A tiered policy is fair and protects your income:</p>
+      <ul>
+        <li><strong>60+ days before event:</strong> Retainer forfeited, no additional charge</li>
+        <li><strong>30–60 days before event:</strong> 50% of total package due</li>
+        <li><strong>Less than 30 days:</strong> 75% of total package due</li>
+        <li><strong>Less than 14 days:</strong> 100% of total package due (you almost certainly can't rebook this date)</li>
+        <li><strong>Rescheduling (not cancelling):</strong> One free reschedule to a new date within 12 months, subject to availability. Second reschedule: $50–$100 admin fee</li>
+      </ul>
+
+      <h2>Invoicing for Commercial Work</h2>
+      <p>Commercial clients (production companies, agencies, brands) have different requirements than private clients:</p>
+      <ul>
+        <li><strong>Purchase order (PO):</strong> Most commercial clients require a PO number on your invoice before they can process payment</li>
+        <li><strong>Day rate vs per-head:</strong> Commercial work is typically billed as a day rate (8 hours) or half-day rate (4 hours), regardless of how many people you work on</li>
+        <li><strong>Overtime:</strong> Agree on overtime rates upfront. Industry standard: 1.5x your hourly rate (day rate ÷ 8) for the first 2 overtime hours, 2x after that</li>
+        <li><strong>Usage fees:</strong> If your work appears in advertising (billboards, TV, digital), you may be entitled to a usage fee on top of your day rate. This is separate from your service fee and covers the commercial use of the images featuring your work</li>
+        <li><strong>Payment terms:</strong> 14–30 days for production companies, 30–60 days for large agencies. Invoice the day after the job. Include bank details on every invoice</li>
+      </ul>
+
+      <h2>GST for Makeup Artists and Hair Stylists</h2>
+      <ul>
+        <li><strong>Standard GST rules apply:</strong> Beauty services are taxable supplies. If your annual turnover exceeds $75K, you must register for GST and charge 10% on all fees</li>
+        <li><strong>Most full-time MUAs will hit $75K:</strong> If you average 3–4 bridal bookings/month at $800–$1,500 each, you're likely above the threshold</li>
+        <li><strong>GST on travel charges:</strong> If you charge travel fees, these are part of your taxable supply and attract GST</li>
+        <li><strong>GST on product pass-throughs:</strong> If you charge for specialty products, the full amount (including your markup) attracts GST</li>
+        <li><strong>Input tax credits:</strong> Once registered, claim GST back on your kit purchases, brushes, products, travel, insurance, and other business expenses. This is significant for MUAs — your product costs are high</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>Not collecting final payment before the event:</strong> The single biggest mistake. Never walk into a wedding relying on post-event payment. Collect the balance 7 days before, no exceptions</li>
+        <li><strong>Underpricing trials:</strong> Trials take 60–90 minutes and use professional products. They're a full service — price them accordingly. Don't offer free trials. A bride who won't pay for a trial often becomes a difficult client</li>
+        <li><strong>Not charging for travel to regional venues:</strong> A destination wedding 2 hours away costs you 4 hours of driving (round trip), fuel, wear on your car, and potentially a night's accommodation. Charge for ALL of this</li>
+        <li><strong>Using "deposit" instead of "retainer":</strong> Legal distinction matters in Australia. A retainer is earned income for reserving the date. A deposit implies it might be refundable. Use "non-refundable booking retainer" in all documents</li>
+        <li><strong>No written contract:</strong> Even for a single-service booking, have the client sign or agree to your terms (email confirmation counts). For bridal packages, a proper contract is essential — covering services, dates, times, payment schedule, cancellation terms, and scope changes</li>
+        <li><strong>Not tracking kit costs:</strong> Your kit is your biggest deduction. Keep receipts for every product, brush, and tool purchase. A spreadsheet tracking product name, date purchased, cost, and category saves hours at tax time</li>
+        <li><strong>Forgetting overtime provisions:</strong> Weddings run late. Shoots go over. If your contract doesn't specify overtime rates, you'll absorb those extra hours for free. Always include an overtime clause</li>
+      </ol>
+
+      <h2>MUA and Hair Stylist Tax Deductions</h2>
+      <ul>
+        <li><strong>Makeup kit and products:</strong> Your single biggest deduction. ALL professional products used for client work: foundations, concealers, lipsticks, mascaras, primers, setting sprays. Keep receipts for everything</li>
+        <li><strong>Brushes and tools:</strong> Brush sets ($100–$500), beauty blenders, curling irons, straighteners, hair dryers, heated rollers, bobby pins, clips, hair spray — all deductible</li>
+        <li><strong>Brush cleaner and hygiene supplies:</strong> Cleaning solutions, disposable applicators, sanitiser, spatulas, mascara wands — these are ongoing costs and fully deductible</li>
+        <li><strong>Kit bag / travel case:</strong> Professional rolling cases, train cases, brush rolls — deductible as business equipment</li>
+        <li><strong>Education and courses:</strong> Makeup courses, hair styling workshops, masterclasses, online tutorials (if paid) — all deductible if they maintain or improve your professional skills</li>
+        <li><strong>Professional memberships:</strong> Association of Celebrity Hair & Makeup (ACHM), freelance industry associations — fully deductible</li>
+        <li><strong>Insurance:</strong> Public liability ($300–$600/yr), professional indemnity if applicable — fully deductible</li>
+        <li><strong>Vehicle expenses:</strong> Travel to client locations, venue visits, product shopping — logbook method or 88c/km rate</li>
+        <li><strong>Website and marketing:</strong> Portfolio website, Instagram advertising, business cards, wedding directory listings (Easy Weddings, The Knot, WedShed) — all deductible</li>
+        <li><strong>Phone and internet:</strong> Business-use percentage of your mobile plan. Essential for bookings, client communication, and social media</li>
+        <li><strong>Uniforms or branded clothing:</strong> Aprons with your logo, branded t-shirts — deductible. Plain black clothing worn for work is NOT deductible unless it bears your business branding</li>
+      </ul>
+
+      <h2>Building Your Rate Card</h2>
+      <p>A professional rate card prevents awkward pricing conversations and sets expectations. Include:</p>
+      <ul>
+        <li>Service list with clear pricing (ranges are fine for bridal packages)</li>
+        <li>Travel fee structure</li>
+        <li>Early morning surcharge</li>
+        <li>Overtime rate</li>
+        <li>Payment terms and deposit requirements</li>
+        <li>Cancellation policy summary</li>
+        <li>What's included (products, touch-up kit) and what's extra</li>
+      </ul>
+      <p>Save your rate card as a PDF and send it to every enquiry. Update annually (at minimum).</p>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Payments</a> — Structuring deposits and progress payments</li>
+        <li><a href="/blog/invoicing-photographers-australia" class="text-teal-400 hover:text-teal-300 underline">Photographer Invoicing</a> — Similar event-based invoicing (weddings, commercial shoots)</li>
+        <li><a href="/blog/invoicing-videographers-video-editors-australia" class="text-teal-400 hover:text-teal-300 underline">Videographer Invoicing</a> — Day rates, overtime, commercial work</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/non-paying-clients-legal-options-australia" class="text-teal-400 hover:text-teal-300 underline">Non-Paying Clients</a> — Legal options when clients don't pay</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional beauty industry invoices instantly</li>
+      </ul>
+    `,
+  },
 };
