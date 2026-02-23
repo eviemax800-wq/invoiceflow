@@ -17256,4 +17256,747 @@ Yours sincerely,
       </ul>
     `,
   },
+
+  'freelancing-while-employed-australia': {
+    slug: 'freelancing-while-employed-australia',
+    title: 'Freelancing While Employed in Australia: Side Hustle Rules, Tax & Legal Guide (2026)',
+    excerpt: 'Can you freelance while working full-time in Australia? Yes — but there are employment contract clauses, tax obligations, and legal rules you must follow. Here\'s the complete guide.',
+    category: 'Getting Started',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelancing While Employed in Australia | Side Hustle Tax & Legal Guide 2026',
+    seoDescription: 'Complete guide to freelancing while employed full-time in Australia. Covers employment contracts, restraint of trade, tax obligations, ABN requirements, and managing two income streams.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Thousands of Australians freelance alongside their day job — and it's completely legal. But there are employment contract clauses, tax rules, and practical realities you need to navigate. This guide covers everything from checking your contract to managing tax on two income streams.</p>
+
+      <h2>Is It Legal to Freelance While Employed in Australia?</h2>
+      <p>Yes. There is <strong>no Australian law</strong> that prevents you from having a side business while working as an employee. However, your employment contract may contain clauses that restrict what you can do outside of work hours.</p>
+      <p>The key legal principle: you owe your employer a <strong>duty of fidelity</strong> during your employment. This means you can't directly compete with them, use their resources, or let your side work interfere with your job performance.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Bottom Line</h3>
+        <p class="text-slate-300 text-sm">Freelancing while employed is legal, but your employment contract is the first thing to check. Many contracts have clauses about outside work, intellectual property, and non-compete obligations. Read yours carefully before starting.</p>
+      </div>
+
+      <h2>Employment Contract Clauses to Watch For</h2>
+      <p>Before you take on freelance work, review your employment contract for these common clauses:</p>
+
+      <h3>1. Outside Employment / Moonlighting Clause</h3>
+      <p>Some contracts explicitly state that you need <strong>written approval</strong> from your employer before taking on any outside work. This is common in corporate, finance, and government roles.</p>
+      <ul>
+        <li><strong>What to do:</strong> If this clause exists, you'll need to disclose your freelancing to your employer. Many employers will approve it if it doesn't conflict with your role.</li>
+        <li><strong>Tip:</strong> Frame it positively — "I'm doing some freelance web design on weekends" is less threatening than "I'm starting a competing business."</li>
+      </ul>
+
+      <h3>2. Non-Compete / Restraint of Trade</h3>
+      <p>These clauses prevent you from working for competitors or in the same industry. In Australia, restraint of trade clauses must be <strong>"reasonable"</strong> to be enforceable.</p>
+      <ul>
+        <li>A clause preventing a graphic designer from doing any design work for anyone, anywhere, forever — <strong>not enforceable</strong></li>
+        <li>A clause preventing a sales manager from approaching the company's existing clients for 6 months within Melbourne — <strong>potentially enforceable</strong></li>
+      </ul>
+      <p>Courts assess reasonableness based on duration, geographic scope, and the scope of activities restricted. Overly broad clauses are regularly struck down.</p>
+
+      <h3>3. Intellectual Property (IP) Assignment</h3>
+      <p>This is the clause most people miss. Many employment contracts include a blanket IP assignment that gives your employer ownership of <strong>anything you create during the term of your employment</strong> — even if created on your own time with your own equipment.</p>
+      <ul>
+        <li><strong>Broad clause:</strong> "All intellectual property created during your employment is the property of the Company" — this could cover your freelance work</li>
+        <li><strong>Narrow clause:</strong> "Intellectual property created in the course of your duties" — this only covers work done for them</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">IP Warning</h3>
+        <p class="text-slate-300 text-sm">If your contract has a broad IP clause, anything you build as a freelancer — websites, designs, code, content — could technically belong to your employer. Get legal advice or ask your employer to carve out personal projects from the IP clause before you start.</p>
+      </div>
+
+      <h3>4. Conflict of Interest</h3>
+      <p>Most contracts require you to avoid conflicts of interest. Freelancing in a completely different field (e.g., you're an accountant by day, a wedding photographer on weekends) rarely creates a conflict. Freelancing in the same field as your employer is where issues arise.</p>
+
+      <h3>5. Confidentiality</h3>
+      <p>You must <strong>never</strong> use your employer's confidential information, client lists, or trade secrets in your freelance work. This applies regardless of whether your contract mentions it — it's a legal obligation.</p>
+
+      <h2>Do You Need an ABN for Side Freelancing?</h2>
+      <p>Yes. If you're providing services as a freelancer (even part-time), you need an ABN. Without one, clients are required to withhold 47% of their payment to you for tax purposes.</p>
+      <p>Getting an ABN is free and takes about 10 minutes online at <strong>abr.gov.au</strong>. You can hold an ABN while being employed — there's no restriction.</p>
+
+      <h2>Tax Obligations When You Have Two Income Streams</h2>
+      <p>This is where most side-hustling freelancers get caught out. Having both employment income and freelance income means you need to manage your tax carefully.</p>
+
+      <h3>How Australian Tax Works With Two Incomes</h3>
+      <p>Your employer withholds tax from your salary via PAYG withholding, based on the assumption that your job is your <strong>only</strong> income source. But your freelance income pushes your total income higher — which means:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Taxable Income</th>
+              <th class="py-3 px-4 text-teal-400">Tax Rate (2025-26)</th>
+              <th class="py-3 px-4 text-teal-400">Example Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">$0 – $18,200</td>
+              <td class="py-3 px-4">0%</td>
+              <td class="py-3 px-4">Tax-free threshold (claimed via employer)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">$18,201 – $45,000</td>
+              <td class="py-3 px-4">16%</td>
+              <td class="py-3 px-4">Freelance income likely starts here or above</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">$45,001 – $135,000</td>
+              <td class="py-3 px-4">30%</td>
+              <td class="py-3 px-4">Most salary + freelance combos land here</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">$135,001 – $190,000</td>
+              <td class="py-3 px-4">37%</td>
+              <td class="py-3 px-4">High earners with successful side hustle</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">$190,001+</td>
+              <td class="py-3 px-4">45%</td>
+              <td class="py-3 px-4">Top bracket — significant tax on every extra dollar</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>The Tax Shortfall Problem</h3>
+      <p>Here's what catches people: your employer is withholding tax at (say) the 30% bracket. But every dollar of freelance income is <strong>also taxed at your marginal rate</strong> — the highest bracket your total income reaches. If your salary is $90K and you earn $20K freelancing, that $20K is taxed at 30% — but you haven't had any tax withheld on it.</p>
+      <p>Result: a <strong>surprise tax bill</strong> at tax time.</p>
+
+      <h3>How to Avoid the Tax Shock</h3>
+      <ul>
+        <li><strong>Set aside 30-35% of every freelance payment</strong> into a separate savings account for tax</li>
+        <li><strong>Lodge PAYG instalments:</strong> Once the ATO sees your freelance income, they'll likely put you on quarterly PAYG instalments — this spreads the tax bill across the year</li>
+        <li><strong>Claim all deductions:</strong> Business expenses reduce your taxable freelance income — home office, software, equipment, internet, phone, professional development</li>
+        <li><strong>Consider voluntary PAYG withholding:</strong> Ask your employer to withhold extra tax from your salary to cover the freelance income</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Example Calculation</h3>
+        <p class="text-slate-300 text-sm"><strong>Salary:</strong> $85,000 (employer withholds ~$18,067 tax).<br/><strong>Freelance:</strong> $25,000 (no tax withheld).<br/><strong>Total income:</strong> $110,000.<br/><strong>Total tax owed:</strong> ~$26,717.<br/><strong>Tax already paid:</strong> ~$18,067.<br/><strong>Tax bill at EOFY:</strong> ~$8,650 + Medicare levy.<br/>Set aside $720/month from freelance income to cover this.</p>
+      </div>
+
+      <h2>GST for Side Hustlers</h2>
+      <p>You only need to register for GST if your <strong>freelance turnover</strong> reaches $75,000 per year. Your employment income doesn't count toward this threshold.</p>
+      <p>If your freelancing earns less than $75K/year (which most side hustlers do), GST registration is optional. But if you do register voluntarily, you can claim GST credits on business purchases.</p>
+
+      <h2>Superannuation on Freelance Income</h2>
+      <p>Your employer pays 11.5% super on your salary. But on your freelance income, <strong>super is not automatically paid</strong>. You're responsible for your own retirement savings from this income.</p>
+      <p>You can make <strong>voluntary contributions</strong> (and claim a tax deduction up to the $30,000 annual concessional cap, which includes employer contributions). This is a smart tax strategy — it reduces your marginal tax rate while building your retirement savings.</p>
+
+      <h2>Practical Tips for Managing Both</h2>
+
+      <h3>Time Management</h3>
+      <ul>
+        <li><strong>Never freelance during work hours</strong> — this is both a contract breach and an integrity issue</li>
+        <li><strong>Don't use your employer's equipment</strong> — use your own laptop, phone, and internet for freelance work</li>
+        <li><strong>Set boundaries:</strong> Allocate specific hours for freelance work (e.g., evenings 7-9pm, Saturday mornings)</li>
+        <li><strong>Protect your rest:</strong> Burnout is real. If freelancing plus your job means 60+ hour weeks consistently, something needs to give</li>
+      </ul>
+
+      <h3>Financial Separation</h3>
+      <ul>
+        <li><strong>Separate bank account</strong> for freelance income and expenses — this makes tax time vastly easier</li>
+        <li><strong>Track every expense</strong> with receipts or bank statements</li>
+        <li><strong>Invoice properly</strong> with your ABN, clear payment terms, and correct descriptions</li>
+        <li><strong>Save for tax</strong> from day one — not at tax time</li>
+      </ul>
+
+      <h3>When to Consider Going Full-Time Freelance</h3>
+      <p>The side hustle phase is a fantastic testing ground. Consider transitioning to full-time freelancing when:</p>
+      <ul>
+        <li>Your freelance income consistently covers 75%+ of your living expenses for 3-6 months</li>
+        <li>You have a 3-6 month emergency fund saved</li>
+        <li>You have a pipeline of recurring clients (not just one-off projects)</li>
+        <li>The demand for your freelance services exceeds your available hours</li>
+        <li>Your employer relationship is suffering because you'd rather be freelancing</li>
+      </ul>
+
+      <h2>Common Mistakes to Avoid</h2>
+      <ol>
+        <li><strong>Not reading your employment contract</strong> — discover clauses before they discover you</li>
+        <li><strong>Using employer resources</strong> — don't use their laptop, email, software licences, or office space for freelance work</li>
+        <li><strong>Ignoring tax obligations</strong> — the ATO WILL notice untaxed freelance income via ABN data matching</li>
+        <li><strong>Not getting an ABN</strong> — clients withhold 47% without it</li>
+        <li><strong>Poaching employer clients</strong> — this is a fast way to get sued and fired simultaneously</li>
+        <li><strong>Overcommitting</strong> — taking on too much freelance work, then underperforming at your day job</li>
+        <li><strong>No written agreements</strong> — freelance contracts protect you even for small projects</li>
+      </ol>
+
+      <h2>Should You Tell Your Employer?</h2>
+      <p>It depends on your contract and relationship:</p>
+      <ul>
+        <li><strong>Contract requires disclosure:</strong> You must tell them. Not doing so risks disciplinary action.</li>
+        <li><strong>No disclosure clause:</strong> Legally you don't have to, but consider the practical implications. If they find out later, it may damage trust.</li>
+        <li><strong>Your freelancing is in a completely different field:</strong> Usually safe to mention casually. "I do wedding photography on weekends" rarely causes concern.</li>
+        <li><strong>Your freelancing overlaps with your job:</strong> Tread carefully. Get legal advice before disclosing or not disclosing.</li>
+      </ul>
+
+      <h2>Checklist: Starting a Side Freelance Business</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <ul class="space-y-2">
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Review your employment contract for outside work, IP, and non-compete clauses</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Get written approval from employer if required by your contract</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Register for an ABN at abr.gov.au (free, 10 minutes)</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Open a separate business bank account</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Set up basic invoicing (include ABN, payment terms, service descriptions)</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Calculate your marginal tax rate on freelance income</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Set aside 30-35% of freelance income for tax</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Get professional indemnity insurance (if applicable to your field)</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Use a contract template for all freelance engagements</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Track all business expenses from day one</li>
+        </ul>
+      </div>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-start-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">How to Start Freelancing in Australia</a> — Complete getting started guide</li>
+        <li><a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">How Much Tax Do Freelancers Pay?</a> — Tax brackets and rates explained</li>
+        <li><a href="/blog/how-to-register-abn-australia" class="text-teal-400 hover:text-teal-300 underline">How to Register an ABN</a> — Step-by-step ABN registration</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Protecting yourself with written agreements</li>
+        <li><a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Tax Deductions Guide</a> — Claiming business expenses on freelance income</li>
+        <li><a href="/blog/payg-instalments-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">PAYG Instalments</a> — Managing quarterly tax payments</li>
+        <li><a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Super for Freelancers</a> — Voluntary contributions and tax benefits</li>
+        <li><a href="/blog/transition-full-time-to-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">Transition to Full-Time Freelancing</a> — When and how to make the leap</li>
+      </ul>
+    `,
+  },
+
+  'gst-registration-threshold-australian-freelancers': {
+    slug: 'gst-registration-threshold-australian-freelancers',
+    title: 'GST Registration Threshold: When Must Australian Freelancers Register? (2026 Guide)',
+    excerpt: 'The $75,000 GST threshold is the most asked-about number in Australian freelancing. Here\'s exactly when you must register, the benefits of registering early, and how to handle the transition.',
+    category: 'Tax',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'GST Registration Threshold for Freelancers Australia | $75K Rule Explained 2026',
+    seoDescription: 'When must Australian freelancers register for GST? Complete guide to the $75,000 threshold, voluntary registration benefits, BAS obligations, and how to add GST without losing clients.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">The $75,000 GST registration threshold is one of the most frequently misunderstood rules in Australian freelancing. Should you register before you hit it? What happens when you cross it? Can you claim GST credits without being registered? This guide answers every question.</p>
+
+      <h2>The Basic Rule</h2>
+      <p>You <strong>must</strong> register for GST when your <strong>GST turnover</strong> reaches $75,000 in a 12-month period (or $150,000 for non-profit organisations). This applies to sole traders, partnerships, companies, and trusts.</p>
+      <p>If your turnover is <strong>below $75,000</strong>, GST registration is <strong>optional</strong> — but there are good reasons to do it anyway (more on that below).</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Critical Timing Rule</h3>
+        <p class="text-slate-300 text-sm">You must register within <strong>21 days</strong> of the date you exceed (or are likely to exceed) $75,000 in the current or coming 12 months. Not registering on time can result in penalties and back-dated GST obligations.</p>
+      </div>
+
+      <h2>What Counts Toward GST Turnover?</h2>
+      <p>GST turnover is <strong>not the same as total income</strong>. It specifically includes:</p>
+
+      <h3>Included in GST Turnover</h3>
+      <ul>
+        <li>All payments for your freelance services (regardless of when invoiced)</li>
+        <li>Sales of goods related to your business</li>
+        <li>Bartered or exchanged goods/services (at market value)</li>
+        <li>Deposits and advance payments received</li>
+      </ul>
+
+      <h3>NOT Included in GST Turnover</h3>
+      <ul>
+        <li>Your employment income (salary from a day job)</li>
+        <li>Input-taxed supplies (e.g., residential rent, financial services)</li>
+        <li>Sales of capital assets (e.g., selling your work computer)</li>
+        <li>Private or domestic transactions</li>
+        <li>Hobby income (if the ATO classifies it as not being a business)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Example</h3>
+        <p class="text-slate-300 text-sm">You earn $85,000/year from your day job and $60,000/year freelancing. Your GST turnover is <strong>$60,000</strong> (only the freelance income counts). You're under the $75K threshold, so GST registration is optional.</p>
+      </div>
+
+      <h2>The Two Tests: Current and Projected</h2>
+      <p>The ATO uses two tests to determine if you've hit the threshold:</p>
+
+      <h3>Test 1: Current Turnover</h3>
+      <p>Your actual GST turnover for the <strong>current month plus the previous 11 months</strong> is $75,000 or more. This is a rolling 12-month lookback.</p>
+
+      <h3>Test 2: Projected Turnover</h3>
+      <p>Your GST turnover for the <strong>current month plus the next 11 months</strong> is likely to be $75,000 or more. This is forward-looking — if you land a big contract that will push you over, you need to register <em>before</em> the 12 months end.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Scenario</th>
+              <th class="py-3 px-4 text-teal-400">Must Register?</th>
+              <th class="py-3 px-4 text-teal-400">When?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Earned $78K in last 12 months</td>
+              <td class="py-3 px-4">Yes</td>
+              <td class="py-3 px-4">Within 21 days of hitting $75K</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Earned $50K, but just signed a $30K contract</td>
+              <td class="py-3 px-4">Yes (projected)</td>
+              <td class="py-3 px-4">Within 21 days of signing</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Earned $70K, expecting similar next year</td>
+              <td class="py-3 px-4">Not yet</td>
+              <td class="py-3 px-4">Monitor monthly — register if projected to hit $75K</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Earned $40K freelancing, $100K salary</td>
+              <td class="py-3 px-4">No</td>
+              <td class="py-3 px-4">Salary doesn't count toward GST turnover</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">One-off $80K project (unusual year)</td>
+              <td class="py-3 px-4">Yes</td>
+              <td class="py-3 px-4">Current turnover exceeded — even one-off counts</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Should You Register Voluntarily (Under $75K)?</h2>
+      <p>This is one of the most debated questions in Australian freelancing. Here's an honest breakdown:</p>
+
+      <h3>Reasons TO Register Voluntarily</h3>
+      <ul>
+        <li><strong>Claim GST credits:</strong> Get 1/11th back on all business purchases — software subscriptions, equipment, internet, phone, coworking, professional development</li>
+        <li><strong>Professional credibility:</strong> Many corporate clients expect their suppliers to be GST-registered. Being unregistered can signal "small-time" to enterprise clients</li>
+        <li><strong>Smoother transition:</strong> If you're approaching $75K, registering early avoids scrambling to add 10% to your prices mid-contract</li>
+        <li><strong>B2B clients don't mind:</strong> Business clients claim the GST back anyway — it's cost-neutral for them</li>
+        <li><strong>ABN Lookup transparency:</strong> Your GST status is visible on abr.gov.au — some clients check this before engaging</li>
+      </ul>
+
+      <h3>Reasons NOT to Register Voluntarily</h3>
+      <ul>
+        <li><strong>BAS compliance burden:</strong> You'll need to lodge Business Activity Statements (quarterly or monthly) — this is extra admin</li>
+        <li><strong>Price impact on consumers:</strong> If your clients are individuals (not businesses), they can't claim GST credits. Your 10% price increase is a real cost to them</li>
+        <li><strong>Cash flow timing:</strong> You collect GST from clients but don't pay it to the ATO until BAS time. Some freelancers spend this money and face a shortfall</li>
+        <li><strong>Complexity:</strong> You'll need to track GST on every transaction, maintain proper records, and understand GST-free vs taxable supplies</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">General Rule of Thumb</h3>
+        <p class="text-slate-300 text-sm"><strong>B2B freelancers</strong> (serving business clients): Register voluntarily — your clients claim the GST back, you get credits on expenses, and it looks professional.<br/><strong>B2C freelancers</strong> (serving consumers): Wait until you must — the 10% price increase is real and you may lose price-sensitive clients.</p>
+      </div>
+
+      <h2>How to Register for GST</h2>
+      <p>GST registration is done through the ATO, and you need an ABN first.</p>
+      <ol>
+        <li><strong>Log into your myGov account</strong> linked to ATO online services (or use the Business Portal)</li>
+        <li>Navigate to <strong>Registrations → Register for GST</strong></li>
+        <li>Select your <strong>accounting method:</strong>
+          <ul>
+            <li><strong>Cash basis</strong> (recommended for freelancers): You account for GST when you receive payment, not when you invoice. Better for cash flow</li>
+            <li><strong>Accruals basis:</strong> You account for GST when you invoice, regardless of when payment is received</li>
+          </ul>
+        </li>
+        <li>Select your <strong>reporting period:</strong>
+          <ul>
+            <li><strong>Quarterly</strong> (most freelancers): Lodge BAS 4 times a year</li>
+            <li><strong>Monthly:</strong> Required if turnover exceeds $20M, optional otherwise</li>
+            <li><strong>Annual:</strong> Only available if turnover is under $75K and you're voluntarily registered</li>
+          </ul>
+        </li>
+        <li>Submit — your registration is usually <strong>effective immediately</strong> or from a date you specify</li>
+      </ol>
+
+      <h2>What Happens When You Register: The GST Transition</h2>
+      <p>Once registered, you need to charge 10% GST on all taxable supplies (your services). This is the part freelancers worry about most.</p>
+
+      <h3>Strategy 1: Absorb the GST (Not Recommended)</h3>
+      <p>Some freelancers keep their prices the same and absorb the GST — effectively taking a 9.09% pay cut. Example:</p>
+      <ul>
+        <li>Previously charged: $1,000</li>
+        <li>Now charge: $1,000 (of which $90.91 is GST)</li>
+        <li>You receive: $909.09 (minus $90.91 to ATO)</li>
+      </ul>
+      <p>This is almost always the wrong move. You're losing nearly 10% of your income permanently.</p>
+
+      <h3>Strategy 2: Add GST on Top (Recommended)</h3>
+      <p>The standard approach — add 10% GST to your existing prices:</p>
+      <ul>
+        <li>Previously charged: $1,000</li>
+        <li>Now charge: $1,100 ($1,000 + $100 GST)</li>
+        <li>You receive: $1,000 (send $100 to ATO)</li>
+        <li>Plus you can now claim GST credits on expenses</li>
+      </ul>
+
+      <h3>How to Communicate the Price Change to Clients</h3>
+      <p>When you become GST-registered, send existing clients a brief email:</p>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <p class="text-slate-300 text-sm italic">"Hi [Name], I'm writing to let you know that [Business Name] is now registered for GST with the ATO. From [date], my invoices will include GST at the standard 10% rate. If your business is GST-registered, you can claim this as an input tax credit. My base rates remain unchanged. Please let me know if you have any questions."</p>
+      </div>
+      <p>For B2B clients, this is a non-event — they claim the GST back. For B2C clients, consider whether you can absorb some of the impact or offer a loyalty discount.</p>
+
+      <h2>Understanding Your BAS Obligations</h2>
+      <p>Once registered, you must lodge a <strong>Business Activity Statement (BAS)</strong> each period. The key GST sections are:</p>
+      <ul>
+        <li><strong>1A — GST on sales:</strong> Total GST you collected from clients</li>
+        <li><strong>1B — GST on purchases:</strong> Total GST you paid on business expenses (your credits)</li>
+        <li><strong>Net GST:</strong> 1A minus 1B = what you owe the ATO (or what they owe you)</li>
+      </ul>
+      <p>Most freelancers owe money (1A > 1B) because your services income exceeds your expenses. But in quarters where you buy expensive equipment, you might get a refund.</p>
+
+      <h2>GST Credits You Can Claim</h2>
+      <p>Once registered, you can claim back the GST on legitimate business expenses:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Expense</th>
+              <th class="py-3 px-4 text-teal-400">Typical Cost</th>
+              <th class="py-3 px-4 text-teal-400">GST Credit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">New laptop ($2,200)</td>
+              <td class="py-3 px-4">$2,200 inc GST</td>
+              <td class="py-3 px-4">$200 back</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Software ($110/mo × 12)</td>
+              <td class="py-3 px-4">$1,320/year</td>
+              <td class="py-3 px-4">$120 back</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Coworking ($550/mo × 12)</td>
+              <td class="py-3 px-4">$6,600/year</td>
+              <td class="py-3 px-4">$600 back</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Internet ($110/mo × 60%)</td>
+              <td class="py-3 px-4">$792/year</td>
+              <td class="py-3 px-4">$72 back</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Professional insurance ($660)</td>
+              <td class="py-3 px-4">$660</td>
+              <td class="py-3 px-4">$60 back</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>In this example, you'd claim <strong>$1,052 in GST credits</strong> annually — real money back in your pocket.</p>
+
+      <h2>Approaching the Threshold? A Month-by-Month Plan</h2>
+      <p>If your freelance income is climbing toward $75K, here's how to prepare:</p>
+
+      <h3>At $50K: Start Planning</h3>
+      <ul>
+        <li>Track your rolling 12-month turnover each month</li>
+        <li>Research invoicing software that handles GST automatically</li>
+        <li>Start collecting tax invoices (with ABN and GST amounts) for all business purchases</li>
+      </ul>
+
+      <h3>At $60K: Prepare for Registration</h3>
+      <ul>
+        <li>Consider registering early (voluntary) to avoid rushed transition</li>
+        <li>Prepare client communication about upcoming GST addition</li>
+        <li>Set up a BAS filing system (spreadsheet or accounting software)</li>
+      </ul>
+
+      <h3>At $70K: Register</h3>
+      <ul>
+        <li>Register for GST through the ATO Business Portal or myGov</li>
+        <li>Update your invoicing templates to include GST fields</li>
+        <li>Notify all active clients about the change</li>
+        <li>Start issuing tax invoices (not just invoices)</li>
+      </ul>
+
+      <h2>Common GST Mistakes Freelancers Make</h2>
+      <ol>
+        <li><strong>Not monitoring the threshold:</strong> The ATO expects you to register on time — "I didn't realise I hit $75K" isn't an excuse</li>
+        <li><strong>Charging GST without being registered:</strong> This is illegal. You cannot add GST to invoices unless you have a valid GST registration</li>
+        <li><strong>Forgetting to charge GST on all services:</strong> Once registered, GST applies to all taxable supplies — not just some</li>
+        <li><strong>Not keeping tax invoices:</strong> You need valid tax invoices from suppliers to claim GST credits. A bank statement isn't enough</li>
+        <li><strong>Spending the GST:</strong> The GST you collect isn't your money — it's the ATO's. Keep it in a separate account</li>
+        <li><strong>Mixing personal and business:</strong> GST credits only apply to genuine business expenses, not personal purchases</li>
+      </ol>
+
+      <h2>FAQ</h2>
+
+      <h3>Can I deregister for GST if my turnover drops below $75K?</h3>
+      <p>Yes. If your turnover falls below $75K and you were compulsorily registered, you can apply to cancel your registration. If you voluntarily registered, you can cancel at any time (but must wait 12 months after registering).</p>
+
+      <h3>What if I'm a contractor and my client pays me GST-inclusive?</h3>
+      <p>If you're GST-registered, the GST portion of the payment goes to the ATO. If you're not registered, you shouldn't be quoted GST-inclusive rates — clarify this with your client.</p>
+
+      <h3>Do I charge GST on international clients?</h3>
+      <p>Generally, no. Services provided to overseas clients are typically <strong>GST-free exports</strong> under the connected with Australia rules. But the rules are complex — consult a tax professional if you have significant overseas income.</p>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Complete GST Guide</a> — Everything about GST for freelancers</li>
+        <li><a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS Guide</a> — How to lodge your Business Activity Statement</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — Creating ATO-compliant invoices</li>
+        <li><a href="/blog/sole-trader-vs-company-australia" class="text-teal-400 hover:text-teal-300 underline">Sole Trader vs Company</a> — Business structure and GST implications</li>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping Guide</a> — Staying compliant with ATO requirements</li>
+        <li><a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">Freelancer Tax Guide</a> — Understanding your total tax obligations</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">Free GST Calculator</a> — Instantly calculate GST on any amount</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-expenses-reimbursements-freelancer-australia': {
+    slug: 'invoicing-expenses-reimbursements-freelancer-australia',
+    title: 'How to Invoice for Expenses and Reimbursements as an Australian Freelancer (2026)',
+    excerpt: 'Should you absorb project costs or pass them to clients? Learn how to correctly invoice for travel, materials, software, and other reimbursable expenses — with GST, tax, and template examples.',
+    category: 'Invoicing',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice for Expenses & Reimbursements | Australian Freelancer Guide 2026',
+    seoDescription: 'Complete guide to invoicing clients for expenses and reimbursements as an Australian freelancer. Covers GST treatment, markup strategies, disbursement rules, and invoice template examples.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Freelance projects often involve out-of-pocket expenses — travel, stock photos, software licences, materials, printing. How you handle these costs on your invoices affects your profitability, GST obligations, and client relationships. This guide covers every scenario.</p>
+
+      <h2>The Two Approaches to Expenses</h2>
+      <p>There are two fundamentally different ways freelancers handle project expenses:</p>
+
+      <h3>Approach 1: Include Expenses in Your Rate (Absorb)</h3>
+      <p>You set your prices high enough to cover typical project costs. The client sees one clean price.</p>
+      <ul>
+        <li><strong>Pros:</strong> Simpler invoicing, no awkward conversations about costs, you keep any savings</li>
+        <li><strong>Cons:</strong> If costs exceed what you budgeted, you eat the loss. You're taking on the financial risk</li>
+        <li><strong>Best for:</strong> Standard services with predictable costs (design, writing, development)</li>
+      </ul>
+
+      <h3>Approach 2: Pass Expenses Through to the Client (Reimbursement)</h3>
+      <p>You charge your service fee separately and add expenses as line items. The client pays the actual costs.</p>
+      <ul>
+        <li><strong>Pros:</strong> You're not out of pocket, transparent, fair on big-cost projects</li>
+        <li><strong>Cons:</strong> More complex invoicing, clients may question individual expenses</li>
+        <li><strong>Best for:</strong> Projects with significant variable costs (travel, materials, equipment hire, media buying)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Industry Norms</h3>
+        <p class="text-slate-300 text-sm"><strong>Web/app developers:</strong> Typically absorb costs (hosting, domains, stock assets).<br/><strong>Photographers:</strong> Typically pass through travel, permits, equipment hire, printing.<br/><strong>Consultants:</strong> Typically pass through travel, accommodation, venue hire.<br/><strong>Graphic designers:</strong> Typically absorb software costs, pass through printing, stock photos, materials.</p>
+      </div>
+
+      <h2>Types of Reimbursable Expenses</h2>
+      <p>Common expenses freelancers pass through to clients:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Category</th>
+              <th class="py-3 px-4 text-teal-400">Examples</th>
+              <th class="py-3 px-4 text-teal-400">Typical Treatment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Travel</td>
+              <td class="py-3 px-4">Flights, accommodation, car hire, fuel, tolls, parking</td>
+              <td class="py-3 px-4">Pass through at cost (or ATO rate for km)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Materials</td>
+              <td class="py-3 px-4">Printing, fabric, building supplies, prototyping materials</td>
+              <td class="py-3 px-4">Pass through at cost + optional markup</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Software/Digital</td>
+              <td class="py-3 px-4">Stock photos, fonts, domain names, SaaS for client project</td>
+              <td class="py-3 px-4">Pass through at cost</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Subcontractors</td>
+              <td class="py-3 px-4">Copywriters, illustrators, videographers you hire for the project</td>
+              <td class="py-3 px-4">Pass through at cost + coordination markup (10-25%)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Equipment Hire</td>
+              <td class="py-3 px-4">Camera gear, studio space, specialised tools</td>
+              <td class="py-3 px-4">Pass through at cost</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Postage/Shipping</td>
+              <td class="py-3 px-4">Courier costs, shipping to client, postal costs</td>
+              <td class="py-3 px-4">Pass through at cost</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>How to Structure Expense Reimbursement in Your Invoice</h2>
+      <p>When passing expenses through, your invoice should clearly separate service fees from reimbursable expenses:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Invoice Example — With Reimbursable Expenses</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">SERVICES</p>
+          <p>Website design (40 hours × $120/hr) ................... $4,800.00</p>
+          <p>Content strategy workshop (1 day) ..................... $1,200.00</p>
+          <p class="font-semibold mt-3 text-teal-400 mb-2">EXPENSES</p>
+          <p>Stock photography (Shutterstock, 15 images) ............. $225.00</p>
+          <p>Premium font licence (client use) ........................ $89.00</p>
+          <p>Travel — Melbourne to Geelong return .................... $120.00</p>
+          <p>Printing — presentation mockups .......................... $65.00</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal .............................................. $6,499.00</p>
+          <p>GST (10%) ............................................... $649.90</p>
+          <p class="font-bold text-white">TOTAL ................................................ $7,148.90</p>
+        </div>
+      </div>
+
+      <h3>Key Formatting Rules</h3>
+      <ul>
+        <li><strong>Separate sections:</strong> Group services and expenses into distinct sections for clarity</li>
+        <li><strong>Item descriptions:</strong> Be specific — "Travel — Melbourne to Geelong for client workshop" is better than just "Travel"</li>
+        <li><strong>Receipts available:</strong> Note that receipts are available on request (or attach them proactively)</li>
+        <li><strong>Pre-approved amounts:</strong> Reference the client's prior approval for expenses if applicable</li>
+      </ul>
+
+      <h2>The Markup Question</h2>
+      <p>Can you add a markup to expenses? Yes — but it depends on what's been agreed and what's standard in your industry.</p>
+
+      <h3>When Markup Is Standard</h3>
+      <ul>
+        <li><strong>Subcontractor coordination:</strong> 10-25% markup is standard for managing subcontractors — you're providing project management, quality control, and taking on responsibility for their deliverables</li>
+        <li><strong>Media buying:</strong> Marketing agencies typically add 15-20% on ad spend</li>
+        <li><strong>Materials procurement:</strong> If you're sourcing and managing materials, a 10-15% handling fee is reasonable</li>
+      </ul>
+
+      <h3>When Markup Is Not Standard</h3>
+      <ul>
+        <li><strong>Client-requested travel:</strong> If the client asks you to fly to their office, charging them the flight cost + markup feels wrong. At cost or with a day rate is better</li>
+        <li><strong>Pass-through software:</strong> A stock photo that costs $15 should be invoiced at $15, not $20</li>
+        <li><strong>Transparent agreements:</strong> If your contract says "expenses at cost," don't add markup</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Transparency Is Key</h3>
+        <p class="text-slate-300 text-sm">If you're going to mark up expenses, state it in your contract upfront: "Expenses will be invoiced at cost plus a 15% coordination fee." Surprises on invoices destroy client relationships faster than almost anything else.</p>
+      </div>
+
+      <h2>GST Treatment of Reimbursed Expenses</h2>
+      <p>This is where it gets technical. The GST treatment of reimbursed expenses depends on whether you're acting as a <strong>principal</strong> or an <strong>agent</strong>.</p>
+
+      <h3>As a Principal (Most Common for Freelancers)</h3>
+      <p>You buy the item/service in your own name, use it in your business, and charge the client for it. In this case:</p>
+      <ul>
+        <li>The expense is <strong>your purchase</strong> — you can claim a GST credit on it</li>
+        <li>When you re-invoice it to the client, it's part of <strong>your taxable supply</strong> — you charge GST on the total invoice (services + expenses)</li>
+        <li>The client claims the GST on your full invoice</li>
+      </ul>
+      <p>This is the default for most freelancers. You buy stock photos, you claim the GST credit, you charge the client (with GST) for the full amount.</p>
+
+      <h3>As an Agent (Disbursements)</h3>
+      <p>A <strong>disbursement</strong> is when you pay for something on the client's behalf, acting as their agent. The purchase is really theirs — you're just handling the payment. In this case:</p>
+      <ul>
+        <li>You do <strong>not</strong> claim a GST credit on the purchase (it's not yours)</li>
+        <li>You do <strong>not</strong> charge GST when you recover the cost from the client (it's a disbursement, not a supply)</li>
+        <li>You need a tax invoice from the supplier in the <strong>client's name</strong> (or that you can pass through to the client)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Practical Rule</h3>
+        <p class="text-slate-300 text-sm">Most freelancers operate as <strong>principals</strong> — you buy things for projects in your own name and claim the GST. Disbursement treatment is more common for lawyers, accountants, and other professionals who pay things like court filing fees or government charges on behalf of clients.</p>
+      </div>
+
+      <h2>Setting Up Expense Agreements in Your Contract</h2>
+      <p>The best time to discuss expenses is <strong>before the project starts</strong>. Your freelance contract should include an expenses clause that covers:</p>
+
+      <h3>Essential Expense Clause Elements</h3>
+      <ol>
+        <li><strong>Which expenses are reimbursable:</strong> List categories (travel, materials, software) that the client will cover</li>
+        <li><strong>Approval threshold:</strong> "Expenses under $100 are pre-approved. Expenses over $100 require written client approval before purchase"</li>
+        <li><strong>Markup policy:</strong> State whether expenses are at cost or with a handling fee</li>
+        <li><strong>Receipt requirement:</strong> "Receipts will be provided for all reimbursable expenses upon request"</li>
+        <li><strong>Payment timing:</strong> Whether expenses are invoiced with each milestone or at project end</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-3">Sample Contract Clause</h3>
+        <p class="text-slate-300 text-sm italic">"The Client agrees to reimburse the Contractor for reasonable out-of-pocket expenses incurred in performing the Services, including but not limited to: travel, accommodation, printing, stock assets, and software licences specific to the project. Expenses exceeding $200 per item require prior written approval from the Client. Expenses will be invoiced at cost with supporting receipts available upon request. Reimbursable expenses will be included on the regular project invoice."</p>
+      </div>
+
+      <h2>Travel Expense Invoicing</h2>
+      <p>Travel is the most common reimbursable expense. Here's how to handle it correctly:</p>
+
+      <h3>Using the ATO Cents-Per-Kilometre Method</h3>
+      <p>For car travel, you can charge the ATO rate of <strong>88 cents per kilometre</strong> (2025-26 rate) instead of tracking actual fuel, tolls, and wear-and-tear costs.</p>
+      <ul>
+        <li>Melbourne CBD to Geelong (75km each way) = 150km × $0.88 = <strong>$132.00</strong></li>
+        <li>This rate covers fuel, insurance, registration, depreciation, and maintenance</li>
+        <li>You can use this for up to 5,000 business km per year</li>
+      </ul>
+
+      <h3>Actual Cost Method</h3>
+      <p>For flights, accommodation, car hire, and other travel — invoice the actual cost with receipts:</p>
+      <ul>
+        <li>Flight: Jetstar Melbourne–Sydney return — $289.00</li>
+        <li>Accommodation: 1 night, Holiday Inn Sydney — $195.00</li>
+        <li>Airport transfers: Uber × 2 — $68.00</li>
+      </ul>
+
+      <h2>Handling Pre-Payments and Deposits for Expenses</h2>
+      <p>For projects with significant upfront costs (e.g., materials, venue hire), consider these approaches:</p>
+      <ul>
+        <li><strong>Expense deposit:</strong> Request an upfront deposit specifically for expenses: "A deposit of $500 for materials is required before project commencement"</li>
+        <li><strong>Client-direct purchase:</strong> Have the client purchase expensive items directly (they buy the printing, you just coordinate)</li>
+        <li><strong>Progressive invoicing:</strong> Invoice expenses as they're incurred, not just at the end</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Cash Flow Protection</h3>
+        <p class="text-slate-300 text-sm">Never spend more than you can afford to lose on client expenses. If a project requires $2,000 in upfront materials and the client disappears, you're out $2,000. Always get expense deposits for large-cost projects, or have the client purchase directly.</p>
+      </div>
+
+      <h2>Record-Keeping for Reimbursable Expenses</h2>
+      <p>Good records protect you at tax time and in client disputes:</p>
+      <ul>
+        <li><strong>Keep all receipts</strong> — digital copies (photos/scans) are fine for the ATO</li>
+        <li><strong>Date each expense</strong> and note which project/client it relates to</li>
+        <li><strong>Track GST separately</strong> — note the GST amount on each receipt for BAS purposes</li>
+        <li><strong>Maintain a project expense log</strong> — a simple spreadsheet per project is enough</li>
+        <li><strong>Keep records for 5 years</strong> — the ATO's standard retention period</li>
+      </ul>
+
+      <h2>Common Mistakes to Avoid</h2>
+      <ol>
+        <li><strong>Not discussing expenses before starting:</strong> The worst time to mention a $500 expense is on the final invoice</li>
+        <li><strong>Forgetting to include expenses on the invoice:</strong> Track expenses as they happen — don't try to remember them at invoice time</li>
+        <li><strong>Adding hidden markup:</strong> If your contract says "at cost," honour it. Hidden markups damage trust permanently</li>
+        <li><strong>Not keeping receipts:</strong> Without receipts, you can't claim GST credits and can't justify expenses to clients</li>
+        <li><strong>Spending your own money on large expenses:</strong> Get deposits or have clients purchase directly for anything over $500</li>
+        <li><strong>Confusing disbursements with reimbursements:</strong> The GST treatment is different — know which applies to you</li>
+      </ol>
+
+      <h2>Invoicing Checklist for Expenses</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <ul class="space-y-2">
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Expense reimbursement terms agreed in contract before project start</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Approval obtained for expenses above threshold</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> All receipts saved (digital copies are fine)</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Expenses clearly separated from service fees on invoice</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Each expense has a clear description and amount</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> GST calculated correctly on the total (services + expenses)</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Note on invoice: "Receipts available upon request"</li>
+          <li class="flex items-start gap-2"><span class="text-teal-400 mt-0.5">✓</span> Project expense log updated for your records</li>
+        </ul>
+      </div>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — Creating ATO-compliant invoices</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Understanding GST obligations</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Invoicing</a> — Structuring project payments</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Including expense clauses in agreements</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle & Travel Expenses</a> — Claiming travel deductions</li>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping Guide</a> — Maintaining ATO-compliant records</li>
+        <li><a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300 underline">Payment Terms Explained</a> — Setting clear payment expectations</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">Free GST Calculator</a> — Calculate GST on any amount</li>
+      </ul>
+    `,
+  },
 };
