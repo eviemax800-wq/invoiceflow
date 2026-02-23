@@ -20249,4 +20249,645 @@ Yours sincerely,
       </ul>
     `,
   },
+
+  'invoicing-virtual-assistants-australia': {
+    slug: 'invoicing-virtual-assistants-australia',
+    title: 'How to Invoice as a Freelance Virtual Assistant in Australia (2026)',
+    excerpt: 'Complete invoicing guide for freelance virtual assistants in Australia — hourly, retainer, and task-based pricing models, scope management, and software pass-through billing.',
+    category: 'Invoicing',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Virtual Assistant in Australia | 2026 Guide',
+    seoDescription: 'Freelance virtual assistant invoicing guide for Australia. Hourly rates, retainer packages, task-based pricing, scope management, software costs, and VA-specific tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Virtual assistance is one of Australia's fastest-growing freelance professions, with demand accelerating as businesses of every size outsource admin, scheduling, email management, and operations work. Most VAs start billing hourly — but the real revenue growth comes from retainer packages and task-based pricing. This guide covers how to structure your VA invoicing for consistent income and minimal scope creep.</p>
+
+      <h2>Pricing Models for Virtual Assistants</h2>
+
+      <h3>Hourly Pricing</h3>
+      <p>The most common starting model. Simple to track, easy for clients to understand, but caps your earning potential.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Experience Level</th>
+              <th class="py-3 px-4 text-teal-400">Hourly Rate (AUD)</th>
+              <th class="py-3 px-4 text-teal-400">Typical Tasks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Entry-Level VA</td><td class="py-3 px-4">$30–$45/hr</td><td class="py-3 px-4">Data entry, email sorting, calendar management, basic research</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">General VA (2–4 years)</td><td class="py-3 px-4">$45–$65/hr</td><td class="py-3 px-4">Email management, travel booking, inbox zero, CRM management, basic bookkeeping</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Specialist VA</td><td class="py-3 px-4">$65–$90/hr</td><td class="py-3 px-4">Executive assistant work, project management, systems setup, process documentation</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Technical / OBM</td><td class="py-3 px-4">$90–$130/hr</td><td class="py-3 px-4">Online business management, funnel builds, automation setup, team management</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>With hourly billing, always use a time tracker (Toggl, Clockify, Harvest) and include a time log with each invoice. Clients expect transparency on what you did with their hours.</p>
+
+      <h3>Monthly Retainer Packages</h3>
+      <p>The better model for both you and the client. Retainers create predictable income and reduce the overhead of tracking every minute.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Package</th>
+              <th class="py-3 px-4 text-teal-400">Hours/Month</th>
+              <th class="py-3 px-4 text-teal-400">Monthly Fee</th>
+              <th class="py-3 px-4 text-teal-400">Effective Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Starter</td><td class="py-3 px-4">10 hrs</td><td class="py-3 px-4">$500–$650</td><td class="py-3 px-4">$50–$65/hr</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Growth</td><td class="py-3 px-4">20 hrs</td><td class="py-3 px-4">$900–$1,200</td><td class="py-3 px-4">$45–$60/hr</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Business</td><td class="py-3 px-4">40 hrs</td><td class="py-3 px-4">$1,600–$2,200</td><td class="py-3 px-4">$40–$55/hr</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Full-Time</td><td class="py-3 px-4">80+ hrs</td><td class="py-3 px-4">$3,200–$5,000</td><td class="py-3 px-4">$40–$62/hr</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Rollover Hours: The Big Decision</h3>
+        <p class="text-slate-300 text-sm">Do unused retainer hours roll over to the next month? Most experienced VAs say <strong>no</strong>. Rollover creates unpredictable workload spikes and devalues your commitment to being available. Instead, offer a "use it or lose it" policy — you're reserving capacity for them, and that has value even if they don't use every hour. If a client consistently under-uses their retainer, suggest downgrading to a smaller package.</p>
+      </div>
+
+      <h3>Task-Based / Per-Deliverable Pricing</h3>
+      <p>For repetitive, well-defined tasks, charge per deliverable instead of per hour. This rewards efficiency and decouples your income from your time.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Task</th>
+              <th class="py-3 px-4 text-teal-400">Per-Task Rate</th>
+              <th class="py-3 px-4 text-teal-400">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Inbox management (daily)</td><td class="py-3 px-4">$25–$50/day</td><td class="py-3 px-4">Sort, respond, flag, archive</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Social media scheduling</td><td class="py-3 px-4">$150–$400/month</td><td class="py-3 px-4">Per platform, content provided by client</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Travel booking</td><td class="py-3 px-4">$50–$100/trip</td><td class="py-3 px-4">Domestic. International bookings 2x</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Meeting minutes</td><td class="py-3 px-4">$30–$60/meeting</td><td class="py-3 px-4">Attend, take notes, distribute summary</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">CRM data entry</td><td class="py-3 px-4">$2–$5/record</td><td class="py-3 px-4">Depends on complexity</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Systems setup (one-off)</td><td class="py-3 px-4">$300–$1,500</td><td class="py-3 px-4">CRM, project management, email templates</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Scope Management — The VA's Biggest Invoicing Challenge</h2>
+      <p>Scope creep is the #1 reason VAs burn out and undercharge. A client hires you for "admin support" and gradually adds social media, customer service, bookkeeping, and event planning — all at the original rate.</p>
+
+      <h3>How to Prevent Scope Creep</h3>
+      <ul>
+        <li><strong>Define services in your agreement:</strong> List exactly what's included in the retainer. Everything else is out of scope and billed separately or requires a package upgrade</li>
+        <li><strong>Track out-of-scope requests:</strong> Keep a running list. At month-end, show the client: "These 6 tasks were outside our agreed scope — here's how we can adjust the package"</li>
+        <li><strong>Use task categories on invoices:</strong> Break your invoice into categories (Admin, Social Media, Bookkeeping, Project Management). This makes scope visible</li>
+        <li><strong>Overage billing:</strong> If a retainer client uses more than their allocated hours, charge overage at your standard hourly rate (or 1.2x to discourage overuse)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The "Quick Favour" Trap</h3>
+        <p class="text-slate-300 text-sm">"Can you just quickly..." is the phrase that kills VA profitability. Each "quick" task takes 15–30 minutes of context switching, plus the task itself. Set a boundary: all requests go through your task management system (Asana, ClickUp, Trello). This creates a record for billing and prevents verbal requests from falling through the cracks — and off your invoice.</p>
+      </div>
+
+      <h2>Software and Tool Pass-Through Billing</h2>
+      <p>VAs often manage client subscriptions or use paid tools on behalf of clients. There are three approaches to billing for software:</p>
+
+      <h3>Option 1: Client Pays Directly</h3>
+      <p>The cleanest approach. The client subscribes to tools (Mailchimp, Canva, HubSpot) with their own account and gives you access. No invoicing needed — just login credentials.</p>
+
+      <h3>Option 2: Pass-Through at Cost</h3>
+      <p>You subscribe and bill the client the exact cost as a line item. Show it separately on your invoice: "Canva Pro (client account) — $17.99/mo". No markup, no margin. Simple but you're carrying the cost until paid.</p>
+
+      <h3>Option 3: Bundled Into Retainer</h3>
+      <p>Include standard tools in your retainer price. "My Growth package ($1,100/mo) includes Asana, Canva, and scheduling tools." This simplifies invoicing but you absorb the cost if tool prices increase. Best for packages where you choose the tools.</p>
+
+      <h2>What to Include on a VA Invoice</h2>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Invoice Template — Virtual Assistant (Retainer)</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>Emma Virtual Solutions | ABN: 12 345 678 901</p>
+          <p>emma@emmava.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>Sarah Chen | Chen Property Group | ABN: 98 765 432 109</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #EVS-2026-012 | Date: 1 March 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">VIRTUAL ASSISTANT SERVICES — MARCH 2026</p>
+          <p>Growth Retainer (20 hrs/month) .................. $1,100.00</p>
+          <p class="text-slate-400 text-xs pl-4">Includes: email management, calendar, travel booking, CRM updates</p>
+          <p>Additional Hours (3.5 hrs @ $60/hr) .............. $210.00</p>
+          <p class="text-slate-400 text-xs pl-4">Social media scheduling (out-of-scope, per approval 15 Feb)</p>
+          <p>Software: Mailchimp Standard (pass-through) ....... $27.50</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal ........................................ $1,337.50</p>
+          <p>GST (10%) ........................................ $133.75</p>
+          <p class="font-bold text-white">AMOUNT DUE ..................................... $1,471.25</p>
+          <p class="text-slate-400 mt-2">Payment: Due 7 March 2026 | Bank: CBA | BSB: 062-000 | Acc: 1234 5678</p>
+          <p class="text-slate-400">Hours used: 23.5 of 20 (3.5 hrs overage)</p>
+        </div>
+      </div>
+
+      <h3>Key Invoice Elements for VAs</h3>
+      <ul>
+        <li><strong>Hours breakdown:</strong> Show retainer hours used vs. total. If the client has a 20-hour retainer and used 23.5, show the overage clearly</li>
+        <li><strong>Task categories:</strong> Group time by category (Admin, Comms, Social Media, Bookkeeping) so the client sees where their hours go</li>
+        <li><strong>Time log attachment:</strong> For hourly and retainer clients, attach a detailed time log (export from Toggl or Clockify) showing date, task, duration</li>
+        <li><strong>Software line items:</strong> Any pass-through tools billed as separate line items, not lumped into services</li>
+        <li><strong>Overage rate:</strong> If applicable, show the overage rate clearly. Don't surprise clients with extra charges they didn't approve</li>
+      </ul>
+
+      <h2>Retainer Billing Mechanics</h2>
+
+      <h3>When to Invoice</h3>
+      <ul>
+        <li><strong>Invoice in advance:</strong> Send the retainer invoice on the 25th of the previous month, due by the 1st. You're reserving capacity — payment before service is standard</li>
+        <li><strong>Overage invoiced after:</strong> Any hours above the retainer are invoiced at month-end as a separate line item (or on the next month's invoice)</li>
+        <li><strong>First month:</strong> Pro-rate if starting mid-month. Example: Starting 15 March, invoice for 50% of the monthly retainer</li>
+      </ul>
+
+      <h3>Minimum Contract Terms</h3>
+      <p>Most experienced VAs require a minimum 3-month commitment for retainer clients. This protects your income while you ramp up on their business. Include in your agreement:</p>
+      <ul>
+        <li>30-day written notice to cancel or downgrade</li>
+        <li>Final month is still paid in full (no pro-rating for early cancellation)</li>
+        <li>All hours purchased are non-refundable</li>
+      </ul>
+
+      <h2>GST for Virtual Assistants</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover. A VA doing 30 hours/week at $55/hr hits $75K in about 11 months</li>
+        <li>Virtual assistant services are standard-rated — GST applies to all Australian clients</li>
+        <li>International clients: VA services provided to overseas businesses are GST-free exports (must be consumed outside Australia)</li>
+        <li>Software pass-throughs: If you bill the client for Mailchimp or Canva, you charge GST on the pass-through amount (it's part of your supply)</li>
+        <li>Home office: Claim GST credits on the business portion of internet, phone, and home office expenses</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes VAs Make</h2>
+      <ol>
+        <li><strong>Not tracking time consistently:</strong> "I'll log it later" turns into lost hours. Run your timer for every task, every day. Even retainer clients deserve accurate tracking — it protects you when they ask "what do you do with 20 hours?"</li>
+        <li><strong>Undercharging for "quick" tasks:</strong> A 10-minute task with 5 minutes of context switching and 5 minutes of follow-up is actually 20 minutes. Round up to 15-minute increments minimum</li>
+        <li><strong>No cancellation protection:</strong> If a retainer client cancels mid-month with no notice period, you lose income immediately. Always require 30-day notice</li>
+        <li><strong>Absorbing software costs:</strong> If you pay for tools the client uses, bill them. Even small subscriptions ($10–$30/mo) add up across multiple clients</li>
+        <li><strong>Not raising rates annually:</strong> The cost of living goes up. Your skills improve. Review rates every 12 months and give clients 30 days notice of increases. A 5–10% annual increase is reasonable and expected</li>
+        <li><strong>Mixing personal and client tools:</strong> If you use Canva for yourself AND a client, either get a separate account for the client or don't bill them for it. ATO auditors will question shared subscriptions</li>
+      </ol>
+
+      <h2>VA-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Home office:</strong> Dedicated workspace — claim fixed rate (67c/hr) or actual expenses (rent portion, electricity, internet, depreciation). Most VAs work from home full-time, making this their largest deduction</li>
+        <li><strong>Internet and phone:</strong> Business portion of mobile and broadband. Keep a 4-week log annually to establish percentage. Typically 60–80% for full-time VAs</li>
+        <li><strong>Software subscriptions:</strong> Asana, ClickUp, Toggl, Canva, LastPass, Google Workspace, Zoom — all fully deductible if used for business</li>
+        <li><strong>Computer and equipment:</strong> Laptop, monitor, keyboard, mouse, headset, webcam — instant asset write-off for items under $20,000. Claim business-use percentage if also used personally</li>
+        <li><strong>Professional development:</strong> VA-specific courses (Horkey Handbook, Fully Booked VA), business courses, Udemy/Coursera courses related to your services — fully deductible</li>
+        <li><strong>Coworking space:</strong> If you use a coworking space for focus or client meetings, the membership is fully deductible as a business expense</li>
+        <li><strong>Insurance:</strong> Professional indemnity insurance ($200–$500/yr) — covers you if a client claims you made a costly mistake (like sending the wrong email or missing a deadline)</li>
+        <li><strong>Stationery and office supplies:</strong> Printer ink, paper, notebooks, pens — small but add up. Keep receipts</li>
+      </ul>
+
+      <h2>Transitioning from Hourly to Retainer</h2>
+      <p>The shift from hourly to retainer is the single biggest income upgrade for VAs. Here's a practical transition plan:</p>
+      <ol>
+        <li><strong>Month 1–2:</strong> Track your hours meticulously for each client. Note which tasks repeat weekly/monthly</li>
+        <li><strong>Month 3:</strong> Calculate the average monthly hours per client. Package it: "Based on our work together, you consistently need about 15 hours/month. I'd like to offer you a Growth retainer at $850/mo — this gives you priority scheduling and a slightly better rate than hourly"</li>
+        <li><strong>Month 4:</strong> Switch to advance invoicing. Send the invoice before the month starts. This normalises the retainer model for the client</li>
+        <li><strong>Ongoing:</strong> Review every quarter. If the client consistently uses 18–20 hours of a 15-hour retainer, suggest upgrading. If they use 8 hours, suggest downgrading (better to keep them happy than have them cancel)</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements</a> — Structuring retainer contracts properly</li>
+        <li><a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Time Tracking Guide</a> — Tools and methods for accurate time logging</li>
+        <li><a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Raising Your Rates</a> — When and how to increase your VA rates</li>
+        <li><a href="/blog/setting-boundaries-freelance-clients" class="text-teal-400 hover:text-teal-300 underline">Setting Boundaries</a> — Managing client expectations and availability</li>
+        <li><a href="/blog/working-from-home-tax-deductions-australia" class="text-teal-400 hover:text-teal-300 underline">Home Office Deductions</a> — Claiming your workspace properly</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional VA invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-interior-designers-australia': {
+    slug: 'invoicing-interior-designers-australia',
+    title: 'How to Invoice as a Freelance Interior Designer in Australia (2026)',
+    excerpt: 'Complete invoicing guide for freelance interior designers in Australia — design fees, procurement markup, project management charges, trade discounts, and specification documentation.',
+    category: 'Invoicing',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Interior Designer in Australia | 2026 Guide',
+    seoDescription: 'Freelance interior designer invoicing guide for Australia. Design fees, procurement markup, trade discounts, project management charges, consultation pricing, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Interior design is a profession where invoicing is uniquely complex. You're not just billing for time — you're billing for design concepts, product procurement with trade markups, project management, site visits, and sometimes construction coordination. Getting your invoicing structure right is the difference between running a profitable practice and working for free on "revisions." This guide covers every invoicing scenario Australian interior designers face.</p>
+
+      <h2>Fee Structures for Interior Designers</h2>
+
+      <h3>1. Hourly / Per-Consultation Rates</h3>
+      <p>Best for initial consultations, small projects, and advisory work.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Experience Level</th>
+              <th class="py-3 px-4 text-teal-400">Hourly Rate (AUD)</th>
+              <th class="py-3 px-4 text-teal-400">Consultation Rate (2 hrs)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Graduate / Junior (0–3 yrs)</td><td class="py-3 px-4">$80–$120/hr</td><td class="py-3 px-4">$200–$300</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Mid-Level (3–7 yrs)</td><td class="py-3 px-4">$120–$180/hr</td><td class="py-3 px-4">$300–$500</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Senior / Specialist (7+ yrs)</td><td class="py-3 px-4">$180–$300/hr</td><td class="py-3 px-4">$500–$800</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">High-End / Award-Winning</td><td class="py-3 px-4">$300–$500+/hr</td><td class="py-3 px-4">$800–$1,500</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Initial consultations are often offered at a flat fee (not hourly) and may be credited toward the project fee if the client proceeds. Always clarify this on your invoice.</p>
+
+      <h3>2. Flat / Fixed Project Fees</h3>
+      <p>The most common model for defined projects. You quote a total design fee based on scope, and bill it in stages.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Project Type</th>
+              <th class="py-3 px-4 text-teal-400">Design Fee Range</th>
+              <th class="py-3 px-4 text-teal-400">Typical Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Single Room Refresh</td><td class="py-3 px-4">$2,000–$5,000</td><td class="py-3 px-4">4–8 weeks</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Full Home Styling / Staging</td><td class="py-3 px-4">$5,000–$15,000</td><td class="py-3 px-4">6–12 weeks</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Full Residential Interior</td><td class="py-3 px-4">$15,000–$80,000</td><td class="py-3 px-4">3–12 months</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">New Build (full design)</td><td class="py-3 px-4">$30,000–$150,000+</td><td class="py-3 px-4">6–18 months</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Commercial Fitout</td><td class="py-3 px-4">$20,000–$200,000+</td><td class="py-3 px-4">2–12 months</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>3. Percentage of Project Cost</h3>
+      <p>For large residential and commercial projects, some designers charge a percentage of the total project budget (furniture, fixtures, construction). This aligns the designer's fee with the project's scale.</p>
+      <ul>
+        <li><strong>Residential:</strong> 15–25% of total project spend (excluding construction)</li>
+        <li><strong>Commercial:</strong> 10–20% of total fitout cost</li>
+        <li><strong>Styling/staging:</strong> 20–30% of furniture and decor spend</li>
+      </ul>
+      <p>If using this model, define "total project spend" in your contract. Does it include construction? Appliances? Window treatments? Ambiguity here causes disputes.</p>
+
+      <h2>Milestone Payment Structure</h2>
+      <p>Never bill 100% on completion. Interior design projects span months — you need cash flow throughout.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-4">Recommended Payment Schedule (Full Interior Project)</h3>
+        <div class="space-y-3 text-slate-300 text-sm">
+          <p><strong>Stage 1 — Engagement (30%):</strong> Due on signing. Covers initial site measure, brief development, and concept design commencement. Non-refundable deposit.</p>
+          <p><strong>Stage 2 — Concept Approval (25%):</strong> Due when concept designs (mood boards, floor plans, 3D renders) are presented. This is the major creative milestone.</p>
+          <p><strong>Stage 3 — Detailed Design (25%):</strong> Due on approval of detailed specifications, FF&E schedule, and tender documents. You've now done the bulk of the design work.</p>
+          <p><strong>Stage 4 — Project Completion (20%):</strong> Due on final installation and handover. The smallest payment — you've already covered your costs.</p>
+        </div>
+      </div>
+
+      <h2>Procurement and Trade Markup</h2>
+      <p>This is where interior design invoicing gets interesting — and where significant revenue sits. When you source furniture, fixtures, and materials for clients, you typically receive a trade discount and charge the client a marked-up price.</p>
+
+      <h3>How Trade Pricing Works</h3>
+      <ul>
+        <li><strong>Trade discount:</strong> Suppliers give designers 20–40% off retail. Some offer up to 50% on volume orders</li>
+        <li><strong>Client markup:</strong> You sell to the client at retail (or close to it), keeping the margin. Example: A sofa retails at $4,000. You buy at trade for $2,800. Client pays $4,000. Your margin: $1,200</li>
+        <li><strong>Alternatively:</strong> Some designers buy at trade and add a flat procurement fee (10–20%) on top of the trade price. This is more transparent but yields lower margins</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Transparency vs. Margin: The Industry Debate</h3>
+        <p class="text-slate-300 text-sm">Some clients expect full cost transparency — they want to see the trade price and your markup. Others just want the total. There's no right answer, but pick your model and state it in your terms. <strong>Cost-plus model:</strong> "We procure items at trade pricing and add a 20% procurement and handling fee." <strong>Retail model:</strong> "Items are quoted at standard retail pricing, which includes our sourcing, ordering, and quality assurance services." Either way, include procurement revenue as a separate section on your invoice — don't bury it in the design fee.</p>
+      </div>
+
+      <h3>Invoicing for Procurement</h3>
+      <ul>
+        <li><strong>Separate procurement invoice:</strong> Keep procurement separate from design fees. This makes accounting cleaner and avoids disputes about what the design fee covers</li>
+        <li><strong>Deposits on furniture orders:</strong> Require 50% deposit before placing orders with suppliers. This protects you from clients changing their mind after you've committed to purchases</li>
+        <li><strong>Lead times:</strong> Note estimated delivery dates on the invoice. Clients need to understand that custom furniture can take 8–16 weeks</li>
+        <li><strong>Damage and returns:</strong> Your terms should specify that once ordered, custom items are non-refundable. Ex-stock items may be returnable subject to the supplier's policy (restocking fees of 15–25% are common)</li>
+      </ul>
+
+      <h2>What to Include on an Interior Design Invoice</h2>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Invoice Template — Interior Designer (Milestone + Procurement)</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>Studio Aria Interiors | ABN: 12 345 678 901</p>
+          <p>hello@studioaria.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>James & Rachel Wong | 42 Albert Street, South Melbourne VIC 3205</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #SAI-2026-007 | Date: 24 February 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">PROJECT: Wong Residence — Full Interior Design</p>
+          <p class="font-semibold text-slate-200 mt-3">DESIGN FEES</p>
+          <p>Stage 2 — Concept Design Approval (25%) ........ $8,750.00</p>
+          <p class="text-slate-400 text-xs pl-4">Concept boards, floor plans, 3D visualisations (3 rooms)</p>
+          <p class="font-semibold text-slate-200 mt-3">PROCUREMENT — DEPOSIT (50%)</p>
+          <p>Living Room: Jardan Nook Sofa (custom fabric) ... $3,200.00</p>
+          <p>Living Room: Cult Design Arc Floor Lamp .......... $895.00</p>
+          <p>Dining: Mark Tuckey Dining Table (2400mm) ....... $2,750.00</p>
+          <p>Dining: 6x Thonet No. 214 Chairs .............. $2,100.00</p>
+          <p class="text-slate-400 text-xs pl-4">50% deposit. Balance due on delivery. ETA 10–12 weeks.</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal ....................................... $17,695.00</p>
+          <p>GST (10%) ....................................... $1,769.50</p>
+          <p class="font-bold text-white">AMOUNT DUE .................................... $19,464.50</p>
+          <p class="text-slate-400 mt-2">Payment: Due 10 March 2026 | Bank: ANZ | BSB: 013-000 | Acc: 9876 5432</p>
+        </div>
+      </div>
+
+      <h2>Revision and Variation Policies</h2>
+      <p>Interior design involves constant client feedback. Without clear revision policies, you'll redesign rooms for free.</p>
+      <ul>
+        <li><strong>Include 2 rounds of revisions</strong> per design stage in your quoted fee. Additional revisions are billed at your hourly rate</li>
+        <li><strong>Define what counts as a "revision":</strong> Changing a fabric colour = revision. Redesigning the entire layout after concept approval = variation (new scope, new quote)</li>
+        <li><strong>Variations:</strong> If the client changes the brief after concept approval (e.g., "actually, let's knock out that wall"), issue a formal variation quote. Don't absorb new scope into the existing fee</li>
+        <li><strong>Rush fees:</strong> If a client needs designs faster than your standard timeline, charge 25–50% on top. Your other clients' work gets delayed to accommodate the rush</li>
+      </ul>
+
+      <h2>Site Visit Charges</h2>
+      <ul>
+        <li><strong>Initial consultation visit:</strong> Usually included in consultation fee or credited to project fee</li>
+        <li><strong>Site measures:</strong> Included in design fee for local projects. For regional/interstate projects, charge travel at cost plus a day rate</li>
+        <li><strong>Construction monitoring visits:</strong> If you're overseeing builders, charge per visit ($200–$500/visit) or include a set number of visits in the project fee. Additional visits billed separately</li>
+        <li><strong>Installation / styling day:</strong> Your time on installation day is part of the final project stage. But if the client requests additional styling sessions after handover, bill at your hourly rate</li>
+      </ul>
+
+      <h2>GST for Interior Designers</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover. A mid-level designer doing 3–4 projects per year typically hits this quickly</li>
+        <li>Design fees: GST applies to all Australian clients for design services</li>
+        <li>Procurement: GST applies to the full amount you charge the client for items — not just your markup. If you sell a $4,000 sofa to a client, you charge GST on $4,000. You claim GST credits on what you paid the supplier ($2,800 in our example)</li>
+        <li>International clients: Design services for overseas properties may be GST-free exports, but the items you procure and deliver in Australia still attract GST</li>
+        <li>Deposits: GST is payable when you receive the deposit, not when the project completes. This affects your BAS timing</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes Interior Designers Make</h2>
+      <ol>
+        <li><strong>Not separating design fees from procurement:</strong> Lumping everything into one line item creates confusion and makes it impossible to track profitability on design work vs. product sourcing</li>
+        <li><strong>No deposit on procurement:</strong> Never order $20,000 of furniture without a deposit. If the client pulls out, you're stuck with custom items. Minimum 50% before orders are placed</li>
+        <li><strong>Free concept work:</strong> "I'll just show you some ideas and we'll go from there" is a recipe for giving away your most valuable creative output. Charge for concept design — it's the core of your expertise</li>
+        <li><strong>Not billing for project management:</strong> If you're coordinating trades, managing timelines, and attending site meetings, that's project management. Either include it explicitly in your fee or bill it separately. Don't do it for free</li>
+        <li><strong>Unclear revision limits:</strong> "We'll work together until you're happy" sounds generous but leads to unlimited revisions. State revision rounds in the contract and on the invoice</li>
+        <li><strong>Not accounting for procurement GST correctly:</strong> If you buy a lamp for $500+GST from a supplier and sell it to a client for $800+GST, your BAS needs to reflect the GST on both transactions. Many designers get this wrong and overpay or underpay GST</li>
+      </ol>
+
+      <h2>Interior Design Tax Deductions</h2>
+      <ul>
+        <li><strong>Sample library:</strong> Fabric swatches, tile samples, paint decks, material samples — all deductible business expenses. These can add up to $2,000–$5,000/yr for active designers</li>
+        <li><strong>Design software:</strong> AutoCAD ($2,500/yr), SketchUp Pro ($530/yr), Enscape/Lumion ($500–$1,500/yr), Adobe Creative Suite ($900/yr), Canva Pro — all fully deductible</li>
+        <li><strong>Trade show and supplier visits:</strong> Denfair, ICFF, Milan Furniture Fair — registration, flights, accommodation, and meals during the event are deductible</li>
+        <li><strong>DIA membership:</strong> Design Institute of Australia membership ($300–$600/yr) — fully deductible professional membership</li>
+        <li><strong>Photography:</strong> Professional photography of completed projects for your portfolio — photographer's fee and any styling costs are deductible marketing expenses</li>
+        <li><strong>Vehicle expenses:</strong> Driving to site visits, supplier showrooms, and client meetings — 88c/km or logbook method. Interior designers with multiple projects do a lot of driving</li>
+        <li><strong>Insurance:</strong> Professional indemnity ($500–$1,500/yr) and public liability ($300–$800/yr) — both fully deductible</li>
+        <li><strong>Home studio:</strong> If you work from a dedicated home studio, claim the space as a home office deduction (fixed rate 67c/hr or actual cost method)</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Milestone Payments</a> — Structuring deposits and progress payments</li>
+        <li><a href="/blog/how-to-quote-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">Quoting Clients</a> — Creating quotes that convert to projects</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">Scope Creep</a> — Managing design changes and variations</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP & Design Rights</a> — Protecting your design concepts</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle & Travel Expenses</a> — Claiming site visit travel</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional design invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-electricians-tradespeople-australia': {
+    slug: 'invoicing-electricians-tradespeople-australia',
+    title: 'How to Invoice as a Freelance Electrician or Tradesperson in Australia (2026)',
+    excerpt: 'Complete invoicing guide for freelance electricians and tradespeople in Australia — labour rates, materials markup, call-out fees, quote-to-invoice workflow, and compliance certificates.',
+    category: 'Invoicing',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Electrician or Tradesperson in Australia | 2026 Guide',
+    seoDescription: 'Freelance electrician and tradesperson invoicing guide for Australia. Labour rates, materials markup, call-out fees, quote-to-invoice process, compliance certificates, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Trade work invoicing is fundamentally different from service-based freelancing. You're billing for labour AND materials, often on the same invoice. You need to handle call-out fees, quote variations, compliance certificates, and materials markup — all while meeting ATO requirements. Whether you're an electrician, plumber, carpenter, painter, or any other trade, this guide covers how to invoice professionally and protect your margins.</p>
+
+      <h2>Pricing Models for Tradespeople</h2>
+
+      <h3>Hourly Rate (Time and Materials)</h3>
+      <p>The most common model for repair work, maintenance, and smaller jobs where scope is uncertain.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Trade</th>
+              <th class="py-3 px-4 text-teal-400">Hourly Rate (AUD)</th>
+              <th class="py-3 px-4 text-teal-400">Call-Out Fee</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Electrician</td><td class="py-3 px-4">$80–$130/hr</td><td class="py-3 px-4">$80–$150</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Plumber</td><td class="py-3 px-4">$80–$140/hr</td><td class="py-3 px-4">$80–$160</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Carpenter / Builder</td><td class="py-3 px-4">$70–$120/hr</td><td class="py-3 px-4">$60–$120</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Painter</td><td class="py-3 px-4">$50–$90/hr</td><td class="py-3 px-4">$50–$100</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">HVAC / Air Con</td><td class="py-3 px-4">$90–$150/hr</td><td class="py-3 px-4">$100–$180</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Locksmith</td><td class="py-3 px-4">$80–$120/hr</td><td class="py-3 px-4">$80–$150</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Call-Out Fees: Always Charge Them</h3>
+        <p class="text-slate-300 text-sm">A call-out fee covers your travel time, fuel, and the opportunity cost of not being on another job. It's typically the first hour of work (minimum charge) or a flat fee. <strong>Always state the call-out fee before arriving.</strong> If the client objects, they're not your client. Every minute you spend travelling to a $0 quote is a minute you're not earning. Some tradies credit the call-out fee toward the job if the client proceeds — this is a good incentive but make it explicit in your quote.</p>
+      </div>
+
+      <h3>Fixed Quote (Per Job)</h3>
+      <p>Better for defined projects where you can assess scope upfront. Clients prefer fixed quotes because they know the total cost.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Job Type (Electrical Examples)</th>
+              <th class="py-3 px-4 text-teal-400">Fixed Price Range</th>
+              <th class="py-3 px-4 text-teal-400">Includes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Install power point</td><td class="py-3 px-4">$150–$300</td><td class="py-3 px-4">Labour + standard GPO + wiring to nearest circuit</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Install downlights (per light)</td><td class="py-3 px-4">$80–$150</td><td class="py-3 px-4">Labour + LED downlight + wiring</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Switchboard upgrade</td><td class="py-3 px-4">$1,500–$4,000</td><td class="py-3 px-4">New board, safety switches, RCDs, testing, certificate</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Full house rewire</td><td class="py-3 px-4">$8,000–$20,000</td><td class="py-3 px-4">All wiring, points, board, testing, certificates</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">EV charger installation</td><td class="py-3 px-4">$1,500–$3,500</td><td class="py-3 px-4">Charger unit, dedicated circuit, board upgrade if needed</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Solar panel install (6.6kW)</td><td class="py-3 px-4">$5,000–$9,000</td><td class="py-3 px-4">Panels, inverter, mounting, wiring, testing, CEC paperwork</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Day Rates</h3>
+      <p>For larger jobs spanning multiple days, a day rate simplifies billing. Typical day rates:</p>
+      <ul>
+        <li><strong>Electrician:</strong> $600–$900/day (8-hour day)</li>
+        <li><strong>Plumber:</strong> $600–$1,000/day</li>
+        <li><strong>Carpenter:</strong> $500–$800/day</li>
+        <li><strong>Painter:</strong> $400–$650/day</li>
+      </ul>
+      <p>Day rates are materials-exclusive — materials are billed on top. Always clarify this on the quote.</p>
+
+      <h2>Materials Markup</h2>
+      <p>You buy materials from wholesalers (Middy's, Reece, Bunnings Trade, etc.) at trade pricing. The markup you add is a legitimate part of your revenue — it covers your time sourcing, transporting, and guaranteeing materials.</p>
+
+      <h3>Standard Markup Rates</h3>
+      <ul>
+        <li><strong>Standard materials (wire, pipe, fixings):</strong> 15–30% markup on trade price</li>
+        <li><strong>Fixtures and fittings (switches, taps, lights):</strong> 20–40% markup</li>
+        <li><strong>Specialist or custom-order items:</strong> 25–50% markup (higher due to sourcing time and risk)</li>
+        <li><strong>Consumables (tape, silicone, screws):</strong> Often included in the labour rate, not itemised</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Itemise or Lump Sum?</h3>
+        <p class="text-slate-300 text-sm">Some tradies list every material with a price. Others show "Materials — $X" as a single line. <strong>Best practice:</strong> List major items individually (switchboard, hot water unit, fixtures) with prices. Lump small consumables into a single "Sundry materials" line. This gives transparency on the big-ticket items while keeping the invoice clean. If a client supplies their own materials, adjust your quote — but note that you don't warranty materials you didn't supply.</p>
+      </div>
+
+      <h2>The Quote-to-Invoice Workflow</h2>
+      <p>For tradespeople, the quote IS the proto-invoice. A professional workflow:</p>
+      <ol>
+        <li><strong>Site visit / assessment:</strong> Inspect the job, note scope, take photos. Charge a call-out fee for this visit</li>
+        <li><strong>Issue written quote:</strong> Itemise labour (hours or fixed), materials, call-out fee, and total. State validity period (30 days is standard)</li>
+        <li><strong>Client acceptance:</strong> Get written acceptance (email is fine). For jobs over $5,000, a signed quote or simple contract is recommended</li>
+        <li><strong>Deposit invoice:</strong> For larger jobs ($2,000+), invoice a deposit (30–50%) before starting. This covers your materials outlay</li>
+        <li><strong>Variations:</strong> If the scope changes during the job (e.g., you open a wall and find asbestos, or the client adds extra power points), issue a variation quote before proceeding. Get written approval</li>
+        <li><strong>Final invoice:</strong> On completion, issue the invoice matching the accepted quote (plus any approved variations). Attach compliance certificates</li>
+      </ol>
+
+      <h2>What to Include on a Trade Invoice</h2>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Invoice Template — Electrician (Fixed Quote)</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>Sparks Electrical Services | ABN: 12 345 678 901 | Lic: EC 012345</p>
+          <p>mike@sparkselectrical.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>David & Lisa Chen | 18 Banksia Drive, Doncaster VIC 3108</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #SE-2026-041 | Date: 24 February 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">JOB: Switchboard Upgrade + Downlight Installation</p>
+          <p class="text-slate-400 text-xs">Quote ref: Q-2026-028 (accepted 10 Feb 2026)</p>
+          <p class="font-semibold text-slate-200 mt-3">LABOUR</p>
+          <p>Switchboard upgrade (remove old, install new) .... $850.00</p>
+          <p>Install 12x LED downlights (kitchen + living) .... $960.00</p>
+          <p>Testing and commissioning ........................ $150.00</p>
+          <p class="font-semibold text-slate-200 mt-3">MATERIALS</p>
+          <p>Clipsal MAX9 18-pole switchboard ................. $420.00</p>
+          <p>4x Clipsal RCD safety switches ................... $320.00</p>
+          <p>12x Philips 10W LED downlights (warm white) ...... $384.00</p>
+          <p>12x Downlight frames (white, IC-4 rated) ......... $192.00</p>
+          <p>Cabling, connectors, sundry materials ............ $165.00</p>
+          <p class="font-semibold text-slate-200 mt-3">LESS: DEPOSIT RECEIVED</p>
+          <p>Deposit paid 12 Feb 2026 ........................ -$1,000.00</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal ........................................ $2,441.00</p>
+          <p>GST (10%) ........................................ $244.10</p>
+          <p class="font-bold text-white">BALANCE DUE .................................... $2,685.10</p>
+          <p class="text-slate-400 mt-2">Payment: Due on completion | Bank: NAB | BSB: 083-004 | Acc: 1234 5678</p>
+          <p class="text-slate-400">Certificate of Compliance attached (COES #EC-2026-3847)</p>
+        </div>
+      </div>
+
+      <h3>Essential Invoice Elements for Tradespeople</h3>
+      <ul>
+        <li><strong>Licence number:</strong> Always include your trade licence number on every invoice and quote. It's a legal requirement in most states and builds trust</li>
+        <li><strong>Quote reference:</strong> Link the invoice back to the accepted quote. If there are variations, list them separately with their own approval dates</li>
+        <li><strong>Labour and materials separated:</strong> ATO requires clear distinction between labour and materials for tax purposes. Clients also expect this breakdown</li>
+        <li><strong>Deposit credit:</strong> If a deposit was paid, show it as a credit on the final invoice so the client sees the remaining balance</li>
+        <li><strong>Compliance certificates:</strong> For electrical work (Certificate of Electrical Safety / Compliance), plumbing (Compliance Certificate), and gas work — attach to the invoice or reference the certificate number</li>
+        <li><strong>Warranty information:</strong> State your warranty terms. Typically: 12 months on workmanship, manufacturer's warranty on materials</li>
+      </ul>
+
+      <h2>After-Hours and Emergency Rates</h2>
+      <p>Emergency call-outs are a significant revenue source for electricians and plumbers. Charge accordingly:</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Time Period</th>
+              <th class="py-3 px-4 text-teal-400">Rate Multiplier</th>
+              <th class="py-3 px-4 text-teal-400">Typical Call-Out</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Standard hours (7am–5pm Mon–Fri)</td><td class="py-3 px-4">1x (standard rate)</td><td class="py-3 px-4">$80–$150</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">After hours (5pm–10pm weekdays)</td><td class="py-3 px-4">1.5x</td><td class="py-3 px-4">$150–$250</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Saturday</td><td class="py-3 px-4">1.5x</td><td class="py-3 px-4">$150–$250</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Sunday</td><td class="py-3 px-4">2x</td><td class="py-3 px-4">$200–$350</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Emergency (10pm–7am, public holidays)</td><td class="py-3 px-4">2x–3x</td><td class="py-3 px-4">$250–$500</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Always confirm the after-hours rate with the customer before dispatching. "Our emergency call-out fee is $300, plus labour at $180/hr and materials at cost. Shall I proceed?" Get verbal confirmation and note it.</p>
+
+      <h2>Invoicing for Builders and Property Managers</h2>
+      <p>If you do subcontract or maintenance work for builders, property managers, or body corporates, the invoicing dynamics change:</p>
+      <ul>
+        <li><strong>Payment terms:</strong> 14–30 days (not on completion). Builders are notoriously slow payers — negotiate net 14 where possible</li>
+        <li><strong>Purchase orders:</strong> Many property managers require a PO number before work begins. Include it on your invoice — invoices without POs often get rejected</li>
+        <li><strong>Margin pressure:</strong> Builders expect trade rates (lower than retail). Set your "trade rate" for repeat commercial clients, but don't go below your minimum profitable rate</li>
+        <li><strong>Progress claims:</strong> For larger jobs (renovations, new builds), invoice in stages based on work completed. Match the builder's progress claim schedule if subcontracting</li>
+        <li><strong>Retention:</strong> Some builders hold 5–10% retention for 3–12 months. Factor this into your cash flow. Invoice the retention release separately when the defects period ends</li>
+      </ul>
+
+      <h2>GST for Tradespeople</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover. Most full-time tradies hit this within months of going solo</li>
+        <li>Labour: GST applies to all labour charges for Australian clients</li>
+        <li>Materials: GST applies to the full amount you charge the client (including your markup). You claim GST credits on what you paid the supplier</li>
+        <li>Call-out fees: GST applies — it's part of your supply of services</li>
+        <li>New residential construction: Special rules — if the client is a builder doing new residential construction, they issue you a Recipient Created Tax Invoice (RCTI) in some cases</li>
+        <li>Mixed supplies: If you install a hot water system (goods + services), the entire supply is subject to GST. Don't try to split it</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Taxable Payments Annual Report (TPAR)</h3>
+        <p class="text-slate-300 text-sm">If you pay subcontractors (e.g., you're a builder paying subbies), you MUST lodge a Taxable Payments Annual Report (TPAR) with the ATO by 28 August each year. This reports all payments to contractors in the building and construction industry. Keep records of every subbie payment — ABN, amount, GST. Failure to lodge can result in penalties.</p>
+      </div>
+
+      <h2>Common Invoicing Mistakes Tradespeople Make</h2>
+      <ol>
+        <li><strong>No written quote before starting:</strong> Verbal agreements lead to disputes. Always issue a written quote — even for small jobs. A quick quote via email or trade software (ServiceM8, Tradify) takes 5 minutes and protects you</li>
+        <li><strong>Not charging for travel:</strong> If a job is 45 minutes away, that's 1.5 hours of travel (round trip) you're not billing. Include a call-out fee or travel charge for jobs beyond your standard radius (usually 15–25km)</li>
+        <li><strong>Underpricing materials:</strong> Selling materials at cost means you're providing free sourcing, transport, and warranty service. Always add a markup — 20–30% minimum</li>
+        <li><strong>No deposit on big jobs:</strong> Starting a $5,000 job without a deposit means you're financing the client's project. Get 30–50% upfront for jobs over $2,000</li>
+        <li><strong>Forgetting to invoice variations:</strong> Client asked for 3 extra power points during the job? If you don't add them to the invoice, you've done them for free. Track every variation</li>
+        <li><strong>Not including licence numbers:</strong> In most states, invoices and quotes must show your contractor licence or registration number. Missing this can void insurance coverage</li>
+        <li><strong>Delayed invoicing:</strong> Invoice on the day you finish the job. Every day you delay reduces the chance of getting paid promptly. Same-day invoicing (from your phone using trade software) is the standard</li>
+      </ol>
+
+      <h2>Trade-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Tools and equipment:</strong> Hand tools, power tools, testing equipment (multimeters, thermal cameras), ladders — instant asset write-off for items under $20,000. Repairs to tools are also deductible</li>
+        <li><strong>Vehicle expenses:</strong> Work ute or van — running costs (fuel, rego, insurance, servicing) via logbook method or 88c/km. If the vehicle is used exclusively for work, 100% of costs are deductible. If mixed use, keep a logbook</li>
+        <li><strong>Trade licence fees:</strong> Electrical licence renewal ($200–$400/yr depending on state), plumbing licence, builder registration — all fully deductible</li>
+        <li><strong>Insurance:</strong> Public liability ($500–$2,000/yr), professional indemnity, tool insurance, income protection — all deductible</li>
+        <li><strong>PPE and work clothing:</strong> Steel-capped boots, high-vis, hard hats, safety glasses, sun protection — fully deductible. Plain clothing (even if worn only for work) is NOT deductible unless it has your business branding</li>
+        <li><strong>Trade software:</strong> ServiceM8, Tradify, Fergus, Simpro, Xero — monthly subscriptions fully deductible</li>
+        <li><strong>Continuing education:</strong> Trade courses, licence upgrades, safety tickets (working at heights, confined spaces, asbestos awareness) — fully deductible</li>
+        <li><strong>Phone and mobile data:</strong> Essential for a tradie receiving calls and sending quotes on the go. Business-use percentage is deductible</li>
+        <li><strong>Consumables:</strong> Tape, screws, silicone, cable ties, drill bits — small but constant expenses. Keep receipts and claim them</li>
+      </ul>
+
+      <h2>Choosing Trade Invoicing Software</h2>
+      <p>Generic invoicing software works, but trade-specific platforms offer features designed for your workflow:</p>
+      <ul>
+        <li><strong>ServiceM8:</strong> Popular with Australian tradies. Quote → job → invoice workflow, GPS tracking, online booking, from $29/mo</li>
+        <li><strong>Tradify:</strong> NZ-made, popular in AU. Job management + invoicing, strong scheduling features, from $35/mo</li>
+        <li><strong>Fergus:</strong> More comprehensive (estimating, timesheets, margins), suited to larger operations, from $49/mo</li>
+        <li><strong>InvoiceFlow:</strong> Lightweight and fast — if you need clean invoicing without the complexity of full job management, this is the simple option</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Progress Payments</a> — Structuring deposits for larger jobs</li>
+        <li><a href="/blog/how-to-quote-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">Quoting Clients</a> — Writing quotes that win work and protect margins</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Full GST guide for sole traders and contractors</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle Expenses</a> — Claiming your work vehicle properly</li>
+        <li><a href="/blog/non-paying-clients-legal-options-australia" class="text-teal-400 hover:text-teal-300 underline">Non-Paying Clients</a> — Legal options when clients don't pay</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional trade invoices instantly</li>
+      </ul>
+    `,
+  },
 };
