@@ -19623,4 +19623,630 @@ Yours sincerely,
       </ul>
     `,
   },
+
+  'invoicing-consultants-australia': {
+    slug: 'invoicing-consultants-australia',
+    title: 'How to Invoice as a Freelance Consultant in Australia (2026)',
+    excerpt: 'Complete invoicing guide for freelance consultants in Australia — day rates, retainer structures, project fees, travel billing, IP clauses, and getting paid on time.',
+    category: 'Invoicing',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Consultant in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance consultant invoicing guide. Day rates, retainer models, project pricing, travel and expense billing, GST, IP considerations, and invoice templates.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Consulting is one of the highest-value freelance professions in Australia — management consultants, IT consultants, HR advisors, and strategy specialists regularly command day rates of $1,000–$3,000+. But the invoicing is more complex than most professions. This guide covers everything Australian freelance consultants need to invoice professionally, structure retainers, bill travel correctly, and protect their intellectual property.</p>
+
+      <h2>Pricing Models for Consultants</h2>
+      <p>Most freelance consultants in Australia use one or a combination of these models:</p>
+
+      <h3>Day Rate (Most Common for Engagements)</h3>
+      <p>The industry standard for consulting engagements. You charge per day on-site or working on the client's project.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Consultant Level</th>
+              <th class="py-3 px-4 text-teal-400">Day Rate (ex GST)</th>
+              <th class="py-3 px-4 text-teal-400">Equivalent Hourly</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Junior / Associate (0–3 yrs)</td><td class="py-3 px-4">$600–$1,000</td><td class="py-3 px-4">$75–$125</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Mid-level (3–7 yrs)</td><td class="py-3 px-4">$1,000–$1,800</td><td class="py-3 px-4">$125–$225</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Senior / Principal (7–15 yrs)</td><td class="py-3 px-4">$1,800–$2,800</td><td class="py-3 px-4">$225–$350</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Partner / Expert (15+ yrs)</td><td class="py-3 px-4">$2,800–$5,000+</td><td class="py-3 px-4">$350–$625+</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Invoice structure: Bill fortnightly or monthly in arrears. Invoice should list dates worked and total days. A standard consulting day is 8 hours — anything beyond is overtime (typically 1.5× the equivalent hourly rate).</p>
+
+      <h3>Retainer (Ongoing Advisory)</h3>
+      <p>A fixed monthly fee for ongoing access and a defined scope of advisory work. Common structures:</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Retainer Tier</th>
+              <th class="py-3 px-4 text-teal-400">Monthly Fee</th>
+              <th class="py-3 px-4 text-teal-400">Includes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Advisory Lite</td><td class="py-3 px-4">$2,000–$4,000</td><td class="py-3 px-4">2–4 hours/month, email support, monthly check-in call</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Strategic Partner</td><td class="py-3 px-4">$5,000–$10,000</td><td class="py-3 px-4">1–2 days/month, board/exec access, document review</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Embedded Advisor</td><td class="py-3 px-4">$10,000–$25,000</td><td class="py-3 px-4">3–5 days/month, team workshops, strategy facilitation</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Invoice on the 1st of each month for that month's retainer. Unused hours do NOT roll over (this is critical — spell it out in the agreement).</p>
+
+      <h3>Project-Based (Fixed Fee)</h3>
+      <p>A single price for a defined deliverable. Common for strategy documents, audits, business cases, and process reviews.</p>
+      <ul>
+        <li><strong>Business process review:</strong> $5,000–$15,000</li>
+        <li><strong>Strategic plan / business case:</strong> $8,000–$25,000</li>
+        <li><strong>Market entry analysis:</strong> $10,000–$30,000</li>
+        <li><strong>Digital transformation roadmap:</strong> $15,000–$50,000</li>
+        <li><strong>Due diligence report:</strong> $10,000–$40,000</li>
+      </ul>
+      <p>Invoice structure: 40% upfront → 30% at draft delivery → 30% on final sign-off.</p>
+
+      <h2>What to Include on a Consulting Invoice</h2>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Invoice Template — Management Consultant</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>Apex Advisory | ABN: 12 345 678 901</p>
+          <p>james@apexadvisory.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>TechScale Pty Ltd | Level 12, 100 Collins Street, Melbourne VIC 3000</p>
+          <p>Attention: CFO — Sarah Mitchell</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #APX-2026-019 | Date: 24 February 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">CONSULTING SERVICES — Feb 10–21, 2026</p>
+          <p>Operating model review (8 days × $2,200) ..... $17,600.00</p>
+          <p class="text-slate-400 text-xs pl-4">On-site consulting: stakeholder interviews, process mapping, gap analysis</p>
+          <p>Workshop facilitation (1 day × $2,800) ........ $2,800.00</p>
+          <p class="text-slate-400 text-xs pl-4">Executive strategy workshop — full day with leadership team</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TRAVEL & EXPENSES</p>
+          <p>Return flights MEL→SYD (2 trips) ............... $680.00</p>
+          <p>Accommodation (4 nights × $220) ................. $880.00</p>
+          <p>Airport transfers & taxis ....................... $145.00</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal ........................................ $22,105.00</p>
+          <p>GST (10%) ........................................ $2,210.50</p>
+          <p class="font-bold text-white">AMOUNT DUE ..................................... $24,315.50</p>
+          <p class="text-slate-400 mt-2">Payment terms: 14 days | Bank: CBA | BSB: 063-456 | Acc: 9876 5432</p>
+          <p class="text-slate-400">PO Reference: TS-2026-0034</p>
+        </div>
+      </div>
+
+      <h3>Key Elements for Consulting Invoices</h3>
+      <ul>
+        <li><strong>Purchase order reference:</strong> Corporate clients almost always require a PO number. Include it on every invoice — missing PO numbers are the #1 reason consulting invoices get delayed</li>
+        <li><strong>Date range:</strong> Specify the period the invoice covers (e.g., "Feb 10–21, 2026")</li>
+        <li><strong>Days worked, not hours:</strong> Senior consultants bill days, not hours. List total days and the day rate. Only use hourly if the client specifically requested it</li>
+        <li><strong>Separate travel and expenses:</strong> Never bundle travel into your day rate. It should be a separate section with receipts available on request</li>
+        <li><strong>Attention line:</strong> Address invoices to the person who approves payment, not just the project contact</li>
+        <li><strong>Deliverable descriptions:</strong> Brief descriptions of what was done — this helps the client's finance team approve the invoice without chasing the project manager</li>
+      </ul>
+
+      <h2>Travel and Expense Billing</h2>
+      <p>Travel billing is where consulting invoices get complicated. Set clear terms upfront.</p>
+
+      <h3>What You Can Bill</h3>
+      <ul>
+        <li><strong>Flights:</strong> Economy for domestic, economy or premium economy for international (unless client policy says otherwise). Book in advance for best rates</li>
+        <li><strong>Accommodation:</strong> Reasonable business hotels. Most Australian corporate policies cap at $220–$350/night depending on city. Sydney/Melbourne are at the higher end</li>
+        <li><strong>Ground transport:</strong> Airport transfers, taxis, Uber — keep receipts for everything over $10</li>
+        <li><strong>Per diem / meals:</strong> Either charge actuals (with receipts) or agree on a daily meal allowance ($60–$80/day is typical in Australian consulting)</li>
+        <li><strong>Parking:</strong> Airport parking, client-site parking. ATO reasonable amount for 2025-26 is up to $10.40/day for employer-provided parking (benchmark)</li>
+        <li><strong>Vehicle (own car):</strong> ATO rate is 88 cents per km for 2025-26 (up to 5,000 km). Over 5,000 km, use the logbook method for greater accuracy</li>
+      </ul>
+
+      <h3>Travel Billing Best Practice</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Travel Clause</h3>
+        <p class="text-slate-300 text-sm">Include this in your engagement letter: "Travel expenses incurred in connection with the engagement will be invoiced at cost, plus GST where applicable. Flights and accommodation will be booked in line with [Client]'s travel policy, or at reasonable business rates. Receipts available on request." This prevents disputes later.</p>
+      </div>
+
+      <h3>Travel Day Billing</h3>
+      <p>A common question: do you charge for travel days?</p>
+      <ul>
+        <li><strong>Travel day = full billing day</strong> if the client requires you to travel during business hours (e.g., 7am flight to be on-site by 10am)</li>
+        <li><strong>Travel day = half day</strong> if travel is outside business hours (e.g., evening flight)</li>
+        <li><strong>No charge</strong> if you travel the night before and it doesn't impact your regular work</li>
+      </ul>
+      <p>Whatever your policy, agree on it before the first invoice.</p>
+
+      <h2>Retainer Invoicing Mechanics</h2>
+      <p>Retainers need careful structure to avoid scope creep:</p>
+      <ol>
+        <li><strong>Invoice on the 1st:</strong> Send the retainer invoice on the 1st of the month (or first business day) for that month's services</li>
+        <li><strong>Define scope precisely:</strong> "Up to 2 days of advisory per month, including email support and one 90-minute strategic review call"</li>
+        <li><strong>Overage billing:</strong> Specify what happens when the client exceeds the included hours. Standard approach: "Additional consulting time beyond the retainer scope will be invoiced at $[X] per day / $[Y] per hour"</li>
+        <li><strong>No rollover:</strong> Unused hours expire at the end of the month. State this explicitly. Rollover creates a liability you don't want</li>
+        <li><strong>Minimum term:</strong> 3 months minimum is standard. Include a 30-day written notice clause for termination</li>
+      </ol>
+
+      <h2>Intellectual Property Considerations</h2>
+      <p>Consulting deliverables often contain valuable IP. Your invoicing terms should reflect this.</p>
+
+      <h3>Standard Approach (Client Owns Deliverables)</h3>
+      <p>Most consulting engagements transfer ownership of deliverables to the client upon full payment. Your invoice should include: "Intellectual property rights in all deliverables produced under this engagement transfer to [Client] upon receipt of payment in full."</p>
+
+      <h3>Consultant Retains Methodology</h3>
+      <p>You transfer the specific deliverables, but retain ownership of your underlying frameworks, templates, and methodologies. This is critical — your methodology is your competitive advantage.</p>
+      <p>Invoice note: "Deliverables are custom work product for [Client]. Consultant retains all rights to pre-existing IP, frameworks, and methodologies used in producing the deliverables."</p>
+
+      <h3>Licence Model</h3>
+      <p>For proprietary tools, frameworks, or software you've developed, licence rather than transfer. This lets you use the same IP across multiple clients.</p>
+
+      <h2>GST for Consultants</h2>
+      <ul>
+        <li>Mandatory registration at $75K annual turnover — most consultants hit this within the first year</li>
+        <li>Consulting services to Australian clients: add 10% GST</li>
+        <li>Consulting services to overseas clients (B2B): generally GST-free export — but the client must be outside Australia AND the services must be consumed outside Australia</li>
+        <li>Travel expenses: claim GST credits on flights, accommodation, and meals (keep tax invoices)</li>
+        <li>If you subcontract other consultants: they invoice you with GST (if registered), you claim the credit, you invoice the client with GST</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes Consultants Make</h2>
+      <ol>
+        <li><strong>Missing PO numbers:</strong> Corporate accounts payable teams will reject invoices without a valid PO reference. Get it before you start</li>
+        <li><strong>Not separating travel from fees:</strong> Lumping travel into the day rate makes it harder for clients to approve and harder for you to claim GST credits</li>
+        <li><strong>Vague deliverable descriptions:</strong> "Consulting services — Feb 2026" tells the approver nothing. Be specific about what was done</li>
+        <li><strong>Not agreeing on payment terms upfront:</strong> Large corporates default to 30-day terms. Some push for 60 days. Negotiate before you start, not after your first invoice is ignored</li>
+        <li><strong>Retainer scope creep:</strong> If you don't track hours against the retainer, clients will slowly ask for more and more. Log your time even on retainer work</li>
+        <li><strong>Not invoicing promptly:</strong> Send invoices within 5 business days of the billing period ending. Late invoices signal disorganisation</li>
+        <li><strong>Forgetting overtime:</strong> If you worked 10-hour days, you should be billing 1.25 days, not 1 day. Track and bill accurately</li>
+      </ol>
+
+      <h2>Consultant-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Professional memberships:</strong> Australian Institute of Management (AIM), CMC-Australia, AICD — fully deductible</li>
+        <li><strong>CPD / training:</strong> Executive education, industry conferences, certifications (PMP, PRINCE2, Agile)</li>
+        <li><strong>Software:</strong> Microsoft 365, Notion, Miro, Zoom, project management tools</li>
+        <li><strong>Travel:</strong> Flights, accommodation, meals (50% deductible if no employer receipt), car expenses</li>
+        <li><strong>Home office:</strong> Proportional rent, electricity, internet — use the ATO fixed-rate method (67c/hr) or actual cost method</li>
+        <li><strong>Professional indemnity insurance:</strong> Essential for consultants, fully deductible ($1,000–$5,000/yr depending on coverage)</li>
+        <li><strong>Business clothing:</strong> Only if branded or uniform. Standard business wear (suits, shirts) is NOT deductible</li>
+        <li><strong>Client entertainment:</strong> 50% deductible for FBT purposes, but check current ATO rules as this area changes frequently</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Milestone Invoicing</a> — Structuring project-based payments</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle & Travel Expenses</a> — ATO rules for claiming travel</li>
+        <li><a href="/blog/freelance-retainer-pricing-guide-australia" class="text-teal-400 hover:text-teal-300 underline">Retainer Pricing Guide</a> — Building predictable income</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Essential clauses for consulting agreements</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP Rights Guide</a> — Protecting your consulting IP</li>
+        <li><a href="/blog/gst-registration-threshold-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">GST Registration Threshold</a> — When to register (most consultants should)</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-bookkeepers-bas-agents-australia': {
+    slug: 'invoicing-bookkeepers-bas-agents-australia',
+    title: 'How to Invoice as a Freelance Bookkeeper in Australia (2026)',
+    excerpt: 'Complete invoicing guide for freelance bookkeepers and BAS agents in Australia — per-entity pricing, retainer structures, BAS lodgement fees, software costs, and compliance.',
+    category: 'Invoicing',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Bookkeeper in Australia | 2026 Guide',
+    seoDescription: 'Freelance bookkeeper invoicing guide for Australia. Per-entity pricing, monthly retainers, BAS lodgement fees, software pass-throughs, TPB requirements, and invoice templates.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Freelance bookkeeping is one of the fastest-growing contractor professions in Australia — with over 60,000 registered BAS agents and growing demand from SMBs who can't justify a full-time hire. But bookkeeper invoicing has unique challenges: how to price per entity vs per hour, structuring BAS lodgement fees, passing through software costs, and navigating Tax Practitioners Board (TPB) requirements. This guide covers it all.</p>
+
+      <h2>Pricing Models for Bookkeepers</h2>
+      <p>Most successful freelance bookkeepers in Australia use a combination of these models:</p>
+
+      <h3>Monthly Retainer / Fixed Fee (Preferred)</h3>
+      <p>The gold standard for bookkeeping. Clients pay a fixed monthly amount for defined services. This gives you predictable income and the client predictable costs.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Client Type</th>
+              <th class="py-3 px-4 text-teal-400">Monthly Fee (ex GST)</th>
+              <th class="py-3 px-4 text-teal-400">Typical Scope</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Sole trader (simple)</td><td class="py-3 px-4">$200–$400</td><td class="py-3 px-4">Bank rec, GST coding, quarterly BAS</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Sole trader (complex)</td><td class="py-3 px-4">$400–$700</td><td class="py-3 px-4">Multiple income streams, payroll (1–3 staff), quarterly BAS</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Small Pty Ltd (5–20 staff)</td><td class="py-3 px-4">$700–$1,500</td><td class="py-3 px-4">Full bookkeeping, payroll, super, BAS, bank recs, AP/AR</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Medium Pty Ltd (20–50 staff)</td><td class="py-3 px-4">$1,500–$3,500</td><td class="py-3 px-4">Full service + management reports, cash flow forecasting</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Large / complex entity</td><td class="py-3 px-4">$3,500–$6,000+</td><td class="py-3 px-4">Multi-entity, intercompany, trust distributions, TPAR</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Invoice on the 1st of each month for that month's services. Most bookkeepers bill in advance (like rent), not in arrears.</p>
+
+      <h3>Hourly Rate</h3>
+      <p>Use hourly for ad-hoc cleanup work, catch-up bookkeeping, or new clients before you can quote a fixed fee.</p>
+      <ul>
+        <li><strong>Junior bookkeeper (0–2 years, no BAS agent):</strong> $45–$65/hr</li>
+        <li><strong>Experienced bookkeeper (2–5 years):</strong> $65–$90/hr</li>
+        <li><strong>Senior / BAS agent (5+ years, TPB registered):</strong> $90–$130/hr</li>
+        <li><strong>Specialist (payroll, trust accounting, construction):</strong> $120–$160/hr</li>
+      </ul>
+
+      <h3>Per-Transaction Pricing</h3>
+      <p>Some bookkeepers charge per transaction (bank feed entry, invoice raised, bill entered). This model works for very low-volume clients but creates perverse incentives — avoid it for ongoing relationships. Per-transaction rates: $0.50–$2.00 per coded transaction.</p>
+
+      <h2>BAS Lodgement Fees</h2>
+      <p>If you're a registered BAS agent (TPB registration), you can charge separately for BAS preparation and lodgement:</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">BAS Type</th>
+              <th class="py-3 px-4 text-teal-400">Fee Range (ex GST)</th>
+              <th class="py-3 px-4 text-teal-400">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Quarterly BAS (simple)</td><td class="py-3 px-4">$100–$200</td><td class="py-3 px-4">Sole trader, basic GST + PAYG withholding</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Quarterly BAS (complex)</td><td class="py-3 px-4">$200–$450</td><td class="py-3 px-4">Pty Ltd, fuel tax credits, PAYG instalments, wine equalisation</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Monthly BAS</td><td class="py-3 px-4">$150–$350</td><td class="py-3 px-4">For clients with $20M+ annual turnover (mandatory monthly)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">IAS (Instalment Activity Statement)</td><td class="py-3 px-4">$80–$150</td><td class="py-3 px-4">PAYG instalment only, no GST reporting</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">TPAR (Taxable Payments Annual Report)</td><td class="py-3 px-4">$150–$300</td><td class="py-3 px-4">Building & construction, cleaning, courier, IT services</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Pricing Strategy: Bundle or Separate?</h3>
+        <p class="text-slate-300 text-sm">Most bookkeepers include BAS in the monthly retainer (simpler for the client, more perceived value). Charge separately when: (1) the client only wants BAS and nothing else, (2) you're doing catch-up BAS for a new client, or (3) the BAS is unusually complex. The standalone BAS fee is your "menu price" — the bundled price in a retainer can be lower because the ongoing work makes preparation faster.</p>
+      </div>
+
+      <h2>What to Include on a Bookkeeping Invoice</h2>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Invoice Template — Freelance Bookkeeper</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>Emma's Bookkeeping Solutions | ABN: 12 345 678 901</p>
+          <p>Registered BAS Agent #12345678</p>
+          <p>emma@emmabooks.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>FreshBrew Coffee Pty Ltd | 88 Chapel Street, South Yarra VIC 3141</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #EB-2026-022 | Date: 1 March 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">BOOKKEEPING SERVICES — March 2026</p>
+          <p>Monthly bookkeeping retainer .................. $950.00</p>
+          <p class="text-slate-400 text-xs pl-4">Bank reconciliation, accounts payable/receivable, GST coding, payroll (6 staff), superannuation</p>
+          <p>BAS Q3 FY2025-26 (Jan–Mar) — preparation & lodgement ... $250.00</p>
+          <p class="text-slate-400 text-xs pl-4">GST, PAYG withholding, PAYG instalments</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">SOFTWARE (PASS-THROUGH)</p>
+          <p>Xero subscription (Business plan) .............. $82.00</p>
+          <p class="text-slate-400 text-xs pl-4">Client's Xero subscription billed through bookkeeper's partner account</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal ........................................ $1,282.00</p>
+          <p>GST (10%) ........................................ $128.20</p>
+          <p class="font-bold text-white">AMOUNT DUE ..................................... $1,410.20</p>
+          <p class="text-slate-400 mt-2">Payment terms: 7 days | Direct debit: Pre-authorised weekly</p>
+        </div>
+      </div>
+
+      <h3>Key Elements for Bookkeeper Invoices</h3>
+      <ul>
+        <li><strong>TPB registration number:</strong> If you're a registered BAS agent, include your registration number on every invoice. It's a legal requirement when providing BAS services</li>
+        <li><strong>Separate BAS fees:</strong> Even if bundled in a retainer, show BAS lodgement as a line item. It demonstrates value and is required for client deductibility claims</li>
+        <li><strong>Software pass-throughs:</strong> If you manage the client's accounting software subscription through your partner account, show it as a separate line item marked "pass-through"</li>
+        <li><strong>Period covered:</strong> Specify the month (for retainer) and quarter (for BAS)</li>
+        <li><strong>Payroll detail:</strong> Note number of staff paid — this helps justify pricing if the client adds employees</li>
+      </ul>
+
+      <h2>Software Pass-Through Billing</h2>
+      <p>Many bookkeepers manage their clients' accounting software subscriptions through partner programs (Xero Partner, MYOB Partner, QuickBooks ProAdvisor). This creates a pass-through billing arrangement.</p>
+
+      <h3>Three Approaches</h3>
+      <ol>
+        <li><strong>Client pays directly:</strong> The client subscribes to Xero/MYOB themselves. You just get partner access. Cleanest, but you lose the revenue and partner discount</li>
+        <li><strong>Pass-through at cost:</strong> You subscribe via your partner account (discounted), charge the client the full retail price, and pocket the difference. Common and fair — you're managing their subscription</li>
+        <li><strong>Bundled in retainer:</strong> Include the software cost in your monthly retainer. Simpler invoice but harder to adjust if software prices change</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Partner Program Revenue</h3>
+        <p class="text-slate-300 text-sm">Xero Partners get wholesale pricing (typically 30–50% off retail) for client subscriptions managed through the partner dashboard. On 20 clients at $82/mo retail with a 40% partner discount, that's $656/mo in software margin alone — legitimate revenue for managing the subscriptions, handling updates, and providing first-line support.</p>
+      </div>
+
+      <h2>Catch-Up Bookkeeping Pricing</h2>
+      <p>New clients often arrive with months (or years) of messy books. Catch-up work should be priced differently from ongoing work.</p>
+      <ul>
+        <li><strong>Simple catch-up (1–3 months behind):</strong> $500–$1,500 flat fee or hourly at your standard rate</li>
+        <li><strong>Moderate catch-up (3–12 months):</strong> $1,500–$5,000 — quote after reviewing the bank feeds</li>
+        <li><strong>Major cleanup (1–3 years, shoebox of receipts):</strong> $5,000–$15,000+ — always quote a range after a paid scoping session ($200–$300)</li>
+      </ul>
+      <p>Invoice catch-up work separately from ongoing retainers. Many bookkeepers offer a payment plan for large catch-up fees (e.g., 3 monthly instalments).</p>
+
+      <h2>Payroll Add-On Pricing</h2>
+      <p>Payroll is often the most time-sensitive part of bookkeeping. Price it accordingly:</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Employees</th>
+              <th class="py-3 px-4 text-teal-400">Monthly Fee</th>
+              <th class="py-3 px-4 text-teal-400">Includes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">1–5</td><td class="py-3 px-4">$150–$300</td><td class="py-3 px-4">Weekly/fortnightly pay runs, STP, super</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">6–15</td><td class="py-3 px-4">$300–$600</td><td class="py-3 px-4">Pay runs, STP, super, leave management</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">16–30</td><td class="py-3 px-4">$600–$1,200</td><td class="py-3 px-4">All above + award interpretation, overtime</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">30+</td><td class="py-3 px-4">$1,200+</td><td class="py-3 px-4">Custom quote — depends on award complexity</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Payroll should be a separate line item on your invoice, even if bundled into the retainer total. When the client hires more staff, you can adjust the payroll component without renegotiating the entire retainer.</p>
+
+      <h2>GST and Compliance for Bookkeepers</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover — most full-time freelance bookkeepers exceed this within 12 months</li>
+        <li>BAS services: You MUST be a registered BAS agent (TPB) to provide BAS services for a fee. Lodging BAS without registration is a criminal offence</li>
+        <li>Software pass-throughs are subject to GST — if you bill the client $82 for Xero and you're GST-registered, you add 10% GST on top ($90.20 total) and claim the GST credit on the amount you pay Xero</li>
+        <li>Professional indemnity insurance: Required by TPB for BAS agents. Minimum $1M cover is standard. Cost: $500–$2,000/yr depending on revenue and number of clients</li>
+        <li>CPE (Continuing Professional Education): TPB requires BAS agents to complete at least 45 hours of CPE over each 3-year registration period (minimum 10 hours per year)</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes Bookkeepers Make</h2>
+      <ol>
+        <li><strong>Underpricing ongoing work:</strong> New bookkeepers often set retainers too low and then feel trapped. Review pricing annually and adjust for scope changes</li>
+        <li><strong>Not pricing for complexity:</strong> A café with 3 staff and a construction company with 3 staff are NOT the same complexity. Price for entity complexity, not just transaction volume</li>
+        <li><strong>Billing in arrears:</strong> Bill in advance. If a client doesn't pay and you've already done the work, you're out both the time and the money</li>
+        <li><strong>No engagement letter:</strong> Every client should have a signed engagement letter that specifies services, fees, payment terms, and exclusions. The TPB requires this for BAS agents</li>
+        <li><strong>Absorbing software costs:</strong> Don't eat the Xero subscription. Either pass it through or factor it into your retainer</li>
+        <li><strong>Scope creep on "quick questions":</strong> Clients love asking "quick questions" that take 30 minutes to research. Set boundaries — include a reasonable amount of ad-hoc queries in the retainer, then bill separately</li>
+      </ol>
+
+      <h2>Bookkeeper-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Software subscriptions:</strong> Xero ($0–$82/mo own use), MYOB, QuickBooks, Receipt Bank/Dext, Hubdoc, deputy/workforce management tools</li>
+        <li><strong>TPB registration:</strong> BAS agent registration fee (currently $0 for individuals, but check — fees change)</li>
+        <li><strong>Professional indemnity insurance:</strong> Required and fully deductible</li>
+        <li><strong>CPE / training:</strong> Bookkeeping courses, software certifications (Xero Advisor, MYOB Partner), industry conferences (ABN, National Bookkeeping Conference)</li>
+        <li><strong>Professional memberships:</strong> Institute of Certified Bookkeepers (ICB), Australian Bookkeepers Network (ABN)</li>
+        <li><strong>Home office:</strong> Proportional rent, electricity, internet. Use ATO fixed-rate method (67c/hr) for simplicity</li>
+        <li><strong>Client meetings:</strong> Mileage (88c/km), parking, coffee (keep receipts over $10)</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/gst-registration-threshold-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">GST Registration Threshold</a> — When to register and voluntary vs mandatory</li>
+        <li><a href="/blog/freelance-retainer-pricing-guide-australia" class="text-teal-400 hover:text-teal-300 underline">Retainer Pricing Guide</a> — Structuring predictable monthly income</li>
+        <li><a href="/blog/recurring-invoicing-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Recurring Invoicing</a> — Automating monthly retainer billing</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Essential clauses for bookkeeping engagement letters</li>
+        <li><a href="/blog/ato-audit-guide-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">ATO Audit Guide</a> — Helping yourself (and your clients) stay audit-ready</li>
+        <li><a href="/blog/invoicing-expenses-reimbursements-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">Expense Invoicing</a> — Handling software pass-throughs correctly</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-personal-trainers-fitness-australia': {
+    slug: 'invoicing-personal-trainers-fitness-australia',
+    title: 'How to Invoice as a Freelance Personal Trainer in Australia (2026)',
+    excerpt: 'Complete invoicing guide for freelance personal trainers and fitness professionals in Australia — session pricing, pack structures, online coaching tiers, gym rent, and cancellation policies.',
+    category: 'Invoicing',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Personal Trainer in Australia | 2026 Guide',
+    seoDescription: 'Freelance personal trainer invoicing guide for Australia. Session rates, pack pricing, online coaching, gym rent arrangements, cancellation policies, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Personal training is one of Australia's fastest-growing freelance professions, with over 30,000 registered fitness professionals. Most PTs start by renting floor space at a gym and billing clients per session — but the invoicing gets more complex when you add session packs, online coaching, group training, corporate contracts, and cancellation policies. This guide covers how to structure your invoicing professionally from day one.</p>
+
+      <h2>Pricing Models for Personal Trainers</h2>
+
+      <h3>Per-Session Pricing</h3>
+      <p>The standard model. Most Australian PTs charge per session (typically 45–60 minutes).</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Session Type</th>
+              <th class="py-3 px-4 text-teal-400">Rate (ex GST)</th>
+              <th class="py-3 px-4 text-teal-400">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">1-on-1 (gym, 60 min)</td><td class="py-3 px-4">$70–$120</td><td class="py-3 px-4">Standard rate. Higher in CBD / premium gyms</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">1-on-1 (mobile/home, 60 min)</td><td class="py-3 px-4">$90–$150</td><td class="py-3 px-4">Premium for travel + equipment transport</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Semi-private (2–3 people)</td><td class="py-3 px-4">$50–$80 per person</td><td class="py-3 px-4">Higher total revenue per session</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Small group (4–8 people)</td><td class="py-3 px-4">$25–$45 per person</td><td class="py-3 px-4">Best revenue per hour if full</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Online 1-on-1 (video call, 45 min)</td><td class="py-3 px-4">$50–$90</td><td class="py-3 px-4">Lower overhead, scalable</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">30-min express session</td><td class="py-3 px-4">$50–$75</td><td class="py-3 px-4">Popular for time-poor clients — lunchtime sessions</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Rates vary significantly by location: Melbourne/Sydney CBD PTs typically charge 20–30% more than suburban or regional trainers.</p>
+
+      <h3>Session Pack Pricing (Recommended)</h3>
+      <p>Session packs are the best model for PT businesses — they lock in revenue upfront and improve client commitment. Standard discount: 10–20% off casual rates.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Pack</th>
+              <th class="py-3 px-4 text-teal-400">Sessions</th>
+              <th class="py-3 px-4 text-teal-400">Price (ex GST)</th>
+              <th class="py-3 px-4 text-teal-400">Per Session</th>
+              <th class="py-3 px-4 text-teal-400">Saving</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Casual</td><td class="py-3 px-4">1</td><td class="py-3 px-4">$100</td><td class="py-3 px-4">$100</td><td class="py-3 px-4">—</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Starter</td><td class="py-3 px-4">10</td><td class="py-3 px-4">$900</td><td class="py-3 px-4">$90</td><td class="py-3 px-4">10%</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Committed</td><td class="py-3 px-4">20</td><td class="py-3 px-4">$1,700</td><td class="py-3 px-4">$85</td><td class="py-3 px-4">15%</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Transformation</td><td class="py-3 px-4">50</td><td class="py-3 px-4">$4,000</td><td class="py-3 px-4">$80</td><td class="py-3 px-4">20%</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pack Expiry</h3>
+        <p class="text-slate-300 text-sm">Always set expiry dates on session packs. Standard: 10-pack expires in 15 weeks, 20-pack in 26 weeks, 50-pack in 12 months. Under Australian Consumer Law, you can't impose unreasonable expiry periods on unused sessions — but 50% buffer beyond the "intended" usage period is considered fair. Include the expiry date on the invoice and in writing.</p>
+      </div>
+
+      <h3>Online Coaching Packages</h3>
+      <p>Online coaching is where scalability happens — you're not trading time for money.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Tier</th>
+              <th class="py-3 px-4 text-teal-400">Monthly Fee</th>
+              <th class="py-3 px-4 text-teal-400">Includes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Program Only</td><td class="py-3 px-4">$150–$250/mo</td><td class="py-3 px-4">Custom training program, updated monthly. No live sessions</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Coaching</td><td class="py-3 px-4">$250–$450/mo</td><td class="py-3 px-4">Custom program + nutrition plan + weekly check-in (text/voice)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Premium</td><td class="py-3 px-4">$450–$800/mo</td><td class="py-3 px-4">Everything above + 2–4 live video sessions/month + unlimited messaging</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">VIP / Comp Prep</td><td class="py-3 px-4">$800–$1,500/mo</td><td class="py-3 px-4">Daily check-ins, comp prep protocol, posing coaching, peak week management</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Invoice online coaching monthly in advance. Use direct debit (GoCardless, Stripe) for automatic collection.</p>
+
+      <h2>What to Include on a PT Invoice</h2>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Invoice Template — Personal Trainer (Session Pack)</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>Jake Fitness | ABN: 12 345 678 901</p>
+          <p>jake@jakefitness.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>Sarah Thompson | 14 Beach Road, Brighton VIC 3186</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #JF-2026-038 | Date: 24 February 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">PERSONAL TRAINING — SESSION PACK</p>
+          <p>20-Session Pack (1-on-1, 60 min each) ........ $1,700.00</p>
+          <p class="text-slate-400 text-xs pl-4">Valid for 26 weeks from purchase date (expires 25 August 2026)</p>
+          <p class="text-slate-400 text-xs pl-4">Location: FitSpace Gym, Chapel Street, South Yarra</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal ........................................ $1,700.00</p>
+          <p>GST (10%) ........................................ $170.00</p>
+          <p class="font-bold text-white">AMOUNT DUE ..................................... $1,870.00</p>
+          <p class="text-slate-400 mt-2">Payment: Due on purchase | Bank: Westpac | BSB: 033-234 | Acc: 5678 1234</p>
+          <p class="text-slate-400">Or pay via: jakefitness.com.au/pay (card accepted)</p>
+        </div>
+      </div>
+
+      <h3>Key Elements for PT Invoices</h3>
+      <ul>
+        <li><strong>Pack expiry date:</strong> Always show the expiry date clearly on the invoice. This prevents disputes later</li>
+        <li><strong>Session count:</strong> For packs, show total sessions purchased. For individual sessions, list dates and times</li>
+        <li><strong>Location:</strong> Specify where sessions will take place (gym name, park, mobile/home)</li>
+        <li><strong>Cancellation policy reference:</strong> Include a brief note: "Subject to cancellation policy provided at sign-up"</li>
+        <li><strong>Payment method:</strong> Offer multiple options — bank transfer, card (Stripe/Square), and ideally a payment link</li>
+      </ul>
+
+      <h2>Cancellation and No-Show Policies</h2>
+      <p>This is the most important invoicing-adjacent policy for PTs. Without it, you'll lose thousands per year to late cancellations and no-shows.</p>
+
+      <h3>Standard Policy</h3>
+      <ul>
+        <li><strong>24+ hours notice:</strong> Full reschedule, no charge</li>
+        <li><strong>12–24 hours notice:</strong> 50% of session fee charged (or half a session deducted from pack)</li>
+        <li><strong>Less than 12 hours / no-show:</strong> Full session fee charged (or full session deducted from pack)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Enforcing Cancellation Fees</h3>
+        <p class="text-slate-300 text-sm">The hardest part isn't setting the policy — it's enforcing it. Get the policy signed before the first session. When a late cancellation happens, send a brief message: "Hey [Name], just a heads up that today's session was within the 12-hour window, so it'll be deducted from your pack per our agreement. Let's lock in a make-up time this week!" Professional, firm, friendly. If you waive it once, clients learn they can always cancel late.</p>
+      </div>
+
+      <h3>Invoicing Cancellation Fees</h3>
+      <p>For casual clients (not on packs), invoice cancellation fees separately:</p>
+      <ul>
+        <li>Send a short invoice titled "Late Cancellation Fee — [Date]"</li>
+        <li>Reference the cancellation policy they signed</li>
+        <li>Payment terms: immediate (due on receipt)</li>
+      </ul>
+      <p>For pack clients, simply deduct the session from their balance and send an updated session count.</p>
+
+      <h2>Gym Rent and Venue Arrangements</h2>
+      <p>How you pay for your training space affects your invoicing structure:</p>
+
+      <h3>Rent / Licence Fee</h3>
+      <ul>
+        <li><strong>Flat weekly rent:</strong> $100–$300/week for floor access during set hours. You keep 100% of session fees</li>
+        <li><strong>Revenue share:</strong> Gym takes 30–50% of your session fees. No upfront cost, but you earn less per session</li>
+        <li><strong>Per-session fee:</strong> $10–$25 per session to the gym. Works if you train few clients at that location</li>
+        <li><strong>No rent (outdoor/mobile):</strong> Train in parks (free, council permit may be needed) or at client's home (charge travel premium)</li>
+      </ul>
+
+      <h3>Invoicing Under Revenue Share</h3>
+      <p>If the gym collects payment from clients and pays you a share:</p>
+      <ul>
+        <li>The gym invoices the client directly</li>
+        <li>The gym pays you your share (you invoice the gym, or they issue a recipient-created tax invoice — RCTI)</li>
+        <li>Your invoice to the gym should show the gross session revenue and the gym's share as a deduction</li>
+      </ul>
+      <p>If you collect payment directly and pay the gym rent, you invoice the client normally and claim the gym rent as a business expense.</p>
+
+      <h2>Corporate / Workplace Training</h2>
+      <p>Corporate PT contracts are higher volume and lower per-session rates, but more predictable:</p>
+      <ul>
+        <li><strong>On-site group sessions:</strong> $150–$350 per session (45–60 min, up to 15 participants)</li>
+        <li><strong>Corporate wellness package:</strong> $1,500–$4,000/month (2–3 sessions per week + quarterly health assessments)</li>
+        <li><strong>One-off workshop:</strong> $500–$1,500 (2–3 hour wellness workshop)</li>
+      </ul>
+      <p>Invoice the company monthly with a PO number. Payment terms: 14–30 days (corporates are slower than individuals). Include: session dates, participant numbers, and session descriptions.</p>
+
+      <h2>GST for Personal Trainers</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover. A full-time PT doing 25+ sessions per week at $90 each hits $75K in about 8 months</li>
+        <li>Personal training sessions are NOT GST-free — they're standard-rated services</li>
+        <li>Session packs: GST applies to the full pack price at the time of purchase, not per session</li>
+        <li>Online coaching: GST applies to Australian clients. International clients may be GST-free (B2B export) — but this is rare for PTs</li>
+        <li>Gym rent: If the gym charges you GST on rent, claim the GST credit on your BAS</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Health Fund Rebates</h3>
+        <p class="text-slate-300 text-sm">Some health funds offer rebates for PT sessions — but ONLY if the trainer holds specific qualifications (usually a Certificate IV in Fitness + registration with Fitness Australia at Exercise Professional level or above). If you're eligible, register as a health fund provider. This is a selling point and affects your invoicing — health fund invoices need your provider number and the client's health fund details.</p>
+      </div>
+
+      <h2>Common Invoicing Mistakes PTs Make</h2>
+      <ol>
+        <li><strong>Not collecting upfront:</strong> Session packs should be paid in full before the first session. Individual sessions should be paid before or at the session — never after</li>
+        <li><strong>No written cancellation policy:</strong> Verbal agreements don't hold up. Get it signed. Include it in your client onboarding form</li>
+        <li><strong>Not tracking sessions:</strong> Keep a running log of sessions completed against packs. Send clients a balance update monthly</li>
+        <li><strong>Undercharging for mobile/home:</strong> If you travel to the client with equipment, you should charge 25–50% more than gym sessions. Your time, fuel, and equipment wear are real costs</li>
+        <li><strong>No expiry on packs:</strong> Without expiry, clients can buy a 10-pack and use it over 2 years. That's a scheduling liability and a cash flow problem</li>
+        <li><strong>Not separating revenue streams:</strong> Track income from 1-on-1, group, online coaching, and corporate separately. This tells you where your money actually comes from and where to focus</li>
+      </ol>
+
+      <h2>PT-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Gym rent / floor fees:</strong> Fully deductible business expense</li>
+        <li><strong>Equipment:</strong> Dumbbells, kettlebells, resistance bands, TRX, mats, bosu balls — fully deductible (instant asset write-off for items under $20,000)</li>
+        <li><strong>Fitness Australia registration:</strong> Annual registration ($149–$229/yr), fully deductible</li>
+        <li><strong>First aid & CPR:</strong> Required certification renewals, fully deductible</li>
+        <li><strong>CPD courses:</strong> Cert IV upgrades, specialisation courses (pre/post-natal, senior fitness, strength & conditioning), fully deductible</li>
+        <li><strong>Insurance:</strong> Public liability + professional indemnity ($300–$800/yr), fully deductible</li>
+        <li><strong>Software:</strong> PT management apps (PTminder, Trainerize, TrueCoach) — $30–$100/mo, fully deductible</li>
+        <li><strong>Branded clothing:</strong> If branded with your business logo (not generic gym wear), it's deductible. Plain activewear is NOT deductible even if you only wear it for work</li>
+        <li><strong>Vehicle expenses:</strong> Travel between training locations and to clients' homes — 88c/km or logbook method</li>
+        <li><strong>Nutrition supplements:</strong> Generally NOT deductible unless you're reselling them to clients as part of your business</li>
+        <li><strong>Your own gym membership:</strong> NOT deductible as a personal expense. But if you train clients there and the membership is a condition of floor access, argue it's a business cost</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Pack Invoicing</a> — Structuring upfront payments</li>
+        <li><a href="/blog/freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Setting Freelance Rates</a> — Pricing your sessions competitively</li>
+        <li><a href="/blog/gst-registration-threshold-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">GST Registration Threshold</a> — When to register</li>
+        <li><a href="/blog/recurring-invoicing-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Recurring Invoicing</a> — Automating online coaching payments</li>
+        <li><a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">Chasing Overdue Invoices</a> — Getting paid when clients dodge</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle & Travel Expenses</a> — Claiming travel between training locations</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
 };
