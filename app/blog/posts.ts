@@ -10771,4 +10771,926 @@ Best,
       </ul>
     `,
   },
+
+  'freelance-business-plan-australia': {
+    slug: 'freelance-business-plan-australia',
+    title: 'How to Write a Freelance Business Plan (Australia 2026 Guide)',
+    excerpt: 'A practical business plan framework for Australian freelancers — not a 40-page document nobody reads, but a working plan that helps you earn more and stress less.',
+    category: 'Business',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelance Business Plan Australia: Practical Template & Guide (2026)',
+    seoDescription: 'Write a freelance business plan that actually works. Practical template for Australian freelancers covering services, pricing, financial projections, and growth strategy.',
+    content: `
+      <p>Most freelance business plan advice comes from the corporate world: 40 pages, market analysis, org charts, five-year revenue forecasts. None of that applies to you.</p>
+      <p>A freelance business plan is a <strong>working document that answers three questions</strong>: What do I sell? Who do I sell it to? How do I get paid enough to live well?</p>
+      <p>This guide gives you a practical framework — one you'll actually use — built specifically for Australian freelancers.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Why Bother With a Plan?</h3>
+        <p class="text-slate-300 text-sm">Freelancers with a written plan (even a simple one) earn 30-50% more in their first year than those who wing it. Not because the plan is magic — but because planning forces you to make decisions upfront instead of reactively.</p>
+      </div>
+
+      <h2>The 7-Section Freelance Business Plan</h2>
+      <p>Forget 40 pages. Your plan should fit on 2-3 pages max. Here are the 7 sections that matter:</p>
+
+      <h3>1. Your Services (What You Sell)</h3>
+      <p>Define exactly what you offer. Vague service descriptions attract vague enquiries.</p>
+
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Bad (Vague)</th>
+            <th class="text-left py-3 px-4 text-teal-400">Good (Specific)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">"I do web design"</td>
+            <td class="py-3 px-4">"I build Next.js marketing websites for SaaS startups ($3K-$8K)"</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">"I'm a writer"</td>
+            <td class="py-3 px-4">"I write SEO blog content for B2B tech companies ($0.30-0.50/word)"</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">"I do marketing"</td>
+            <td class="py-3 px-4">"I run LinkedIn lead generation campaigns for professional services ($2K/mo retainer)"</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">"I'm a photographer"</td>
+            <td class="py-3 px-4">"I shoot product photography for e-commerce brands ($500-$1,500 per shoot)"</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>For each service, document:</p>
+      <ul>
+        <li><strong>What's included:</strong> Specific deliverables (e.g., "5-page website + mobile responsive + 2 rounds of revisions")</li>
+        <li><strong>What's NOT included:</strong> This prevents <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">scope creep</a></li>
+        <li><strong>Typical timeline:</strong> How long from kickoff to delivery</li>
+        <li><strong>Price range:</strong> Your minimum and target price (see <a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">pricing guide</a>)</li>
+      </ul>
+
+      <h3>2. Your Target Market (Who You Serve)</h3>
+      <p>The narrower your target, the easier it is to find clients and charge premium rates.</p>
+
+      <p><strong>Define your ideal client:</strong></p>
+      <ul>
+        <li><strong>Industry:</strong> Tech startups? Professional services? E-commerce? (Pick 1-3)</li>
+        <li><strong>Size:</strong> Solo founders? 10-50 employees? Enterprise?</li>
+        <li><strong>Budget:</strong> What's their typical spend on your service?</li>
+        <li><strong>Location:</strong> Australia-wide? Melbourne/Sydney? International?</li>
+        <li><strong>Pain point:</strong> What problem do they have that you solve?</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Niche Premium</h3>
+        <p class="text-slate-300 text-sm">Specialists charge 25-50% more than generalists. A "web developer" charges $80/hr. A "Shopify developer for DTC fashion brands" charges $120/hr for the same work. The narrower the niche, the higher the perceived value. See our <a href="/blog/freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">AU rate benchmarks</a>.</p>
+      </div>
+
+      <h3>3. Revenue Model (How You Get Paid)</h3>
+      <p>Choose your primary revenue model — or combine them:</p>
+
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Model</th>
+            <th class="text-left py-3 px-4 text-teal-400">Best For</th>
+            <th class="text-left py-3 px-4 text-teal-400">Predictability</th>
+            <th class="text-left py-3 px-4 text-teal-400">Income Ceiling</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Hourly</td>
+            <td class="py-3 px-4">Starting out, variable scope</td>
+            <td class="py-3 px-4">Low</td>
+            <td class="py-3 px-4">Limited by hours</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Project-based</td>
+            <td class="py-3 px-4">Defined deliverables</td>
+            <td class="py-3 px-4">Medium</td>
+            <td class="py-3 px-4">Higher (efficiency rewards you)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Retainer</td>
+            <td class="py-3 px-4">Ongoing relationships</td>
+            <td class="py-3 px-4">High</td>
+            <td class="py-3 px-4">Medium (predictable, not explosive)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Value-based</td>
+            <td class="py-3 px-4">High-impact outcomes</td>
+            <td class="py-3 px-4">Low</td>
+            <td class="py-3 px-4">Highest (tied to client ROI)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Packages</td>
+            <td class="py-3 px-4">Productised services</td>
+            <td class="py-3 px-4">High</td>
+            <td class="py-3 px-4">High (scalable pricing)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>The ideal mix:</strong> 60% retainers (predictable base) + 30% projects (growth) + 10% hourly (overflow/consulting). See our <a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">retainer guide</a> and <a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">pricing models guide</a>.</p>
+
+      <h3>4. Financial Plan (The Numbers)</h3>
+      <p>This is where most freelancers skip — and it's the most important section.</p>
+
+      <h4>Step 1: Calculate Your Minimum Monthly Number</h4>
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Expense</th>
+            <th class="text-left py-3 px-4 text-teal-400">Monthly Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700"><td class="py-3 px-4">Rent/mortgage</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-slate-700"><td class="py-3 px-4">Utilities + insurance</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-slate-700"><td class="py-3 px-4">Food + transport</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-slate-700"><td class="py-3 px-4">Business costs (software, tools, internet)</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-slate-700"><td class="py-3 px-4">Super (11.5% of income)</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-slate-700"><td class="py-3 px-4">Tax savings (30% of gross)</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-slate-700"><td class="py-3 px-4">Emergency/savings buffer</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-slate-700 font-semibold"><td class="py-3 px-4">TOTAL: Your Minimum Monthly Number</td><td class="py-3 px-4">$_____</td></tr>
+        </tbody>
+      </table>
+
+      <p>Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Rate Calculator</a> to convert this into hourly/daily rates that cover all your obligations.</p>
+
+      <h4>Step 2: Revenue Targets (First 12 Months)</h4>
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Period</th>
+            <th class="text-left py-3 px-4 text-teal-400">Target</th>
+            <th class="text-left py-3 px-4 text-teal-400">How</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Month 1-3</td>
+            <td class="py-3 px-4">Hit minimum monthly number</td>
+            <td class="py-3 px-4">1-2 clients, any source (network, Upwork, cold outreach)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Month 4-6</td>
+            <td class="py-3 px-4">1.5× minimum</td>
+            <td class="py-3 px-4">3-4 clients, first retainer, raise rates</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Month 7-9</td>
+            <td class="py-3 px-4">2× minimum</td>
+            <td class="py-3 px-4">Retainer base + projects, referrals kicking in</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Month 10-12</td>
+            <td class="py-3 px-4">2.5× minimum</td>
+            <td class="py-3 px-4">Waitlist, premium pricing, selective clients</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>Step 3: Tax Obligations</h4>
+      <ul>
+        <li><strong>GST:</strong> Register once you hit $75K turnover (or voluntarily earlier). See our <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST guide</a></li>
+        <li><strong>Tax savings:</strong> Set aside 30% of every payment into a separate <a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">tax account</a></li>
+        <li><strong>Super:</strong> Not mandatory for sole traders, but you're building your future. See our <a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">super guide</a></li>
+        <li><strong>BAS:</strong> Quarterly if GST registered. See our <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS guide</a></li>
+      </ul>
+
+      <h3>5. Client Acquisition Strategy (How You Find Work)</h3>
+      <p>Most freelancers rely on one channel. That's risky. Plan for at least three:</p>
+
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Channel</th>
+            <th class="text-left py-3 px-4 text-teal-400">Timeline</th>
+            <th class="text-left py-3 px-4 text-teal-400">Cost</th>
+            <th class="text-left py-3 px-4 text-teal-400">Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Warm network</td>
+            <td class="py-3 px-4">Immediate</td>
+            <td class="py-3 px-4">Free</td>
+            <td class="py-3 px-4">First 1-3 clients</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Upwork/platforms</td>
+            <td class="py-3 px-4">1-4 weeks</td>
+            <td class="py-3 px-4">10-20% fee</td>
+            <td class="py-3 px-4">Consistent pipeline</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">LinkedIn outreach</td>
+            <td class="py-3 px-4">2-6 weeks</td>
+            <td class="py-3 px-4">Free/$30/mo Premium</td>
+            <td class="py-3 px-4">B2B services</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Content/SEO</td>
+            <td class="py-3 px-4">3-6 months</td>
+            <td class="py-3 px-4">Time only</td>
+            <td class="py-3 px-4">Long-term inbound leads</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Referrals</td>
+            <td class="py-3 px-4">3-12 months</td>
+            <td class="py-3 px-4">Free</td>
+            <td class="py-3 px-4">Best clients, highest close rate</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>For a detailed breakdown of all 12 client-finding strategies, see our <a href="/blog/how-to-find-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">complete client acquisition guide</a>.</p>
+
+      <h3>6. Operations (How You Run the Business)</h3>
+      <p>Document your systems now — even if simple — so you can scale later.</p>
+
+      <ul>
+        <li><strong>Invoicing:</strong> Use a proper invoicing tool (not Word documents). InvoiceFlow handles <a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">ATO-compliant invoices</a> with GST automatically</li>
+        <li><strong><a href="/blog/freelance-bookkeeping-australia" class="text-teal-400 hover:text-teal-300 underline">Bookkeeping</a>:</strong> 30 minutes weekly. Separate business bank account. Receipt photos same day</li>
+        <li><strong><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record keeping</a>:</strong> 5-year retention for ATO. Digital copies of everything</li>
+        <li><strong>Contracts:</strong> Every project. No exceptions. See our <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract guide</a></li>
+        <li><strong>Communication:</strong> Set working hours, response time expectations, primary channels</li>
+      </ul>
+
+      <h3>7. Growth Strategy (Where You're Headed)</h3>
+      <p>Your first year is about survival. But plan for growth from the start:</p>
+
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Phase</th>
+            <th class="text-left py-3 px-4 text-teal-400">Focus</th>
+            <th class="text-left py-3 px-4 text-teal-400">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Year 1: Foundation</td>
+            <td class="py-3 px-4">Get clients, deliver quality, build reputation</td>
+            <td class="py-3 px-4">Say yes to most work, learn your niche, build portfolio</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Year 2: Optimise</td>
+            <td class="py-3 px-4">Raise rates, drop bad clients, systemise</td>
+            <td class="py-3 px-4">Productise offerings, retainer base, referral engine</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Year 3+: Scale</td>
+            <td class="py-3 px-4">Leverage beyond your hours</td>
+            <td class="py-3 px-4">Subcontract, passive income, courses, templates, agency</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Freelance Business Plan Template</h2>
+      <p>Copy this framework and fill in your details:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-600">
+        <p class="text-slate-300 text-sm font-mono whitespace-pre-line">
+<strong>FREELANCE BUSINESS PLAN — [Your Name]</strong>
+<strong>Date:</strong> [Date] | <strong>Review date:</strong> [Quarterly]
+
+<strong>1. SERVICES</strong>
+Primary: [Service + deliverables + price range]
+Secondary: [Service + deliverables + price range]
+NOT offering: [What you don't do]
+
+<strong>2. TARGET MARKET</strong>
+Ideal client: [Industry + size + budget + pain point]
+Where they are: [LinkedIn? Upwork? Events?]
+Decision maker: [Who approves the spend?]
+
+<strong>3. REVENUE MODEL</strong>
+Primary model: [Project/Retainer/Hourly/Value]
+Target mix: [___% retainer + ___% project + ___% hourly]
+Payment terms: [Net 14, deposit required]
+
+<strong>4. FINANCIAL TARGETS</strong>
+Minimum monthly: $[amount]
+Year 1 target: $[amount]
+Hourly rate: $[amount] (use rate calculator)
+
+<strong>5. CLIENT ACQUISITION</strong>
+Channel 1: [Strategy + monthly targets]
+Channel 2: [Strategy + monthly targets]
+Channel 3: [Strategy + monthly targets]
+
+<strong>6. OPERATIONS</strong>
+Invoicing: [Tool]
+Bookkeeping: [When + how]
+Contracts: [Template ready Y/N]
+
+<strong>7. 90-DAY GOALS</strong>
+Goal 1: [Specific + measurable]
+Goal 2: [Specific + measurable]
+Goal 3: [Specific + measurable]
+        </p>
+      </div>
+
+      <h2>5 Business Plan Mistakes Freelancers Make</h2>
+      <ol>
+        <li><strong>Making it too long:</strong> If it's more than 3 pages, you won't update it. Keep it tight</li>
+        <li><strong>Setting revenue targets without expense calculations:</strong> Your target should be based on your real numbers, not aspirations. Use our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">rate calculator</a></li>
+        <li><strong>Ignoring tax obligations:</strong> 30% of your gross income isn't yours. Plan for it from day one. See our <a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">freelancer tax guide</a></li>
+        <li><strong>Single-channel dependency:</strong> If all your clients come from one source and it dries up, you're stuck. Always have 3 acquisition channels</li>
+        <li><strong>Never reviewing it:</strong> Review quarterly. Your first plan will be wrong — that's fine. Update it as you learn what actually works</li>
+      </ol>
+
+      <h2>When to Review Your Business Plan</h2>
+      <ul>
+        <li><strong>Quarterly:</strong> Are you hitting targets? Adjust pricing, channels, and services</li>
+        <li><strong>After every major client:</strong> What worked? What would you change?</li>
+        <li><strong>When rates feel wrong:</strong> If you're always busy but not earning enough — <a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">time to raise rates</a></li>
+        <li><strong>At EOFY:</strong> Full financial review alongside your <a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">tax return</a></li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-start-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">How to Start Freelancing in Australia</a> — The complete 10-step launch guide</li>
+        <li><a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">How to Price Freelance Services</a> — 5 pricing models explained</li>
+        <li><a href="/blog/financial-planning-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Financial Planning for Freelancers</a> — Budgeting, savings, and investment</li>
+        <li><a href="/blog/how-to-find-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">Finding Freelance Clients</a> — 12 proven acquisition strategies</li>
+        <li><a href="/blog/freelance-tools-stack-australia" class="text-teal-400 hover:text-teal-300 underline">Essential Tools Stack</a> — Build your freelance operating system</li>
+        <li><a href="/blog/sole-trader-vs-company-australia" class="text-teal-400 hover:text-teal-300 underline">Sole Trader vs Company</a> — Choose the right business structure</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Free Rate Calculator</a> — Calculate your rates based on real expenses</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Professional invoices from day one</li>
+      </ul>
+    `,
+  },
+
+  'client-onboarding-checklist-freelancers': {
+    slug: 'client-onboarding-checklist-freelancers',
+    title: 'Client Onboarding Checklist for Freelancers: Start Every Project Right',
+    excerpt: 'A step-by-step client onboarding process that prevents scope creep, sets expectations, and makes you look professional from day one.',
+    category: 'Business',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelance Client Onboarding Checklist: 7-Step Process (2026)',
+    seoDescription: 'Professional client onboarding process for freelancers. 7-step checklist covering discovery calls, proposals, contracts, kickoff, and communication setup.',
+    content: `
+      <p>The first 48 hours of a new client relationship determine whether the project will be smooth or a nightmare. Most freelancers skip straight from "yes" to "let's start" — and spend weeks cleaning up the mess.</p>
+      <p>A structured onboarding process does three things: <strong>sets clear expectations, prevents scope creep, and makes you look incredibly professional</strong>. Here's exactly how to do it.</p>
+
+      <h2>The 7-Step Client Onboarding Process</h2>
+
+      <h3>Step 1: Discovery Call (30-60 Minutes)</h3>
+      <p>Before you quote or agree to anything. This call determines if you should even take the project.</p>
+
+      <h4>Questions to Ask:</h4>
+      <ul>
+        <li><strong>About the project:</strong> What do you need built/designed/written? What problem does this solve?</li>
+        <li><strong>About timeline:</strong> When do you need this by? Is there a hard deadline (event, launch, board meeting)?</li>
+        <li><strong>About budget:</strong> Do you have a budget range in mind? (If they can't answer, that's a <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">red flag</a>)</li>
+        <li><strong>About decision-making:</strong> Are you the final decision maker? Who else needs to approve?</li>
+        <li><strong>About previous experience:</strong> Have you worked with a freelancer before? What worked/didn't work?</li>
+        <li><strong>About success:</strong> What does "done well" look like? How will you measure success?</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Discovery Call Is a Two-Way Interview</h3>
+        <p class="text-slate-300 text-sm">You're not just pitching — you're evaluating. Use this call to check for <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">client red flags</a>. A great client will appreciate that you're thorough. A bad client will be annoyed — which tells you everything.</p>
+      </div>
+
+      <h3>Step 2: Proposal & Pricing (Send Within 24 Hours)</h3>
+      <p>Speed matters. Clients lose interest fast. Send your <a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">proposal</a> within 24 hours of the discovery call.</p>
+
+      <h4>Your Proposal Should Include:</h4>
+      <ul>
+        <li><strong>Project summary:</strong> Restate the problem in your own words (proves you listened)</li>
+        <li><strong>Scope of work:</strong> Specific deliverables with quantities</li>
+        <li><strong>"Not included" section:</strong> What's explicitly out of scope</li>
+        <li><strong>Timeline:</strong> Milestones with dates</li>
+        <li><strong>Pricing:</strong> Ideally <a href="/blog/how-to-price-freelance-services-australia" class="text-teal-400 hover:text-teal-300 underline">tiered options</a> (good/better/best)</li>
+        <li><strong><a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300 underline">Payment terms</a>:</strong> Deposit + milestones or retainer structure</li>
+        <li><strong>Revision policy:</strong> How many rounds included, overage rate</li>
+      </ul>
+
+      <h3>Step 3: Contract Signing</h3>
+      <p>Never start work without a signed <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a>. No exceptions, regardless of how nice the client seems.</p>
+
+      <h4>Essential Contract Clauses:</h4>
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Clause</th>
+            <th class="text-left py-3 px-4 text-teal-400">Why It Matters</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Scope of work</td>
+            <td class="py-3 px-4">Defines exactly what you're delivering (prevents scope creep)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Payment schedule</td>
+            <td class="py-3 px-4">When and how you get paid, including late fees</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4"><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP ownership</a></td>
+            <td class="py-3 px-4">Who owns the work on completion (transfer on payment)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Revision limits</td>
+            <td class="py-3 px-4">Number of revision rounds included, rate for extras</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Termination</td>
+            <td class="py-3 px-4">How either party can end the engagement (notice period, final payment)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Confidentiality</td>
+            <td class="py-3 px-4">Protects sensitive client information</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Step 4: Deposit Invoice</h3>
+      <p>Send the <a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">deposit invoice</a> immediately after the contract is signed. Don't start work until it's paid.</p>
+
+      <h4>Recommended Deposit Structure:</h4>
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Project Size</th>
+            <th class="text-left py-3 px-4 text-teal-400">Deposit</th>
+            <th class="text-left py-3 px-4 text-teal-400">Structure</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Under $2K</td>
+            <td class="py-3 px-4">50-100%</td>
+            <td class="py-3 px-4">50% upfront, 50% on completion (or full payment upfront for small jobs)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">$2K-$10K</td>
+            <td class="py-3 px-4">30-50%</td>
+            <td class="py-3 px-4">3 milestones: 40% start, 30% mid, 30% delivery</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Over $10K</td>
+            <td class="py-3 px-4">20-30%</td>
+            <td class="py-3 px-4">Monthly milestones tied to deliverables</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create a professional deposit invoice in minutes.</p>
+
+      <h3>Step 5: Kickoff Email</h3>
+      <p>After the deposit clears, send a kickoff email that sets the tone for the entire project.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-600">
+        <h4 class="text-teal-400 font-semibold mb-3">Kickoff Email Template</h4>
+        <p class="text-slate-300 text-sm font-mono whitespace-pre-line">Subject: [Project Name] — Kickoff & Next Steps
+
+Hi [Client Name],
+
+Thank you for the deposit — we're officially underway!
+
+Here's what happens next:
+
+<strong>Project Overview</strong>
+• Start date: [Date]
+• Estimated completion: [Date]
+• Your deliverables: [What you need from them, with deadlines]
+
+<strong>Communication</strong>
+• Primary channel: [Email/Slack/Teams]
+• Check-ins: [Weekly on Tuesdays at 10 AM AEST]
+• Response time: I respond within [4-8 business hours]
+• Feedback: Please send all feedback in one consolidated message per milestone
+
+<strong>What I Need From You by [Date]</strong>
+1. [Brand guidelines / assets / login credentials]
+2. [Content / copy / images]
+3. [Access to tools / platforms]
+
+<strong>First Milestone</strong>
+• Deliverable: [What you'll deliver first]
+• Due: [Date]
+• You'll receive: [Draft / wireframe / prototype]
+
+Let me know if you have any questions. Looking forward to getting started!
+
+[Your Name]</p>
+      </div>
+
+      <h3>Step 6: Asset Collection</h3>
+      <p>Collect everything you need before starting. Chasing assets mid-project is the #1 cause of delays.</p>
+
+      <h4>Common Assets by Project Type:</h4>
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Project Type</th>
+            <th class="text-left py-3 px-4 text-teal-400">Assets Needed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Website</td>
+            <td class="py-3 px-4">Logo, brand colours, copy, images, hosting/domain credentials, analytics access</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Design</td>
+            <td class="py-3 px-4">Brand guidelines, existing assets, examples of liked/disliked work, file format preferences</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Content</td>
+            <td class="py-3 px-4">Brand voice guide, target audience details, competitor examples, SEO keywords, SME access</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Development</td>
+            <td class="py-3 px-4">Repo access, API keys, staging environment, tech stack documentation, user stories</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Set Deadlines for Assets</h3>
+        <p class="text-slate-300 text-sm">Give clients a specific date to provide assets. Add to your contract: "Timeline begins when all required assets are received. Delays in providing assets may extend the project timeline by an equivalent period."</p>
+      </div>
+
+      <h3>Step 7: Project Setup</h3>
+      <p>Set up your tools and workspace before diving into the work:</p>
+      <ul>
+        <li><strong>Project folder:</strong> Organised structure (briefs, assets, drafts, finals, invoices)</li>
+        <li><strong>Time tracking:</strong> Start tracking from the kickoff email. See our <a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">time tracking guide</a></li>
+        <li><strong>Communication channel:</strong> Set up shared Slack channel, Trello board, or equivalent</li>
+        <li><strong>Calendar:</strong> Block time for this client's work. Schedule check-ins and milestone deadlines</li>
+        <li><strong><a href="/blog/invoice-numbering-system-freelancers" class="text-teal-400 hover:text-teal-300 underline">Invoice numbering</a>:</strong> Create the project invoice sequence (e.g., CLT-001-DEP, CLT-001-M1, CLT-001-FINAL)</li>
+      </ul>
+
+      <h2>The Complete Onboarding Checklist</h2>
+      <p>Use this for every new client:</p>
+      <ul>
+        <li>☐ Discovery call completed — project is a good fit</li>
+        <li>☐ No <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">red flags</a> identified</li>
+        <li>☐ <a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">Proposal</a> sent within 24 hours</li>
+        <li>☐ Proposal accepted — scope and pricing confirmed</li>
+        <li>☐ <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Contract</a> signed by both parties</li>
+        <li>☐ <a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit invoice</a> sent and paid</li>
+        <li>☐ Kickoff email sent with timeline, expectations, and asset requests</li>
+        <li>☐ All assets received (or deadline set with contract clause)</li>
+        <li>☐ Communication channel agreed and set up</li>
+        <li>☐ Check-in schedule confirmed</li>
+        <li>☐ <a href="/blog/setting-boundaries-freelance-clients" class="text-teal-400 hover:text-teal-300 underline">Working hours and boundaries</a> communicated</li>
+        <li>☐ Revision policy understood</li>
+        <li>☐ Project folder and tools set up</li>
+        <li>☐ Time tracking started</li>
+        <li>☐ First milestone date confirmed</li>
+      </ul>
+
+      <h2>What Happens When You Skip Onboarding</h2>
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Skipped Step</th>
+            <th class="text-left py-3 px-4 text-teal-400">What Goes Wrong</th>
+            <th class="text-left py-3 px-4 text-teal-400">Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">No discovery call</td>
+            <td class="py-3 px-4">Misaligned expectations, wrong deliverables</td>
+            <td class="py-3 px-4">Days of rework</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">No written scope</td>
+            <td class="py-3 px-4">Unlimited scope creep, "but I thought..."</td>
+            <td class="py-3 px-4">20-50% unpaid extra work</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">No contract</td>
+            <td class="py-3 px-4">No legal protection, payment disputes</td>
+            <td class="py-3 px-4">Potentially entire project fee</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">No deposit</td>
+            <td class="py-3 px-4">Client ghosts after you've done work</td>
+            <td class="py-3 px-4">100% of time invested</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">No kickoff email</td>
+            <td class="py-3 px-4">Client doesn't know what's happening, anxious</td>
+            <td class="py-3 px-4">Constant interruptions, trust erosion</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Onboarding Speed Tips</h2>
+      <ol>
+        <li><strong>Template everything:</strong> Proposal template, contract template, kickoff email template. Customise 20%, reuse 80%</li>
+        <li><strong>Use e-signatures:</strong> DocuSign, HelloSign, or even a simple "reply AGREED" — just get it in writing</li>
+        <li><strong>Automate the invoice:</strong> Set up your invoice template with your <a href="/blog/invoice-numbering-system-freelancers" class="text-teal-400 hover:text-teal-300 underline">numbering system</a> so deposit invoices take 2 minutes</li>
+        <li><strong>Create a client portal:</strong> A shared Google Drive folder, Notion page, or Trello board where everything lives</li>
+        <li><strong>Batch onboarding:</strong> If you take on multiple clients in a week, schedule all discovery calls for the same day</li>
+      </ol>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Proposal Guide</a> — Write proposals that win</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Essential clauses for every project</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Invoicing</a> — Structure payments for cash flow</li>
+        <li><a href="/blog/setting-boundaries-freelance-clients" class="text-teal-400 hover:text-teal-300 underline">Setting Client Boundaries</a> — Establish professional limits from day one</li>
+        <li><a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">Client Red Flags</a> — Know when to say no</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">Handling Scope Creep</a> — When onboarding agreements get tested</li>
+        <li><a href="/blog/invoice-email-templates-freelancers" class="text-teal-400 hover:text-teal-300 underline">Invoice Email Templates</a> — Professional email scripts for every stage</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional deposit invoices</li>
+      </ul>
+    `,
+  },
+
+  'freelance-work-life-balance-burnout-australia': {
+    slug: 'freelance-work-life-balance-burnout-australia',
+    title: 'Freelance Work-Life Balance: How to Avoid Burnout While Growing Your Business',
+    excerpt: 'Practical strategies for preventing freelance burnout, managing energy, and building a sustainable business that doesn\'t consume your life.',
+    category: 'Business',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelance Burnout Prevention: Work-Life Balance Guide for Freelancers (2026)',
+    seoDescription: 'Prevent freelance burnout with practical strategies. Learn to set boundaries, manage energy, avoid overwork, and build a sustainable freelance business in Australia.',
+    content: `
+      <p>Freelancing promises freedom. The reality? Many freelancers work more hours, with more stress, for less money than they earned in their day job. <strong>63% of freelancers report experiencing burnout</strong>, and the average burnout timeline is 18-24 months.</p>
+      <p>The irony: the harder you push, the worse your work gets. Burnout doesn't just affect your wellbeing — it directly kills your income through lower quality, slower delivery, and client relationship damage.</p>
+
+      <h2>The 5 Stages of Freelance Burnout</h2>
+      <p>Burnout doesn't happen overnight. Recognise these stages before you hit the wall:</p>
+
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Stage</th>
+            <th class="text-left py-3 px-4 text-teal-400">Signs</th>
+            <th class="text-left py-3 px-4 text-teal-400">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4 font-semibold">1. Honeymoon</td>
+            <td class="py-3 px-4">Excited, working long hours by choice, saying yes to everything</td>
+            <td class="py-3 px-4">Set boundaries NOW (not later)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4 font-semibold">2. Onset of Stress</td>
+            <td class="py-3 px-4">Some days feel harder, sleep quality drops, occasional irritability</td>
+            <td class="py-3 px-4">Schedule recovery days, review workload</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4 font-semibold">3. Chronic Stress</td>
+            <td class="py-3 px-4">Persistent fatigue, procrastination, cynicism about clients, weekend work</td>
+            <td class="py-3 px-4">Reduce workload 20%, raise rates, take a full week off</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4 font-semibold">4. Burnout</td>
+            <td class="py-3 px-4">Can't focus, dread opening laptop, physical symptoms, quality drops</td>
+            <td class="py-3 px-4">Major intervention — cut clients, extended break, possibly professional help</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4 font-semibold">5. Habitual Burnout</td>
+            <td class="py-3 px-4">Depression, considering quitting entirely, chronic health issues</td>
+            <td class="py-3 px-4">Professional help. Consider whether your business model needs to change fundamentally</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Most Freelancers Are at Stage 2-3 and Don't Realise It</h3>
+        <p class="text-slate-300 text-sm">If you're reading this article because "something feels off" — you're probably already in the onset stage. The good news: stages 1-3 are fully reversible with the right changes. Stages 4-5 require much more time to recover from.</p>
+      </div>
+
+      <h2>The 7 Root Causes of Freelance Burnout</h2>
+      <p>Burnout isn't about working too hard. It's about specific structural problems in how your business runs:</p>
+
+      <h3>1. Feast-or-Famine Income</h3>
+      <p>The anxiety of not knowing where next month's money comes from is exhausting — even during "feast" months. You take on too much during good times because you fear the bad times.</p>
+      <p><strong>Fix:</strong> Build a <a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">retainer base</a> (target 60% of income from retainers). Keep a <a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">3-month emergency fund</a>.</p>
+
+      <h3>2. Undercharging</h3>
+      <p>Low rates force you to take on more clients, more projects, and work longer hours to hit your income target. You're literally trading your health for money.</p>
+      <p><strong>Fix:</strong> <a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Raise your rates</a>. Earning $150/hr for 25 hours/week beats $80/hr for 50 hours/week — and the quality of your work will be dramatically better.</p>
+
+      <h3>3. Bad Clients</h3>
+      <p>One difficult client can consume the mental energy of three good ones. Late payments, constant revisions, midnight emails, and disrespect are all burnout accelerators.</p>
+      <p><strong>Fix:</strong> Use a proper <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">red flag checklist</a> before accepting clients. <a href="/blog/how-to-fire-client-professionally-freelancer" class="text-teal-400 hover:text-teal-300 underline">Fire bad clients</a> — the relief is immediate.</p>
+
+      <h3>4. No Boundaries</h3>
+      <p>When your home is your office, work can expand to fill every waking hour. Without clear <a href="/blog/setting-boundaries-freelance-clients" class="text-teal-400 hover:text-teal-300 underline">boundaries</a>, you're always "sort of working."</p>
+      <p><strong>Fix:</strong> Defined working hours, no email after 6 PM, dedicated workspace, and boundaries communicated to every client.</p>
+
+      <h3>5. Isolation</h3>
+      <p>Freelancing can be lonely. No colleagues, no water cooler conversations, no one who understands your daily challenges. Social isolation is a major contributor to burnout.</p>
+      <p><strong>Fix:</strong> Join a <a href="/blog/freelance-networking-australia" class="text-teal-400 hover:text-teal-300 underline">freelancer community</a>, cowork one day per week, schedule regular catch-ups with other freelancers.</p>
+
+      <h3>6. Wearing Every Hat</h3>
+      <p>You're the CEO, accountant, salesperson, project manager, and the person who does the actual work. Context-switching between roles is mentally exhausting.</p>
+      <p><strong>Fix:</strong> Batch admin tasks (invoicing, <a href="/blog/freelance-bookkeeping-australia" class="text-teal-400 hover:text-teal-300 underline">bookkeeping</a>, emails) into one morning per week. Automate what you can. Consider outsourcing bookkeeping once you're earning enough.</p>
+
+      <h3>7. No Time Off</h3>
+      <p>When you don't work, you don't earn. This makes freelancers feel guilty about holidays, sick days, and even weekends. The result: you never fully disconnect.</p>
+      <p><strong>Fix:</strong> Build leave costs into your rates. Our <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">rate calculator</a> factors in 4 weeks annual leave and 5 sick days — because you need them.</p>
+
+      <h2>The Sustainable Freelance Schedule</h2>
+      <p>Replace the "work until you drop" approach with a structured week:</p>
+
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Day</th>
+            <th class="text-left py-3 px-4 text-teal-400">Focus</th>
+            <th class="text-left py-3 px-4 text-teal-400">Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Monday</td>
+            <td class="py-3 px-4">Admin day — invoicing, emails, planning, bookkeeping</td>
+            <td class="py-3 px-4">4-6</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Tuesday</td>
+            <td class="py-3 px-4">Deep work — client deliverables (most important project)</td>
+            <td class="py-3 px-4">6-7</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Wednesday</td>
+            <td class="py-3 px-4">Deep work — client deliverables</td>
+            <td class="py-3 px-4">6-7</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Thursday</td>
+            <td class="py-3 px-4">Deep work — client deliverables + client calls</td>
+            <td class="py-3 px-4">6-7</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Friday</td>
+            <td class="py-3 px-4">Business development — marketing, proposals, networking, learning</td>
+            <td class="py-3 px-4">4-5</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Saturday</td>
+            <td class="py-3 px-4">OFF (non-negotiable)</td>
+            <td class="py-3 px-4">0</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Sunday</td>
+            <td class="py-3 px-4">OFF (non-negotiable)</td>
+            <td class="py-3 px-4">0</td>
+          </tr>
+          <tr class="border-b border-slate-700 font-semibold">
+            <td class="py-3 px-4">Total</td>
+            <td class="py-3 px-4"></td>
+            <td class="py-3 px-4">26-32 hours/week</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">26-32 Hours Is Enough</h3>
+        <p class="text-slate-300 text-sm">If you're working 50+ hours/week as a freelancer, you're either undercharging or overcommitted. At proper rates, 25-30 billable hours/week should comfortably exceed $100K/year. Use the extra time for exercise, relationships, and hobbies — they make your work better, not worse.</p>
+      </div>
+
+      <h2>Energy Management (Not Just Time Management)</h2>
+      <p>Time management is overrated. Energy management is what matters. You can have 8 free hours but if your energy is depleted, you'll produce nothing useful.</p>
+
+      <h3>Match Tasks to Energy Levels</h3>
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Energy Level</th>
+            <th class="text-left py-3 px-4 text-teal-400">Best Tasks</th>
+            <th class="text-left py-3 px-4 text-teal-400">Worst Tasks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Peak (first 2-3 hours of day)</td>
+            <td class="py-3 px-4">Creative work, strategic thinking, writing, design, complex coding</td>
+            <td class="py-3 px-4">Email, admin, meetings</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Medium (mid-morning, post-lunch)</td>
+            <td class="py-3 px-4">Client calls, editing, project management, proposals</td>
+            <td class="py-3 px-4">Deep creative work</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Low (late afternoon)</td>
+            <td class="py-3 px-4">Email, invoicing, filing, scheduling, light research</td>
+            <td class="py-3 px-4">Anything that requires focus</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>The 4 Energy Accounts</h3>
+      <p>You have four energy accounts that all need topping up:</p>
+      <ol>
+        <li><strong>Physical:</strong> Sleep (7-8 hours, non-negotiable), exercise (30 min daily), nutrition, hydration</li>
+        <li><strong>Mental:</strong> Breaks between deep work (90/20 rhythm — 90 min work, 20 min break), single-tasking, limit news/social media</li>
+        <li><strong>Emotional:</strong> Meaningful relationships, fun activities, creative hobbies (not related to work), saying no to draining clients</li>
+        <li><strong>Spiritual:</strong> Sense of purpose, work that matters, alignment between values and actions (if you hate your work, no amount of time management helps)</li>
+      </ol>
+
+      <h2>Practical Burnout Prevention Tactics</h2>
+
+      <h3>Financial Safety Net</h3>
+      <ul>
+        <li>3-month emergency fund (minimum) — see our <a href="/blog/financial-planning-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">financial planning guide</a></li>
+        <li>60% retainer income for predictability</li>
+        <li>Build leave into your rates (4 weeks/year minimum)</li>
+        <li><a href="/blog/freelancer-insurance-guide-australia" class="text-teal-400 hover:text-teal-300 underline">Income protection insurance</a> — because you can't afford to be sick without income</li>
+      </ul>
+
+      <h3>Workload Management</h3>
+      <ul>
+        <li>Cap at 4-5 concurrent clients maximum (see <a href="/blog/managing-multiple-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">multi-client management</a>)</li>
+        <li>Use the 80% capacity rule — never book 100% of your available hours</li>
+        <li>Maintain a waitlist instead of overcommitting</li>
+        <li>One "no client work" day per week (admin, business development, learning)</li>
+      </ul>
+
+      <h3>Quarterly Business Review</h3>
+      <p>Every quarter, ask yourself:</p>
+      <ul>
+        <li>Am I enjoying the work? (If not, why? Is it the clients, the type of work, or the volume?)</li>
+        <li>Am I earning enough for the hours I work? (If not, <a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">raise rates</a>)</li>
+        <li>Am I taking on work I shouldn't? (If yes, tighten your client selection criteria)</li>
+        <li>When was my last day completely off? (If you can't remember, book one now)</li>
+        <li>What's my biggest source of stress? (Address it directly — don't let it fester)</li>
+      </ul>
+
+      <h2>The Leave Policy You Owe Yourself</h2>
+      <p>You left employment for freedom. Use it:</p>
+
+      <table class="w-full border-collapse my-6 text-sm">
+        <thead>
+          <tr class="border-b border-slate-600">
+            <th class="text-left py-3 px-4 text-teal-400">Leave Type</th>
+            <th class="text-left py-3 px-4 text-teal-400">Minimum</th>
+            <th class="text-left py-3 px-4 text-teal-400">How to Fund It</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Annual leave</td>
+            <td class="py-3 px-4">4 weeks/year</td>
+            <td class="py-3 px-4">Built into your rate (48 working weeks, not 52)</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Sick days</td>
+            <td class="py-3 px-4">5-10 days/year</td>
+            <td class="py-3 px-4">Built into rate + income protection insurance</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Mental health days</td>
+            <td class="py-3 px-4">1/month</td>
+            <td class="py-3 px-4">Block in calendar, non-negotiable, no client work</td>
+          </tr>
+          <tr class="border-b border-slate-700">
+            <td class="py-3 px-4">Professional development</td>
+            <td class="py-3 px-4">5 days/year</td>
+            <td class="py-3 px-4">Courses, conferences, learning — <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductible</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Burnout Recovery Checklist</h2>
+      <p>If you're already burnt out:</p>
+      <ul>
+        <li>☐ Acknowledge it — burnout is not a personal failure, it's a business design problem</li>
+        <li>☐ Take at minimum 1 full week off (2 is better) — tell clients you're on leave</li>
+        <li>☐ Identify your #1 stressor — is it a client, a project type, or a workload issue?</li>
+        <li>☐ <a href="/blog/how-to-fire-client-professionally-freelancer" class="text-teal-400 hover:text-teal-300 underline">Fire</a> your most stressful client (you'll feel the relief immediately)</li>
+        <li>☐ <a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Raise your rates</a> 15-20% (so you can work fewer hours for the same income)</li>
+        <li>☐ Set strict <a href="/blog/setting-boundaries-freelance-clients" class="text-teal-400 hover:text-teal-300 underline">boundaries</a> with remaining clients (working hours, response times, revision limits)</li>
+        <li>☐ Block weekends as OFF in your calendar — recurring, non-deletable</li>
+        <li>☐ Schedule one non-work activity you enjoy every week</li>
+        <li>☐ Talk to someone — therapist, mentor, or freelancer friend who gets it</li>
+        <li>☐ Write a <a href="/blog/freelance-business-plan-australia" class="text-teal-400 hover:text-teal-300 underline">business plan</a> for the business you WANT, not the one you've drifted into</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/setting-boundaries-freelance-clients" class="text-teal-400 hover:text-teal-300 underline">Setting Client Boundaries</a> — The foundation of burnout prevention</li>
+        <li><a href="/blog/managing-multiple-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">Managing Multiple Clients</a> — Without burning out</li>
+        <li><a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Raising Your Rates</a> — Earn more, work less</li>
+        <li><a href="/blog/financial-planning-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Financial Planning</a> — Build the safety net that reduces anxiety</li>
+        <li><a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements</a> — Predictable income reduces stress</li>
+        <li><a href="/blog/how-to-fire-client-professionally-freelancer" class="text-teal-400 hover:text-teal-300 underline">Firing a Client</a> — When the relationship is the problem</li>
+        <li><a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Time Tracking</a> — See where your hours actually go</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Free Rate Calculator</a> — Build leave and recovery time into your rates</li>
+      </ul>
+    `,
+  },
 };
