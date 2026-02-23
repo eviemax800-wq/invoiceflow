@@ -12487,4 +12487,929 @@ Let me know if you have any questions. Looking forward to getting started!
       </ul>
     `,
   },
+  'eofy-tax-prep-checklist-freelancers-australia': {
+    slug: 'eofy-tax-prep-checklist-freelancers-australia',
+    title: 'EOFY Tax Prep Checklist for Australian Freelancers (2025-26)',
+    excerpt: 'Complete end of financial year checklist for Australian freelancers and sole traders. Income reconciliation, deduction maximisation, super contributions, BAS lodgement, and ATO deadline dates.',
+    category: 'Tax',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'EOFY Tax Prep Checklist for Australian Freelancers 2025-26',
+    seoDescription: 'Complete EOFY checklist for Australian freelancers. Covers income reconciliation, deduction maximisation, super contributions, BAS lodgement, and key ATO deadlines for FY2025-26.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">End of financial year (EOFY) doesn't need to be stressful. If you start preparing in April or May, you can maximise your deductions, avoid ATO penalties, and breeze through tax time. This is your complete EOFY checklist for FY2025-26 (ending 30 June 2026).</p>
+
+      <h2>EOFY Timeline: Key Dates for FY2025-26</h2>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Date</th>
+              <th class="text-left py-3 px-4 text-slate-400">What</th>
+              <th class="text-left py-3 px-4 text-slate-400">Penalty if Late</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">28 April 2026</td><td class="py-3 px-4">Q3 BAS due (Jan-Mar 2026)</td><td class="py-3 px-4">$330 per unit (up to $1,650)</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">30 June 2026</td><td class="py-3 px-4">End of FY2025-26</td><td class="py-3 px-4">—</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">30 June 2026</td><td class="py-3 px-4">Last day for concessional super contributions</td><td class="py-3 px-4">Excess contributions tax (up to 47%)</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">28 July 2026</td><td class="py-3 px-4">Q4 BAS due (Apr-Jun 2026)</td><td class="py-3 px-4">$330 per unit</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">31 October 2026</td><td class="py-3 px-4">Self-lodged tax return due</td><td class="py-3 px-4">$330 per 28 days (up to $1,650)</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">15 May 2027</td><td class="py-3 px-4">Tax agent-lodged return due</td><td class="py-3 px-4">$330 per 28 days</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip</h3>
+        <p class="text-slate-300 text-sm">Using a tax agent extends your deadline from 31 October to 15 May the following year — nearly 7 extra months. If you're not confident doing it yourself, a tax agent typically costs $200-$600 for a sole trader return and often finds deductions you'd miss.</p>
+      </div>
+
+      <h2>Phase 1: Income Reconciliation (Start in May)</h2>
+      <p>Before you can calculate tax, you need to know exactly what you earned. This is the foundation of everything else.</p>
+
+      <h3>Reconcile All Income Sources</h3>
+      <ul>
+        <li><strong>Invoice income</strong> — Total all invoices paid during FY2025-26 (1 July 2025 to 30 June 2026). Use the date payment was <em>received</em>, not the invoice date</li>
+        <li><strong>Platform income</strong> — Stripe, PayPal, Wise, direct bank transfers. Download statements for the full financial year</li>
+        <li><strong>Cash/informal payments</strong> — Yes, these are taxable. Include everything</li>
+        <li><strong>Interest earned</strong> — Business bank account interest is assessable income</li>
+        <li><strong>Government payments</strong> — Any grants, JobKeeper holdovers, or other government assistance</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Common Mistake</h3>
+        <p class="text-slate-300 text-sm">Freelancers often miss income from late-paid invoices. If you invoiced in May and were paid in August, the income goes in the <strong>year it was received</strong> (FY2026-27, not FY2025-26). Cash basis is the default for sole traders under $10M turnover.</p>
+      </div>
+
+      <h3>Cross-Check Your Records</h3>
+      <ul>
+        <li>Bank statements vs your invoice records — they should match within $50</li>
+        <li>PayPal/Stripe payouts vs your tracked income</li>
+        <li>Any outstanding invoices — chase these before 30 June if possible</li>
+      </ul>
+
+      <h2>Phase 2: Deduction Maximisation (June — Before the Deadline)</h2>
+      <p>June is your last chance to bring forward deductions into this financial year. Every dollar of legitimate deductions saves you tax at your marginal rate.</p>
+
+      <h3>Tax Savings by Marginal Rate (2025-26 Brackets)</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Taxable Income</th>
+              <th class="text-left py-3 px-4 text-slate-400">Marginal Rate</th>
+              <th class="text-left py-3 px-4 text-slate-400">$1,000 Deduction Saves</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4">$18,201 - $45,000</td><td class="py-3 px-4">16%</td><td class="py-3 px-4">$160</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">$45,001 - $135,000</td><td class="py-3 px-4">30%</td><td class="py-3 px-4">$300</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">$135,001 - $190,000</td><td class="py-3 px-4">37%</td><td class="py-3 px-4">$370</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">$190,001+</td><td class="py-3 px-4">45%</td><td class="py-3 px-4">$450</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Deduction Categories to Review</h3>
+
+      <h4>Home Office</h4>
+      <ul>
+        <li>Fixed rate method: 67 cents per hour worked from home</li>
+        <li>Actual cost method: calculate real proportion of rent/mortgage interest, utilities, internet</li>
+        <li>Track your hours — use a timesheet or app</li>
+        <li>See our detailed <a href="/blog/working-from-home-tax-deductions-australia" class="text-teal-400 hover:text-teal-300 underline">WFH deductions guide</a></li>
+      </ul>
+
+      <h4>Equipment and Technology</h4>
+      <ul>
+        <li>Items under $300: instant write-off in full</li>
+        <li>Items $300+: depreciate over effective life (laptop 4 years, monitor 5 years, desk 10 years)</li>
+        <li><strong>EOFY tip:</strong> If you need equipment, buy it before 30 June. A $299 keyboard in June saves you $90-$135 this year vs $0 if bought in July</li>
+      </ul>
+
+      <h4>Software and Subscriptions</h4>
+      <ul>
+        <li>Annual software licences (prepay before 30 June if under $1,000 per item)</li>
+        <li>Domain registrations, hosting, SaaS tools</li>
+        <li>Adobe, Figma, project management tools, accounting software</li>
+      </ul>
+
+      <h4>Professional Development</h4>
+      <ul>
+        <li>Courses, workshops, certifications related to your current work</li>
+        <li>Books, magazines, professional subscriptions</li>
+        <li>Conference registrations and travel</li>
+        <li>Must relate to your <em>current</em> income-earning activity (not a career change)</li>
+      </ul>
+
+      <h4>Insurance</h4>
+      <ul>
+        <li>Professional indemnity insurance — 100% deductible</li>
+        <li>Public liability insurance — 100% deductible</li>
+        <li>Income protection insurance — 100% deductible (one of the most overlooked deductions)</li>
+        <li>See our <a href="/blog/freelancer-insurance-guide-australia" class="text-teal-400 hover:text-teal-300 underline">insurance guide</a> for details</li>
+      </ul>
+
+      <h4>Vehicle Expenses</h4>
+      <ul>
+        <li>Logbook method: actual business proportion of all car expenses</li>
+        <li>Cents per km method: 85 cents/km (max 5,000 km = $4,250)</li>
+        <li>See our <a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">vehicle expenses guide</a> for full details</li>
+      </ul>
+
+      <h4>Other Common Deductions</h4>
+      <ul>
+        <li>Phone and internet (business % only)</li>
+        <li>Stationery and office supplies</li>
+        <li>Bank fees on business account</li>
+        <li>Accounting and tax agent fees</li>
+        <li>Marketing and advertising costs</li>
+        <li>Travel to client sites (not home-to-regular-workplace commute)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">EOFY Spending Strategy</h3>
+        <p class="text-slate-300 text-sm">Only bring forward purchases you genuinely need. The ATO flags "unusual" June spending spikes. A new laptop you've been putting off? Yes. 12 months of prepaid subscriptions for tools you've never used? Red flag. The test: "Would I buy this in March?" If yes, buying in June is just smarter timing.</p>
+      </div>
+
+      <h2>Phase 3: Superannuation Strategy</h2>
+      <p>As a sole trader, super is optional but powerful. Contributions are tax-deductible at your marginal rate, and the money is taxed at only 15% inside super.</p>
+
+      <h3>Key Numbers for FY2025-26</h3>
+      <ul>
+        <li><strong>Concessional cap:</strong> $30,000 per year (pre-tax/deductible contributions)</li>
+        <li><strong>Super rate:</strong> 11.5% (this is the SG rate, not a cap — you can contribute more up to $30K)</li>
+        <li><strong>Tax on contributions:</strong> 15% (vs your marginal rate of 30-45%)</li>
+        <li><strong>Carry-forward:</strong> Unused cap from last 5 years can be used if your total super balance is under $500K</li>
+      </ul>
+
+      <h3>Super Contribution Example</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Scenario</th>
+              <th class="text-left py-3 px-4 text-slate-400">No Super</th>
+              <th class="text-left py-3 px-4 text-slate-400">$10K to Super</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Taxable income</td><td class="py-3 px-4">$120,000</td><td class="py-3 px-4">$110,000</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Tax on income</td><td class="py-3 px-4">$28,067</td><td class="py-3 px-4">$25,067</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Super contributions tax (15%)</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$1,500</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Total tax paid</td><td class="py-3 px-4">$28,067</td><td class="py-3 px-4">$26,567</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-teal-400">Tax saved</td><td class="py-3 px-4">—</td><td class="py-3 px-4 text-teal-400">$1,500</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Critical: Notice of Intent</h3>
+        <p class="text-slate-300 text-sm">To claim a tax deduction for personal super contributions, you <strong>must</strong> lodge a "Notice of Intent to Claim" with your super fund <strong>before</strong> lodging your tax return. Your fund must acknowledge receipt. Without this notice, you get zero deduction — the most common super mistake freelancers make.</p>
+      </div>
+
+      <h3>Government Co-Contribution</h3>
+      <p>If your total income is under $58,445 (FY2025-26), the government will match your <strong>after-tax</strong> (non-concessional) contributions up to $500. Put in $1,000 of after-tax money, get $500 free. No application needed — it's automatic if you lodge your tax return and meet the income test.</p>
+
+      <p>For more on super strategy, see our <a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">complete freelancer super guide</a>.</p>
+
+      <h2>Phase 4: BAS and GST Reconciliation</h2>
+      <p>If you're registered for GST, getting your BAS right at EOFY is critical.</p>
+
+      <h3>EOFY BAS Checklist</h3>
+      <ul>
+        <li>☐ All 4 quarterly BAS lodged (Q1-Q4 FY2025-26)</li>
+        <li>☐ GST collected on sales reconciles with your income total</li>
+        <li>☐ GST paid on purchases reconciles with your expense records</li>
+        <li>☐ Any adjustments (credit notes, bad debts) correctly reported</li>
+        <li>☐ PAYG instalment amounts reconcile with your income tax</li>
+        <li>☐ All BAS refunds received and banked</li>
+      </ul>
+
+      <h3>Common BAS Mistakes at EOFY</h3>
+      <ul>
+        <li><strong>Double-counting income:</strong> Invoice sent in Q3 but paid in Q4 — report in Q4 (cash basis)</li>
+        <li><strong>Claiming GST on non-GST items:</strong> Bank fees, insurance, most government charges have no GST</li>
+        <li><strong>Forgetting private use adjustment:</strong> If you claimed GST on something partly personal (phone, internet), adjust the GST claim to business proportion only</li>
+      </ul>
+
+      <p>Full details in our <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS reporting guide</a> and <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST guide</a>.</p>
+
+      <h2>Phase 5: Record Organisation</h2>
+      <p>Tax time is much easier if your records are organised. The ATO requires you to keep records for 5 years.</p>
+
+      <h3>What to Gather</h3>
+      <ul>
+        <li><strong>Income records:</strong> All invoices issued, payment confirmations, bank statements</li>
+        <li><strong>Expense records:</strong> Receipts (digital or paper), credit card statements, subscription confirmations</li>
+        <li><strong>Asset records:</strong> Purchase receipts for equipment, depreciation schedules</li>
+        <li><strong>Vehicle records:</strong> Logbook (if using logbook method), fuel receipts, service records</li>
+        <li><strong>Home office records:</strong> Hours log, utility bills, rent/mortgage statements</li>
+        <li><strong>Super records:</strong> Contribution receipts, Notice of Intent acknowledgement</li>
+        <li><strong>BAS records:</strong> All 4 quarterly BAS confirmations, any amendments</li>
+        <li><strong>Prior year records:</strong> Last year's tax return (for comparison and carried-forward amounts)</li>
+      </ul>
+
+      <h3>Digital Record Keeping</h3>
+      <p>The ATO accepts digital records as long as they're a true and clear copy of the original. Our recommendation:</p>
+      <ul>
+        <li>Photograph receipts immediately (before they fade)</li>
+        <li>Use a dedicated folder: <code>Tax/FY2025-26/Receipts/</code>, <code>Tax/FY2025-26/Invoices/</code></li>
+        <li>Name files consistently: <code>2026-03-15-Adobe-CC-$79.99.pdf</code></li>
+        <li>Back up to cloud storage (Google Drive, iCloud, Dropbox)</li>
+      </ul>
+
+      <p>More detail in our <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">record keeping guide</a>.</p>
+
+      <h2>Phase 6: Tax Return Preparation</h2>
+      <p>Whether you self-lodge or use an agent, you'll need these numbers:</p>
+
+      <h3>Information You Need</h3>
+      <ul>
+        <li><strong>Total business income</strong> (gross, before expenses)</li>
+        <li><strong>Total business expenses</strong> (by category)</li>
+        <li><strong>Net business income</strong> (income minus expenses — this is your taxable amount)</li>
+        <li><strong>Super contributions</strong> (concessional + non-concessional, with Notice of Intent)</li>
+        <li><strong>Private health insurance statement</strong> (for Medicare Levy Surcharge exemption)</li>
+        <li><strong>HELP/HECS debt balance</strong> (if applicable — repayment thresholds apply)</li>
+        <li><strong>Any other income</strong> (interest, dividends, rental, employment)</li>
+        <li><strong>PAYG instalment credits</strong> (amounts already paid to ATO during the year)</li>
+      </ul>
+
+      <h3>Self-Lodge vs Tax Agent</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Factor</th>
+              <th class="text-left py-3 px-4 text-slate-400">Self-Lodge (myTax)</th>
+              <th class="text-left py-3 px-4 text-slate-400">Tax Agent</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Cost</td><td class="py-3 px-4">Free</td><td class="py-3 px-4">$200-$600</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Deadline</td><td class="py-3 px-4">31 October</td><td class="py-3 px-4">15 May (next year)</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Deduction finding</td><td class="py-3 px-4">What you know about</td><td class="py-3 px-4">Proactive — finds what you miss</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Audit support</td><td class="py-3 px-4">You're on your own</td><td class="py-3 px-4">Agent handles ATO queries</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Best for</td><td class="py-3 px-4">Simple sole trader, &lt;$75K</td><td class="py-3 px-4">GST-registered, $75K+, complex</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>The tax agent fee is itself tax-deductible (claimed in the following year's return).</p>
+
+      <p>Step-by-step lodgement process in our <a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">sole trader tax return guide</a>.</p>
+
+      <h2>Complete EOFY Checklist</h2>
+      <p>Print this and work through it:</p>
+
+      <h3>April-May: Preparation</h3>
+      <ul>
+        <li>☐ Reconcile all income sources against bank statements</li>
+        <li>☐ Chase any outstanding invoices (get paid before 30 June if possible)</li>
+        <li>☐ Gather all receipts and expense records</li>
+        <li>☐ Lodge Q3 BAS by 28 April</li>
+        <li>☐ Calculate your estimated taxable income for the year</li>
+        <li>☐ Review deduction categories — identify anything you've missed</li>
+      </ul>
+
+      <h3>June: Action Month</h3>
+      <ul>
+        <li>☐ Make any planned equipment purchases before 30 June</li>
+        <li>☐ Prepay annual subscriptions (under $1,000 per item — "12-month rule")</li>
+        <li>☐ Make super contributions and lodge Notice of Intent</li>
+        <li>☐ Check private health insurance cover (avoid Medicare Levy Surcharge if income $93K+)</li>
+        <li>☐ Write off any bad debts (formally written off before 30 June)</li>
+        <li>☐ Calculate home office hours for the full year</li>
+        <li>☐ Finalise vehicle logbook calculations</li>
+      </ul>
+
+      <h3>July: Wrap-Up</h3>
+      <ul>
+        <li>☐ Lodge Q4 BAS by 28 July</li>
+        <li>☐ Download income summary from myGov (pre-fill data available mid-August)</li>
+        <li>☐ Verify myGov pre-fill against your records</li>
+        <li>☐ Book tax agent appointment (if using one)</li>
+        <li>☐ Confirm Notice of Intent acknowledgement received from super fund</li>
+      </ul>
+
+      <h3>October/May: Lodgement</h3>
+      <ul>
+        <li>☐ Lodge tax return (31 October self-lodge / 15 May via agent)</li>
+        <li>☐ Pay any tax owed (or receive refund)</li>
+        <li>☐ Set up PAYG instalments for next year (if not already)</li>
+        <li>☐ Archive all records for 5 years</li>
+        <li>☐ Update your 30% tax savings rule amount based on this year's actual tax rate</li>
+      </ul>
+
+      <h2>5 EOFY Mistakes That Cost Freelancers Money</h2>
+
+      <h3>1. Not Claiming Super as a Deduction</h3>
+      <p>You made personal super contributions but forgot to lodge the Notice of Intent. Result: $0 deduction on up to $30,000 of contributions. Potential tax cost: $4,500-$13,500.</p>
+
+      <h3>2. Missing the Private Health Insurance Threshold</h3>
+      <p>If your income exceeds $93,000 (single) or $186,000 (family) and you don't have private hospital cover, you pay the Medicare Levy Surcharge of 1-1.5% on top of the regular 2% Medicare Levy. That's $930-$1,395 on a $93K income.</p>
+
+      <h3>3. Claiming Expenses Without Records</h3>
+      <p>The ATO can disallow any deduction you can't substantiate. For claims over $300 total (in any category), you need written evidence. No receipt = no deduction.</p>
+
+      <h3>4. Ignoring the $20,000 Instant Asset Write-Off</h3>
+      <p>Small businesses (turnover under $10M) can instantly write off assets under $20,000 each. A $5,000 laptop bought on 29 June = $1,500-$2,250 tax saving this year instead of $375-$563 per year over 4 years of depreciation.</p>
+
+      <h3>5. Mixing Personal and Business Expenses</h3>
+      <p>Claiming 100% of your phone bill when actual business use is 60% is a red flag. The ATO data-matches against industry averages. Be honest about the split — and document how you calculated it.</p>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/freelance-tax-mistakes-australia" class="text-teal-400 hover:text-teal-300 underline">15 Tax Mistakes</a> — Avoid costly errors</li>
+        <li><a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Tax Deductions Guide</a> — Every deduction category explained</li>
+        <li><a href="/blog/working-from-home-tax-deductions-australia" class="text-teal-400 hover:text-teal-300 underline">WFH Deductions</a> — Maximise your home office claims</li>
+        <li><a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Super Guide</a> — Contribution strategies</li>
+        <li><a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Return Guide</a> — Step-by-step lodgement</li>
+        <li><a href="/blog/freelancer-tax-calendar-australia-2026" class="text-teal-400 hover:text-teal-300 underline">Tax Calendar</a> — All ATO deadlines</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST amounts</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a> — Uses real tax brackets</li>
+      </ul>
+    `,
+  },
+  'freelance-project-management-deliver-on-time': {
+    slug: 'freelance-project-management-deliver-on-time',
+    title: 'Freelance Project Management: How to Deliver Work on Time and on Budget',
+    excerpt: 'Practical project management system for solo freelancers. Estimation techniques, milestone planning, client communication cadence, scope tracking, and tools that work without overhead.',
+    category: 'Business',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelance Project Management: Deliver on Time Without Overhead',
+    seoDescription: 'Complete project management guide for freelancers. Covers estimation, milestone planning, client updates, scope tracking, and PM tools that work for solo operators.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">You don't need Jira, stand-ups, or a 40-page project plan. But you do need a system. Freelancers who deliver on time and on budget get repeat clients, referrals, and the luxury of choosing who they work with. Here's a practical PM system built for solo operators.</p>
+
+      <h2>Why Most Freelancers Struggle with Delivery</h2>
+      <p>Freelancers don't miss deadlines because they're lazy. They miss them because:</p>
+      <ul>
+        <li><strong>Estimation is a skill</strong> — and most freelancers never learn it</li>
+        <li><strong>Scope isn't defined clearly enough</strong> — "build a website" means different things to different people</li>
+        <li><strong>Client communication gaps</strong> — silence breeds anxiety on both sides</li>
+        <li><strong>No buffer for reality</strong> — illness, tech problems, creative blocks, other clients</li>
+        <li><strong>Perfectionism</strong> — polishing at 90% instead of shipping at 95%</li>
+      </ul>
+
+      <p>The solution isn't working harder — it's having a system that accounts for all of this upfront.</p>
+
+      <h2>Step 1: Estimate Like a Professional</h2>
+      <p>Bad estimates are the #1 cause of late delivery and unprofitable projects. Here's how to get better at it.</p>
+
+      <h3>The 3-Part Estimation Method</h3>
+      <p>For each deliverable, estimate three numbers:</p>
+      <ul>
+        <li><strong>Optimistic:</strong> Everything goes perfectly (no interruptions, no revisions, no technical issues)</li>
+        <li><strong>Realistic:</strong> Normal conditions (some back-and-forth, minor hiccups)</li>
+        <li><strong>Pessimistic:</strong> Murphy's Law (technical problems, scope clarifications, illness)</li>
+      </ul>
+      <p>Your estimate = <strong>(Optimistic + 4×Realistic + Pessimistic) ÷ 6</strong></p>
+      <p>This PERT formula weights the realistic estimate while accounting for risk. A task you think takes 3 days might estimate as: (2 + 4×3 + 6) ÷ 6 = <strong>3.3 days</strong>.</p>
+
+      <h3>Estimation Multipliers by Project Type</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Project Type</th>
+              <th class="text-left py-3 px-4 text-slate-400">Multiply Gut Estimate By</th>
+              <th class="text-left py-3 px-4 text-slate-400">Why</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Repeat work (done before)</td><td class="py-3 px-4">1.2×</td><td class="py-3 px-4">Known unknowns only</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Similar to past work</td><td class="py-3 px-4">1.5×</td><td class="py-3 px-4">Familiar but different details</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">New but understood</td><td class="py-3 px-4">2.0×</td><td class="py-3 px-4">Unknown unknowns appear</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Completely new territory</td><td class="py-3 px-4">2.5-3.0×</td><td class="py-3 px-4">Everything is uncertain</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Estimation Rule of Thumb</h3>
+        <p class="text-slate-300 text-sm">If you've never done it before, take your gut estimate and double it. Track your actual time against estimates — after 5-10 projects, you'll know your personal multiplier (most freelancers discover they under-estimate by 40-60%).</p>
+      </div>
+
+      <h2>Step 2: Structure Your Project with Milestones</h2>
+      <p>Every project bigger than 1 day should have milestones. They give both you and the client checkpoints, and they trigger payments.</p>
+
+      <h3>Standard Milestone Structure</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Milestone</th>
+              <th class="text-left py-3 px-4 text-slate-400">% of Total</th>
+              <th class="text-left py-3 px-4 text-slate-400">Deliverable</th>
+              <th class="text-left py-3 px-4 text-slate-400">Payment Trigger</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">1. Kickoff</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">Project plan + timeline</td><td class="py-3 px-4">Deposit (30-50%)</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">2. Discovery/Design</td><td class="py-3 px-4">25%</td><td class="py-3 px-4">Wireframes, mockups, or spec</td><td class="py-3 px-4">Approval gate</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">3. Build/Draft</td><td class="py-3 px-4">60%</td><td class="py-3 px-4">First working version</td><td class="py-3 px-4">Second payment (25-30%)</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">4. Review/Revisions</td><td class="py-3 px-4">85%</td><td class="py-3 px-4">Revised deliverable</td><td class="py-3 px-4">—</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">5. Delivery</td><td class="py-3 px-4">100%</td><td class="py-3 px-4">Final files + handover</td><td class="py-3 px-4">Final payment (20-45%)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>For milestone payment structuring, see our <a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">deposit and milestone payments guide</a>.</p>
+
+      <h3>Milestone Rules</h3>
+      <ul>
+        <li>Never have a milestone longer than 2 weeks — break larger ones into sub-milestones</li>
+        <li>Each milestone should have a <strong>clear deliverable</strong> (not "progress on design" but "homepage mockup in Figma")</li>
+        <li>Get written approval at each milestone before moving on</li>
+        <li>Payment should be tied to at least 2 milestones (deposit + final, or deposit + mid + final)</li>
+      </ul>
+
+      <h2>Step 3: Build Your Weekly Rhythm</h2>
+      <p>A weekly operating rhythm prevents things from falling through the cracks.</p>
+
+      <h3>Monday Planning (30 Minutes)</h3>
+      <ul>
+        <li>Review all active projects — where are you in each one?</li>
+        <li>Identify the week's deliverables — what must ship by Friday?</li>
+        <li>Block time for each project (2-4 hour blocks work best)</li>
+        <li>Identify anything you need from clients (assets, feedback, approvals)</li>
+        <li>Send a weekly update to any client waiting on progress</li>
+      </ul>
+
+      <h3>Daily Check (10 Minutes)</h3>
+      <ul>
+        <li>What's the #1 thing I must complete today?</li>
+        <li>Are there any client messages needing a response?</li>
+        <li>Am I on track for this week's milestones?</li>
+      </ul>
+
+      <h3>Friday Wrap-Up (20 Minutes)</h3>
+      <ul>
+        <li>What did I deliver this week?</li>
+        <li>What's carrying over to next week?</li>
+        <li>Any scope changes or risks to flag to clients?</li>
+        <li>Send end-of-week update to active clients (if not already sent)</li>
+        <li>Invoice for any completed milestones</li>
+      </ul>
+
+      <h2>Step 4: Communicate Like a Pro</h2>
+      <p>Client anxiety comes from silence. Proactive communication is the easiest way to build trust and avoid "how's it going?" check-ins.</p>
+
+      <h3>Communication Cadence by Project Length</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Project Length</th>
+              <th class="text-left py-3 px-4 text-slate-400">Update Frequency</th>
+              <th class="text-left py-3 px-4 text-slate-400">Format</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4">1-3 days</td><td class="py-3 px-4">Start + delivery</td><td class="py-3 px-4">Quick email</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">1-2 weeks</td><td class="py-3 px-4">Every 2-3 days</td><td class="py-3 px-4">Short email or message</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">2-4 weeks</td><td class="py-3 px-4">Weekly</td><td class="py-3 px-4">Structured weekly update</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">1-3 months</td><td class="py-3 px-4">Weekly + milestone reviews</td><td class="py-3 px-4">Weekly email + video call at milestones</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Ongoing retainer</td><td class="py-3 px-4">Weekly or fortnightly</td><td class="py-3 px-4">Standing weekly email/call</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Weekly Update Template</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <p class="text-slate-300 text-sm font-mono">
+          Subject: [Project Name] — Weekly Update [Date]<br/><br/>
+          Hi [Name],<br/><br/>
+          <strong>Completed this week:</strong><br/>
+          - [Deliverable 1 — completed]<br/>
+          - [Deliverable 2 — completed]<br/><br/>
+          <strong>In progress:</strong><br/>
+          - [Task — expected completion date]<br/><br/>
+          <strong>Needed from you:</strong><br/>
+          - [Specific ask with deadline]<br/><br/>
+          <strong>On track?</strong> Yes / Minor delay (explain) / At risk (explain + mitigation)<br/><br/>
+          Next update: [Date]<br/><br/>
+          [Your name]
+        </p>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Bad News Rule</h3>
+        <p class="text-slate-300 text-sm">If something is going wrong, tell the client <strong>immediately</strong> — don't wait for the next scheduled update. Clients can handle "I'm 3 days behind because X, here's my plan to fix it." They cannot handle surprises at the deadline. Early honesty builds trust. Late surprises destroy it.</p>
+      </div>
+
+      <h2>Step 5: Track Scope Changes</h2>
+      <p>Scope creep is the silent project killer. Every project gets change requests — the question is how you handle them.</p>
+
+      <h3>The Change Request Process</h3>
+      <ol>
+        <li><strong>Acknowledge:</strong> "Thanks for flagging this. Let me assess the impact."</li>
+        <li><strong>Assess:</strong> How many hours? Does it affect the timeline? What's the cost?</li>
+        <li><strong>Respond:</strong> "This is [X hours / $Y]. I can do it by [date], or we can swap it for [something else]. Which works for you?"</li>
+        <li><strong>Document:</strong> Written confirmation before starting any additional work</li>
+      </ol>
+
+      <p>Detailed scope creep handling in our <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">scope creep prevention guide</a>.</p>
+
+      <h3>Scope Change Log</h3>
+      <p>Keep a simple log for every project:</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Date</th>
+              <th class="text-left py-3 px-4 text-slate-400">Request</th>
+              <th class="text-left py-3 px-4 text-slate-400">Impact</th>
+              <th class="text-left py-3 px-4 text-slate-400">Decision</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4">15 Mar</td><td class="py-3 px-4">Add dark mode to dashboard</td><td class="py-3 px-4">+8 hrs, +$640</td><td class="py-3 px-4">Approved — new milestone 3B</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">22 Mar</td><td class="py-3 px-4">Change hero copy to match new brand voice</td><td class="py-3 px-4">+30 min</td><td class="py-3 px-4">Absorbed — minor change</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">28 Mar</td><td class="py-3 px-4">Integrate with Stripe Connect (not in scope)</td><td class="py-3 px-4">+20 hrs, +$1,600, +1 week</td><td class="py-3 px-4">Phase 2 — separate scope</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Step 6: Choose the Right Tools (Minimum Viable PM)</h2>
+      <p>You don't need enterprise tools. You need just enough to stay organised.</p>
+
+      <h3>Solo Freelancer PM Stack</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Need</th>
+              <th class="text-left py-3 px-4 text-slate-400">Free Option</th>
+              <th class="text-left py-3 px-4 text-slate-400">Paid Option</th>
+              <th class="text-left py-3 px-4 text-slate-400">Overkill</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Task tracking</td><td class="py-3 px-4">Notion, Trello</td><td class="py-3 px-4">Linear ($8/mo)</td><td class="py-3 px-4">Jira, Monday.com</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Time tracking</td><td class="py-3 px-4">Toggl (free), Clockify</td><td class="py-3 px-4">Harvest ($11/mo)</td><td class="py-3 px-4">Replicon, TimeCamp Pro</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Client communication</td><td class="py-3 px-4">Email + Google Meet</td><td class="py-3 px-4">Loom ($15/mo)</td><td class="py-3 px-4">Slack (for one client)</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">File sharing</td><td class="py-3 px-4">Google Drive</td><td class="py-3 px-4">Dropbox ($15/mo)</td><td class="py-3 px-4">SharePoint</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Invoicing</td><td class="py-3 px-4">InvoiceFlow (free tier)</td><td class="py-3 px-4">InvoiceFlow Pro ($19/mo)</td><td class="py-3 px-4">Xero, QuickBooks</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Tool Trap Warning</h3>
+        <p class="text-slate-300 text-sm">More tools = more overhead. The best PM system is the simplest one you'll actually use. A single Notion workspace or even a spreadsheet beats a $50/month PM tool that you never open. Start minimal and add tools only when you feel genuine pain.</p>
+      </div>
+
+      <h2>Step 7: Handle Multiple Projects</h2>
+      <p>Most freelancers juggle 3-6 active projects at any time. The key is dedicated focus, not constant context-switching.</p>
+
+      <h3>Multi-Project Rules</h3>
+      <ul>
+        <li><strong>Maximum 2 active projects per day.</strong> Each gets a dedicated 3-4 hour block</li>
+        <li><strong>Batch communication.</strong> Check messages 2-3 times per day, not constantly</li>
+        <li><strong>Stagger project starts.</strong> Don't start 3 new projects in the same week — you'll hit crunch time simultaneously</li>
+        <li><strong>Maintain a project dashboard.</strong> One view showing all active projects, current milestone, next action, and deadline</li>
+        <li><strong>Use the 80% capacity rule.</strong> Only take on work up to 80% of your available hours — the remaining 20% is your buffer for overruns, admin, and business development</li>
+      </ul>
+
+      <p>More detail in our <a href="/blog/managing-multiple-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">managing multiple clients guide</a>.</p>
+
+      <h2>When Projects Go Wrong: Recovery Playbook</h2>
+      <p>Even with the best system, projects sometimes get off track. Here's how to recover:</p>
+
+      <h3>1. Diagnose the Problem</h3>
+      <ul>
+        <li>Is it a <strong>scope issue</strong>? (Doing more than agreed) → Scope change process</li>
+        <li>Is it an <strong>estimation issue</strong>? (Under-estimated the work) → Absorb and learn</li>
+        <li>Is it a <strong>client issue</strong>? (Delayed feedback, changing requirements) → Communication</li>
+        <li>Is it a <strong>personal issue</strong>? (Burnout, health, motivation) → Honest conversation</li>
+      </ul>
+
+      <h3>2. Have the Conversation</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <p class="text-slate-300 text-sm font-mono">
+          Hi [Name],<br/><br/>
+          I want to flag that [specific issue — e.g., "the API integration is taking longer than estimated"]. <br/><br/>
+          <strong>Impact:</strong> [Delivery date] will shift by [X days].<br/>
+          <strong>Reason:</strong> [Honest explanation]<br/>
+          <strong>My plan:</strong> [What you're doing to fix it — e.g., "I've blocked 2 full days this week to focus exclusively on this"]<br/>
+          <strong>New timeline:</strong> [Revised date]<br/><br/>
+          I take delivery commitments seriously, and I want to keep you informed rather than wait until the deadline. Let me know if you'd like to discuss.<br/><br/>
+          [Your name]
+        </p>
+      </div>
+
+      <h3>3. Prevent Repeat Issues</h3>
+      <p>After every project, do a 10-minute retrospective:</p>
+      <ul>
+        <li>Was my estimate accurate? (Track: estimated vs actual hours)</li>
+        <li>Where did I lose time? (Scope changes? Technical issues? Waiting on client?)</li>
+        <li>What would I do differently next time?</li>
+        <li>Update your estimation multiplier based on this data</li>
+      </ul>
+
+      <h2>Project Management Checklist</h2>
+      <ul>
+        <li>☐ Scope defined in writing before work starts</li>
+        <li>☐ Milestones set with deliverables and dates</li>
+        <li>☐ Payment tied to milestones (deposit at kickoff minimum)</li>
+        <li>☐ Estimate includes buffer (1.5-2× your gut estimate)</li>
+        <li>☐ Communication cadence agreed with client</li>
+        <li>☐ Weekly planning session scheduled (Monday AM)</li>
+        <li>☐ Daily 10-minute check-in with yourself</li>
+        <li>☐ Friday wrap-up and invoice routine</li>
+        <li>☐ Scope change process documented in contract</li>
+        <li>☐ Post-project retrospective completed</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Milestone Payments</a> — Structure project payment schedules</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">Scope Creep Guide</a> — Prevent and handle scope changes</li>
+        <li><a href="/blog/managing-multiple-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">Multiple Clients</a> — Juggle 3-6 projects without burnout</li>
+        <li><a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Time Tracking</a> — Track actual vs estimated hours</li>
+        <li><a href="/blog/how-to-quote-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">Quoting Guide</a> — Get your project quotes right</li>
+        <li><a href="/blog/freelance-tools-stack-australia" class="text-teal-400 hover:text-teal-300 underline">Tools Stack</a> — Full freelancer toolkit recommendations</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a> — Price projects from your hourly rate</li>
+      </ul>
+    `,
+  },
+  'vehicle-travel-expenses-freelancers-australia': {
+    slug: 'vehicle-travel-expenses-freelancers-australia',
+    title: 'Vehicle and Travel Expenses for Australian Freelancers (2025-26 Guide)',
+    excerpt: 'Complete guide to claiming vehicle and travel deductions as an Australian freelancer. Cents per km method, logbook method, ATO rules, travel to client sites, and common audit triggers.',
+    category: 'Tax',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Vehicle & Travel Expenses for Australian Freelancers 2025-26',
+    seoDescription: 'Claim vehicle and travel deductions correctly as an Australian freelancer. Covers cents per km (85c), logbook method, ATO rules, client travel, and what NOT to claim.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Vehicle and travel expenses can be worth $2,000-$5,000+ per year in tax deductions — but they're also one of the ATO's top audit focus areas. Getting it right means real tax savings. Getting it wrong means penalties. Here's the complete guide for Australian freelancers.</p>
+
+      <h2>The Two Methods: Cents Per Km vs Logbook</h2>
+      <p>The ATO gives you two choices for claiming vehicle expenses. You must pick one method per car per year — you can't mix them.</p>
+
+      <h3>Method 1: Cents Per Kilometre</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">2025-26 Rate: 85 Cents Per Km</h3>
+        <p class="text-slate-300 text-sm">Maximum: 5,000 business km per year = <strong>$4,250 maximum deduction</strong>. No receipts needed for fuel, insurance, registration, or maintenance — they're all included in the rate. You DO need to show how you calculated the business kilometres (diary, calendar entries, or reasonable estimate).</p>
+      </div>
+
+      <h4>How It Works</h4>
+      <ul>
+        <li>Count your business kilometres for the year (actual or reasonable estimate)</li>
+        <li>Multiply by 85 cents (2025-26 rate)</li>
+        <li>Maximum claim: 5,000 km × $0.85 = $4,250</li>
+        <li>You don't need fuel or service receipts</li>
+        <li>You DO need to explain how you calculated your km (e.g., "client visits 3× per week, 25 km round trip = 3,900 km/yr")</li>
+      </ul>
+
+      <h4>Best For</h4>
+      <ul>
+        <li>Freelancers who drive less than 5,000 business km per year</li>
+        <li>People who don't want to keep a logbook</li>
+        <li>Newer or cheaper cars (where actual costs are low)</li>
+        <li>First-year freelancers who didn't set up a logbook</li>
+      </ul>
+
+      <h3>Method 2: Logbook Method</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">No Kilometre Cap</h3>
+        <p class="text-slate-300 text-sm">Claim the business proportion of ALL car expenses — fuel, insurance, registration, servicing, depreciation, finance interest, parking, tolls. Requires a valid 12-week logbook kept within the last 5 years.</p>
+      </div>
+
+      <h4>How It Works</h4>
+      <ol>
+        <li>Keep a logbook for a continuous <strong>12-week period</strong> (representative of your normal driving pattern)</li>
+        <li>Record every trip: date, start/end odometer, start/end location, purpose, kilometres</li>
+        <li>Calculate your business use percentage (e.g., 7,200 business km ÷ 18,000 total km = 40%)</li>
+        <li>Apply that percentage to all car expenses for the full year</li>
+        <li>The logbook is valid for <strong>5 years</strong> (unless your circumstances change significantly)</li>
+      </ol>
+
+      <h4>What You Can Claim (Logbook Method)</h4>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Expense</th>
+              <th class="text-left py-3 px-4 text-slate-400">Typical Annual Cost</th>
+              <th class="text-left py-3 px-4 text-slate-400">At 40% Business Use</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Fuel</td><td class="py-3 px-4">$3,000</td><td class="py-3 px-4">$1,200</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Insurance</td><td class="py-3 px-4">$1,200</td><td class="py-3 px-4">$480</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Registration</td><td class="py-3 px-4">$800</td><td class="py-3 px-4">$320</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Servicing/repairs</td><td class="py-3 px-4">$1,000</td><td class="py-3 px-4">$400</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Depreciation</td><td class="py-3 px-4">$3,500</td><td class="py-3 px-4">$1,400</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Finance interest</td><td class="py-3 px-4">$1,500</td><td class="py-3 px-4">$600</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Tolls/parking</td><td class="py-3 px-4">$500</td><td class="py-3 px-4">$200</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Total</td><td class="py-3 px-4 font-medium text-white">$11,500</td><td class="py-3 px-4 font-medium text-teal-400">$4,600</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>Best For</h4>
+      <ul>
+        <li>Freelancers who drive more than 5,000 business km per year</li>
+        <li>Expensive or newer cars (high depreciation, insurance, finance costs)</li>
+        <li>High fuel costs (regional areas, long commutes to client sites)</li>
+        <li>Anyone willing to keep a 12-week logbook once every 5 years</li>
+      </ul>
+
+      <h2>Which Method Should You Choose?</h2>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Factor</th>
+              <th class="text-left py-3 px-4 text-slate-400">Cents Per Km</th>
+              <th class="text-left py-3 px-4 text-slate-400">Logbook</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Maximum deduction</td><td class="py-3 px-4">$4,250</td><td class="py-3 px-4">No cap</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Receipts required</td><td class="py-3 px-4">No (just km calculation)</td><td class="py-3 px-4">Yes (all expenses + logbook)</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Setup effort</td><td class="py-3 px-4">Minimal</td><td class="py-3 px-4">12-week logbook</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Ongoing effort</td><td class="py-3 px-4">Track business km</td><td class="py-3 px-4">Keep all receipts, record odometer yearly</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Best when</td><td class="py-3 px-4">Low business km OR cheap car</td><td class="py-3 px-4">High km OR expensive car</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Quick Decision Rule</h3>
+        <p class="text-slate-300 text-sm">Estimate your total car costs for the year (fuel + insurance + rego + servicing + depreciation). Multiply by your estimated business use percentage. If the result exceeds $4,250, the logbook method will give you a bigger deduction. If it's under $4,250, stick with cents per km — simpler and no receipts.</p>
+      </div>
+
+      <h2>What Counts as a "Business Trip"?</h2>
+      <p>This is where most mistakes happen. The ATO has clear rules about what qualifies.</p>
+
+      <h3>Deductible Travel (Yes)</h3>
+      <ul>
+        <li>Travelling from your home office to a <strong>client's premises</strong></li>
+        <li>Travelling between two <strong>different clients</strong> in the same day</li>
+        <li>Travelling to pick up business supplies or equipment</li>
+        <li>Travelling to a business meeting, networking event, or conference</li>
+        <li>Travelling to your accountant or business advisor</li>
+        <li>Travelling to the post office for business parcels</li>
+      </ul>
+
+      <h3>NOT Deductible (No)</h3>
+      <ul>
+        <li><strong>Commuting from home to a regular workplace</strong> — even if you freelance from that location</li>
+        <li>Personal errands combined with business trips (unless you calculate and separate the business portion)</li>
+        <li>Travel to look for work (until you actually start earning income from that activity)</li>
+        <li>Travel between home and a co-working space you use daily (it's your "regular workplace")</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Home Office Exception</h3>
+        <p class="text-slate-300 text-sm">If you work from home AND it is your <strong>principal place of business</strong> (where you do most of your work), then travel from home to a client site IS deductible — because home is your workplace, not a commute starting point. This is the key advantage for freelancers who work from home. Keep records showing your home is your primary work location.</p>
+      </div>
+
+      <h2>How to Keep a Valid Logbook</h2>
+      <p>A logbook must be kept for a continuous 12-week period. It's valid for 5 years unless your driving pattern changes significantly (e.g., you gain/lose a major client, move house, or change your work pattern).</p>
+
+      <h3>Required Information for Each Trip</h3>
+      <ul>
+        <li>Date of trip</li>
+        <li>Odometer reading at start and end</li>
+        <li>Kilometres travelled</li>
+        <li>Reason for the trip (specific: "Meeting with ABC Corp at their Collins St office" not just "client meeting")</li>
+        <li>Whether business or private</li>
+      </ul>
+
+      <h3>Logbook Tips</h3>
+      <ul>
+        <li>Choose a 12-week period that represents your typical driving pattern (avoid holiday periods)</li>
+        <li>Use an app: ATO's myDeductions app, Driversnote, or MileIQ (automates most tracking)</li>
+        <li>Record your odometer reading on 1 July and 30 June each year (for annual calculation)</li>
+        <li>Round trip: record as one entry with start/end</li>
+        <li>Mixed trips (business + personal): split and record the business portion only</li>
+      </ul>
+
+      <h2>Overnight Travel and Accommodation</h2>
+      <p>If your freelance work requires overnight travel (e.g., a project at an interstate client), the rules are different from regular car travel.</p>
+
+      <h3>What You Can Claim for Overnight Business Travel</h3>
+      <ul>
+        <li><strong>Accommodation:</strong> Reasonable hotel or Airbnb costs for business nights</li>
+        <li><strong>Meals:</strong> Reasonable meal expenses while travelling overnight for work</li>
+        <li><strong>Transport:</strong> Flights, taxis, rideshares, trains, car hire</li>
+        <li><strong>Incidentals:</strong> Laundry, phone calls, internet access</li>
+      </ul>
+
+      <h3>ATO Reasonable Travel Allowance Amounts (2025-26)</h3>
+      <p>If you stay within the ATO's "reasonable" limits, you don't need receipts for meals and incidentals. Above these amounts, you need receipts.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 text-slate-400">Expense</th>
+              <th class="text-left py-3 px-4 text-slate-400">Reasonable Daily Limit</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Breakfast</td><td class="py-3 px-4">$33.25</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Lunch</td><td class="py-3 px-4">$37.35</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Dinner</td><td class="py-3 px-4">$63.00</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4">Incidentals</td><td class="py-3 px-4">$22.65</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-white">Total meals + incidentals</td><td class="py-3 px-4 font-medium text-teal-400">$156.25/day</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Important: Sole Traders Can't Pay Themselves Allowances</h3>
+        <p class="text-slate-300 text-sm">These "reasonable amounts" apply as a guide only — sole traders claim <strong>actual expenses</strong> (you can't pay yourself a travel allowance). However, if your actual expenses are within these limits, the ATO generally won't question them without receipts. Above these amounts, you need receipts to support every claim.</p>
+      </div>
+
+      <h2>Parking, Tolls, and Other Transport</h2>
+
+      <h3>Parking</h3>
+      <ul>
+        <li>Business parking (at a client site, business meeting): deductible</li>
+        <li>Parking fines: NOT deductible (penalties are never deductible)</li>
+        <li>Airport parking for business travel: deductible</li>
+        <li>Parking at your regular workplace: NOT deductible</li>
+      </ul>
+
+      <h3>Tolls</h3>
+      <ul>
+        <li>Tolls on business trips: deductible under both methods</li>
+        <li>Keep records (toll statements from your tag provider work well)</li>
+        <li>Under cents per km method: tolls are a <strong>separate deduction</strong> (not included in the 85c rate)</li>
+      </ul>
+
+      <h3>Public Transport and Rideshares</h3>
+      <ul>
+        <li>Train, bus, tram to a client meeting: deductible</li>
+        <li>Uber/taxi to a business meeting: deductible</li>
+        <li>These are separate from car expenses — claimed as "travel expenses", not under either car method</li>
+      </ul>
+
+      <h2>ATO Audit Red Flags for Vehicle Claims</h2>
+      <p>Vehicle deductions are one of the ATO's top audit targets. Avoid these triggers:</p>
+
+      <h3>Red Flags</h3>
+      <ul>
+        <li><strong>Claiming exactly 5,000 km every year</strong> — suspiciously common; the ATO knows most people don't hit exactly 5,000</li>
+        <li><strong>High business use percentage with no evidence</strong> — claiming 90% business use when you also use the car for school runs, shopping, etc.</li>
+        <li><strong>No logbook for the logbook method</strong> — "I'll reconstruct it later" doesn't work</li>
+        <li><strong>Claiming for a car you don't own or lease</strong></li>
+        <li><strong>Claiming both methods</strong> for the same car</li>
+        <li><strong>Luxury car limit ignored</strong> — for cars over $68,108 (2025-26), depreciation is capped at this value, not the purchase price</li>
+      </ul>
+
+      <h3>How to Stay Audit-Safe</h3>
+      <ul>
+        <li>Claim a realistic number (e.g., 3,800 km looks more credible than 5,000 if that's your actual usage)</li>
+        <li>Keep a brief diary or calendar entries showing client visits</li>
+        <li>Use Google Maps Timeline or similar as a backup record</li>
+        <li>If using the logbook method, start your 12-week period NOW (valid for 5 years)</li>
+      </ul>
+
+      <h2>Electric Vehicles (EVs) — Special Rules</h2>
+      <p>Buying an EV for your freelance business? There are some favourable tax rules:</p>
+      <ul>
+        <li><strong>FBT exemption:</strong> Eligible EVs are exempt from Fringe Benefits Tax (relevant if you operate through a company)</li>
+        <li><strong>No luxury car tax:</strong> EVs under $91,387 (2025-26) are exempt from the 33% Luxury Car Tax</li>
+        <li><strong>Depreciation:</strong> Same effective life as petrol cars (8 years for most), but lower running costs mean logbook method often yields a higher deduction relative to cost</li>
+        <li><strong>Charging at home:</strong> Electricity used for charging is a deductible business expense (calculate the business proportion)</li>
+        <li><strong>Cents per km:</strong> The same 85c/km rate applies to EVs — which is generous, since EVs cost ~$0.04/km to "fuel" vs ~$0.12/km for petrol</li>
+      </ul>
+
+      <h2>Vehicle Expenses Checklist</h2>
+      <ul>
+        <li>☐ Chosen your method (cents per km OR logbook) for this financial year</li>
+        <li>☐ Recorded odometer readings on 1 July (start) and 30 June (end)</li>
+        <li>☐ Business kilometres tracked (diary/calendar/app)</li>
+        <li>☐ If logbook method: valid 12-week logbook within last 5 years</li>
+        <li>☐ If logbook method: all receipts saved (fuel, insurance, rego, servicing)</li>
+        <li>☐ Tolls and parking claimed separately (not included in cents per km)</li>
+        <li>☐ Mixed trips split into business and personal portions</li>
+        <li>☐ Home office established as principal place of business (for home-to-client deductions)</li>
+        <li>☐ Overnight travel: meals within reasonable limits OR receipts kept</li>
+        <li>☐ No personal trips claimed as business</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Tax Deductions Guide</a> — All deduction categories for freelancers</li>
+        <li><a href="/blog/working-from-home-tax-deductions-australia" class="text-teal-400 hover:text-teal-300 underline">WFH Deductions</a> — Home office deduction methods</li>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping</a> — 5-year ATO retention rules</li>
+        <li><a href="/blog/eofy-tax-prep-checklist-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">EOFY Checklist</a> — End of year tax preparation</li>
+        <li><a href="/blog/freelance-tax-mistakes-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Mistakes</a> — 15 errors that cost thousands</li>
+        <li><a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Return Guide</a> — Step-by-step lodgement</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a> — Uses real 2025-26 tax brackets</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST on expenses</li>
+      </ul>
+    `,
+  },
 };
