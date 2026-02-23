@@ -21500,4 +21500,636 @@ Yours sincerely,
       </ul>
     `,
   },
+  'invoicing-cleaners-cleaning-business-australia': {
+    slug: 'invoicing-cleaners-cleaning-business-australia',
+    title: 'How to Invoice as a Cleaner or Cleaning Business in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for Australian cleaners and cleaning businesses — residential rates, commercial contracts, recurring billing, product charges, and ATO compliance.',
+    category: 'Profession Guides',
+    readTime: '12 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Cleaner or Cleaning Business in Australia | 2026 Guide',
+    seoDescription: 'Australian cleaning business invoicing guide. Residential and commercial rates, recurring billing, product charges, ABN and GST requirements, and professional invoice templates.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Cleaning is one of the most common sole trader businesses in Australia, yet many cleaners undercharge, don't invoice properly, or miss out on legitimate deductions. Whether you're a solo residential cleaner or running a commercial cleaning team, this guide covers everything you need to invoice professionally and stay ATO-compliant.</p>
+
+      <h2>Cleaning Service Pricing Models</h2>
+      <p>Australian cleaning businesses typically use one of four pricing models. The right choice depends on your service type and client base.</p>
+
+      <h3>1. Hourly Rate</h3>
+      <p>The most common model for residential cleaning.</p>
+      <ul>
+        <li><strong>Solo residential cleaner:</strong> $35–$55/hour (varies by city and experience)</li>
+        <li><strong>Team rate (2 cleaners):</strong> $60–$90/hour</li>
+        <li><strong>Specialist cleaning:</strong> $50–$80/hour (oven, carpet, windows)</li>
+        <li><strong>Melbourne/Sydney metro:</strong> $40–$60/hour is standard for experienced cleaners</li>
+        <li><strong>Regional areas:</strong> $30–$45/hour is more typical</li>
+      </ul>
+      <p>When invoicing hourly, always specify start and finish times on the invoice. This prevents disputes and builds trust — your client can see exactly what they're paying for.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Hourly vs Flat Rate</h3>
+        <p class="text-slate-300 text-sm">New cleaners often start hourly, then switch to flat rates once they know how long each client's home takes. Flat rates reward efficiency — if you can clean a 3-bedroom house in 2.5 hours instead of 3, you effectively earn more per hour.</p>
+      </div>
+
+      <h3>2. Flat Rate (Per Clean)</h3>
+      <p>Quote a fixed price per visit based on property size and scope.</p>
+      <ul>
+        <li><strong>Studio/1-bed apartment:</strong> $80–$130</li>
+        <li><strong>2-bed house:</strong> $120–$180</li>
+        <li><strong>3-bed house:</strong> $160–$250</li>
+        <li><strong>4-bed house:</strong> $220–$350</li>
+        <li><strong>5+ bed / large home:</strong> $300–$500+</li>
+      </ul>
+      <p>Always do a walkthrough (or get photos) before quoting flat rates. A "3-bedroom house" could be a compact townhouse or a sprawling property with 3 bathrooms and a home office.</p>
+
+      <h3>3. Per Square Metre</h3>
+      <p>Standard for commercial cleaning contracts.</p>
+      <ul>
+        <li><strong>Office cleaning:</strong> $2.50–$5.00/sqm (general clean)</li>
+        <li><strong>Retail cleaning:</strong> $3.00–$6.00/sqm (floor mopping, displays, fitting rooms)</li>
+        <li><strong>Industrial/warehouse:</strong> $1.50–$3.50/sqm (floor scrubbing, high-traffic areas)</li>
+        <li><strong>Medical/dental:</strong> $5.00–$10.00/sqm (infection control, clinical-grade cleaning)</li>
+      </ul>
+
+      <h3>4. Package/Bundle Pricing</h3>
+      <p>Offer pre-set packages for common services.</p>
+      <ul>
+        <li><strong>Standard Clean:</strong> General tidy, vacuum, mop, bathroom, kitchen — $150–$250</li>
+        <li><strong>Deep Clean:</strong> Inside cupboards, oven, fridge, baseboards, behind furniture — $350–$600</li>
+        <li><strong>End of Lease / Bond Clean:</strong> Full property clean to real estate standards — $350–$800+ (depends on size)</li>
+        <li><strong>Spring Clean:</strong> Deep clean + windows + carpet steam — $500–$1,000</li>
+        <li><strong>Move-In Ready:</strong> Pre-tenancy deep clean + sanitise — $300–$600</li>
+      </ul>
+
+      <h2>Residential vs Commercial Invoicing</h2>
+
+      <h3>Residential Clients</h3>
+      <ul>
+        <li><strong>Invoice after each clean</strong> or weekly/fortnightly for regulars</li>
+        <li><strong>Payment terms:</strong> Due on receipt or within 3 days (residential clients shouldn't have Net 30)</li>
+        <li><strong>Payment methods:</strong> Bank transfer is standard. Many residential cleaners also accept cash — but ALWAYS issue an invoice or receipt regardless. The ATO expects records of all income</li>
+        <li><strong>Recurring billing:</strong> For regular clients (weekly/fortnightly), set up automatic invoicing on the same day each week. Consistency makes your bookkeeping easier and trains clients to expect the invoice</li>
+      </ul>
+
+      <h3>Commercial Clients</h3>
+      <ul>
+        <li><strong>Invoice monthly</strong> with a detailed breakdown of each visit</li>
+        <li><strong>Payment terms:</strong> Net 14 or Net 30 (commercial clients expect standard terms)</li>
+        <li><strong>Purchase orders:</strong> Larger businesses and property managers often require a PO number before they'll process payment. Always ask upfront</li>
+        <li><strong>Contract pricing:</strong> Quote a monthly rate with a minimum contract period (6–12 months). Include CPI increase clauses for contracts over 12 months</li>
+        <li><strong>Scope of work:</strong> Attach a cleaning schedule to every commercial contract. Specify exactly which areas are cleaned, how often, and what's included. This prevents scope creep and supports your invoice if the client disputes charges</li>
+      </ul>
+
+      <h2>End of Lease / Bond Cleaning</h2>
+      <p>Bond cleans are a significant revenue stream for cleaning businesses. They're also the most common source of disputes.</p>
+
+      <h3>Pricing</h3>
+      <ul>
+        <li><strong>1-bed apartment:</strong> $250–$400</li>
+        <li><strong>2-bed house:</strong> $350–$550</li>
+        <li><strong>3-bed house:</strong> $450–$700</li>
+        <li><strong>4+ bed house:</strong> $600–$900+</li>
+        <li><strong>Add-ons:</strong> Carpet steam ($30–$50/room), external window clean ($80–$150), garage ($80–$120), wall marks/scuffs ($50–$100)</li>
+      </ul>
+
+      <h3>Bond Clean Invoice Best Practices</h3>
+      <ul>
+        <li><strong>Always get payment upfront</strong> or 50% deposit + balance on completion. Bond clean clients are often moving interstate — chasing payment later is difficult</li>
+        <li><strong>Include a bond-back guarantee</strong> on your invoice/quote (if you offer one). State clearly: "We guarantee our bond clean will pass your real estate agent's inspection. If any items fail, we will return within 48 hours to rectify at no additional cost." This justifies premium pricing</li>
+        <li><strong>Photograph everything</strong> before and after. Attach photos to the invoice as proof of work. This protects both you and the tenant if the agent disputes the clean</li>
+        <li><strong>Itemise the invoice:</strong> List every room and area cleaned. Bond clean clients (and their agents) expect to see exactly what was done</li>
+      </ul>
+
+      <h2>Product and Supply Charges</h2>
+      <p>Cleaning products are a real cost. There are three approaches to handling them on invoices.</p>
+
+      <h3>Option 1: Included in Your Rate (Most Common)</h3>
+      <p>Build product costs into your hourly or flat rate. Most residential cleaners do this. Your rate covers your time AND your supplies. Simple for the client, simple for your invoicing.</p>
+
+      <h3>Option 2: Separate Line Item</h3>
+      <p>Charge a flat "supplies fee" per clean — typically $5–$15 for residential or $20–$50 for commercial. Show it as a separate line on the invoice:</p>
+      <ul>
+        <li>Cleaning service (3-bed house, 2.5 hrs): $150.00</li>
+        <li>Cleaning supplies: $10.00</li>
+        <li><strong>Total: $160.00</strong></li>
+      </ul>
+
+      <h3>Option 3: Client Provides Products</h3>
+      <p>Some clients (especially those with allergies, pets, or eco preferences) prefer to supply their own products. In this case, your rate should reflect that you're providing labour only — but many cleaners keep the same rate and treat it as a margin benefit.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Specialist Product Costs</h3>
+        <p class="text-slate-300 text-sm">For specialist cleans (oven cleaning, mould removal, stone floor sealing), the product cost can be significant. Always charge these as a separate line item — a single oven clean can use $15–$30 of specialist product. Don't absorb this cost.</p>
+      </div>
+
+      <h2>Recurring Invoicing for Regular Clients</h2>
+      <p>Most cleaning businesses earn the majority of revenue from recurring clients. Set up your invoicing to match.</p>
+
+      <h3>Weekly Clients</h3>
+      <ul>
+        <li>Invoice weekly (same day, same amount) or batch into a fortnightly/monthly invoice</li>
+        <li>Monthly invoicing reduces admin — one invoice for 4–5 cleans instead of individual invoices</li>
+        <li>Include dates of each visit on the invoice for transparency</li>
+      </ul>
+
+      <h3>Fortnightly Clients</h3>
+      <ul>
+        <li>Invoice per clean or monthly</li>
+        <li>If monthly: list both visit dates and amounts</li>
+        <li>Common issue: clients cancel one visit in a month. Your invoice should only reflect visits completed. Have a cancellation policy (see below)</li>
+      </ul>
+
+      <h3>Monthly Retainer (Commercial)</h3>
+      <ul>
+        <li>Fixed monthly fee covering all scheduled cleans</li>
+        <li>Invoice on the 1st of each month (or per your contract)</li>
+        <li>Include: number of visits, frequency, scope, any extras performed</li>
+        <li>Annual CPI adjustment clause recommended for contracts over 12 months</li>
+      </ul>
+
+      <h2>Cancellation and No-Show Policies</h2>
+      <p>Cancellations are the biggest revenue leak for cleaning businesses. Your policy should be clear and enforced.</p>
+      <ul>
+        <li><strong>24-hour notice required:</strong> Standard minimum. Less than 24 hours = 50% fee</li>
+        <li><strong>Same-day cancellation:</strong> 100% fee (or 50% minimum). You've blocked the time, turned away other work, and may have already driven to the area</li>
+        <li><strong>Lock-out / no access:</strong> Charge a lock-out fee ($30–$50 minimum). If you arrive and can't access the property, you've wasted your time and fuel</li>
+        <li><strong>Public holidays:</strong> Specify whether you work public holidays and at what rate (1.5x–2x is standard)</li>
+        <li><strong>Include the policy on every invoice footer</strong> — not just in the initial quote. This prevents "I didn't know" disputes</li>
+      </ul>
+
+      <h2>Key Extras to Invoice</h2>
+      <p>Many cleaners leave money on the table by not charging for extras.</p>
+      <ul>
+        <li><strong>Inside oven clean:</strong> $40–$80 (requires specialist products and 30–60 min)</li>
+        <li><strong>Inside fridge clean:</strong> $30–$50</li>
+        <li><strong>Window cleaning (interior):</strong> $5–$10 per window or $50–$100 flat for a standard house</li>
+        <li><strong>Laundry service:</strong> $20–$40 per load (wash, dry, fold)</li>
+        <li><strong>Ironing:</strong> $30–$50 per hour</li>
+        <li><strong>Organising / decluttering:</strong> $50–$80 per hour (premium service)</li>
+        <li><strong>Pet hair removal (specialist):</strong> $20–$40 per room</li>
+        <li><strong>Mould treatment:</strong> $50–$150 per area (specialist chemicals, PPE required)</li>
+      </ul>
+
+      <h2>GST for Cleaning Businesses</h2>
+      <ul>
+        <li><strong>Standard GST rules apply:</strong> Cleaning services are taxable supplies. If your annual turnover exceeds $75K, you must register for GST and charge 10% on all services</li>
+        <li><strong>Many full-time cleaners hit $75K:</strong> If you clean 5 days/week at $300/day average, that's $78K/year. Register proactively</li>
+        <li><strong>Once registered:</strong> Add 10% to all invoices. Show GST as a separate line item. Lodge BAS quarterly (or monthly if you prefer)</li>
+        <li><strong>Input tax credits:</strong> Claim GST back on all business purchases — cleaning products, equipment, vehicle expenses, phone, insurance, uniforms</li>
+        <li><strong>Cash payments:</strong> You must report ALL income, including cash payments. The ATO specifically targets cash-heavy industries like cleaning for audits. Keep a record of every job, every payment</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">ATO Warning</h3>
+        <p class="text-slate-300 text-sm">The cleaning industry is an ATO focus area. Cash economy compliance is heavily monitored. ALWAYS issue invoices/receipts for every job, report all income, and keep records for 5 years. Penalties for unreported income range from 25% to 75% of the tax shortfall, plus interest.</p>
+      </div>
+
+      <h2>ABN and Business Structure</h2>
+      <ul>
+        <li><strong>ABN is essential:</strong> Without an ABN, clients must withhold 47% of your payment. Register at abr.gov.au — it's free and takes 10 minutes</li>
+        <li><strong>Sole trader:</strong> Most solo cleaners operate as sole traders. Simple setup, simple tax. You report business income on your personal tax return</li>
+        <li><strong>Company:</strong> Consider a company structure once you're earning $90K+ or hiring employees. Talk to an accountant about the tax benefits</li>
+        <li><strong>Insurance is NOT optional:</strong> Public liability insurance ($5M minimum) costs $300–$600/year and is non-negotiable. Most commercial clients and real estate agents require a certificate of currency before you start. Some residential platforms (Airtasker, Hipages) also require it</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>Not invoicing at all:</strong> The #1 mistake. Many residential cleaners accept cash with no records. This creates ATO risk and makes it impossible to prove income for loans, rentals, or visa applications</li>
+        <li><strong>Underpricing bond cleans:</strong> A proper bond clean for a 3-bed house takes 4–6 hours. Don't quote $250 because a competitor does — they're cutting corners and you'll be blamed when the agent fails the inspection</li>
+        <li><strong>Not charging for travel:</strong> If a client is 30+ minutes away, include a travel fee. Your time in the car isn't free</li>
+        <li><strong>No cancellation policy enforcement:</strong> Having a cancellation policy is useless if you never enforce it. The first time you waive it, the client learns it's optional. Enforce from day one</li>
+        <li><strong>Mixing personal and business banking:</strong> Open a separate business account (most banks offer free sole trader accounts). This makes BAS lodgement dramatically easier and protects you in an audit</li>
+        <li><strong>Not tracking product costs:</strong> Cleaning products add up. Track your monthly spend — it's a legitimate deduction and helps you price accurately</li>
+        <li><strong>Quoting bond cleans without a walkthrough:</strong> Every property is different. What the tenant describes as "generally clean" could mean "we haven't cleaned the oven in 2 years." Always inspect or request photos before quoting</li>
+      </ol>
+
+      <h2>Cleaning Business Tax Deductions</h2>
+      <ul>
+        <li><strong>Cleaning products and chemicals:</strong> Everything you buy for client work — detergents, disinfectants, glass cleaner, oven cleaner, mould remover, cloths, sponges, mop heads</li>
+        <li><strong>Equipment:</strong> Vacuum cleaner, steam cleaner, mop and bucket, spray bottles, squeegees, extension poles. Items over $300 are depreciated; under $300 are claimed immediately</li>
+        <li><strong>Vehicle expenses:</strong> Logbook method (recommended) or 88c/km. Track all travel between client sites. The ATO won't accept "I drove about 100km" — use an app or keep a logbook</li>
+        <li><strong>Fuel:</strong> If using logbook method, fuel is included in vehicle expenses. Keep fuel receipts</li>
+        <li><strong>Phone and internet:</strong> Business-use percentage of your mobile plan. If you use your phone 60% for business (client calls, scheduling, navigation), claim 60%</li>
+        <li><strong>Insurance:</strong> Public liability, personal accident, income protection — all fully deductible</li>
+        <li><strong>Uniforms:</strong> Branded uniforms (with your business name/logo) are fully deductible. Plain clothes worn for cleaning are NOT deductible, even if they get ruined</li>
+        <li><strong>Protective equipment:</strong> Gloves, masks, knee pads, safety glasses — all deductible</li>
+        <li><strong>Advertising:</strong> Business cards, flyers, website hosting, Google Ads, Facebook Ads, Hipages listing fees, Airtasker fees</li>
+        <li><strong>Software/apps:</strong> Invoicing software, scheduling apps, accounting software — all deductible</li>
+        <li><strong>Training:</strong> Carpet cleaning certification, infection control courses, chemical handling courses — all deductible</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/recurring-invoices-guide-freelancers" class="text-teal-400 hover:text-teal-300 underline">Recurring Invoices Guide</a> — Setting up automated recurring billing</li>
+        <li><a href="/blog/non-paying-clients-legal-options-australia" class="text-teal-400 hover:text-teal-300 underline">Non-Paying Clients</a> — Legal options when clients don't pay</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Complete GST guide for Australian sole traders</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Management</a> — Managing irregular income and expenses</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional cleaning invoices instantly</li>
+      </ul>
+    `,
+  },
+  'invoicing-yoga-pilates-instructors-australia': {
+    slug: 'invoicing-yoga-pilates-instructors-australia',
+    title: 'How to Invoice as a Yoga or Pilates Instructor in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for Australian yoga and Pilates instructors — class rates, studio rent models, retreat pricing, class packs, private sessions, and tax deductions.',
+    category: 'Profession Guides',
+    readTime: '12 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Yoga or Pilates Instructor in Australia | 2026 Guide',
+    seoDescription: 'Australian yoga and Pilates instructor invoicing guide. Class rates, studio rent, retreat billing, class packs, private session pricing, ABN requirements, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Australia's wellness industry is booming, with yoga and Pilates studios in every suburb and growing demand for private sessions and corporate wellness. But many instructors operate informally — teaching classes, accepting transfers, and never properly invoicing. This guide covers how to price, invoice, and structure your yoga or Pilates business for maximum profitability and ATO compliance.</p>
+
+      <h2>Yoga and Pilates Pricing Models</h2>
+
+      <h3>1. Casual Class Rates (Teaching for a Studio)</h3>
+      <p>When you teach at someone else's studio, you're typically paid per class.</p>
+      <ul>
+        <li><strong>New instructor (0–2 years):</strong> $40–$60 per class</li>
+        <li><strong>Experienced (2–5 years):</strong> $60–$90 per class</li>
+        <li><strong>Senior / specialist (5+ years, advanced training):</strong> $80–$130 per class</li>
+        <li><strong>Pilates reformer classes:</strong> $70–$120 per class (equipment requirement commands premium)</li>
+        <li><strong>Cover classes / last-minute fill:</strong> +$10–$20 above your standard rate</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Contractor vs Employee</h3>
+        <p class="text-slate-300 text-sm">If you teach exclusively at one studio on a set schedule, the ATO may consider you an employee rather than a contractor — regardless of what your agreement says. The key test: do you control <strong>how</strong> the work is done, or does the studio? If the studio dictates your class content, provides all equipment, and sets your schedule, you may be an employee. This affects invoicing, super, and tax obligations.</p>
+      </div>
+
+      <h3>2. Private Sessions</h3>
+      <p>One-on-one or small group sessions are your highest-margin offering.</p>
+      <ul>
+        <li><strong>1-on-1 yoga session (60 min):</strong> $80–$150</li>
+        <li><strong>1-on-1 Pilates mat (60 min):</strong> $80–$150</li>
+        <li><strong>1-on-1 Pilates reformer (60 min):</strong> $100–$180 (equipment access cost built in)</li>
+        <li><strong>Duo session (2 people, 60 min):</strong> $120–$200 (each person pays less, you earn more total)</li>
+        <li><strong>Small group (3–5 people, 60 min):</strong> $150–$300</li>
+        <li><strong>Home visit surcharge:</strong> +$20–$50 (you travel to the client's home)</li>
+      </ul>
+
+      <h3>3. Class Packs</h3>
+      <p>Pre-paid class packs are essential for cash flow and client retention.</p>
+      <ul>
+        <li><strong>5-class pack:</strong> $85–$130 (5–10% discount on casual rate)</li>
+        <li><strong>10-class pack:</strong> $150–$230 (10–15% discount)</li>
+        <li><strong>20-class pack:</strong> $270–$400 (15–20% discount)</li>
+        <li><strong>Unlimited monthly:</strong> $180–$350/month</li>
+      </ul>
+
+      <h3>Pack Expiry Rules</h3>
+      <ul>
+        <li><strong>Standard expiry:</strong> 5-pack = 8 weeks, 10-pack = 12 weeks, 20-pack = 6 months</li>
+        <li><strong>Expiry is essential:</strong> Without it, clients buy a 10-pack and use it over 12 months, effectively paying half-rate. Expiry motivates regular attendance and protects your revenue</li>
+        <li><strong>No refunds on expired classes:</strong> State this clearly at purchase. Some instructors offer a one-time extension (7 days) as goodwill. Never refund expired classes — it sets a precedent</li>
+        <li><strong>Freeze options:</strong> Offer a 2-week freeze per pack for holidays or illness. More than 2 weeks? They need a new pack</li>
+      </ul>
+
+      <h3>4. Corporate Wellness</h3>
+      <p>Corporate yoga and Pilates is high-value, recurring, and often underpriced by instructors.</p>
+      <ul>
+        <li><strong>Single class (45–60 min, office space):</strong> $150–$300</li>
+        <li><strong>Weekly contract (1 class/week):</strong> $500–$1,200/month</li>
+        <li><strong>Multi-class (2–3/week):</strong> $900–$2,500/month</li>
+        <li><strong>Wellness day / workshop (2–4 hours):</strong> $500–$1,500</li>
+        <li><strong>Include:</strong> Setup/packdown time, travel, mat provision (if you supply mats, charge for it)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Corporate Pricing Tip</h3>
+        <p class="text-slate-300 text-sm">Corporate clients have budgets and expect professional invoicing. Don't price corporate classes at studio casual rates. A corporate lunch-hour yoga class for 15 staff at $200 is $13.30/person — that's nothing in a corporate wellness budget. Price for the value, not the class duration.</p>
+      </div>
+
+      <h2>Retreat and Workshop Invoicing</h2>
+      <p>Retreats and workshops are high-revenue events with complex invoicing.</p>
+
+      <h3>Day Retreats</h3>
+      <ul>
+        <li><strong>Pricing:</strong> $120–$350 per person (includes 2–3 classes, meditation, lunch, materials)</li>
+        <li><strong>Invoice structure:</strong> Full payment at booking, or 50% deposit + balance 7 days before</li>
+        <li><strong>Cancellation:</strong> Non-refundable within 7 days. 50% refund 7–14 days out. Full refund (minus admin fee) 14+ days out. Or: credit towards next retreat (no cash refund)</li>
+      </ul>
+
+      <h3>Multi-Day/Residential Retreats</h3>
+      <ul>
+        <li><strong>Pricing:</strong> $500–$3,000+ per person (accommodation, meals, daily classes, workshops)</li>
+        <li><strong>Payment schedule:</strong> $200–$500 non-refundable deposit at booking. Balance due 30 days before. Payment plan option for retreats over $1,000</li>
+        <li><strong>What to include on the invoice:</strong> Retreat name, dates, location, accommodation type, all inclusions, dietary requirements noted, cancellation policy, travel-not-included disclaimer</li>
+      </ul>
+
+      <h3>Workshops and Masterclasses</h3>
+      <ul>
+        <li><strong>2-hour workshop:</strong> $40–$80 per person</li>
+        <li><strong>Half-day (4 hours):</strong> $80–$150 per person</li>
+        <li><strong>Teacher training module:</strong> $200–$500 per person per weekend</li>
+        <li><strong>Full 200-hour YTT:</strong> $3,000–$6,000 per person (typically 4–6 payments)</li>
+      </ul>
+
+      <h2>Studio Rent Models</h2>
+      <p>If you don't own a studio, your rent arrangement directly affects your invoicing and profitability.</p>
+
+      <h3>Model 1: Fixed Rent</h3>
+      <ul>
+        <li>Pay a flat fee per class or per hour: $20–$60/hour</li>
+        <li>You keep all class revenue above the rent</li>
+        <li>Best when your classes are consistently full</li>
+        <li>Invoice your students directly — you're the business, the studio is your landlord</li>
+      </ul>
+
+      <h3>Model 2: Revenue Share</h3>
+      <ul>
+        <li>Studio takes 30–50% of class revenue</li>
+        <li>Lower risk (if no one shows, you owe nothing) but lower upside</li>
+        <li>The studio usually handles bookings and payments — you invoice the STUDIO, not students</li>
+        <li>Your invoice to the studio: your share of class revenue for the period</li>
+      </ul>
+
+      <h3>Model 3: Sublet / Own Space</h3>
+      <ul>
+        <li>Rent a space (community hall, warehouse, shopfront) and run your own schedule</li>
+        <li>You handle everything: bookings, payments, invoicing, insurance, equipment</li>
+        <li>Highest upfront cost but highest margin if you fill classes</li>
+        <li>Rent is $200–$800/week depending on location and size</li>
+      </ul>
+
+      <h2>Online Classes and Digital Products</h2>
+      <p>Post-COVID, online delivery is a permanent revenue stream.</p>
+      <ul>
+        <li><strong>Live-stream class:</strong> $10–$20 per person per class</li>
+        <li><strong>On-demand library subscription:</strong> $15–$40/month</li>
+        <li><strong>Course (e.g., "30-Day Yoga Challenge"):</strong> $49–$199 one-time</li>
+        <li><strong>Teacher training online:</strong> $1,500–$4,000</li>
+      </ul>
+
+      <h3>Invoicing Digital Products</h3>
+      <ul>
+        <li>Use a platform (Mindbody, Momoyoga, Mariana Tek) that handles payments and generates receipts</li>
+        <li>If you handle payments directly: issue a tax invoice for each transaction</li>
+        <li>Digital products sold to Australian customers attract GST if you're registered</li>
+        <li>International customers: GST-free export if the customer is outside Australia</li>
+      </ul>
+
+      <h2>Health Fund Rebates</h2>
+      <p>If you're a registered Pilates practitioner, your clients may claim health fund rebates.</p>
+      <ul>
+        <li><strong>Requirements:</strong> You must be registered with the relevant health fund provider (HICAPS, Medipass, etc.) and hold recognised Pilates qualifications (Certificate IV or equivalent)</li>
+        <li><strong>Clinical Pilates only:</strong> Standard group Pilates classes are NOT rebatable. Clinical Pilates (prescribed by a GP or physio for a specific condition) may be rebatable under the "extras" cover of some health funds</li>
+        <li><strong>Invoice requirements for rebates:</strong> Provider number, client's full name, date of service, type of service ("Clinical Pilates — individual assessment and exercise program"), duration, and fee charged</li>
+        <li><strong>Yoga is generally NOT rebatable</strong> through health funds in Australia, though some funds cover it under "natural therapies" at reduced rates</li>
+        <li><strong>HICAPS/Tyro terminal:</strong> If you process claims on the spot, clients pay only their gap. You receive the fund payment directly. This increases perceived value and reduces payment friction</li>
+      </ul>
+
+      <h2>GST for Yoga and Pilates Instructors</h2>
+      <ul>
+        <li><strong>Standard GST rules:</strong> Yoga and Pilates classes are taxable supplies. Once your annual turnover exceeds $75K, you must register for GST</li>
+        <li><strong>Multiple income streams add up:</strong> If you teach 10 classes/week ($100/class = $52K), plus 5 private clients ($120/session = $31K), you're at $83K — above the threshold</li>
+        <li><strong>Class packs and GST:</strong> If you're GST-registered, the GST is included in the pack price at the time of purchase, not when each class is attended. You report GST in the BAS period the pack was sold</li>
+        <li><strong>Retreat GST:</strong> The full retreat fee attracts GST (accommodation, meals, classes — all bundled). If you're NOT GST-registered, you cannot charge GST, but your retreat costs will include GST you can't claim back</li>
+        <li><strong>Clinical Pilates exception:</strong> If you're a registered health provider and the Pilates is prescribed as treatment for a medical condition, it may be GST-free as a health service. This is a grey area — get specific advice from your accountant</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>Not invoicing studios at all:</strong> You teach 5 classes/week at a studio and get paid by bank transfer. No invoice, no paper trail. This is a problem if the studio disputes payment or if the ATO audits you. Always invoice for every class taught</li>
+        <li><strong>Pricing corporate classes at studio rates:</strong> A corporate on-site yoga class is not the same as your $20 casual studio class. You're providing: travel, setup, equipment transport, professional service in a corporate environment. Price accordingly ($150–$300)</li>
+        <li><strong>No pack expiry:</strong> Without expiry dates, clients buy a 10-pack and attend once a month for 10 months. You've essentially locked in revenue at a discount rate for the life of the pack. Always set expiry terms</li>
+        <li><strong>Mixing retreat costs:</strong> A retreat invoice should separate: tuition, accommodation, meals, extras. This helps with your own accounting and gives clients clarity on what they're paying for</li>
+        <li><strong>Not tracking class attendance:</strong> If you teach 20+ classes/week across multiple studios, accurate records are essential. Track: date, studio, class type, duration, rate, students. This makes invoicing accurate and tax time simple</li>
+        <li><strong>Informal agreements:</strong> "I'll teach Tuesdays and Thursdays" is not a contract. Get studio arrangements in writing: rates, cancellation notice, payment terms, insurance requirements, and who handles bookings</li>
+      </ol>
+
+      <h2>Yoga and Pilates Tax Deductions</h2>
+      <ul>
+        <li><strong>Training and CPD:</strong> Yoga teacher training (200hr, 300hr, 500hr), Pilates certifications (APMA, Polestar, BASI), workshops, masterclasses, anatomy courses — all deductible if they maintain or improve your skills</li>
+        <li><strong>Yoga Alliance / Pilates association registration:</strong> Annual fees for Yoga Australia ($150–$250), Pilates Alliance Australasia, or international registrations — fully deductible</li>
+        <li><strong>Equipment:</strong> Yoga mats (teaching mats), blocks, straps, bolsters, blankets, Pilates rings, foam rollers — deductible. Your personal practice mat is NOT deductible unless you use it exclusively for teaching</li>
+        <li><strong>Studio hire:</strong> Rent for studio space, community hall hire, park permits — all deductible</li>
+        <li><strong>Music licensing:</strong> If you play music in classes, you need an APRA/AMCOS licence ($100–$300/year depending on setup). Fully deductible</li>
+        <li><strong>Insurance:</strong> Professional indemnity + public liability ($300–$600/year for yoga/Pilates instructors) — fully deductible and usually required by studios</li>
+        <li><strong>Vehicle expenses:</strong> Travel between studios, to private client homes, to corporate sites. Logbook method or 88c/km. Track everything</li>
+        <li><strong>Clothing:</strong> ONLY deductible if it has your business branding (logo, business name). Plain yoga pants worn for teaching = NOT deductible, even if you only wear them for work</li>
+        <li><strong>Spotify / music streaming:</strong> If you use a paid streaming service exclusively for class music, the subscription is deductible (business-use proportion)</li>
+        <li><strong>Website and marketing:</strong> Domain, hosting, Mindbody/Momoyoga subscription, Instagram advertising, photography for social media — all deductible</li>
+        <li><strong>First aid training:</strong> Required by many studios and insurance policies. Course fees are deductible</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-personal-trainers-fitness-australia" class="text-teal-400 hover:text-teal-300 underline">Personal Trainer Invoicing</a> — Similar pack and session-based billing</li>
+        <li><a href="/blog/invoicing-massage-therapists-allied-health-australia" class="text-teal-400 hover:text-teal-300 underline">Massage & Allied Health Invoicing</a> — Health fund claiming and clinical billing</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Payments</a> — Structuring retreat and workshop deposits</li>
+        <li><a href="/blog/recurring-invoices-guide-freelancers" class="text-teal-400 hover:text-teal-300 underline">Recurring Invoices Guide</a> — Automating monthly corporate billing</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional wellness industry invoices instantly</li>
+      </ul>
+    `,
+  },
+  'invoicing-carpenters-builders-australia': {
+    slug: 'invoicing-carpenters-builders-australia',
+    title: 'How to Invoice as a Carpenter or Builder in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for Australian carpenters, joiners, and builders — labour rates, materials markup, progress claims, variation orders, and ATO compliance.',
+    category: 'Profession Guides',
+    readTime: '13 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Carpenter or Builder in Australia | 2026 Guide',
+    seoDescription: 'Australian carpenter and builder invoicing guide. Labour rates, materials markup, progress claims, variation orders, fixed quotes, QBCC/VBA requirements, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Carpentry and building are among the highest-earning trades in Australia, but poor invoicing costs tradespeople thousands every year — underpriced quotes, forgotten materials, unbilled variations, and slow-paying builders. This guide covers everything from solo chippie invoicing to running a building crew, including progress claims, materials markup, and staying on the right side of the ATO and your state's building authority.</p>
+
+      <h2>Carpenter and Builder Pricing Models</h2>
+
+      <h3>1. Hourly / Day Rate</h3>
+      <p>The standard for subcontract work and smaller jobs.</p>
+      <ul>
+        <li><strong>1st–2nd year carpenter:</strong> $35–$50/hour</li>
+        <li><strong>Qualified carpenter (3–5 years):</strong> $50–$70/hour</li>
+        <li><strong>Experienced / specialist (5+ years):</strong> $65–$90/hour</li>
+        <li><strong>Master carpenter / joiner:</strong> $80–$120/hour</li>
+        <li><strong>Day rate conversion:</strong> Multiply hourly by 8, then add 10–20% (an 8-hour day at $70/hr = $560, charge $600–$650/day)</li>
+        <li><strong>Builder / site supervisor:</strong> $600–$1,200/day</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Rate Transparency</h3>
+        <p class="text-slate-300 text-sm">Residential clients often ask "what's your hourly rate?" then mentally calculate whether you're "worth it." For jobs over $500, consider quoting a fixed price instead. Clients prefer knowing the total cost upfront, and you avoid the perception of watching the clock.</p>
+      </div>
+
+      <h3>2. Fixed Quote (Lump Sum)</h3>
+      <p>Standard for defined scope residential and commercial work.</p>
+      <ul>
+        <li><strong>Deck build (standard timber, 20sqm):</strong> $8,000–$15,000</li>
+        <li><strong>Deck build (composite/hardwood, 20sqm):</strong> $12,000–$25,000</li>
+        <li><strong>Pergola / carport:</strong> $5,000–$15,000</li>
+        <li><strong>Kitchen renovation (carpentry only):</strong> $5,000–$15,000</li>
+        <li><strong>Bathroom renovation (carpentry/framing):</strong> $3,000–$8,000</li>
+        <li><strong>Timber staircase:</strong> $5,000–$20,000+ (complexity drives cost)</li>
+        <li><strong>Built-in wardrobes:</strong> $2,500–$8,000 per robe</li>
+        <li><strong>Framing (new build, per sqm):</strong> $40–$80/sqm</li>
+        <li><strong>Second-storey addition:</strong> $150,000–$400,000+ (as builder)</li>
+      </ul>
+      <p>Fixed quotes must be detailed. Break down labour, materials, and margin separately in your internal costing — even if the client sees a single total. This protects you when variations arise.</p>
+
+      <h3>3. Cost-Plus (Time and Materials)</h3>
+      <p>Used for jobs where scope is uncertain — renovations with unknowns, insurance work, heritage restoration.</p>
+      <ul>
+        <li><strong>How it works:</strong> Client pays actual labour (at your hourly rate) + actual materials (at cost or cost-plus margin) + your agreed margin (10–20%)</li>
+        <li><strong>Invoice weekly or fortnightly</strong> with detailed time sheets and material receipts</li>
+        <li><strong>Advantage:</strong> You're never out of pocket. Client sees exactly what they're paying for</li>
+        <li><strong>Risk:</strong> Clients can feel uncertain about final cost. Set a budget range upfront and provide regular updates</li>
+      </ul>
+
+      <h2>Materials Markup</h2>
+      <p>Every carpenter and builder should markup materials. You're managing procurement, transport, storage, and wastage. This is a service.</p>
+      <ul>
+        <li><strong>Standard markup:</strong> 15–25% on materials</li>
+        <li><strong>Trade discounts:</strong> Most timber yards and suppliers give trade accounts 10–30% off retail. Your markup is applied to YOUR cost, not retail</li>
+        <li><strong>Example:</strong> Timber costs you $2,000 (trade price). Retail would be $2,600. You charge client $2,400 (20% markup on your cost). Client pays less than retail, you earn $400 for procurement and management</li>
+        <li><strong>Fixings, consumables, and small items:</strong> Either include in your hourly rate or charge a flat "consumables fee" ($20–$50/day) — nails, screws, glue, blades, sandpaper, etc.</li>
+        <li><strong>Specialist materials (client-specified):</strong> If the client specifies a particular product (e.g., specific hardwood species, designer hardware), charge at cost + a smaller margin (10–15%) since you didn't select it</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Wastage Allowance</h3>
+        <p class="text-slate-300 text-sm">Always include a wastage allowance in your material quotes: 10% for standard work, 15% for complex cuts and angles, 20% for heritage or restoration work. Cutting errors, damaged boards, and offcuts are real costs. If you don't account for wastage, you'll absorb it.</p>
+      </div>
+
+      <h2>Progress Claims (Stage Billing)</h2>
+      <p>For jobs over $5,000–$10,000, never do all the work before invoicing. Use progress claims.</p>
+
+      <h3>Standard Residential Progress Claim Schedule</h3>
+      <ul>
+        <li><strong>Deposit:</strong> 10–20% at contract signing (some states cap deposits — check your state)</li>
+        <li><strong>Stage 1 — Base/frame:</strong> 20–25% when framing is complete</li>
+        <li><strong>Stage 2 — Lock-up:</strong> 20–25% when the structure is enclosed</li>
+        <li><strong>Stage 3 — Fit-out:</strong> 20–25% when internal fit-out is complete</li>
+        <li><strong>Stage 4 — Practical completion:</strong> 10–15% on handover</li>
+        <li><strong>Retention:</strong> 5% held for defects period (30–90 days)</li>
+      </ul>
+
+      <h3>Subcontractor Progress Claims</h3>
+      <ul>
+        <li>Invoice the builder at the end of each week or at agreed milestones</li>
+        <li>Include: PO number (if issued), site address, work description, hours/days worked, materials supplied</li>
+        <li>Payment terms: typically Net 14 or Net 30 from the builder. Some builders pay on the 20th of the following month (effectively Net 30–50)</li>
+        <li>Retention: builders commonly hold 5–10% retention from subcontractors. Track this — it adds up and must be released after the defects period</li>
+      </ul>
+
+      <h3>Progress Claim Best Practices</h3>
+      <ul>
+        <li><strong>Photograph each stage</strong> before invoicing. If the client disputes completion, you have evidence</li>
+        <li><strong>Invoice on the exact milestone date.</strong> Don't wait. The sooner you invoice, the sooner you're paid</li>
+        <li><strong>Include a statutory declaration</strong> with each claim over $20K (required in some states). This declares you've paid your own subcontractors and suppliers</li>
+        <li><strong>Track retention in a separate column.</strong> Retention is YOUR money held in trust. Know exactly how much is outstanding across all jobs</li>
+      </ul>
+
+      <h2>Variation Orders</h2>
+      <p>Variations are the single biggest source of disputes in building. Handle them properly.</p>
+      <ul>
+        <li><strong>ALWAYS get variations in writing before doing the work.</strong> A text message from the client saying "can you also do X" is a start, but a formal variation order is better</li>
+        <li><strong>Variation order should include:</strong> Description of change, reason, cost impact (labour + materials), time impact, client signature or written approval</li>
+        <li><strong>Invoice variations separately</strong> or as a clearly identified line item on your progress claim. Never bury variations in the main invoice — the client should see exactly what changed and why</li>
+        <li><strong>Verbal "yeah, just do it" agreements:</strong> If the client verbally approves a variation, send a follow-up email or text: "Confirming the additional [work] at [cost]. Please reply to confirm." This creates a paper trail</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Variation Warning</h3>
+        <p class="text-slate-300 text-sm">Unapproved variations are the #1 reason builders end up in VCAT/NCAT/QCAT disputes. If you do extra work without written approval, the client can legally refuse to pay for it — even if they verbally asked for it. Protect yourself. Get it in writing. Every time.</p>
+      </div>
+
+      <h2>Licensing and Compliance Requirements</h2>
+      <p>Building is heavily regulated in Australia. Your invoicing must reflect compliance.</p>
+
+      <h3>State Licensing Bodies</h3>
+      <ul>
+        <li><strong>Victoria:</strong> Victorian Building Authority (VBA) — registration required for all domestic building work over $10,000</li>
+        <li><strong>NSW:</strong> NSW Fair Trading — Home Building Licence for residential work over $5,000 (including labour + materials)</li>
+        <li><strong>Queensland:</strong> QBCC (Queensland Building and Construction Commission) — licence required for all building work. BSA licence for structural work</li>
+        <li><strong>WA:</strong> Building Commission WA — registration required for building work</li>
+        <li><strong>SA/TAS/ACT/NT:</strong> Each has its own licensing body and thresholds</li>
+      </ul>
+
+      <h3>What Must Appear on Your Invoice</h3>
+      <ul>
+        <li>Your builder/carpenter registration or licence number</li>
+        <li>Your ABN</li>
+        <li>Your insurance details (or "insurance held — certificate available on request")</li>
+        <li>For domestic building work over $10K (VIC) or $5K (NSW): reference to the signed building contract</li>
+        <li>Description of work — must match the contract scope or reference an approved variation</li>
+      </ul>
+
+      <h3>Domestic Building Insurance</h3>
+      <ul>
+        <li><strong>Public liability:</strong> $10M–$20M coverage ($500–$1,200/year). Non-negotiable. Required by every builder, every commercial site, and most residential clients</li>
+        <li><strong>Domestic building insurance (warranty):</strong> Required in most states for residential work over $16K (VIC) — protects the homeowner if you can't complete the work. You must provide the certificate before starting work and before collecting more than 10% deposit</li>
+        <li><strong>Professional indemnity:</strong> Optional but recommended for design-build work</li>
+        <li><strong>Workers comp:</strong> MANDATORY if you have employees (including apprentices). In VIC, managed through WorkSafe Victoria</li>
+      </ul>
+
+      <h2>Invoicing Builders (as a Subcontractor)</h2>
+      <p>If you're a subcontractor working for builders, your invoicing needs are specific.</p>
+      <ul>
+        <li><strong>Include PO/job number:</strong> Builders manage many jobs — your invoice needs the reference number they gave you, or it goes to the bottom of the pile</li>
+        <li><strong>Site address on every invoice:</strong> Builders can't match your invoice to their project if it just says "carpentry work"</li>
+        <li><strong>Separate labour and materials:</strong> Most builders want to see the breakdown for their own cost tracking</li>
+        <li><strong>Submit on their schedule:</strong> Many builders have invoice submission deadlines (e.g., by the 25th for payment on the 15th of next month). Miss the deadline = wait another month</li>
+        <li><strong>RCTI (Recipient Created Tax Invoice):</strong> Some large builders issue their own tax invoices on your behalf (RCTI). If you've agreed to this arrangement, you DO NOT issue your own invoice — the builder creates it. Confirm whether your builder uses RCTIs before sending invoices</li>
+      </ul>
+
+      <h2>Taxable Payments Annual Report (TPAR)</h2>
+      <p>If you're a builder who pays subcontractors, you MUST lodge a Taxable Payments Annual Report with the ATO by August 28 each year.</p>
+      <ul>
+        <li><strong>Applies to:</strong> Any business in the building and construction industry that pays contractors for building services</li>
+        <li><strong>Report includes:</strong> ABN of each contractor, total gross payments made, total GST included</li>
+        <li><strong>Why it matters:</strong> The ATO cross-references your TPAR with your subcontractors' tax returns. If you report paying someone $50K and they declare $30K — the ATO knows</li>
+        <li><strong>Keep records:</strong> Every subcontractor invoice you pay, every payment you make. You'll need this for the TPAR</li>
+      </ul>
+
+      <h2>GST for Carpenters and Builders</h2>
+      <ul>
+        <li><strong>Most carpenters will be GST-registered:</strong> If you're earning $65/hour and working 40 hours/week, you're at $135K/year — well above the $75K threshold</li>
+        <li><strong>Charge GST on everything:</strong> Labour, materials, markup, travel charges, call-out fees — all attract GST once you're registered</li>
+        <li><strong>Input tax credits:</strong> Claim GST back on all business purchases: timber, tools, hardware, vehicle expenses, fuel, phone, insurance, safety gear</li>
+        <li><strong>BAS lodgement:</strong> Quarterly for most sole traders, monthly if your turnover is over $20M (or if you choose monthly)</li>
+        <li><strong>Cash vs accruals:</strong> Most sole trader carpenters use cash basis for GST reporting (you report GST when you receive payment, not when you invoice). This is simpler and better for cash flow</li>
+        <li><strong>Margin scheme:</strong> Not applicable to building services, but if you're developing property for sale, talk to your accountant about the margin scheme for GST</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>Not quoting for wastage:</strong> A 20sqm deck needs more than 20sqm of decking. Cuts, angles, damaged boards, offcuts — add 10–15% wastage. If you don't, YOU absorb the cost of extra material runs</li>
+        <li><strong>Forgetting consumables:</strong> Nails, screws, glue, silicone, blades, sandpaper — these cost $20–$50/day. Over a month, that's $400–$1,000 you're giving away if you don't charge for them</li>
+        <li><strong>Doing variations without written approval:</strong> "The client asked me to" won't hold up in a dispute tribunal. Always get variations approved in writing before starting the work</li>
+        <li><strong>Not issuing invoices for small jobs:</strong> That $500 handrail repair still needs an invoice. The ATO doesn't have a minimum threshold for record-keeping</li>
+        <li><strong>Slow invoicing:</strong> Invoice the day the job is complete (or the day the progress milestone is reached). Every day you delay invoicing is a day added to your payment wait. Invoice immediately</li>
+        <li><strong>Not tracking retention:</strong> At 5% retention on $200K of subcontract work, that's $10K sitting with builders. Track every dollar and follow up at the end of each defects period</li>
+        <li><strong>Underquoting to win work:</strong> Racing to the bottom on price attracts the worst clients. Quote accurately, include your margin, and let price-shoppers go to someone else</li>
+      </ol>
+
+      <h2>Carpenter and Builder Tax Deductions</h2>
+      <ul>
+        <li><strong>Tools of trade:</strong> Hand tools, power tools, nail guns, compressors, table saws, routers — items under $300 are claimed immediately. Over $300, depreciated over the effective life (typically 5 years for power tools)</li>
+        <li><strong>Vehicle expenses:</strong> Ute or van expenses — logbook method is essential for tradies. Track all travel between jobs, supplier runs, and tip runs. Exclude home-to-first-job and last-job-to-home trips (these are commuting, not deductible)</li>
+        <li><strong>Fuel:</strong> Included in logbook method vehicle expenses. Keep fuel receipts</li>
+        <li><strong>Safety gear:</strong> Steel-cap boots, hard hats, safety glasses, high-vis, gloves, ear protection, sun protection — all deductible. Replace as needed (ATO won't question reasonable safety gear claims)</li>
+        <li><strong>Licences and registrations:</strong> White card, builder's licence, VBA/QBCC registration fees — fully deductible</li>
+        <li><strong>Insurance:</strong> Public liability, domestic building insurance, income protection, workers comp — all deductible</li>
+        <li><strong>Phone:</strong> Business-use percentage of your mobile plan. Most tradies use their phone 70–80% for work (calls, texts, photos, email, navigation)</li>
+        <li><strong>Advertising:</strong> Website, Google Ads, Hipages, ServiceSeeking, business cards, vehicle signage — all deductible</li>
+        <li><strong>Training:</strong> Licence renewal courses, safety training, new skill certifications (e.g., formwork, scaffolding ticket) — all deductible</li>
+        <li><strong>Tool insurance:</strong> If you insure your tools separately (recommended for valuable tools) — deductible</li>
+        <li><strong>Sun protection:</strong> Sunscreen, hats, and UV-rated clothing used for outdoor work — deductible (ATO has specific guidance on this for outdoor workers)</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-electricians-tradespeople-australia" class="text-teal-400 hover:text-teal-300 underline">Electrician & Trades Invoicing</a> — Similar labour + materials billing</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Payments</a> — Progress claim structures</li>
+        <li><a href="/blog/non-paying-clients-legal-options-australia" class="text-teal-400 hover:text-teal-300 underline">Non-Paying Clients</a> — Legal options when builders don't pay subcontractors</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Complete GST guide for Australian sole traders</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional trade invoices instantly</li>
+      </ul>
+    `,
+  },
 };
