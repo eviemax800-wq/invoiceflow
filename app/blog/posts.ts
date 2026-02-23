@@ -9010,4 +9010,629 @@ Best,
       </ul>
     `,
   },
+
+  'deposit-invoicing-milestone-payments-freelancer': {
+    slug: 'deposit-invoicing-milestone-payments-freelancer',
+    title: 'How to Invoice for Deposits and Milestone Payments as a Freelancer',
+    excerpt: 'Learn how to structure deposit invoices and milestone payment schedules to protect your cash flow and reduce project risk as an Australian freelancer.',
+    category: 'Invoicing',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice for Deposits & Milestone Payments | Freelancer Guide',
+    seoDescription: 'Complete guide to deposit invoicing and milestone payment structures for Australian freelancers. Includes templates, GST rules, percentage benchmarks, and client scripts.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Getting paid upfront isn't greedy — it's smart business. Deposits and milestone payments protect your cash flow, filter out non-serious clients, and ensure you're never working weeks of unpaid time on a project that might fall apart. Here's exactly how to structure them.</p>
+
+      <h2>Why Every Freelancer Should Require Deposits</h2>
+      <p>If you've ever completed a project and then waited 30, 60, or 90+ days for payment — or worse, never got paid at all — you already know why deposits matter. But the numbers make an even stronger case:</p>
+      <ul>
+        <li><strong>Non-payment risk drops 80%</strong> when you collect a deposit before starting</li>
+        <li><strong>Cash flow stability</strong> — deposits fund your time while you deliver</li>
+        <li><strong>Client commitment signal</strong> — clients who pay upfront are more engaged and decisive</li>
+        <li><strong>Scope creep protection</strong> — structured milestones tie payments to deliverables</li>
+        <li><strong>Professional positioning</strong> — serious businesses expect professional payment terms</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Reality Check</h3>
+        <p class="text-slate-300 text-sm">A 2025 freelancer survey found that <strong>29% of freelancers</strong> have had a client refuse to pay after work was completed. Of those who required deposits, only 6% experienced non-payment on the remaining balance. The data is clear: get money upfront.</p>
+      </div>
+
+      <h2>Deposit vs Milestone vs Progress Payments</h2>
+      <p>These terms get used interchangeably, but they serve different purposes:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Payment Type</th>
+            <th class="text-left py-3 px-4 text-slate-400">When Used</th>
+            <th class="text-left py-3 px-4 text-slate-400">Typical Amount</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Deposit</td><td class="py-3 px-4">Before work starts</td><td class="py-3 px-4">25-50% of total</td><td class="py-3 px-4">Small–medium projects</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Milestone</td><td class="py-3 px-4">At defined deliverables</td><td class="py-3 px-4">Split across 3-5 stages</td><td class="py-3 px-4">Large or complex projects</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Progress</td><td class="py-3 px-4">At regular intervals</td><td class="py-3 px-4">Weekly or fortnightly</td><td class="py-3 px-4">Ongoing/retainer work</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Retainer</td><td class="py-3 px-4">Start of each period</td><td class="py-3 px-4">Fixed monthly amount</td><td class="py-3 px-4">Long-term relationships</td></tr>
+        </tbody>
+      </table>
+
+      <h2>How Much to Charge as a Deposit</h2>
+      <p>The right deposit amount depends on project size, client relationship, and risk:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Project Size</th>
+            <th class="text-left py-3 px-4 text-slate-400">Recommended Deposit</th>
+            <th class="text-left py-3 px-4 text-slate-400">Reasoning</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Under $1,000</td><td class="py-3 px-4 font-medium text-teal-400">50-100% upfront</td><td class="py-3 px-4">Small enough to pay in full. Not worth chasing.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$1,000-$5,000</td><td class="py-3 px-4 font-medium text-teal-400">50% deposit + 50% on completion</td><td class="py-3 px-4">Standard two-payment split. Simple for both parties.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$5,000-$15,000</td><td class="py-3 px-4 font-medium text-teal-400">30-40% deposit + milestones</td><td class="py-3 px-4">3-4 milestone payments tied to deliverables.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$15,000+</td><td class="py-3 px-4 font-medium text-teal-400">25% deposit + 4-5 milestones</td><td class="py-3 px-4">Spread payments evenly. Never have more than 25% at risk.</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Golden Rule</h3>
+        <p class="text-slate-300 text-sm">Never have more than <strong>2 weeks of unbilled work</strong> at any point during a project. If you're working on a 3-month project, structure payments so you're always paid up to within 2 weeks of your current progress.</p>
+      </div>
+
+      <h2>Milestone Payment Structures (Real Examples)</h2>
+      <p>Here are proven milestone structures for common freelance projects:</p>
+
+      <h3>Website Build ($5,000)</h3>
+      <ul>
+        <li><strong>Milestone 1 (40%):</strong> $2,000 — Deposit + discovery + wireframes</li>
+        <li><strong>Milestone 2 (30%):</strong> $1,500 — Design approval + development start</li>
+        <li><strong>Milestone 3 (20%):</strong> $1,000 — Development complete + testing</li>
+        <li><strong>Milestone 4 (10%):</strong> $500 — Launch + handover</li>
+      </ul>
+
+      <h3>Brand Identity Package ($3,000)</h3>
+      <ul>
+        <li><strong>Milestone 1 (50%):</strong> $1,500 — Deposit + research + 3 concept directions</li>
+        <li><strong>Milestone 2 (30%):</strong> $900 — Chosen concept refinement + applications</li>
+        <li><strong>Milestone 3 (20%):</strong> $600 — Final files delivery + brand guide</li>
+      </ul>
+
+      <h3>SaaS MVP ($12,000)</h3>
+      <ul>
+        <li><strong>Milestone 1 (25%):</strong> $3,000 — Deposit + technical spec + architecture</li>
+        <li><strong>Milestone 2 (25%):</strong> $3,000 — Core features complete + demo</li>
+        <li><strong>Milestone 3 (25%):</strong> $3,000 — Full feature set + testing</li>
+        <li><strong>Milestone 4 (15%):</strong> $1,800 — Deployment + documentation</li>
+        <li><strong>Milestone 5 (10%):</strong> $1,200 — 30-day support period complete</li>
+      </ul>
+
+      <h2>How to Issue a Deposit Invoice in Australia</h2>
+      <p>A deposit invoice has specific requirements under Australian tax law:</p>
+
+      <h3>What to Include</h3>
+      <ul>
+        <li>Label it <strong>"Deposit Invoice"</strong> or <strong>"Tax Invoice — Deposit"</strong></li>
+        <li>Reference the full project scope and total quoted amount</li>
+        <li>Clearly state this is a deposit (e.g., "50% deposit for website redesign project")</li>
+        <li>Your ABN (always — <a href="/blog/how-to-register-abn-australia" class="text-teal-400 hover:text-teal-300 underline">ABN withholding rules apply</a>)</li>
+        <li>GST amount (if registered — <a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">see GST guide</a>)</li>
+        <li>Payment terms (typically "due on receipt" for deposits)</li>
+        <li>A unique invoice number — use a prefix like DEP-001 or just sequential</li>
+      </ul>
+
+      <h3>GST on Deposits</h3>
+      <p>If you're GST-registered, <strong>GST applies to deposits</strong>. The ATO treats a deposit as a partial payment for a taxable supply. You report it in the BAS period when you receive the payment.</p>
+      <p>Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to calculate the correct GST on any deposit amount.</p>
+
+      <h2>How to Present Deposits to Clients</h2>
+      <p>The way you frame deposits determines whether clients accept them willingly or push back:</p>
+
+      <h3>Script: New Client</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <p class="text-slate-300 text-sm italic">"My standard payment structure is 50% deposit to secure your project slot, with the remaining 50% due on completion. The deposit covers the discovery, planning, and initial development phases. I'll send the deposit invoice along with the proposal — once that's paid, I'll block out your dates and we can get started."</p>
+      </div>
+
+      <h3>Script: Larger Project</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <p class="text-slate-300 text-sm italic">"For a project of this scope, I use milestone-based payments. You'll see in the proposal that it's structured in 4 phases, each with clear deliverables and a payment trigger. The first payment covers the initial 30% and gets the project started. This protects both of us — you only pay as you see progress, and I can plan my time effectively."</p>
+      </div>
+
+      <h3>Script: Client Pushback</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <p class="text-slate-300 text-sm italic">"I understand the concern. The deposit is standard practice for professional freelancers and protects both parties. It secures your project dates in my schedule and funds the initial research and planning phase, which starts immediately. I'm happy to adjust the milestone structure if you'd prefer more frequent, smaller payments — many clients actually prefer that approach."</p>
+      </div>
+
+      <h2>When Clients Refuse to Pay a Deposit</h2>
+      <p>This is one of the clearest <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">client red flags</a>. But here's how to handle it:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Objection</th>
+            <th class="text-left py-3 px-4 text-slate-400">Response</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"We don't pay deposits"</td><td class="py-3 px-4">Offer smaller milestones (weekly billing) or suggest escrow. If they refuse all upfront payment, walk away.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Our AP runs Net 30"</td><td class="py-3 px-4">Submit the deposit invoice early so it clears before your start date. Build the 30-day wait into your timeline.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Can we start and pay after?"</td><td class="py-3 px-4">No. Politely explain that work begins when the deposit clears. Offer to send a detailed proposal so they can process payment while reviewing.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Other freelancers don't charge deposits"</td><td class="py-3 px-4">"Other freelancers also have 30% non-payment rates. My deposit structure is why I can guarantee availability and quality."</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Deposit Invoice Template</h2>
+      <p>Here's a template you can adapt. Or use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create one instantly.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5 font-mono text-sm">
+        <p class="text-teal-400 font-bold mb-4">DEPOSIT INVOICE</p>
+        <p class="text-slate-300">Invoice #: DEP-2026-001</p>
+        <p class="text-slate-300">Date: [Today]</p>
+        <p class="text-slate-300">ABN: [Your ABN]</p>
+        <p class="text-slate-300 mt-4">Bill to: [Client Name / ABN]</p>
+        <p class="text-slate-300 mt-4">Re: 50% deposit for [Project Name]</p>
+        <p class="text-slate-300">Full project value: $[Total] + GST</p>
+        <p class="text-slate-300 mt-4">Deposit (50%): $[Amount]</p>
+        <p class="text-slate-300">GST: $[Amount / 10]</p>
+        <p class="text-slate-300 font-bold">Total due: $[Amount x 1.1]</p>
+        <p class="text-slate-300 mt-4">Payment terms: Due on receipt</p>
+        <p class="text-slate-300">Bank: [BSB] [Account]</p>
+        <p class="text-slate-300 mt-4 text-xs italic">Note: Work commences upon receipt of this deposit. Remaining 50% invoiced on project completion.</p>
+      </div>
+
+      <h2>Milestone Payment Tracking</h2>
+      <p>For multi-milestone projects, keep a payment schedule visible to both parties:</p>
+      <ol>
+        <li><strong>Include it in your contract</strong> — milestones, deliverables, amounts, due dates</li>
+        <li><strong>Send invoices proactively</strong> — don't wait for clients to ask</li>
+        <li><strong>Pause work if unpaid</strong> — professionally and clearly: "I'll continue once milestone 2 payment clears"</li>
+        <li><strong>Track in a spreadsheet</strong> — project name, milestone, amount, date invoiced, date paid</li>
+      </ol>
+
+      <h2>Legal Protection for Deposits</h2>
+      <p>Your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">freelance contract</a> should include:</p>
+      <ul>
+        <li><strong>Deposit clause:</strong> "A deposit of [X]% is required before work commences. The deposit is non-refundable once work has begun."</li>
+        <li><strong>Milestone clause:</strong> "Payments are due within [7] days of milestone completion. Work on subsequent milestones will not commence until outstanding payments are received."</li>
+        <li><strong>Cancellation clause:</strong> "If the client cancels after work begins, the deposit covers work completed to date. Additional completed work will be invoiced at the agreed rate."</li>
+        <li><strong>Kill fee:</strong> For larger projects, include a cancellation fee (typically 10-25% of remaining value)</li>
+      </ul>
+
+      <h2>7-Point Deposit Checklist</h2>
+      <ul>
+        <li>☐ Deposit percentage is appropriate for project size (see table above)</li>
+        <li>☐ Payment terms are in writing (contract or proposal)</li>
+        <li>☐ Deposit invoice includes ABN, GST, and project reference</li>
+        <li>☐ Invoice sent before or with the signed contract</li>
+        <li>☐ Work doesn't begin until payment clears</li>
+        <li>☐ Milestone schedule is clear to both parties</li>
+        <li>☐ Non-refundable clause is in the contract</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">How to Create a Tax Invoice in Australia</a> — Full ATO requirements</li>
+        <li><a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300 underline">Invoice Payment Terms Explained</a> — Net 7, 14, 30 guide</li>
+        <li><a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">How to Write a Freelance Proposal</a> — Include deposits in proposals</li>
+        <li><a href="/blog/get-clients-pay-invoices-faster" class="text-teal-400 hover:text-teal-300 underline">How to Get Clients to Pay Faster</a> — Speed up payments</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">How to Handle Scope Creep</a> — Milestones prevent scope issues</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create deposit invoices instantly</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST on deposits</li>
+      </ul>
+    `,
+  },
+
+  'freelance-networking-australia': {
+    slug: 'freelance-networking-australia',
+    title: 'Freelance Networking: How to Build Professional Connections in Australia',
+    excerpt: 'A practical guide to networking as an Australian freelancer — covering LinkedIn strategy, local events, online communities, and how to turn connections into clients.',
+    category: 'Growth',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelance Networking Australia | Build Professional Connections',
+    seoDescription: 'Practical networking guide for Australian freelancers. LinkedIn strategy, local events, online communities, referral systems, and how to turn connections into paying clients.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Freelancing can feel isolating — but the freelancers who earn the most aren't necessarily the most skilled. They're the most connected. Your network determines your deal flow, your rates, and your resilience. Here's how to build one in Australia without being sleazy about it.</p>
+
+      <h2>Why Networking Matters More for Freelancers</h2>
+      <p>When you're employed, work comes to you through your employer. When you freelance, <strong>you are the business development team</strong>. Networking isn't optional — it's your pipeline.</p>
+      <ul>
+        <li><strong>65% of freelance work</strong> comes from referrals and personal connections</li>
+        <li>Referred clients are <strong>4x more likely to hire</strong> than cold leads</li>
+        <li>Referred clients pay <strong>20-30% higher rates</strong> on average (they already trust you)</li>
+        <li>Networking provides <strong>peer support</strong> — advice, accountability, mental health</li>
+        <li>Your network is your <strong>safety net</strong> — work dries up for everyone sometimes</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Compound Effect</h3>
+        <p class="text-slate-300 text-sm">A strong network doesn't pay off in Week 1. It pays off in Year 2. Every coffee meeting, every helpful comment, every referral given — these compound over time. The freelancers who invest in networking early have <strong>3-5x more inbound work</strong> by Year 3.</p>
+      </div>
+
+      <h2>5 Networking Channels (Ranked by ROI)</h2>
+
+      <h3>1. LinkedIn (Highest ROI for B2B Freelancers)</h3>
+      <p>LinkedIn is where Australian businesses look for freelancers. Here's the strategy:</p>
+
+      <h4>Profile Optimisation</h4>
+      <ul>
+        <li><strong>Headline:</strong> Don't use "Freelancer" — use "[Outcome] for [Audience]" (e.g., "I help SaaS startups ship faster with full-stack development")</li>
+        <li><strong>About section:</strong> 3 paragraphs max. Problem, Solution, Proof. Include a CTA.</li>
+        <li><strong>Featured section:</strong> Link to your <a href="/blog/freelance-portfolio-guide-australia" class="text-teal-400 hover:text-teal-300 underline">portfolio</a>, case studies, or lead magnets</li>
+        <li><strong>Experience:</strong> List freelance projects as roles (e.g., "Lead Developer — [Client] (Contract)")</li>
+        <li><strong>Skills endorsements:</strong> Ask 5 past clients to endorse your top 3 skills</li>
+      </ul>
+
+      <h4>Content Strategy</h4>
+      <ul>
+        <li><strong>Post 2-3x per week</strong> — consistency beats virality</li>
+        <li><strong>Share lessons, not pitches:</strong> "Here's what I learned building X" beats "Hire me for Y"</li>
+        <li><strong>Comment on others' posts</strong> — 10 thoughtful comments are better than 1 mediocre post</li>
+        <li><strong>Document your work:</strong> Before/after screenshots, process breakdowns, client results (with permission)</li>
+        <li><strong>Monday morning tip:</strong> Start the week with a useful tip in your niche — high engagement</li>
+      </ul>
+
+      <h4>Outreach That Works</h4>
+      <ul>
+        <li>Connect with decision-makers at companies you'd like to work with</li>
+        <li>Don't pitch immediately — engage with their content first (2-3 weeks)</li>
+        <li>When you reach out: "I noticed [specific thing about their business]. I help [similar companies] with [specific outcome]. Would you be open to a quick chat about [specific challenge]?"</li>
+        <li>Follow up once after 5 days. No response means move on.</li>
+      </ul>
+
+      <h3>2. Australian Freelancer Communities</h3>
+      <p>These communities are gold for peer referrals, advice, and overflow work:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Community</th>
+            <th class="text-left py-3 px-4 text-slate-400">Platform</th>
+            <th class="text-left py-3 px-4 text-slate-400">Size</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">r/AusFinance</td><td class="py-3 px-4">Reddit</td><td class="py-3 px-4">789K+</td><td class="py-3 px-4">Business/tax discussions, building credibility</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">r/freelance</td><td class="py-3 px-4">Reddit</td><td class="py-3 px-4">400K+</td><td class="py-3 px-4">Industry-wide freelance advice and trends</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Freelancing Gems AU</td><td class="py-3 px-4">Facebook</td><td class="py-3 px-4">15K+</td><td class="py-3 px-4">AU-specific freelance support, job leads</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">IndieHackers</td><td class="py-3 px-4">Web</td><td class="py-3 px-4">100K+</td><td class="py-3 px-4">Product-minded freelancers, SaaS founders</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Toptal / Expert360</td><td class="py-3 px-4">Platform</td><td class="py-3 px-4">Varies</td><td class="py-3 px-4">Pre-vetted high-value freelance work</td></tr>
+        </tbody>
+      </table>
+
+      <h3>3. Local Events and Meetups</h3>
+      <p>In-person networking still converts better than any online channel. Australian cities have active tech and business communities:</p>
+      <ul>
+        <li><strong>Meetup.com:</strong> Search "[your city] + [your skill]" — attend 2 events per month minimum</li>
+        <li><strong>General Assembly workshops</strong> — networking events, often free</li>
+        <li><strong>Startup Victoria / Startup NSW / River City Labs (Brisbane)</strong> — startup ecosystem events</li>
+        <li><strong>Chamber of Commerce events</strong> — great for meeting SMB clients directly</li>
+        <li><strong>Coworking spaces:</strong> WeWork, Spaces, Hub Australia, CreativeCubes — even casual workspace days lead to connections</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Coworking Hack</h3>
+        <p class="text-slate-300 text-sm">Many coworking spaces offer <strong>free trial days</strong> or casual passes ($30-50/day). Work from a different space once a week. You'll meet potential clients and collaborators organically. The coffee area is where business happens — not the desks.</p>
+      </div>
+
+      <h3>4. Industry-Specific Groups</h3>
+      <p>General freelancer groups are good for support. Industry groups are where the clients are:</p>
+      <ul>
+        <li><strong>Designers:</strong> AGDA (Australian Graphic Design Association), Design Assembly</li>
+        <li><strong>Developers:</strong> SydJS, MelbJS, Ruby AU, PyCon AU communities</li>
+        <li><strong>Writers:</strong> Australian Society of Authors, Freelance Writers Australia</li>
+        <li><strong>Marketers:</strong> Melbourne Digital Marketing Club, Social Media Marketing Australia</li>
+        <li><strong>Consultants:</strong> Institute of Management Consultants, your industry's peak body</li>
+      </ul>
+
+      <h3>5. Referral Partnerships</h3>
+      <p>The most underrated networking strategy: partner with complementary freelancers.</p>
+      <ul>
+        <li><strong>Web developer?</strong> Partner with a designer, copywriter, and SEO specialist</li>
+        <li><strong>Graphic designer?</strong> Partner with a printer, web developer, and marketing strategist</li>
+        <li><strong>Copywriter?</strong> Partner with a web designer, social media manager, and brand strategist</li>
+        <li>Create a simple referral agreement: 10-15% referral fee or mutual referrals</li>
+        <li>Meet quarterly for coffee — share pipeline updates, refer overflow work</li>
+      </ul>
+
+      <h2>The 30-Day Networking Sprint</h2>
+      <p>If you're starting from zero, follow this plan:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Week</th>
+            <th class="text-left py-3 px-4 text-slate-400">Actions</th>
+            <th class="text-left py-3 px-4 text-slate-400">Time</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Week 1</td><td class="py-3 px-4">Optimise LinkedIn profile. Connect with 20 past colleagues. Join 3 communities. Post once.</td><td class="py-3 px-4">3 hours</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Week 2</td><td class="py-3 px-4">Comment on 15 posts. RSVP to 2 local events. Reach out to 3 potential referral partners. Post twice.</td><td class="py-3 px-4">3 hours</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Week 3</td><td class="py-3 px-4">Attend first event. Have 2 coffee chats. Help 5 people in online communities (no selling). Post twice.</td><td class="py-3 px-4">5 hours</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Week 4</td><td class="py-3 px-4">Attend second event. Follow up with Week 3 contacts. Propose referral partnership. Post 3 times.</td><td class="py-3 px-4">5 hours</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Networking Mistakes to Avoid</h2>
+      <ol>
+        <li><strong>Pitching immediately</strong> — "Nice to meet you, here's what I do, want to hire me?" is the fastest way to get avoided</li>
+        <li><strong>Only networking when desperate</strong> — build relationships when you DON'T need work, so they're there when you do</li>
+        <li><strong>Collecting contacts without following up</strong> — a connection request without follow-up is worthless</li>
+        <li><strong>Only talking to potential clients</strong> — peer freelancers, industry contacts, and adjacent professionals are often your best referral sources</li>
+        <li><strong>Being a taker</strong> — give referrals, share knowledge, help others before asking for anything</li>
+        <li><strong>Ignoring online communities</strong> — an insightful Reddit comment can reach 100x more people than a business card</li>
+      </ol>
+
+      <h2>Turning Connections into Clients</h2>
+      <p>Networking without conversion is just socialising. Here's the path:</p>
+      <ol>
+        <li><strong>Meet</strong> — events, online, introductions</li>
+        <li><strong>Add value</strong> — share a resource, make an introduction, offer a quick insight</li>
+        <li><strong>Stay visible</strong> — regular LinkedIn posts, community participation, quarterly check-ins</li>
+        <li><strong>Be specific about what you do</strong> — "I build Next.js apps for SaaS startups" sticks. "I'm a web developer" doesn't.</li>
+        <li><strong>Make it easy to refer you</strong> — have a one-line description, a portfolio link, and clear pricing signals</li>
+        <li><strong>Ask</strong> — after rapport: "If you know anyone who needs [specific thing], I'd appreciate the introduction"</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Referral Script</h3>
+        <p class="text-slate-300 text-sm">"Hey [Name], I really enjoyed our chat about [topic]. I'm currently taking on new [type of] projects and would love to work with more companies like [their company or industry]. If anyone in your network is looking for help with [specific thing], I'd be grateful for an introduction. Happy to return the favour anytime."</p>
+      </div>
+
+      <h2>Networking Checklist</h2>
+      <ul>
+        <li>☐ LinkedIn profile optimised (headline, about, featured, experience)</li>
+        <li>☐ Connected with 50+ relevant professionals</li>
+        <li>☐ Posting 2-3x per week on LinkedIn</li>
+        <li>☐ Active in 2-3 online communities (giving value, not selling)</li>
+        <li>☐ Attending 1-2 in-person events per month</li>
+        <li>☐ 3+ referral partnerships established</li>
+        <li>☐ Follow-up system in place (simple CRM or spreadsheet)</li>
+        <li>☐ One-line positioning statement memorised</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-find-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">12 Strategies to Find Freelance Clients</a> — Broader client acquisition guide</li>
+        <li><a href="/blog/freelance-portfolio-guide-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Portfolio Guide</a> — Build a portfolio that converts</li>
+        <li><a href="/blog/digital-marketing-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Digital Marketing for Freelancers</a> — Get found online</li>
+        <li><a href="/blog/how-to-get-repeat-clients-freelancer" class="text-teal-400 hover:text-teal-300 underline">How to Get Repeat Clients</a> — Turn connections into recurring revenue</li>
+        <li><a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">How to Write a Proposal That Wins</a> — Convert leads into projects</li>
+      </ul>
+    `,
+  },
+
+  'financial-planning-australian-freelancers': {
+    slug: 'financial-planning-australian-freelancers',
+    title: 'Financial Planning for Australian Freelancers: Budget, Save, and Grow Your Wealth',
+    excerpt: 'A comprehensive financial planning guide for Australian freelancers covering budgeting with irregular income, savings strategies, investing, retirement planning, and building long-term wealth.',
+    category: 'Business',
+    readTime: '12 min read',
+    date: 'February 2026',
+    seoTitle: 'Financial Planning for Australian Freelancers | Budget, Save & Invest',
+    seoDescription: 'Complete financial planning guide for Australian freelancers. Budgeting for irregular income, savings targets, super strategies, investing, insurance, and building wealth as a self-employed professional.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Freelancing offers freedom — but without a financial plan, that freedom can quickly become stress. Irregular income, no employer super, quarterly tax bills, and the constant feast-or-famine cycle require a fundamentally different approach to money than a salary provides. This guide covers everything from daily budgeting to long-term wealth building.</p>
+
+      <h2>The Freelancer Financial Reality</h2>
+      <p>Before we build a plan, let's be honest about what makes freelance finances different:</p>
+      <ul>
+        <li><strong>Income is irregular</strong> — you might earn $12K one month and $3K the next</li>
+        <li><strong>No employer super</strong> — you need to fund your own retirement (at least 11.5%)</li>
+        <li><strong>Tax is your responsibility</strong> — no PAYG withholding means <a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">quarterly BAS and annual tax bills</a></li>
+        <li><strong>No sick pay or annual leave</strong> — every day off costs you income</li>
+        <li><strong>No income protection by default</strong> — you need <a href="/blog/freelancer-insurance-guide-australia" class="text-teal-400 hover:text-teal-300 underline">your own insurance</a></li>
+        <li><strong>Business expenses are mixed with personal</strong> — without separation, tax time is a nightmare</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Biggest Mistake</h3>
+        <p class="text-slate-300 text-sm">The #1 financial mistake freelancers make: <strong>spending their gross income as if it's net</strong>. When you earn $10,000 in a month, roughly $3,000 of that belongs to the ATO, $1,150 should go to super, and $500-1,000 to business expenses. Your actual take-home is closer to $5,850-6,350. Budget accordingly.</p>
+      </div>
+
+      <h2>The 3-Account System</h2>
+      <p>This is the foundation of freelance financial management. If you do nothing else from this guide, do this:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Account</th>
+            <th class="text-left py-3 px-4 text-slate-400">Allocation</th>
+            <th class="text-left py-3 px-4 text-slate-400">Purpose</th>
+            <th class="text-left py-3 px-4 text-slate-400">When to Touch</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-teal-400">Business Operating</td><td class="py-3 px-4">All income lands here</td><td class="py-3 px-4">Receive payments, pay business expenses</td><td class="py-3 px-4">Daily/weekly for business costs</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-amber-400">Tax Savings</td><td class="py-3 px-4">30% of every payment received</td><td class="py-3 px-4">Income tax + GST + super contributions</td><td class="py-3 px-4">Quarterly BAS + annual tax bill only</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-emerald-400">Personal</td><td class="py-3 px-4">Your "salary" — fixed monthly transfer</td><td class="py-3 px-4">Living expenses, personal savings, lifestyle</td><td class="py-3 px-4">Monthly — treat as a salary</td></tr>
+        </tbody>
+      </table>
+
+      <p>Choose a <a href="/blog/best-business-bank-accounts-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">fee-free business account</a> for your operating account. Our recommendation: Up Business ($0 fees, unlimited transactions, auto-categorisation).</p>
+
+      <h2>Budgeting with Irregular Income</h2>
+      <p>Salary budgets assume a fixed amount each fortnight. That doesn't work for freelancers. Instead:</p>
+
+      <h3>Step 1: Calculate Your Baseline Monthly Need</h3>
+      <p>Add up everything you NEED to survive and maintain your business:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Category</th>
+            <th class="text-left py-3 px-4 text-slate-400">Typical Range</th>
+            <th class="text-left py-3 px-4 text-slate-400">Your Amount</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Rent/mortgage</td><td class="py-3 px-4">$1,500-$3,000</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Food & groceries</td><td class="py-3 px-4">$400-$800</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Utilities & phone</td><td class="py-3 px-4">$200-$400</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Transport</td><td class="py-3 px-4">$100-$400</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Insurance (health, PI, income)</td><td class="py-3 px-4">$200-$500</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Software & tools</td><td class="py-3 px-4">$50-$200</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Professional development</td><td class="py-3 px-4">$50-$150</td><td class="py-3 px-4">$_____</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium">Minimum monthly baseline</td><td class="py-3 px-4 font-medium">$2,500-$5,450</td><td class="py-3 px-4 font-medium">$_____</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Step 2: Set Your "Salary"</h3>
+      <p>Based on your baseline, set a fixed monthly transfer from your business operating account to your personal account. This is your salary. It should be:</p>
+      <ul>
+        <li><strong>Baseline + 20% buffer</strong> for lifestyle and unexpected costs</li>
+        <li>Paid on the same date each month (e.g., 1st of the month)</li>
+        <li>Only increased after 3 consecutive months of strong revenue</li>
+      </ul>
+
+      <h3>Step 3: Handle the Surplus</h3>
+      <p>In good months (above your salary + tax + super), the surplus stays in the business account. This builds your runway for slow months. Target: <strong>3 months of expenses</strong> in the business account before increasing your salary.</p>
+
+      <h2>The Freelancer Savings Hierarchy</h2>
+      <p>Save in this order — don't skip levels:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Level</th>
+            <th class="text-left py-3 px-4 text-slate-400">What</th>
+            <th class="text-left py-3 px-4 text-slate-400">Target</th>
+            <th class="text-left py-3 px-4 text-slate-400">Why</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-red-400">1. Tax</td><td class="py-3 px-4">30% of gross income</td><td class="py-3 px-4">Always current</td><td class="py-3 px-4">ATO penalties are painful. Non-negotiable.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-amber-400">2. Emergency</td><td class="py-3 px-4">3 months of expenses</td><td class="py-3 px-4">$7,500-$16,000</td><td class="py-3 px-4">Covers dry spells, illness, equipment failure</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-teal-400">3. Super</td><td class="py-3 px-4">11.5% of net income</td><td class="py-3 px-4">Ongoing</td><td class="py-3 px-4">Tax deductible + retirement security</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-blue-400">4. Business growth</td><td class="py-3 px-4">Equipment, training, marketing</td><td class="py-3 px-4">10% of gross</td><td class="py-3 px-4">Invest in capacity to earn more</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 font-medium text-emerald-400">5. Wealth building</td><td class="py-3 px-4">Investments, property, shares</td><td class="py-3 px-4">Whatever's left</td><td class="py-3 px-4">Long-term wealth beyond the business</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Superannuation Strategy for Freelancers</h2>
+      <p>As a sole trader, you're not legally required to pay yourself super — but you absolutely should. Here's why and how:</p>
+
+      <h3>Why Super Is Your Best Tax Deduction</h3>
+      <ul>
+        <li>Contributions up to <strong>$30,000/year are tax deductible</strong></li>
+        <li>Super is taxed at just <strong>15%</strong> — vs your marginal rate (32.5-37%)</li>
+        <li>That's a <strong>17.5-22% tax saving</strong> on every dollar contributed</li>
+        <li>Government co-contribution if income under $58,445 (up to $500 free)</li>
+        <li>Carry-forward unused cap from previous years (if balance under $500K)</li>
+      </ul>
+
+      <p>Read our <a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">complete super guide</a> for detailed strategies.</p>
+
+      <h3>How Much Super to Contribute</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Freelance Income</th>
+            <th class="text-left py-3 px-4 text-slate-400">Minimum (11.5%)</th>
+            <th class="text-left py-3 px-4 text-slate-400">Recommended</th>
+            <th class="text-left py-3 px-4 text-slate-400">Tax Saved*</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$60,000</td><td class="py-3 px-4">$6,900</td><td class="py-3 px-4">$10,000</td><td class="py-3 px-4">$1,750-$2,200</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$100,000</td><td class="py-3 px-4">$11,500</td><td class="py-3 px-4">$20,000</td><td class="py-3 px-4">$3,500-$4,400</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$150,000</td><td class="py-3 px-4">$17,250</td><td class="py-3 px-4">$27,500</td><td class="py-3 px-4">$6,050-$6,875</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">$200,000+</td><td class="py-3 px-4">$23,000</td><td class="py-3 px-4">$30,000 (cap)</td><td class="py-3 px-4">$6,600-$6,750</td></tr>
+        </tbody>
+      </table>
+      <p class="text-slate-500 text-xs">*Approximate tax savings from salary sacrifice at 32.5-37% marginal rates vs 15% super tax</p>
+
+      <h2>Investing as a Freelancer</h2>
+      <p>Once your emergency fund is solid and super is on track, consider building wealth outside super:</p>
+
+      <h3>Investment Options (Simplest to Most Complex)</h3>
+      <ol>
+        <li><strong>High-interest savings account</strong> — ING (5.5%), Macquarie (5.35%), Up (5.0%). Liquid, no risk. Good for emergency fund and short-term goals.</li>
+        <li><strong>ETFs (Exchange Traded Funds)</strong> — Vanguard VAS (Australian shares), VDHG (diversified), VGS (international). Low fees (0.04-0.27%). Dollar-cost average monthly.</li>
+        <li><strong>Micro-investing apps</strong> — Spaceship, Raiz, Sharesies. Good for starting small. Higher fees than direct ETFs.</li>
+        <li><strong>Property</strong> — Australia's favourite asset class. Requires larger capital ($60K+ deposit). See the <a href="/blog/working-from-home-tax-deductions-australia" class="text-teal-400 hover:text-teal-300 underline">WFH tax deduction guide</a> if you own and work from home.</li>
+        <li><strong>Individual shares</strong> — Higher risk, higher potential return. Only with money you can afford to lose.</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Freelancer Investing Rule</h3>
+        <p class="text-slate-300 text-sm">Never invest money you might need within 12 months. Freelance income fluctuates — your investments should be <strong>separate from your operating capital</strong>. The 3-account system protects this: only invest from surplus after your salary, tax, super, and emergency fund are handled.</p>
+      </div>
+
+      <h2>Tax-Smart Financial Moves</h2>
+      <p>Freelancers have more tax flexibility than employees. Use it:</p>
+      <ul>
+        <li><strong>Prepay expenses before June 30</strong> — 12 months of software, insurance, professional memberships. Brings forward deductions into the current FY.</li>
+        <li><strong>Instant asset write-off</strong> — items under $20,000 (current threshold) can be fully deducted in the year of purchase. <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Full deductions guide</a>.</li>
+        <li><strong>Time super contributions</strong> — contribute before June 30 and lodge your Notice of Intent to maximise the current year's deduction.</li>
+        <li><strong>Income smoothing</strong> — if you expect lower income next year, defer invoicing to July. If higher income expected, bring invoicing forward to June.</li>
+        <li><strong>Use carry-forward super</strong> — if you had unused super cap in previous years and your balance is under $500K, you can contribute more this year.</li>
+      </ul>
+
+      <h2>Financial Milestones for Freelancers</h2>
+      <p>Track your progress against these milestones:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Milestone</th>
+            <th class="text-left py-3 px-4 text-slate-400">Target</th>
+            <th class="text-left py-3 px-4 text-slate-400">Timeline</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">3-account system set up</td><td class="py-3 px-4">Day 1</td><td class="py-3 px-4 text-teal-400">Week 1</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Tax savings buffer</td><td class="py-3 px-4">1 quarter of tax + GST</td><td class="py-3 px-4 text-teal-400">Month 3</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Emergency fund</td><td class="py-3 px-4">1 month of expenses</td><td class="py-3 px-4 text-teal-400">Month 6</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Super contributions started</td><td class="py-3 px-4">11.5% of net income</td><td class="py-3 px-4 text-teal-400">Month 6</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Emergency fund</td><td class="py-3 px-4">3 months of expenses</td><td class="py-3 px-4 text-amber-400">Year 1</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Consistent monthly salary</td><td class="py-3 px-4">Same amount each month</td><td class="py-3 px-4 text-amber-400">Year 1</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Investment portfolio started</td><td class="py-3 px-4">Regular ETF contributions</td><td class="py-3 px-4 text-emerald-400">Year 2</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Emergency fund</td><td class="py-3 px-4">6 months of expenses</td><td class="py-3 px-4 text-emerald-400">Year 2</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Income replacement</td><td class="py-3 px-4">Earn more than your old salary</td><td class="py-3 px-4 text-emerald-400">Year 2-3</td></tr>
+        </tbody>
+      </table>
+
+      <h2>When to Get Professional Help</h2>
+      <p>DIY financial management works up to a point. Consider professional help when:</p>
+      <ul>
+        <li><strong>Income exceeds $120K</strong> — tax structuring becomes more valuable (company vs trust)</li>
+        <li><strong>You have investment properties</strong> — CGT, negative gearing, and depreciation get complex</li>
+        <li><strong>You're approaching $75K turnover</strong> — GST registration decision needs advice</li>
+        <li><strong>You want to set up a company</strong> — a tax accountant pays for themselves at this stage</li>
+        <li><strong>You're behind on BAS or tax returns</strong> — don't ignore it, get help immediately</li>
+      </ul>
+      <p>A good freelancer accountant costs $1,000-$3,000/year and typically <strong>saves you 2-5x their fee</strong> in optimised deductions and structuring. Read our <a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">tax return guide</a> if you want to DIY first.</p>
+
+      <h2>Financial Planning Checklist</h2>
+      <ul>
+        <li>☐ 3-account banking system set up (operating, tax, personal)</li>
+        <li>☐ 30% of every payment transferred to tax account automatically</li>
+        <li>☐ Monthly "salary" amount calculated and scheduled</li>
+        <li>☐ Emergency fund target set (3 months minimum)</li>
+        <li>☐ Super fund chosen and contributions started</li>
+        <li>☐ Income protection insurance reviewed (<a href="/blog/freelancer-insurance-guide-australia" class="text-teal-400 hover:text-teal-300 underline">insurance guide</a>)</li>
+        <li>☐ <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record keeping system</a> in place</li>
+        <li>☐ BAS dates in calendar (<a href="/blog/freelancer-tax-calendar-australia-2026" class="text-teal-400 hover:text-teal-300 underline">tax calendar</a>)</li>
+        <li>☐ Annual financial review scheduled (post-EOFY)</li>
+        <li>☐ Accountant engaged (if income > $120K)</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Management for Freelancers</a> — Manage the feast-famine cycle</li>
+        <li><a href="/blog/best-business-bank-accounts-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Best Business Bank Accounts</a> — Fee-free options compared</li>
+        <li><a href="/blog/superannuation-for-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Super for Freelancers</a> — Detailed contribution strategies</li>
+        <li><a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">How Much Tax Do Freelancers Pay</a> — 2025-26 brackets and examples</li>
+        <li><a href="/blog/freelance-tax-mistakes-australia" class="text-teal-400 hover:text-teal-300 underline">15 Tax Mistakes That Cost Thousands</a> — Avoid costly errors</li>
+        <li><a href="/blog/freelance-bookkeeping-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Bookkeeping System</a> — Simple tracking that works</li>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a> — Factor tax and super into your pricing</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST on any amount</li>
+      </ul>
+    `,
+  },
 };
