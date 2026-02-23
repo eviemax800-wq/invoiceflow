@@ -17999,4 +17999,737 @@ Yours sincerely,
       </ul>
     `,
   },
+
+  'invoicing-graphic-designers-australia': {
+    slug: 'invoicing-graphic-designers-australia',
+    title: 'How to Invoice as a Freelance Graphic Designer in Australia (2026)',
+    excerpt: 'Complete invoicing guide for Australian freelance graphic designers — pricing models, what to include on invoices, handling revisions, licensing fees, and getting paid on time.',
+    category: 'Invoicing',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Graphic Designer in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance graphic designer invoicing guide. Covers pricing models (project vs hourly), invoice templates, revision fees, licensing, GST, and getting paid faster.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Graphic design invoicing has unique challenges — scope creep on revisions, licensing and usage rights, bundled deliverables, and clients who don't understand why a logo costs what it does. This guide covers everything Australian freelance designers need to invoice professionally and get paid without awkward conversations.</p>
+
+      <h2>Pricing Models for Graphic Designers</h2>
+      <p>How you price directly affects how you invoice. Australian freelance designers typically use one of three models:</p>
+
+      <h3>Project-Based Pricing (Most Common)</h3>
+      <p>You quote a flat fee for the entire deliverable. This is the industry standard for most design work.</p>
+      <ul>
+        <li><strong>Logo design:</strong> $800–$3,000+ (depending on revisions, variations, brand guidelines)</li>
+        <li><strong>Brand identity package:</strong> $2,500–$8,000 (logo + colours + typography + guidelines)</li>
+        <li><strong>Social media template set:</strong> $500–$1,500 (10-20 templates across platforms)</li>
+        <li><strong>Brochure or flyer:</strong> $300–$800 per page</li>
+        <li><strong>Packaging design:</strong> $1,000–$5,000+ per product</li>
+        <li><strong>Website design (no dev):</strong> $2,000–$6,000 (5-10 pages, mockups + UI kit)</li>
+      </ul>
+      <p>Invoice structure: Deposit (50%) upfront → balance on delivery. For larger projects, split into 3 milestones.</p>
+
+      <h3>Hourly Rate</h3>
+      <p>Better for ongoing retainer work, ad-hoc requests, or when scope is unclear.</p>
+      <ul>
+        <li><strong>Junior designer (0-2 years):</strong> $50–$80/hr</li>
+        <li><strong>Mid-level (3-5 years):</strong> $80–$130/hr</li>
+        <li><strong>Senior/specialist (5+ years):</strong> $130–$200+/hr</li>
+      </ul>
+      <p>Invoice structure: Track hours per task, invoice weekly or fortnightly with detailed time breakdowns.</p>
+
+      <h3>Value-Based Pricing</h3>
+      <p>Price based on the business impact of the design, not your time. A logo for a VC-funded startup launching nationally is worth more than a logo for a local sole trader — even if the hours are similar.</p>
+      <p>This model works when you can tie your design to measurable business outcomes (conversion rates, brand recognition, retail sales).</p>
+
+      <h2>What to Include on a Graphic Design Invoice</h2>
+      <p>Every design invoice should include:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Invoice Template — Graphic Designer</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>Sarah Chen Design | ABN: 12 345 678 901</p>
+          <p>sarah@sarahchendesign.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>Bloom Café Pty Ltd | 45 Smith Street, Collingwood VIC 3066</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #SC-2026-014 | Date: 24 February 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">DESIGN SERVICES</p>
+          <p>Brand Identity Package .......................... $3,200.00</p>
+          <p class="text-slate-400 text-xs pl-4">Primary logo + 2 variations, colour palette, typography system, brand guidelines PDF (24 pages)</p>
+          <p>Social Media Template Set (12 templates) ....... $1,100.00</p>
+          <p class="text-slate-400 text-xs pl-4">Instagram post, story, reel cover × 4 each</p>
+          <p>Menu Design — A3 tri-fold ........................ $650.00</p>
+          <p class="text-slate-400 text-xs pl-4">Print-ready PDF, front and back</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">EXPENSES</p>
+          <p>Stock photography (3 licensed images) ............. $45.00</p>
+          <p>Premium font licence (1 family, commercial use) .. $120.00</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal .......................................... $5,115.00</p>
+          <p>Less: Deposit paid (50% of design services) .... -$2,475.00</p>
+          <p>GST (10% on balance) ............................... $264.00</p>
+          <p class="font-bold text-white">AMOUNT DUE ....................................... $2,904.00</p>
+          <p class="text-slate-400 mt-2">Payment terms: 14 days | Bank: CBA | BSB: 063-123 | Acc: 1234 5678</p>
+        </div>
+      </div>
+
+      <h3>Key Elements for Design Invoices</h3>
+      <ul>
+        <li><strong>Itemise deliverables, not hours:</strong> Clients care about what they're getting, not how long it took. "Brand Identity Package" reads better than "32 hours × $100"</li>
+        <li><strong>Include brief descriptions:</strong> One line under each item explaining what's included prevents scope disputes</li>
+        <li><strong>Separate expenses:</strong> Stock photos, fonts, printing — list these separately from your design fee</li>
+        <li><strong>Reference the deposit:</strong> Show the deposit as a credit on the final invoice so the client sees the full project value</li>
+        <li><strong>Specify file deliverables:</strong> Note formats (AI, EPS, PDF, PNG, SVG) in the description or an attachment</li>
+      </ul>
+
+      <h2>Handling Revisions on Invoices</h2>
+      <p>Revisions are the #1 source of invoicing disputes for designers. Set clear expectations upfront.</p>
+
+      <h3>The Revision Structure That Works</h3>
+      <ol>
+        <li><strong>Include 2-3 revision rounds in your quote:</strong> "This project includes up to 3 rounds of revisions on each deliverable"</li>
+        <li><strong>Define what counts as a revision:</strong> "A revision round is a consolidated set of feedback submitted at one time. Individual drip-fed changes count as separate rounds"</li>
+        <li><strong>Price additional revisions clearly:</strong> "Additional revisions beyond the included rounds are charged at $120/hour, invoiced separately"</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Revision Invoice</h3>
+        <p class="text-slate-300 text-sm">When a client exceeds their included revisions, send a brief email: "Hi [Name], we've completed the 3 revision rounds included in the project scope. I'm happy to continue refining — additional revisions are $120/hr as outlined in our agreement. Shall I proceed?" Then invoice additional revisions as a separate line item on the final invoice.</p>
+      </div>
+
+      <h2>Licensing and Usage Rights</h2>
+      <p>This is where design invoicing gets unique. Your design work has ongoing value — the licensing terms should reflect that.</p>
+
+      <h3>Standard Transfer (Most Common)</h3>
+      <p>For most client work, you transfer full commercial usage rights on payment. The client can use the design however they want. You retain the right to display it in your portfolio (unless otherwise agreed).</p>
+      <p>Invoice line: "Includes full commercial usage rights for all deliverables upon payment in full."</p>
+
+      <h3>Limited Licence</h3>
+      <p>For stock-style or template work, you might licence for specific uses:</p>
+      <ul>
+        <li><strong>Single-use:</strong> One campaign, one print run, one website — $X</li>
+        <li><strong>Multi-use:</strong> Unlimited use within one business — $X (higher)</li>
+        <li><strong>Exclusive:</strong> No one else gets this design — $X (premium pricing)</li>
+      </ul>
+      <p>Invoice each licence tier as a separate line item if applicable.</p>
+
+      <h3>Extended Licensing Fees</h3>
+      <p>If a client later wants to use a design in ways not covered by the original agreement (e.g., merchandise, national advertising), invoice an additional licensing fee. Typical approach: 50-100% of the original design fee for significant scope extensions.</p>
+
+      <h2>Deposit and Payment Structure</h2>
+      <p>The standard payment structure for Australian freelance designers:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Project Size</th>
+              <th class="py-3 px-4 text-teal-400">Deposit</th>
+              <th class="py-3 px-4 text-teal-400">Structure</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Under $1,000</td>
+              <td class="py-3 px-4">50%</td>
+              <td class="py-3 px-4">50% upfront → 50% on delivery</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">$1,000–$5,000</td>
+              <td class="py-3 px-4">50%</td>
+              <td class="py-3 px-4">50% upfront → 50% on delivery</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">$5,000–$15,000</td>
+              <td class="py-3 px-4">40%</td>
+              <td class="py-3 px-4">40% upfront → 30% at midpoint → 30% on delivery</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Over $15,000</td>
+              <td class="py-3 px-4">30%</td>
+              <td class="py-3 px-4">30% upfront → 30% at concept approval → 20% at final review → 20% on delivery</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Golden Rule</h3>
+        <p class="text-slate-300 text-sm">Never deliver final files (source files, high-res, print-ready) until payment is received in full. Send low-resolution watermarked previews for approval. The final files are the leverage that ensures you get paid.</p>
+      </div>
+
+      <h2>GST for Graphic Designers</h2>
+      <p>If you're GST-registered (mandatory once you earn $75K+ per year, optional before that):</p>
+      <ul>
+        <li>Add 10% GST to all invoices for Australian clients</li>
+        <li>Issue <strong>tax invoices</strong> (not just invoices) — must include your ABN and the words "Tax Invoice"</li>
+        <li>International clients: Services to overseas businesses are generally <strong>GST-free exports</strong></li>
+        <li>Claim GST credits on business expenses: software subscriptions (Adobe CC, Figma), stock photos, fonts, equipment, printing</li>
+        <li>Lodge BAS quarterly (or monthly if preferred)</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes Designers Make</h2>
+      <ol>
+        <li><strong>Not getting a deposit:</strong> Starting work without a deposit is the fastest way to get stiffed. No exceptions</li>
+        <li><strong>Vague line items:</strong> "Design work — $3,000" invites questions. Itemise deliverables with brief descriptions</li>
+        <li><strong>Not defining revisions upfront:</strong> Without a clear limit, clients will ask for endless tweaks</li>
+        <li><strong>Delivering source files before payment:</strong> Once they have the .ai or .fig file, your leverage is gone</li>
+        <li><strong>Forgetting usage rights:</strong> If you don't specify licensing, you may lose control of your work</li>
+        <li><strong>Inconsistent invoice formatting:</strong> Use the same template every time — it looks professional and builds your brand</li>
+        <li><strong>Not tracking time even on project-based work:</strong> Track your hours internally even when billing per-project. It tells you if you're pricing correctly</li>
+      </ol>
+
+      <h2>Design-Specific Tax Deductions</h2>
+      <p>Expenses you can claim as a freelance graphic designer:</p>
+      <ul>
+        <li><strong>Software:</strong> Adobe Creative Cloud ($87/mo), Figma ($22/mo), Canva Pro, Sketch, Affinity Suite</li>
+        <li><strong>Hardware:</strong> Computer, monitor, graphics tablet (Wacom), colour-calibration tools</li>
+        <li><strong>Stock assets:</strong> Photography, illustrations, fonts, templates, mockups</li>
+        <li><strong>Education:</strong> Design courses, conference tickets, skill-up subscriptions (Skillshare, Domestika)</li>
+        <li><strong>Printing:</strong> Portfolio samples, client proofs, business cards</li>
+        <li><strong>Home office:</strong> Proportional rent, electricity, internet (if working from home)</li>
+        <li><strong>Professional memberships:</strong> AGDA, AIGA (international), local design groups</li>
+      </ul>
+
+      <h2>Invoice Workflow for Design Projects</h2>
+      <ol>
+        <li><strong>Quote accepted:</strong> Send deposit invoice (50%) with project scope summary</li>
+        <li><strong>Client pays deposit:</strong> Begin work. Confirm in writing that work has commenced</li>
+        <li><strong>Concept delivery:</strong> Present concepts. If milestone payment is required, send milestone invoice</li>
+        <li><strong>Revisions:</strong> Complete included rounds. Log any additional revisions</li>
+        <li><strong>Final approval:</strong> Client signs off on low-res proofs</li>
+        <li><strong>Final invoice:</strong> Send balance invoice including any additional revisions/expenses</li>
+        <li><strong>Payment received:</strong> Deliver source files, high-res exports, brand guidelines</li>
+        <li><strong>Post-delivery:</strong> Archive project files, update portfolio, send a thank-you note</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Invoicing</a> — Structuring project payments</li>
+        <li><a href="/blog/freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Setting Freelance Rates</a> — Pricing your services competitively</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">Handling Scope Creep</a> — Managing revision creep professionally</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP Rights Guide</a> — Protecting your design work</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Essential clauses for design contracts</li>
+        <li><a href="/blog/invoicing-expenses-reimbursements-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">Expense Invoicing</a> — Handling stock photos, fonts, and printing costs</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-web-developers-australia': {
+    slug: 'invoicing-web-developers-australia',
+    title: 'How to Invoice as a Freelance Web Developer in Australia (2026)',
+    excerpt: 'Complete invoicing guide for Australian freelance web developers — hourly vs project billing, retainer invoicing, hosting pass-throughs, milestone structures, and getting paid reliably.',
+    category: 'Invoicing',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Web Developer in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance web developer invoicing guide. Covers hourly vs project pricing, milestone invoicing, retainer billing, hosting pass-throughs, maintenance contracts, and GST.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Web development invoicing has its own quirks — long project timelines, ongoing maintenance, hosting costs, third-party services, and clients who think "one small change" should be free. This guide covers how Australian freelance developers should invoice to protect their time, get paid reliably, and run a profitable practice.</p>
+
+      <h2>Pricing Models for Web Developers</h2>
+      <p>Your pricing model determines your invoice structure. Here's what works in the Australian market:</p>
+
+      <h3>Hourly Rate</h3>
+      <p>Best for maintenance, ongoing support, and projects with shifting scope.</p>
+      <ul>
+        <li><strong>Junior developer (0-2 years):</strong> $60–$100/hr</li>
+        <li><strong>Mid-level (3-5 years):</strong> $100–$160/hr</li>
+        <li><strong>Senior/specialist (5+ years):</strong> $160–$250+/hr</li>
+        <li><strong>Specialist tech (AI/ML, blockchain, DevOps):</strong> $180–$300+/hr</li>
+      </ul>
+      <p>Invoice structure: Detailed time log with task descriptions, invoiced weekly or fortnightly.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Time Tracking Tip</h3>
+        <p class="text-slate-300 text-sm">Use a time tracker (Toggl, Clockify, or even a simple spreadsheet) for every billable minute. Clients trust invoices with detailed breakdowns: "2.5 hrs — Implemented contact form with validation and email integration" is far better than "10 hrs — Development work".</p>
+      </div>
+
+      <h3>Project-Based (Fixed Price)</h3>
+      <p>Best for defined-scope projects with clear deliverables.</p>
+      <ul>
+        <li><strong>Landing page:</strong> $1,500–$4,000</li>
+        <li><strong>Business website (5-10 pages):</strong> $4,000–$12,000</li>
+        <li><strong>E-commerce store:</strong> $8,000–$25,000+</li>
+        <li><strong>Web application (custom SaaS/tool):</strong> $15,000–$80,000+</li>
+        <li><strong>WordPress/CMS site:</strong> $2,500–$8,000</li>
+      </ul>
+      <p>Invoice structure: Milestone-based payments tied to deliverables.</p>
+
+      <h3>Retainer (Monthly)</h3>
+      <p>Best for ongoing clients who need regular development time.</p>
+      <ul>
+        <li><strong>Light retainer (5-10 hrs/mo):</strong> $500–$1,600/mo</li>
+        <li><strong>Standard retainer (20 hrs/mo):</strong> $2,000–$3,200/mo</li>
+        <li><strong>Heavy retainer (40 hrs/mo):</strong> $4,000–$6,400/mo</li>
+      </ul>
+      <p>Invoice structure: Recurring monthly invoice on the 1st. Unused hours don't roll over (unless your agreement says otherwise).</p>
+
+      <h2>Invoice Template for Web Developers</h2>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Milestone Invoice — Website Build</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>DevCraft Digital | ABN: 98 765 432 109</p>
+          <p>james@devcraft.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>FreshPress Juice Co | 12 Brunswick Street, Fitzroy VIC 3065</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #DC-2026-022 | Date: 24 February 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">PROJECT: E-Commerce Website Build</p>
+          <p class="text-slate-400 text-xs">Ref: Proposal #DC-P-2026-009 dated 15 January 2026</p>
+          <p class="mt-3">Milestone 2: Front-End Development ........... $4,200.00</p>
+          <p class="text-slate-400 text-xs pl-4">Homepage, product catalogue (25 products), cart, checkout UI, mobile responsive. Deployed to staging.</p>
+          <p class="mt-3 font-semibold text-teal-400 mb-2">THIRD-PARTY COSTS (Pass-Through)</p>
+          <p>Domain registration — freshpressjuice.com.au ..... $35.00</p>
+          <p>Vercel Pro hosting (annual) ....................... $240.00</p>
+          <p>Stripe setup (no cost — included) .................. $0.00</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal .......................................... $4,475.00</p>
+          <p>GST (10%) ........................................... $447.50</p>
+          <p class="font-bold text-white">AMOUNT DUE ....................................... $4,922.50</p>
+          <p class="text-slate-400 mt-2">Payment terms: 7 days | Bank: Westpac | BSB: 033-456 | Acc: 9876 5432</p>
+        </div>
+      </div>
+
+      <h2>Milestone Payment Structure</h2>
+      <p>For project-based web development, break payments into milestones tied to real deliverables:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Milestone</th>
+              <th class="py-3 px-4 text-teal-400">%</th>
+              <th class="py-3 px-4 text-teal-400">Deliverable</th>
+              <th class="py-3 px-4 text-teal-400">When</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">1. Kickoff deposit</td>
+              <td class="py-3 px-4">30%</td>
+              <td class="py-3 px-4">Signed agreement, project brief</td>
+              <td class="py-3 px-4">Before work begins</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">2. Design/wireframes</td>
+              <td class="py-3 px-4">20%</td>
+              <td class="py-3 px-4">Approved mockups, sitemap, design system</td>
+              <td class="py-3 px-4">Week 2-3</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">3. Development</td>
+              <td class="py-3 px-4">30%</td>
+              <td class="py-3 px-4">Working site on staging URL</td>
+              <td class="py-3 px-4">Week 4-6</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">4. Launch</td>
+              <td class="py-3 px-4">20%</td>
+              <td class="py-3 px-4">Live site, DNS configured, training</td>
+              <td class="py-3 px-4">Week 7-8</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Critical Rule</h3>
+        <p class="text-slate-300 text-sm">Never deploy to production or hand over source code until the final payment is received. Keep the site on your staging server until you're paid. Transfer DNS and repository access as the very last step after payment clears.</p>
+      </div>
+
+      <h2>Invoicing for Hosting, Domains, and Third-Party Services</h2>
+      <p>Web developers frequently manage infrastructure on behalf of clients. Here's how to invoice for it:</p>
+
+      <h3>Option 1: Client Pays Directly (Recommended)</h3>
+      <p>Set up accounts in the client's name. They pay hosting, domain, and SaaS fees directly. You manage it.</p>
+      <ul>
+        <li><strong>Pros:</strong> No cash flow risk, client has direct ownership, cleaner tax treatment</li>
+        <li><strong>Cons:</strong> Client needs to manage billing, harder to bundle</li>
+        <li><strong>Best for:</strong> Vercel, AWS, domain registrars, email services</li>
+      </ul>
+
+      <h3>Option 2: You Pay, Pass Through to Client</h3>
+      <p>You manage the accounts and invoice the client for the costs.</p>
+      <ul>
+        <li><strong>Pros:</strong> Simpler for the client, you control the infrastructure</li>
+        <li><strong>Cons:</strong> Cash flow risk if client doesn't pay, you're the middleman</li>
+        <li><strong>Best for:</strong> Small hosting costs, domains you bulk-register, SSL certificates</li>
+      </ul>
+      <p>Invoice these as separate line items under "Third-Party Costs" with the actual cost. Adding a 10-15% management fee is acceptable if disclosed upfront.</p>
+
+      <h3>Option 3: Include in Retainer</h3>
+      <p>Bundle hosting, maintenance, and infrastructure into a monthly retainer. This is the simplest approach for ongoing clients.</p>
+      <p>Example: "$500/mo includes hosting (Vercel Pro), domain renewal, SSL, 2 hours of updates/maintenance."</p>
+
+      <h2>Maintenance and Support Invoicing</h2>
+      <p>After launch, most clients need ongoing maintenance. Structure this clearly:</p>
+
+      <h3>Maintenance Retainer</h3>
+      <ul>
+        <li><strong>Basic ($200-400/mo):</strong> Security updates, plugin/dependency updates, uptime monitoring, monthly backup verification</li>
+        <li><strong>Standard ($400-800/mo):</strong> Basic + 2-4 hours of content updates, minor feature tweaks, performance monitoring</li>
+        <li><strong>Premium ($800-1,500/mo):</strong> Standard + priority support, same-day bug fixes, analytics reporting, quarterly performance review</li>
+      </ul>
+
+      <h3>Ad-Hoc Support</h3>
+      <p>For clients who don't want a retainer, offer ad-hoc support at your standard hourly rate (or a premium rate for urgent requests). Minimum billable increment: 30 minutes.</p>
+      <p>Invoice immediately after work is done — don't let ad-hoc tasks accumulate for weeks before invoicing.</p>
+
+      <h2>Handling Change Requests</h2>
+      <p>The "can you just..." requests are the bane of web development. Handle them professionally:</p>
+
+      <ol>
+        <li><strong>Assess the request:</strong> Is this in scope (part of the original agreement) or out of scope (a new feature/change)?</li>
+        <li><strong>In scope:</strong> Do it. It's covered by the project fee</li>
+        <li><strong>Out of scope:</strong> Send a brief email: "That's a great idea. It's outside the current project scope, so I'll need to quote it separately. Estimate: X hours at $Y/hr = $Z. Shall I proceed?"</li>
+        <li><strong>Invoice separately:</strong> Add change requests as separate line items, referencing the email approval</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Scope Document</h3>
+        <p class="text-slate-300 text-sm">A clear scope document (or detailed proposal) is your best invoicing tool. When a client disputes a charge, you can point to the exact scope and show that the requested work wasn't included. Without a scope document, you're in "he said, she said" territory.</p>
+      </div>
+
+      <h2>GST for Web Developers</h2>
+      <ul>
+        <li><strong>Domestic clients:</strong> Charge 10% GST on all services if you're GST-registered (mandatory at $75K+ turnover)</li>
+        <li><strong>International clients:</strong> Most services to overseas businesses are GST-free exports. The key test: is the service "connected with" Australia? Services to a US startup used in the US = GST-free. A website specifically targeting Australian consumers for an overseas client = consult your accountant</li>
+        <li><strong>SaaS subscriptions you resell:</strong> If you're paying for hosting and passing it through to clients, you charge GST on the full amount (your fee + the pass-through cost)</li>
+        <li><strong>Claim GST credits on:</strong> Software subscriptions, hosting you pay for, hardware, home office expenses, professional development, domain registrations</li>
+      </ul>
+
+      <h2>Dev-Specific Tax Deductions</h2>
+      <p>Expenses Australian freelance developers can claim:</p>
+      <ul>
+        <li><strong>Software:</strong> IDE licences, GitHub/GitLab, hosting, domain registrations, SaaS tools, design tools (Figma, etc.), testing services</li>
+        <li><strong>Hardware:</strong> Computer, monitors, keyboard/mouse, headphones, standing desk, ergonomic chair</li>
+        <li><strong>Education:</strong> Courses (Udemy, Frontend Masters, egghead.io), conference tickets, books, certifications</li>
+        <li><strong>Cloud services:</strong> AWS, Vercel, Netlify, DigitalOcean — anything used for development or client projects</li>
+        <li><strong>Home office:</strong> Proportional rent/mortgage interest, electricity, internet, phone</li>
+        <li><strong>Professional:</strong> Accountant fees, business insurance, professional memberships</li>
+      </ul>
+
+      <h2>Invoice Payment Terms for Developers</h2>
+      <p>Recommended terms by billing model:</p>
+      <ul>
+        <li><strong>Milestone invoices:</strong> 7 days — work doesn't progress to the next milestone until paid</li>
+        <li><strong>Hourly invoices:</strong> 14 days — invoiced fortnightly</li>
+        <li><strong>Retainer invoices:</strong> Due on receipt (1st of each month, payable immediately)</li>
+        <li><strong>Maintenance/support:</strong> 7-14 days</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes Developers Make</h2>
+      <ol>
+        <li><strong>Not invoicing deposits:</strong> Always get 30-50% upfront before writing a single line of code</li>
+        <li><strong>Vague descriptions:</strong> "Web development — $8,000" tells the client nothing. Break it into milestones with deliverables</li>
+        <li><strong>Waiting too long to invoice:</strong> Invoice at each milestone, not at the end. Clients who owe you $15K are harder to chase than clients who owe $3K</li>
+        <li><strong>Not tracking change requests:</strong> Every "quick change" that takes 2 hours adds up. Log and invoice them</li>
+        <li><strong>Deploying before payment:</strong> Never push to production without final payment. Staging is your leverage</li>
+        <li><strong>Mixing project and hosting costs:</strong> Keep infrastructure costs separate from development fees on your invoice</li>
+        <li><strong>Not having a maintenance agreement:</strong> After launch, you'll get "the site is broken" emails. If there's no maintenance agreement, you're doing free work or awkwardly negotiating under pressure</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Invoicing</a> — Structuring project payments</li>
+        <li><a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements</a> — Setting up recurring billing</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">Handling Scope Creep</a> — Managing change requests</li>
+        <li><a href="/blog/freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Setting Freelance Rates</a> — Pricing your development services</li>
+        <li><a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Time Tracking Guide</a> — Tools and methods for accurate billing</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Scope clauses and payment terms</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-photographers-australia': {
+    slug: 'invoicing-photographers-australia',
+    title: 'How to Invoice as a Freelance Photographer in Australia (2026)',
+    excerpt: 'Complete invoicing guide for Australian freelance photographers — shoot fees vs licensing, usage rights billing, travel and equipment charges, print pricing, and getting paid on time.',
+    category: 'Invoicing',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Photographer in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance photographer invoicing guide. Covers shoot fees, usage licensing, travel expenses, equipment charges, print pricing, deposit structures, and GST treatment.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Photography invoicing is unlike any other freelance profession — you're billing for both your creative time AND the ongoing usage rights to the images. Understanding how to structure invoices for shoots, licensing, travel, and prints is essential for running a profitable photography business in Australia.</p>
+
+      <h2>Photography Pricing Structure</h2>
+      <p>Professional photography pricing has two distinct components:</p>
+
+      <h3>1. Creative Fee (Your Time and Skill)</h3>
+      <p>This covers the shoot itself: pre-production, travel, shooting time, and basic post-production.</p>
+      <ul>
+        <li><strong>Portrait/headshots:</strong> $250–$800 per session (30-90 min)</li>
+        <li><strong>Event photography:</strong> $150–$350/hr (minimum 2-4 hour booking)</li>
+        <li><strong>Commercial/product:</strong> $300–$600/hr or $1,500–$5,000/day</li>
+        <li><strong>Wedding photography:</strong> $2,500–$8,000+ (full day package)</li>
+        <li><strong>Real estate:</strong> $150–$400 per property (standard), $500–$1,200 (luxury/twilight)</li>
+        <li><strong>Food/hospitality:</strong> $250–$500/hr or $1,500–$3,500/half-day</li>
+      </ul>
+
+      <h3>2. Licensing Fee (Usage Rights)</h3>
+      <p>This covers HOW the client uses the images. A photo for an Instagram post is worth less than a photo on a national billboard. This is the part most beginner photographers miss.</p>
+      <ul>
+        <li><strong>Social media only:</strong> Often included in the creative fee</li>
+        <li><strong>Website and digital marketing:</strong> 20-50% on top of creative fee</li>
+        <li><strong>Print advertising (local):</strong> 50-100% additional</li>
+        <li><strong>National advertising:</strong> 100-300% additional</li>
+        <li><strong>Unlimited/buyout:</strong> 200-500% of creative fee</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Why Licensing Matters</h3>
+        <p class="text-slate-300 text-sm">A café pays $800 for food photos used on their Instagram and menu. Later, their franchisee wants to use the same images in a $50,000 national print campaign. That's a completely different usage — and should be invoiced separately. Without licensing terms in your contract, you've given away this revenue.</p>
+      </div>
+
+      <h2>Invoice Template for Photographers</h2>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Commercial Photography Invoice</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p class="font-semibold text-teal-400 mb-2">FROM</p>
+          <p>Mia Torres Photography | ABN: 55 123 456 789</p>
+          <p>mia@miatorresphoto.com.au</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">TO</p>
+          <p>Botanical Bar & Kitchen | 88 Chapel Street, Windsor VIC 3181</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">INVOICE #MTP-2026-031 | Date: 24 February 2026</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">CREATIVE FEES</p>
+          <p>Food & interior photography — half day (4 hrs) ... $1,800.00</p>
+          <p class="text-slate-400 text-xs pl-4">15 hero dishes, 8 cocktails, 10 interior/ambience shots. Includes pre-production planning and basic retouching.</p>
+          <p>Advanced retouching (12 hero images) .............. $360.00</p>
+          <p class="text-slate-400 text-xs pl-4">Colour grading, compositing, blemish removal, cropping for multiple formats</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">LICENSING</p>
+          <p>Digital usage — 12 months, Australia .............. $450.00</p>
+          <p class="text-slate-400 text-xs pl-4">Website, social media, Google Business, email marketing, Uber Eats/DoorDash listings</p>
+          <p class="font-semibold text-teal-400 mt-4 mb-2">EXPENSES</p>
+          <p>Travel — Prahran to Windsor return (12km) .......... $10.56</p>
+          <p>Props — specialty garnishes and styling elements .... $85.00</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal .......................................... $2,705.56</p>
+          <p>Less: Booking deposit (50% of creative fees) ... -$1,080.00</p>
+          <p>GST (10% on balance) ............................... $162.56</p>
+          <p class="font-bold text-white">AMOUNT DUE ....................................... $1,788.12</p>
+          <p class="text-slate-400 mt-2">Payment terms: 14 days | Bank: ANZ | BSB: 013-789 | Acc: 5678 1234</p>
+          <p class="text-slate-400 text-xs mt-2">Images delivered via gallery link within 10 business days of payment. High-res files released on full payment.</p>
+        </div>
+      </div>
+
+      <h2>Structuring Usage Licences on Invoices</h2>
+      <p>Every photography invoice should specify the usage licence. Here's how to itemise it:</p>
+
+      <h3>Licence Parameters</h3>
+      <ul>
+        <li><strong>Duration:</strong> 12 months, 2 years, unlimited/perpetual</li>
+        <li><strong>Territory:</strong> Local, state, national, Asia-Pacific, worldwide</li>
+        <li><strong>Media:</strong> Digital only, print only, all media</li>
+        <li><strong>Exclusivity:</strong> Non-exclusive (you can resell), exclusive (only they can use it)</li>
+      </ul>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Licence Type</th>
+              <th class="py-3 px-4 text-teal-400">Typical Use</th>
+              <th class="py-3 px-4 text-teal-400">Pricing Guide</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Social + Web (12 months)</td>
+              <td class="py-3 px-4">Instagram, website, Google Business</td>
+              <td class="py-3 px-4">Often included in shoot fee</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Full Digital (12 months)</td>
+              <td class="py-3 px-4">+ paid ads, email, delivery apps</td>
+              <td class="py-3 px-4">+20-40% of creative fee</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Print + Digital (12 months)</td>
+              <td class="py-3 px-4">+ menus, brochures, local press</td>
+              <td class="py-3 px-4">+50-80% of creative fee</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">National Advertising</td>
+              <td class="py-3 px-4">Billboards, TV, national magazines</td>
+              <td class="py-3 px-4">+100-300% of creative fee</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Full Buyout (Perpetual)</td>
+              <td class="py-3 px-4">Unlimited use, forever, worldwide</td>
+              <td class="py-3 px-4">+200-500% of creative fee</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Licence Renewal</h3>
+      <p>When a 12-month licence expires, send a renewal invoice. This is recurring revenue most photographers miss. Standard renewal pricing: 50-75% of the original licence fee.</p>
+
+      <h2>Travel and Equipment Charges</h2>
+
+      <h3>Travel</h3>
+      <ul>
+        <li><strong>Local (within 30km):</strong> Most photographers include this in their rate or charge ATO km rate (88c/km)</li>
+        <li><strong>Regional (30-200km):</strong> Charge ATO km rate + time (your hourly rate for travel hours, or 50% of it)</li>
+        <li><strong>Interstate/remote:</strong> Charge flights, accommodation, meals (per diem of $100-150/day), and a travel day rate (50-75% of your shoot rate)</li>
+      </ul>
+
+      <h3>Equipment</h3>
+      <p>Your standard equipment is covered by your creative fee. Only charge separately for:</p>
+      <ul>
+        <li><strong>Specialised hire:</strong> Drone ($200-400/session), medium format camera, specialised lighting rigs</li>
+        <li><strong>Studio hire:</strong> If you rent a studio for the shoot ($300-800/half-day)</li>
+        <li><strong>Crew:</strong> Makeup artist ($300-600), styling assistant ($250-400), digital tech ($400-600)</li>
+      </ul>
+      <p>List each as a separate line item under "Production Expenses" on your invoice.</p>
+
+      <h2>Print and Product Pricing</h2>
+      <p>If you sell prints or albums, invoice these separately from the shoot fee:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Product</th>
+              <th class="py-3 px-4 text-teal-400">Typical Price</th>
+              <th class="py-3 px-4 text-teal-400">Your Cost</th>
+              <th class="py-3 px-4 text-teal-400">Margin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">8×10" fine art print</td>
+              <td class="py-3 px-4">$80–$150</td>
+              <td class="py-3 px-4">$15–$25</td>
+              <td class="py-3 px-4">~80%</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">16×24" canvas</td>
+              <td class="py-3 px-4">$250–$500</td>
+              <td class="py-3 px-4">$50–$90</td>
+              <td class="py-3 px-4">~75%</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Wedding album (30 pages)</td>
+              <td class="py-3 px-4">$800–$2,000</td>
+              <td class="py-3 px-4">$150–$350</td>
+              <td class="py-3 px-4">~80%</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Digital download (full-res)</td>
+              <td class="py-3 px-4">$50–$150 per image</td>
+              <td class="py-3 px-4">$0</td>
+              <td class="py-3 px-4">100%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Invoice prints and products separately from the shoot fee. Include a proofing step — the client selects images from a gallery before you order prints.</p>
+
+      <h2>Deposit and Payment Structure</h2>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Shoot Type</th>
+              <th class="py-3 px-4 text-teal-400">Deposit</th>
+              <th class="py-3 px-4 text-teal-400">Balance Due</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Portrait/headshot</td>
+              <td class="py-3 px-4">50% or full payment upfront</td>
+              <td class="py-3 px-4">Before gallery delivery</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Event</td>
+              <td class="py-3 px-4">50% (non-refundable retainer)</td>
+              <td class="py-3 px-4">Within 7 days of event</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Commercial</td>
+              <td class="py-3 px-4">50% of creative fee</td>
+              <td class="py-3 px-4">Before image delivery</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Wedding</td>
+              <td class="py-3 px-4">$500-$1,000 retainer + 50% at 30 days out</td>
+              <td class="py-3 px-4">Balance before gallery</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Real estate</td>
+              <td class="py-3 px-4">Often invoiced post-shoot</td>
+              <td class="py-3 px-4">7 days (images held until paid)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Non-Refundable Retainers</h3>
+        <p class="text-slate-300 text-sm">For events and weddings, use the term <strong>"retainer"</strong> instead of "deposit." A deposit may be legally refundable in Australia. A retainer — clearly described in your contract as compensation for reserving the date and turning away other bookings — is generally non-refundable if the client cancels.</p>
+      </div>
+
+      <h2>GST for Photographers</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover. Many full-time photographers hit this quickly</li>
+        <li>Charge 10% GST on shoot fees, licensing fees, prints, and digital downloads</li>
+        <li>International editorial clients: Services may qualify as GST-free exports if the images are used outside Australia</li>
+        <li><strong>Claim GST credits on:</strong> Camera bodies, lenses, lighting, editing software (Lightroom, Capture One, Photoshop), hard drives, studio rent, printing costs, props and styling</li>
+      </ul>
+
+      <h2>Photography-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Equipment:</strong> Cameras, lenses, tripods, lighting, backdrops, memory cards, batteries (instant write-off for items under $20,000)</li>
+        <li><strong>Software:</strong> Adobe Photography Plan ($15/mo), Capture One, Pic-Time, ShootProof, gallery platforms</li>
+        <li><strong>Storage:</strong> Hard drives, NAS, cloud backup (Google One, Dropbox, Backblaze)</li>
+        <li><strong>Insurance:</strong> Camera equipment insurance ($300-600/yr), public liability ($400-800/yr)</li>
+        <li><strong>Studio:</strong> Rent, electricity, internet, props, styling equipment</li>
+        <li><strong>Vehicle:</strong> ATO km rate for all shoots (keep a logbook), or actual costs method</li>
+        <li><strong>Marketing:</strong> Website hosting, portfolio platform, business cards, sample prints for display</li>
+        <li><strong>Education:</strong> Workshops, masterclasses, photography conferences</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes Photographers Make</h2>
+      <ol>
+        <li><strong>Not separating creative fees from licensing:</strong> This is the biggest one. If you lump everything into "photography — $2,000", you've undervalued your work and can't charge for extended usage later</li>
+        <li><strong>Delivering images before payment:</strong> Watermarked galleries for selection, full-res files only after payment. No exceptions</li>
+        <li><strong>No cancellation policy:</strong> Weddings and events require non-refundable retainers. If a client cancels 2 days before, you've turned away other bookings</li>
+        <li><strong>Forgetting travel expenses:</strong> Track every kilometre driven and every parking fee. These add up significantly over a year</li>
+        <li><strong>Not invoicing licence renewals:</strong> Set calendar reminders for when 12-month licences expire. Send renewal invoices proactively</li>
+        <li><strong>Underpricing prints:</strong> Don't just mark up 2x — photography prints should have 70-80% margins because you're also selling your creative skill, not just paper</li>
+        <li><strong>No usage terms in the contract:</strong> Without clear licensing terms, clients assume they own the images forever for all purposes</li>
+      </ol>
+
+      <h2>Invoice Workflow for Photo Shoots</h2>
+      <ol>
+        <li><strong>Enquiry:</strong> Send quote with creative fee + estimated licensing based on usage discussion</li>
+        <li><strong>Booking confirmed:</strong> Send deposit/retainer invoice. Booking isn't confirmed until this is paid</li>
+        <li><strong>Pre-production:</strong> Confirm shot list, locations, styling. Any additional production costs quoted</li>
+        <li><strong>Shoot day:</strong> Deliver the work. Track any unplanned expenses (extra travel, props, overtime)</li>
+        <li><strong>Culling and editing:</strong> Process images. Upload watermarked proofs to gallery</li>
+        <li><strong>Final invoice:</strong> Send balance invoice including licensing fee, any additional expenses, print orders</li>
+        <li><strong>Payment received:</strong> Release full-resolution images via download link</li>
+        <li><strong>12 months later:</strong> Send licence renewal invoice if applicable</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/invoicing-expenses-reimbursements-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">Expense Invoicing</a> — Handling travel, equipment, and props on invoices</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP Rights Guide</a> — Protecting your creative work</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Invoicing</a> — Structuring shoot payment terms</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Licensing and usage clauses</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle & Travel Expenses</a> — Claiming travel to shoots</li>
+        <li><a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">Chasing Overdue Invoices</a> — Getting paid when clients don't respond</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
 };
