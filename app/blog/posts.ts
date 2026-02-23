@@ -10108,4 +10108,667 @@ Best,
       </ul>
     `,
   },
+  'managing-multiple-freelance-clients-australia': {
+    slug: 'managing-multiple-freelance-clients-australia',
+    title: 'How to Manage Multiple Freelance Clients Without Burning Out',
+    excerpt: 'Practical systems for juggling 3-8+ clients at once — project management, scheduling, communication, and avoiding the capacity trap.',
+    category: 'Business',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'Managing Multiple Freelance Clients | Systems That Scale',
+    seoDescription: 'Learn how to manage multiple freelance clients without dropping balls or burning out. Practical systems for scheduling, communication, and capacity planning.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Every freelancer eventually faces the same growth challenge: you've landed multiple clients, work is flowing, but you're drowning in context-switching, missed deadlines, and 11pm email replies. This guide gives you the systems to manage 3-8+ clients sustainably — without becoming a burnout statistic.</p>
+
+      <h2>The Freelancer Capacity Problem</h2>
+      <p>Most freelancers don't fail because they can't find clients — they fail because they can't manage the ones they have. Here's what typically happens:</p>
+      <ul>
+        <li><strong>1-2 clients:</strong> Manageable. You remember everything. No systems needed.</li>
+        <li><strong>3-4 clients:</strong> You start dropping small things. Emails sit for days. You occasionally miss a deadline.</li>
+        <li><strong>5-8 clients:</strong> Crisis mode. You're working weekends, context-switching constantly, and quality starts to slip.</li>
+        <li><strong>8+ clients:</strong> Something breaks — either your work quality, your health, or both.</li>
+      </ul>
+      <p>The fix isn't working more hours. It's building systems that let you handle the complexity.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Sweet Spot</h3>
+        <p class="text-slate-300 text-sm">Most solo freelancers can sustainably handle <strong>4-6 active clients</strong> at a time. This assumes a mix of project sizes and stages (not all in intensive phases simultaneously). If you're regularly exceeding 6, it's time to either raise rates, narrow scope, or <a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">move clients to retainers</a>.</p>
+      </div>
+
+      <h2>Step 1: The Client Dashboard</h2>
+      <p>You need one place that shows the status of every client at a glance. This doesn't need to be fancy — a spreadsheet or Notion page works. Track these columns:</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Column</th>
+            <th class="text-left py-3 px-4 text-slate-400">What to Track</th>
+            <th class="text-left py-3 px-4 text-slate-400">Why It Matters</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Client Name</td><td class="py-3 px-4">Company + primary contact</td><td class="py-3 px-4">Quick reference</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Project Stage</td><td class="py-3 px-4">Discovery / Active / Review / Complete</td><td class="py-3 px-4">Know who needs attention</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Next Deadline</td><td class="py-3 px-4">Specific date</td><td class="py-3 px-4">Prioritise work</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Hours/Budget Used</td><td class="py-3 px-4">% of total</td><td class="py-3 px-4">Avoid scope creep</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Last Communication</td><td class="py-3 px-4">Date + topic</td><td class="py-3 px-4">Spot neglected clients</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Payment Status</td><td class="py-3 px-4">Invoiced / Paid / Overdue</td><td class="py-3 px-4"><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash flow</a></td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Notes</td><td class="py-3 px-4">Blockers, waiting on client, etc.</td><td class="py-3 px-4">Context when switching</td></tr>
+        </tbody>
+      </table>
+
+      <p>Review this dashboard every Monday morning. It takes 5 minutes and prevents the "I forgot about that client" disaster.</p>
+
+      <h2>Step 2: Time Blocking (Not Time Tracking)</h2>
+      <p>With multiple clients, your calendar is your weapon. Don't just <a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">track time</a> — block it in advance.</p>
+
+      <h3>The Time Blocking Framework</h3>
+      <ul>
+        <li><strong>Deep Work Blocks (2-4 hours):</strong> Assign specific clients to specific mornings. No email, no Slack, no context-switching. Client A gets Monday morning. Client B gets Tuesday morning. This is where the real work happens.</li>
+        <li><strong>Admin Block (1 hour daily):</strong> Emails, invoicing, scheduling, follow-ups. Batch it. Don't scatter it throughout the day.</li>
+        <li><strong>Buffer Block (30 min between clients):</strong> Context-switching takes 15-25 minutes. Build it into your schedule instead of pretending it doesn't exist.</li>
+        <li><strong>Emergency Block (1 hour daily):</strong> Unscheduled. This is your pressure valve for urgent client requests. If nothing's urgent, use it for admin overflow or rest.</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Context-Switch Tax</h3>
+        <p class="text-slate-300 text-sm">Research shows that every time you switch between projects, you lose <strong>15-25 minutes</strong> getting back into flow. With 6 clients and constant switching, you could lose 2-3 hours per day to context-switching alone. Time blocking eliminates this — one client per block, no switching mid-flow.</p>
+      </div>
+
+      <h3>Sample Weekly Schedule (5-6 Clients)</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Time</th>
+            <th class="text-left py-3 px-4 text-slate-400">Mon</th>
+            <th class="text-left py-3 px-4 text-slate-400">Tue</th>
+            <th class="text-left py-3 px-4 text-slate-400">Wed</th>
+            <th class="text-left py-3 px-4 text-slate-400">Thu</th>
+            <th class="text-left py-3 px-4 text-slate-400">Fri</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">8-9 AM</td><td class="py-3 px-4">Admin</td><td class="py-3 px-4">Admin</td><td class="py-3 px-4">Admin</td><td class="py-3 px-4">Admin</td><td class="py-3 px-4">Admin</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">9 AM-12 PM</td><td class="py-3 px-4 text-teal-400">Client A</td><td class="py-3 px-4 text-teal-400">Client C</td><td class="py-3 px-4 text-teal-400">Client E</td><td class="py-3 px-4 text-teal-400">Client A</td><td class="py-3 px-4 text-teal-400">Client B</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">12-1 PM</td><td class="py-3 px-4">Lunch</td><td class="py-3 px-4">Lunch</td><td class="py-3 px-4">Lunch</td><td class="py-3 px-4">Lunch</td><td class="py-3 px-4">Lunch</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">1-4 PM</td><td class="py-3 px-4 text-teal-400">Client B</td><td class="py-3 px-4 text-teal-400">Client D</td><td class="py-3 px-4 text-teal-400">Client F</td><td class="py-3 px-4 text-teal-400">Client C</td><td class="py-3 px-4">Overflow</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">4-5 PM</td><td class="py-3 px-4">Buffer</td><td class="py-3 px-4">Buffer</td><td class="py-3 px-4">Buffer</td><td class="py-3 px-4">Buffer</td><td class="py-3 px-4">Week Review</td></tr>
+        </tbody>
+      </table>
+      <p>Notice: each client gets 2 blocks per week (6 hours total). That's enough for most ongoing work. Larger projects get more blocks; smaller retainers might only get 1.</p>
+
+      <h2>Step 3: Communication Systems</h2>
+      <p>Communication is where multi-client freelancers lose the most time. Implement these rules:</p>
+
+      <h3>Response Time Standards</h3>
+      <ul>
+        <li><strong>Urgent (production down, launch blocked):</strong> Same-day response. Use your emergency block.</li>
+        <li><strong>Standard (questions, feedback, approvals):</strong> Within 24 hours during business days.</li>
+        <li><strong>Low priority (nice-to-haves, brainstorming):</strong> Batch into your next admin block.</li>
+      </ul>
+      <p>Set these expectations upfront. In your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a> or kickoff email, tell clients: "I check emails twice daily at 8 AM and 4 PM. Urgent issues: text me." This manages expectations and eliminates the "instant reply" pressure.</p>
+
+      <h3>One Channel Per Client</h3>
+      <p>The worst thing you can do is let clients scatter messages across email, Slack, WhatsApp, iMessage, phone calls, and comments on shared docs. Pick one primary channel per client:</p>
+      <ul>
+        <li>Corporate clients → Email (they expect it)</li>
+        <li>Startup/agency clients → Slack or Teams (they already use it)</li>
+        <li>Small business clients → Email with occasional calls</li>
+      </ul>
+      <p>If a client messages you on the wrong channel, reply on the right one: "Got your WhatsApp — I've replied on email so we have a paper trail."</p>
+
+      <h2>Step 4: Project Management Without Over-Engineering</h2>
+      <p>You don't need a complex project management tool. Most freelancers with 4-6 clients need:</p>
+      <ul>
+        <li><strong>A task list per client:</strong> What's due, what's next, what's waiting on the client</li>
+        <li><strong>A shared deliverables folder:</strong> Google Drive, Dropbox, or whatever the client uses</li>
+        <li><strong>A status update cadence:</strong> Weekly for active projects, monthly for retainers</li>
+      </ul>
+
+      <h3>Tools That Work (Pick One)</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Tool</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+            <th class="text-left py-3 px-4 text-slate-400">Cost</th>
+            <th class="text-left py-3 px-4 text-slate-400">When to Use</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Notion</td><td class="py-3 px-4">Flexible dashboards, notes</td><td class="py-3 px-4">Free (solo)</td><td class="py-3 px-4">If you like customisation</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Trello</td><td class="py-3 px-4">Visual kanban boards</td><td class="py-3 px-4">Free</td><td class="py-3 px-4">If you think in columns</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Todoist</td><td class="py-3 px-4">Simple task lists</td><td class="py-3 px-4">Free</td><td class="py-3 px-4">If you want minimal</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Apple Notes/Reminders</td><td class="py-3 px-4">Absolute simplicity</td><td class="py-3 px-4">Free</td><td class="py-3 px-4">If tools get in the way</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Linear/Asana</td><td class="py-3 px-4">Complex project tracking</td><td class="py-3 px-4">Free-$10/mo</td><td class="py-3 px-4">If clients want visibility</td></tr>
+        </tbody>
+      </table>
+      <p>The best project management tool is the one you'll actually use. Don't spend a week setting up Notion databases when a simple list would suffice.</p>
+
+      <h2>Step 5: Avoiding the Capacity Trap</h2>
+      <p>The capacity trap: you say yes to every project because you're afraid of lean months. Then you're overloaded, quality drops, clients leave, and you're back to the lean months you feared.</p>
+
+      <h3>How to Know You're at Capacity</h3>
+      <ul>
+        <li><strong>You're working more than 7 billable hours per day</strong> — leaves no time for admin, breaks, or thinking</li>
+        <li><strong>You're regularly missing self-imposed deadlines</strong> — not client deadlines (yet), but your internal targets</li>
+        <li><strong>You dread opening your inbox</strong> — a sign you're overwhelmed, not lazy</li>
+        <li><strong>Quality is slipping</strong> — you're shipping "good enough" instead of "great"</li>
+        <li><strong>You haven't had a proper weekend in 3+ weeks</strong> — that's not hustle, that's a path to burnout</li>
+      </ul>
+
+      <h3>What to Do When You're Full</h3>
+      <ol>
+        <li><strong>Don't say no — say "not yet":</strong> "I'd love to work on this. My earliest availability is [date]. Want me to pencil you in?" This preserves the relationship.</li>
+        <li><strong><a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Raise your rates</a>:</strong> If you're consistently at capacity, your prices are too low. Increase rates for new clients by 20-30%.</li>
+        <li><strong>Shorten project scopes:</strong> Instead of a full website build (8 weeks), offer a focused MVP (3 weeks). Smaller scopes, faster turnover, less overlap.</li>
+        <li><strong>Build a referral network:</strong> Know 2-3 freelancers in your space you can refer overflow to. They'll do the same for you during their lean months.</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The 80% Rule</h3>
+        <p class="text-slate-300 text-sm">Never fill more than <strong>80% of your available hours</strong>. The remaining 20% absorbs emergencies, scope changes, and the inevitable "quick favour" requests. If you're booked at 100%, one sick day or client emergency cascades into every other project.</p>
+      </div>
+
+      <h2>Step 6: The Weekly Review</h2>
+      <p>Spend 30 minutes every Friday reviewing your week and planning the next one. This single habit prevents most multi-client disasters.</p>
+
+      <h3>Weekly Review Checklist</h3>
+      <ul>
+        <li>☐ Update client dashboard (stages, deadlines, hours)</li>
+        <li>☐ <a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Send any pending invoices</a> (don't let them stack up)</li>
+        <li>☐ Follow up on <a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">overdue payments</a></li>
+        <li>☐ Check: any client I haven't heard from in 7+ days? Reach out proactively</li>
+        <li>☐ Plan next week's time blocks (assign clients to mornings/afternoons)</li>
+        <li>☐ Review utilisation: was I overbooked or underbooked? Adjust future scheduling</li>
+        <li>☐ Flag any projects at risk (behind schedule, scope creeping, payment late)</li>
+        <li>☐ Clear email inbox to zero (or close to it)</li>
+      </ul>
+
+      <h2>Handling Client Conflicts</h2>
+      <p>When two clients have competing deadlines, and they will:</p>
+      <ol>
+        <li><strong>Check your contracts</strong> — which has a hard deadline with penalties vs. a soft target?</li>
+        <li><strong>Communicate early</strong> — "I want to deliver this on [original date], but realistically it may be [new date]. I'll keep you updated." Early honesty beats last-minute surprises every time.</li>
+        <li><strong>Offer something</strong> — "I can deliver the first section by Friday and the rest by next Wednesday. Would that work?" Partial delivery often solves the problem.</li>
+        <li><strong>Never blame another client</strong> — "I'm managing my schedule" not "Another client took longer than expected." Clients don't want to know they're competing for your time.</li>
+      </ol>
+
+      <h2>When to Stop Taking New Clients</h2>
+      <p>The hardest skill in freelancing: saying no when money is on the table. But taking on too much damages existing relationships — which are worth far more than a new project.</p>
+
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Signal</th>
+            <th class="text-left py-3 px-4 text-slate-400">Action</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Booked at 80%+ for next 2 weeks</td><td class="py-3 px-4">Waitlist new enquiries</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Working weekends 2+ weeks in a row</td><td class="py-3 px-4">Stop accepting until current load drops</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Quality complaints from existing clients</td><td class="py-3 px-4">Reduce load immediately — protect reputation</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Dreading client calls</td><td class="py-3 px-4">Check burnout signals, consider dropping lowest-value client</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">All clients in intensive phase simultaneously</td><td class="py-3 px-4">Stagger start dates for new projects</td></tr>
+        </tbody>
+      </table>
+
+      <h2>The Multi-Client Freelancer Checklist</h2>
+      <ul>
+        <li>☐ Client dashboard set up (one place, all clients, updated weekly)</li>
+        <li>☐ Time blocks assigned (dedicated focus blocks per client, buffer between)</li>
+        <li>☐ Communication rules set (one channel per client, response time standards)</li>
+        <li>☐ Admin block scheduled (daily, 1 hour — emails, invoicing, follow-ups)</li>
+        <li>☐ Emergency block reserved (daily, 1 hour — pressure valve for urgent requests)</li>
+        <li>☐ 80% capacity rule active (20% reserved for overflow)</li>
+        <li>☐ Weekly review habit (Friday, 30 min — dashboard update + next week planning)</li>
+        <li>☐ Waitlist process ready (for when you're at capacity)</li>
+        <li>☐ Referral network of 2-3 peers (for overflow referrals)</li>
+        <li>☐ <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">Scope management</a> system active (prevent overcommitment per client)</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/time-tracking-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Time Tracking for Freelancers</a> — Track billable hours across clients</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">Handling Scope Creep</a> — Protect your time from expanding projects</li>
+        <li><a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements</a> — Convert project clients to predictable recurring work</li>
+        <li><a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Raising Your Rates</a> — When capacity signals your prices are too low</li>
+        <li><a href="/blog/cashflow-management-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Management</a> — Financial systems that scale with clients</li>
+        <li><a href="/blog/freelance-tools-stack-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Tools Stack</a> — Best project management and productivity tools</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Professional invoices for every client</li>
+      </ul>
+    `,
+  },
+  'recurring-invoices-guide-freelancers': {
+    slug: 'recurring-invoices-guide-freelancers',
+    title: 'Recurring Invoices: Set-and-Forget Billing for Freelance Retainers',
+    excerpt: 'How to set up automated recurring invoices for retainer clients, subscription services, and ongoing projects — with templates and AU tax considerations.',
+    category: 'Invoicing',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'Recurring Invoices for Freelancers | Automated Billing Guide',
+    seoDescription: 'Complete guide to setting up recurring invoices for freelance retainers. Learn automation, AU GST treatment, templates, and when to use recurring vs one-off billing.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">If you have retainer clients, subscription services, or ongoing monthly work, you should never be manually creating the same invoice every month. Recurring invoices save time, improve cash flow, and reduce the chance of forgetting to bill — which is more common than anyone admits.</p>
+
+      <h2>What Is a Recurring Invoice?</h2>
+      <p>A recurring invoice is an invoice that automatically generates and (optionally) sends at set intervals — weekly, fortnightly, monthly, or quarterly. The amount, description, and payment terms stay the same each cycle. It's set-and-forget billing.</p>
+
+      <h3>When to Use Recurring Invoices</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Scenario</th>
+            <th class="text-left py-3 px-4 text-slate-400">Recurring?</th>
+            <th class="text-left py-3 px-4 text-slate-400">Why</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Monthly retainer ($2,000/mo)</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4">Same amount, same client, every month</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Ongoing hosting/maintenance</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4">Fixed monthly service fee</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Weekly content writing (set rate)</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4">Predictable scope and price</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Project with milestones</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4">Variable amounts per <a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">milestone</a></td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Hourly work (variable hours)</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4">Amount changes each period</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Quarterly consulting (fixed)</td><td class="py-3 px-4 text-teal-400">Yes</td><td class="py-3 px-4">Same fee, predictable schedule</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Forgotten Invoice Problem</h3>
+        <p class="text-slate-300 text-sm">A 2024 survey found that freelancers with retainer clients who don't use recurring invoices forget to bill on time <strong>23% of the time</strong>. That's nearly 3 months per year where you're doing work before getting paid. Recurring invoices eliminate this entirely.</p>
+      </div>
+
+      <h2>Setting Up Recurring Invoices</h2>
+      <p>Whether you're using invoicing software or doing it manually, here's the process:</p>
+
+      <h3>Step 1: Define the Template</h3>
+      <p>Create a base invoice with everything that stays the same:</p>
+      <ul>
+        <li><strong>Your business details</strong> — name, ABN, address, bank details</li>
+        <li><strong>Client details</strong> — company name, ABN (if applicable), billing contact</li>
+        <li><strong>Line items</strong> — service description, quantity, rate, amount</li>
+        <li><strong>GST treatment</strong> — GST-inclusive or exclusive (see tax section below)</li>
+        <li><strong><a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300 underline">Payment terms</a></strong> — Net 7, Net 14, etc.</li>
+      </ul>
+
+      <h3>Step 2: Set the Schedule</h3>
+      <ul>
+        <li><strong>Frequency:</strong> Weekly, fortnightly, monthly, or quarterly</li>
+        <li><strong>Send date:</strong> When the invoice is generated (e.g., 1st of each month)</li>
+        <li><strong>Start date:</strong> When the first invoice goes out</li>
+        <li><strong>End date (optional):</strong> For fixed-term retainers (e.g., 6-month contract)</li>
+      </ul>
+
+      <h3>Step 3: Numbering System</h3>
+      <p>Recurring invoices need sequential, unique <a href="/blog/invoice-numbering-system-freelancers" class="text-teal-400 hover:text-teal-300 underline">invoice numbers</a>. A good pattern for retainers:</p>
+      <ul>
+        <li><strong>Format:</strong> <code>CLIENT-2026-02</code> (Client prefix + year + month)</li>
+        <li><strong>Example:</strong> <code>ACME-2026-02</code>, <code>ACME-2026-03</code>, <code>ACME-2026-04</code></li>
+        <li>Each invoice must have a unique number for ATO compliance</li>
+      </ul>
+
+      <h3>Step 4: Choose Auto-Send vs. Review First</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Option</th>
+            <th class="text-left py-3 px-4 text-slate-400">Pros</th>
+            <th class="text-left py-3 px-4 text-slate-400">Cons</th>
+            <th class="text-left py-3 px-4 text-slate-400">Best For</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4 text-teal-400">Auto-send</td><td class="py-3 px-4">Zero effort, never late</td><td class="py-3 px-4">Can't catch errors or adjustments</td><td class="py-3 px-4">Simple retainers, hosting fees</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4 text-teal-400">Review first</td><td class="py-3 px-4">Can adjust before sending</td><td class="py-3 px-4">Requires manual step, risk of forgetting</td><td class="py-3 px-4">Retainers with overage, variable scope</td></tr>
+        </tbody>
+      </table>
+      <p>Recommendation: start with <strong>review first</strong> for the first 3 months. Once you're confident nothing changes between cycles, switch to auto-send.</p>
+
+      <h2>GST on Recurring Invoices (Australia)</h2>
+      <p>If you're GST-registered, recurring invoices must show GST correctly — every time. The good news: the treatment doesn't change between recurring and one-off invoices.</p>
+
+      <h3>Key Rules</h3>
+      <ul>
+        <li><strong>Each recurring invoice must be a valid <a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">tax invoice</a></strong> — with ABN, "Tax Invoice" label, and GST amount shown</li>
+        <li><strong>GST is calculated on each invoice individually</strong> — not across the whole contract value</li>
+        <li><strong>If you issue monthly invoices, report GST in the quarter each invoice falls in</strong> — a January invoice is Q3 (Jan-Mar), even if the contract started in October</li>
+        <li><strong>Prepaid retainers</strong> — if the client pays upfront for 3 months, you can either issue one invoice (with GST on the full amount) or issue monthly invoices as services are provided. Monthly is simpler for <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS reporting</a></li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Common Mistake: Changing Rates Without Updating Recurring Invoices</h3>
+        <p class="text-slate-300 text-sm">When you <a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">raise your rates</a>, don't forget to update your recurring invoice templates. Sending the old rate is legally binding — you can't retroactively charge more. Update templates the same day rate changes take effect.</p>
+      </div>
+
+      <h2>Recurring Invoice Template</h2>
+      <p>Here's a copy-paste template for a monthly retainer invoice:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-300 text-sm font-mono leading-relaxed">
+          <strong class="text-white">TAX INVOICE</strong><br/><br/>
+          [Your Business Name]<br/>
+          ABN: XX XXX XXX XXX<br/>
+          [Your Address]<br/><br/>
+          <strong class="text-slate-200">Bill To:</strong><br/>
+          [Client Company Name]<br/>
+          [Client Address]<br/>
+          ABN: XX XXX XXX XXX<br/><br/>
+          <strong class="text-slate-200">Invoice Number:</strong> [CLIENT]-2026-02<br/>
+          <strong class="text-slate-200">Invoice Date:</strong> 1 February 2026<br/>
+          <strong class="text-slate-200">Due Date:</strong> 14 February 2026 (Net 14)<br/>
+          <strong class="text-slate-200">Period:</strong> 1-28 February 2026<br/><br/>
+          ─────────────────────────────────<br/>
+          Monthly Retainer — [Service Description]<br/>
+          • Up to [X] hours of [service type]<br/>
+          • Includes: [deliverables]<br/>
+          <br/>
+          Subtotal: $2,000.00<br/>
+          GST (10%): $200.00<br/>
+          <strong class="text-white">Total: $2,200.00</strong><br/>
+          ─────────────────────────────────<br/><br/>
+          <strong class="text-slate-200">Payment Details:</strong><br/>
+          BSB: XXX-XXX | Account: XXXXXXXX<br/>
+          Account Name: [Your Business Name]<br/>
+          Reference: [CLIENT]-2026-02
+        </p>
+      </div>
+      <p>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">free invoice generator</a> to create professional recurring invoices in minutes — complete with GST calculation and automatic numbering.</p>
+
+      <h2>Handling Retainer Overages</h2>
+      <p>Many <a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">retainer agreements</a> include a base amount plus overage billing. There are two approaches:</p>
+
+      <h3>Option 1: Two Line Items on the Recurring Invoice</h3>
+      <ul>
+        <li>Line 1: Monthly retainer — $2,000 (fixed)</li>
+        <li>Line 2: Additional hours — $150/hr × X hours (variable)</li>
+      </ul>
+      <p>This means your recurring invoice amount varies, so use "review first" mode instead of auto-send.</p>
+
+      <h3>Option 2: Separate Overage Invoice</h3>
+      <ul>
+        <li>Recurring invoice: retainer base — $2,000 (auto-send on the 1st)</li>
+        <li>Manual invoice: overage hours — sent on the 15th if applicable</li>
+      </ul>
+      <p>Cleaner separation. The retainer payment is predictable; overages are handled case-by-case.</p>
+
+      <h2>When Recurring Invoices Go Wrong</h2>
+      <p>Common problems and fixes:</p>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Problem</th>
+            <th class="text-left py-3 px-4 text-slate-400">Fix</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Client cancels but invoice still sends</td><td class="py-3 px-4">Set end dates on recurring invoices. Review active recurrences quarterly.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Rate changed but old invoice still sends</td><td class="py-3 px-4">Update template immediately when rates change. Set calendar reminder.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Client didn't receive it (spam filter)</td><td class="py-3 px-4">Add "please whitelist [your email]" in your <a href="/blog/invoice-email-templates-freelancers" class="text-teal-400 hover:text-teal-300 underline">invoice email</a>. Follow up if no payment by due date.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Invoice generated for month client didn't use</td><td class="py-3 px-4">If retainer is use-it-or-lose-it, this is correct. If rollover, address in your agreement.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">GST rate changes (hasn't happened since 2000)</td><td class="py-3 px-4">Update all recurring invoice templates immediately. Use <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST calculator</a> to verify amounts.</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Recurring Invoice Audit Checklist</h2>
+      <p>Run this quarterly to keep your recurring invoices clean:</p>
+      <ul>
+        <li>☐ All active recurring invoices match current client agreements</li>
+        <li>☐ Rates are current (no old prices still invoicing)</li>
+        <li>☐ Cancelled clients have been removed</li>
+        <li>☐ End dates are set for fixed-term retainers</li>
+        <li>☐ Invoice numbers are sequential and unique</li>
+        <li>☐ GST is correctly calculated on every recurring invoice</li>
+        <li>☐ Bank details are correct (update after any account change)</li>
+        <li>☐ Payment terms match the retainer agreement</li>
+        <li>☐ Service descriptions accurately reflect current scope</li>
+        <li>☐ Email delivery is working (check sent/opened status if available)</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements</a> — Structure the agreement that your recurring invoice fulfils</li>
+        <li><a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300 underline">Payment Terms Explained</a> — Net 7, 14, 30 — which works for retainers</li>
+        <li><a href="/blog/invoice-numbering-system-freelancers" class="text-teal-400 hover:text-teal-300 underline">Invoice Numbering System</a> — Sequential numbering for recurring series</li>
+        <li><a href="/blog/invoice-email-templates-freelancers" class="text-teal-400 hover:text-teal-300 underline">Invoice Email Templates</a> — Email copy for recurring invoice delivery</li>
+        <li><a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Raising Your Rates</a> — When and how to update recurring amounts</li>
+        <li><a href="/blog/freelance-bookkeeping-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Bookkeeping</a> — Track recurring revenue in your books</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices with GST calculation</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Verify GST amounts on recurring invoices</li>
+      </ul>
+    `,
+  },
+  'setting-boundaries-freelance-clients': {
+    slug: 'setting-boundaries-freelance-clients',
+    title: 'How to Set Boundaries with Freelance Clients (Without Losing Them)',
+    excerpt: 'Practical scripts and systems for protecting your time, energy, and sanity — from working hours to revision limits to the dreaded "quick favour".',
+    category: 'Business',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Setting Boundaries with Freelance Clients | Scripts & Systems',
+    seoDescription: 'Learn how to set professional boundaries with freelance clients without losing them. Scripts for working hours, revision limits, scope boundaries, and emergency protocols.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">The number one reason freelancers burn out isn't the work itself — it's the lack of boundaries around the work. The 10 PM "quick question." The "one more round of revisions." The scope that quietly doubles while the fee stays the same. This guide gives you the scripts and systems to protect your time without losing clients.</p>
+
+      <h2>Why Freelancers Struggle with Boundaries</h2>
+      <p>Three forces conspire against freelancer boundaries:</p>
+      <ul>
+        <li><strong>Fear of losing the client:</strong> "If I say no, they'll find someone else." In reality, clients respect professionals who have clear standards.</li>
+        <li><strong>Guilt about saying no:</strong> "They're paying me — I should be available." You're being paid for results, not for 24/7 availability.</li>
+        <li><strong>Unclear expectations from the start:</strong> If you never set boundaries, clients will (reasonably) assume there are none.</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">The Boundary Paradox</h3>
+        <p class="text-slate-300 text-sm">Freelancers who set clear boundaries are <strong>more likely to retain clients</strong>, not less. Why? Because boundaries signal professionalism. A client who works with 5 freelancers will remember the one who was organised, reliable, and had clear processes — not the one who answered WhatsApp at midnight.</p>
+      </div>
+
+      <h2>Boundary 1: Working Hours</h2>
+      <p>The most fundamental boundary. Without it, every other boundary crumbles.</p>
+
+      <h3>How to Set It</h3>
+      <p>In your <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">contract</a> or kickoff email, include a "Working Hours" section:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-300 text-sm italic">
+          "My standard working hours are Monday to Friday, 9 AM to 5 PM AEST. I check and respond to emails twice daily at 9 AM and 3 PM. Messages received outside business hours will be addressed the next business day. For genuine emergencies (production outage, security issue), you can reach me on [phone number]."
+        </p>
+      </div>
+
+      <h3>When Clients Push Back</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">They Say</th>
+            <th class="text-left py-3 px-4 text-slate-400">You Say</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Can I call you at 8 PM to discuss this?"</td><td class="py-3 px-4">"I'm available 9-5 AEST. I have a 9 AM or 2 PM slot tomorrow — which works?"</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"I sent you an email Sunday — did you see it?"</td><td class="py-3 px-4">"I did — I'll have a response for you this morning. I review weekend messages first thing Monday."</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Our US team works evenings your time"</td><td class="py-3 px-4">"I can do one overlap call per week at 7-8 PM AEST. Otherwise, async works great — I'll always respond by 9 AM your time."</td></tr>
+        </tbody>
+      </table>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The "Delayed Send" Trick</h3>
+        <p class="text-slate-300 text-sm">If you work at 10 PM (no shame — many freelancers do), use Gmail's "Schedule Send" to deliver the email at 8 AM the next day. This avoids training clients to expect late-night responses while still letting you work when you're productive.</p>
+      </div>
+
+      <h2>Boundary 2: Revision Limits</h2>
+      <p>Unlimited revisions is the fastest path to resentment. Every project should have a clear revision policy.</p>
+
+      <h3>Standard Revision Frameworks</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Project Type</th>
+            <th class="text-left py-3 px-4 text-slate-400">Included Revisions</th>
+            <th class="text-left py-3 px-4 text-slate-400">Additional Revisions</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Logo / Brand Design</td><td class="py-3 px-4">3 concepts + 2 rounds of revisions</td><td class="py-3 px-4">$150/round</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Website Build</td><td class="py-3 px-4">2 rounds of feedback per page</td><td class="py-3 px-4">$100/hr</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Copywriting</td><td class="py-3 px-4">1 draft + 2 rounds of edits</td><td class="py-3 px-4">$75/round</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Video Editing</td><td class="py-3 px-4">1 rough cut + 1 fine cut + 1 final</td><td class="py-3 px-4">$200/round</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">Development</td><td class="py-3 px-4">Per agreed specification</td><td class="py-3 px-4">Change requests at hourly rate</td></tr>
+        </tbody>
+      </table>
+
+      <h3>The Contract Clause</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-300 text-sm italic">
+          "This project includes [X] rounds of revisions. A 'round' means one consolidated set of feedback provided within 5 business days of receiving the deliverable. Additional rounds are available at $[rate] per round. Changes to the agreed scope (new features, additional pages, different direction) are not revisions — they are <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">scope changes</a> and will be quoted separately."
+        </p>
+      </div>
+
+      <h3>The "Consolidated Feedback" Rule</h3>
+      <p>This is critical: define a "round" as <strong>one consolidated set of feedback</strong>. Without this, clients send 15 emails over 2 weeks, each with one more thing — and argue they've only done "one round." Consolidated means:</p>
+      <ul>
+        <li>All feedback is collected and sent in <strong>one document or email</strong></li>
+        <li>You have a <strong>deadline</strong> for feedback (e.g., 5 business days)</li>
+        <li>Contradictory feedback within the same round is the client's responsibility to resolve before sending</li>
+      </ul>
+
+      <h2>Boundary 3: Scope Boundaries</h2>
+      <p>This is the boundary most freelancers get wrong, because <a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">scope creep</a> happens gradually.</p>
+
+      <h3>The "Not Included" Section</h3>
+      <p>Every <a href="/blog/how-to-write-freelance-proposal-australia" class="text-teal-400 hover:text-teal-300 underline">proposal</a> and contract should have a "What's Not Included" section that's as detailed as the scope itself:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-300 text-sm italic">
+          <strong class="text-white">What's Included:</strong><br/>
+          • 5-page website (Home, About, Services, Blog, Contact)<br/>
+          • Mobile responsive design<br/>
+          • Contact form<br/>
+          • Basic SEO setup<br/><br/>
+          <strong class="text-white">What's Not Included:</strong><br/>
+          • E-commerce functionality<br/>
+          • Custom animations or interactive elements<br/>
+          • Blog content writing (structure only)<br/>
+          • Ongoing maintenance or hosting<br/>
+          • Third-party integrations (CRM, email marketing, etc.)<br/>
+          • Logo design or brand identity work<br/><br/>
+          Any items not listed above can be added via a separate quote.
+        </p>
+      </div>
+
+      <h3>Scripts for Scope Boundary Conversations</h3>
+      <table class="w-full text-sm my-6 border-collapse">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="text-left py-3 px-4 text-slate-400">Client Request</th>
+            <th class="text-left py-3 px-4 text-slate-400">Response Script</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-300">
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"Can you also add a shop section?"</td><td class="py-3 px-4">"Absolutely — that would be a great addition. It's outside the current scope, so I'll put together a quick quote for it. Want me to do that today?"</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"We need it to work differently than discussed"</td><td class="py-3 px-4">"I want to make sure this is right for you. That's a different direction from the agreed spec, so let me scope out what's involved and we can adjust the project plan together."</td></tr>
+          <tr class="border-b border-white/5"><td class="py-3 px-4">"One more small thing..."</td><td class="py-3 px-4">"Happy to add that. I'm keeping a list of additions as we go — I'll send a summary with costs once we've collected them all, and we can decide what to include."</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Boundary 4: Communication Boundaries</h2>
+      <p>Related to working hours, but broader. Communication boundaries cover <strong>how</strong> clients can reach you, not just <strong>when</strong>.</p>
+
+      <h3>Rules to Set Upfront</h3>
+      <ul>
+        <li><strong>One primary channel:</strong> "All project communication goes through email. Slack/WhatsApp is for urgent-only." See our guide on <a href="/blog/managing-multiple-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">managing multiple clients</a> for more on this.</li>
+        <li><strong>Meeting cadence:</strong> "We'll have a 30-minute check-in every [Monday]. Additional meetings are fine but let's book them 24 hours ahead."</li>
+        <li><strong>Response time:</strong> "I respond within one business day. Urgent = same day. I'll always acknowledge receipt, even if the full answer takes longer."</li>
+        <li><strong>Feedback format:</strong> "Please send feedback in one email (not multiple separate messages). Use line numbers or screenshots for specific items."</li>
+      </ul>
+
+      <h3>The "Boundary Reset" Email</h3>
+      <p>Already in a situation where boundaries have eroded? Here's how to reset without damaging the relationship:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10">
+        <p class="text-slate-300 text-sm italic">
+          Subject: Quick note on how we work together<br/><br/>
+          Hi [Name],<br/><br/>
+          As we get deeper into this project, I want to make sure we're set up for the smoothest possible collaboration. A few working norms that help me deliver my best work:<br/><br/>
+          • I'm available Mon-Fri 9-5 AEST. Emails outside these hours get picked up next business day.<br/>
+          • Let's keep project communication on email for the paper trail. I'll respond within one business day.<br/>
+          • For feedback rounds, if you could collect all notes into one email, that helps me action everything together instead of in fragments.<br/><br/>
+          This isn't about being rigid — it's about making sure I can give your project the focused attention it deserves.<br/><br/>
+          Thanks,<br/>
+          [You]
+        </p>
+      </div>
+
+      <h2>Boundary 5: The "Quick Favour" Boundary</h2>
+      <p>The most insidious boundary violation. "Quick favours" are small, seem harmless, and are individually hard to refuse. But they add up:</p>
+      <ul>
+        <li>"Can you just resize this image?" (5 min)</li>
+        <li>"Could you update the phone number on the website?" (10 min)</li>
+        <li>"Quick question about my email setup..." (15 min)</li>
+        <li>"Can you take a look at this other thing?" (30 min)</li>
+      </ul>
+      <p>Over a month, this is 5-10 hours of unbilled work. At $100/hr, that's <strong>$500-$1,000 of free labour</strong>.</p>
+
+      <h3>How to Handle Quick Favours</h3>
+      <ol>
+        <li><strong>Under 5 minutes, first time:</strong> Just do it. Good will matters. But note it.</li>
+        <li><strong>Recurring pattern:</strong> "Happy to help with this — I'll add it to this month's invoice as a small maintenance item. [X] minutes at my hourly rate."</li>
+        <li><strong>Outside your scope entirely:</strong> "That's outside my area — I'd recommend [specialist/resource]. I wouldn't want to give you bad advice."</li>
+        <li><strong>Consider a maintenance retainer:</strong> "I notice you need small updates fairly often. Want me to set up a 2-hour monthly retainer? You'd have priority access and it's more cost-effective than ad-hoc billing."</li>
+      </ol>
+
+      <h2>Boundary 6: Payment Boundaries</h2>
+      <p>Payment boundaries protect your cash flow and your motivation.</p>
+
+      <h3>Non-Negotiable Payment Rules</h3>
+      <ul>
+        <li><strong>No work before deposit:</strong> For new clients, require a <a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">deposit</a> (typically 30-50%) before starting work.</li>
+        <li><strong>Stop work on overdue invoices:</strong> "I paused work on [project] as the [date] invoice is outstanding. I'll resume as soon as payment is received." Direct, professional, no apology needed.</li>
+        <li><strong><a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">Late fees</a> in the contract:</strong> 1.5%/month compound interest. You don't have to enforce it every time, but having it in the contract gives you leverage.</li>
+        <li><strong>Clear <a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300 underline">payment terms</a>:</strong> Net 14 for ongoing clients, due on receipt for new clients. Don't agree to Net 60 unless the project size justifies the cash flow impact.</li>
+      </ul>
+
+      <h2>When Clients Won't Respect Boundaries</h2>
+      <p>Most clients will respect clearly communicated boundaries. For those who don't:</p>
+
+      <h3>Escalation Framework</h3>
+      <ol>
+        <li><strong>First violation:</strong> Gentle reminder. "Just a heads up — I received your message at 10 PM. I'll pick this up first thing tomorrow morning."</li>
+        <li><strong>Repeated violations:</strong> Direct conversation. "I've noticed a pattern of after-hours messages expecting same-day responses. My working hours are [X]. Can we agree on this?"</li>
+        <li><strong>Persistent violations after conversation:</strong> Enforce consequences. Stop replying outside hours. Include boundary terms in the next invoice or contract renewal.</li>
+        <li><strong>No improvement:</strong> Consider whether this client is worth keeping. See our guide on <a href="/blog/how-to-fire-client-professionally-freelancer" class="text-teal-400 hover:text-teal-300 underline">firing a client professionally</a>.</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Know Your Worth</h3>
+        <p class="text-slate-300 text-sm">If a client consistently violates boundaries, they're not a good client — regardless of what they pay. The stress and extra time costs you more than the project fee. Check our <a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">client red flags</a> guide to identify problem clients earlier.</p>
+      </div>
+
+      <h2>Boundary-Setting Checklist</h2>
+      <ul>
+        <li>☐ Working hours defined in contract/kickoff email</li>
+        <li>☐ Response time standards communicated (urgent vs standard vs low priority)</li>
+        <li>☐ Revision limits specified with overage rates</li>
+        <li>☐ "Consolidated feedback" rule explained</li>
+        <li>☐ Scope documented with "Not Included" section</li>
+        <li>☐ Primary communication channel agreed</li>
+        <li>☐ Meeting cadence set (scheduled, not ad-hoc)</li>
+        <li>☐ Deposit required before starting</li>
+        <li>☐ Late payment terms in contract</li>
+        <li>☐ "Quick favour" policy clear (first free, then billed or retainer)</li>
+        <li>☐ Emergency contact protocol defined (what qualifies, how to reach you)</li>
+        <li>☐ All boundaries documented (not just verbal — write it down)</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Put boundaries into legally binding terms</li>
+        <li><a href="/blog/how-to-handle-scope-creep-freelancer" class="text-teal-400 hover:text-teal-300 underline">Handling Scope Creep</a> — When scope boundaries get tested</li>
+        <li><a href="/blog/freelance-client-red-flags-australia" class="text-teal-400 hover:text-teal-300 underline">Client Red Flags</a> — Identify boundary-violating clients before signing</li>
+        <li><a href="/blog/how-to-fire-client-professionally-freelancer" class="text-teal-400 hover:text-teal-300 underline">Firing a Client</a> — When boundaries are persistently violated</li>
+        <li><a href="/blog/managing-multiple-freelance-clients-australia" class="text-teal-400 hover:text-teal-300 underline">Managing Multiple Clients</a> — Communication and scheduling systems</li>
+        <li><a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements</a> — Convert "quick favours" into paid retainers</li>
+        <li><a href="/blog/how-to-raise-freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Raising Your Rates</a> — When boundary violations signal you're underpriced</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Professional invoices with clear payment terms</li>
+      </ul>
+    `,
+  },
 };
