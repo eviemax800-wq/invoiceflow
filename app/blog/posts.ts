@@ -18732,4 +18732,895 @@ Yours sincerely,
       </ul>
     `,
   },
+  'invoicing-copywriters-content-writers-australia': {
+    slug: 'invoicing-copywriters-content-writers-australia',
+    title: 'How to Invoice as a Freelance Copywriter in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for freelance copywriters and content writers in Australia — pricing models, invoice templates, revision policies, content licensing, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Copywriter in Australia | 2026',
+    seoDescription: 'Freelance copywriter invoicing guide for Australia. Per-word vs per-project pricing, content licensing, revision handling, invoice templates, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Freelance copywriting and content writing is one of the most in-demand skills in Australia — but most writers price themselves wrong and invoice inconsistently. This guide covers the specific invoicing challenges copywriters face: how to price different content types, structure revision policies, handle content licensing, and claim every deduction you're entitled to.</p>
+
+      <h2>Pricing Models for Copywriters</h2>
+      <p>The right pricing model depends on the type of work, the client relationship, and your experience level. Most successful copywriters use a mix.</p>
+
+      <h3>Per-Word Pricing</h3>
+      <p>Common for blog posts, articles, and SEO content where word count is clearly defined.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Experience Level</th>
+              <th class="py-3 px-4 text-teal-400">Per-Word Rate (AUD)</th>
+              <th class="py-3 px-4 text-teal-400">1,500-Word Article</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Beginner (0-1 years)</td>
+              <td class="py-3 px-4">$0.10 – $0.20</td>
+              <td class="py-3 px-4">$150 – $300</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Intermediate (1-3 years)</td>
+              <td class="py-3 px-4">$0.20 – $0.50</td>
+              <td class="py-3 px-4">$300 – $750</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Expert / specialist</td>
+              <td class="py-3 px-4">$0.50 – $1.00+</td>
+              <td class="py-3 px-4">$750 – $1,500+</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Technical / medical / legal</td>
+              <td class="py-3 px-4">$0.60 – $1.50+</td>
+              <td class="py-3 px-4">$900 – $2,250+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">When Per-Word Pricing Backfires</h3>
+        <p class="text-slate-300 text-sm">Per-word pricing incentivises clients to ask for shorter content and punishes you for being concise. A 500-word landing page that converts at 5% is worth more than a 3,000-word blog post. For high-impact copy (landing pages, emails, ads), always use per-project pricing.</p>
+      </div>
+
+      <h3>Per-Project Pricing</h3>
+      <p>Best for website copy, email sequences, landing pages, and brand voice work where the value isn't tied to word count.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Content Type</th>
+              <th class="py-3 px-4 text-teal-400">Typical Range (AUD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Website copy (5-7 pages)</td>
+              <td class="py-3 px-4">$2,000 – $8,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Landing page</td>
+              <td class="py-3 px-4">$500 – $2,500</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Email sequence (5-7 emails)</td>
+              <td class="py-3 px-4">$1,000 – $3,500</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Sales page (long-form)</td>
+              <td class="py-3 px-4">$1,500 – $5,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Brand voice guide</td>
+              <td class="py-3 px-4">$1,500 – $4,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Case study</td>
+              <td class="py-3 px-4">$800 – $2,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">White paper (3,000-5,000 words)</td>
+              <td class="py-3 px-4">$2,000 – $6,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Retainer Pricing</h3>
+      <p>Ideal for ongoing content marketing relationships. The client pays a fixed monthly fee for a set deliverable.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Retainer Package</th>
+              <th class="py-3 px-4 text-teal-400">Includes</th>
+              <th class="py-3 px-4 text-teal-400">Monthly Rate (AUD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Starter</td>
+              <td class="py-3 px-4">4 blog posts (1,000-1,500 words)</td>
+              <td class="py-3 px-4">$1,200 – $2,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Growth</td>
+              <td class="py-3 px-4">8 blog posts + 4 social posts + 1 newsletter</td>
+              <td class="py-3 px-4">$3,000 – $5,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Full content marketing</td>
+              <td class="py-3 px-4">12 blog posts + email sequence + social + strategy</td>
+              <td class="py-3 px-4">$5,000 – $10,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Retainer Tip</h3>
+        <p class="text-slate-300 text-sm">Offer retainer clients a 10-15% discount vs per-project rates. The guaranteed income and reduced sales time makes it worth it. But always define rollover rules — unused content credits should expire monthly or cap at 25% rollover.</p>
+      </div>
+
+      <h2>Invoice Template for Copywriters</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Sample Invoice — Blog Content Package</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p>INVOICE #CW-2026-014</p>
+          <p>Date: 24 February 2026</p>
+          <p>Due: 10 March 2026 (Net 14)</p>
+          <p class="mt-4">FROM: [Your Name] | ABN: XX XXX XXX XXX</p>
+          <p>TO: [Client Name] | ABN: XX XXX XXX XXX</p>
+          <p class="mt-4 border-t border-slate-600 pt-2">DESCRIPTION</p>
+          <p>1× Blog article: "Ultimate Guide to [Topic]"</p>
+          <p>&nbsp;&nbsp;&nbsp;1,800 words, SEO-optimised, 2 rounds of revisions</p>
+          <p>&nbsp;&nbsp;&nbsp;Includes: keyword research, meta description, internal linking</p>
+          <p class="text-right">$540.00</p>
+          <p class="mt-2">1× Blog article: "How to [Topic]"</p>
+          <p>&nbsp;&nbsp;&nbsp;1,200 words, SEO-optimised, 2 rounds of revisions</p>
+          <p class="text-right">$360.00</p>
+          <p class="mt-2">1× Social media copy (LinkedIn + Twitter/X)</p>
+          <p>&nbsp;&nbsp;&nbsp;3 variations per platform</p>
+          <p class="text-right">$150.00</p>
+          <p class="mt-4 border-t border-slate-600 pt-2">Subtotal: $1,050.00</p>
+          <p>GST (10%): $105.00</p>
+          <p class="text-teal-400 font-bold">TOTAL: $1,155.00</p>
+          <p class="mt-4 text-xs text-slate-400">Payment: Bank transfer to [BSB] [Account]</p>
+          <p class="text-xs text-slate-400">Content licence: Exclusive, unlimited use by client upon payment</p>
+        </div>
+      </div>
+
+      <h2>Handling Revisions</h2>
+      <p>Revision scope is the #1 source of copywriting invoice disputes. Define it upfront in your contract AND on the invoice.</p>
+
+      <h3>Recommended Revision Policy</h3>
+      <ul>
+        <li><strong>Include 2 rounds of revisions</strong> in your standard pricing</li>
+        <li>Define what counts as a "round" — feedback collected once, implemented once. Not ongoing back-and-forth</li>
+        <li>Revisions requested more than 14 days after delivery count as new scope</li>
+        <li>Direction changes (rewriting for a different audience, tone shift, new messaging) are <strong>new projects</strong>, not revisions</li>
+        <li><strong>Additional revisions:</strong> $75-150/hour or 15-25% of the original project fee per round</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">The Brief Problem</h3>
+        <p class="text-slate-300 text-sm">Most revision disputes happen because the brief was vague. Before starting any project, get written sign-off on: target audience, tone of voice, key messages, CTA, word count, and any mandatory inclusions. A 15-minute brief call saves hours of revisions.</p>
+      </div>
+
+      <h2>Content Licensing and Copyright</h2>
+      <p>Under Australian copyright law, the freelance writer owns the copyright to their work unless there's a written agreement transferring it. This is different from employee-created work.</p>
+
+      <h3>Common Licensing Structures</h3>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Licence Type</th>
+              <th class="py-3 px-4 text-teal-400">What It Means</th>
+              <th class="py-3 px-4 text-teal-400">Price Adjustment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Exclusive, unlimited use</td>
+              <td class="py-3 px-4">Client can use the content anywhere, forever. Most common for web copy</td>
+              <td class="py-3 px-4">Standard rate (included)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Copyright assignment</td>
+              <td class="py-3 px-4">Full ownership transfers to client. You can't reuse or portfolio it</td>
+              <td class="py-3 px-4">+25-50% premium</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Limited use licence</td>
+              <td class="py-3 px-4">Content for specific channels only (e.g., website only, not ads)</td>
+              <td class="py-3 px-4">Standard or slight discount</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Non-exclusive</td>
+              <td class="py-3 px-4">You retain rights to resell/repurpose. Rare for custom copy</td>
+              <td class="py-3 px-4">-20-30% discount</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Portfolio Rights</h3>
+        <p class="text-slate-300 text-sm">Even when assigning copyright, always retain portfolio rights in your contract — the right to display the work (or excerpts) in your portfolio. Most clients are fine with this. Without it, you can't showcase your best work to win new clients.</p>
+      </div>
+
+      <h2>GST for Copywriters</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover — many full-time copywriters hit this within 1-2 years</li>
+        <li>Charge 10% GST on all copywriting services, including strategy, research, and editing</li>
+        <li><strong>International clients:</strong> Services provided to overseas clients are generally GST-free exports under Division 38. You still invoice but don't charge GST. Keep records proving the client is overseas</li>
+        <li>Content written in Australia for an Australian client's overseas website is <strong>still subject to GST</strong> — the test is where the client is located, not where the content is published</li>
+      </ul>
+
+      <h2>Copywriter-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Software:</strong> Grammarly ($30/mo), Hemingway, Surfer SEO ($89/mo), Ahrefs ($99/mo), Jasper, Google Workspace</li>
+        <li><strong>Subscriptions:</strong> Industry publications, stock image libraries (Unsplash Pro, iStock), research databases</li>
+        <li><strong>Hardware:</strong> Laptop, monitor, keyboard, desk, ergonomic chair (instant write-off under $20,000)</li>
+        <li><strong>Home office:</strong> Dedicated workspace — claim fixed rate of $0.67/hour or actual costs (internet, electricity, rent portion)</li>
+        <li><strong>Professional development:</strong> Copywriting courses, workshops, conferences (CopyCon, Content Marketing World)</li>
+        <li><strong>Books:</strong> Reference books, style guides, industry research</li>
+        <li><strong>Communications:</strong> Mobile phone (business portion), internet (business portion)</li>
+        <li><strong>Coworking:</strong> Hot desk or dedicated desk fees — fully deductible</li>
+      </ul>
+
+      <h2>Invoicing Different Content Types</h2>
+      <p>Each content type has specific invoicing considerations:</p>
+
+      <h3>Blog Posts and Articles</h3>
+      <ul>
+        <li>Invoice per article or per batch (monthly retainer)</li>
+        <li>Specify word count, SEO inclusions (meta title, meta description, alt text)</li>
+        <li>Note whether keyword research is included or a separate line item</li>
+      </ul>
+
+      <h3>Website Copy</h3>
+      <ul>
+        <li>Invoice as a project with milestone payments: 50% upfront, 50% on completion</li>
+        <li>List each page as a line item (Home, About, Services, Contact, etc.)</li>
+        <li>Specify if UX/wireframe review and content strategy are separate charges</li>
+      </ul>
+
+      <h3>Email Sequences</h3>
+      <ul>
+        <li>Invoice per sequence, not per email — it's a connected system</li>
+        <li>Include subject line creation, A/B variants, and segmentation notes in the scope</li>
+        <li>If the client wants you to load emails into their ESP (Mailchimp, ActiveCampaign), charge separately for implementation</li>
+      </ul>
+
+      <h3>Ghostwriting</h3>
+      <ul>
+        <li>Premium pricing (30-50% above standard rates) — you're giving up attribution</li>
+        <li>Copyright assignment is standard for ghostwriting. Invoice should note this</li>
+        <li>Include interview/briefing time as a line item if the client needs to be interviewed</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes Copywriters Make</h2>
+      <ol>
+        <li><strong>Not specifying what's included:</strong> "Blog post — $400" is too vague. Specify word count, revisions, SEO elements, images sourced or not. Clients assume everything is included unless you say otherwise</li>
+        <li><strong>Unlimited revisions:</strong> Never. Two rounds is industry standard. Beyond that, you're doing spec work for free</li>
+        <li><strong>Not invoicing for research:</strong> A 1,500-word technical article might need 3-4 hours of research. If you're only charging for writing time, you're working for half your rate</li>
+        <li><strong>Invoicing too late:</strong> Send the invoice when you deliver the content, not weeks later. Late invoices signal that payment isn't important to you</li>
+        <li><strong>No rush fee:</strong> If a client needs content in 24-48 hours, charge 25-50% extra. Your schedule has value — don't rearrange it for free</li>
+        <li><strong>Scope creep on retainers:</strong> Track deliverables monthly. If a client is consistently asking for more than the retainer covers, renegotiate — don't absorb it</li>
+        <li><strong>Not separating strategy from execution:</strong> Content strategy (editorial calendar, keyword research, competitor analysis) is separate from writing. Invoice them as distinct services</li>
+      </ol>
+
+      <h2>Payment Terms for Copywriters</h2>
+      <ul>
+        <li><strong>New clients:</strong> 50% upfront, 50% on delivery. Non-negotiable for projects over $500</li>
+        <li><strong>Retainer clients:</strong> Invoice at the start of each month, due within 7 days. Content delivery begins after payment</li>
+        <li><strong>Corporate clients:</strong> Net 14-30 may be required. Factor delayed payment into your pricing (add 5-10%)</li>
+        <li><strong>Rush work:</strong> 100% upfront. No exceptions</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/freelance-rates-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Rates Guide</a> — How to set and raise your rates</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP Rights Guide</a> — Protecting your creative work</li>
+        <li><a href="/blog/recurring-invoicing-retainer-clients" class="text-teal-400 hover:text-teal-300 underline">Retainer Invoicing</a> — Setting up recurring invoices</li>
+        <li><a href="/blog/invoicing-graphic-designers-australia" class="text-teal-400 hover:text-teal-300 underline">Graphic Designer Invoicing</a> — Similar creative freelancer invoicing</li>
+        <li><a href="/blog/scope-creep-prevention-freelancers" class="text-teal-400 hover:text-teal-300 underline">Scope Creep Prevention</a> — Protecting your time and income</li>
+        <li><a href="/blog/home-office-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Home Office Deductions</a> — Claim your workspace expenses</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
+  'invoicing-social-media-managers-australia': {
+    slug: 'invoicing-social-media-managers-australia',
+    title: 'How to Invoice as a Freelance Social Media Manager in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for freelance social media managers in Australia — retainer packages, ad spend handling, content creation pricing, reporting fees, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Social Media Manager in Australia | 2026',
+    seoDescription: 'Freelance social media manager invoicing guide for Australia. Retainer pricing, ad spend pass-throughs, content creation fees, platform management, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Freelance social media management is one of the fastest-growing freelance services in Australia — but it's also one of the most commonly underpriced. Between content creation, community management, paid ads, and analytics, most social media managers juggle multiple services that should each be invoiced properly. This guide covers how to price, structure, and invoice social media services.</p>
+
+      <h2>Pricing Models for Social Media Managers</h2>
+
+      <h3>Monthly Retainer (Most Common)</h3>
+      <p>The retainer model works best because social media management is ongoing, not project-based. Clients pay a fixed monthly fee for a defined scope of work.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Package Tier</th>
+              <th class="py-3 px-4 text-teal-400">Includes</th>
+              <th class="py-3 px-4 text-teal-400">Monthly Rate (AUD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Essentials</td>
+              <td class="py-3 px-4">2 platforms, 12 posts/mo, basic community management</td>
+              <td class="py-3 px-4">$1,000 – $1,800</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Growth</td>
+              <td class="py-3 px-4">3 platforms, 20 posts/mo, community management, monthly reporting, Stories/Reels</td>
+              <td class="py-3 px-4">$2,000 – $3,500</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Premium</td>
+              <td class="py-3 px-4">4+ platforms, 30+ posts/mo, daily engagement, Reels/TikTok, influencer coordination, weekly reporting</td>
+              <td class="py-3 px-4">$3,500 – $6,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Full-service (with paid ads)</td>
+              <td class="py-3 px-4">All of the above + ad campaign management, A/B testing, conversion tracking</td>
+              <td class="py-3 px-4">$5,000 – $10,000+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Per-Platform Pricing</h3>
+      <p>Some SMMs price per platform rather than in packages. This is simpler for clients who only need one channel managed.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Platform</th>
+              <th class="py-3 px-4 text-teal-400">Monthly Rate (AUD)</th>
+              <th class="py-3 px-4 text-teal-400">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Instagram</td>
+              <td class="py-3 px-4">$800 – $2,500</td>
+              <td class="py-3 px-4">Reels are time-intensive — price accordingly</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">LinkedIn</td>
+              <td class="py-3 px-4">$600 – $2,000</td>
+              <td class="py-3 px-4">Higher rates for B2B / thought leadership</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">TikTok</td>
+              <td class="py-3 px-4">$1,000 – $3,000</td>
+              <td class="py-3 px-4">Highest effort per post (video production)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Facebook</td>
+              <td class="py-3 px-4">$500 – $1,500</td>
+              <td class="py-3 px-4">Often bundled with Instagram</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Twitter/X</td>
+              <td class="py-3 px-4">$500 – $1,500</td>
+              <td class="py-3 px-4">High-frequency posting requires more time</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Don't Undercharge for Reels and TikTok</h3>
+        <p class="text-slate-300 text-sm">A single 30-second Reel can take 2-4 hours to script, film, edit, caption, and optimise. If you're including 8 Reels/month in a $1,500 retainer, you're effectively working for $25/hour. Price video content separately or significantly increase your retainer when it's included.</p>
+      </div>
+
+      <h2>Invoice Template for Social Media Managers</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Sample Invoice — Monthly Retainer + Ad Spend</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p>INVOICE #SMM-2026-003</p>
+          <p>Date: 1 March 2026</p>
+          <p>Due: 8 March 2026 (Net 7)</p>
+          <p class="mt-4">FROM: [Your Name] | ABN: XX XXX XXX XXX</p>
+          <p>TO: [Client Name] | ABN: XX XXX XXX XXX</p>
+          <p class="mt-4 border-t border-slate-600 pt-2">SERVICES — March 2026</p>
+          <p>Social Media Management — Growth Package</p>
+          <p>&nbsp;&nbsp;&nbsp;Instagram + LinkedIn + Facebook</p>
+          <p>&nbsp;&nbsp;&nbsp;20 posts, 8 Stories, 4 Reels, daily engagement</p>
+          <p>&nbsp;&nbsp;&nbsp;Monthly analytics report</p>
+          <p class="text-right">$2,800.00</p>
+          <p class="mt-2">Additional: Campaign landing page copy</p>
+          <p class="text-right">$350.00</p>
+          <p class="mt-4 border-t border-slate-600 pt-2">ADVERTISING (pass-through)</p>
+          <p>Meta Ads — February spend (receipt attached)</p>
+          <p class="text-right">$1,200.00</p>
+          <p class="mt-4 border-t border-slate-600 pt-2">Services subtotal: $3,150.00</p>
+          <p>GST on services (10%): $315.00</p>
+          <p>Ad spend (pass-through, no GST): $1,200.00</p>
+          <p class="text-teal-400 font-bold">TOTAL: $4,665.00</p>
+          <p class="mt-4 text-xs text-slate-400">Payment: Bank transfer to [BSB] [Account]</p>
+        </div>
+      </div>
+
+      <h2>Handling Ad Spend on Invoices</h2>
+      <p>Ad spend management is the trickiest part of social media invoicing. There are three common models:</p>
+
+      <h3>Model 1: Client Pays Ad Platforms Directly (Recommended)</h3>
+      <ul>
+        <li>Client owns the ad account and pays Meta/Google directly</li>
+        <li>You invoice only for your management fee</li>
+        <li>Cleanest approach — no ad spend flows through your books</li>
+        <li>Your management fee: 15-20% of monthly ad spend or a flat fee</li>
+      </ul>
+
+      <h3>Model 2: You Pay, Client Reimburses (Pass-Through)</h3>
+      <ul>
+        <li>You pay the ad spend, invoice the client for exact amount as a reimbursement</li>
+        <li>Show as a separate line item with "pass-through" or "disbursement" label</li>
+        <li><strong>GST consideration:</strong> If you're claiming input tax credits on the ad spend, you need to charge GST on the pass-through. If the ads are paid from the client's account, this doesn't apply</li>
+        <li>Always attach the receipt/screenshot from the ad platform</li>
+      </ul>
+
+      <h3>Model 3: Percentage of Ad Spend</h3>
+      <ul>
+        <li>Your management fee is calculated as a percentage (typically 15-20%) of total ad spend</li>
+        <li>Common in the agency world, less common for freelancers</li>
+        <li>Set a minimum management fee (e.g., $500/month) so low ad spends don't make the work unprofitable</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Always Separate Ad Spend from Fees</h3>
+        <p class="text-slate-300 text-sm">Never lump ad spend into your service fee. Clients need to see exactly what they're paying for your expertise vs what's going to the platforms. This builds trust and prevents disputes when ad budgets change.</p>
+      </div>
+
+      <h2>Content Creation as an Add-On</h2>
+      <p>Many social media managers also create the content (graphics, photos, videos). If this is you, invoice it separately from management.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Content Type</th>
+              <th class="py-3 px-4 text-teal-400">Rate (AUD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Static graphic (Canva/Photoshop)</td>
+              <td class="py-3 px-4">$30 – $80 each</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Carousel (5-10 slides)</td>
+              <td class="py-3 px-4">$80 – $200 each</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Reel/TikTok (scripted + edited)</td>
+              <td class="py-3 px-4">$150 – $500 each</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Story set (5+ frames)</td>
+              <td class="py-3 px-4">$50 – $150 per set</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">UGC-style video</td>
+              <td class="py-3 px-4">$200 – $600 each</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>GST for Social Media Managers</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover</li>
+        <li>Charge 10% GST on management fees and content creation fees</li>
+        <li><strong>International clients:</strong> Services to overseas businesses are generally GST-free exports. You manage their Australian social presence, but if the entity is based overseas, check GST-free export rules</li>
+        <li><strong>Ad spend:</strong> Meta and Google charge GST on advertising in Australia. If you're passing through ad spend, understand the GST treatment (input credits offset output tax)</li>
+      </ul>
+
+      <h2>SMM-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Software:</strong> Canva Pro ($18/mo), Later/Buffer/Hootsuite ($50-100/mo), Adobe Creative Suite ($80/mo), Capcut Pro, scheduling tools</li>
+        <li><strong>Stock content:</strong> Envato Elements ($25/mo), Shutterstock, licensed music for Reels</li>
+        <li><strong>Equipment:</strong> Phone (business use portion), ring light, tripod, microphone, portable lighting</li>
+        <li><strong>Subscriptions:</strong> Social media courses, platform certifications (Meta Blueprint, Google Ads), industry newsletters</li>
+        <li><strong>Hardware:</strong> Laptop, monitor, tablet for content creation</li>
+        <li><strong>Home office:</strong> $0.67/hour fixed rate or actual costs</li>
+        <li><strong>Advertising:</strong> Your own marketing costs (website, portfolio hosting, paid ads to attract clients)</li>
+        <li><strong>Professional development:</strong> Social Media Marketing World, Australasian marketing conferences, online courses</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes Social Media Managers Make</h2>
+      <ol>
+        <li><strong>Bundling everything into one line:</strong> "Social media management — $2,000" tells the client nothing. Break it down: management, content creation, ad management, reporting. This also protects you when clients want to reduce scope</li>
+        <li><strong>Not setting post limits:</strong> "Unlimited posts" is a trap. Define exactly how many posts per platform per month. Extra posts are billed as add-ons</li>
+        <li><strong>Free community management:</strong> Responding to DMs, comments, and mentions is real work — 1-2 hours per day for active accounts. Include it explicitly in your scope or bill it as an add-on</li>
+        <li><strong>No cancellation clause:</strong> Require 30 days notice to cancel a retainer. You've likely already planned or created next month's content. Include a kill fee for content already in production</li>
+        <li><strong>Invoicing after the month:</strong> Always invoice at the start of each month, not at the end. This sets the expectation that work begins when payment is received</li>
+        <li><strong>Eating the cost of client-caused delays:</strong> If a client takes 2 weeks to approve content, pushing your schedule back, that's not your problem. Build a clause: "Content not approved within 5 business days will be published as submitted"</li>
+        <li><strong>Not charging for strategy:</strong> Social media strategy (content pillars, audience research, competitor analysis, content calendar) is a separate deliverable — typically $500-2,000 depending on scope. Don't give it away free as part of onboarding</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/recurring-invoicing-retainer-clients" class="text-teal-400 hover:text-teal-300 underline">Retainer Invoicing</a> — Setting up recurring monthly invoices</li>
+        <li><a href="/blog/invoicing-expenses-reimbursements-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">Expense Reimbursements</a> — How to invoice ad spend pass-throughs</li>
+        <li><a href="/blog/invoicing-copywriters-content-writers-australia" class="text-teal-400 hover:text-teal-300 underline">Copywriter Invoicing</a> — If you also write copy for clients</li>
+        <li><a href="/blog/scope-creep-prevention-freelancers" class="text-teal-400 hover:text-teal-300 underline">Scope Creep Prevention</a> — Protecting your retainer boundaries</li>
+        <li><a href="/blog/home-office-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Home Office Deductions</a> — Claim your workspace expenses</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
+  'invoicing-videographers-video-editors-australia': {
+    slug: 'invoicing-videographers-video-editors-australia',
+    title: 'How to Invoice as a Freelance Videographer in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for freelance videographers and video editors in Australia — day rates, project pricing, licensing, equipment charges, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Videographer in Australia | 2026',
+    seoDescription: 'Freelance videographer invoicing guide for Australia. Day rates, project pricing, video licensing, equipment hire charges, post-production billing, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Freelance videography is booming in Australia — from corporate brand videos and real estate walkthroughs to wedding films and social media content. But video projects involve more moving parts than almost any other creative service: pre-production planning, shoot days, editing, colour grading, sound design, revisions, and licensing. Each of these needs to be priced and invoiced correctly. This guide covers it all.</p>
+
+      <h2>Pricing Models for Videographers</h2>
+
+      <h3>Day Rate / Half-Day Rate</h3>
+      <p>The standard for shoot days. Your day rate should cover your time, basic equipment, and pre/post-shoot admin.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Experience Level</th>
+              <th class="py-3 px-4 text-teal-400">Half-Day (4hrs)</th>
+              <th class="py-3 px-4 text-teal-400">Full Day (8hrs)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Beginner (0-2 years)</td>
+              <td class="py-3 px-4">$400 – $700</td>
+              <td class="py-3 px-4">$700 – $1,200</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Intermediate (2-5 years)</td>
+              <td class="py-3 px-4">$700 – $1,200</td>
+              <td class="py-3 px-4">$1,200 – $2,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Expert / specialist</td>
+              <td class="py-3 px-4">$1,200 – $2,000</td>
+              <td class="py-3 px-4">$2,000 – $3,500+</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Director / DOP (high-end)</td>
+              <td class="py-3 px-4">$1,500 – $3,000</td>
+              <td class="py-3 px-4">$3,000 – $5,000+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Day Rate ≠ 8 Hours of Work</h3>
+        <p class="text-slate-300 text-sm">Your day rate covers 8 hours on set. But you'll also spend time on pre-production (shot lists, location scouting, client calls), travel, equipment setup/packdown, file management, and invoicing. A "1-day shoot" typically costs you 1.5-2 days of total time. Factor this into your pricing.</p>
+      </div>
+
+      <h3>Project-Based Pricing</h3>
+      <p>Best for complete video projects where you handle everything from concept to final delivery.</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Video Type</th>
+              <th class="py-3 px-4 text-teal-400">Typical Range (AUD)</th>
+              <th class="py-3 px-4 text-teal-400">Includes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Corporate brand video (2-3 min)</td>
+              <td class="py-3 px-4">$3,000 – $10,000</td>
+              <td class="py-3 px-4">Pre-production, 1 shoot day, edit, colour, sound</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Social media content (5-10 short clips)</td>
+              <td class="py-3 px-4">$1,500 – $4,000</td>
+              <td class="py-3 px-4">Half-day shoot, edit to platform specs</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Event coverage (highlights reel)</td>
+              <td class="py-3 px-4">$1,500 – $4,000</td>
+              <td class="py-3 px-4">Full-day shoot, 2-3 min edited highlight video</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Real estate walkthrough</td>
+              <td class="py-3 px-4">$500 – $1,500</td>
+              <td class="py-3 px-4">1-2 hour shoot, edit, licensed music</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Wedding film (full day)</td>
+              <td class="py-3 px-4">$3,000 – $8,000</td>
+              <td class="py-3 px-4">Full day coverage, highlight + feature film</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Training / e-learning series</td>
+              <td class="py-3 px-4">$1,000 – $3,000/episode</td>
+              <td class="py-3 px-4">Studio shoot, edit, graphics, lower thirds</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">TV commercial / high-end ad</td>
+              <td class="py-3 px-4">$10,000 – $50,000+</td>
+              <td class="py-3 px-4">Full production: crew, talent, locations, post</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Invoice Template for Videographers</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Sample Invoice — Corporate Brand Video</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p>INVOICE #VID-2026-007</p>
+          <p>Date: 24 February 2026</p>
+          <p>Due: 10 March 2026 (Net 14)</p>
+          <p class="mt-4">FROM: [Your Name] | ABN: XX XXX XXX XXX</p>
+          <p>TO: [Client Name] | ABN: XX XXX XXX XXX</p>
+          <p class="mt-4 border-t border-slate-600 pt-2">PRE-PRODUCTION</p>
+          <p>Creative brief & concept development</p>
+          <p class="text-right">$500.00</p>
+          <p>Script writing (2 min)</p>
+          <p class="text-right">$400.00</p>
+          <p>Location scout (1 location)</p>
+          <p class="text-right">$250.00</p>
+          <p class="mt-2 border-t border-slate-600 pt-2">PRODUCTION</p>
+          <p>Shoot day — videographer (full day, 8hrs)</p>
+          <p class="text-right">$1,800.00</p>
+          <p>Equipment package (camera, lenses, audio, lighting)</p>
+          <p class="text-right">$450.00</p>
+          <p>Second shooter (half day)</p>
+          <p class="text-right">$700.00</p>
+          <p class="mt-2 border-t border-slate-600 pt-2">POST-PRODUCTION</p>
+          <p>Editing (estimated 3 days @ $600/day)</p>
+          <p class="text-right">$1,800.00</p>
+          <p>Colour grading</p>
+          <p class="text-right">$350.00</p>
+          <p>Sound design & mixing</p>
+          <p class="text-right">$300.00</p>
+          <p>Licensed music (Artlist annual — project allocation)</p>
+          <p class="text-right">$50.00</p>
+          <p>Motion graphics / lower thirds (6 titles)</p>
+          <p class="text-right">$400.00</p>
+          <p class="mt-4 border-t border-slate-600 pt-2">Subtotal: $7,000.00</p>
+          <p>GST (10%): $700.00</p>
+          <p class="text-teal-400 font-bold">TOTAL: $7,700.00</p>
+          <p class="mt-4 text-xs text-slate-400">Payment terms: 50% deposit invoiced at booking, balance on delivery</p>
+          <p class="text-xs text-slate-400">Licence: 12-month web and social media use. Broadcast rights quoted separately.</p>
+        </div>
+      </div>
+
+      <h2>Equipment Charges</h2>
+      <p>Whether you charge for equipment depends on your pricing model. There are two schools of thought:</p>
+
+      <h3>Option 1: Equipment Included in Day Rate</h3>
+      <ul>
+        <li>Simpler invoicing, fewer line items</li>
+        <li>Best if you always use the same basic kit</li>
+        <li>Your day rate should be higher to compensate</li>
+      </ul>
+
+      <h3>Option 2: Equipment as Separate Line Items (Recommended)</h3>
+      <ul>
+        <li>Transparent — clients see exactly what they're getting</li>
+        <li>Allows you to add specialist equipment (drone, gimbal, slider) as needed</li>
+        <li>Justifies higher invoices for complex setups</li>
+        <li>Industry standard for professional productions</li>
+      </ul>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Equipment</th>
+              <th class="py-3 px-4 text-teal-400">Daily Rate (AUD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Camera body + lens kit</td>
+              <td class="py-3 px-4">$150 – $400</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Lighting kit (LED panels + stands)</td>
+              <td class="py-3 px-4">$100 – $250</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Audio kit (wireless lavs + shotgun mic)</td>
+              <td class="py-3 px-4">$75 – $200</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Drone (licensed CASA operator)</td>
+              <td class="py-3 px-4">$300 – $800</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Gimbal / stabiliser</td>
+              <td class="py-3 px-4">$75 – $150</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Teleprompter</td>
+              <td class="py-3 px-4">$100 – $200</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Equipment Rate Formula</h3>
+        <p class="text-slate-300 text-sm">A common formula: charge 1-2% of the equipment's replacement value as a daily hire rate. A $5,000 camera body = $50-100/day. This covers wear and tear, insurance, maintenance, and eventual replacement. Many videographers charge below this — that's a mistake that costs you long-term.</p>
+      </div>
+
+      <h2>Video Licensing</h2>
+      <p>Like photography, video licensing is how professional videographers protect their work and create fair pricing for different usage levels.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Licence Type</th>
+              <th class="py-3 px-4 text-teal-400">Usage</th>
+              <th class="py-3 px-4 text-teal-400">Price Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Web & social media (12 months)</td>
+              <td class="py-3 px-4">Website, YouTube, Instagram, LinkedIn</td>
+              <td class="py-3 px-4">Included in standard pricing</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Extended web (perpetual)</td>
+              <td class="py-3 px-4">Same as above but no time limit</td>
+              <td class="py-3 px-4">+20-30% premium</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Broadcast / TV</td>
+              <td class="py-3 px-4">Free-to-air, cable, streaming platforms</td>
+              <td class="py-3 px-4">+50-100% premium</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Paid advertising / digital ads</td>
+              <td class="py-3 px-4">Facebook/Instagram Ads, YouTube pre-roll, Google Display</td>
+              <td class="py-3 px-4">+30-50% premium</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Full buyout</td>
+              <td class="py-3 px-4">All usage, all platforms, forever</td>
+              <td class="py-3 px-4">+100-200% premium</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Post-Production Billing</h2>
+      <p>Editing is where most of the hidden cost lives in video production. A 1-day shoot can require 3-5 days of editing.</p>
+      <ul>
+        <li><strong>Editing rate:</strong> $50-100/hour or $400-800/day (more for specialist work like animation or VFX)</li>
+        <li><strong>Colour grading:</strong> $200-500 per finished minute for professional grading, or a flat project fee</li>
+        <li><strong>Sound design:</strong> $200-400 flat for basic projects, $500-1,500 for complex sound design</li>
+        <li><strong>Motion graphics:</strong> $100-300 per graphic element (lower thirds, logo animations, infographics)</li>
+        <li><strong>Music licensing:</strong> Artlist/Epidemic Sound annual subscriptions ($200-300/year) — allocate per-project or include in overheads</li>
+      </ul>
+
+      <h3>Revision Rounds</h3>
+      <ul>
+        <li>Include 2 rounds of revisions in your pricing — this is industry standard</li>
+        <li>Round 1: Client reviews rough cut, provides all feedback in one consolidated document</li>
+        <li>Round 2: Fine-tuning based on final feedback</li>
+        <li><strong>Additional rounds:</strong> $100-200/hour. Define this in your contract before starting</li>
+        <li><strong>Structural changes after approval</strong> (re-editing the story, reshooting footage, starting over) are new scope — not revisions</li>
+      </ul>
+
+      <h2>GST for Videographers</h2>
+      <ul>
+        <li>Mandatory GST registration at $75K annual turnover. Most full-time videographers hit this quickly</li>
+        <li>Charge 10% GST on all services: shoot fees, editing, equipment hire, licensing fees</li>
+        <li><strong>Crew pass-throughs:</strong> If you subcontract a second shooter or editor, charge GST on the total invoice. You can claim input credits on what they charge you</li>
+        <li><strong>International clients:</strong> Video produced in Australia for overseas clients may qualify as GST-free export. Consult your accountant if you regularly work with international brands</li>
+      </ul>
+
+      <h2>Videographer-Specific Tax Deductions</h2>
+      <ul>
+        <li><strong>Camera gear:</strong> Bodies, lenses, batteries, memory cards, monitors (instant write-off under $20,000 per item)</li>
+        <li><strong>Audio gear:</strong> Wireless mics, shotgun mics, recorders, boom poles</li>
+        <li><strong>Lighting:</strong> LED panels, softboxes, stands, gels, batteries</li>
+        <li><strong>Support:</strong> Tripods, gimbals, sliders, dollies, jibs, drone (CASA licence fee also deductible)</li>
+        <li><strong>Software:</strong> Adobe Premiere ($30/mo), DaVinci Resolve Studio ($535 one-off), After Effects, Final Cut Pro</li>
+        <li><strong>Storage:</strong> Hard drives, SSDs, NAS, RAID arrays, cloud backup (Backblaze, Google One)</li>
+        <li><strong>Music licensing:</strong> Artlist ($200/yr), Epidemic Sound ($180/yr), Musicbed (per-track)</li>
+        <li><strong>Insurance:</strong> Equipment insurance ($500-1,500/yr), public liability ($400-800/yr), professional indemnity</li>
+        <li><strong>Vehicle:</strong> ATO km rate for travel to shoots, or actual costs with logbook</li>
+        <li><strong>Studio/edit suite:</strong> Rent, electricity, internet. If home office, $0.67/hr or actual costs</li>
+        <li><strong>Professional development:</strong> Workshops, masterclasses, NAB Show, SMPTE conferences</li>
+      </ul>
+
+      <h2>Payment Structure for Video Projects</h2>
+      <p>Video projects involve significant upfront costs (equipment, crew, travel). Protect your cash flow:</p>
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="py-3 px-4 text-teal-400">Milestone</th>
+              <th class="py-3 px-4 text-teal-400">% of Total</th>
+              <th class="py-3 px-4 text-teal-400">Trigger</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Deposit</td>
+              <td class="py-3 px-4">50%</td>
+              <td class="py-3 px-4">On booking — before any pre-production begins</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Rough cut delivery</td>
+              <td class="py-3 px-4">25%</td>
+              <td class="py-3 px-4">When first edit is delivered for review</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-3 px-4">Final delivery</td>
+              <td class="py-3 px-4">25%</td>
+              <td class="py-3 px-4">On delivery of final files (watermarked until paid)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Never Deliver Final Files Before Full Payment</h3>
+        <p class="text-slate-300 text-sm">Send watermarked preview versions for review. Only deliver clean, high-resolution files via download link after the final invoice is paid. Once a client has the files, your leverage is gone. This is non-negotiable, even for "trusted" clients — business is business.</p>
+      </div>
+
+      <h2>Common Invoicing Mistakes Videographers Make</h2>
+      <ol>
+        <li><strong>Underestimating editing time:</strong> Every minute of finished video requires 3-10 hours of editing depending on complexity. A "quick 2-minute video" is a 2-3 day edit minimum. Price accordingly from the start</li>
+        <li><strong>Not charging for pre-production:</strong> Concept development, scripting, shot lists, location scouting, client meetings — this is real work. Bill it as a line item or factor it into project pricing</li>
+        <li><strong>Free equipment:</strong> Your $30,000+ camera kit has value. Whether you itemise equipment or include it in your day rate, make sure you're recovering the investment. Gear breaks, needs servicing, and eventually needs replacing</li>
+        <li><strong>Vague deliverables:</strong> "Corporate video" means nothing. Specify: duration, number of deliverable files, aspect ratios (16:9, 9:16, 1:1), resolution (4K/1080p), formats (MP4, ProRes), how many versions</li>
+        <li><strong>No overtime rate:</strong> Shoot days go long. Define overtime in your contract: time-and-a-half after 8 hours, double-time after 12. If you don't, clients will push shoots to 14 hours with no extra compensation</li>
+        <li><strong>Giving away raw footage:</strong> Raw footage should never be included unless specifically contracted (and priced). It devalues your editing services and gives clients the ability to have someone cheaper "finish" your work</li>
+        <li><strong>No kill fee:</strong> If a client cancels within 7 days of the shoot, they should still pay 50% — you've likely turned away other bookings and done pre-production. 24-hour cancellation = 100%</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/blog/invoicing-photographers-australia" class="text-teal-400 hover:text-teal-300 underline">Photographer Invoicing</a> — Similar creative industry invoicing (licensing, retainers)</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Milestone Invoicing</a> — Structuring multi-stage payment schedules</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP Rights Guide</a> — Protecting your creative work</li>
+        <li><a href="/blog/invoicing-expenses-reimbursements-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">Expense Reimbursements</a> — Crew and equipment pass-throughs</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle & Travel Expenses</a> — Claiming travel to shoots</li>
+        <li><a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">Chasing Overdue Invoices</a> — Getting paid when clients ghost</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional invoices instantly</li>
+      </ul>
+    `,
+  },
 };
