@@ -11693,4 +11693,798 @@ Let me know if you have any questions. Looking forward to getting started!
       </ul>
     `,
   },
+
+  'how-to-send-first-invoice-freelancer': {
+    slug: 'how-to-send-first-invoice-freelancer',
+    title: 'How to Send Your First Invoice as a Freelancer (Complete Guide)',
+    excerpt: 'A step-by-step guide for new freelancers sending their first invoice. Covers what to include, when to send it, which format to use, and how to follow up professionally.',
+    category: 'Getting Started',
+    readTime: '9 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Send Your First Invoice as a Freelancer | Beginner Guide 2026',
+    seoDescription: 'Complete beginner guide to sending your first freelance invoice. Learn what to include, when to send, format options, payment terms, and follow-up etiquette.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">You've finished your first freelance project. Now you need to get paid. Sending an invoice might seem intimidating if you've never done it before, but it's straightforward once you know the basics. This guide walks you through the entire process — from what to include to how to follow up if payment is late.</p>
+
+      <h2>Before You Send: What You Need Ready</h2>
+      <p>Before creating your first invoice, make sure you have these details sorted:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table>
+          <thead>
+            <tr>
+              <th>Detail</th>
+              <th>Why You Need It</th>
+              <th>Where to Get It</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-medium text-white">ABN</td>
+              <td>Required on every invoice — without it, clients must withhold 47%</td>
+              <td><a href="/blog/how-to-register-abn-australia" class="text-teal-400 hover:text-teal-300">Register for free at abr.gov.au</a></td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">GST registration</td>
+              <td>Determines whether you charge GST (10%)</td>
+              <td>Required if turnover &gt; $75K/year, optional below</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Bank details</td>
+              <td>BSB + Account Number for direct deposit</td>
+              <td>Your <a href="/blog/best-business-bank-accounts-freelancers-australia" class="text-teal-400 hover:text-teal-300">business bank account</a></td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Client details</td>
+              <td>Business name, ABN (if they have one), billing contact</td>
+              <td>Ask during <a href="/blog/client-onboarding-checklist-freelancers" class="text-teal-400 hover:text-teal-300">client onboarding</a></td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Agreed pricing</td>
+              <td>The rate/fee you quoted and they accepted</td>
+              <td>Your <a href="/blog/how-to-quote-clients-freelancer" class="text-teal-400 hover:text-teal-300">quote</a> or <a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300">contract</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">First-Timer Tip</h3>
+        <p class="text-slate-300 text-sm">Don't wait until the project is done to think about invoicing. Discuss payment terms, preferred payment method, and invoice format during your initial client conversation. It's much harder to negotiate terms after you've delivered the work.</p>
+      </div>
+
+      <h2>Step 1: Choose Your Invoice Format</h2>
+      <p>You have several options for creating and sending invoices:</p>
+
+      <h3>Option A: Invoicing Software (Recommended)</h3>
+      <p>The easiest and most professional option. Invoicing software like <strong>InvoiceFlow</strong> handles numbering, calculations, GST, and sends professional-looking invoices with one click. It also tracks whether the client has opened your invoice and whether payment is overdue.</p>
+
+      <h3>Option B: Invoice Template (PDF/Word)</h3>
+      <p>You can use a template to manually create invoices. This works fine for 1-2 clients but becomes painful at 5+. You'll need to manually track invoice numbers, calculate GST, and follow up on payments yourself.</p>
+      <p>Use our <a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300">free invoice generator</a> to create a professional PDF invoice in seconds.</p>
+
+      <h3>Option C: Spreadsheet</h3>
+      <p>Technically possible but looks unprofessional. Avoid this unless you have no other option.</p>
+
+      <h2>Step 2: Fill In Your Invoice Details</h2>
+      <p>Every invoice needs these elements. If you're GST-registered, it's a "Tax Invoice" — if not, just call it "Invoice."</p>
+
+      <h3>Essential Fields</h3>
+      <ol>
+        <li><strong>"Tax Invoice" or "Invoice"</strong> — displayed prominently at the top</li>
+        <li><strong>Invoice number</strong> — unique, sequential (e.g., INV-001). See our <a href="/blog/invoice-numbering-system-freelancers" class="text-teal-400 hover:text-teal-300">numbering guide</a></li>
+        <li><strong>Date of issue</strong> — the date you're sending the invoice</li>
+        <li><strong>Due date</strong> — when payment is expected (e.g., "Due within 14 days")</li>
+        <li><strong>Your details</strong> — business name, ABN, address, email, phone</li>
+        <li><strong>Client details</strong> — business name, ABN (if applicable), address</li>
+        <li><strong>Line items</strong> — description of work, quantity/hours, rate, amount</li>
+        <li><strong>Subtotal</strong> — before GST</li>
+        <li><strong>GST</strong> — 10% (if GST-registered). Use our <a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300">GST calculator</a></li>
+        <li><strong>Total</strong> — the amount due</li>
+        <li><strong>Payment details</strong> — BSB, account number, account name</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">ATO Requirement</h3>
+        <p class="text-slate-300 text-sm">If you're GST-registered and the invoice is for $1,000+ (inc. GST), you must also include the buyer's identity (name or ABN) and the price of each item excluding GST. Missing these details can cause problems at BAS time.</p>
+      </div>
+
+      <h3>Example First Invoice</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 font-mono text-sm">
+        <p class="text-white font-bold mb-4">TAX INVOICE</p>
+        <div class="grid grid-cols-2 gap-4 mb-4">
+          <div>
+            <p class="text-slate-400">From:</p>
+            <p class="text-white">Jane Smith Design</p>
+            <p class="text-slate-300">ABN: 12 345 678 901</p>
+            <p class="text-slate-300">jane@janesmith.com.au</p>
+          </div>
+          <div>
+            <p class="text-slate-400">To:</p>
+            <p class="text-white">Acme Consulting Pty Ltd</p>
+            <p class="text-slate-300">ABN: 98 765 432 109</p>
+          </div>
+        </div>
+        <p class="text-slate-400 mb-1">Invoice #: INV-001 &nbsp;|&nbsp; Date: 23 Feb 2026 &nbsp;|&nbsp; Due: 9 Mar 2026</p>
+        <div class="border-t border-white/10 mt-4 pt-4">
+          <div class="flex justify-between mb-2">
+            <span class="text-slate-300">Website design — 5-page business site</span>
+            <span class="text-white">$3,000.00</span>
+          </div>
+          <div class="flex justify-between mb-2">
+            <span class="text-slate-300">Logo design — 3 concepts + refinement</span>
+            <span class="text-white">$800.00</span>
+          </div>
+          <div class="border-t border-white/10 mt-4 pt-4">
+            <div class="flex justify-between mb-1"><span class="text-slate-400">Subtotal</span><span class="text-white">$3,800.00</span></div>
+            <div class="flex justify-between mb-1"><span class="text-slate-400">GST (10%)</span><span class="text-white">$380.00</span></div>
+            <div class="flex justify-between font-bold"><span class="text-teal-400">Total Due</span><span class="text-teal-400">$4,180.00</span></div>
+          </div>
+        </div>
+        <div class="border-t border-white/10 mt-4 pt-4">
+          <p class="text-slate-400">Pay to:</p>
+          <p class="text-slate-300">BSB: 062-000 &nbsp;|&nbsp; Account: 1234 5678 &nbsp;|&nbsp; Name: Jane Smith Design</p>
+        </div>
+      </div>
+
+      <h2>Step 3: Write the Invoice Email</h2>
+      <p>Don't just attach the invoice and hit send. A brief, professional email helps set the right tone and makes it clear what you expect. See our full <a href="/blog/invoice-email-templates-freelancers" class="text-teal-400 hover:text-teal-300">invoice email templates guide</a>.</p>
+
+      <h3>First Invoice Email Template</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 text-sm">
+        <p class="text-slate-300"><strong class="text-white">Subject:</strong> Invoice INV-001 — Website + Logo Design ($4,180.00)</p>
+        <br />
+        <p class="text-slate-300">Hi [Client Name],</p>
+        <br />
+        <p class="text-slate-300">Thank you for working with me on this project. Please find attached Invoice INV-001 for the website design and logo work we agreed on.</p>
+        <br />
+        <p class="text-slate-300"><strong class="text-white">Amount:</strong> $4,180.00 (inc. GST)<br /><strong class="text-white">Due:</strong> 9 March 2026 (14 days)<br /><strong class="text-white">Payment:</strong> Bank transfer details on the invoice</p>
+        <br />
+        <p class="text-slate-300">If you have any questions about the invoice or the work delivered, I'm happy to discuss.</p>
+        <br />
+        <p class="text-slate-300">Thanks,<br />Jane</p>
+      </div>
+
+      <h2>Step 4: Choose Your Payment Terms</h2>
+      <p>Payment terms tell the client when you expect to be paid. For your first invoice, keep it simple:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table>
+          <thead>
+            <tr>
+              <th>Situation</th>
+              <th>Recommended Terms</th>
+              <th>Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-medium text-white">Small project (&lt; $1,000)</td>
+              <td>Due on receipt or Net 7</td>
+              <td>Small amounts shouldn't take long to process</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Medium project ($1K-$5K)</td>
+              <td>Net 14</td>
+              <td>Gives time without stretching your cash flow</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Large project ($5K+)</td>
+              <td>50% deposit + Net 14 on balance</td>
+              <td>Never start large work without a <a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300">deposit</a></td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Corporate client</td>
+              <td>Net 30 (they'll ask for it)</td>
+              <td>Large companies have payment cycles — budget for the delay</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>For a complete breakdown of all payment terms, see our <a href="/blog/invoice-payment-terms-explained" class="text-teal-400 hover:text-teal-300">payment terms guide</a>.</p>
+
+      <h2>Step 5: When to Send Your Invoice</h2>
+      <p>Timing matters more than most freelancers realise:</p>
+
+      <ul>
+        <li><strong>Send immediately after delivery.</strong> The longer you wait, the less urgency the client feels. Same-day invoicing is ideal.</li>
+        <li><strong>Tuesday to Thursday mornings</strong> get the fastest responses. Avoid Friday afternoons and Mondays.</li>
+        <li><strong>For ongoing work,</strong> invoice on a consistent schedule (weekly, fortnightly, or monthly). Clients appreciate predictability.</li>
+        <li><strong>For milestone-based projects,</strong> invoice at each agreed milestone — don't wait until the entire project is done.</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pro Tip</h3>
+        <p class="text-slate-300 text-sm">Set up a recurring reminder to invoice the same day you deliver work. Many freelancers lose thousands per year simply by forgetting to invoice or delaying by weeks. Speed = cash flow.</p>
+      </div>
+
+      <h2>Step 6: Follow Up (If Needed)</h2>
+      <p>If your payment deadline passes without payment, don't panic — and don't get angry. Most late payments are due to oversight, not malice.</p>
+
+      <h3>Follow-Up Timeline</h3>
+      <ol>
+        <li><strong>Day 1 past due:</strong> Send a friendly reminder email. "Hi [Name], just a gentle reminder that Invoice INV-001 was due yesterday. Happy to resend if needed."</li>
+        <li><strong>Day 7 past due:</strong> More direct follow-up. Reference the invoice number and amount. Ask if there's an issue.</li>
+        <li><strong>Day 14 past due:</strong> Phone call. Email is easy to ignore — a call isn't.</li>
+        <li><strong>Day 30+ past due:</strong> Formal letter of demand. See our <a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300">overdue invoice guide</a> for templates and escalation steps.</li>
+      </ol>
+
+      <h2>7 Common First-Invoice Mistakes</h2>
+      <ol>
+        <li><strong>No ABN on the invoice</strong> — client withholds 47% for tax. Always include your ABN.</li>
+        <li><strong>Wrong GST treatment</strong> — charging GST when you're not registered (or not charging when you should be)</li>
+        <li><strong>Vague line items</strong> — "Design work" tells the client nothing. Be specific: "5-page website design — homepage, about, services, portfolio, contact"</li>
+        <li><strong>No payment terms</strong> — if you don't specify when payment is due, the client decides. That could be months.</li>
+        <li><strong>Missing bank details</strong> — seems obvious, but surprisingly common. Make payment as easy as possible.</li>
+        <li><strong>Invoicing late</strong> — waiting weeks to invoice signals you don't need the money urgently. Invoice the day you deliver.</li>
+        <li><strong>No invoice number</strong> — the ATO requires it, and you need it for your own <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300">record keeping</a></li>
+      </ol>
+
+      <h2>Checklist: Your First Invoice</h2>
+      <ul>
+        <li>☐ ABN registered and displayed on invoice</li>
+        <li>☐ GST status confirmed (registered or not)</li>
+        <li>☐ Unique invoice number assigned</li>
+        <li>☐ Client details correct (name, ABN if applicable)</li>
+        <li>☐ Line items are specific and match agreed scope</li>
+        <li>☐ GST calculated correctly (or clearly marked as GST-free)</li>
+        <li>☐ Payment terms stated (Net 7/14/30)</li>
+        <li>☐ Bank details included (BSB, account, name)</li>
+        <li>☐ Professional email written with amount and due date</li>
+        <li>☐ Copy saved for your <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300">records</a></li>
+        <li>☐ Follow-up reminder set in your calendar</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Creating Tax Invoices</a> — ATO requirements in detail</li>
+        <li><a href="/blog/invoice-numbering-system-freelancers" class="text-teal-400 hover:text-teal-300 underline">Invoice Numbering Systems</a> — Choose the right format</li>
+        <li><a href="/blog/invoice-email-templates-freelancers" class="text-teal-400 hover:text-teal-300 underline">Invoice Email Templates</a> — Copy-paste templates for every situation</li>
+        <li><a href="/blog/common-invoicing-mistakes-freelancers" class="text-teal-400 hover:text-teal-300 underline">Common Invoicing Mistakes</a> — Errors that cost you money</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create a professional invoice in 2 minutes</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Get the numbers right</li>
+      </ul>
+    `,
+  },
+
+  'subcontracting-guide-australian-freelancers': {
+    slug: 'subcontracting-guide-australian-freelancers',
+    title: 'Subcontracting for Australian Freelancers: Tax, TPAR & Payments',
+    excerpt: 'Everything Australian freelancers need to know about hiring subcontractors — tax obligations, TPAR reporting, invoicing, contracts, and how to scale without employees.',
+    category: 'Business',
+    readTime: '10 min read',
+    date: 'February 2026',
+    seoTitle: 'Subcontracting for Australian Freelancers | Tax, TPAR & Payment Guide',
+    seoDescription: 'Complete guide to hiring subcontractors as an Australian freelancer. Covers ABN verification, TPAR reporting, tax withholding, invoicing, contracts, and scaling.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">At some point, most successful freelancers face the same problem: more work than one person can handle. Hiring subcontractors lets you scale without becoming an employer — but it comes with specific tax obligations, reporting requirements, and legal considerations that many freelancers get wrong.</p>
+
+      <h2>Subcontractor vs Employee: The Critical Distinction</h2>
+      <p>The ATO takes the distinction between subcontractors and employees very seriously. Get it wrong and you face back-payment of super, PAYG, and penalties.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table>
+          <thead>
+            <tr>
+              <th>Factor</th>
+              <th>Subcontractor</th>
+              <th>Employee</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-medium text-white">Control over how work is done</td>
+              <td>Works their own way, delivers results</td>
+              <td>You direct how, when, and where they work</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Tools and equipment</td>
+              <td>Provides their own</td>
+              <td>You provide them</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Financial risk</td>
+              <td>Bears their own risk, can make a profit or loss</td>
+              <td>No financial risk — paid regardless</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Works for others</td>
+              <td>Free to work for multiple clients</td>
+              <td>Typically exclusive to one employer</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Invoices you</td>
+              <td>Yes — sends their own invoices</td>
+              <td>No — paid via payroll</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">ABN</td>
+              <td>Has their own ABN</td>
+              <td>Uses your business TFN</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Super obligations</td>
+              <td>Generally none (see exceptions below)</td>
+              <td>Must pay 11.5% super</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Leave entitlements</td>
+              <td>None</td>
+              <td>Annual, sick, long service leave</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>For a deeper dive into the ATO's multi-factor test, see our <a href="/blog/contractor-vs-employee-australia" class="text-teal-400 hover:text-teal-300">contractor vs employee guide</a>.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Sham Contracting Warning</h3>
+        <p class="text-slate-300 text-sm">If a "subcontractor" only works for you, follows your schedule, uses your equipment, and has no financial risk — the ATO will likely classify them as an employee. Penalties: up to <strong>$93,900 per individual</strong> and <strong>$469,500 per body corporate</strong>, plus back-payment of super, PAYG, and leave entitlements.</p>
+      </div>
+
+      <h2>The Super Exception You Must Know</h2>
+      <p>Even for genuine subcontractors, you may need to pay super if the contract is <strong>principally for their labour</strong>. This means:</p>
+      <ul>
+        <li>They perform the work personally (not through a company)</li>
+        <li>More than half the contract value is for their personal labour (not materials, equipment, or other costs)</li>
+      </ul>
+      <p>Example: You hire a freelance developer (sole trader) to build a feature for $5,000. They do all the work themselves, using their own computer. The entire amount is for their labour → <strong>you must pay 11.5% super ($575) on top</strong>.</p>
+      <p>Exception: If they invoice through a <strong>company or trust</strong> (Pty Ltd), the super obligation generally doesn't apply.</p>
+
+      <h2>TPAR: The Reporting Most Freelancers Don't Know About</h2>
+      <p>The <strong>Taxable Payments Annual Report (TPAR)</strong> is an ATO requirement that many freelancers miss entirely — until they get a letter.</p>
+
+      <h3>Do You Need to Lodge a TPAR?</h3>
+      <p>You must lodge a TPAR if you pay subcontractors for services in these industries:</p>
+      <ul>
+        <li><strong>Building and construction</strong> — includes web "builders," app "builders," IT infrastructure</li>
+        <li><strong>Cleaning</strong></li>
+        <li><strong>Courier and delivery</strong></li>
+        <li><strong>IT services</strong> — software development, system admin, data processing, web design</li>
+        <li><strong>Security, investigation, or surveillance</strong></li>
+        <li><strong>Road freight</strong></li>
+        <li><strong>Mixed services</strong> — if you provide a mix of services in these industries</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Key Point for Freelance Developers</h3>
+        <p class="text-slate-300 text-sm">If you're a freelance developer or designer who subcontracts work to other developers/designers, <strong>you almost certainly need to lodge a TPAR</strong>. "IT services" is broadly defined. The TPAR is due 28 August each year for the previous financial year.</p>
+      </div>
+
+      <h3>What Goes in a TPAR</h3>
+      <p>For each subcontractor you paid during the financial year:</p>
+      <ul>
+        <li>Their ABN</li>
+        <li>Name and address</li>
+        <li>Total gross amount paid (including GST)</li>
+        <li>Total GST included in payments</li>
+        <li>Total tax withheld (if applicable)</li>
+      </ul>
+      <p>Lodge via the ATO's Online services for business, your tax agent, or accounting software.</p>
+
+      <h2>How to Invoice and Get Invoiced</h2>
+      <p>When you hire a subcontractor, the invoicing flow has two sides:</p>
+
+      <h3>Your Client Invoicing (Outgoing)</h3>
+      <p>You invoice your client for the full project amount — including the subcontractor's portion. The client doesn't need to know you've subcontracted (unless your contract says otherwise).</p>
+
+      <h3>Subcontractor Invoicing (Incoming)</h3>
+      <p>Your subcontractor invoices <strong>you</strong> for their work. Their invoice should include:</p>
+      <ul>
+        <li>Their ABN (verify it at <a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300">abr.gov.au</a> before paying)</li>
+        <li>"Tax Invoice" if they're GST-registered</li>
+        <li>Description of work performed</li>
+        <li>Amount + GST (if applicable)</li>
+        <li>Their payment details</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">ABN Verification Is Non-Negotiable</h3>
+        <p class="text-slate-300 text-sm">Always verify a subcontractor's ABN before making the first payment. If they don't provide a valid ABN, you must withhold <strong>47% of the payment</strong> and remit it to the ATO. Use our <a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300">free ABN validator</a> to check instantly.</p>
+      </div>
+
+      <h3>The Margin</h3>
+      <p>Your profit is the difference between what your client pays and what you pay the subcontractor. This is legitimate business income.</p>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 font-mono text-sm">
+        <p class="text-slate-300">Client pays you: <span class="text-white">$5,000 + GST = $5,500</span></p>
+        <p class="text-slate-300">You pay sub: <span class="text-white">$3,000 + GST = $3,300</span></p>
+        <p class="text-slate-300">Your margin: <span class="text-teal-400 font-bold">$2,000</span> (+ net $200 GST to remit)</p>
+        <p class="text-slate-400 mt-2">You claim the $3,300 as a business expense. You claim back the $300 GST on BAS.</p>
+      </div>
+
+      <h2>Tax Withholding Rules</h2>
+      <p>If a subcontractor doesn't quote their ABN, you must withhold from the payment:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table>
+          <thead>
+            <tr>
+              <th>Situation</th>
+              <th>Withholding Rate</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-medium text-white">Valid ABN quoted</td>
+              <td class="text-green-400">0%</td>
+              <td>Pay full amount</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">No ABN quoted</td>
+              <td class="text-red-400">47%</td>
+              <td>Withhold and remit to ATO</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Voluntary agreement in place</td>
+              <td class="text-amber-400">Varies</td>
+              <td>Withhold at agreed rate</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Contracts with Subcontractors</h2>
+      <p>A written agreement protects both parties. Even a simple one-page contract should cover:</p>
+
+      <ol>
+        <li><strong>Scope of work</strong> — exactly what they're delivering and by when</li>
+        <li><strong>Payment terms</strong> — rate, payment schedule, invoice requirements</li>
+        <li><strong>IP ownership</strong> — who owns the work product (see our <a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300">IP rights guide</a>)</li>
+        <li><strong>Confidentiality</strong> — especially important if they'll see your client's data</li>
+        <li><strong>Relationship</strong> — explicitly state it's a contractor relationship, not employment</li>
+        <li><strong>Termination</strong> — how either party can end the arrangement</li>
+        <li><strong>Insurance</strong> — require they hold their own PI/PL insurance</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">IP Trap</h3>
+        <p class="text-slate-300 text-sm">Under Australian law, the creator of work owns the copyright by default — not the person who paid for it. If your subcontractor writes code or creates designs, they technically own the IP unless your contract explicitly assigns it to you. Always include an IP assignment clause.</p>
+      </div>
+
+      <h2>Scaling with Subcontractors: 4 Models</h2>
+
+      <h3>Model 1: Overflow Subcontracting</h3>
+      <p>You take on more work than you can handle alone, subcontract the overflow. Simplest model — you maintain the client relationship, sub handles specific tasks.</p>
+      <p><strong>Best for:</strong> Freelancers at capacity who don't want to turn work away.</p>
+
+      <h3>Model 2: Specialist Subcontracting</h3>
+      <p>You hire specialists for skills you don't have. Example: a web designer hires a developer, or a developer hires a copywriter.</p>
+      <p><strong>Best for:</strong> Offering full-service packages without learning every skill.</p>
+
+      <h3>Model 3: White-Label Subcontracting</h3>
+      <p>You work under another freelancer's or agency's brand. They handle the client, you deliver the work. Common on platforms like Upwork.</p>
+      <p><strong>Best for:</strong> Steady work without client acquisition effort.</p>
+
+      <h3>Model 4: Mini-Agency</h3>
+      <p>You build a small team of regular subcontractors and operate as a boutique agency. Higher margins, more complexity.</p>
+      <p><strong>Best for:</strong> Freelancers ready to scale beyond solo work.</p>
+
+      <h2>Record Keeping Requirements</h2>
+      <p>Keep records of all subcontractor payments for <strong>5 years</strong>. This includes:</p>
+      <ul>
+        <li>All invoices received from subcontractors</li>
+        <li>Proof of payment (bank statements)</li>
+        <li>ABN verification records</li>
+        <li>Contracts and agreements</li>
+        <li>TPAR lodgement confirmations</li>
+        <li>Any withholding payment receipts</li>
+      </ul>
+      <p>For a complete record-keeping system, see our <a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300">record keeping guide</a>.</p>
+
+      <h2>Subcontractor Checklist</h2>
+      <ul>
+        <li>☐ Verify their ABN at abr.gov.au before first payment</li>
+        <li>☐ Confirm their GST registration status</li>
+        <li>☐ Written contract signed (scope, payment, IP, confidentiality)</li>
+        <li>☐ Check super obligation (principally for labour + sole trader = super payable)</li>
+        <li>☐ Determine if TPAR applies to your industry</li>
+        <li>☐ Set up a system to track all subcontractor payments</li>
+        <li>☐ Request proper tax invoices for every payment</li>
+        <li>☐ Keep records for 5 years</li>
+        <li>☐ Lodge TPAR by 28 August each year (if applicable)</li>
+        <li>☐ Review contractor vs employee status annually</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/contractor-vs-employee-australia" class="text-teal-400 hover:text-teal-300 underline">Contractor vs Employee</a> — The ATO's multi-factor test</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP Rights for Freelancers</a> — Protect your work and your subs' work</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contracts</a> — Essential clauses for every agreement</li>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping</a> — Stay ATO-compliant</li>
+        <li><a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN Lookup Tool</a> — Verify ABNs instantly</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST on subcontractor margins</li>
+      </ul>
+    `,
+  },
+
+  'credit-notes-refunds-australian-freelancers': {
+    slug: 'credit-notes-refunds-australian-freelancers',
+    title: 'Credit Notes and Refunds: A Guide for Australian Freelancers',
+    excerpt: 'How to issue credit notes, handle partial refunds, and adjust GST correctly as an Australian freelancer. Includes templates, ATO rules, and common scenarios.',
+    category: 'Invoicing',
+    readTime: '8 min read',
+    date: 'February 2026',
+    seoTitle: 'Credit Notes & Refunds for Australian Freelancers | GST & ATO Guide',
+    seoDescription: 'Complete guide to issuing credit notes and handling refunds as an Australian freelancer. Covers ATO requirements, GST adjustments, templates, and common scenarios.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Sometimes projects don't go as planned. A client overpays, scope gets reduced mid-project, or you need to correct an invoice error. In all these cases, you need to know how to issue a credit note — and most importantly, how to handle the GST correctly so you don't end up paying tax on money you didn't keep.</p>
+
+      <h2>What Is a Credit Note?</h2>
+      <p>A credit note (also called an "adjustment note" for GST purposes) is a document that reduces the amount a client owes you. It's essentially a negative invoice — it cancels or reduces a previous invoice.</p>
+
+      <h3>When to Issue a Credit Note</h3>
+      <ul>
+        <li><strong>Overcharge or invoice error</strong> — you billed $5,000 but should have billed $4,500</li>
+        <li><strong>Scope reduction</strong> — client removes deliverables mid-project</li>
+        <li><strong>Partial refund</strong> — returning part of the payment for work not done</li>
+        <li><strong>Full refund</strong> — project cancelled, returning the entire payment</li>
+        <li><strong>Discount applied after invoicing</strong> — agreed discount not reflected on original invoice</li>
+        <li><strong>Duplicate invoice</strong> — you accidentally sent the same invoice twice</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Important: Never Delete an Invoice</h3>
+        <p class="text-slate-300 text-sm">The ATO requires you to keep records of all invoices for 5 years — even incorrect ones. If you need to correct an invoice, issue a credit note referencing the original. Never delete, overwrite, or "void" an invoice by removing it from your records. See our <a href="/blog/invoice-numbering-system-freelancers" class="text-teal-400 hover:text-teal-300">invoice numbering guide</a> for handling voided invoices.</p>
+      </div>
+
+      <h2>Credit Note vs Adjustment Note: What's the Difference?</h2>
+      <p>In everyday language, "credit note" and "adjustment note" are often used interchangeably. But for ATO/GST purposes, there's a specific distinction:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table>
+          <thead>
+            <tr>
+              <th>Term</th>
+              <th>Used When</th>
+              <th>GST Implications</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-medium text-white">Credit note</td>
+              <td>General business term for reducing an invoice amount</td>
+              <td>May or may not involve GST</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Adjustment note (ATO term)</td>
+              <td>When you need to adjust a GST amount on a previous tax invoice</td>
+              <td>Must include specific GST details for BAS reporting</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>If you're GST-registered, your credit note should also serve as an adjustment note — meaning it includes the GST adjustment details required by the ATO.</p>
+
+      <h2>What a Credit Note Must Include</h2>
+      <p>A valid credit note (that also serves as an adjustment note for GST) should include:</p>
+
+      <ol>
+        <li><strong>"Credit Note"</strong> (or "Adjustment Note") — displayed prominently</li>
+        <li><strong>Credit note number</strong> — unique, sequential (e.g., CN-001 or CR-001)</li>
+        <li><strong>Date of issue</strong></li>
+        <li><strong>Reference to original invoice</strong> — invoice number and date</li>
+        <li><strong>Your details</strong> — business name, ABN</li>
+        <li><strong>Client details</strong> — business name, ABN (if over $1,000)</li>
+        <li><strong>Reason for the credit</strong> — brief description</li>
+        <li><strong>Amount being credited</strong> — shown as a negative or clearly labelled</li>
+        <li><strong>GST adjustment</strong> — the GST component of the credit (if GST-registered)</li>
+        <li><strong>Adjusted total</strong> — what the client now owes (or is owed)</li>
+      </ol>
+
+      <h3>Credit Note Template</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 font-mono text-sm">
+        <p class="text-white font-bold mb-4">CREDIT NOTE</p>
+        <div class="grid grid-cols-2 gap-4 mb-4">
+          <div>
+            <p class="text-slate-400">From:</p>
+            <p class="text-white">Jane Smith Design</p>
+            <p class="text-slate-300">ABN: 12 345 678 901</p>
+          </div>
+          <div>
+            <p class="text-slate-400">To:</p>
+            <p class="text-white">Acme Consulting Pty Ltd</p>
+            <p class="text-slate-300">ABN: 98 765 432 109</p>
+          </div>
+        </div>
+        <p class="text-slate-400 mb-1">Credit Note #: CN-001 &nbsp;|&nbsp; Date: 23 Feb 2026</p>
+        <p class="text-slate-400 mb-4">Reference: Invoice INV-005 (dated 10 Feb 2026)</p>
+        <p class="text-slate-400 mb-4">Reason: Scope reduction — blog section removed from project</p>
+        <div class="border-t border-white/10 mt-4 pt-4">
+          <div class="flex justify-between mb-2">
+            <span class="text-slate-300">Blog section design (removed from scope)</span>
+            <span class="text-red-400">-$800.00</span>
+          </div>
+          <div class="border-t border-white/10 mt-4 pt-4">
+            <div class="flex justify-between mb-1"><span class="text-slate-400">Credit (excl. GST)</span><span class="text-red-400">-$800.00</span></div>
+            <div class="flex justify-between mb-1"><span class="text-slate-400">GST adjustment</span><span class="text-red-400">-$80.00</span></div>
+            <div class="flex justify-between font-bold"><span class="text-teal-400">Total Credit</span><span class="text-red-400">-$880.00</span></div>
+          </div>
+        </div>
+      </div>
+
+      <h2>GST Adjustments on Credit Notes</h2>
+      <p>If you're GST-registered, issuing a credit note affects your GST reporting. Here's how it works:</p>
+
+      <h3>Decreasing Adjustment (Most Common)</h3>
+      <p>When you reduce the amount a client owes, you've over-reported GST on your BAS. You need a <strong>decreasing adjustment</strong> — this reduces the GST you owe to the ATO.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-white/10 text-sm">
+        <p class="text-white font-semibold mb-3">Example: $880 Credit Note (inc. GST)</p>
+        <ul class="text-slate-300">
+          <li>Original invoice: $5,500 (inc. $500 GST) → reported $500 GST on BAS</li>
+          <li>Credit note: -$880 (inc. -$80 GST)</li>
+          <li>Adjusted amount: $4,620 (inc. $420 GST)</li>
+          <li>On your next BAS: report -$80 as a decreasing adjustment at label 1B</li>
+        </ul>
+      </div>
+
+      <h3>When to Report the Adjustment</h3>
+      <p>Report the GST adjustment on the BAS for the period in which you issue the credit note — not the period of the original invoice. If you issued the original invoice in Q1 and the credit note in Q2, the adjustment goes on your Q2 BAS.</p>
+
+      <h3>The 4-Year Rule</h3>
+      <p>GST adjustments must be made within <strong>4 years</strong> of the original supply. After 4 years, you can no longer claim back over-reported GST.</p>
+
+      <h2>Common Scenarios</h2>
+
+      <h3>Scenario 1: Invoice Error (Wrong Amount)</h3>
+      <p>You invoiced $3,300 (inc. GST) but should have invoiced $2,200.</p>
+      <ol>
+        <li>Issue credit note CN-001 for -$1,100 (inc. -$100 GST), referencing the original invoice</li>
+        <li>Client's balance is now $2,200</li>
+        <li>If already paid, either refund the $1,100 difference or apply as credit to their next invoice</li>
+        <li>Report -$100 GST adjustment on your next BAS</li>
+      </ol>
+
+      <h3>Scenario 2: Full Project Cancellation</h3>
+      <p>Client cancels after you've invoiced $5,500 (inc. GST) but before you've started work.</p>
+      <ol>
+        <li>Issue credit note for the full amount: -$5,500 (inc. -$500 GST)</li>
+        <li>Refund the full payment if already received</li>
+        <li>Report -$500 GST adjustment on your next BAS</li>
+        <li>Keep both the original invoice and credit note on file for 5 years</li>
+      </ol>
+
+      <h3>Scenario 3: Scope Reduction Mid-Project</h3>
+      <p>Original scope was $8,800 (inc. GST). Client removes a $2,200 deliverable mid-project.</p>
+      <ol>
+        <li>Issue credit note for -$2,200 (inc. -$200 GST) referencing the original invoice</li>
+        <li>New project total: $6,600</li>
+        <li>If you invoiced milestones, the credit applies to outstanding balance</li>
+        <li>If fully paid, refund $2,200 or carry forward as credit</li>
+      </ol>
+
+      <h3>Scenario 4: Partial Refund for Quality Issues</h3>
+      <p>Client is unhappy with one deliverable. You agree to discount that portion by 50%.</p>
+      <ol>
+        <li>Issue credit note for the discount amount</li>
+        <li>Document the reason (important for your records and potential disputes)</li>
+        <li>This is a business decision — document it well in case the ATO asks</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Record Everything</h3>
+        <p class="text-slate-300 text-sm">For every credit note, save the reason in writing — an email exchange with the client is ideal. If the ATO audits your GST adjustments, they'll want to see why you reduced the amount. "Client requested scope change" with supporting emails is much better than no documentation at all.</p>
+      </div>
+
+      <h2>Credit Note vs New Invoice</h2>
+      <p>Sometimes freelancers wonder whether they should issue a credit note or just send a new corrected invoice. Here's when to use which:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table>
+          <thead>
+            <tr>
+              <th>Situation</th>
+              <th>Use Credit Note</th>
+              <th>Use New Invoice</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-medium text-white">Original invoice already paid</td>
+              <td class="text-green-400">Yes — then refund the difference</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Original invoice not yet paid</td>
+              <td class="text-green-400">Yes — reduces balance owing</td>
+              <td>Also acceptable if you zero the original</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Small correction (&lt; 10%)</td>
+              <td class="text-green-400">Yes — cleaner paper trail</td>
+              <td>Overkill for small adjustments</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">Major scope change</td>
+              <td class="text-green-400">Yes — credit original, then issue new invoice for revised scope</td>
+              <td>Only the new invoice portion</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">GST-registered</td>
+              <td class="text-green-400">Required — ATO needs the adjustment note</td>
+              <td>Not sufficient for GST adjustment</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Processing Refunds</h2>
+      <p>A credit note and a refund are two different things:</p>
+      <ul>
+        <li><strong>Credit note</strong> = document that reduces the amount owed (accounting adjustment)</li>
+        <li><strong>Refund</strong> = actual money returned to the client (bank transfer)</li>
+      </ul>
+      <p>You can issue a credit note without immediately refunding — for example, applying the credit to future invoices. But if the client wants their money back, you need to process a refund.</p>
+
+      <h3>Refund Options</h3>
+      <ul>
+        <li><strong>Direct bank transfer</strong> — safest, fastest. Keep the receipt.</li>
+        <li><strong>Credit against future invoices</strong> — agree in writing that the credit will be applied to next month's invoice</li>
+        <li><strong>Stripe refund</strong> — if original payment was via Stripe, refund through the Stripe dashboard. Note: Stripe <strong>does not return their processing fee</strong>.</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Stripe Refund Warning</h3>
+        <p class="text-slate-300 text-sm">If a client paid $1,100 via Stripe (and you received ~$1,070 after Stripe's 1.75% + 30c fee), a full refund costs you the Stripe fee — you refund $1,100 but Stripe keeps the ~$30 fee. For large refunds, consider bank transfer instead.</p>
+      </div>
+
+      <h2>How Credit Notes Affect Your BAS</h2>
+      <p>Here's exactly where credit note amounts go on your BAS:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table>
+          <thead>
+            <tr>
+              <th>BAS Label</th>
+              <th>What to Report</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-medium text-white">1A — GST on sales</td>
+              <td>Reduced by the GST component of your credit note</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">1B — GST on purchases</td>
+              <td>Reduced if you received a credit note from a supplier</td>
+            </tr>
+            <tr>
+              <td class="font-medium text-white">G1 — Total sales</td>
+              <td>Reduced by the total credit note amount (inc. GST)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>For a complete BAS guide, see our <a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300">BAS reporting guide</a>.</p>
+
+      <h2>Credit Note Checklist</h2>
+      <ul>
+        <li>☐ Credit note has a unique number (CN-001 or CR-001 series)</li>
+        <li>☐ References the original invoice number</li>
+        <li>☐ Includes your ABN and client's details</li>
+        <li>☐ Clearly states the reason for the credit</li>
+        <li>☐ Shows amount excluding GST, GST adjustment, and total</li>
+        <li>☐ Both you and the client have a copy</li>
+        <li>☐ GST adjustment recorded for next BAS period</li>
+        <li>☐ Refund processed (if applicable)</li>
+        <li>☐ Client acknowledged receipt in writing</li>
+        <li>☐ Records saved for 5 years</li>
+      </ul>
+
+      <h2>Related Guides & Tools</h2>
+      <ul>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Creating Tax Invoices</a> — Get the original invoice right</li>
+        <li><a href="/blog/invoice-numbering-system-freelancers" class="text-teal-400 hover:text-teal-300 underline">Invoice Numbering</a> — Including credit note numbering</li>
+        <li><a href="/blog/bas-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">BAS Guide</a> — How GST adjustments flow to your BAS</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Understand GST rules fully</li>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping</a> — 5-year retention requirements</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST adjustments</li>
+      </ul>
+    `,
+  },
 };
