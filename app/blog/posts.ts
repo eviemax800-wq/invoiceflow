@@ -15643,4 +15643,753 @@ Let me know if you have any questions. Looking forward to getting started!
       </ul>
     `,
   },
+
+  'government-grants-funding-australian-freelancers': {
+    slug: 'government-grants-funding-australian-freelancers',
+    title: 'Government Grants and Funding for Australian Freelancers and Sole Traders',
+    excerpt: 'Discover government grants, programs, and tax concessions available to Australian freelancers and sole traders — from NEIS to state-based digital grants.',
+    category: 'Business',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'Government Grants for Australian Freelancers & Sole Traders | 2026 Guide',
+    seoDescription: 'Complete guide to government grants, funding programs, and tax concessions for Australian freelancers. NEIS, state grants, R&D tax incentive, and small business concessions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Most Australian freelancers assume government grants are only for "real businesses" with employees and offices. Wrong. There are dozens of programs specifically designed for sole traders, micro-businesses, and self-employed professionals. The catch? You need to know where to look — and how to apply without wasting time on programs you won't qualify for.</p>
+
+      <h2>Federal Government Programs</h2>
+
+      <h3>New Enterprise Incentive Scheme (NEIS)</h3>
+      <p>NEIS is the federal government's flagship program for people starting businesses. It's particularly relevant for freelancers transitioning from employment.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left">
+          <thead class="text-teal-400 border-b border-slate-700">
+            <tr><th class="py-3 px-4">Detail</th><th class="py-3 px-4">What You Get</th></tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-slate-800"><td class="py-3 px-4 font-medium">NEIS Allowance</td><td class="py-3 px-4">Up to 39 weeks of income support (equivalent to JobSeeker rate ~$762.70/fortnight single)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4 font-medium">NEIS Rental Assistance</td><td class="py-3 px-4">Up to 26 weeks additional rental help</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4 font-medium">Business Training</td><td class="py-3 px-4">Free accredited small business training (Certificate IV equivalent)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4 font-medium">Business Mentoring</td><td class="py-3 px-4">12 months of one-on-one mentoring from experienced business advisors</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4 font-medium">Eligibility</td><td class="py-3 px-4">Must be 15+, on eligible income support or at risk of unemployment, viable business idea</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">NEIS Reality Check</h3>
+        <p class="text-slate-300 text-sm">NEIS is competitive. You need a solid business plan and must demonstrate your freelance business is viable. The business training alone is worth $5,000+ if you had to pay for it. Contact your local NEIS provider to assess your eligibility before applying — there are 16 providers across Australia.</p>
+      </div>
+
+      <h3>Instant Asset Write-Off (Small Business)</h3>
+      <p>As a sole trader, you can immediately deduct the business portion of assets costing less than $20,000 each (extended to 30 June 2025, check for 2025-26 updates). This includes:</p>
+      <ul>
+        <li><strong>Laptop or computer:</strong> $2,000-$4,000 (instant deduction)</li>
+        <li><strong>Monitor, keyboard, peripherals:</strong> Under $300 each = instant, no depreciation needed</li>
+        <li><strong>Camera equipment:</strong> For photographers and videographers</li>
+        <li><strong>Software subscriptions:</strong> Fully deductible in the year paid</li>
+        <li><strong>Office furniture:</strong> Desk, chair, shelving for home office</li>
+        <li><strong>Vehicle (business portion):</strong> Using logbook method</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">EOFY Strategy</h3>
+        <p class="text-slate-300 text-sm">Timing matters. If you need a new laptop anyway, buying it before 30 June means you claim the deduction this financial year. A $3,000 laptop at a 32.5% marginal tax rate saves you $975 in tax. See our <a href="/blog/eofy-tax-prep-checklist-freelancers-australia" class="text-amber-400 hover:text-amber-300 underline">EOFY prep guide</a> for the full strategy.</p>
+      </div>
+
+      <h3>Small Business Income Tax Offset</h3>
+      <p>If your aggregated turnover is under $5 million, you qualify for the small business income tax offset — up to $1,000 off your tax bill. This is calculated automatically when you lodge your tax return. You don't need to apply.</p>
+      <ul>
+        <li><strong>Rate:</strong> 16% of tax payable on business income</li>
+        <li><strong>Cap:</strong> Maximum $1,000 per year</li>
+        <li><strong>Who gets it:</strong> Sole traders and partners (not companies — they get the lower 25% company tax rate instead)</li>
+        <li><strong>How:</strong> Automatic — just report your business income correctly on your tax return</li>
+      </ul>
+
+      <h3>Small Business CGT Concessions</h3>
+      <p>If you eventually sell your freelance business (including client lists, brand, IP, or goodwill), four CGT concessions can dramatically reduce or eliminate tax:</p>
+      <ul>
+        <li><strong>15-year exemption:</strong> Owned the asset 15+ years and you're 55+ retiring? No CGT.</li>
+        <li><strong>50% active asset reduction:</strong> 50% discount on CGT for active business assets (on top of the standard 50% individual discount = 75% total reduction)</li>
+        <li><strong>Retirement exemption:</strong> Up to $500,000 lifetime CGT exemption if contributed to super</li>
+        <li><strong>Rollover:</strong> Defer CGT if you acquire a replacement business asset within 2 years</li>
+      </ul>
+      <p>These concessions are complex — use a tax agent if you're selling your business. But know they exist, because they can save tens of thousands.</p>
+
+      <h3>R&D Tax Incentive</h3>
+      <p>If your freelance work involves genuine research and development (creating new software, algorithms, or technical solutions), you may qualify for the R&D Tax Incentive:</p>
+      <ul>
+        <li><strong>Refundable offset:</strong> 43.5% tax offset for businesses with turnover under $20M (18.5% above the company tax rate)</li>
+        <li><strong>Minimum spend:</strong> $20,000 on eligible R&D activities</li>
+        <li><strong>Registration:</strong> Must register with AusIndustry before your income year ends</li>
+        <li><strong>Eligible activities:</strong> Must involve technical uncertainty, systematic investigation, and aim to generate new knowledge</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">R&D Reality for Freelancers</h3>
+        <p class="text-slate-300 text-sm">Most freelancers won't qualify — routine software development, web design, and marketing are NOT R&D. But if you're building genuinely novel technology (new algorithms, experimental tools, custom AI models), it's worth investigating. The $20K minimum spend is easily met if you count your own labour time. Talk to an R&D tax specialist (many offer free initial consultations).</p>
+      </div>
+
+      <h2>State and Territory Grants</h2>
+      <p>Each state runs its own small business grant programs. These change frequently, but here are the most relevant recurring programs:</p>
+
+      <h3>Victoria</h3>
+      <ul>
+        <li><strong>Small Business Digital Adaptation Program:</strong> Grants up to $1,200 for digital tools, website improvements, e-commerce setup. Perfect for freelancers digitalising their workflow.</li>
+        <li><strong>Small Business Bus:</strong> Free mentoring and advice sessions (visit business.vic.gov.au for schedules)</li>
+        <li><strong>Business Victoria workshops:</strong> Free workshops on marketing, tax, digital skills — regularly available in Melbourne and regional areas</li>
+      </ul>
+
+      <h3>New South Wales</h3>
+      <ul>
+        <li><strong>Service NSW Business Concierge:</strong> Free advisory service for small businesses including sole traders</li>
+        <li><strong>Small Business Month grants:</strong> Annual grants for business development activities (October each year)</li>
+        <li><strong>Export Assistance Program:</strong> If you freelance for international clients, grants up to $10,000 for export activities</li>
+      </ul>
+
+      <h3>Queensland</h3>
+      <ul>
+        <li><strong>Small Business Grants Program:</strong> Periodic grants up to $5,000 for business improvements</li>
+        <li><strong>Mentoring for Growth:</strong> Free 4-month mentoring program matched with experienced business mentors</li>
+        <li><strong>Digital Grants:</strong> Up to $10,000 for businesses adopting digital technologies</li>
+      </ul>
+
+      <h3>Other States</h3>
+      <ul>
+        <li><strong>South Australia:</strong> Small Business Strategy grants, Accelerating Commercialisation grants</li>
+        <li><strong>Western Australia:</strong> New Industries Fund, Small Business Development Corporation advisory services</li>
+        <li><strong>Tasmania:</strong> Business Growth Program, Digital Ready for Business</li>
+        <li><strong>ACT:</strong> Innovation Connect grants (up to $50K for innovative projects)</li>
+        <li><strong>NT:</strong> Business Growth Program, Digital Territory Program</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Where to Find Current Grants</h3>
+        <p class="text-slate-300 text-sm"><strong>business.gov.au/grants-and-programs</strong> — The federal government's grant finder tool. Filter by state, industry, and business type. Also check your state's business department website and subscribe to their newsletter — grant rounds open and close quickly, and the best ones fill up fast.</p>
+      </div>
+
+      <h2>Industry-Specific Programs</h2>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left">
+          <thead class="text-teal-400 border-b border-slate-700">
+            <tr><th class="py-3 px-4">Industry</th><th class="py-3 px-4">Program</th><th class="py-3 px-4">Value</th><th class="py-3 px-4">Notes</th></tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Creative/Arts</td><td class="py-3 px-4">Australia Council grants</td><td class="py-3 px-4">$5K-$100K+</td><td class="py-3 px-4">For artists, writers, performers, designers</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Creative/Film</td><td class="py-3 px-4">Screen Australia funding</td><td class="py-3 px-4">Varies</td><td class="py-3 px-4">For filmmakers, animators, game developers</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Technology</td><td class="py-3 px-4">Accelerating Commercialisation</td><td class="py-3 px-4">Up to $1M (matched)</td><td class="py-3 px-4">For tech products with commercial potential</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Export</td><td class="py-3 px-4">EMDG (Export Market Dev)</td><td class="py-3 px-4">Up to $150K/yr</td><td class="py-3 px-4">Reimbursement for export marketing costs</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Agriculture</td><td class="py-3 px-4">Rural R&D Corporations</td><td class="py-3 px-4">Varies</td><td class="py-3 px-4">AgTech, farm consulting, rural innovation</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Indigenous</td><td class="py-3 px-4">Indigenous Business Fund</td><td class="py-3 px-4">Up to $500K</td><td class="py-3 px-4">For Indigenous-owned businesses</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Free and Low-Cost Business Support</h2>
+      <p>Not every form of government support is a cash grant. These free services are often more valuable than a small grant:</p>
+
+      <h3>ATO Small Business Support</h3>
+      <ul>
+        <li><strong>Tax Help program:</strong> Free tax return assistance for low-income earners (under ~$60K)</li>
+        <li><strong>Small business newsroom:</strong> Webinars, guides, and updates on tax obligations</li>
+        <li><strong>Payment plans:</strong> If you owe tax, the ATO offers interest-free payment plans for debts under $100K</li>
+        <li><strong>Hardship provisions:</strong> In financial difficulty? The ATO can remit penalties, reduce debt, or vary PAYG instalments</li>
+      </ul>
+
+      <h3>Business Mentoring and Advisory</h3>
+      <ul>
+        <li><strong>business.gov.au advisory service:</strong> Free phone advisory (13 28 46)</li>
+        <li><strong>SCORE-style mentoring:</strong> Each state has volunteer business mentor programs</li>
+        <li><strong>Small Business Development Corporation (WA):</strong> Free one-on-one advisory, dispute resolution</li>
+        <li><strong>Industry associations:</strong> Most professional associations offer member advisory services</li>
+      </ul>
+
+      <h3>Digital Skills and Training</h3>
+      <ul>
+        <li><strong>Australian Small Business Advisory Services (ASBAS):</strong> Free digital advisory — website, social media, digital tools, data analytics</li>
+        <li><strong>State library digital programs:</strong> Free workshops on digital marketing, AI tools, social media</li>
+        <li><strong>TAFE short courses:</strong> Government-subsidised business courses ($0-$200 for eligible students)</li>
+      </ul>
+
+      <h2>Disaster and Hardship Relief</h2>
+      <p>When natural disasters or economic shocks hit, governments often release emergency grants for small businesses:</p>
+      <ul>
+        <li><strong>Disaster Recovery Grants:</strong> Typically $10K-$50K for affected businesses (bushfires, floods, cyclones)</li>
+        <li><strong>ATO disaster provisions:</strong> Penalty remission, extended lodgement deadlines, interest-free payment plans</li>
+        <li><strong>State emergency grants:</strong> Each state has emergency business support (check your state's disaster recovery page)</li>
+        <li><strong>Income support:</strong> Disaster Recovery Payment (DRP) provides immediate income support</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Be Prepared</h3>
+        <p class="text-slate-300 text-sm">Keep records of your business income and expenses ready to go — grant applications always require financial evidence. Having clean <a href="/blog/freelance-bookkeeping-australia" class="text-amber-400 hover:text-amber-300 underline">bookkeeping</a> and a current <a href="/blog/freelance-business-plan-australia" class="text-amber-400 hover:text-amber-300 underline">business plan</a> means you can apply quickly when opportunities appear.</p>
+      </div>
+
+      <h2>How to Apply Successfully</h2>
+      <p>Government grants are competitive. Here's what separates successful applications:</p>
+
+      <h3>Before You Apply</h3>
+      <ul>
+        <li><strong>Read the guidelines completely.</strong> Every word. Most rejections happen because applicants don't meet basic eligibility criteria they could have checked in 5 minutes.</li>
+        <li><strong>Check your ABN status.</strong> Most grants require an active ABN. Verify at abr.business.gov.au.</li>
+        <li><strong>Ensure your tax returns are up to date.</strong> Outstanding BAS or tax returns will disqualify you from most programs.</li>
+        <li><strong>Check for exclusions.</strong> Some grants exclude certain industries (e.g., gambling, tobacco) or business structures.</li>
+      </ul>
+
+      <h3>Writing Your Application</h3>
+      <ul>
+        <li><strong>Answer the criteria directly.</strong> Use the exact language from the guidelines. If they ask about "innovation," use the word "innovation" in your response.</li>
+        <li><strong>Provide evidence, not claims.</strong> "Revenue grew 40% last quarter" beats "business is growing well."</li>
+        <li><strong>Explain the money trail.</strong> Show exactly how grant funds will be spent and what outcomes they'll produce.</li>
+        <li><strong>Include a realistic timeline.</strong> Show you've thought through implementation, not just the idea.</li>
+        <li><strong>Get someone to review it.</strong> Fresh eyes catch gaps in your argument.</li>
+      </ul>
+
+      <h3>Common Mistakes</h3>
+      <ul>
+        <li><strong>Applying for everything:</strong> Focus on 2-3 grants you're genuinely eligible for, not 20 long shots</li>
+        <li><strong>Missing deadlines:</strong> Set calendar reminders — grant rounds have hard close dates</li>
+        <li><strong>Vague budgets:</strong> "Marketing: $5,000" gets rejected. "Google Ads: $2,000, Content creation: $1,500, SEO tools: $1,500" gets funded.</li>
+        <li><strong>Not following up:</strong> Some grants have interviews or clarification rounds. Check your email and portal regularly.</li>
+        <li><strong>Forgetting acquittal:</strong> If awarded, you must report on how funds were spent. Keep receipts from day one.</li>
+      </ul>
+
+      <h2>Tax Concessions You're Already Eligible For</h2>
+      <p>Before chasing grants, make sure you're claiming everything you're entitled to. These aren't grants — they're money you're probably leaving on the table:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left">
+          <thead class="text-teal-400 border-b border-slate-700">
+            <tr><th class="py-3 px-4">Concession</th><th class="py-3 px-4">Typical Value</th><th class="py-3 px-4">Who Qualifies</th></tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Home office deduction</td><td class="py-3 px-4">$2,000-$5,000/yr</td><td class="py-3 px-4">Anyone working from home regularly</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Instant asset write-off</td><td class="py-3 px-4">$500-$20,000</td><td class="py-3 px-4">Any business purchase under threshold</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Small business tax offset</td><td class="py-3 px-4">Up to $1,000</td><td class="py-3 px-4">Sole traders under $5M turnover</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Vehicle expenses</td><td class="py-3 px-4">$2,000-$5,000/yr</td><td class="py-3 px-4">Anyone using car for business</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Professional development</td><td class="py-3 px-4">$500-$5,000/yr</td><td class="py-3 px-4">Courses, conferences, subscriptions</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Super (self-employed)</td><td class="py-3 px-4">$1,500-$4,500 tax saving</td><td class="py-3 px-4">Concessional contributions up to $30K</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Phone and internet</td><td class="py-3 px-4">$800-$1,500/yr</td><td class="py-3 px-4">Business portion of personal plans</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Insurance premiums</td><td class="py-3 px-4">$300-$2,500/yr</td><td class="py-3 px-4">PI, PL, income protection (100%)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>A freelancer earning $100K who claims all eligible deductions might save $8,000-$15,000 in tax per year — far more than most grants pay. See our <a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">tax deductions guide</a> for the complete list.</p>
+
+      <h2>Grant Finder Checklist</h2>
+      <ul>
+        <li>☐ Checked business.gov.au/grants-and-programs (federal grant finder)</li>
+        <li>☐ Checked your state's business department grants page</li>
+        <li>☐ Verified ABN is active and GST registration is current</li>
+        <li>☐ Tax returns and BAS are up to date (no outstanding lodgements)</li>
+        <li>☐ Have a current business plan (even 2-3 pages)</li>
+        <li>☐ Financial records are clean and export-ready</li>
+        <li>☐ Subscribed to state business newsletter for grant round alerts</li>
+        <li>☐ Checked industry-specific funding (arts, tech, export, etc.)</li>
+        <li>☐ Claiming ALL eligible tax deductions (often worth more than grants)</li>
+        <li>☐ Calendar reminders set for known grant round dates</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/tax-deductions-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Tax Deductions Guide</a> — Claim everything you're entitled to</li>
+        <li><a href="/blog/freelance-business-plan-australia" class="text-teal-400 hover:text-teal-300 underline">Business Plan Guide</a> — Required for most grant applications</li>
+        <li><a href="/blog/eofy-tax-prep-checklist-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">EOFY Prep Checklist</a> — Maximise deductions before June 30</li>
+        <li><a href="/blog/financial-planning-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Financial Planning</a> — Build a financially resilient freelance business</li>
+        <li><a href="/blog/freelance-bookkeeping-australia" class="text-teal-400 hover:text-teal-300 underline">Bookkeeping Guide</a> — Clean records = faster grant applications</li>
+        <li><a href="/blog/how-to-start-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">Starting Freelancing</a> — Complete beginner's guide to freelancing in Australia</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST on grant-funded purchases</li>
+      </ul>
+    `,
+  },
+
+  'non-paying-clients-legal-options-australia': {
+    slug: 'non-paying-clients-legal-options-australia',
+    title: 'Non-Paying Clients in Australia: Your Legal Options as a Freelancer',
+    excerpt: 'When chasing overdue invoices fails, here are your legal options — from formal letters of demand to small claims tribunal, debt collectors, and writing off bad debts.',
+    category: 'Getting Paid',
+    readTime: '11 min read',
+    date: 'February 2026',
+    seoTitle: 'Non-Paying Clients Australia: Legal Options for Freelancers | Recovery Guide',
+    seoDescription: 'Complete guide to recovering unpaid invoices in Australia. Letter of demand templates, small claims tribunal step-by-step, debt collection agencies, and bad debt tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">You've sent reminders. You've made calls. The invoice is 60+ days overdue and the client has gone quiet. This guide covers what happens next — the formal legal options available to Australian freelancers for recovering unpaid invoices, from letters of demand to tribunal claims.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">First Steps First</h3>
+        <p class="text-slate-300 text-sm">This guide assumes you've already tried the friendly approach — reminder emails, phone calls, and escalation. If you haven't, start with our <a href="/blog/how-to-chase-overdue-invoices-australia" class="text-amber-400 hover:text-amber-300 underline">chasing overdue invoices guide</a> and <a href="/blog/payment-reminder-email-templates-freelancers" class="text-amber-400 hover:text-amber-300 underline">payment reminder templates</a>. Legal action should be your last resort, not your first.</p>
+      </div>
+
+      <h2>The Escalation Timeline</h2>
+      <p>Before jumping to legal action, understand where you are in the recovery timeline:</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left">
+          <thead class="text-teal-400 border-b border-slate-700">
+            <tr><th class="py-3 px-4">Days Overdue</th><th class="py-3 px-4">Stage</th><th class="py-3 px-4">Action</th><th class="py-3 px-4">Recovery Rate</th></tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">1-7</td><td class="py-3 px-4">Friendly reminder</td><td class="py-3 px-4">Email reminder, assume oversight</td><td class="py-3 px-4 text-green-400">95%+</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">8-14</td><td class="py-3 px-4">Firm follow-up</td><td class="py-3 px-4">Phone call + email, reference payment terms</td><td class="py-3 px-4 text-green-400">85-90%</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">15-30</td><td class="py-3 px-4">Formal notice</td><td class="py-3 px-4">Cease work, written notice of overdue amount</td><td class="py-3 px-4 text-yellow-400">70-80%</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">31-60</td><td class="py-3 px-4">Letter of demand</td><td class="py-3 px-4">Formal legal letter with deadline</td><td class="py-3 px-4 text-yellow-400">50-65%</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">61-90</td><td class="py-3 px-4">Formal action</td><td class="py-3 px-4">Tribunal claim or debt collector</td><td class="py-3 px-4 text-orange-400">30-50%</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">90+</td><td class="py-3 px-4">Write-off decision</td><td class="py-3 px-4">Continue pursuing or claim tax deduction</td><td class="py-3 px-4 text-red-400">&lt;30%</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Step 1: Letter of Demand</h2>
+      <p>A letter of demand is a formal written notice that you intend to take legal action if the debt isn't paid. It's the bridge between informal chasing and formal legal proceedings.</p>
+
+      <h3>Why Send One</h3>
+      <ul>
+        <li><strong>Required before tribunal:</strong> Most tribunals want evidence you've attempted to resolve the dispute before filing</li>
+        <li><strong>Often enough:</strong> 40-60% of debtors pay after receiving a formal letter of demand</li>
+        <li><strong>Sets a clear deadline:</strong> Creates an enforceable timeline</li>
+        <li><strong>Demonstrates seriousness:</strong> Shows you're prepared to escalate</li>
+      </ul>
+
+      <h3>What to Include</h3>
+      <ul>
+        <li>Your full name and ABN</li>
+        <li>Client's full legal name (check ASIC or ABR for the exact registered name)</li>
+        <li>Invoice number(s) and dates</li>
+        <li>Total amount owed (including any contractual late fees or interest)</li>
+        <li>Summary of services provided</li>
+        <li>Reference to your contract or agreement</li>
+        <li>Previous attempts to collect (dates of reminders/calls)</li>
+        <li><strong>Clear deadline:</strong> 14 days is standard (7 if urgent)</li>
+        <li><strong>Statement of intent:</strong> "If payment is not received by [date], I intend to commence proceedings in [relevant tribunal/court]"</li>
+        <li>Your preferred payment method</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-2">Letter of Demand Template</h3>
+        <p class="text-slate-400 text-sm font-mono whitespace-pre-line">
+[Your Name]
+[Your ABN]
+[Your Address]
+[Date]
+
+[Client Full Legal Name]
+[Client Address]
+
+Dear [Client Name],
+
+RE: LETTER OF DEMAND — Overdue Invoice(s) [Invoice Numbers]
+
+I refer to the above invoice(s) for services provided between [dates], totalling $[amount] (including GST).
+
+Despite multiple requests for payment on [dates of previous reminders], the amount of $[amount] remains outstanding and is now [X] days overdue.
+
+I have fulfilled all obligations under our agreement dated [date]. The work was delivered on [date] and accepted without dispute.
+
+I hereby formally demand payment of $[amount] within 14 days of the date of this letter, being no later than [specific date].
+
+Payment should be made to:
+[Bank details or payment method]
+
+If full payment is not received by [date], I intend to commence proceedings in the [relevant state] Civil and Administrative Tribunal / Magistrates Court to recover the debt, plus filing fees and any interest permitted under our agreement.
+
+I trust this matter can be resolved without the need for legal proceedings.
+
+Yours sincerely,
+[Your Name]
+        </p>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Delivery Method Matters</h3>
+        <p class="text-slate-300 text-sm">Send via <strong>registered post</strong> (Australia Post, ~$10-15) for proof of delivery. Also send by email for speed. The registered post receipt is evidence for tribunal that the letter was delivered. Keep copies of everything.</p>
+      </div>
+
+      <h3>Should You Use a Lawyer?</h3>
+      <p>For amounts under $5,000, writing your own letter of demand is fine. For larger amounts or complex situations, consider:</p>
+      <ul>
+        <li><strong>Lawyer's letter:</strong> $200-$500 for a solicitor to send the letter on their letterhead. The psychological impact is significant — many clients pay immediately when a lawyer's name appears.</li>
+        <li><strong>Legal aid:</strong> Some community legal centres offer free assistance for small business disputes</li>
+        <li><strong>Law society referral:</strong> Your state's law society can refer you to solicitors who do fixed-fee demand letters</li>
+      </ul>
+
+      <h2>Step 2: Small Claims Tribunal</h2>
+      <p>If the letter of demand doesn't work, every state has a civil claims tribunal designed for exactly this situation — small monetary disputes that don't need a courtroom.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left">
+          <thead class="text-teal-400 border-b border-slate-700">
+            <tr><th class="py-3 px-4">State</th><th class="py-3 px-4">Tribunal</th><th class="py-3 px-4">Claim Limit</th><th class="py-3 px-4">Filing Fee</th></tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">VIC</td><td class="py-3 px-4">VCAT</td><td class="py-3 px-4">$15,000 (small claim)</td><td class="py-3 px-4">$74.60</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">NSW</td><td class="py-3 px-4">NCAT</td><td class="py-3 px-4">$30,000</td><td class="py-3 px-4">$53</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">QLD</td><td class="py-3 px-4">QCAT</td><td class="py-3 px-4">$25,000 (minor civil)</td><td class="py-3 px-4">$80.10</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">SA</td><td class="py-3 px-4">SACAT</td><td class="py-3 px-4">$12,000 (minor civil)</td><td class="py-3 px-4">$101</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">WA</td><td class="py-3 px-4">Magistrates Court</td><td class="py-3 px-4">$10,000</td><td class="py-3 px-4">$80.70</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">TAS</td><td class="py-3 px-4">Magistrates Court</td><td class="py-3 px-4">$5,000</td><td class="py-3 px-4">$93.75</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">ACT</td><td class="py-3 px-4">ACAT</td><td class="py-3 px-4">$25,000</td><td class="py-3 px-4">$120.40</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">NT</td><td class="py-3 px-4">NTCAT</td><td class="py-3 px-4">$25,000</td><td class="py-3 px-4">$98</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>How the Process Works</h3>
+      <ol>
+        <li><strong>File your claim online.</strong> Most tribunals have online portals. You'll need the debtor's full legal name and address, invoice details, and evidence of the debt and your attempts to collect.</li>
+        <li><strong>Pay the filing fee.</strong> $53-$120 depending on your state — you can claim this back if you win.</li>
+        <li><strong>Tribunal notifies the respondent.</strong> They'll get a copy of your claim and a deadline to respond (usually 14-28 days).</li>
+        <li><strong>Mediation (often mandatory).</strong> Most tribunals require mediation before a hearing. Many disputes settle at this stage.</li>
+        <li><strong>Hearing.</strong> If mediation fails, you attend a hearing (often by phone or video). Present your evidence: contract, invoices, delivery proof, correspondence, letter of demand. No lawyers needed for small claims.</li>
+        <li><strong>Decision.</strong> The tribunal makes a binding order. If you win, the respondent is ordered to pay within a set timeframe (usually 28 days).</li>
+      </ol>
+
+      <h3>Evidence You'll Need</h3>
+      <ul>
+        <li>Signed contract or written agreement (even email confirmation counts)</li>
+        <li>All invoices (with dates, amounts, terms)</li>
+        <li>Proof of work delivery (emails, files, project handover)</li>
+        <li>All correspondence about payment (emails, texts, call notes)</li>
+        <li>Letter of demand and proof of delivery (registered post receipt)</li>
+        <li>Your ABN registration and any relevant insurance</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Jurisdiction Tip</h3>
+        <p class="text-slate-300 text-sm">File in the state where the debtor is located, not where you are. If your client is in Sydney and you're in Melbourne, file with NCAT (NSW), not VCAT (VIC). If your contract specifies a jurisdiction, that takes priority.</p>
+      </div>
+
+      <h3>What If They Don't Pay After the Order?</h3>
+      <p>A tribunal order doesn't automatically get you paid. If the debtor ignores the order:</p>
+      <ul>
+        <li><strong>Enforcement warrant:</strong> Apply to the Magistrates Court to enforce the tribunal order (additional fee ~$50-$150)</li>
+        <li><strong>Garnishee order:</strong> Court directs the debtor's bank or employer to pay you directly</li>
+        <li><strong>Instalment order:</strong> Court orders the debtor to pay in instalments if they can't pay in full</li>
+        <li><strong>Property seizure order:</strong> Sheriff can seize assets (rare for freelance amounts, but possible)</li>
+      </ul>
+
+      <h2>Step 3: Debt Collection Agencies</h2>
+      <p>If you don't want to handle tribunal yourself, or the debtor is in another state, a debt collection agency might be the right choice.</p>
+
+      <h3>How They Work</h3>
+      <ul>
+        <li><strong>Commission-based:</strong> Most charge 10-25% of the amount recovered (nothing upfront, nothing if they fail)</li>
+        <li><strong>Fixed fee:</strong> Some offer letter-writing services for $50-$150 per letter</li>
+        <li><strong>Combination:</strong> Small upfront fee + lower commission on recovery</li>
+      </ul>
+
+      <h3>When to Use a Debt Collector</h3>
+      <ul>
+        <li>The amount is over $1,000 (below this, commissions make it uneconomical)</li>
+        <li>You've exhausted friendly options and sent a letter of demand</li>
+        <li>The debtor is in a different state and tribunal is inconvenient</li>
+        <li>You don't have time or energy to pursue it yourself</li>
+        <li>The debtor is a company (collectors can check ASIC records and credit reports)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Credit Reporting Leverage</h3>
+        <p class="text-slate-300 text-sm">Licensed debt collectors can report unpaid debts to credit reporting agencies (Equifax, illion, Experian). The threat of a negative credit listing is often enough to get businesses to pay — it can affect their ability to get loans and credit for 5 years.</p>
+      </div>
+
+      <h2>Step 4: Mediation Services</h2>
+      <p>Before tribunal or debt collectors, free or low-cost mediation can resolve disputes faster and preserve relationships:</p>
+      <ul>
+        <li><strong>Small Business Commissioner (VIC):</strong> Free mediation for disputes under $100K</li>
+        <li><strong>NSW Small Business Commissioner:</strong> Free dispute resolution service</li>
+        <li><strong>QLD Small Business Commissioner:</strong> Free mediation and advice</li>
+        <li><strong>SBDC (WA):</strong> Free alternative dispute resolution</li>
+        <li><strong>Community Justice Centres:</strong> Free mediation in NSW, available in other states too</li>
+      </ul>
+
+      <h2>Writing Off Bad Debts (Tax Deduction)</h2>
+      <p>Sometimes, the cost of pursuing a debt exceeds what you'll recover. You can claim a bad debt tax deduction — but only if you meet the ATO's criteria:</p>
+
+      <h3>Requirements</h3>
+      <ul>
+        <li><strong>The income was already declared:</strong> You must have included the amount in your assessable income (accruals basis)</li>
+        <li><strong>The debt is genuinely bad:</strong> You must have taken reasonable steps to recover it</li>
+        <li><strong>Written off before 30 June:</strong> Formally written off in your books before the end of the financial year</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Cash Basis Warning</h3>
+        <p class="text-slate-300 text-sm">If you report income on a <strong>cash basis</strong> (most sole traders), you haven't declared the income because you haven't received it. You <strong>can't claim a bad debt deduction</strong> — there's nothing to write off. The income simply never existed in your records.</p>
+      </div>
+
+      <h3>GST on Bad Debts</h3>
+      <p>If you've already remitted GST on the unpaid invoice, you can claim a GST decreasing adjustment on your BAS after the debt has been overdue for 12+ months. Report on label 1B.</p>
+
+      <h2>When to Walk Away</h2>
+      <p>Consider walking away when:</p>
+      <ul>
+        <li><strong>The amount is under $500:</strong> Tribunal fees + your time likely exceed the recovery</li>
+        <li><strong>The debtor is insolvent:</strong> Check ASIC for external administration appointments</li>
+        <li><strong>It's affecting your mental health:</strong> Lost productivity can cost more than the debt</li>
+        <li><strong>You have no written agreement:</strong> Without a contract, your tribunal case is weak</li>
+        <li><strong>It's been over 6 years:</strong> Limitation periods for debt recovery are typically 6 years</li>
+      </ul>
+
+      <h3>The Walk-Away Math</h3>
+      <ul>
+        <li>Filing fee: $53-$120</li>
+        <li>Registered post: $15</li>
+        <li>Your time preparing (3-10 hours): $300-$1,500</li>
+        <li>Attending mediation/hearing (2-4 hours): $200-$600</li>
+        <li>Enforcement if they don't pay: $50-$150 + more time</li>
+        <li><strong>Total cost: $600-$2,400</strong></li>
+      </ul>
+      <p>For a $3,000 invoice, potentially 80% eaten by costs. For $10,000+, clearly worth pursuing.</p>
+
+      <h2>Prevention Checklist</h2>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left">
+          <thead class="text-teal-400 border-b border-slate-700">
+            <tr><th class="py-3 px-4">Protection</th><th class="py-3 px-4">What It Does</th><th class="py-3 px-4">Setup Effort</th></tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Upfront deposit (50%)</td><td class="py-3 px-4">Reduces maximum exposure by half</td><td class="py-3 px-4">Add to every proposal</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Written contract</td><td class="py-3 px-4">Provides legal evidence for tribunal</td><td class="py-3 px-4">Template once, reuse always</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Milestone payments</td><td class="py-3 px-4">Gets paid throughout, not just at end</td><td class="py-3 px-4">Structure in proposal</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Late payment clause</td><td class="py-3 px-4">1.5%/month interest creates urgency</td><td class="py-3 px-4">One line in contract</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Stop-work clause</td><td class="py-3 px-4">Right to pause if payment overdue</td><td class="py-3 px-4">One clause in contract</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">IP retention until paid</td><td class="py-3 px-4">You own work until final payment</td><td class="py-3 px-4">One clause in contract</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Client vetting</td><td class="py-3 px-4">Check ABN, Google reviews, ask around</td><td class="py-3 px-4">5 minutes per new client</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Automated invoicing</td><td class="py-3 px-4">Send immediately, auto-reminders</td><td class="py-3 px-4">Set up once in InvoiceFlow</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Debt Recovery Checklist</h2>
+      <ul>
+        <li>☐ Exhausted friendly collection attempts (emails, calls, 3+ reminders)</li>
+        <li>☐ Confirmed the client's full legal name (check ABR/ASIC)</li>
+        <li>☐ Gathered all evidence (contract, invoices, delivery proof, correspondence)</li>
+        <li>☐ Sent letter of demand via registered post with 14-day deadline</li>
+        <li>☐ Calculated the true cost of pursuing vs writing off</li>
+        <li>☐ Considered free mediation (Small Business Commissioner)</li>
+        <li>☐ If proceeding: filed claim in correct state tribunal</li>
+        <li>☐ If writing off: formally written off in books before 30 June</li>
+        <li>☐ If GST-registered: claimed decreasing adjustment on BAS (after 12 months)</li>
+        <li>☐ Updated contracts and processes to prevent recurrence</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-chase-overdue-invoices-australia" class="text-teal-400 hover:text-teal-300 underline">Chasing Overdue Invoices</a> — Start here before escalating</li>
+        <li><a href="/blog/payment-reminder-email-templates-freelancers" class="text-teal-400 hover:text-teal-300 underline">Payment Reminder Templates</a> — Professional email templates</li>
+        <li><a href="/blog/late-payment-fees-australia-freelancers" class="text-teal-400 hover:text-teal-300 underline">Late Payment Fees Guide</a> — Legally charge interest</li>
+        <li><a href="/blog/freelance-contract-australia" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Guide</a> — Build contracts that protect you</li>
+        <li><a href="/blog/how-to-handle-client-disputes-freelancer-australia" class="text-teal-400 hover:text-teal-300 underline">Client Dispute Guide</a> — Resolve disputes before they become debts</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Payments</a> — Never risk full payment at end</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Invoice Generator</a> — Create professional invoices</li>
+      </ul>
+    `,
+  },
+
+  'freelancing-on-visa-australia-work-rights-tax': {
+    slug: 'freelancing-on-visa-australia-work-rights-tax',
+    title: 'Freelancing on a Visa in Australia: Work Rights, Tax, and ABN Rules',
+    excerpt: 'Complete guide for international freelancers in Australia — visa work restrictions, tax residency rules, ABN eligibility, TFN requirements, and managing international income.',
+    category: 'Getting Started',
+    readTime: '12 min read',
+    date: 'February 2026',
+    seoTitle: 'Freelancing on a Visa in Australia | Work Rights, Tax & ABN Guide 2026',
+    seoDescription: 'Can you freelance on a visa in Australia? Complete guide covering work restrictions by visa type, tax residency, ABN eligibility, TFN rules, and international income for visa holders.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Australia attracts thousands of skilled professionals on various visa types each year — and many want to freelance. But the rules around self-employment for visa holders are complex, and getting them wrong can jeopardise your visa. This guide covers work rights, tax obligations, and practical steps for freelancing legally on an Australian visa.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Important Disclaimer</h3>
+        <p class="text-slate-300 text-sm">This guide provides general information only and is not immigration or legal advice. Visa conditions change frequently. Always check your specific visa conditions on VEVO (Visa Entitlement Verification Online) and consult a registered migration agent before starting freelance work. Breaching visa conditions can result in visa cancellation.</p>
+      </div>
+
+      <h2>Can You Freelance on Your Visa?</h2>
+      <p>Whether you can freelance depends on your visa subclass and conditions. The key distinction: <strong>freelancing is self-employment</strong>, and some visas only allow employment, not self-employment.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left">
+          <thead class="text-teal-400 border-b border-slate-700">
+            <tr><th class="py-3 px-4">Visa Type</th><th class="py-3 px-4">Subclass</th><th class="py-3 px-4">Freelance?</th><th class="py-3 px-4">Key Restrictions</th></tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Permanent Resident</td><td class="py-3 px-4">189, 190, 191</td><td class="py-3 px-4 text-green-400">Yes — unrestricted</td><td class="py-3 px-4">No work restrictions</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Partner (provisional)</td><td class="py-3 px-4">309, 820</td><td class="py-3 px-4 text-green-400">Yes — unrestricted</td><td class="py-3 px-4">Full work rights</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Skilled Worker</td><td class="py-3 px-4">482 (TSS)</td><td class="py-3 px-4 text-red-400">Limited</td><td class="py-3 px-4">Must work for sponsor; secondary employment rules apply</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Working Holiday</td><td class="py-3 px-4">417, 462</td><td class="py-3 px-4 text-yellow-400">Yes, with limits</td><td class="py-3 px-4">6-month limit with one employer</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Student</td><td class="py-3 px-4">500</td><td class="py-3 px-4 text-yellow-400">Yes, with limits</td><td class="py-3 px-4">48 hours per fortnight during semester</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Graduate</td><td class="py-3 px-4">485</td><td class="py-3 px-4 text-green-400">Yes — unrestricted</td><td class="py-3 px-4">Full work rights for visa duration</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Bridging A/B/C</td><td class="py-3 px-4">010, 020, 030</td><td class="py-3 px-4 text-yellow-400">Depends</td><td class="py-3 px-4">Check condition 8101/8104 on grant letter</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Business Innovation</td><td class="py-3 px-4">188</td><td class="py-3 px-4 text-green-400">Yes</td><td class="py-3 px-4">Designed for business owners</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Visitor/Tourist</td><td class="py-3 px-4">600</td><td class="py-3 px-4 text-red-400">No</td><td class="py-3 px-4">No work of any kind (condition 8101)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Key Visa Conditions to Check</h3>
+      <ul>
+        <li><strong>Condition 8101:</strong> No work — freelancing is prohibited</li>
+        <li><strong>Condition 8104:</strong> Work limited to 48 hours per fortnight (student visas)</li>
+        <li><strong>Condition 8107:</strong> Must work for your sponsor (employer-sponsored visas)</li>
+        <li><strong>Condition 8115:</strong> Work limited to specific types/employer</li>
+        <li><strong>No condition:</strong> If none of these are on your visa, you generally have full work rights</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">How to Check Your Conditions</h3>
+        <p class="text-slate-300 text-sm">Use <strong>VEVO (Visa Entitlement Verification Online)</strong> at immi.homeaffairs.gov.au. You'll need your passport details and visa grant number. This gives the definitive answer about what work you're allowed to do.</p>
+      </div>
+
+      <h2>482 (TSS) Visa Holders — Special Rules</h2>
+      <p>The 482 Temporary Skill Shortage visa is the most common employer-sponsored work visa:</p>
+      <ul>
+        <li><strong>Primary obligation:</strong> You must work for your sponsoring employer in the nominated occupation</li>
+        <li><strong>Secondary employment:</strong> Since July 2024, 482 holders can undertake secondary employment, including freelancing, without additional approval — alongside your primary role</li>
+        <li><strong>Cannot replace primary employment:</strong> Freelancing cannot be your sole income</li>
+        <li><strong>Cessation requirement:</strong> If you stop working for your sponsor, you have 60 days to find a new sponsor or leave</li>
+      </ul>
+
+      <h2>Getting an ABN on a Visa</h2>
+      <p>You can get an ABN regardless of visa type, as long as you're carrying on a business. But having an ABN doesn't give you the right to work.</p>
+
+      <h3>How to Apply</h3>
+      <ol>
+        <li><strong>Get a TFN first</strong> — Apply at ato.gov.au. Processing takes 28 days for overseas applicants.</li>
+        <li><strong>Apply for ABN</strong> — abr.gov.au, select "Individual" and "Sole trader"</li>
+        <li><strong>Business structure:</strong> Sole Trader (simplest for freelancers)</li>
+        <li><strong>GST registration:</strong> Optional if turnover under $75K, mandatory if over</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">ABN Does Not Equal Work Permission</h3>
+        <p class="text-slate-300 text-sm">The Australian Business Register doesn't verify visa conditions. You can technically get an ABN on a tourist visa — but using it would breach your visa. Always ensure your visa allows work before invoicing clients.</p>
+      </div>
+
+      <h2>Tax Residency — The Critical Question</h2>
+      <p>Your tax obligations depend on whether the ATO considers you a <strong>tax resident</strong> or <strong>foreign resident for tax purposes</strong>. This is different from immigration status.</p>
+
+      <div class="overflow-x-auto my-8">
+        <table class="w-full text-sm text-left">
+          <thead class="text-teal-400 border-b border-slate-700">
+            <tr><th class="py-3 px-4">Factor</th><th class="py-3 px-4">Tax Resident</th><th class="py-3 px-4">Foreign Resident</th></tr>
+          </thead>
+          <tbody class="text-slate-300">
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Tax-free threshold</td><td class="py-3 px-4 text-green-400">$18,200</td><td class="py-3 px-4 text-red-400">$0 — taxed from first dollar</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Tax rate on first $18,200</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">32.5%</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Medicare levy</td><td class="py-3 px-4">2%</td><td class="py-3 px-4">0% (no Medicare access)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">Taxable income</td><td class="py-3 px-4">Worldwide income</td><td class="py-3 px-4">Australian-sourced only</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-3 px-4">CGT discount</td><td class="py-3 px-4">50% available</td><td class="py-3 px-4">No CGT discount</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>How the ATO Determines Tax Residency</h3>
+      <ul>
+        <li><strong>Resides test:</strong> Do you physically reside in Australia? (most common)</li>
+        <li><strong>Domicile test:</strong> Is your permanent home in Australia?</li>
+        <li><strong>183-day test:</strong> Present 183+ days in the income year?</li>
+        <li><strong>Commonwealth super test:</strong> Member of a Commonwealth super fund?</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Working Holiday Makers — Special Tax Rates</h3>
+        <p class="text-slate-300 text-sm">417/462 visa holders pay <strong>15% on the first $45,000</strong>, then normal rates above that. More favourable than the standard foreign resident rate (32.5% from $0) but less than the tax resident rate (0% on first $18,200).</p>
+      </div>
+
+      <h2>Managing International Income</h2>
+
+      <h3>Australian Clients</h3>
+      <ul>
+        <li>Invoice in AUD with your ABN</li>
+        <li>Charge GST if registered and supply is connected with Australia</li>
+        <li>Standard Australian tax rules apply</li>
+      </ul>
+
+      <h3>Overseas Clients</h3>
+      <ul>
+        <li>Invoice in their currency or AUD (convert at RBA rate on invoice date)</li>
+        <li>GST-free export if client is overseas and service consumed outside Australia</li>
+        <li>Declare the income in AUD on your tax return</li>
+        <li>Foreign income tax offset may apply if you've paid tax in client's country</li>
+      </ul>
+
+      <h3>Double Taxation Agreements (DTAs)</h3>
+      <p>Australia has DTAs with 45+ countries. If you're from a DTA country:</p>
+      <ul>
+        <li>Income earned in Australia is generally taxed in Australia</li>
+        <li>Your home country gives credit for Australian tax paid</li>
+        <li>Some DTAs have specific rules for independent personal services</li>
+        <li>Check at treasury.gov.au/tax-treaties</li>
+      </ul>
+
+      <h2>Superannuation for Visa Holders</h2>
+      <ul>
+        <li><strong>Voluntary contributions</strong> can reduce your Australian tax bill</li>
+        <li><strong>DASP (Departing Australia Super Payment):</strong> Claim your super when you leave permanently (minus 35-45% tax)</li>
+        <li><strong>Strategy:</strong> Don't over-contribute if planning to leave — DASP tax rate means you'll lose 35-45% of voluntary contributions</li>
+        <li><strong>If employed AND freelancing:</strong> Employer pays 11.5% SG on wages; you can additionally contribute from freelance income</li>
+      </ul>
+
+      <h2>Common Mistakes</h2>
+      <ul>
+        <li><strong>Freelancing on condition 8101:</strong> Visa breach — can lead to cancellation</li>
+        <li><strong>Exceeding student visa hours:</strong> 48 hours per fortnight is strictly enforced via ATO data</li>
+        <li><strong>Not declaring foreign income:</strong> Tax residents must declare ALL worldwide income</li>
+        <li><strong>Assuming ABN = work rights:</strong> ABR doesn't check visa conditions</li>
+        <li><strong>Wrong tax residency:</strong> Claiming $18,200 threshold as non-resident is a serious offence</li>
+        <li><strong>Not keeping records for DASP:</strong> You'll need evidence of contributions and visa details when leaving</li>
+        <li><strong>Ignoring transfer pricing:</strong> ATO may scrutinise freelancing for related overseas companies</li>
+      </ul>
+
+      <h2>When You Leave Australia</h2>
+      <ul>
+        <li><strong>Cancel your ABN</strong> from your departure date</li>
+        <li><strong>Lodge final tax return</strong> for the partial year</li>
+        <li><strong>Claim DASP</strong> through ATO website (28-60 days processing)</li>
+        <li><strong>Cancel GST</strong> if registered</li>
+        <li><strong>Lodge final BAS</strong> covering period up to cancellation</li>
+        <li><strong>Keep records 5 years</strong> from your last tax return</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Continuing with Australian Clients from Overseas</h3>
+        <p class="text-slate-300 text-sm">If you leave but keep AU clients, you become a non-resident for tax purposes. You only pay Australian tax on Australian-sourced income. The client may need to withhold tax unless you have a DTA certificate. Consult an international tax specialist.</p>
+      </div>
+
+      <h2>Setup Checklist for Visa Freelancers</h2>
+      <ul>
+        <li>☐ Checked visa conditions on VEVO — freelancing confirmed allowed</li>
+        <li>☐ Applied for TFN (allow 28 days)</li>
+        <li>☐ Applied for ABN at abr.gov.au</li>
+        <li>☐ Opened Australian bank account for business income</li>
+        <li>☐ Determined tax residency status (ATO residency tool)</li>
+        <li>☐ Set aside tax savings (30% resident, 25% WHM, 35% foreign resident)</li>
+        <li>☐ Registered for GST if turnover will exceed $75K</li>
+        <li>☐ Created invoice template with ABN</li>
+        <li>☐ Understand international invoicing rules</li>
+        <li>☐ Considered professional indemnity insurance</li>
+      </ul>
+
+      <h2>Getting Help</h2>
+      <ul>
+        <li><strong>Immigration:</strong> Only use registered migration agents (check mara.gov.au)</li>
+        <li><strong>Tax:</strong> Use agents experienced with visa holders (tpb.gov.au)</li>
+        <li><strong>Free support:</strong> Tax Help program, community legal centres, settlement services</li>
+        <li><strong>Multilingual:</strong> ATO Translating and Interpreting Service: 13 14 50</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/how-to-start-freelancing-australia" class="text-teal-400 hover:text-teal-300 underline">Starting Freelancing</a> — Complete beginner's guide</li>
+        <li><a href="/blog/how-to-register-abn-australia" class="text-teal-400 hover:text-teal-300 underline">How to Get an ABN</a> — Step-by-step registration</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — GST for freelancers</li>
+        <li><a href="/blog/how-much-tax-freelancers-pay-australia" class="text-teal-400 hover:text-teal-300 underline">Freelancer Tax Guide</a> — Tax brackets and calculations</li>
+        <li><a href="/blog/invoicing-international-clients-australia" class="text-teal-400 hover:text-teal-300 underline">International Invoicing</a> — Invoicing overseas clients</li>
+        <li><a href="/blog/sole-trader-tax-return-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Return Guide</a> — How to lodge your return</li>
+        <li><a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN Lookup Tool</a> — Validate ABN numbers</li>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Calculate GST</li>
+      </ul>
+    `,
+  },
 };
