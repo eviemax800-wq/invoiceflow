@@ -24018,4 +24018,720 @@ Yours sincerely,
       </ul>
     `,
   },
+
+  'invoicing-plumbers-gas-fitters-australia': {
+    slug: 'invoicing-plumbers-gas-fitters-australia',
+    title: 'How to Invoice as a Freelance Plumber or Gas Fitter in Australia',
+    excerpt: 'Complete invoicing guide for freelance plumbers and gas fitters in Australia — call-out fees, hourly rates, materials markup, compliance certificates, after-hours billing, progress claims, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '14 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Plumber or Gas Fitter in Australia | 2026 Guide',
+    seoDescription: 'Australian plumber and gas fitter invoicing guide. Call-out fees, hourly rates, materials markup, compliance certificates, after-hours billing, progress claims, insurance, GST, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Plumbing is one of Australia's most in-demand trades, with licensed plumbers regularly earning $80–$180+ per hour depending on specialisation and urgency. Whether you're a general plumber, gas fitter, drainer, or roof plumber, invoicing correctly is essential — not just for cash flow, but for compliance. Plumbing work in Australia requires licensing, compliance certificates, and strict documentation. This guide covers how to price, invoice, and get paid for every type of plumbing job, from a blocked drain to a full bathroom renovation.</p>
+
+      <h2>Plumbing Licences and Invoicing Requirements</h2>
+      <p>Before invoicing for plumbing work in Australia, you need appropriate licensing. Requirements vary by state:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">State/Territory</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Licensing Body</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Key Requirement</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">VIC</td><td class="py-2 pr-4">Victorian Building Authority (VBA)</td><td class="py-2 pr-4">Plumbing registration + licence</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">NSW</td><td class="py-2 pr-4">NSW Fair Trading</td><td class="py-2 pr-4">Plumbing licence + Contractor licence ($5K+)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">QLD</td><td class="py-2 pr-4">QBCC</td><td class="py-2 pr-4">Plumber licence + QBCC contractor licence</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">SA</td><td class="py-2 pr-4">Consumer and Business Services</td><td class="py-2 pr-4">Plumbing licence (Class 1, 2, or 3)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">WA</td><td class="py-2 pr-4">Department of Mines (Plumbers Licensing Board)</td><td class="py-2 pr-4">Plumber's licence + Tradesperson licence</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">TAS</td><td class="py-2 pr-4">Consumer, Building and Occupational Services</td><td class="py-2 pr-4">Plumber licence</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Your licence number must appear on every invoice and quote. This is a legal requirement, not optional. Clients, builders, and insurance companies will check.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Compliance Tip</h3>
+        <p class="text-slate-300 text-sm">Always include your plumbing licence number, ABN, and insurance details on every invoice. For gas work, include your gas fitter registration number separately. Missing these details can void your insurance coverage and create problems during building inspections.</p>
+      </div>
+
+      <h2>Pricing Models for Plumbers</h2>
+
+      <h3>Hourly Rates</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Specialisation</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Standard Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">After-Hours Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">General plumbing</td><td class="py-2 pr-4">$80–$130/hr</td><td class="py-2 pr-4">$120–$260/hr</td><td class="py-2 pr-4">Maintenance, repairs, installations</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Gas fitting</td><td class="py-2 pr-4">$100–$160/hr</td><td class="py-2 pr-4">$150–$320/hr</td><td class="py-2 pr-4">Higher risk = higher rate</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Drainage</td><td class="py-2 pr-4">$90–$140/hr</td><td class="py-2 pr-4">$135–$280/hr</td><td class="py-2 pr-4">CCTV inspection billed separately</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Roof plumbing</td><td class="py-2 pr-4">$85–$140/hr</td><td class="py-2 pr-4">$130–$280/hr</td><td class="py-2 pr-4">Height work may require additional safety charges</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Backflow prevention</td><td class="py-2 pr-4">$100–$150/hr</td><td class="py-2 pr-4">—</td><td class="py-2 pr-4">Specialist certification required</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Fire services</td><td class="py-2 pr-4">$110–$180/hr</td><td class="py-2 pr-4">$165–$360/hr</td><td class="py-2 pr-4">Fire sprinkler + hydrant work</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Call-Out Fees</h3>
+      <p>Most plumbers charge a call-out fee that covers travel, vehicle costs, and the first 15–30 minutes of diagnosis. This is standard practice and should be stated clearly on your quote or website.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Call-Out Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Fee</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Includes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Standard (business hours)</td><td class="py-2 pr-4">$80–$150</td><td class="py-2 pr-4">Travel + first 15–30 min on-site</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">After-hours (6pm–10pm)</td><td class="py-2 pr-4">$150–$250</td><td class="py-2 pr-4">1.5x standard + first 30 min</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Emergency (10pm–6am)</td><td class="py-2 pr-4">$250–$450</td><td class="py-2 pr-4">2x–3x standard + first 30 min</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Weekend</td><td class="py-2 pr-4">$150–$300</td><td class="py-2 pr-4">1.5x–2x standard + first 30 min</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Public holiday</td><td class="py-2 pr-4">$250–$500</td><td class="py-2 pr-4">2x–2.5x standard + first 30 min</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Fixed-Price Jobs</h3>
+      <p>Many residential plumbing jobs are quoted as fixed prices. This is what clients expect — they want to know the total cost before you start. Common fixed-price jobs:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Job Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Price Range</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Includes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Blocked drain (standard)</td><td class="py-2 pr-4">$100–$300</td><td class="py-2 pr-4">Electric eel or hand snake</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Blocked drain (jetting)</td><td class="py-2 pr-4">$250–$600</td><td class="py-2 pr-4">High-pressure water jetting</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">CCTV drain inspection</td><td class="py-2 pr-4">$200–$500</td><td class="py-2 pr-4">Camera + report (USB or email)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Hot water system install</td><td class="py-2 pr-4">$1,500–$4,000</td><td class="py-2 pr-4">Supply + install (gas/electric/heat pump)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Toilet replacement</td><td class="py-2 pr-4">$400–$900</td><td class="py-2 pr-4">Supply + install + removal of old</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Tap/mixer replacement</td><td class="py-2 pr-4">$180–$450</td><td class="py-2 pr-4">Supply + install (complexity varies)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Gas bayonet install</td><td class="py-2 pr-4">$200–$500</td><td class="py-2 pr-4">Per bayonet point</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Bathroom renovation (plumbing only)</td><td class="py-2 pr-4">$3,000–$12,000</td><td class="py-2 pr-4">Rough-in + fit-off, excludes fixtures</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Backflow device install + test</td><td class="py-2 pr-4">$350–$800</td><td class="py-2 pr-4">Device + installation + compliance cert</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Quoting Tip</h3>
+        <p class="text-slate-300 text-sm">Always state clearly what is and isn't included in a fixed price. For drain work, add a clause: "Price based on standard blockage. If CCTV inspection reveals pipe damage, tree root intrusion, or collapsed pipe, additional repairs will be quoted separately." This prevents scope creep and protects your margin.</p>
+      </div>
+
+      <h2>After-Hours and Emergency Billing</h2>
+      <p>Emergency plumbing is one of the most profitable segments of the trade. Burst pipes, gas leaks, and sewage overflows can't wait until Monday morning. Your invoice should reflect the urgency, unsociable hours, and rapid response required.</p>
+
+      <p>Standard after-hours multipliers:</p>
+      <ul>
+        <li><strong>After-hours (6pm–10pm weekdays):</strong> 1.5x standard rate</li>
+        <li><strong>Late night (10pm–6am):</strong> 2x–2.5x standard rate</li>
+        <li><strong>Weekend (Saturday):</strong> 1.5x standard rate</li>
+        <li><strong>Sunday:</strong> 2x standard rate</li>
+        <li><strong>Public holidays:</strong> 2x–2.5x standard rate</li>
+      </ul>
+
+      <p>Always state your after-hours rates on your website, Google Business profile, and in your terms. When you arrive at a job, verbally confirm the rate before starting. Put it in writing (even a text message) if the client wasn't pre-quoted. This prevents disputes later.</p>
+
+      <h2>Materials Billing</h2>
+      <p>Plumbing materials range from a $3 O-ring to a $3,000 hot water system. How you bill materials affects both your professionalism and your margins.</p>
+
+      <h3>Markup Structure</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Material Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Standard Markup</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Fittings (elbows, connectors, valves)</td><td class="py-2 pr-4">30–50%</td><td class="py-2 pr-4">Small items, high handling cost</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Pipe (PVC, copper, PEX)</td><td class="py-2 pr-4">20–35%</td><td class="py-2 pr-4">Bulk supply from trade accounts</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Fixtures (taps, toilets, basins)</td><td class="py-2 pr-4">15–25%</td><td class="py-2 pr-4">Higher value items, lower percentage</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Hot water systems</td><td class="py-2 pr-4">10–20%</td><td class="py-2 pr-4">Big-ticket item, percentage still meaningful</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Specialist items (backflow devices, TMVs)</td><td class="py-2 pr-4">20–30%</td><td class="py-2 pr-4">Specialist knowledge to source + install</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Many plumbers use trade accounts at Reece, Tradelink, or Samios with 30-day terms and trade pricing. The difference between trade price and retail price is your margin. If a client wants to supply their own fixtures, bill labour only but clearly state that your warranty doesn't cover client-supplied items.</p>
+
+      <h2>Compliance Certificates and Documentation</h2>
+      <p>Plumbing is one of the most regulated trades in Australia. Certain work requires compliance certificates, and these should be invoiced as part of the job — not given away free.</p>
+
+      <ul>
+        <li><strong>Compliance certificate (VIC):</strong> Required for all sanitary plumbing, water supply, gas fitting, and drainage work. Must be lodged with the VBA within 5 business days</li>
+        <li><strong>Certificate of Compliance (NSW):</strong> Required for plumbing and drainage work. Filed with the local council or NSW Fair Trading</li>
+        <li><strong>Form 4/4A (QLD):</strong> Notifiable work form lodged with QBCC within 5 days</li>
+        <li><strong>Gas compliance:</strong> Separate compliance certificate for all gas fitting work in all states. Gas leak test documentation must be retained</li>
+        <li><strong>Backflow test reports:</strong> Annual testing reports required for commercial properties. Charge $80–$200 per device for the test + report</li>
+      </ul>
+
+      <p>Bill compliance certificates as a line item — typically $50–$150 per certificate depending on your state's lodgement fees. This covers your time filling out forms, lodging with the authority, and record-keeping.</p>
+
+      <h2>Progress Claims for Large Jobs</h2>
+      <p>For bathroom renovations, new builds, or commercial projects, you should use progress claims rather than a single final invoice.</p>
+
+      <h3>Typical Progress Claim Structure</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Stage</th>
+              <th class="text-left py-2 pr-4 text-slate-300">% of Total</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Trigger</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Deposit</td><td class="py-2 pr-4">10–20%</td><td class="py-2 pr-4">Quote acceptance, materials ordering</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Rough-in complete</td><td class="py-2 pr-4">30–40%</td><td class="py-2 pr-4">All pipes in walls/floor, pressure tested</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Fit-off complete</td><td class="py-2 pr-4">30–40%</td><td class="py-2 pr-4">All fixtures connected, functional</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Final / handover</td><td class="py-2 pr-4">10–20%</td><td class="py-2 pr-4">Final test, compliance certificates, clean-up</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Builder Payment Terms</h3>
+        <p class="text-slate-300 text-sm">When subcontracting to builders, expect 14–30 day payment terms (sometimes 45+ for large builders). Factor this into your pricing — if you're financing materials for 45 days, your rates should reflect that. Get payment terms in writing before starting. Some states have Security of Payment legislation that protects subcontractors from slow-paying head contractors.</p>
+      </div>
+
+      <h2>GST and Tax for Plumbers</h2>
+      <p>Plumbing services are fully GST-applicable (no exemptions). If you're registered for GST (mandatory over $75K turnover), you must charge 10% GST on all invoices.</p>
+
+      <h3>TPAR (Taxable Payments Annual Report)</h3>
+      <p>If you're a builder or head contractor and you subcontract plumbing work to other plumbers, you must lodge a TPAR with the ATO by 28 August each year. This reports all payments to subcontractors. If you're the subcontractor, your ABN and payment details will be reported — so make sure your invoices are clean and accurate.</p>
+
+      <h3>Plumber-Specific Tax Deductions</h3>
+      <ul>
+        <li><strong>Tools and equipment:</strong> Pipe wrenches, electric eels, CCTV cameras, jetting machines, copper press tools. Items over $300 depreciated, under $300 claimed immediately</li>
+        <li><strong>Vehicle expenses:</strong> Van or ute running costs (logbook method or cents-per-km). Vehicle signwriting is deductible</li>
+        <li><strong>Trade accounts:</strong> Reece, Tradelink, Samios — stock on hand for common jobs</li>
+        <li><strong>Licence and registration fees:</strong> Plumbing licence renewal, gas fitter registration, CPD courses</li>
+        <li><strong>Insurance:</strong> Public liability, professional indemnity, tool insurance, income protection</li>
+        <li><strong>PPE:</strong> Steel-cap boots, gloves, safety glasses, hard hats, high-vis</li>
+        <li><strong>Software:</strong> ServiceM8, Tradify, Fergus, Xero, InvoiceFlow — any job management or invoicing software</li>
+        <li><strong>Phone and internet:</strong> Business-use percentage of your mobile and home internet</li>
+      </ul>
+
+      <h2>Sample Plumber Invoice</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Tax Invoice — Emergency Hot Water Replacement</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p><strong>FROM:</strong> Dave's Plumbing Services | ABN: 12 345 678 901 | VBA Licence: 45678</p>
+          <p><strong>TO:</strong> Sarah Chen | 42 River Rd, Richmond VIC 3121</p>
+          <p><strong>Invoice:</strong> DPS-2026-089 | <strong>Date:</strong> 15 Feb 2026 | <strong>Due:</strong> 22 Feb 2026</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Emergency call-out (Saturday) ................................ $250.00</p>
+          <p>Labour — remove old HWS + install new (3.5 hrs @ $130/hr) .. $455.00</p>
+          <p>Rheem Stellar 330L Gas HWS (supply) ........................ $1,890.00</p>
+          <p>Copper fittings, gas flex, relief drain materials .......... $145.00</p>
+          <p>Compliance certificate (gas + plumbing) ..................... $120.00</p>
+          <p>Disposal of old hot water system ............................. $80.00</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal ................................................. $2,940.00</p>
+          <p>GST (10%) ................................................... $294.00</p>
+          <p class="font-bold text-white">TOTAL DUE ................................................ $3,234.00</p>
+          <p class="text-slate-400 mt-2">Payment: Due within 7 days | Bank: CBA | BSB: 063-010 | Acc: 7654 3210</p>
+          <p class="text-slate-400">Ref: DPS-2026-089</p>
+          <p class="text-slate-400 mt-2">Manufacturer warranty: 10 years on tank, 1 year on labour.</p>
+          <p class="text-slate-400">Compliance certificates lodged with VBA within 5 business days.</p>
+        </div>
+      </div>
+
+      <h2>Common Invoicing Mistakes Plumbers Make</h2>
+      <ol>
+        <li><strong>Not charging a call-out fee:</strong> If you drive 30 minutes to diagnose a dripping tap and the client decides not to proceed, you've lost an hour plus fuel. Always charge a call-out fee — it's industry standard and clients expect it</li>
+        <li><strong>Absorbing compliance certificate costs:</strong> Lodging compliance paperwork takes time and often involves fees. Bill it as a line item. Clients don't see it if you bury it in labour, and it devalues your compliance work</li>
+        <li><strong>Not documenting after-hours rates upfront:</strong> A 2am burst pipe is stressful enough without a pricing dispute. State your after-hours multipliers on your website, on quotes, and verbally before starting work. Get written acknowledgement if possible</li>
+        <li><strong>Invoicing builders without a subcontract agreement:</strong> Verbal agreements with builders are a recipe for slow payment and scope disputes. Get a written subcontract with payment terms, variation procedures, and scope before you start</li>
+        <li><strong>Not separating materials from labour:</strong> Clients want to see what they're paying for. Always itemise materials and labour separately. This also helps if there's a warranty claim — you can identify exactly what was installed</li>
+        <li><strong>Forgetting to include licence numbers:</strong> Your plumbing licence number must be on every quote and invoice. For gas work, include your gas fitter registration separately. Missing this can void your insurance and cause inspection issues</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-electricians-tradespeople-australia" class="text-teal-400 hover:text-teal-300 underline">Electrician & Tradesperson Invoicing</a> — Similar call-out + materials billing for other trades</li>
+        <li><a href="/blog/invoicing-carpenters-builders-australia" class="text-teal-400 hover:text-teal-300 underline">Builder Invoicing</a> — Progress claims and subcontractor payment structures</li>
+        <li><a href="/blog/invoicing-landscapers-gardeners-australia" class="text-teal-400 hover:text-teal-300 underline">Landscaper Invoicing</a> — Materials markup and quoting for outdoor trades</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Payments</a> — Progress claims for large renovation projects</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing essentials</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional plumbing invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-life-coaches-business-coaches-australia': {
+    slug: 'invoicing-life-coaches-business-coaches-australia',
+    title: 'How to Invoice as a Life Coach or Business Coach in Australia',
+    excerpt: 'Complete invoicing guide for life coaches and business coaches in Australia — session rates, coaching packages, retainer models, group programs, corporate coaching, GST treatment, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '13 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Life Coach or Business Coach in Australia | 2026 Guide',
+    seoDescription: 'Australian life coach and business coach invoicing guide. Session rates, coaching packages, retainer models, group program pricing, corporate coaching, ICF certification, GST, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">The coaching industry in Australia has exploded — the ICF estimates it's worth over $1.5 billion globally, and Australian coaches charge anywhere from $100 to $500+ per hour depending on niche, experience, and clientele. Whether you're a life coach, executive coach, business coach, health coach, or career coach, getting your invoicing right is essential for running a professional practice. This guide covers pricing, packaging, and invoicing strategies specifically for Australian coaches.</p>
+
+      <h2>Coaching Pricing Models</h2>
+      <p>Coaches have more pricing flexibility than most service providers. The key is matching your pricing model to your client type and delivery format.</p>
+
+      <h3>Per-Session Rates</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Coach Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Per Session (60 min)</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Per Session (90 min)</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">New life coach (0–2 yrs)</td><td class="py-2 pr-4">$80–$150</td><td class="py-2 pr-4">$120–$200</td><td class="py-2 pr-4">Building practice + testimonials</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Established life coach (2–5 yrs)</td><td class="py-2 pr-4">$150–$300</td><td class="py-2 pr-4">$200–$400</td><td class="py-2 pr-4">Proven results, referral base</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Business coach</td><td class="py-2 pr-4">$200–$450</td><td class="py-2 pr-4">$300–$600</td><td class="py-2 pr-4">ROI-driven, business results measurable</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Executive coach</td><td class="py-2 pr-4">$300–$600</td><td class="py-2 pr-4">$400–$800</td><td class="py-2 pr-4">C-suite and senior leadership</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Career coach</td><td class="py-2 pr-4">$120–$250</td><td class="py-2 pr-4">$180–$350</td><td class="py-2 pr-4">Often packages over hourly</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Health/wellness coach</td><td class="py-2 pr-4">$100–$200</td><td class="py-2 pr-4">$150–$280</td><td class="py-2 pr-4">May be GST-free if allied health</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pricing Principle</h3>
+        <p class="text-slate-300 text-sm">Never compete on price as a coach. Your rate signals your value. Dropping from $250/session to $150 to win a client rarely works — it attracts price-sensitive clients who are less committed and more likely to cancel. Price for the client you want, not the one you're afraid to lose.</p>
+      </div>
+
+      <h3>Coaching Packages (Recommended)</h3>
+      <p>Most successful coaches sell packages rather than individual sessions. Packages improve commitment, reduce cancellations, and provide predictable revenue.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Package Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Structure</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Price Range</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Best For</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Starter (6-week)</td><td class="py-2 pr-4">6 sessions + email support</td><td class="py-2 pr-4">$600–$1,800</td><td class="py-2 pr-4">New clients testing coaching</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Transformation (3-month)</td><td class="py-2 pr-4">12 sessions + Voxer/WhatsApp + worksheets</td><td class="py-2 pr-4">$1,800–$5,000</td><td class="py-2 pr-4">Core offering for most coaches</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Deep Dive (6-month)</td><td class="py-2 pr-4">24 sessions + ongoing support + resources</td><td class="py-2 pr-4">$4,000–$12,000</td><td class="py-2 pr-4">Committed clients, major life/business change</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">VIP Day</td><td class="py-2 pr-4">Full day intensive (6–8 hrs)</td><td class="py-2 pr-4">$1,500–$5,000</td><td class="py-2 pr-4">Strategy sessions, business planning</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Retainer (ongoing)</td><td class="py-2 pr-4">Monthly sessions + async support</td><td class="py-2 pr-4">$800–$3,000/mo</td><td class="py-2 pr-4">Long-term clients, executive coaching</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Group Coaching Programs</h3>
+      <p>Group coaching is one of the most leveraged pricing models available to coaches. You deliver to multiple clients simultaneously while charging a fraction of your 1:1 rate per person — everyone wins.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Format</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Group Size</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Per Person</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Your Revenue</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">8-week group program</td><td class="py-2 pr-4">8–12 people</td><td class="py-2 pr-4">$500–$1,500</td><td class="py-2 pr-4">$4K–$18K per cohort</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">12-week mastermind</td><td class="py-2 pr-4">6–10 people</td><td class="py-2 pr-4">$2,000–$5,000</td><td class="py-2 pr-4">$12K–$50K per cohort</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Monthly membership</td><td class="py-2 pr-4">20–100 people</td><td class="py-2 pr-4">$49–$197/mo</td><td class="py-2 pr-4">$1K–$20K/mo recurring</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Corporate Coaching Invoicing</h2>
+      <p>Corporate coaching is where the real money is. Companies pay premium rates because coaching their leaders produces measurable business outcomes. But invoicing corporates is different from invoicing individuals.</p>
+
+      <h3>Corporate Rate Structure</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Executive coaching (per session)</td><td class="py-2 pr-4">$400–$800</td><td class="py-2 pr-4">Usually 60–90 min</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Executive coaching (6-month program)</td><td class="py-2 pr-4">$8,000–$25,000</td><td class="py-2 pr-4">12 sessions + assessments + report</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Team coaching (half-day)</td><td class="py-2 pr-4">$2,000–$5,000</td><td class="py-2 pr-4">Up to 20 participants</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Team coaching (full-day)</td><td class="py-2 pr-4">$4,000–$10,000</td><td class="py-2 pr-4">Up to 20 participants</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Leadership program (per head)</td><td class="py-2 pr-4">$1,500–$5,000</td><td class="py-2 pr-4">Multi-session program</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">360 assessment + debrief</td><td class="py-2 pr-4">$500–$1,500</td><td class="py-2 pr-4">Per coachee</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Corporate Invoice Requirements</h3>
+      <ul>
+        <li><strong>Purchase order (PO) number:</strong> Most corporates require a PO before processing payment. Always ask for a PO reference and include it on your invoice</li>
+        <li><strong>Billing entity:</strong> Invoice the company, not the individual coachee. Get the exact legal entity name and billing address from the procurement or finance team</li>
+        <li><strong>Payment terms:</strong> Corporates typically pay on 30-day terms (some 45 or 60). Factor this into your pricing — you're effectively financing the engagement</li>
+        <li><strong>Progress reports:</strong> Some corporates require mid-program reports before releasing payment milestones. Budget time for this and include it as a line item if it's significant</li>
+        <li><strong>Coaching hours log:</strong> Many corporate clients want a log of completed coaching hours against the contracted total. Include this as an attachment with your invoice</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Corporate Tip</h3>
+        <p class="text-slate-300 text-sm">For corporate engagements, always have a formal coaching agreement that outlines confidentiality boundaries. The company pays for coaching, but the content of sessions is confidential between you and the coachee. The company gets progress reports (coachee goals, engagement level) but not session transcripts. This protects your ethical obligations under ICF standards and builds trust with coachees.</p>
+      </div>
+
+      <h2>Payment Structures for Coaching</h2>
+
+      <h3>Package Payment Options</h3>
+      <p>When selling coaching packages, offer multiple payment options to reduce friction:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Option</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Structure</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Pricing</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Pay in full</td><td class="py-2 pr-4">Single payment before start</td><td class="py-2 pr-4">Full price (or 5–10% discount)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Two payments</td><td class="py-2 pr-4">50% upfront, 50% mid-program</td><td class="py-2 pr-4">Full price</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Monthly instalments</td><td class="py-2 pr-4">Equal monthly payments over program length</td><td class="py-2 pr-4">5–10% premium over pay-in-full</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Always collect the first payment before the first session. This is non-negotiable. It establishes commitment and prevents the "I'll pay after" problem that plagues new coaches.</p>
+
+      <h3>Cancellation and Refund Policy</h3>
+      <p>Your cancellation policy should be in your coaching agreement and referenced on your invoice. A standard approach:</p>
+      <ul>
+        <li><strong>Individual session:</strong> 24-hour cancellation notice required. Less than 24 hours = session forfeit (deducted from package)</li>
+        <li><strong>Package cancellation:</strong> Non-refundable after first session. Before first session, refund minus $200 admin fee</li>
+        <li><strong>Rescheduling:</strong> Up to 2 reschedules per month allowed with 24+ hours notice. Sessions not used within the package timeframe expire</li>
+        <li><strong>Cooling-off period:</strong> Under Australian Consumer Law, there's a 10-day cooling-off period for unsolicited sales. If the client approached you, this may not apply, but offering a reasonable refund window (7 days) builds trust</li>
+      </ul>
+
+      <h2>GST and Tax for Coaches</h2>
+      <p>Coaching services are generally GST-applicable in Australia. If you're registered for GST (mandatory over $75K turnover), you charge 10% on all invoices.</p>
+
+      <h3>Health Coach GST Exception</h3>
+      <p>If you're a qualified health professional (dietitian, psychologist, exercise physiologist) who also provides coaching, your services may be GST-free under the health services exemption. This applies only if:</p>
+      <ul>
+        <li>You hold a relevant health qualification</li>
+        <li>The service is within your scope of practice</li>
+        <li>It's a therapeutic service, not pure "life coaching"</li>
+      </ul>
+      <p>General life coaching and business coaching are NOT GST-free, even if you call yourself a "wellness coach." Get advice from your accountant on your specific situation.</p>
+
+      <h3>Coach-Specific Tax Deductions</h3>
+      <ul>
+        <li><strong>ICF certification and membership:</strong> ACC, PCC, or MCC certification costs + annual membership ($300–$500/yr)</li>
+        <li><strong>Coach training programs:</strong> ICF-accredited coach training ($5K–$20K), specialisation courses, supervision hours</li>
+        <li><strong>Assessment tools:</strong> DISC, Myers-Briggs, StrengthsFinder, Hogan — licence fees per assessment ($20–$150 each)</li>
+        <li><strong>Software:</strong> Zoom/Google Meet, scheduling software (Calendly, Acuity), CRM, invoicing (InvoiceFlow), coaching platforms (CoachAccountable, Paperbell)</li>
+        <li><strong>Professional supervision:</strong> Required by ICF for credential maintenance. Typically $150–$300/session, 10 hours over 3 years</li>
+        <li><strong>Marketing:</strong> Website, advertising, social media management, business cards, photography</li>
+        <li><strong>Home office:</strong> If coaching from home (common for online coaches), claim the business-use portion of rent/mortgage interest, utilities, internet</li>
+        <li><strong>Professional development:</strong> Books, conferences, workshops, memberships (ICF, IAC, EMCC)</li>
+      </ul>
+
+      <h2>Sample Coaching Invoice</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Tax Invoice — 3-Month Business Coaching Program (Payment 1 of 3)</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p><strong>FROM:</strong> Aligned Growth Coaching | ABN: 98 765 432 109 | ICF PCC #12345</p>
+          <p><strong>TO:</strong> Rebecca Lane | Lane Digital Pty Ltd | 15 Collins St, Melbourne VIC 3000</p>
+          <p><strong>Invoice:</strong> AGC-2026-034 | <strong>Date:</strong> 1 Mar 2026 | <strong>Due:</strong> 8 Mar 2026</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">3-Month Business Coaching Program — Instalment 1 of 3 ..... $1,500.00</p>
+          <p class="text-slate-400 text-xs">(Program includes: 12 x 60-min 1:1 sessions, unlimited Voxer/WhatsApp support, DISC assessment + debrief, personalised action plans, session recordings)</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal ................................................. $1,500.00</p>
+          <p>GST (10%) ................................................... $150.00</p>
+          <p class="font-bold text-white">TOTAL DUE ................................................ $1,650.00</p>
+          <p class="text-slate-400 mt-2">Payment: Due within 7 days | Bank: NAB | BSB: 083-004 | Acc: 1234 5678</p>
+          <p class="text-slate-400">Ref: AGC-2026-034</p>
+          <p class="text-slate-400 mt-2">Remaining instalments: $1,650 due 1 Apr 2026, $1,650 due 1 May 2026.</p>
+          <p class="text-slate-400">Total program value: $4,950 inc GST. Cancellation policy per coaching agreement dated 20 Feb 2026.</p>
+        </div>
+      </div>
+
+      <h2>Common Invoicing Mistakes Coaches Make</h2>
+      <ol>
+        <li><strong>Selling sessions instead of outcomes:</strong> Your invoice line item should be "3-Month Business Growth Program" not "12 x 1-hour coaching sessions." Outcome-based naming justifies premium pricing and shifts the conversation from time to value</li>
+        <li><strong>Not collecting payment before the first session:</strong> If you coach before you invoice, you're volunteering. Always collect payment (or at least the first instalment) before session one. Payment creates commitment and dramatically reduces no-shows</li>
+        <li><strong>No cancellation policy in writing:</strong> A verbal agreement about cancellations is worthless when a client wants a refund three sessions in. Put your cancellation and refund terms in your coaching agreement and reference them on every invoice</li>
+        <li><strong>Offering unlimited rescheduling:</strong> Allowing unlimited session rescheduling extends a 3-month program to 6+ months. Set a package expiry date and a maximum number of reschedules per month. Sessions not used within the timeframe expire</li>
+        <li><strong>Undercharging for corporate work:</strong> Your corporate rate should be 2–3x your private rate. Companies budget for coaching at premium rates and actually distrust suspiciously low prices. If you charge $150/session for executive coaching, they'll assume you're not qualified enough</li>
+        <li><strong>Not invoicing for program inclusions:</strong> If your package includes WhatsApp support, worksheets, or recordings, list them on the invoice. This justifies your pricing and shows the full value of what the client receives — not just the hours</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-consultants-australia" class="text-teal-400 hover:text-teal-300 underline">Consultant Invoicing</a> — Similar packaging and corporate billing for consulting services</li>
+        <li><a href="/blog/invoicing-personal-trainers-fitness-australia" class="text-teal-400 hover:text-teal-300 underline">Personal Trainer Invoicing</a> — Session packs and wellness industry pricing</li>
+        <li><a href="/blog/invoicing-tutors-private-teachers-australia" class="text-teal-400 hover:text-teal-300 underline">Tutor Invoicing</a> — Session-based billing with similar cancellation structures</li>
+        <li><a href="/blog/retainer-agreements-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">Retainer Agreements</a> — Structuring ongoing coaching retainers</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional coaching invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-dog-walkers-pet-sitters-australia': {
+    slug: 'invoicing-dog-walkers-pet-sitters-australia',
+    title: 'How to Invoice as a Dog Walker or Pet Sitter in Australia',
+    excerpt: 'Complete invoicing guide for dog walkers and pet sitters in Australia — walk rates, overnight sitting, package pricing, cancellation policies, insurance, multi-pet discounts, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '12 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Dog Walker or Pet Sitter in Australia | 2026 Guide',
+    seoDescription: 'Australian dog walker and pet sitter invoicing guide. Walk rates, overnight sitting, package pricing, cancellation policies, insurance, multi-pet discounts, holiday surcharges, GST, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Dog walking and pet sitting is one of Australia's fastest-growing gig economy niches. With pet ownership booming (67% of Australian households have a pet), demand for reliable dog walkers and pet sitters has never been higher. Rates vary widely — from $15 for a quick 20-minute walk to $120+ per night for overnight pet sitting — and most pet care professionals undercharge because they don't invoice properly. This guide covers how to price, package, and invoice every type of pet care service in Australia.</p>
+
+      <h2>Dog Walking Rates</h2>
+
+      <h3>Individual Walks</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Walk Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Duration</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Rate (Per Dog)</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Quick walk</td><td class="py-2 pr-4">20 min</td><td class="py-2 pr-4">$15–$25</td><td class="py-2 pr-4">Toilet break, around the block</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Standard walk</td><td class="py-2 pr-4">30 min</td><td class="py-2 pr-4">$20–$35</td><td class="py-2 pr-4">Most common service</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Extended walk</td><td class="py-2 pr-4">45 min</td><td class="py-2 pr-4">$30–$45</td><td class="py-2 pr-4">Park visit, socialization</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Long walk/adventure</td><td class="py-2 pr-4">60 min</td><td class="py-2 pr-4">$40–$60</td><td class="py-2 pr-4">Beach, bushwalk, off-lead play</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Group walk (per dog)</td><td class="py-2 pr-4">45–60 min</td><td class="py-2 pr-4">$20–$35</td><td class="py-2 pr-4">4–6 dogs max, socialisation focused</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Multi-Pet Discounts</h3>
+      <p>If a client has multiple dogs, discount the second (and subsequent) dog rather than charging full price for each:</p>
+      <ul>
+        <li><strong>Second dog (same household):</strong> 50% of standard rate (e.g., $30 first dog + $15 second dog)</li>
+        <li><strong>Third dog:</strong> 30–50% of standard rate</li>
+        <li><strong>4+ dogs:</strong> Quote a flat rate for the pack walk. More than 3 dogs from one household requires significantly more control and attention</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Group Walk Economics</h3>
+        <p class="text-slate-300 text-sm">A 60-minute group walk with 5 dogs at $25 each earns $125/hour — significantly more than a single-dog walk. But check your local council regulations: many councils limit the number of dogs one person can walk at a time (typically 4–6). You'll also need appropriate insurance covering group walks and may need to match dogs for temperament and size compatibility.</p>
+      </div>
+
+      <h2>Pet Sitting Rates</h2>
+
+      <h3>In-Home Pet Sitting</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Includes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Drop-in visit (30 min)</td><td class="py-2 pr-4">$20–$35</td><td class="py-2 pr-4">Feeding, water, toilet break, quick play</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Drop-in visit (60 min)</td><td class="py-2 pr-4">$35–$55</td><td class="py-2 pr-4">Feeding, walk, play, companionship</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Overnight sitting (in client's home)</td><td class="py-2 pr-4">$60–$120/night</td><td class="py-2 pr-4">Evening + overnight + morning routine</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Overnight sitting (your home)</td><td class="py-2 pr-4">$50–$90/night</td><td class="py-2 pr-4">Pet stays at your place</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Day care (your home)</td><td class="py-2 pr-4">$40–$70/day</td><td class="py-2 pr-4">Drop-off morning, pick-up evening</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Cat and Small Pet Sitting</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Cat visit (30 min)</td><td class="py-2 pr-4">$18–$30</td><td class="py-2 pr-4">Feeding, litter, play, cuddles</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Cat visit (extended, 60 min)</td><td class="py-2 pr-4">$30–$50</td><td class="py-2 pr-4">Extra time for anxious or social cats</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Small pets (rabbits, guinea pigs, fish)</td><td class="py-2 pr-4">$15–$25/visit</td><td class="py-2 pr-4">Feeding, water, enclosure check</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Exotic/specialist (reptiles, birds)</td><td class="py-2 pr-4">$25–$45/visit</td><td class="py-2 pr-4">Specialist knowledge required, charge accordingly</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Holiday and Peak Period Surcharges</h3>
+      <p>Demand for pet sitting spikes dramatically during school holidays, Christmas/New Year, and long weekends. Your pricing should reflect this.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Period</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Surcharge</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Rationale</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Christmas/New Year (Dec 20 – Jan 5)</td><td class="py-2 pr-4">$10–$25/night extra</td><td class="py-2 pr-4">Highest demand, you're working when others aren't</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Easter long weekend</td><td class="py-2 pr-4">$10–$15/night extra</td><td class="py-2 pr-4">High travel period</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">School holidays</td><td class="py-2 pr-4">$5–$10/night extra</td><td class="py-2 pr-4">Family travel season</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Public holidays</td><td class="py-2 pr-4">$10–$20/day extra</td><td class="py-2 pr-4">Per-day surcharge on day walks too</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Last-minute booking (<48 hrs)</td><td class="py-2 pr-4">$10–$20 flat fee</td><td class="py-2 pr-4">Rearranging your schedule has value</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Holiday Booking Strategy</h3>
+        <p class="text-slate-300 text-sm">Announce holiday rates at least 6 weeks in advance and require 50% deposit to secure the booking. Christmas/New Year bookings should be confirmed and deposited by mid-November. Holiday pet sitting is your biggest revenue opportunity of the year — don't give it away at standard rates.</p>
+      </div>
+
+      <h2>Package Pricing</h2>
+      <p>Regular dog walking clients should be on packages, not pay-per-walk. Packages improve retention, reduce admin, and create predictable monthly income.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Package</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Walks/Week</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Monthly Price</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Per-Walk Effective Rate</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Occasional</td><td class="py-2 pr-4">1</td><td class="py-2 pr-4">$120–$140</td><td class="py-2 pr-4">$30–$35 (standard rate)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Regular</td><td class="py-2 pr-4">3</td><td class="py-2 pr-4">$300–$360</td><td class="py-2 pr-4">$25–$30 (10–15% discount)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Daily</td><td class="py-2 pr-4">5</td><td class="py-2 pr-4">$440–$520</td><td class="py-2 pr-4">$22–$26 (20–25% discount)</td></tr>
+            <tr class="border-b border-slate-800"><td class="py-2 pr-4">Premium Daily</td><td class="py-2 pr-4">5 (60 min)</td><td class="py-2 pr-4">$700–$880</td><td class="py-2 pr-4">$35–$44 (longer walks)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Bill packages monthly in advance — either on the 1st of each month or on the client's start anniversary. This is critical. Invoicing after the month is done means you're chasing payment for work already completed. Invoicing in advance means the client is paying for a service they've committed to.</p>
+
+      <h2>Cancellation and No-Show Policy</h2>
+      <p>Cancellations are the biggest revenue leak for dog walkers. Without a clear policy, clients cancel last-minute when the weather's bad or their plans change, and you lose that income.</p>
+
+      <ul>
+        <li><strong>24+ hours notice:</strong> Full credit or reschedule</li>
+        <li><strong>Less than 24 hours:</strong> 50% of walk fee charged</li>
+        <li><strong>Same-day / no-show:</strong> Full walk fee charged</li>
+        <li><strong>Pet sitting cancellation:</strong> 7+ days = full refund minus deposit. 3–7 days = 50% refund. Less than 3 days = no refund</li>
+        <li><strong>Holiday pet sitting:</strong> Non-refundable deposit (50%) at booking. Balance due 14 days before sitting starts. Cancellation within 14 days = no refund</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Policy Communication</h3>
+        <p class="text-slate-300 text-sm">Include your cancellation policy in your client onboarding pack, reference it on every invoice, and have clients acknowledge it in writing (your pet care agreement). When enforcing it for the first time with a client, be firm but friendly: "As per our agreement, same-day cancellations are charged at the full rate. I had reserved this time for [dog's name] and turned down other bookings." Most clients understand — and the ones who don't aren't clients you want.</p>
+      </div>
+
+      <h2>Insurance and Legal Requirements</h2>
+      <p>Pet care doesn't require licensing in most Australian states (unlike plumbing or electrical work), but you absolutely need insurance.</p>
+
+      <ul>
+        <li><strong>Public liability insurance:</strong> $5–$20 million cover. Essential. Covers injury to pets, damage to client property, dog bite incidents, third-party injury. Cost: $300–$600/year</li>
+        <li><strong>Professional indemnity:</strong> Covers claims of negligence or failure to provide adequate care. Cost: $200–$500/year</li>
+        <li><strong>Care, custody and control:</strong> Some public liability policies exclude animals in your care. Check this specifically — you need a policy that covers animals entrusted to you. Standard home insurance typically doesn't cover your business activities</li>
+        <li><strong>Vehicle coverage:</strong> If transporting dogs in your car, your standard car insurance may not cover business use. Notify your insurer and add business use if needed</li>
+      </ul>
+
+      <p>Include your insurance policy number on your invoices and client agreements. Professional clients (property managers, body corporates) and platforms (Mad Paws, Pawshake) often require proof of insurance before listing.</p>
+
+      <h2>GST and Tax for Pet Care Professionals</h2>
+      <p>Pet care services are GST-applicable. If you're GST-registered (mandatory over $75K turnover), charge 10% on all invoices.</p>
+
+      <p>Most solo dog walkers earn under the $75K threshold, so GST registration is optional. However, if you're growing quickly or running a multi-walker operation, voluntary registration lets you claim GST credits on business expenses (car costs, insurance, supplies).</p>
+
+      <h3>Pet Care Tax Deductions</h3>
+      <ul>
+        <li><strong>Vehicle expenses:</strong> Driving between clients is your biggest expense. Track mileage with the logbook method (not cents-per-km, which caps at 5,000 km). Fuel, rego, insurance, maintenance — all claimable at business-use percentage</li>
+        <li><strong>Insurance:</strong> Public liability, professional indemnity, vehicle — all fully deductible</li>
+        <li><strong>Equipment:</strong> Leads, harnesses, treat pouches, waste bags, cleaning supplies, crates, first aid kits</li>
+        <li><strong>Platform fees:</strong> Mad Paws, Pawshake, Rover — commission fees are deductible</li>
+        <li><strong>Marketing:</strong> Website, business cards, uniform, flyers, Facebook/Instagram advertising</li>
+        <li><strong>Phone:</strong> Business-use percentage of your mobile (client communication, GPS tracking apps)</li>
+        <li><strong>Training:</strong> Pet first aid courses, dog behaviour courses, Certificate III in Animal Studies</li>
+        <li><strong>Software:</strong> Scheduling apps (Time To Pet, PetSitClick), invoicing software (InvoiceFlow), accounting software</li>
+        <li><strong>Home office:</strong> If you do admin from home — invoicing, scheduling, client communication</li>
+      </ul>
+
+      <h2>Sample Pet Sitter Invoice</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Tax Invoice — Holiday Pet Sitting (Christmas)</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p><strong>FROM:</strong> Paws & Go Pet Care | ABN: 11 222 333 444</p>
+          <p><strong>TO:</strong> James and Michelle Park | 8 Oak Ave, Camberwell VIC 3124</p>
+          <p><strong>Invoice:</strong> PG-2026-112 | <strong>Date:</strong> 10 Dec 2025 | <strong>Due:</strong> 17 Dec 2025</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">In-home overnight pet sitting — 10 nights (20 Dec – 30 Dec) ... $950.00</p>
+          <p class="text-slate-400 text-xs">(Base rate $80/night + $15/night Christmas surcharge = $95/night x 10)</p>
+          <p>Additional pet — 1 cat ............................................ $100.00</p>
+          <p class="text-slate-400 text-xs">($10/night for cat feeding, litter, medication)</p>
+          <p>Daily dog walk (30 min) — 10 days ................................ $250.00</p>
+          <p>Plant watering + mail collection ................................. $0.00</p>
+          <p class="text-slate-400 text-xs">(Complimentary with overnight sitting)</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal .................................................. $1,300.00</p>
+          <p>Less: Deposit paid (50% on 15 Nov) ............................. -$650.00</p>
+          <p class="font-bold text-white">BALANCE DUE ................................................ $650.00</p>
+          <p class="text-slate-400 mt-2">Payment: Due before sitting starts (17 Dec) | Bank: Westpac | BSB: 033-000 | Acc: 9876 5432</p>
+          <p class="text-slate-400">Ref: PG-2026-112</p>
+          <p class="text-slate-400 mt-2">Insurance: Public liability $10M (Policy #PL-2026-8899)</p>
+          <p class="text-slate-400">Emergency vet contact and authorisation on file (signed 18 Nov 2025).</p>
+          <p class="text-slate-400">Cancellation: Non-refundable deposit. Balance cancellation per pet care agreement.</p>
+        </div>
+      </div>
+
+      <h2>Common Invoicing Mistakes Pet Care Professionals Make</h2>
+      <ol>
+        <li><strong>Not charging holiday surcharges:</strong> Christmas, Easter, and school holidays are your busiest and most valuable periods. You're working when everyone else is on holiday — your rates should reflect that. Announce holiday pricing 6+ weeks in advance so it's not a surprise</li>
+        <li><strong>Invoicing monthly in arrears instead of in advance:</strong> If you walk a dog 20 times then invoice at month-end, you're chasing money for work already done. Bill packages in advance on the 1st. For casual clients, require payment on the day or pre-payment via bank transfer</li>
+        <li><strong>No multi-pet pricing structure:</strong> Charging full price for a second or third dog from the same household feels excessive to clients and invites negotiation. Set a clear multi-pet discount (typically 50% for the second dog) and put it on your rate card</li>
+        <li><strong>Not including pet details on invoices:</strong> Include the pet's name, breed, and service specifics on every invoice. "Dog walking — November" is vague. "30-min daily walk for Cooper (Golden Retriever) — Nov 2026, 22 walks" is professional and prevents disputes</li>
+        <li><strong>No emergency vet authorisation:</strong> Before any sitting job, have the client sign an emergency vet authorisation with their vet's details and a spending limit (typically $500–$1,000). Invoice any emergency vet costs separately with receipts. Without this, you could be personally liable for vet bills</li>
+        <li><strong>Undervaluing overnight sitting:</strong> Staying in someone's home overnight, being on-call for their pet, disrupting your own routine — that's worth more than $40/night. Research your local market rates and charge accordingly. Factor in evening routine, morning routine, and overnight responsibility</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-personal-trainers-fitness-australia" class="text-teal-400 hover:text-teal-300 underline">Personal Trainer Invoicing</a> — Session packs and recurring billing models</li>
+        <li><a href="/blog/invoicing-cleaners-cleaning-business-australia" class="text-teal-400 hover:text-teal-300 underline">Cleaner Invoicing</a> — Similar recurring service billing and cancellation policies</li>
+        <li><a href="/blog/invoicing-yoga-pilates-instructors-australia" class="text-teal-400 hover:text-teal-300 underline">Yoga Instructor Invoicing</a> — Pack-based pricing and session expiry models</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing essentials</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle & Travel Expenses</a> — Maximising vehicle deductions for mobile services</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional pet care invoices instantly</li>
+      </ul>
+    `,
+  },
 };
