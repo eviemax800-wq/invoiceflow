@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 24 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 26 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -204,7 +204,7 @@ const tools = [
     href: '/tools/project-profitability',
     icon: '\u{1F4CA}',
     color: 'from-violet-400 to-purple-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Business Health Score',
@@ -222,7 +222,7 @@ const tools = [
     href: '/tools/scope-of-work-generator',
     icon: '\u{1F4CB}',
     color: 'from-indigo-400 to-blue-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Meeting Cost Calculator',
@@ -231,6 +231,24 @@ const tools = [
     href: '/tools/meeting-cost-calculator',
     icon: '\u{1F4B8}',
     color: 'from-amber-400 to-rose-500',
+    badge: '',
+  },
+  {
+    title: 'Contract Clause Generator',
+    description:
+      'Generate professional freelance contract clauses for scope, payment, IP, confidentiality, termination, and more. Copy and send to clients.',
+    href: '/tools/contract-clause-generator',
+    icon: '\u{1F4DC}',
+    color: 'from-cyan-400 to-teal-500',
+    badge: 'New',
+  },
+  {
+    title: 'ATO Tax Calendar',
+    description:
+      'Track all your ATO deadlines — BAS quarterly/monthly, PAYG instalments, super, income tax, and more. Never miss a due date.',
+    href: '/tools/tax-calendar',
+    icon: '\u{1F4C6}',
+    color: 'from-purple-400 to-indigo-500',
     badge: 'New',
   },
 ];
