@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. GST calculator, invoice generator, rate calculator, tax estimator, super calculator, billable hours tracker, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 16 calculators and generators including GST, invoices, rates, tax, super, billable hours, revenue planning, payment reminders, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -132,7 +132,7 @@ const tools = [
     href: '/tools/salary-to-hourly',
     icon: '\u{1F504}',
     color: 'from-pink-400 to-rose-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Expense & Deduction Calculator',
@@ -141,6 +141,24 @@ const tools = [
     href: '/tools/expense-deduction-calculator',
     icon: '\u{1F9FE}',
     color: 'from-yellow-400 to-amber-500',
+    badge: '',
+  },
+  {
+    title: 'Revenue Goal Planner',
+    description:
+      'Break your annual income target into monthly, weekly, and daily billing targets. Factor in tax, super, expenses, and leave.',
+    href: '/tools/revenue-goal-planner',
+    icon: '\u{1F3AF}',
+    color: 'from-teal-400 to-cyan-500',
+    badge: 'New',
+  },
+  {
+    title: 'Payment Reminder Generator',
+    description:
+      'Generate professional payment reminder emails for overdue invoices. 4 tones from friendly to final notice.',
+    href: '/tools/payment-reminder-generator',
+    icon: '\u{1F4E7}',
+    color: 'from-rose-400 to-pink-500',
     badge: 'New',
   },
 ];
