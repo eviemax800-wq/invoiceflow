@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. GST calculator, invoice generator, rate calculator, tax estimator, late payment interest calculator, and ABN lookup. No signup required.',
+    'Free tools for Australian freelancers and small businesses. GST calculator, invoice generator, rate calculator, tax estimator, profit margin calculator, contractor vs employee test, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -69,6 +69,24 @@ const tools = [
     href: '/tools/tax-estimator',
     icon: '\u{1F4CA}',
     color: 'from-violet-400 to-indigo-500',
+    badge: '',
+  },
+  {
+    title: 'Contractor vs Employee Calculator',
+    description:
+      'Determine if a worker is an independent contractor or employee using the ATO multi-factor test.',
+    href: '/tools/contractor-employee-calculator',
+    icon: '\u{1F465}',
+    color: 'from-sky-400 to-blue-500',
+    badge: 'New',
+  },
+  {
+    title: 'Profit Margin Calculator',
+    description:
+      'Calculate your real take-home profit after costs, income tax, Medicare levy, and super.',
+    href: '/tools/profit-margin-calculator',
+    icon: '\u{1F4B0}',
+    color: 'from-lime-400 to-emerald-500',
     badge: 'New',
   },
 ];
