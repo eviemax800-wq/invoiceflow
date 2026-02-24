@@ -129,7 +129,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         <div className="flex items-center gap-2 text-sm text-slate-400 mb-8">
           <Link href="/blog" className="hover:text-white">Blog</Link>
           <span>/</span>
-          <span className="text-slate-200">{post.category}</span>
+          <Link href={`/blog/category/${post.category.toLowerCase().replace(/\s+/g, '-')}`} className="hover:text-white">{post.category}</Link>
         </div>
 
         {/* Article Header */}

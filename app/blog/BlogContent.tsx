@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Button from '@/components/ui/Button';
 import { blogPosts } from './posts';
 
-const CATEGORIES = ['All', 'Invoicing', 'Tax', 'Business', 'Getting Started', 'Getting Paid', 'Growth', 'Pricing'] as const;
+const CATEGORIES = ['All', 'Invoicing', 'Tax', 'Business', 'Getting Started', 'Getting Paid', 'Growth', 'Pricing', 'Profession Guides'] as const;
 
 export default function BlogContent() {
   const [activeCategory, setActiveCategory] = useState<string>('All');
@@ -50,6 +50,22 @@ export default function BlogContent() {
             Practical guides on invoicing, GST, ABN, and getting paid faster as a freelancer in Australia.
           </p>
         </div>
+
+        {/* Profession Guides Hub CTA */}
+        <Link href="/blog/profession-guides" className="block mb-8 group">
+          <div className="glass rounded-2xl p-5 border border-teal-400/10 hover:border-teal-400/30 transition-all flex items-center gap-4">
+            <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-teal-400 to-blue-500 flex items-center justify-center text-xl shrink-0">
+              📋
+            </div>
+            <div className="flex-1 min-w-0">
+              <h3 className="text-base font-semibold text-white group-hover:text-teal-400 transition-colors">
+                Invoicing Guides by Profession
+              </h3>
+              <p className="text-sm text-slate-400">36+ profession-specific guides — find yours</p>
+            </div>
+            <span className="text-teal-400 group-hover:text-teal-300 text-sm shrink-0 hidden sm:block">Browse all →</span>
+          </div>
+        </Link>
 
         {/* Category Filters */}
         <div className="flex flex-wrap gap-2 mb-8">

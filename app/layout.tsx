@@ -24,11 +24,20 @@ export const metadata: Metadata = {
     description: "Auto-extract invoices from Gmail, categorize with AI, and export to CSV/PDF. Built for freelancers and small businesses.",
     siteName: "InvoiceFlow",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "InvoiceFlow — AI-Powered Invoice Management",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "InvoiceFlow — AI-Powered Invoice Management",
     description: "Auto-extract invoices from Gmail, categorize with AI, and export to CSV/PDF.",
+    images: ["/opengraph-image"],
   },
   robots: {
     index: true,
