@@ -28,6 +28,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tools/payment-reminder-generator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/break-even-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/discount-markup-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/payment-terms-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/retainer-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/compare`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     ...competitors.map((slug) => ({
       url: `${baseUrl}/compare/${slug}`,

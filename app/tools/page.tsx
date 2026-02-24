@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 18 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 20 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -177,6 +177,24 @@ const tools = [
     href: '/tools/discount-markup-calculator',
     icon: '\u{1F3F7}',
     color: 'from-fuchsia-400 to-purple-500',
+    badge: '',
+  },
+  {
+    title: 'Payment Terms Calculator',
+    description:
+      'Calculate invoice due dates for Net 7/14/30/60/90 and EOM terms. Includes early payment discounts and milestone payment schedules.',
+    href: '/tools/payment-terms-calculator',
+    icon: '\u{1F4C5}',
+    color: 'from-sky-400 to-indigo-500',
+    badge: 'New',
+  },
+  {
+    title: 'Client Retainer Calculator',
+    description:
+      'Price monthly retainers based on hours, discount rate, and billing cycle. Compare tiers and project annual retainer revenue.',
+    href: '/tools/retainer-calculator',
+    icon: '\u{1F91D}',
+    color: 'from-emerald-400 to-cyan-500',
     badge: 'New',
   },
 ];
