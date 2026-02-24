@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 22 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 24 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -213,6 +213,24 @@ const tools = [
     href: '/tools/business-health-score',
     icon: '\u{1F3AF}',
     color: 'from-rose-400 to-pink-500',
+    badge: '',
+  },
+  {
+    title: 'Scope of Work Generator',
+    description:
+      'Generate professional scope of work documents with deliverables, timelines, payment milestones, and revision policies. Copy and send to clients.',
+    href: '/tools/scope-of-work-generator',
+    icon: '\u{1F4CB}',
+    color: 'from-indigo-400 to-blue-500',
+    badge: 'New',
+  },
+  {
+    title: 'Meeting Cost Calculator',
+    description:
+      'Calculate the true cost of meetings. See per-minute costs, annual impact, and how much you could save by making meetings more efficient.',
+    href: '/tools/meeting-cost-calculator',
+    icon: '\u{1F4B8}',
+    color: 'from-amber-400 to-rose-500',
     badge: 'New',
   },
 ];
