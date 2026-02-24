@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 20 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 22 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -33,7 +33,7 @@ const tools = [
     href: '/tools/invoice-generator',
     icon: '\u{1F4C4}',
     color: 'from-blue-400 to-cyan-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'ABN Lookup',
@@ -42,7 +42,7 @@ const tools = [
     href: '/tools/abn-lookup',
     icon: '\u{1F50D}',
     color: 'from-purple-400 to-pink-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Freelance Rate Calculator',
@@ -60,7 +60,7 @@ const tools = [
     href: '/tools/late-payment-calculator',
     icon: '\u{23F0}',
     color: 'from-red-400 to-rose-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Freelance Tax Estimator',
@@ -78,7 +78,7 @@ const tools = [
     href: '/tools/contractor-employee-calculator',
     icon: '\u{1F465}',
     color: 'from-sky-400 to-blue-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Profit Margin Calculator',
@@ -96,7 +96,7 @@ const tools = [
     href: '/tools/super-calculator',
     icon: '\u{1F3E6}',
     color: 'from-cyan-400 to-blue-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Billable Hours Calculator',
@@ -114,7 +114,7 @@ const tools = [
     href: '/tools/quote-calculator',
     icon: '\u{1F4DD}',
     color: 'from-indigo-400 to-violet-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Cash Flow Forecast',
@@ -150,7 +150,7 @@ const tools = [
     href: '/tools/revenue-goal-planner',
     icon: '\u{1F3AF}',
     color: 'from-teal-400 to-cyan-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Payment Reminder Generator',
@@ -168,7 +168,7 @@ const tools = [
     href: '/tools/break-even-calculator',
     icon: '\u{2696}',
     color: 'from-amber-400 to-yellow-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Discount & Markup Calculator',
@@ -186,7 +186,7 @@ const tools = [
     href: '/tools/payment-terms-calculator',
     icon: '\u{1F4C5}',
     color: 'from-sky-400 to-indigo-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'Client Retainer Calculator',
@@ -195,6 +195,24 @@ const tools = [
     href: '/tools/retainer-calculator',
     icon: '\u{1F91D}',
     color: 'from-emerald-400 to-cyan-500',
+    badge: '',
+  },
+  {
+    title: 'Project Profitability Calculator',
+    description:
+      'Track revenue, hours, and expenses per project. Compare profit margins, find your most profitable work, and spot unprofitable projects.',
+    href: '/tools/project-profitability',
+    icon: '\u{1F4CA}',
+    color: 'from-violet-400 to-purple-500',
+    badge: 'New',
+  },
+  {
+    title: 'Business Health Score',
+    description:
+      'Score your freelance business across 6 key areas: income stability, client diversification, pricing, reserves, cash flow, and growth.',
+    href: '/tools/business-health-score',
+    icon: '\u{1F3AF}',
+    color: 'from-rose-400 to-pink-500',
     badge: 'New',
   },
 ];
