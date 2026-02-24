@@ -22132,4 +22132,698 @@ Yours sincerely,
       </ul>
     `,
   },
+  'invoicing-musicians-djs-australia': {
+    slug: 'invoicing-musicians-djs-australia',
+    title: 'How to Invoice as a Freelance Musician or DJ in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for Australian freelance musicians, session players, and DJs — gig fees, session rates, equipment hire, royalties, and ATO compliance.',
+    category: 'Profession Guides',
+    readTime: '14 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Musician or DJ in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance musician and DJ invoicing guide. Gig fees, session rates, equipment hire charges, licensing, royalties, and tax deductions for performers.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Whether you're a session guitarist, wedding singer, pub DJ, or orchestral freelancer, getting paid properly in the Australian music industry requires more than talent — it requires professional invoicing. This guide covers everything from gig fees and session rates to equipment hire charges, licensing considerations, and music-specific tax deductions.</p>
+
+      <h2>Musician and DJ Pricing Models</h2>
+
+      <h3>1. Per-Gig / Per-Event Fee</h3>
+      <p>The most common model for live performance work.</p>
+
+      <h4>Solo Musician</h4>
+      <ul>
+        <li><strong>Background / ambient (restaurant, cocktail hour):</strong> $300–$600 for 2–3 hours</li>
+        <li><strong>Wedding ceremony:</strong> $400–$800 (typically 30–60 min of music)</li>
+        <li><strong>Wedding reception (full evening):</strong> $800–$2,000</li>
+        <li><strong>Corporate event:</strong> $500–$1,500 (2–3 hours)</li>
+        <li><strong>Pub / bar gig:</strong> $150–$400 (2–3 hour set)</li>
+        <li><strong>Festival set:</strong> $500–$5,000+ (depends on billing, slot, and profile)</li>
+      </ul>
+
+      <h4>Band (3–5 members)</h4>
+      <ul>
+        <li><strong>Wedding reception:</strong> $2,500–$6,000 (3–4 hours, 2 sets + DJ)</li>
+        <li><strong>Corporate function:</strong> $2,000–$8,000</li>
+        <li><strong>Pub / RSL:</strong> $800–$2,000 (split between members)</li>
+        <li><strong>Festival:</strong> $1,500–$15,000+ (emerging to established acts)</li>
+      </ul>
+
+      <h4>DJ</h4>
+      <ul>
+        <li><strong>Birthday / house party:</strong> $300–$800</li>
+        <li><strong>Wedding DJ (full reception):</strong> $800–$2,500</li>
+        <li><strong>Club / venue night:</strong> $200–$600 (4–6 hour set)</li>
+        <li><strong>Corporate event DJ:</strong> $800–$3,000</li>
+        <li><strong>Festival DJ:</strong> $500–$10,000+ (based on profile and draw)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pricing the Gig, Not the Hour</h3>
+        <p class="text-slate-300 text-sm">Never quote an hourly rate for live performance. A 3-hour wedding gig includes: 1–2 hours of travel, 30–60 min setup, 3 hours performing, 30 min packdown, plus song prep, rehearsal, and gear maintenance. Your $1,200 "3-hour gig" is actually 7–10 hours of work. Quote the gig fee, not the hourly.</p>
+      </div>
+
+      <h3>2. Session Musician Rates</h3>
+      <p>For studio recording, film/TV scoring, and session work.</p>
+      <ul>
+        <li><strong>Basic session rate:</strong> $200–$500 per 3-hour session (standard session = 3 hours)</li>
+        <li><strong>Double session (6 hours):</strong> 1.5x–2x the session rate</li>
+        <li><strong>Overtime:</strong> 1.5x after the agreed session length</li>
+        <li><strong>Film / TV scoring session:</strong> $300–$800 per session (APRA/AMCOS royalties may also apply)</li>
+        <li><strong>Jingle / advertising:</strong> $400–$1,500 per session (may include buyout fee — see licensing below)</li>
+        <li><strong>Podcast / voiceover music:</strong> $100–$500 per track</li>
+        <li><strong>Remote session (home studio):</strong> $150–$400 per track (lower overhead, faster turnaround)</li>
+      </ul>
+
+      <h3>3. Teaching / Tutoring</h3>
+      <ul>
+        <li><strong>Private lesson (30 min):</strong> $40–$70</li>
+        <li><strong>Private lesson (60 min):</strong> $70–$130</li>
+        <li><strong>Group class:</strong> $20–$40 per student</li>
+        <li><strong>School / institution rate:</strong> $50–$90/hour (set by the school, usually lower than private rates)</li>
+        <li><strong>Online lesson:</strong> $50–$100/hour (reduced travel overhead, slightly lower rates)</li>
+      </ul>
+
+      <h3>4. Music Production / Composition</h3>
+      <ul>
+        <li><strong>Song production (indie artist):</strong> $500–$3,000 per track</li>
+        <li><strong>Mixing:</strong> $200–$800 per track</li>
+        <li><strong>Mastering:</strong> $50–$150 per track</li>
+        <li><strong>Composition for media (per minute of music):</strong> $200–$1,000/minute</li>
+        <li><strong>Background music / library tracks:</strong> $100–$500 per track (plus licensing fees if retained)</li>
+      </ul>
+
+      <h2>Equipment Hire and Technical Charges</h2>
+      <p>If you bring your own PA, lighting, or specialist equipment, charge for it separately.</p>
+
+      <h3>PA / Sound System</h3>
+      <ul>
+        <li><strong>Small PA (solo/duo, up to 100 people):</strong> $100–$250/event</li>
+        <li><strong>Medium PA (band, up to 300 people):</strong> $300–$600/event</li>
+        <li><strong>Large PA (outdoor, 300+ people):</strong> $600–$2,000/event</li>
+        <li><strong>Sound engineer (with PA):</strong> Add $200–$500</li>
+      </ul>
+
+      <h3>DJ Equipment</h3>
+      <ul>
+        <li><strong>DJ controller + speakers:</strong> $150–$400/event</li>
+        <li><strong>Full DJ setup (CDJs, mixer, subs, lighting):</strong> $400–$1,000/event</li>
+        <li><strong>Lighting package (basic):</strong> $100–$300</li>
+        <li><strong>Lighting package (premium — moving heads, lasers, uplighting):</strong> $300–$800</li>
+      </ul>
+
+      <h3>How to Charge Equipment Hire</h3>
+      <ul>
+        <li><strong>Separate line item on the invoice:</strong> "Equipment hire — PA system: $300". Never bundle equipment into your performance fee — it hides revenue and makes quoting harder</li>
+        <li><strong>Formula:</strong> 1–2% of equipment replacement value per event. A $10,000 PA system = $100–$200 per use. This covers wear, maintenance, transport, and eventual replacement</li>
+        <li><strong>GST:</strong> Equipment hire attracts GST if you're registered. It's a separate supply from your performance service</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Equipment Insurance</h3>
+        <p class="text-slate-300 text-sm">If you're hiring out PA gear or expensive instruments, get specific equipment insurance (not just home contents). Insurers like BizCover and Guild Insurance offer musician-specific policies covering gear in transit and at venues. $1,000–$3,000/year depending on coverage — and it's fully tax deductible.</p>
+      </div>
+
+      <h2>Travel, Accommodation, and Per Diem</h2>
+      <p>For gigs outside your usual area (generally 50km+ from home), charge for travel.</p>
+      <ul>
+        <li><strong>Travel fee (driving):</strong> $0.88/km (ATO rate for 2025-26) or a flat travel fee ($50–$200 depending on distance)</li>
+        <li><strong>Accommodation:</strong> At cost, invoiced to the client. For regional/interstate gigs, the venue or client typically covers accommodation directly</li>
+        <li><strong>Per diem (meals and incidentals):</strong> $50–$100/day is standard for Australian touring musicians</li>
+        <li><strong>Flights:</strong> At cost, booked by the client or reimbursed at actual cost</li>
+        <li><strong>Cartage (large instruments):</strong> Piano, harp, drum kit, or large amplifiers may require vehicle hire or courier. Charge at cost + 10–15% management fee</li>
+      </ul>
+
+      <h2>Licensing, Royalties, and Buyouts</h2>
+      <p>This is where music invoicing gets unique. Understand the difference between performance fees and rights.</p>
+
+      <h3>APRA AMCOS</h3>
+      <ul>
+        <li><strong>If you perform original music at a venue:</strong> The VENUE pays the APRA licence fee (not you). But you register as an APRA member and log your performances — you receive royalties</li>
+        <li><strong>If you compose for film/TV/advertising:</strong> You can either retain publishing rights (and earn APRA royalties each time the content airs) OR sell a buyout (one-time payment, no ongoing royalties)</li>
+        <li><strong>Buyout fee:</strong> Typically 3–10x the session rate. A $500 session with buyout = $1,500–$5,000 total</li>
+      </ul>
+
+      <h3>Licensing Your Music</h3>
+      <ul>
+        <li><strong>Sync licence (music placed in video content):</strong> $200–$10,000+ depending on usage (YouTube video vs national TV campaign)</li>
+        <li><strong>Library/stock music:</strong> Upload to platforms (Artlist, Epidemic Sound, AudioJungle) and earn per-use or subscription royalties</li>
+        <li><strong>Invoicing for licences:</strong> Create a separate "Licence Fee" line item. Specify: the work, the usage, the territory, and the duration. For example: "Sync licence — 'Track Title' — Australian broadcast + online — 12 months — $2,000"</li>
+      </ul>
+
+      <h3>Work-for-Hire vs Retained Rights</h3>
+      <ul>
+        <li><strong>Work-for-hire:</strong> The client owns the recording and the composition. You invoice a flat fee and have no ongoing rights. Common for jingles, corporate videos, game audio</li>
+        <li><strong>Retained rights:</strong> You keep the composition rights (publishing) but the client gets the recording (master). You earn royalties when the composition is performed/broadcast. More valuable long-term</li>
+        <li><strong>On your invoice:</strong> State which rights are included. "This fee covers performance and recording only. Composition rights retained by the artist. Sync licence available separately."</li>
+      </ul>
+
+      <h2>Invoicing for Different Music Gig Types</h2>
+
+      <h3>Wedding Invoice Example</h3>
+      <ul>
+        <li>Ceremony music (pre-ceremony, processional, signing, recessional): $600</li>
+        <li>Cocktail hour (acoustic set, 1 hour): $300</li>
+        <li>Reception (2x 45-min sets + DJ for breaks): $1,200</li>
+        <li>PA system hire: $300</li>
+        <li>Travel (round trip, 60km): $100</li>
+        <li>GST: $250</li>
+        <li><strong>Total: $2,750</strong></li>
+      </ul>
+
+      <h3>Session Invoice Example</h3>
+      <ul>
+        <li>Guitar session — 3 hours (standard session): $400</li>
+        <li>Overtime — 1 additional hour: $150</li>
+        <li>Cartage (amplifier transport): $50</li>
+        <li>GST: $60</li>
+        <li><strong>Total: $660</strong></li>
+      </ul>
+
+      <h3>DJ Invoice Example</h3>
+      <ul>
+        <li>DJ performance — corporate end-of-year party (4 hours): $1,200</li>
+        <li>Full DJ setup (CDJs, mixer, speakers, subs): $500</li>
+        <li>Lighting package (uplighting + dance floor): $350</li>
+        <li>Travel + setup/packdown: $150</li>
+        <li>GST: $220</li>
+        <li><strong>Total: $2,420</strong></li>
+      </ul>
+
+      <h2>Deposits and Cancellation Policies</h2>
+      <ul>
+        <li><strong>Non-refundable retainer:</strong> 25–50% of the total fee, due at booking. This is a RETAINER (secures the date), not a deposit. Under Australian consumer law, deposits may be refundable; retainers generally are not, provided your terms are clear</li>
+        <li><strong>Balance due:</strong> 7–14 days before the event (not on the day). Chasing payment at sound check is unprofessional and stressful</li>
+        <li><strong>Cancellation tiers:</strong></li>
+      </ul>
+      <ul>
+        <li>30+ days before: retainer forfeited, no additional charge</li>
+        <li>14–30 days: 50% of total fee</li>
+        <li>Under 14 days: 100% of total fee (you turned down other bookings for this date)</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Cancellation Reality</h3>
+        <p class="text-slate-300 text-sm">Wedding cancellations within 30 days are devastating for musicians — you blocked the date months ago and turned away other enquiries. Your cancellation policy isn't greedy, it's survival. Include it in your booking contract and your invoice terms. If a client pushes back, explain: "This date was reserved exclusively for you. Other clients were declined."</p>
+      </div>
+
+      <h2>Working with Agents and Bookers</h2>
+      <p>Many musicians get work through booking agents, entertainment agencies, or band managers.</p>
+      <ul>
+        <li><strong>Agent commission:</strong> Typically 10–20% of the gross fee. The agent invoices the client for the full amount, takes their cut, and pays you the balance. OR you invoice the agent for your net amount</li>
+        <li><strong>Who you invoice:</strong> Clarify this upfront. Some agents want you to invoice THEM (they pay you). Others want you to invoice the client directly (and you pay the agent their commission)</li>
+        <li><strong>RCTI (Recipient Created Tax Invoice):</strong> Some agencies use RCTIs — they create YOUR tax invoice on your behalf. If you've agreed to RCTI, do NOT also issue your own invoice</li>
+        <li><strong>Payment timing:</strong> Agents typically pay 7–30 days after the gig. Some pay faster, some are notoriously slow. Track agent payments carefully</li>
+      </ul>
+
+      <h2>GST for Musicians and DJs</h2>
+      <ul>
+        <li><strong>Threshold:</strong> Standard $75K turnover. If you're a working musician doing 3+ gigs/week at $400+ each, you're likely above it. Include teaching, session work, and production income — it all counts</li>
+        <li><strong>What attracts GST:</strong> Performance fees, equipment hire, teaching, production services, mixing/mastering, sync licence fees</li>
+        <li><strong>What's GST-free:</strong> APRA royalties paid to you (these are already GST-inclusive from APRA). Exported services (performing for an overseas client's project)</li>
+        <li><strong>Claim GST back on:</strong> Instruments, gear, strings, sticks, cables, software (Ableton, Logic), streaming subscriptions for research, studio hire, rehearsal room fees, vehicle expenses, phone</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>Not invoicing for pub gigs:</strong> "The venue just gives me cash" — this is still taxable income. Invoice the venue, even if they pay cash on the night. You need the paper trail at tax time</li>
+        <li><strong>Bundling equipment into the performance fee:</strong> If your $1,500 wedding quote includes $400 of PA hire, you're hiding a depreciable asset charge. Separate it — better for accounting and for quoting future gigs</li>
+        <li><strong>No written agreement for weddings:</strong> A verbal "yeah, we want you for our wedding" is not a booking. Send a booking contract + invoice for the retainer. Until money changes hands, the date is not secured</li>
+        <li><strong>Forgetting to log APRA performances:</strong> Every original song you perform live generates APRA royalties — but only if you log it. Set up your APRA Works portal and submit set lists after every gig</li>
+        <li><strong>Not charging for rehearsal:</strong> If a client requires specific songs you don't normally play, rehearsal time is billable. "Additional song preparation — 3 hours at $80/hour: $240" is a legitimate line item</li>
+        <li><strong>Accepting "exposure" as payment:</strong> Exposure doesn't pay rent. If a venue wants you to play for free, politely decline or negotiate a door deal (% of ticket sales). Always have a minimum fee</li>
+      </ol>
+
+      <h2>Musician and DJ Tax Deductions</h2>
+      <ul>
+        <li><strong>Instruments:</strong> Guitar, keyboard, drums, DJ equipment — items over $300 are depreciated (typically 4–7 years). Items under $300 are claimed in full. Repairs and maintenance (restringing, tuning, cleaning) are immediately deductible</li>
+        <li><strong>Software and subscriptions:</strong> Ableton Live, Logic Pro, FL Studio, Pro Tools, Serato DJ, Rekordbox, Spotify Premium (for research/set planning), sample packs — all deductible for business use</li>
+        <li><strong>PA and audio gear:</strong> Speakers, amplifiers, cables, microphones, stands, cases — depreciate over 5–7 years if over $300</li>
+        <li><strong>Vehicle expenses:</strong> Travel to gigs, rehearsals, studios, gear pickups. Logbook method recommended for musicians who travel frequently. Include gear transport (a ute or van is common for bands)</li>
+        <li><strong>Music education:</strong> Workshops, masterclasses, courses that maintain or improve your existing skills. A jazz guitarist taking an advanced jazz workshop = deductible. A jazz guitarist taking a plumbing course = NOT deductible</li>
+        <li><strong>APRA/AMCOS membership:</strong> Annual fees ($55 for APRA) — fully deductible</li>
+        <li><strong>Union/association fees:</strong> MEAA (Media, Entertainment & Arts Alliance), local musician unions — deductible</li>
+        <li><strong>Costumes and stage clothing:</strong> ONLY deductible if they are distinctive performance costumes (sequined jacket, themed outfit) that you would NOT wear in everyday life. A black shirt you also wear off-stage = NOT deductible</li>
+        <li><strong>Insurance:</strong> Instrument insurance, public liability, income protection — all deductible</li>
+        <li><strong>Home studio:</strong> If you have a dedicated studio space, claim a proportion of rent/mortgage interest, electricity, internet. Must be a dedicated space (not the corner of your bedroom)</li>
+        <li><strong>Phone and internet:</strong> Business-use percentage. Most working musicians use their phone 60–80% for work (bookings, coordination, promotion, social media)</li>
+        <li><strong>Promotional costs:</strong> Website, domain, EPK (electronic press kit), professional photos, business cards, social media advertising — all deductible</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-videographers-video-editors-australia" class="text-teal-400 hover:text-teal-300 underline">Videographer Invoicing</a> — Similar creative licensing and equipment billing</li>
+        <li><a href="/blog/invoicing-photographers-australia" class="text-teal-400 hover:text-teal-300 underline">Photographer Invoicing</a> — Usage licences and creative fee structures</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Payments</a> — Retainer and cancellation policies</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Complete GST guide for Australian sole traders</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional music industry invoices instantly</li>
+      </ul>
+    `,
+  },
+  'invoicing-architects-draftspeople-australia': {
+    slug: 'invoicing-architects-draftspeople-australia',
+    title: 'How to Invoice as a Freelance Architect or Draftsperson in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for Australian freelance architects, architectural designers, and draftspeople — fee structures, milestone billing, council submissions, and ATO compliance.',
+    category: 'Profession Guides',
+    readTime: '14 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Architect or Draftsperson in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance architect and draftsperson invoicing guide. Fee structures, percentage-of-build-cost pricing, milestone billing, council submissions, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Architecture and drafting services involve complex billing — percentage-based fees, milestone payments tied to project phases, council submission coordination, and intellectual property considerations. Whether you're a registered architect, architectural designer, or building draftsperson, this guide covers how to invoice professionally in Australia, get paid on time, and stay compliant with the ATO and your state's registration requirements.</p>
+
+      <h2>Architect and Draftsperson Fee Structures</h2>
+
+      <h3>1. Percentage of Construction Cost</h3>
+      <p>The traditional architectural fee model. Your fee is a percentage of the total estimated (or actual) construction cost.</p>
+      <ul>
+        <li><strong>Full architectural service (small residential, new build):</strong> 8–15% of construction cost</li>
+        <li><strong>Full service (medium residential, $500K–$2M build):</strong> 7–12%</li>
+        <li><strong>Full service (large residential or commercial, $2M+):</strong> 5–10%</li>
+        <li><strong>Partial service (design only, no contract admin):</strong> 4–8%</li>
+        <li><strong>Heritage / complex renovation:</strong> 12–18% (more unknowns, more site visits, more council negotiation)</li>
+      </ul>
+      <p><strong>Example:</strong> A $600,000 residential new build at 10% fee = $60,000 architectural fee.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Percentage Fee Pitfall</h3>
+        <p class="text-slate-300 text-sm">Percentage fees create a perverse incentive — the more expensive the build, the more you earn. Some clients view this with suspicion. Be transparent: explain that complex buildings require more design time, more drawings, more coordination. The percentage reflects EFFORT, not just cost. Alternatively, use a lump sum based on the percentage as a starting point.</p>
+      </div>
+
+      <h3>2. Lump Sum / Fixed Fee</h3>
+      <p>A fixed total fee agreed upfront, usually calculated internally from the percentage model but presented as a flat number.</p>
+      <ul>
+        <li><strong>Residential renovation (design through to DA):</strong> $8,000–$25,000</li>
+        <li><strong>New residential build (full service):</strong> $30,000–$100,000+</li>
+        <li><strong>Granny flat / secondary dwelling:</strong> $5,000–$15,000</li>
+        <li><strong>Commercial fit-out (design + documentation):</strong> $15,000–$60,000</li>
+        <li><strong>Duplex / multi-dwelling development:</strong> $40,000–$120,000</li>
+        <li><strong>Master planning:</strong> $10,000–$50,000+</li>
+      </ul>
+      <p>Fixed fees give clients certainty but carry risk for you if the scope changes. ALWAYS define the scope precisely and have a clear variation clause.</p>
+
+      <h3>3. Hourly Rate</h3>
+      <p>Used for smaller tasks, consultations, or when scope is uncertain.</p>
+      <ul>
+        <li><strong>Graduate architect / draftsperson (0–3 years):</strong> $80–$120/hour</li>
+        <li><strong>Mid-level architect (3–8 years):</strong> $120–$180/hour</li>
+        <li><strong>Senior / principal architect (8+ years):</strong> $180–$300/hour</li>
+        <li><strong>Building draftsperson:</strong> $70–$120/hour</li>
+        <li><strong>CAD operator / Revit technician:</strong> $60–$100/hour</li>
+      </ul>
+
+      <h3>4. Draftsperson-Specific Pricing</h3>
+      <p>Building draftspeople and architectural draftspeople often charge differently from registered architects.</p>
+      <ul>
+        <li><strong>Working drawings (residential):</strong> $3,000–$8,000 (depending on complexity)</li>
+        <li><strong>Council submission package (plans + site plan + elevations):</strong> $2,500–$6,000</li>
+        <li><strong>As-built / measured drawings:</strong> $1,500–$4,000 per building</li>
+        <li><strong>3D renders (per image):</strong> $300–$1,000</li>
+        <li><strong>3D walkthrough / animation:</strong> $2,000–$10,000</li>
+        <li><strong>BIM modelling (Revit):</strong> $80–$150/hour or $5,000–$20,000 per project</li>
+      </ul>
+
+      <h2>Project Phases and Milestone Billing</h2>
+      <p>Architectural projects have well-defined phases. Your invoicing should align with these phases — never do all the work before getting paid.</p>
+
+      <h3>Standard Phase Breakdown</h3>
+      <ul>
+        <li><strong>Phase 1 — Brief + Feasibility (5–10% of fee):</strong> Client meetings, site analysis, council pre-application advice, brief development, feasibility study</li>
+        <li><strong>Phase 2 — Concept Design (15–20% of fee):</strong> Sketches, massing studies, floor plan options (usually 2–3), preliminary elevations, concept presentation</li>
+        <li><strong>Phase 3 — Design Development (15–20% of fee):</strong> Refined drawings, material selections, preliminary specifications, consultant coordination (structural, hydraulic, energy), 3D visualisations</li>
+        <li><strong>Phase 4 — Town Planning / DA (10–15% of fee):</strong> Council submission drawings, planning report, shadow diagrams, streetscape analysis, neighbour notification management, responding to council requests for information (RFI)</li>
+        <li><strong>Phase 5 — Construction Documentation (25–30% of fee):</strong> Working drawings, detailed specifications, schedules (finishes, windows, doors), tender documentation, building permit documentation</li>
+        <li><strong>Phase 6 — Contract Administration (10–15% of fee):</strong> Tender evaluation, site visits, RFI responses, progress claim assessment, variation assessment, practical completion inspection, defects period administration</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Phase Billing Tip</h3>
+        <p class="text-slate-300 text-sm">Invoice at the END of each phase, not the beginning. This way, you're billing for completed work. If the client delays approval between phases, you're not out of pocket for work already done. For long phases (like construction documentation), invoice monthly progress claims within the phase.</p>
+      </div>
+
+      <h3>Invoicing Within Phases</h3>
+      <p>For phases that take more than 4 weeks, bill monthly based on percentage completion within that phase.</p>
+      <ul>
+        <li><strong>Example:</strong> Construction Documentation phase = $20,000. Month 1: plans 60% complete — invoice $12,000. Month 2: remaining 40% — invoice $8,000</li>
+        <li><strong>Track time even on fixed-fee projects.</strong> This helps you understand profitability per phase and quote more accurately on future projects</li>
+      </ul>
+
+      <h2>Council Submission and Planning Fees</h2>
+      <p>Council-related work is a significant part of many architectural projects.</p>
+      <ul>
+        <li><strong>Council application fees:</strong> These are DISBURSEMENTS — the council charges them, you pass them through to the client at cost. Do NOT mark up council fees. Invoice separately as "Disbursements — Council application fee: $X"</li>
+        <li><strong>Pre-application meeting preparation:</strong> Your time preparing for and attending a pre-application meeting with council planners. Bill as part of Phase 1 or as a separate consultation ($300–$800)</li>
+        <li><strong>Responding to council RFIs:</strong> If council requests additional information after your submission, this is additional work. Invoice it as additional service unless your fee agreement includes a set number of RFI responses</li>
+        <li><strong>Planning consultant coordination:</strong> If the project requires a town planner, heritage consultant, arborist, or traffic engineer, you may coordinate their work. Charge a coordination fee (5–10% of their fees) or include it in your Phase 4 fee</li>
+      </ul>
+
+      <h2>Disbursements and Reimbursable Expenses</h2>
+      <p>Pass-through costs that the client pays in addition to your fee.</p>
+      <ul>
+        <li><strong>Council application fees:</strong> $500–$5,000+ (varies by council and project type)</li>
+        <li><strong>Survey / site plan:</strong> $800–$3,000 (arrange on client's behalf, invoice at cost)</li>
+        <li><strong>Soil / geotech report:</strong> $1,500–$5,000</li>
+        <li><strong>Energy rating (NatHERS):</strong> $500–$2,000</li>
+        <li><strong>Printing / plotting:</strong> Large-format drawings for council submission or builder — $50–$300 per set</li>
+        <li><strong>Travel expenses:</strong> For regional projects — mileage ($0.88/km), accommodation, meals</li>
+        <li><strong>3D renders (if outsourced):</strong> At cost + 10–15% management fee</li>
+      </ul>
+
+      <h2>Variations and Additional Services</h2>
+      <p>Scope changes are common in architecture. Handle them professionally.</p>
+      <ul>
+        <li><strong>Client-requested changes after concept sign-off:</strong> Additional service. Invoice the time at your hourly rate or as a lump sum variation</li>
+        <li><strong>Additional options/schemes:</strong> Your fee typically includes 2–3 concept options. Additional schemes = additional fee ($2,000–$5,000 per additional option)</li>
+        <li><strong>Redesign after council refusal:</strong> If council refuses the DA and a redesign is required, this is additional work (unless the refusal was due to your error). Invoice as a variation</li>
+        <li><strong>Scope reduction:</strong> If the client descopes (removes contract administration, for example), adjust the fee accordingly but don't just remove that phase's percentage — earlier phases assume full-service delivery</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Scope Creep Warning</h3>
+        <p class="text-slate-300 text-sm">Architecture is particularly vulnerable to scope creep. "Can you just move this wall?" sounds small but triggers: updated plans, updated elevations, updated sections, updated structural, updated energy rating, updated schedules. One wall move can be 8–16 hours of work. Track scope changes meticulously and invoice them. If you don't, you'll work for free on a project you thought was profitable.</p>
+      </div>
+
+      <h2>Intellectual Property and Copyright</h2>
+      <p>Architectural designs are protected by copyright in Australia under the Copyright Act 1968.</p>
+      <ul>
+        <li><strong>Default position:</strong> The architect OWNS the copyright in their designs and drawings. The client has a licence to use the design for the specific project, on the specific site, once only</li>
+        <li><strong>On your invoice/contract:</strong> "Copyright in all designs and documentation remains with [Your Name/Practice]. A licence to use the design for the specified project is granted upon receipt of full payment"</li>
+        <li><strong>Copyright transfer (buyout):</strong> If the client wants to OWN the design (e.g., a developer wanting to replicate it on multiple sites), this is a separate fee — typically 50–100% of the design fee as a copyright transfer premium</li>
+        <li><strong>Unpaid invoices:</strong> If a client doesn't pay, they technically don't have a licence to use your design. You can withhold drawings until payment is received. State this clearly in your engagement letter</li>
+      </ul>
+
+      <h2>Registration and Professional Requirements</h2>
+      <p>In Australia, "architect" is a legally protected title. Only registered architects can use it.</p>
+      <ul>
+        <li><strong>Registered Architect:</strong> Must be registered with your state's Architects Registration Board (e.g., ARBV in Victoria, NSW ARB in NSW). Include your registration number on all invoices and correspondence</li>
+        <li><strong>Architectural Designer / Building Designer:</strong> Not a registered architect but can provide design services. Different states have different rules about what building designers can certify</li>
+        <li><strong>Building Draftsperson:</strong> Prepares technical drawings. May or may not need registration depending on state. In Victoria, building practitioners need registration with the VBA for certain classes of work</li>
+        <li><strong>Professional Indemnity Insurance:</strong> MANDATORY for registered architects in all states. Typically $5M–$10M cover ($2,000–$8,000/year for a sole practitioner). Must be noted on your invoices or available on request</li>
+      </ul>
+
+      <h3>What Must Appear on Your Invoice</h3>
+      <ul>
+        <li>Your ABN</li>
+        <li>Architect registration number (if registered)</li>
+        <li>Professional indemnity insurance reference (or "PI insurance held — certificate available on request")</li>
+        <li>Project address / reference</li>
+        <li>Phase and description of work completed</li>
+        <li>Disbursements listed separately from professional fees</li>
+      </ul>
+
+      <h2>GST for Architects and Draftspeople</h2>
+      <ul>
+        <li><strong>Threshold:</strong> Standard $75K. Most practicing architects will exceed this. Draftspeople working part-time may be under — track all income carefully</li>
+        <li><strong>GST on fees:</strong> All architectural and drafting services attract GST. Design fees, consultation fees, contract administration fees — all GST-inclusive once you're registered</li>
+        <li><strong>GST on disbursements:</strong> If you pay a disbursement (e.g., council fee) and charge the client, you add GST to the reimbursement. If the client pays the third party directly, no GST from you</li>
+        <li><strong>Claim GST on:</strong> Software (AutoCAD, Revit, SketchUp, Enscape), printing, model materials, professional development, insurance, vehicle expenses, office supplies</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>No engagement letter / fee proposal:</strong> Starting work without a signed fee agreement is the #1 cause of payment disputes in architecture. Your fee proposal IS your contract. It should cover: scope, fees, phases, payment terms, variations, copyright, and termination</li>
+        <li><strong>Underestimating council phases:</strong> Council submissions often involve multiple rounds of RFI, negotiations with planners, and amended drawings. Budget Phase 4 generously or charge council-related work on an hourly basis</li>
+        <li><strong>Not invoicing for meetings:</strong> A 2-hour client meeting (plus 30 min prep and 30 min travel) is 3 hours of work. If meetings aren't included in your fixed fee, invoice them</li>
+        <li><strong>Working during payment disputes:</strong> If a client hasn't paid Phase 2, don't start Phase 3. Stopping work is your most powerful leverage. State in your fee agreement: "Work on subsequent phases will not commence until all previous invoices are paid"</li>
+        <li><strong>Flat-fee without a scope definition:</strong> "Architectural services for a new house: $50,000" is a recipe for disaster. Define exactly what's included: number of options, number of meetings, number of RFI responses, excluded services</li>
+        <li><strong>Not charging for documentation changes during construction:</strong> When the builder asks for a detail change or the client makes a variation during construction, this generates new drawings. Track and invoice this time under contract administration or as an additional service</li>
+      </ol>
+
+      <h2>Architect and Draftsperson Tax Deductions</h2>
+      <ul>
+        <li><strong>Software:</strong> AutoCAD ($3,000+/year), Revit ($4,500+/year), SketchUp Pro ($500/year), Enscape/Lumion/V-Ray (rendering), Adobe Creative Suite — all fully deductible as business tools</li>
+        <li><strong>Hardware:</strong> Computer/workstation (depreciated over 4 years if over $300), monitor(s), graphics tablet, plotter/printer, 3D printer — all deductible</li>
+        <li><strong>Professional registration:</strong> Architect registration fees (state board), AIA membership ($700–$1,200/year), BDAA membership, CPD courses — all deductible</li>
+        <li><strong>PI insurance:</strong> Professional indemnity premiums — fully deductible and mandatory</li>
+        <li><strong>Vehicle expenses:</strong> Site visits, council meetings, client meetings, consultant coordination — logbook method essential. Architects visit sites frequently; track all trips</li>
+        <li><strong>Home office:</strong> If you run your practice from home (common for sole practitioners), claim the business-use proportion of rent/mortgage interest, electricity, internet, phone, cleaning</li>
+        <li><strong>Books and publications:</strong> Architecture magazines, technical references, building codes (NCC/BCA), Australian Standards — deductible if they relate to your practice</li>
+        <li><strong>Travel:</strong> Interstate or regional project travel — flights, accommodation, meals. Must be primarily for work purposes</li>
+        <li><strong>Model-making materials:</strong> Foam board, balsa wood, 3D printing materials, card stock — deductible if used for client presentations</li>
+        <li><strong>Photography:</strong> Professional photos of completed projects for your portfolio — photographer's fee and any associated costs are deductible</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-interior-designers-australia" class="text-teal-400 hover:text-teal-300 underline">Interior Designer Invoicing</a> — Similar milestone billing and procurement markup</li>
+        <li><a href="/blog/invoicing-consultants-australia" class="text-teal-400 hover:text-teal-300 underline">Consultant Invoicing</a> — Professional services billing and IP considerations</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Payments</a> — Phase-based billing structures</li>
+        <li><a href="/blog/invoicing-carpenters-builders-australia" class="text-teal-400 hover:text-teal-300 underline">Builder Invoicing</a> — Understanding the builder's perspective on architect invoicing</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional architectural invoices instantly</li>
+      </ul>
+    `,
+  },
+  'invoicing-event-planners-wedding-coordinators-australia': {
+    slug: 'invoicing-event-planners-wedding-coordinators-australia',
+    title: 'How to Invoice as a Freelance Event Planner or Wedding Coordinator in Australia (2026 Guide)',
+    excerpt: 'Complete invoicing guide for Australian freelance event planners, wedding coordinators, and event managers — fee structures, vendor management billing, deposits, and ATO compliance.',
+    category: 'Profession Guides',
+    readTime: '13 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Event Planner or Wedding Coordinator in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance event planner and wedding coordinator invoicing guide. Fee structures, vendor management billing, deposit policies, cancellation terms, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Event planning and wedding coordination involve complex billing — flat fees, percentage-of-budget pricing, vendor management markups, and multi-stage payment schedules spread over months. Whether you're a wedding planner, corporate event manager, or party coordinator, this guide covers professional invoicing in Australia, from your first client enquiry to the final post-event invoice.</p>
+
+      <h2>Event Planner and Wedding Coordinator Pricing Models</h2>
+
+      <h3>1. Flat Fee (Most Common for Weddings)</h3>
+      <p>A fixed price for defined services, regardless of the event budget.</p>
+
+      <h4>Wedding Planning</h4>
+      <ul>
+        <li><strong>Full-service wedding planning (12+ months):</strong> $4,000–$12,000</li>
+        <li><strong>Partial planning (vendor booking + design):</strong> $2,500–$6,000</li>
+        <li><strong>Month-of coordination:</strong> $1,500–$3,500</li>
+        <li><strong>Day-of coordination only:</strong> $800–$2,000</li>
+        <li><strong>Elopement / micro-wedding (under 30 guests):</strong> $1,500–$4,000</li>
+        <li><strong>Destination wedding coordination:</strong> $5,000–$15,000+ (includes travel management)</li>
+      </ul>
+
+      <h4>Corporate Events</h4>
+      <ul>
+        <li><strong>Small corporate event (20–50 people):</strong> $2,000–$5,000</li>
+        <li><strong>Conference (100–500 people):</strong> $5,000–$25,000</li>
+        <li><strong>Gala / formal dinner (100+ guests):</strong> $5,000–$15,000</li>
+        <li><strong>Product launch:</strong> $3,000–$20,000</li>
+        <li><strong>Multi-day conference or retreat:</strong> $10,000–$50,000+</li>
+      </ul>
+
+      <h4>Social Events</h4>
+      <ul>
+        <li><strong>Milestone birthday / anniversary:</strong> $1,000–$4,000</li>
+        <li><strong>Engagement party:</strong> $800–$2,500</li>
+        <li><strong>Baby shower / christening:</strong> $500–$2,000</li>
+        <li><strong>School formal / charity fundraiser:</strong> $1,500–$5,000</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Flat Fee vs Percentage</h3>
+        <p class="text-slate-300 text-sm">Many new planners default to a percentage of the event budget. This can backfire: a couple with a $20K budget needs the SAME amount of planning as a couple with $80K — sometimes more, because budget constraints mean more negotiating, more DIY coordination, and more creative problem-solving. Flat fees protect your income regardless of client budget.</p>
+      </div>
+
+      <h3>2. Percentage of Event Budget</h3>
+      <p>Your fee is a percentage of the total event spend (all vendor costs combined).</p>
+      <ul>
+        <li><strong>Full-service planning:</strong> 10–20% of total event budget</li>
+        <li><strong>Partial planning:</strong> 8–12%</li>
+        <li><strong>Day-of coordination:</strong> 5–8%</li>
+        <li><strong>Example:</strong> $50,000 wedding budget x 15% = $7,500 planning fee</li>
+      </ul>
+      <p><strong>When to use percentage:</strong> Best for high-budget events ($50K+) where the scale of coordination genuinely increases with budget. Not ideal for budget-conscious clients who may feel you're incentivised to increase spending.</p>
+
+      <h3>3. Hourly Rate</h3>
+      <p>Used for consultation, ad-hoc planning, or when scope is undefined.</p>
+      <ul>
+        <li><strong>Junior planner (0–2 years):</strong> $60–$90/hour</li>
+        <li><strong>Mid-level planner (2–5 years):</strong> $90–$150/hour</li>
+        <li><strong>Senior / luxury planner (5+ years):</strong> $150–$250/hour</li>
+        <li><strong>Consultation session (2 hours):</strong> $200–$500</li>
+      </ul>
+
+      <h3>4. Hybrid Model (Recommended)</h3>
+      <p>Combine a base flat fee with percentage-based or hourly elements.</p>
+      <ul>
+        <li><strong>Base fee (covers core planning):</strong> $3,000</li>
+        <li><strong>Plus 5% of event budget over $30,000</strong></li>
+        <li><strong>Plus hourly rate for additional services</strong> (content creation, custom signage design, etc.)</li>
+      </ul>
+
+      <h2>Vendor Management and Procurement</h2>
+      <p>Event planners often manage vendor relationships on behalf of clients. How you handle vendor payments affects your invoicing.</p>
+
+      <h3>Model 1: Client Pays Vendors Directly (Recommended)</h3>
+      <ul>
+        <li>You recommend vendors, negotiate rates, and coordinate logistics</li>
+        <li>The client signs contracts with and pays each vendor directly</li>
+        <li>Your invoice: your planning fee only. No vendor costs pass through you</li>
+        <li><strong>Advantage:</strong> Cleanest approach. No cash flow risk. No liability for vendor performance</li>
+      </ul>
+
+      <h3>Model 2: You Invoice for Everything (Full Management)</h3>
+      <ul>
+        <li>Client pays you one total amount. You pay all vendors from that</li>
+        <li>Your invoice: planning fee + all vendor costs + management fee (10–15% on vendor costs)</li>
+        <li><strong>Advantage:</strong> One point of contact for the client. You control the budget</li>
+        <li><strong>Risk:</strong> You're liable if a vendor doesn't deliver. You need strong cash flow to front-pay vendors</li>
+        <li><strong>GST complication:</strong> If you're invoicing for vendor costs, you charge GST on the TOTAL (including vendor pass-through), not just your fee. This can make your prices look higher</li>
+      </ul>
+
+      <h3>Model 3: Hybrid (Most Common in Practice)</h3>
+      <ul>
+        <li>Client pays major vendors directly (venue, catering, photographer)</li>
+        <li>You manage and invoice for smaller vendors/items (florals, styling, signage, hire items)</li>
+        <li>Your invoice: planning fee + managed vendor costs + markup on managed items</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-amber-400/20 bg-amber-500/5">
+        <h3 class="text-amber-400 font-semibold mb-2">Vendor Commissions</h3>
+        <p class="text-slate-300 text-sm">Many vendors offer planners a referral commission (10–20% of the booking value). This is standard industry practice but can create a conflict of interest. Two approaches: (1) Disclose commissions to the client and deduct from your planning fee. (2) Don't accept commissions and charge a higher planning fee. Either way, be transparent. In Australia, undisclosed commissions in a fiduciary-like relationship can create legal issues.</p>
+      </div>
+
+      <h2>Payment Schedules and Deposits</h2>
+      <p>Event planning involves long lead times (6–18 months for weddings). Structure payments to protect your cash flow.</p>
+
+      <h3>Wedding Payment Schedule (Full-Service)</h3>
+      <ul>
+        <li><strong>Booking retainer (non-refundable):</strong> 30–50% of planning fee, due at contract signing</li>
+        <li><strong>Second payment:</strong> 25–35% at the halfway point (e.g., 6 months before the event)</li>
+        <li><strong>Final payment:</strong> 15–25% due 30 days before the event</li>
+        <li><strong>Remaining balance (if any):</strong> Due 7 days before the event. NEVER chase money on event day</li>
+      </ul>
+
+      <h3>Corporate Event Payment Schedule</h3>
+      <ul>
+        <li><strong>Deposit:</strong> 50% at contract signing</li>
+        <li><strong>Progress payment:</strong> 25% at the midpoint of planning</li>
+        <li><strong>Final payment:</strong> 25% within 14 days of the event. Corporate clients often pay on Net 30 terms — negotiate to pre-event payment if possible</li>
+      </ul>
+
+      <h3>Day-Of Coordination Payment</h3>
+      <ul>
+        <li><strong>Non-refundable retainer:</strong> 50% at booking (secures the date)</li>
+        <li><strong>Balance:</strong> 50% due 14 days before the event</li>
+      </ul>
+
+      <h2>Cancellation and Postponement Policies</h2>
+      <ul>
+        <li><strong>Cancellation over 6 months out:</strong> Retainer forfeited, no additional charge</li>
+        <li><strong>Cancellation 3–6 months out:</strong> 50% of total fee</li>
+        <li><strong>Cancellation under 3 months:</strong> 75% of total fee</li>
+        <li><strong>Cancellation under 30 days:</strong> 100% of total fee</li>
+        <li><strong>Postponement:</strong> One date change included (if within 12 months). Additional changes: $500–$1,000 rescheduling fee</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 my-8 border border-red-400/20 bg-red-500/5">
+        <h3 class="text-red-400 font-semibold mb-2">Postponement vs Cancellation</h3>
+        <p class="text-slate-300 text-sm">Post-COVID, many planners now distinguish between postponement and cancellation in their contracts. A postponement (new date within 12 months) typically doesn't trigger cancellation fees — but a rebooking fee covers the admin of renegotiating with all vendors. A cancellation with no new date triggers the cancellation schedule above. Define both clearly in your contract.</p>
+      </div>
+
+      <h2>What Your Event Planning Invoice Should Include</h2>
+      <ul>
+        <li><strong>Event name / reference:</strong> "Smith-Jones Wedding — 15 March 2026" or "Acme Corp Annual Conference 2026"</li>
+        <li><strong>Service description:</strong> Specific services covered in this invoice period (e.g., "Venue sourcing, vendor shortlisting, design concept development")</li>
+        <li><strong>Payment stage:</strong> "Payment 2 of 3" — helps the client track their payment obligations</li>
+        <li><strong>Planning fee:</strong> Your professional fee (separated from vendor costs)</li>
+        <li><strong>Vendor costs (if applicable):</strong> Itemised vendor costs you're managing — florals, styling, hire items</li>
+        <li><strong>Management fee / markup (if applicable):</strong> Your margin on vendor coordination</li>
+        <li><strong>Disbursements:</strong> Out-of-pocket expenses — parking, printing, samples, tastings attended</li>
+        <li><strong>GST:</strong> On your fee AND on vendor costs you invoice for</li>
+        <li><strong>Outstanding balance:</strong> Remaining amount due and when it's due</li>
+      </ul>
+
+      <h2>Invoicing for Different Event Types</h2>
+
+      <h3>Full-Service Wedding Invoice Example</h3>
+      <ul>
+        <li>Full-service wedding planning (12 months): $6,000</li>
+        <li>Styling coordination and design: $1,500</li>
+        <li>Vendor management — florals, hire, signage: $4,200 (at cost)</li>
+        <li>Management fee (12% on managed vendors): $504</li>
+        <li>Disbursements (venue visits, parking, samples): $180</li>
+        <li>Subtotal: $12,384</li>
+        <li>Less: retainer paid (Invoice #001): -$3,750</li>
+        <li>Less: second payment (Invoice #002): -$3,750</li>
+        <li>GST on remaining: $488.40</li>
+        <li><strong>Final payment due: $5,372.40</strong></li>
+      </ul>
+
+      <h3>Corporate Conference Invoice Example</h3>
+      <ul>
+        <li>Conference planning and management (3 months): $8,000</li>
+        <li>AV coordination and technical management: $1,500</li>
+        <li>Speaker liaison and logistics: $1,000</li>
+        <li>On-site event management (2 days x $1,200/day): $2,400</li>
+        <li>Disbursements: $350</li>
+        <li>GST: $1,325</li>
+        <li><strong>Total: $14,575</strong></li>
+      </ul>
+
+      <h3>Day-Of Coordination Invoice Example</h3>
+      <ul>
+        <li>Day-of coordination (includes pre-event meeting, vendor liaison, timeline creation): $1,800</li>
+        <li>Rehearsal attendance (1.5 hours): included</li>
+        <li>On-site coordination (10 hours, setup to sendoff): included</li>
+        <li>GST: $180</li>
+        <li><strong>Total: $1,980</strong></li>
+      </ul>
+
+      <h2>Additional Services to Invoice Separately</h2>
+      <p>These are add-ons beyond your core planning package. Invoice them as separate line items or separate invoices.</p>
+      <ul>
+        <li><strong>Venue sourcing / site inspections:</strong> $300–$800 (3–5 venue visits with assessment reports)</li>
+        <li><strong>Custom stationery design:</strong> $300–$1,000 (invitations, menus, signage, seating charts)</li>
+        <li><strong>RSVP management:</strong> $200–$500 (guest list tracking, dietary requirements, seating plan)</li>
+        <li><strong>Welcome bags / gift coordination:</strong> $200–$500 (plus product costs)</li>
+        <li><strong>Post-event services:</strong> Vendor tip distribution, gift return, photo album coordination — $200–$500</li>
+        <li><strong>Additional assistant (large events):</strong> $300–$600 per assistant per event</li>
+        <li><strong>Late-night fee:</strong> If the event runs past midnight, charge $100–$200/hour after midnight</li>
+      </ul>
+
+      <h2>GST for Event Planners</h2>
+      <ul>
+        <li><strong>Threshold:</strong> Standard $75K. If you plan 8–10 weddings/year at $5K+ each, you're above it</li>
+        <li><strong>Your planning fee:</strong> GST applies</li>
+        <li><strong>Vendor pass-through costs:</strong> If you invoice the client for vendor costs (not the vendor directly), you charge GST on the full amount including vendor costs. The vendor also charges you GST. You claim input tax credits on their invoices to you</li>
+        <li><strong>Commission income:</strong> If vendors pay you commissions/referral fees, this is taxable income and attracts GST</li>
+        <li><strong>Claim GST on:</strong> Software (Honeybook, Dubsado, Aisle Planner), vehicle expenses, phone, marketing, website, professional development, insurance, event decor samples, client gifts</li>
+      </ul>
+
+      <h2>Common Invoicing Mistakes</h2>
+      <ol>
+        <li><strong>Not getting the retainer before starting work:</strong> The moment you start researching venues and vendors, you're working. No retainer = no work. Period. Your time has value from the first email</li>
+        <li><strong>Undercharging for day-of coordination:</strong> Day-of coordination is NOT just "show up on the day." It includes: timeline creation, vendor confirmation calls, rehearsal, setup management, and 10–14 hours on the event day. Price it accordingly</li>
+        <li><strong>Not invoicing for extra meetings:</strong> Your package might include 3 client meetings. Meeting #4, #5, #6 should be invoiced. Track meetings and communicate when you've exceeded the included number</li>
+        <li><strong>Absorbing vendor no-shows:</strong> If a vendor fails to deliver, that's between the client and the vendor (if the client contracted directly). You're not liable for a vendor's performance unless you contracted with the vendor on the client's behalf. Define this clearly in your contract</li>
+        <li><strong>No travel charges for regional events:</strong> A destination wedding 200km away involves 4+ hours of driving, accommodation, and meals over multiple trips (site visits, rehearsal, event day). Invoice travel as a separate line item</li>
+        <li><strong>Chasing final payment on event day:</strong> If the client's balance is due on the day, you're starting the event stressed about money. Set final payment due 7–14 days BEFORE the event. If it's not paid, you technically don't need to show up (though this is a last resort — communicate firmly and early)</li>
+      </ol>
+
+      <h2>Event Planner Tax Deductions</h2>
+      <ul>
+        <li><strong>Software:</strong> Honeybook, Dubsado, Aisle Planner, Canva Pro, Adobe Creative Suite, project management tools (Asana, Trello, Monday) — all deductible</li>
+        <li><strong>Vehicle expenses:</strong> Venue visits, vendor meetings, setup/packdown, client meetings — logbook method recommended. Event planners drive A LOT</li>
+        <li><strong>Phone and internet:</strong> Business-use percentage. Planners live on their phones — 70–90% business use is typical</li>
+        <li><strong>Marketing:</strong> Website, Instagram advertising, wedding directory listings (Easy Weddings, WedShed, The Knot), business cards, portfolio photography — all deductible</li>
+        <li><strong>Professional development:</strong> ISES membership, event industry conferences, wedding industry expos (as a planner, not a vendor), online courses — deductible if they maintain or improve your existing skills</li>
+        <li><strong>Insurance:</strong> Public liability ($500–$1,200/year), professional indemnity ($400–$1,000/year) — fully deductible</li>
+        <li><strong>Clothing:</strong> ONLY deductible if it has your business branding. Your black outfit for events is NOT deductible even if you only wear it for work. A branded polo or jacket with your logo IS deductible</li>
+        <li><strong>Client gifts:</strong> Thank-you gifts for clients (up to $300 per client per year) — deductible. Gifts for vendors to maintain relationships — also deductible</li>
+        <li><strong>Home office:</strong> If you run your planning business from home, claim the business-use proportion of rent/mortgage interest, electricity, internet, phone, office furniture</li>
+        <li><strong>Subscriptions and memberships:</strong> Wedding directories, industry associations, styled shoot participation — all deductible</li>
+        <li><strong>Sample purchases:</strong> Stationery samples, decor items for mockups, fabric swatches — deductible as business supplies</li>
+        <li><strong>Styled shoots:</strong> Participation costs (venue hire, vendor coordination, personal contribution) are deductible as marketing/portfolio development</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-photographers-australia" class="text-teal-400 hover:text-teal-300 underline">Photographer Invoicing</a> — Billing event vendors you work alongside</li>
+        <li><a href="/blog/invoicing-musicians-djs-australia" class="text-teal-400 hover:text-teal-300 underline">Musician & DJ Invoicing</a> — Entertainment vendor billing for events</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Deposit & Milestone Payments</a> — Structuring multi-stage event payments</li>
+        <li><a href="/blog/invoicing-consultants-australia" class="text-teal-400 hover:text-teal-300 underline">Consultant Invoicing</a> — Professional services billing frameworks</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing requirements</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional event planning invoices instantly</li>
+      </ul>
+    `,
+  },
 };
