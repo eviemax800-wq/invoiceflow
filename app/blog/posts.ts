@@ -24734,4 +24734,1671 @@ Yours sincerely,
       </ul>
     `,
   },
+
+  'invoicing-accountants-tax-agents-bas-agents-australia': {
+    slug: 'invoicing-accountants-tax-agents-bas-agents-australia',
+    title: 'How to Invoice as a Freelance Accountant, Tax Agent, or BAS Agent in Australia',
+    excerpt: 'Complete invoicing guide for freelance accountants, tax agents, and BAS agents in Australia — hourly vs fixed fees, BAS lodgement pricing, SMSF administration, TPB registration requirements, trust account compliance, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '14 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Accountant or Tax Agent in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance accountant, tax agent, and BAS agent invoicing guide. Hourly rates, fixed-fee packages, BAS lodgement pricing, SMSF fees, TPB registration, trust accounts, GST, and tax deductions.',
+    content: `
+      <h2>The Accountant's Invoicing Paradox</h2>
+      <p>You manage other people's finances for a living — yet your own invoicing might be the weakest part of your practice. Freelance accountants, tax agents, and BAS agents in Australia face unique billing challenges: regulatory requirements around fee disclosure, trust account compliance, TPB registration obligations, and the expectation from clients that you'll have the most professional invoices of anyone they deal with.</p>
+      <p>This guide covers everything from pricing models and fee structures to compliance requirements and the specific tax deductions available to freelance accounting professionals in Australia.</p>
+
+      <h2>Pricing Models for Freelance Accountants</h2>
+      <p>Most successful freelance accountants use a mix of these models depending on the service:</p>
+
+      <h3>1. Fixed-Fee Packages (Recommended for Most Services)</h3>
+      <p>Fixed fees give clients certainty and let you capture the value of your efficiency. As you get faster at common tasks, your effective hourly rate increases.</p>
+      <table>
+        <thead><tr><th>Service</th><th>Sole Trader</th><th>Company/Trust</th><th>SMSF</th></tr></thead>
+        <tbody>
+          <tr><td>Annual tax return preparation</td><td>$200–$600</td><td>$800–$2,500</td><td>$1,500–$3,500</td></tr>
+          <tr><td>BAS preparation &amp; lodgement (quarterly)</td><td>$150–$350</td><td>$250–$600</td><td>N/A</td></tr>
+          <tr><td>BAS preparation &amp; lodgement (monthly)</td><td>$100–$250</td><td>$200–$450</td><td>N/A</td></tr>
+          <tr><td>Annual financial statements</td><td>$300–$800</td><td>$800–$3,000</td><td>$1,000–$2,500</td></tr>
+          <tr><td>Bookkeeping (monthly retainer)</td><td>$200–$500</td><td>$400–$1,500</td><td>N/A</td></tr>
+          <tr><td>SMSF annual audit (independent)</td><td colspan="3">$500–$1,500</td></tr>
+          <tr><td>SMSF annual compliance</td><td colspan="3">$2,000–$5,000</td></tr>
+        </tbody>
+      </table>
+
+      <h3>2. Hourly Rates</h3>
+      <p>Best for advisory work, complex restructures, or ATO dispute resolution where scope is unpredictable.</p>
+      <table>
+        <thead><tr><th>Experience Level</th><th>Hourly Rate</th><th>Best For</th></tr></thead>
+        <tbody>
+          <tr><td>BAS Agent (no CA/CPA)</td><td>$60–$120/hr</td><td>Bookkeeping, BAS preparation</td></tr>
+          <tr><td>CPA/CA (1–5 years)</td><td>$100–$180/hr</td><td>Tax returns, compliance</td></tr>
+          <tr><td>CPA/CA (5–10 years)</td><td>$150–$250/hr</td><td>Tax planning, advisory</td></tr>
+          <tr><td>Senior/Specialist (10+ years)</td><td>$200–$400/hr</td><td>Complex structures, ATO disputes</td></tr>
+          <tr><td>SMSF Specialist</td><td>$180–$350/hr</td><td>SMSF setup, compliance, strategy</td></tr>
+        </tbody>
+      </table>
+
+      <h3>3. Value-Based Pricing</h3>
+      <p>For tax planning and advisory where your advice directly saves the client money. Common approach: charge 10–25% of the tax saving identified, with a minimum fee floor.</p>
+      <p>Example: You identify a restructure that saves a client $40,000/year in tax. A value-based fee of $6,000–$10,000 is justified — far more than your hourly rate would yield.</p>
+
+      <h3>4. Retainer Packages</h3>
+      <table>
+        <thead><tr><th>Package</th><th>Includes</th><th>Monthly Fee</th></tr></thead>
+        <tbody>
+          <tr><td>Compliance Only</td><td>BAS + annual return + financial statements</td><td>$300–$800/mo</td></tr>
+          <tr><td>Compliance + Advisory</td><td>Above + quarterly tax planning + unlimited phone/email</td><td>$600–$1,500/mo</td></tr>
+          <tr><td>Full CFO Service</td><td>Above + monthly management reporting + cash flow forecasting + board reporting</td><td>$1,500–$5,000/mo</td></tr>
+        </tbody>
+      </table>
+
+      <h2>TPB Registration Requirements</h2>
+      <p>Before you invoice for any tax agent or BAS agent services, you <strong>must</strong> be registered with the Tax Practitioners Board (TPB). This is a legal requirement under the Tax Agent Services Act 2009 (TASA).</p>
+      <ul>
+        <li><strong>BAS Agent:</strong> Can prepare and lodge BAS, IAS, and advise on GST, PAYG withholding, PAYG instalments, FBT instalments, fuel tax credits, and wine equalisation tax</li>
+        <li><strong>Tax Agent:</strong> Everything a BAS agent can do PLUS prepare and lodge tax returns, provide tax advice, and represent clients with the ATO</li>
+        <li><strong>Tax (Financial) Adviser:</strong> Provide tax advice on financial products (superannuation, investments)</li>
+      </ul>
+      <p><strong>Invoice requirement:</strong> Your TPB registration number must appear on all invoices, engagement letters, and marketing materials. Include it in your invoice header or footer alongside your ABN.</p>
+
+      <h2>Fee Disclosure &amp; Engagement Letters</h2>
+      <p>Under the TPB Code of Professional Conduct, you must:</p>
+      <ol>
+        <li><strong>Provide a written engagement letter</strong> before starting work — including scope, fees, billing method, and payment terms</li>
+        <li><strong>Disclose all fees upfront</strong> — clients must know what they'll pay before you begin</li>
+        <li><strong>Notify of fee changes</strong> — if scope changes mid-engagement, advise in writing before incurring additional fees</li>
+        <li><strong>Provide detailed invoices</strong> — itemise services performed, not just "accounting services — $X"</li>
+      </ol>
+
+      <h2>Invoice Template for Accounting Services</h2>
+      <p>A professional accounting invoice should include:</p>
+      <table>
+        <thead><tr><th>Line Item</th><th>Description</th><th>Amount</th></tr></thead>
+        <tbody>
+          <tr><td>Individual tax return — FY2025</td><td>Preparation and lodgement of individual tax return including rental property schedule, capital gains schedule, and work-related deductions</td><td>$450.00</td></tr>
+          <tr><td>Company tax return — FY2025</td><td>Preparation and lodgement of company tax return for XYZ Pty Ltd including financial statements</td><td>$1,800.00</td></tr>
+          <tr><td>BAS Q2 2025 — XYZ Pty Ltd</td><td>Preparation, review, and lodgement of quarterly BAS including GST reconciliation</td><td>$350.00</td></tr>
+          <tr><td>Tax planning meeting — 45 mins</td><td>Quarterly review of tax position, FBT exposure, and structure optimisation</td><td>$337.50</td></tr>
+          <tr><td><strong>Subtotal</strong></td><td></td><td><strong>$2,937.50</strong></td></tr>
+          <tr><td>GST</td><td></td><td>$293.75</td></tr>
+          <tr><td><strong>Total</strong></td><td></td><td><strong>$3,231.25</strong></td></tr>
+        </tbody>
+      </table>
+      <p><strong>Key details to include:</strong> Your ABN, TPB registration number, professional membership (CPA/CA/IPA number), payment terms (typically 14–30 days), and bank details for direct deposit.</p>
+
+      <h2>Trust Account Compliance</h2>
+      <p>If you hold client funds (e.g., receiving ATO refunds on behalf of clients, holding funds for tax payments), you must maintain a trust account in compliance with your state's trust account legislation. Key rules:</p>
+      <ul>
+        <li>Trust funds must be kept in a separate bank account — never mixed with your business account</li>
+        <li>Annual trust account audit may be required (check your state's requirements)</li>
+        <li>You cannot charge fees from trust funds without the client's written authorisation</li>
+        <li>Keep detailed trust account records — the ATO and TPB audit these</li>
+      </ul>
+      <p><strong>Invoice separately:</strong> Trust account disbursements should appear on a separate statement or clearly delineated section of your invoice — never mix fees and trust movements.</p>
+
+      <h2>SMSF Administration Billing</h2>
+      <p>SMSF work is a significant revenue stream for freelance accountants. Typical billing structure:</p>
+      <table>
+        <thead><tr><th>Service</th><th>Typical Fee</th><th>Billing</th></tr></thead>
+        <tbody>
+          <tr><td>SMSF establishment</td><td>$1,500–$3,500</td><td>One-off</td></tr>
+          <tr><td>Annual compliance (return + financials + minutes)</td><td>$2,000–$5,000</td><td>Annual or monthly retainer</td></tr>
+          <tr><td>Independent audit (if you're the auditor, not the accountant)</td><td>$500–$1,500</td><td>Annual</td></tr>
+          <tr><td>Pension commencement</td><td>$500–$1,500</td><td>One-off</td></tr>
+          <tr><td>LRBA documentation</td><td>$1,000–$3,000</td><td>One-off</td></tr>
+          <tr><td>Wind-up/rollover</td><td>$1,500–$4,000</td><td>One-off</td></tr>
+          <tr><td>Investment strategy review</td><td>$300–$800</td><td>Annual</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Important:</strong> If you provide SMSF advice (not just compliance), you may need an AFSL or be authorised under someone else's AFSL. Pure compliance and administration work doesn't require an AFSL, but anything that could be construed as financial advice does. The line is thin — when in doubt, get your own legal advice.</p>
+
+      <h2>Software Pass-Through Billing</h2>
+      <p>Three approaches for billing software subscriptions you use on behalf of clients:</p>
+      <ol>
+        <li><strong>Include in your fee:</strong> Absorb Xero/MYOB/QBO costs into your monthly retainer. Simplest for clients, but you wear the cost if they churn</li>
+        <li><strong>Pass through at cost:</strong> Bill the exact subscription amount as a separate line item. Transparent but no margin</li>
+        <li><strong>Pass through with margin:</strong> Bill subscription + 10–20% management fee. Justifiable because you're managing the subscription, handling support, and ensuring proper setup</li>
+      </ol>
+      <p><strong>Partner programs:</strong> Xero, MYOB, and QuickBooks all offer partner/wholesale pricing (typically 30–50% off retail). If you're on a partner program and billing clients at retail, disclose this — the TPB Code of Conduct requires transparency about commissions and benefits.</p>
+
+      <h2>GST Considerations</h2>
+      <ul>
+        <li>Accounting, tax, and BAS services are <strong>GST-inclusive</strong> (not exempt)</li>
+        <li>If your annual turnover exceeds $75,000 (or you reasonably expect it will), you must register for GST</li>
+        <li>Most freelance accountants exceed the threshold — register early to claim input tax credits on software, professional development, and office expenses</li>
+        <li><strong>Government grants or services:</strong> Some government-funded services (e.g., tax help for low-income earners) may be GST-free — check the specific arrangement</li>
+      </ul>
+
+      <h2>Catch-Up Work Pricing</h2>
+      <p>New clients often arrive with 1–3 years of overdue lodgements. Price this carefully:</p>
+      <ul>
+        <li><strong>Per-year pricing:</strong> Quote each overdue year separately. Year 1 (oldest) is usually the most expensive because records are worst. Typical: $500–$2,000 per overdue year for sole traders, $1,500–$5,000 for companies</li>
+        <li><strong>Discovery fee:</strong> Charge $200–$500 upfront to assess the mess before quoting. This weeds out tyre-kickers and ensures you understand the scope</li>
+        <li><strong>ATO negotiation:</strong> If the client has ATO debt or penalties, charge separately for ATO negotiation/payment plan setup ($300–$1,000 depending on complexity)</li>
+        <li><strong>Urgency premium:</strong> If they need lodgements done immediately (e.g., to apply for a loan or avoid director penalties), charge 25–50% more</li>
+      </ul>
+
+      <h2>Tax Deductions for Freelance Accountants</h2>
+      <table>
+        <thead><tr><th>Deduction</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Professional memberships</td><td>CPA Australia ($600–$900), CA ANZ ($700–$1,100), IPA ($400–$700), TPB registration ($0 — it's free but renewal admin costs are deductible)</td></tr>
+          <tr><td>Professional indemnity insurance</td><td>$1,000–$5,000/year depending on revenue and services</td></tr>
+          <tr><td>Software subscriptions</td><td>Xero partner ($0–$50/mo), MYOB, QuickBooks, tax lodgement software (Xero Tax, LodgeiT, GreatSoft), document management</td></tr>
+          <tr><td>CPD / continuing education</td><td>Mandatory for TPB registration — conferences, webinars, courses. Tax agents need 120 hours over 3 years (min 20/year)</td></tr>
+          <tr><td>Home office</td><td>Dedicated space: actual cost method or 67c/hr fixed rate. Including rent proportion, electricity, internet, phone</td></tr>
+          <tr><td>Reference materials</td><td>CCH, Thomson Reuters, tax legislation subscriptions, professional journals</td></tr>
+          <tr><td>Client entertainment</td><td>50% deductible for meal entertainment with clients (subject to FBT if through a company)</td></tr>
+          <tr><td>Travel to client sites</td><td>Km claims (85c/km in 2025-26) or logbook method</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Common Invoicing Mistakes Accountants Make</h2>
+      <ol>
+        <li><strong>Not itemising services:</strong> "Professional services — $3,500" tells the client nothing. Break it down by service type. This also helps at tax time when different services may have different GST treatments</li>
+        <li><strong>Forgetting the TPB number:</strong> Every invoice for tax agent or BAS agent services must include your TPB registration number. The TPB audits this</li>
+        <li><strong>Billing after lodgement:</strong> Invoice before or at the time of lodgement, not weeks later. Clients are most engaged (and most willing to pay) right after you've delivered the outcome</li>
+        <li><strong>No engagement letter:</strong> An invoice without a preceding engagement letter is a compliance breach under the TPB Code. Always issue the engagement letter first</li>
+        <li><strong>Scope creep without communication:</strong> Client asks "quick question" that turns into 2 hours of research. If it's outside the agreed scope, advise the client in writing before doing the work, and invoice separately</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-bookkeepers-bas-agents-australia" class="text-teal-400 hover:text-teal-300 underline">Bookkeeper & BAS Agent Invoicing</a> — Complementary billing models for bookkeeping services</li>
+        <li><a href="/blog/invoicing-consultants-australia" class="text-teal-400 hover:text-teal-300 underline">Consultant Invoicing</a> — Advisory billing and retainer structures</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Full GST registration and compliance breakdown</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoice essentials</li>
+        <li><a href="/blog/record-keeping-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Record Keeping</a> — ATO requirements for financial records</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional accounting invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-translators-interpreters-australia': {
+    slug: 'invoicing-translators-interpreters-australia',
+    title: 'How to Invoice as a Freelance Translator or Interpreter in Australia',
+    excerpt: 'Complete invoicing guide for freelance translators and interpreters in Australia — per-word and per-hour rates, NAATI certification premiums, specialisation pricing, urgent surcharges, court and medical interpreting, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '13 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Translator or Interpreter in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance translator and interpreter invoicing guide. Per-word rates, hourly interpreting fees, NAATI certification premiums, specialisation pricing, urgent surcharges, court interpreting, GST, and tax deductions.',
+    content: `
+      <h2>Translation vs Interpreting: Different Services, Different Billing</h2>
+      <p>Translation (written) and interpreting (spoken) are fundamentally different services with different pricing models. Many freelancers offer both, but they should always be invoiced separately with distinct line items and rates.</p>
+      <p>Australia's multilingual landscape — with over 300 languages spoken and significant demand from government, legal, medical, and corporate sectors — creates strong opportunities for qualified linguists. But pricing correctly and invoicing professionally is what separates hobbyists from sustainable freelance practices.</p>
+
+      <h2>Translation Pricing (Written)</h2>
+
+      <h3>Per-Word Rates</h3>
+      <p>The standard billing unit for translation in Australia is <strong>per source word</strong> (the language you're translating FROM). Some translators bill per target word — just be consistent and specify on your invoice.</p>
+      <table>
+        <thead><tr><th>Category</th><th>Per Source Word (AUD)</th><th>Typical Job</th></tr></thead>
+        <tbody>
+          <tr><td>General / commercial</td><td>$0.12–$0.20</td><td>Marketing materials, correspondence, websites</td></tr>
+          <tr><td>Technical / specialised</td><td>$0.18–$0.30</td><td>Engineering, IT, scientific papers</td></tr>
+          <tr><td>Legal / certified</td><td>$0.20–$0.40</td><td>Contracts, court documents, immigration</td></tr>
+          <tr><td>Medical / pharmaceutical</td><td>$0.22–$0.40</td><td>Clinical trials, patient info, regulatory</td></tr>
+          <tr><td>Financial / regulatory</td><td>$0.20–$0.35</td><td>Annual reports, compliance, ASIC documents</td></tr>
+          <tr><td>Literary / creative</td><td>$0.15–$0.30</td><td>Books, poetry, marketing copy (transcreation)</td></tr>
+          <tr><td>NAATI certified translation</td><td>$0.25–$0.50</td><td>Official documents requiring NAATI stamp</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Language premiums:</strong> Rates vary significantly by language pair. Common language pairs (e.g., Mandarin-English, Spanish-English) have more competition and lower rates. Rare language pairs (e.g., Dari-English, Tigrinya-English) command 30–100% premiums due to limited supply.</p>
+
+      <h3>Per-Page Rates</h3>
+      <p>Some clients prefer per-page pricing for simplicity. Standard: one page = 250 words. Typical per-page rates:</p>
+      <ul>
+        <li>General translation: $30–$50/page</li>
+        <li>Certified/NAATI translation: $50–$100/page</li>
+        <li>Legal translation: $60–$120/page</li>
+      </ul>
+
+      <h3>Minimum Fees</h3>
+      <p>Always set a minimum fee — small jobs (50–200 words) take the same admin effort as larger ones. Typical minimums:</p>
+      <ul>
+        <li>General translation: $50–$80 minimum</li>
+        <li>Certified translation: $75–$120 minimum</li>
+        <li>Includes: project setup, quality assurance, file formatting, delivery</li>
+      </ul>
+
+      <h2>Interpreting Pricing (Spoken)</h2>
+
+      <h3>On-Site Interpreting</h3>
+      <table>
+        <thead><tr><th>Setting</th><th>Half Day (up to 4hrs)</th><th>Full Day (up to 8hrs)</th><th>Hourly</th></tr></thead>
+        <tbody>
+          <tr><td>Community / general</td><td>$250–$450</td><td>$450–$800</td><td>$70–$120/hr</td></tr>
+          <tr><td>Business / conference</td><td>$400–$700</td><td>$700–$1,200</td><td>$100–$180/hr</td></tr>
+          <tr><td>Legal / court</td><td>$450–$800</td><td>$800–$1,400</td><td>$120–$200/hr</td></tr>
+          <tr><td>Medical / health</td><td>$350–$600</td><td>$600–$1,000</td><td>$90–$160/hr</td></tr>
+          <tr><td>Conference (simultaneous)</td><td>$600–$1,000</td><td>$1,000–$1,800</td><td>$150–$250/hr</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Minimum booking:</strong> Always enforce a minimum — typically 2 hours for on-site interpreting. You're committing travel time, preparation, and the opportunity cost of blocking out your calendar.</p>
+
+      <h3>Phone &amp; Video Interpreting</h3>
+      <table>
+        <thead><tr><th>Type</th><th>Rate</th><th>Minimum</th></tr></thead>
+        <tbody>
+          <tr><td>Phone interpreting</td><td>$2.50–$5.00/minute</td><td>15 minutes ($37.50–$75)</td></tr>
+          <tr><td>Video remote interpreting (VRI)</td><td>$3.00–$6.00/minute</td><td>15–30 minutes</td></tr>
+          <tr><td>Zoom/Teams interpreting</td><td>$80–$150/hour</td><td>1 hour</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Court &amp; Tribunal Interpreting</h3>
+      <p>Court interpreting has its own fee structure, often set by the court or tribunal:</p>
+      <ul>
+        <li><strong>Federal Circuit Court / Family Court:</strong> Published schedule of fees — check current rates</li>
+        <li><strong>State courts:</strong> Each state sets its own rates. NSW, VIC, and QLD have different schedules</li>
+        <li><strong>Private legal work:</strong> You set your own rates — typically 20–50% above government rates</li>
+        <li><strong>Waiting time:</strong> Bill for all time at court, including waiting. Courts are unpredictable — a 30-minute appearance might require 4 hours of waiting</li>
+        <li><strong>Cancellation fee:</strong> If a case settles or is adjourned after you've arrived, charge the minimum booking fee</li>
+      </ul>
+
+      <h2>NAATI Certification &amp; Pricing Impact</h2>
+      <p>NAATI (National Accreditation Authority for Translators and Interpreters) credentials directly affect your billing rates and the work you can accept:</p>
+      <table>
+        <thead><tr><th>NAATI Level</th><th>Rate Premium</th><th>What It Unlocks</th></tr></thead>
+        <tbody>
+          <tr><td>Recognised Practising</td><td>Base rate</td><td>General translation and interpreting</td></tr>
+          <tr><td>Certified Translator</td><td>+30–50%</td><td>Certified translations for DFAT, immigration, legal</td></tr>
+          <tr><td>Certified Interpreter</td><td>+30–50%</td><td>Court, medical, government interpreting</td></tr>
+          <tr><td>Certified Conference Interpreter</td><td>+50–100%</td><td>UN-style simultaneous conference interpreting</td></tr>
+          <tr><td>Advanced Translator</td><td>+50–80%</td><td>Highest level — complex legal, literary, technical</td></tr>
+        </tbody>
+      </table>
+      <p><strong>On your invoice:</strong> Always include your NAATI practitioner number and credential level. For certified translations, include your NAATI stamp and certification statement. This is what clients are paying the premium for.</p>
+
+      <h2>Surcharges &amp; Additional Fees</h2>
+      <table>
+        <thead><tr><th>Surcharge</th><th>Amount</th><th>When to Apply</th></tr></thead>
+        <tbody>
+          <tr><td>Urgent / rush fee</td><td>25–100%</td><td>Less than 24-hour turnaround, or same-day interpreting booking</td></tr>
+          <tr><td>Weekend / public holiday</td><td>50–100%</td><td>Work performed outside business hours</td></tr>
+          <tr><td>Travel (on-site interpreting)</td><td>$0.85/km + travel time at 50% of interpreting rate</td><td>Client sites beyond 25km from your base</td></tr>
+          <tr><td>Specialisation premium</td><td>20–50%</td><td>Subject matter requiring specialist knowledge (medical, legal, technical)</td></tr>
+          <tr><td>Desktop publishing / formatting</td><td>$30–$80/hour</td><td>When translated document needs layout work (InDesign, complex Word formatting)</td></tr>
+          <tr><td>Certification fee</td><td>$20–$50 per document</td><td>NAATI-stamped certification of translated documents</td></tr>
+          <tr><td>Notarisation coordination</td><td>$50–$150</td><td>Arranging notarial certification (JP or notary public)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Invoice Template for Translation Services</h2>
+      <table>
+        <thead><tr><th>Line Item</th><th>Details</th><th>Amount</th></tr></thead>
+        <tbody>
+          <tr><td>Translation — Birth Certificate (Mandarin → English)</td><td>NAATI certified translation, 320 source words @ $0.35/word</td><td>$112.00</td></tr>
+          <tr><td>Translation — Academic Transcript (Mandarin → English)</td><td>NAATI certified translation, 580 source words @ $0.35/word</td><td>$203.00</td></tr>
+          <tr><td>Certification fee</td><td>2 × NAATI-stamped certificates @ $30 each</td><td>$60.00</td></tr>
+          <tr><td>Rush surcharge (50%)</td><td>24-hour turnaround requested</td><td>$187.50</td></tr>
+          <tr><td><strong>Subtotal</strong></td><td></td><td><strong>$562.50</strong></td></tr>
+          <tr><td>GST (10%)</td><td></td><td>$56.25</td></tr>
+          <tr><td><strong>Total</strong></td><td></td><td><strong>$618.75</strong></td></tr>
+        </tbody>
+      </table>
+      <p><strong>Include on every invoice:</strong> Your ABN, NAATI practitioner number, language pair, source word count, per-word rate, and payment terms.</p>
+
+      <h2>Agency vs Direct Client Billing</h2>
+      <p>Many translators and interpreters work through agencies AND directly with clients. The billing dynamics are different:</p>
+      <ul>
+        <li><strong>Agency work:</strong> Lower per-word/hour rates (agencies take 30–60% margin), but consistent volume and no marketing effort. Invoice the agency, not the end client. Payment terms are often 30–45 days</li>
+        <li><strong>Direct clients:</strong> Higher rates (you keep 100%), but you handle project management, quoting, quality assurance, and payment collection. Payment terms: 7–14 days for individuals, 30 days for corporate</li>
+        <li><strong>Government panels:</strong> If you're on a government interpreting/translation panel (e.g., TIS National, state government panels), rates are fixed by the panel contract. Invoice according to their specific requirements</li>
+      </ul>
+
+      <h2>GST Considerations for Translators</h2>
+      <ul>
+        <li>Translation and interpreting services are <strong>GST-inclusive</strong> (standard taxable supply)</li>
+        <li><strong>Export exemption:</strong> If your client is overseas and the translation is for use outside Australia, it may be GST-free as an export of services. This is common for translators working with international agencies</li>
+        <li><strong>TIS National:</strong> Government-funded interpreting through TIS has specific GST treatment — check your contract</li>
+        <li>Register for GST when turnover exceeds $75,000 — many active translators exceed this</li>
+      </ul>
+
+      <h2>Tax Deductions for Translators &amp; Interpreters</h2>
+      <table>
+        <thead><tr><th>Deduction</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>NAATI registration &amp; renewal</td><td>Annual practising fee and revalidation costs</td></tr>
+          <tr><td>Professional development</td><td>NAATI CPD points (mandatory for revalidation), workshops, conferences (AUSIT, NZSTI)</td></tr>
+          <tr><td>AUSIT membership</td><td>Australian Institute of Interpreters and Translators — $250–$350/year</td></tr>
+          <tr><td>CAT tools</td><td>SDL Trados ($200–$600/year), memoQ ($150–$500), Wordfast, OmegaT (free)</td></tr>
+          <tr><td>Reference materials</td><td>Dictionaries (specialised bilingual dictionaries can be $100–$500), glossaries, terminology databases</td></tr>
+          <tr><td>Home office</td><td>Dedicated translation space — actual cost or 67c/hr fixed rate</td></tr>
+          <tr><td>Equipment</td><td>Interpreting equipment (headsets, portable booths for simultaneous), computer, dual monitors</td></tr>
+          <tr><td>Travel to interpreting jobs</td><td>85c/km or logbook method for court, hospital, and client site travel</td></tr>
+          <tr><td>Professional indemnity insurance</td><td>$500–$2,000/year — essential for certified translations</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Common Invoicing Mistakes Translators Make</h2>
+      <ol>
+        <li><strong>Not specifying the word count method:</strong> Source words vs target words can differ by 15–30% depending on language pair. Always specify which you're billing on and include the count on your invoice</li>
+        <li><strong>No minimum fee:</strong> A 50-word birth certificate translation takes 30+ minutes when you factor in certification, formatting, and admin. Without a minimum ($75–$120), you're working below minimum wage on small jobs</li>
+        <li><strong>Forgetting the NAATI number:</strong> Clients paying certified translation rates expect to see your NAATI credential on the invoice. Omitting it looks unprofessional and may void the certification</li>
+        <li><strong>Not charging for revisions:</strong> Client-requested changes after delivery (not error corrections) should be billed separately. Define "revision" vs "correction" in your terms. Corrections (your errors) are free. Revisions (client changes mind) are billable</li>
+        <li><strong>Absorbing formatting time:</strong> If a translation requires significant layout work (tables, graphics, InDesign), bill this separately as DTP (desktop publishing). It's a different skill from translation</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-copywriters-content-writers-australia" class="text-teal-400 hover:text-teal-300 underline">Copywriter Invoicing</a> — Per-word pricing and revision policies</li>
+        <li><a href="/blog/invoicing-consultants-australia" class="text-teal-400 hover:text-teal-300 underline">Consultant Invoicing</a> — Hourly and retainer billing models</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Including GST-free export services</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoicing essentials</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP Rights</a> — Copyright in translated works</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional translation invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-ux-ui-designers-australia': {
+    slug: 'invoicing-ux-ui-designers-australia',
+    title: 'How to Invoice as a Freelance UX/UI Designer in Australia',
+    excerpt: 'Complete invoicing guide for freelance UX/UI designers in Australia — project vs hourly pricing, design sprint billing, user research fees, prototyping rates, design system pricing, handoff deliverables, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '13 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance UX/UI Designer in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance UX/UI designer invoicing guide. Project and hourly rates, design sprint billing, user research fees, prototyping pricing, design systems, developer handoff, GST, and tax deductions.',
+    content: `
+      <h2>Why UX/UI Design Billing Is Different</h2>
+      <p>UX/UI design isn't graphic design with extra steps — it's a research-driven, iterative discipline that creates measurable business outcomes. Your invoicing should reflect this: you're not selling pixels, you're selling user experiences that increase conversion rates, reduce support tickets, and improve retention.</p>
+      <p>The challenge? UX/UI projects are inherently iterative. Research findings change direction. Usability testing reveals unexpected issues. Stakeholder feedback adds scope. Your billing model needs to account for this reality while protecting your time and income.</p>
+
+      <h2>Pricing Models for UX/UI Designers</h2>
+
+      <h3>1. Hourly Rates</h3>
+      <p>Best for: ongoing engagements, embedded team roles, projects with undefined scope.</p>
+      <table>
+        <thead><tr><th>Experience Level</th><th>Hourly Rate (AUD)</th><th>Typical Engagement</th></tr></thead>
+        <tbody>
+          <tr><td>Junior UX/UI (1–3 years)</td><td>$80–$130/hr</td><td>UI execution, wireframing, component design</td></tr>
+          <tr><td>Mid-level (3–6 years)</td><td>$120–$180/hr</td><td>End-to-end design, user research, prototyping</td></tr>
+          <tr><td>Senior (6–10 years)</td><td>$160–$250/hr</td><td>Strategy, design systems, team leadership</td></tr>
+          <tr><td>Principal / Design Director (10+ years)</td><td>$220–$350/hr</td><td>Design strategy, org design, executive stakeholder management</td></tr>
+          <tr><td>Specialist (accessibility, research, motion)</td><td>$150–$280/hr</td><td>WCAG audits, research programs, micro-interaction design</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Tip:</strong> Track your time in 15-minute increments. Round up, not down — that "quick Slack question" that turned into a 20-minute design discussion is billable.</p>
+
+      <h3>2. Project-Based Pricing</h3>
+      <p>Best for: defined deliverables with clear scope. Quote the project, not your hours.</p>
+      <table>
+        <thead><tr><th>Project Type</th><th>Price Range (AUD)</th><th>Typical Timeline</th></tr></thead>
+        <tbody>
+          <tr><td>Landing page design (1 page)</td><td>$1,500–$4,000</td><td>1–2 weeks</td></tr>
+          <tr><td>Marketing website (5–10 pages)</td><td>$5,000–$15,000</td><td>3–6 weeks</td></tr>
+          <tr><td>Mobile app (MVP, 10–20 screens)</td><td>$8,000–$25,000</td><td>4–8 weeks</td></tr>
+          <tr><td>SaaS dashboard design</td><td>$10,000–$35,000</td><td>6–12 weeks</td></tr>
+          <tr><td>Design system creation</td><td>$15,000–$50,000</td><td>8–16 weeks</td></tr>
+          <tr><td>E-commerce redesign</td><td>$8,000–$30,000</td><td>4–10 weeks</td></tr>
+          <tr><td>Full product design (research → handoff)</td><td>$20,000–$80,000+</td><td>8–20 weeks</td></tr>
+        </tbody>
+      </table>
+
+      <h3>3. Design Sprint Pricing</h3>
+      <p>Google Ventures-style design sprints are a popular engagement model. Bill as a fixed package:</p>
+      <ul>
+        <li><strong>3-day sprint:</strong> $4,000–$8,000 — problem framing, ideation, rapid prototyping</li>
+        <li><strong>5-day sprint:</strong> $6,000–$12,000 — full GV sprint with user testing on Day 5</li>
+        <li><strong>Sprint + implementation support:</strong> Add $3,000–$5,000 for post-sprint design refinement and developer handoff</li>
+      </ul>
+      <p>Sprints work best as a fixed fee with defined participants and outcomes. Include in your proposal: number of participants, pre-sprint prep requirements, and what's delivered at the end (prototype, test results, recommendation deck).</p>
+
+      <h3>4. Retainer Model</h3>
+      <table>
+        <thead><tr><th>Tier</th><th>Hours/Month</th><th>Monthly Fee</th><th>Effective Rate</th></tr></thead>
+        <tbody>
+          <tr><td>Light</td><td>20 hrs</td><td>$3,000–$4,500</td><td>$150–$225/hr</td></tr>
+          <tr><td>Standard</td><td>40 hrs (half-time)</td><td>$5,500–$8,000</td><td>$137–$200/hr</td></tr>
+          <tr><td>Dedicated</td><td>80 hrs (full-time)</td><td>$10,000–$16,000</td><td>$125–$200/hr</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Retainer rules:</strong> Unused hours don't roll over (or cap rollover at 25%). Require 30 days' notice to cancel. Invoice at the start of each month, not the end.</p>
+
+      <h2>Billing by Design Phase</h2>
+      <p>For larger projects, break your invoice into phases. This gives the client visibility and you get paid progressively:</p>
+      <table>
+        <thead><tr><th>Phase</th><th>% of Total Fee</th><th>Deliverables</th></tr></thead>
+        <tbody>
+          <tr><td>1. Discovery &amp; Research</td><td>20–25%</td><td>Stakeholder interviews, user research, competitive audit, journey maps, personas</td></tr>
+          <tr><td>2. Information Architecture</td><td>10–15%</td><td>Site maps, user flows, content structure, navigation model</td></tr>
+          <tr><td>3. Wireframing</td><td>15–20%</td><td>Low-fidelity wireframes, layout exploration, key screen flows</td></tr>
+          <tr><td>4. Visual Design</td><td>20–25%</td><td>High-fidelity mockups, style guide, component library, responsive layouts</td></tr>
+          <tr><td>5. Prototyping &amp; Testing</td><td>10–15%</td><td>Interactive prototype (Figma/Framer), usability testing, iteration</td></tr>
+          <tr><td>6. Developer Handoff</td><td>10–15%</td><td>Specs, assets, documentation, dev support during build</td></tr>
+        </tbody>
+      </table>
+
+      <h2>User Research Billing</h2>
+      <p>User research is often undervalued — don't bundle it for free. Bill it explicitly:</p>
+      <table>
+        <thead><tr><th>Research Activity</th><th>Price Range</th><th>Includes</th></tr></thead>
+        <tbody>
+          <tr><td>User interviews (5–8 participants)</td><td>$2,000–$5,000</td><td>Recruitment screening, interview script, 45-min sessions, synthesis, findings report</td></tr>
+          <tr><td>Usability testing (5–8 participants)</td><td>$2,500–$6,000</td><td>Test plan, task scenarios, moderated sessions, highlight reel, recommendations</td></tr>
+          <tr><td>Competitive audit</td><td>$1,500–$3,500</td><td>5–10 competitor analysis, UX teardown, opportunity mapping</td></tr>
+          <tr><td>Heuristic evaluation</td><td>$2,000–$4,000</td><td>Expert review against Nielsen heuristics, severity-rated findings, fix recommendations</td></tr>
+          <tr><td>Accessibility audit (WCAG 2.2)</td><td>$3,000–$8,000</td><td>AA compliance check, issue documentation, remediation roadmap</td></tr>
+          <tr><td>Survey design &amp; analysis</td><td>$1,000–$3,000</td><td>Survey design, distribution support, quantitative analysis, report</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Participant recruitment:</strong> If you're sourcing research participants, bill recruitment costs separately (typically $50–$150 per participant incentive, plus your recruitment time). Make this a pass-through cost on the invoice.</p>
+
+      <h2>Revision &amp; Iteration Policies</h2>
+      <p>UX/UI design is inherently iterative, but "unlimited revisions" is a recipe for scope creep. Structure your approach:</p>
+      <ul>
+        <li><strong>Included rounds:</strong> 2 rounds of revisions per phase are standard. Define what a "round" is — one consolidated round of feedback, not individual drip-fed changes</li>
+        <li><strong>Additional rounds:</strong> $150–$300/hour for revisions beyond the included rounds</li>
+        <li><strong>Scope changes vs revisions:</strong> A revision is "make this button blue instead of green." A scope change is "actually, we need a completely different checkout flow." Scope changes get a separate quote</li>
+        <li><strong>Feedback windows:</strong> Give clients 5 business days to provide feedback per round. After that, the round is considered approved. Include this in your contract</li>
+      </ul>
+
+      <h2>Design System Pricing</h2>
+      <p>Design systems are high-value deliverables. Price them as standalone products:</p>
+      <table>
+        <thead><tr><th>Component</th><th>Price Range</th></tr></thead>
+        <tbody>
+          <tr><td>Foundations (colour, typography, spacing, grid)</td><td>$3,000–$6,000</td></tr>
+          <tr><td>Core components (buttons, forms, cards, navigation)</td><td>$5,000–$12,000</td></tr>
+          <tr><td>Complex components (data tables, modals, date pickers)</td><td>$4,000–$10,000</td></tr>
+          <tr><td>Documentation &amp; guidelines</td><td>$3,000–$6,000</td></tr>
+          <tr><td>Icon set (custom, 50–100 icons)</td><td>$2,000–$5,000</td></tr>
+          <tr><td><strong>Full design system</strong></td><td><strong>$15,000–$50,000</strong></td></tr>
+        </tbody>
+      </table>
+      <p><strong>Ongoing maintenance:</strong> Design systems need updates as the product evolves. Offer a maintenance retainer ($1,500–$4,000/month) for ongoing component additions, documentation updates, and Figma library management.</p>
+
+      <h2>Developer Handoff Billing</h2>
+      <p>Don't underestimate handoff. Poor handoff creates developer confusion, QA cycles, and design drift. Bill for:</p>
+      <ul>
+        <li><strong>Figma dev mode setup:</strong> Auto-layout, component properties, variant structures, design tokens — all properly configured for developer inspection</li>
+        <li><strong>Asset export:</strong> Icons (SVG), images (optimised WebP/PNG), favicons, OG images</li>
+        <li><strong>Specification documentation:</strong> Interaction specs, animation timing, responsive breakpoints, edge cases</li>
+        <li><strong>Developer support:</strong> 2–4 weeks of developer Q&amp;A during build (bill as part of the project or as hourly support)</li>
+      </ul>
+      <p>Typical handoff fee: 10–15% of total project cost, or $2,000–$5,000 for mid-size projects.</p>
+
+      <h2>Invoice Template for UX/UI Design</h2>
+      <table>
+        <thead><tr><th>Line Item</th><th>Details</th><th>Amount</th></tr></thead>
+        <tbody>
+          <tr><td>Phase 1: Discovery &amp; Research</td><td>Stakeholder workshops (2 × 90min), competitive audit (8 competitors), user interviews (6 participants), journey mapping, personas</td><td>$4,500.00</td></tr>
+          <tr><td>Phase 2: Information Architecture</td><td>Site map, 12 user flows, navigation model, content structure</td><td>$2,000.00</td></tr>
+          <tr><td>Phase 3: Wireframing</td><td>25 screen wireframes (desktop + mobile), 3 key flow prototypes</td><td>$3,500.00</td></tr>
+          <tr><td>Participant incentives (pass-through)</td><td>6 × $80 gift cards for user interviews</td><td>$480.00</td></tr>
+          <tr><td><strong>Subtotal</strong></td><td></td><td><strong>$10,480.00</strong></td></tr>
+          <tr><td>GST (10%)</td><td></td><td>$1,048.00</td></tr>
+          <tr><td><strong>Total</strong></td><td></td><td><strong>$11,528.00</strong></td></tr>
+        </tbody>
+      </table>
+      <p><em>Note: This invoice covers Phases 1–3 of the agreed project scope. Phases 4–6 (Visual Design, Prototyping, Handoff) will be invoiced upon completion of Phase 3 approval.</em></p>
+
+      <h2>Licensing &amp; IP Considerations</h2>
+      <ul>
+        <li><strong>Standard practice:</strong> Full IP transfer upon final payment. Once paid, the client owns all design files, components, and assets. This is what most clients expect and what most freelancers offer</li>
+        <li><strong>Design system licensing:</strong> If you've built a design system that could serve as the foundation for multiple clients, consider licensing it rather than selling outright. Base system licence + per-project customisation</li>
+        <li><strong>Stock assets:</strong> If you use stock photos, icons, or illustrations, clarify who holds the licence. Best practice: client purchases licences directly, or you purchase on their behalf as a pass-through cost</li>
+        <li><strong>Figma file ownership:</strong> Transfer all Figma files to the client's workspace upon project completion. Don't hold files hostage — it's unprofessional and may breach your contract</li>
+      </ul>
+
+      <h2>GST Considerations</h2>
+      <ul>
+        <li>UX/UI design services are <strong>standard taxable supplies</strong> — charge GST if registered</li>
+        <li>Register for GST when turnover exceeds $75,000 — most active freelance UX designers exceed this</li>
+        <li><strong>International clients:</strong> Design services for overseas clients consumed outside Australia may be GST-free as an export. This is common for remote design work with US/EU startups</li>
+        <li><strong>Pass-through costs:</strong> Participant incentives and stock purchases billed to the client attract GST on the full amount (including your margin if any)</li>
+      </ul>
+
+      <h2>Tax Deductions for UX/UI Designers</h2>
+      <table>
+        <thead><tr><th>Deduction</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Design software</td><td>Figma ($21–$75/user/mo), Adobe Creative Cloud ($87/mo), Sketch ($12/mo), Framer, Principle, ProtoPie</td></tr>
+          <tr><td>Research tools</td><td>UserTesting ($200+/mo), Hotjar ($40+/mo), Maze ($99+/mo), Optimal Workshop ($140+/mo), Dovetail</td></tr>
+          <tr><td>Collaboration tools</td><td>Miro ($10+/mo), FigJam, Notion, Linear, Slack</td></tr>
+          <tr><td>Hardware</td><td>MacBook Pro, external monitors (ultrawide recommended), drawing tablet (Wacom, iPad Pro + Pencil), ergonomic setup</td></tr>
+          <tr><td>Professional development</td><td>Conferences (UX Australia ~$1,200, Web Directions ~$900), courses (IxDF, Nielsen Norman Group certification ~$2,500), books</td></tr>
+          <tr><td>Home office</td><td>Dedicated workspace — actual cost method or 67c/hr fixed rate</td></tr>
+          <tr><td>Professional memberships</td><td>UXPA ($150+/year), local design meetup fees, IxDA chapter</td></tr>
+          <tr><td>Font licences</td><td>Type licenses for client work (if not passed through), Google Fonts is free but premium fonts ($50–$500+ per family) are deductible</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Common Invoicing Mistakes UX/UI Designers Make</h2>
+      <ol>
+        <li><strong>Bundling research into design:</strong> User research is a separate, valuable deliverable. When you include it "free" in a design quote, clients don't understand its value and will ask you to skip it to save money. Bill research as a distinct phase</li>
+        <li><strong>Not billing for meetings:</strong> That 1-hour stakeholder alignment call, the 30-minute Slack back-and-forth, the "quick" design review — it all adds up. If you're hourly, track it. If you're project-based, account for meeting overhead in your quote (typically 20–30% of total project time is meetings)</li>
+        <li><strong>Giving away design system components:</strong> If you build a component library during a project, that's IP. Either price it into the project fee explicitly or licence it separately. Don't create a $30K asset and invoice only for "UI design"</li>
+        <li><strong>No kill fee for cancelled projects:</strong> If a project is cancelled mid-way, you should be compensated for completed work plus a cancellation fee (typically 20–25% of remaining project value). Include this in your contract</li>
+        <li><strong>Invoicing after handoff:</strong> Invoice per phase, not at the end. If you wait until handoff to send one big invoice, you're financing the client's project. Progressive billing protects your cash flow</li>
+      </ol>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-graphic-designers-australia" class="text-teal-400 hover:text-teal-300 underline">Graphic Designer Invoicing</a> — Visual design pricing and licensing models</li>
+        <li><a href="/blog/invoicing-web-developers-australia" class="text-teal-400 hover:text-teal-300 underline">Web Developer Invoicing</a> — Developer billing and handoff collaboration</li>
+        <li><a href="/blog/invoicing-consultants-australia" class="text-teal-400 hover:text-teal-300 underline">Consultant Invoicing</a> — Advisory and strategy billing models</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Milestone Payments</a> — Phase-based billing structures</li>
+        <li><a href="/blog/intellectual-property-rights-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">IP Rights</a> — Design ownership and licensing</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional design invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-psychologists-counsellors-therapists-australia': {
+    slug: 'invoicing-psychologists-counsellors-therapists-australia',
+    title: 'How to Invoice as a Psychologist, Counsellor, or Therapist in Australia',
+    excerpt: 'Complete invoicing guide for psychologists, counsellors, and therapists in Australia — Medicare rebates, health fund billing, NDIS invoicing, private session rates, cancellation policies, and GST-free rules.',
+    category: 'Invoicing',
+    readTime: '15 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Psychologist, Counsellor, or Therapist in Australia | 2026 Guide',
+    seoDescription: 'Australian psychologist and counsellor invoicing guide. Medicare rebates, health fund claims, NDIS billing, private session rates, cancellation fees, telehealth invoicing, GST-free rules, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Mental health services in Australia are booming — and so is the complexity of invoicing for them. Whether you're a registered psychologist, clinical psychologist, counsellor, psychotherapist, or social worker in private practice, your invoicing needs to handle Medicare rebates, health fund claims, NDIS billing, and private-pay clients — often all in the same week. Getting this right means faster payments, fewer claim rejections, and a practice that runs smoothly.</p>
+
+      <h2>Registration Requirements and Invoicing Implications</h2>
+      <p>Your registration status directly determines how you can bill and what rebates your clients can access.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Practitioner Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Registration</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Medicare Rebates</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Health Fund Claims</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Clinical Psychologist</td>
+              <td class="py-2 pr-4">AHPRA (Psychology Board)</td>
+              <td class="py-2 pr-4">Yes (higher rate)</td>
+              <td class="py-2 pr-4">Yes</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">General Psychologist</td>
+              <td class="py-2 pr-4">AHPRA (Psychology Board)</td>
+              <td class="py-2 pr-4">Yes (standard rate)</td>
+              <td class="py-2 pr-4">Yes</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Counsellor (ACA/PACFA)</td>
+              <td class="py-2 pr-4">Voluntary (ACA or PACFA)</td>
+              <td class="py-2 pr-4">No</td>
+              <td class="py-2 pr-4">Some funds (if registered)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Psychotherapist</td>
+              <td class="py-2 pr-4">Voluntary (PACFA/AASW)</td>
+              <td class="py-2 pr-4">No (unless also psychologist)</td>
+              <td class="py-2 pr-4">Some funds</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Social Worker (AMHSW)</td>
+              <td class="py-2 pr-4">AASW accredited</td>
+              <td class="py-2 pr-4">Yes (as AMHSW)</td>
+              <td class="py-2 pr-4">Varies</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Key Distinction: Medicare Provider Number</h3>
+        <p class="text-slate-300 text-sm">To bill Medicare items, you need a Medicare provider number (not just AHPRA registration). Apply through HPOS (Health Professional Online Services). Each practice location needs a separate provider number. Without one, you can only invoice private-pay clients.</p>
+      </div>
+
+      <h2>Session Rates by Practitioner Type</h2>
+      <p>Australian rates vary significantly based on qualification level, location, and whether Medicare or private billing applies.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Session Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Medicare Rebate (2026)</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Client Gap</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Clinical Psych — 50 min</td>
+              <td class="py-2 pr-4">$220–$350</td>
+              <td class="py-2 pr-4">~$131.65</td>
+              <td class="py-2 pr-4">$88–$218</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">General Psych — 50 min</td>
+              <td class="py-2 pr-4">$180–$280</td>
+              <td class="py-2 pr-4">~$93.35</td>
+              <td class="py-2 pr-4">$87–$187</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Counsellor — 50 min</td>
+              <td class="py-2 pr-4">$100–$200</td>
+              <td class="py-2 pr-4">N/A</td>
+              <td class="py-2 pr-4">$100–$200</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Couples Therapy — 75 min</td>
+              <td class="py-2 pr-4">$250–$400</td>
+              <td class="py-2 pr-4">N/A (not covered)</td>
+              <td class="py-2 pr-4">$250–$400</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Group Therapy — 90 min</td>
+              <td class="py-2 pr-4">$60–$120 per person</td>
+              <td class="py-2 pr-4">~$28.55 per person</td>
+              <td class="py-2 pr-4">$31–$91</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Psychological Assessment</td>
+              <td class="py-2 pr-4">$600–$3,000+</td>
+              <td class="py-2 pr-4">Limited items only</td>
+              <td class="py-2 pr-4">Varies widely</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Telehealth Session — 50 min</td>
+              <td class="py-2 pr-4">Same as in-person</td>
+              <td class="py-2 pr-4">Same rebate (via phone/video items)</td>
+              <td class="py-2 pr-4">Same gap</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Medicare Billing — How It Works on Invoices</h2>
+      <p>Medicare billing for psychology adds specific requirements to your invoices. Understanding the Better Access program structure is essential.</p>
+
+      <h3>Better Access Sessions (Mental Health Treatment Plan)</h3>
+      <ol>
+        <li><strong>Client gets GP referral:</strong> GP creates a Mental Health Treatment Plan (MHTP) and refers to you</li>
+        <li><strong>Medicare item numbers:</strong> Use the correct item numbers on invoices — 80010/80110 (clinical psych, 50+ min), 80000/80100 (general psych, 50+ min), 80020/80120 (30-50 min)</li>
+        <li><strong>Session limits:</strong> 10 sessions per calendar year (with GP review after first 6)</li>
+        <li><strong>Bulk billing vs gap payment:</strong> You choose — bulk bill (accept Medicare rebate as full payment) or charge a gap (client pays difference)</li>
+      </ol>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Invoice Requirement: Medicare Item Number</h3>
+        <p class="text-slate-300 text-sm">Every invoice for a Medicare-eligible session MUST include: the correct Medicare item number, your Medicare provider number, the referring GP's name and provider number, and the client's Medicare number. Missing any of these will result in a rejected claim.</p>
+      </div>
+
+      <h3>Bulk Billing vs Gap Payment Invoicing</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Billing Method</th>
+              <th class="text-left py-2 pr-4 text-slate-300">How It Works</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Invoice Shows</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Bulk Bill</td>
+              <td class="py-2 pr-4">Accept Medicare rebate as full payment — client pays $0</td>
+              <td class="py-2 pr-4">Medicare item + provider number. No amount due from client.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Gap Payment</td>
+              <td class="py-2 pr-4">Charge full fee — client claims rebate from Medicare after paying</td>
+              <td class="py-2 pr-4">Full session fee, Medicare item number, paid receipt for client to claim</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Reduced Gap</td>
+              <td class="py-2 pr-4">Charge less than full fee (e.g. concession rate) — client claims rebate</td>
+              <td class="py-2 pr-4">Reduced fee, Medicare item number, paid receipt</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Health Fund Billing</h2>
+      <p>Many clients use private health insurance (extras cover) to offset costs, particularly for counsellors who can't offer Medicare rebates.</p>
+      <ul>
+        <li><strong>HICAPS/Tyro terminal:</strong> Process claims at the point of sale — client pays gap only. Your invoice must show provider number, modality, and session details.</li>
+        <li><strong>Manual claims:</strong> Issue a paid receipt with your provider number, session date, duration, and modality. Client submits to their fund.</li>
+        <li><strong>Provider registration:</strong> Register with each health fund individually (Medibank, Bupa, HCF, nib, etc.). Requirements vary — some require ACA/PACFA membership, minimum practice hours, or specific qualifications.</li>
+        <li><strong>Rebate amounts:</strong> Typically $40–$80 per session depending on fund and cover level — much less than Medicare rebates.</li>
+      </ul>
+
+      <h2>NDIS Invoicing</h2>
+      <p>The National Disability Insurance Scheme has the most complex invoicing requirements. Getting NDIS invoicing wrong leads to payment delays and claim rejections.</p>
+
+      <h3>NDIS Invoice Requirements</h3>
+      <ul>
+        <li><strong>NDIS number:</strong> Client's NDIS participant number must appear on every invoice</li>
+        <li><strong>Support item number:</strong> Use the correct NDIS Support Catalogue item number (e.g. 15_056_0128_1_3 for individual psychology)</li>
+        <li><strong>Service booking number:</strong> If plan-managed or agency-managed, include the service booking reference</li>
+        <li><strong>Line items:</strong> One line per support item with quantity, unit price, and total</li>
+        <li><strong>Provider number:</strong> Your NDIS registration number</li>
+        <li><strong>Claim type:</strong> Specify if agency-managed, plan-managed, or self-managed</li>
+      </ul>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">NDIS Management Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Who You Invoice</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Payment Timeline</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Agency-Managed</td>
+              <td class="py-2 pr-4">NDIA directly (via myplace portal)</td>
+              <td class="py-2 pr-4">5–10 business days</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Plan-Managed</td>
+              <td class="py-2 pr-4">Plan manager (e.g. My Plan Manager, Leap In)</td>
+              <td class="py-2 pr-4">7–14 business days</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Self-Managed</td>
+              <td class="py-2 pr-4">Client directly (they claim reimbursement)</td>
+              <td class="py-2 pr-4">Depends on client</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">NDIS Pricing Limits</h3>
+        <p class="text-slate-300 text-sm">NDIS sets maximum prices for each support item. For psychology, this is typically $214.41/hour (2025-26 price guide). You cannot charge agency-managed or plan-managed participants above the price limit. Self-managed participants can negotiate different rates.</p>
+      </div>
+
+      <h2>Cancellation and No-Show Policies</h2>
+      <p>Late cancellations and no-shows are a significant revenue issue for mental health practitioners. A clear, written policy is essential — and you need to know how to invoice for them.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Notice Period</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Policy</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Can You Invoice?</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">48+ hours notice</td>
+              <td class="py-2 pr-4">No charge — reschedule offered</td>
+              <td class="py-2 pr-4">No</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">24–48 hours notice</td>
+              <td class="py-2 pr-4">50% of session fee</td>
+              <td class="py-2 pr-4">Yes (private only — not claimable on Medicare or health funds)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Under 24 hours / no-show</td>
+              <td class="py-2 pr-4">100% of session fee</td>
+              <td class="py-2 pr-4">Yes (private only — not claimable on Medicare or health funds)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>Key rule:</strong> You cannot bill Medicare or health funds for cancelled or missed sessions. Cancellation fees must be invoiced as private charges. NDIS has specific cancellation rules — Short Notice Cancellations (under 2 business days) can be claimed at 90% of the agreed rate.</p>
+
+      <h2>Sample Invoice — Psychology Session (Gap Payment)</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Tax Invoice</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p><strong>FROM:</strong> Dr Sarah Chen | Clinical Psychologist</p>
+          <p>ABN: 12 345 678 901 | Medicare Provider: 1234567A | AHPRA: PSY0001234567</p>
+          <p>Suite 5, 120 Collins Street, Melbourne VIC 3000</p>
+          <p class="mt-3"><strong>TO:</strong> James Wilson | DOB: 15/03/1988 | Medicare: 2345 67890 1</p>
+          <p><strong>Referring GP:</strong> Dr Emma Park | Provider: 7654321B</p>
+          <p class="mt-3"><strong>Invoice #:</strong> SC-2026-0147</p>
+          <p><strong>Date of Service:</strong> 24 February 2026</p>
+          <p class="mt-3 border-t border-slate-700 pt-2">Individual psychological therapy session (50 min)</p>
+          <p>Medicare Item: 80010</p>
+          <p>Session Fee .................................................... $280.00</p>
+          <p class="mt-2 text-slate-400">Medicare Rebate (approx) ................................. −$131.65</p>
+          <p class="text-slate-400">Estimated Client Gap ...................................... $148.35</p>
+          <p class="border-t border-slate-700 pt-2 mt-3"><strong>Total Due: $280.00</strong></p>
+          <p class="text-slate-400 text-xs mt-2">GST-free — health services exempt under Division 38 of the GST Act</p>
+          <p class="text-slate-400 text-xs">Client to claim Medicare rebate after payment. Retain this receipt for your claim.</p>
+        </div>
+      </div>
+
+      <h2>GST Rules for Mental Health Services</h2>
+      <p>This is one area where mental health practitioners get a significant advantage — most psychological and counselling services are <strong>GST-free</strong>.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service</th>
+              <th class="text-left py-2 pr-4 text-slate-300">GST Status</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Reason</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Clinical psychology sessions</td>
+              <td class="py-2 pr-4">GST-free</td>
+              <td class="py-2 pr-4">Medical service under Div 38</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">General psychology sessions</td>
+              <td class="py-2 pr-4">GST-free</td>
+              <td class="py-2 pr-4">Medical service under Div 38</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Counselling (ACA/PACFA registered)</td>
+              <td class="py-2 pr-4">GST-free</td>
+              <td class="py-2 pr-4">Health service under Div 38 (if appropriately qualified)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Psychological assessment/report</td>
+              <td class="py-2 pr-4">GST-free</td>
+              <td class="py-2 pr-4">Part of therapeutic treatment</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Medico-legal reports</td>
+              <td class="py-2 pr-4">GST applies</td>
+              <td class="py-2 pr-4">Not therapeutic — for legal proceedings</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Workplace training/workshops</td>
+              <td class="py-2 pr-4">GST applies</td>
+              <td class="py-2 pr-4">Not therapeutic healthcare service</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Supervision (for other practitioners)</td>
+              <td class="py-2 pr-4">GST applies</td>
+              <td class="py-2 pr-4">Professional development, not treatment</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Mixed GST Activities</h3>
+        <p class="text-slate-300 text-sm">If you provide both GST-free clinical services and GST-applicable services (supervision, training, medico-legal), you still need to register for GST if your total turnover exceeds $75K. Your invoices must correctly identify which services attract GST and which don't. Get your BAS agent to set up proper GST reporting codes.</p>
+      </div>
+
+      <h2>Telehealth Invoicing</h2>
+      <p>Since COVID, telehealth has become a permanent fixture. Invoicing rules are slightly different:</p>
+      <ul>
+        <li><strong>Medicare telehealth items:</strong> Use specific telehealth item numbers (80010 for video, 80015 for phone) — different from in-person items</li>
+        <li><strong>Same session rate:</strong> You can charge the same rate as in-person (Medicare rebate is the same)</li>
+        <li><strong>Invoice notation:</strong> Note the delivery method (video/phone) and platform used</li>
+        <li><strong>Interstate clients:</strong> Check your registration covers the client's state. Psychology registration is national (AHPRA), but counselling registration varies</li>
+      </ul>
+
+      <h2>Psychological Assessment Invoicing</h2>
+      <p>Assessments are a significant revenue stream and require detailed invoicing:</p>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Assessment Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Fee</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Invoice Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">ADHD/ADD Assessment (adult)</td>
+              <td class="py-2 pr-4">$800–$2,500</td>
+              <td class="py-2 pr-4">Multiple sessions + report writing. Invoice per session or as package.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Autism/ASD Assessment (adult)</td>
+              <td class="py-2 pr-4">$1,500–$3,500</td>
+              <td class="py-2 pr-4">May involve multiple clinicians. Itemise each component.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Child Development Assessment</td>
+              <td class="py-2 pr-4">$1,200–$3,000</td>
+              <td class="py-2 pr-4">Parent interviews + testing + report. Progress invoicing common.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Cognitive/IQ Assessment</td>
+              <td class="py-2 pr-4">$600–$1,500</td>
+              <td class="py-2 pr-4">Testing session + scoring + written report.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Medico-Legal Report</td>
+              <td class="py-2 pr-4">$2,000–$8,000+</td>
+              <td class="py-2 pr-4">GST applies. Invoice to solicitor or insurer. Itemise court attendance separately.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Tax Deductions for Mental Health Practitioners</h2>
+      <p>Common deductions to track and invoice correctly for:</p>
+      <ul>
+        <li><strong>Professional registration:</strong> AHPRA ($753/year for psychologists), ACA ($275/year), PACFA ($310/year)</li>
+        <li><strong>Professional indemnity insurance:</strong> $800–$2,500/year depending on coverage</li>
+        <li><strong>Supervision:</strong> $150–$250/hour (mandatory for provisional psychologists, recommended for all)</li>
+        <li><strong>Assessment tools:</strong> WISC, WAIS, MMPI test kits ($500–$2,000+ each), scoring software subscriptions</li>
+        <li><strong>Practice management software:</strong> Cliniko ($45–$199/mo), Halaxy (free–$29/mo), Power Diary ($12–$42/mo)</li>
+        <li><strong>Room rental:</strong> $50–$200/session or $300–$1,500/week for dedicated office</li>
+        <li><strong>CPD/training:</strong> Conferences, workshops, online courses (30+ hours/year required)</li>
+        <li><strong>Professional library:</strong> Books, journal subscriptions, diagnostic manuals (DSM-5-TR ~$130)</li>
+        <li><strong>Telehealth platform:</strong> Coviu ($29–$99/mo), dedicated video setup costs</li>
+      </ul>
+
+      <h2>Record Keeping and Privacy</h2>
+      <p>Mental health practitioners have additional record-keeping obligations that affect invoicing:</p>
+      <ul>
+        <li><strong>Retention:</strong> Clinical records must be kept for 7 years after last contact (or until the client turns 25 if a minor)</li>
+        <li><strong>Invoices as records:</strong> Your invoices become part of the client's financial record — ensure they don't contain clinical details beyond session type</li>
+        <li><strong>Privacy Act:</strong> Invoice descriptions should be generic (e.g. "psychological therapy session") — never include diagnosis or treatment details on invoices</li>
+        <li><strong>Couples/family:</strong> Clarify who is the billing client. Only one person should appear on the invoice (the one claiming the rebate or paying)</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-massage-therapists-allied-health-australia" class="text-teal-400 hover:text-teal-300 underline">Massage Therapist & Allied Health Invoicing</a> — Health fund claiming and HICAPS billing</li>
+        <li><a href="/blog/invoicing-life-coaches-business-coaches-australia" class="text-teal-400 hover:text-teal-300 underline">Life Coach Invoicing</a> — Session-based billing and coaching packages</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Complete GST breakdown for freelancers and sole traders</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoice requirements</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional therapy invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-florists-floral-designers-australia': {
+    slug: 'invoicing-florists-floral-designers-australia',
+    title: 'How to Invoice as a Freelance Florist or Floral Designer in Australia',
+    excerpt: 'Complete invoicing guide for freelance florists and floral designers in Australia — wedding flowers, event styling, materials markup, perishable goods, delivery fees, seasonal pricing, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '13 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Florist or Floral Designer in Australia | 2026 Guide',
+    seoDescription: 'Australian florist and floral designer invoicing guide. Wedding flowers pricing, event styling, materials markup, perishable goods, delivery fees, seasonal surcharges, deposit structures, and GST.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Floral design is a creative business with unique invoicing challenges — perishable materials, seasonal price fluctuations, complex event installations, and the emotional stakes of wedding work. Whether you're doing weekly arrangements for cafes, styling corporate events, or creating $20,000 wedding installations, your invoicing needs to protect your margins and set clear expectations. Here's how to get it right.</p>
+
+      <h2>Pricing Models for Florists</h2>
+      <p>Most florists use a combination of pricing approaches depending on the job type.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Pricing Model</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Range</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Single arrangement (counter/delivery)</td>
+              <td class="py-2 pr-4">Fixed price</td>
+              <td class="py-2 pr-4">$60–$250</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Weekly subscription (cafe/office)</td>
+              <td class="py-2 pr-4">Recurring fixed</td>
+              <td class="py-2 pr-4">$80–$300/week</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Wedding — bridal party flowers</td>
+              <td class="py-2 pr-4">Per-item quote</td>
+              <td class="py-2 pr-4">$2,000–$8,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Wedding — ceremony + reception styling</td>
+              <td class="py-2 pr-4">Package or custom quote</td>
+              <td class="py-2 pr-4">$3,000–$25,000+</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Corporate event</td>
+              <td class="py-2 pr-4">Custom quote (per table/arrangement)</td>
+              <td class="py-2 pr-4">$500–$15,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Funeral tributes</td>
+              <td class="py-2 pr-4">Per-piece fixed</td>
+              <td class="py-2 pr-4">$120–$800+</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Photoshoot/editorial styling</td>
+              <td class="py-2 pr-4">Day rate + materials</td>
+              <td class="py-2 pr-4">$500–$3,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Workshop/class</td>
+              <td class="py-2 pr-4">Per-person fee</td>
+              <td class="py-2 pr-4">$80–$180 per person</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Materials Markup — The Core of Floral Pricing</h2>
+      <p>Materials are your biggest variable cost, and proper markup is how you stay profitable. The industry standard approach:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Component</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Standard Markup</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Fresh flowers</td>
+              <td class="py-2 pr-4">3x–4x wholesale cost</td>
+              <td class="py-2 pr-4">Accounts for waste (15-25% stems unusable). Higher for premium/imported stems.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Foliage and greenery</td>
+              <td class="py-2 pr-4">3x–5x cost</td>
+              <td class="py-2 pr-4">Higher markup if locally foraged (your time to collect).</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Hard goods (vases, oasis, wire)</td>
+              <td class="py-2 pr-4">2x–3x cost</td>
+              <td class="py-2 pr-4">Reusable items may be charged as hire instead.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Vessel/container hire</td>
+              <td class="py-2 pr-4">$15–$80 each</td>
+              <td class="py-2 pr-4">Separate line item. Include bond/breakage clause.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Dried/preserved flowers</td>
+              <td class="py-2 pr-4">3x–5x cost</td>
+              <td class="py-2 pr-4">Higher margin due to longer shelf life (no waste factor).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Pricing Formula</h3>
+        <p class="text-slate-300 text-sm">Standard floral pricing: (Flower cost x 3.5) + Labour ($40–$80/hr) + Delivery + Hard goods (x 2.5) = Retail price. This gives you roughly 65-72% gross margin, which you need to cover rent, vehicle costs, cold storage, and waste.</p>
+      </div>
+
+      <h2>Seasonal Pricing and Surcharges</h2>
+      <p>Flower prices fluctuate dramatically throughout the year. Your invoicing needs to account for this.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Season/Event</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Impact on Costs</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Invoicing Approach</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Valentine's Day (Feb 14)</td>
+              <td class="py-2 pr-4">Red roses 3x–5x normal price</td>
+              <td class="py-2 pr-4">Separate Valentine's pricing. State "seasonal pricing applies" on quotes.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Mother's Day (May)</td>
+              <td class="py-2 pr-4">All flowers 1.5x–2x</td>
+              <td class="py-2 pr-4">Seasonal surcharge or adjusted per-arrangement pricing.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Peak wedding season (Oct–Mar)</td>
+              <td class="py-2 pr-4">Higher demand, busier market</td>
+              <td class="py-2 pr-4">Peak season rates (10-20% premium). Minimum order values increase.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Winter (Jun–Aug)</td>
+              <td class="py-2 pr-4">Limited local varieties, more imports</td>
+              <td class="py-2 pr-4">Quote based on available seasonals. Include "substitution clause" for specific flower requests.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Wedding Flower Invoicing</h2>
+      <p>Weddings are the bread and butter for most freelance florists. A typical wedding invoice structure:</p>
+
+      <h3>Wedding Payment Schedule</h3>
+      <ol>
+        <li><strong>Non-refundable retainer (30%):</strong> Due at booking to secure the date. This is a retainer (not a deposit — important legal distinction in Australia). It compensates you for turning away other bookings.</li>
+        <li><strong>Progress payment (40%):</strong> Due 6–8 weeks before the wedding, when you finalise the flower order with wholesalers.</li>
+        <li><strong>Final balance (30%):</strong> Due 2 weeks before the wedding. Must be paid before delivery/setup day.</li>
+      </ol>
+
+      <h3>Sample Wedding Invoice — Progress Payment</h3>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Tax Invoice — Progress Payment (2 of 3)</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p><strong>FROM:</strong> Bloom & Co Floral Design | ABN: 12 345 678 901</p>
+          <p>22 Johnston Street, Fitzroy VIC 3065</p>
+          <p class="mt-3"><strong>TO:</strong> Sarah & James Mitchell</p>
+          <p><strong>Event Date:</strong> 15 March 2026 | <strong>Venue:</strong> The Farm, Yarra Valley</p>
+          <p><strong>Invoice #:</strong> BC-2026-W047</p>
+          <p class="mt-3 border-t border-slate-700 pt-2">BRIDAL PARTY</p>
+          <p>Bridal bouquet (lush garden style, peonies, roses, ranunculus) ..... $380</p>
+          <p>Bridesmaid bouquets x 4 @ $165 each ................................ $660</p>
+          <p>Flower girl posies x 2 @ $65 each .................................. $130</p>
+          <p>Buttonholes x 8 @ $30 each ......................................... $240</p>
+          <p>Corsages x 4 @ $45 each ............................................ $180</p>
+          <p class="mt-2">CEREMONY</p>
+          <p>Arbour installation (full floral, asymmetric design) .............. $1,800</p>
+          <p>Aisle arrangements x 10 @ $90 each ................................. $900</p>
+          <p class="mt-2">RECEPTION</p>
+          <p>Centrepieces x 12 @ $145 each (low compote style) ................ $1,740</p>
+          <p>Top table garland (3m) ............................................. $680</p>
+          <p>Cake flowers ...................................................... $120</p>
+          <p class="mt-2">LOGISTICS</p>
+          <p>Delivery + setup (team of 2, 4 hours) ............................. $800</p>
+          <p>Vessel hire (12 brass compotes + 10 aisle vessels) ................ $420</p>
+          <p>Pack-down + collection (post-event) ................................ $300</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal .......................................... $8,350.00</p>
+          <p>GST (10%) ......................................... $835.00</p>
+          <p><strong>Total ............................................. $9,185.00</strong></p>
+          <p class="mt-2">Less: Retainer paid (30%) ......................... −$2,755.50</p>
+          <p><strong>This Invoice (Progress Payment — 40%): $3,674.00</strong></p>
+          <p class="text-slate-400 text-xs mt-2">Final balance of $2,755.50 due by 1 March 2026. Flower substitutions may apply based on seasonal availability — you will be consulted on any changes.</p>
+        </div>
+      </div>
+
+      <h2>Delivery and Setup Fees</h2>
+      <p>Delivery is a significant cost for florists and should always be a separate line item.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Delivery Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Fee</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Local delivery (< 15km)</td>
+              <td class="py-2 pr-4">$15–$30</td>
+              <td class="py-2 pr-4">Standard for single arrangements</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Extended delivery (15-40km)</td>
+              <td class="py-2 pr-4">$30–$60</td>
+              <td class="py-2 pr-4">Zoned pricing based on distance</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Regional/event delivery</td>
+              <td class="py-2 pr-4">$1.50–$2.50/km</td>
+              <td class="py-2 pr-4">Mileage rate for weddings at rural venues</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Event setup (per hour)</td>
+              <td class="py-2 pr-4">$60–$100/hr per person</td>
+              <td class="py-2 pr-4">Minimum 2 hours. Includes unloading, arranging, water check.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Pack-down + collection</td>
+              <td class="py-2 pr-4">$200–$500</td>
+              <td class="py-2 pr-4">Post-event vessel collection. Often next-day.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Substitution Clauses</h2>
+      <p>This is unique to floral businesses — flowers are seasonal and perishable. Your invoices and contracts MUST include a substitution clause:</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Standard Substitution Clause</h3>
+        <p class="text-slate-300 text-sm">"Due to the seasonal and perishable nature of fresh flowers, we reserve the right to substitute specific varieties with alternatives of equal or greater value that match the agreed colour palette and overall design aesthetic. We will consult with you on any significant changes where possible."</p>
+      </div>
+
+      <h2>Cancellation Policies for Events</h2>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Notice Period</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Policy</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Rationale</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">90+ days before event</td>
+              <td class="py-2 pr-4">Retainer forfeited, remaining refunded</td>
+              <td class="py-2 pr-4">Date can likely be rebooked</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">30–90 days</td>
+              <td class="py-2 pr-4">50% of total due</td>
+              <td class="py-2 pr-4">Flowers may already be on order</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Under 30 days</td>
+              <td class="py-2 pr-4">100% of total due</td>
+              <td class="py-2 pr-4">Flowers ordered, perishable — cannot be resold</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Postponement</td>
+              <td class="py-2 pr-4">Retainer transfers (one-time), repricing may apply</td>
+              <td class="py-2 pr-4">Seasonal availability may change new date pricing</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Vessel and Equipment Hire</h2>
+      <p>Many florists build a vessel collection that they hire out for events. This is a separate revenue stream with specific invoicing:</p>
+      <ul>
+        <li><strong>Hire fee per piece:</strong> $10–$80 depending on size and material (brass, ceramic, glass)</li>
+        <li><strong>Breakage/loss bond:</strong> Common to hold a bond (e.g. $500 for a wedding's worth of vessels) — refund after return inspection</li>
+        <li><strong>Replacement value:</strong> List replacement cost on the hire agreement (client pays if damaged beyond repair)</li>
+        <li><strong>Return timeline:</strong> Specify when vessels must be collected/returned (typically next business day)</li>
+      </ul>
+
+      <h2>Recurring Client Invoicing</h2>
+      <p>Weekly or fortnightly arrangements for businesses are steady revenue. Invoice approaches:</p>
+      <ul>
+        <li><strong>Weekly invoice:</strong> Best for clients who want flexibility to skip weeks. Invoice after each delivery.</li>
+        <li><strong>Monthly invoice:</strong> Charge at start of month for all weekly deliveries. Offer 5-10% discount for monthly commitment.</li>
+        <li><strong>Quarterly contract:</strong> Lock in pricing for 3 months. Protects you from seasonal cost spikes and gives clients certainty.</li>
+      </ul>
+
+      <h2>Tax Deductions for Florists</h2>
+      <ul>
+        <li><strong>Wholesale flowers and foliage:</strong> Your biggest expense — keep all market and supplier receipts</li>
+        <li><strong>Vehicle costs:</strong> Delivery van (lease/fuel/insurance/rego), or per-km for personal vehicle ($0.88/km in 2025-26)</li>
+        <li><strong>Cold storage:</strong> Cool room electricity, commercial fridge depreciation</li>
+        <li><strong>Tools and equipment:</strong> Secateurs, floral foam, wire, tape, ribbon — all deductible</li>
+        <li><strong>Market fees:</strong> Sydney Flower Market or Melbourne Market access fees and membership</li>
+        <li><strong>Studio/workshop rent:</strong> Including utilities for the workspace</li>
+        <li><strong>Insurance:</strong> Public liability ($300–$800/year), product liability, vehicle</li>
+        <li><strong>Website and marketing:</strong> Website hosting, Instagram advertising, wedding directory listings (Easy Weddings, WedShed)</li>
+        <li><strong>Waste disposal:</strong> Green waste removal, composting services</li>
+      </ul>
+
+      <h2>GST for Florists</h2>
+      <p>Flower sales and floral services are standard GST-applicable supplies. If your turnover exceeds $75,000, you must register for GST. Key points:</p>
+      <ul>
+        <li><strong>All flower sales:</strong> GST applies — both retail and wholesale (if you on-sell to other florists)</li>
+        <li><strong>Delivery fees:</strong> GST applies</li>
+        <li><strong>Setup labour:</strong> GST applies</li>
+        <li><strong>Vessel hire:</strong> GST applies</li>
+        <li><strong>Workshop fees:</strong> GST applies</li>
+        <li><strong>Input tax credits:</strong> Claim GST back on wholesale flower purchases, vehicle costs, tools, rent, and other business expenses</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-event-planners-wedding-coordinators-australia" class="text-teal-400 hover:text-teal-300 underline">Event Planner Invoicing</a> — Complementary service for wedding industry</li>
+        <li><a href="/blog/invoicing-photographers-australia" class="text-teal-400 hover:text-teal-300 underline">Photographer Invoicing</a> — Another key wedding vendor billing guide</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Milestone Payments</a> — Structuring progress payments for large projects</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Complete GST breakdown for Australian businesses</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional floral invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-driving-instructors-australia': {
+    slug: 'invoicing-driving-instructors-australia',
+    title: 'How to Invoice as a Driving Instructor in Australia',
+    excerpt: 'Complete invoicing guide for driving instructors in Australia — per-lesson rates, package pricing, cancellation policies, vehicle costs, licence requirements, keys2drive vouchers, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '12 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Driving Instructor in Australia | 2026 Guide',
+    seoDescription: 'Australian driving instructor invoicing guide. Per-lesson rates, package pricing, cancellation and no-show policies, keys2drive vouchers, vehicle costs, licence requirements, GST, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Driving instruction is a steady, in-demand trade across Australia — especially in suburban areas where public transport is limited and every teenager needs 120 hours of supervised driving. Whether you're running your own driving school or working as a sole trader instructor, your invoicing needs to handle per-lesson billing, package discounts, cancellations (which happen constantly), and the unique costs of running a dual-control vehicle as your office.</p>
+
+      <h2>Licence Requirements by State</h2>
+      <p>Before you can legally invoice for driving lessons, you need the right credentials. Requirements vary by state.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">State/Territory</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Licence Name</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Issuing Authority</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Renewal</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">VIC</td>
+              <td class="py-2 pr-4">Driving Instructor Authority</td>
+              <td class="py-2 pr-4">VicRoads</td>
+              <td class="py-2 pr-4">Annual</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">NSW</td>
+              <td class="py-2 pr-4">Driving Instructor Licence</td>
+              <td class="py-2 pr-4">Transport for NSW</td>
+              <td class="py-2 pr-4">5 years</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">QLD</td>
+              <td class="py-2 pr-4">Driver Trainer Licence</td>
+              <td class="py-2 pr-4">Dept of Transport & Main Roads</td>
+              <td class="py-2 pr-4">5 years</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">SA</td>
+              <td class="py-2 pr-4">Driving Instructor Accreditation</td>
+              <td class="py-2 pr-4">Dept for Infrastructure & Transport</td>
+              <td class="py-2 pr-4">3 years</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">WA</td>
+              <td class="py-2 pr-4">Motor Vehicle Driver Instructor Licence</td>
+              <td class="py-2 pr-4">Dept of Transport</td>
+              <td class="py-2 pr-4">5 years</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Your Licence Number Goes on Every Invoice</h3>
+        <p class="text-slate-300 text-sm">Include your driving instructor licence/authority number on every invoice. It demonstrates legitimacy, is often required by state regulations, and is essential for any keys2drive or government-funded lesson claims.</p>
+      </div>
+
+      <h2>Per-Lesson Rates Across Australia</h2>
+      <p>Driving lesson pricing varies by state, lesson duration, and whether you're in a metropolitan or regional area.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Lesson Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Duration</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Metro Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Regional Rate</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Standard lesson</td>
+              <td class="py-2 pr-4">60 minutes</td>
+              <td class="py-2 pr-4">$60–$80</td>
+              <td class="py-2 pr-4">$50–$70</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Extended lesson</td>
+              <td class="py-2 pr-4">90 minutes</td>
+              <td class="py-2 pr-4">$85–$115</td>
+              <td class="py-2 pr-4">$70–$100</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Double lesson</td>
+              <td class="py-2 pr-4">120 minutes</td>
+              <td class="py-2 pr-4">$110–$150</td>
+              <td class="py-2 pr-4">$95–$130</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Test preparation lesson</td>
+              <td class="py-2 pr-4">60 minutes</td>
+              <td class="py-2 pr-4">$65–$90</td>
+              <td class="py-2 pr-4">$55–$80</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Test day package (lesson + test)</td>
+              <td class="py-2 pr-4">~3 hours</td>
+              <td class="py-2 pr-4">$150–$250</td>
+              <td class="py-2 pr-4">$130–$200</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Automatic vs manual</td>
+              <td class="py-2 pr-4">—</td>
+              <td class="py-2 pr-4">Same price (most)</td>
+              <td class="py-2 pr-4">Manual may be $5–$10 more</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">VIC Bonus: Professional Lessons Count Triple</h3>
+        <p class="text-slate-300 text-sm">In Victoria, each hour with a licensed driving instructor counts as 3 hours in the learner's log book (up to 10 professional lessons = 30 log book hours). This is a powerful selling point — mention it on invoices and marketing. NSW and QLD don't have this bonus.</p>
+      </div>
+
+      <h2>Package Pricing</h2>
+      <p>Lesson packages are how most instructors secure upfront revenue and reduce cancellation risk.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Package</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Lessons</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Price</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Per-Lesson Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Discount</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Starter</td>
+              <td class="py-2 pr-4">5 x 60 min</td>
+              <td class="py-2 pr-4">$320–$375</td>
+              <td class="py-2 pr-4">$64–$75</td>
+              <td class="py-2 pr-4">~5-7%</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Standard</td>
+              <td class="py-2 pr-4">10 x 60 min</td>
+              <td class="py-2 pr-4">$600–$700</td>
+              <td class="py-2 pr-4">$60–$70</td>
+              <td class="py-2 pr-4">~10-12%</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Full Course</td>
+              <td class="py-2 pr-4">20 x 60 min</td>
+              <td class="py-2 pr-4">$1,100–$1,300</td>
+              <td class="py-2 pr-4">$55–$65</td>
+              <td class="py-2 pr-4">~15-18%</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Test Ready</td>
+              <td class="py-2 pr-4">10 lessons + test day</td>
+              <td class="py-2 pr-4">$750–$900</td>
+              <td class="py-2 pr-4">—</td>
+              <td class="py-2 pr-4">~12-15%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Package Terms on Invoices</h3>
+      <ul>
+        <li><strong>Validity period:</strong> Packages should expire (typically 6–12 months from purchase). State this clearly.</li>
+        <li><strong>Non-transferable:</strong> Packages are for one student only (prevents families sharing).</li>
+        <li><strong>Non-refundable after use:</strong> Once lessons begin, remaining lessons can be credited but not refunded. Specify the per-lesson rate for any partial refund calculations.</li>
+        <li><strong>Booking required:</strong> Packages don't guarantee a specific schedule — each lesson must be booked.</li>
+      </ul>
+
+      <h2>keys2drive Voucher Invoicing</h2>
+      <p>keys2drive is a free lesson program funded by the Australian Government for learner drivers. If you're a registered keys2drive instructor, you need to handle the voucher correctly.</p>
+      <ul>
+        <li><strong>How it works:</strong> Each learner gets one free 60-minute lesson (with supervising driver present). The government pays you directly.</li>
+        <li><strong>Payment:</strong> $140 per lesson (standard payment as of 2025-26). Paid via EFT after submitting the lesson online.</li>
+        <li><strong>Invoice:</strong> You don't invoice the student — you claim through the keys2drive portal. Keep records of each lesson for your own books.</li>
+        <li><strong>ABN required:</strong> You must have an ABN and be registered with the keys2drive program.</li>
+        <li><strong>Upsell opportunity:</strong> The free lesson is a great acquisition channel. After the free lesson, invoice any additional lessons at your standard rate.</li>
+      </ul>
+
+      <h2>Cancellation and No-Show Policy</h2>
+      <p>Cancellations are the number one revenue leak for driving instructors. A strict, written policy is essential.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Notice Period</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Policy</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Invoice Treatment</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">24+ hours notice</td>
+              <td class="py-2 pr-4">Free reschedule</td>
+              <td class="py-2 pr-4">No charge. Package lesson remains available.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">2–24 hours notice</td>
+              <td class="py-2 pr-4">50% of lesson fee</td>
+              <td class="py-2 pr-4">Invoice as "Late cancellation fee". Package: deduct 0.5 lesson.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Under 2 hours / no-show</td>
+              <td class="py-2 pr-4">Full lesson fee</td>
+              <td class="py-2 pr-4">Invoice full rate. Package: deduct full lesson.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Instructor cancellation</td>
+              <td class="py-2 pr-4">Free reschedule offered</td>
+              <td class="py-2 pr-4">No charge. If unable to reschedule, offer discount on next lesson.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Communicate Policy Before First Lesson</h3>
+        <p class="text-slate-300 text-sm">Include your cancellation policy on your booking confirmation, first invoice, and website. Many instructors ask students (or parents) to sign a policy acknowledgment before the first lesson. This makes enforcing late cancellation fees much easier — and avoids awkward disputes.</p>
+      </div>
+
+      <h2>Sample Invoice — Lesson Package</h2>
+      <div class="glass rounded-xl p-6 my-8 border border-slate-400/20 bg-slate-500/5">
+        <h3 class="text-slate-200 font-semibold mb-4">Tax Invoice</h3>
+        <div class="font-mono text-sm text-slate-300 space-y-1">
+          <p><strong>FROM:</strong> Tom's Driving School | ABN: 12 345 678 901</p>
+          <p>Instructor Licence: VIC-DI-045678 | keys2drive Registered</p>
+          <p>Mobile: 0412 345 678 | Email: tom@tomsdrivingschool.com.au</p>
+          <p class="mt-3"><strong>TO:</strong> Mrs Susan Park (parent of Lucas Park, learner permit #LP123456)</p>
+          <p><strong>Invoice #:</strong> TDS-2026-0234</p>
+          <p><strong>Date:</strong> 24 February 2026</p>
+          <p class="mt-3 border-t border-slate-700 pt-2">10-Lesson Package (Standard) ............................ $650.00</p>
+          <p class="text-slate-400 text-xs">10 x 60-minute lessons | $65.00/lesson (save $100 vs casual rate)</p>
+          <p class="text-slate-400 text-xs">Valid for 12 months from purchase. Non-transferable. Non-refundable after first lesson.</p>
+          <p class="border-t border-slate-700 pt-2 mt-3">Subtotal .......................................... $650.00</p>
+          <p>GST (10%) ......................................... $65.00</p>
+          <p><strong>Total Due: $715.00</strong></p>
+          <p class="text-slate-400 text-xs mt-2">Payment: Bank transfer to Tom's Driving School BSB: 063-000 Acc: 12345678 | Ref: TDS-0234</p>
+          <p class="text-slate-400 text-xs">Each lesson in VIC counts as 3 hours in the learner's log book.</p>
+        </div>
+      </div>
+
+      <h2>Test Day Invoicing</h2>
+      <p>Providing your car for the driving test is a popular add-on service. Invoice structure:</p>
+      <ul>
+        <li><strong>Pre-test warm-up lesson (30–60 min):</strong> Standard lesson rate or slightly higher ($70–$90)</li>
+        <li><strong>Car hire for test:</strong> $80–$150 (covers insurance risk, vehicle wear, wait time)</li>
+        <li><strong>Total test day package:</strong> $150–$250 (warm-up + car hire + pickup/drop-off)</li>
+        <li><strong>Re-test discount:</strong> Some instructors offer 10-20% off a second test day package if the student fails</li>
+      </ul>
+
+      <h2>Vehicle Costs and Tax Deductions</h2>
+      <p>Your dual-control vehicle is your biggest business asset. Key deductions:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Expense</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Annual Cost</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Deduction Method</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Vehicle lease/loan</td>
+              <td class="py-2 pr-4">$8,000–$15,000</td>
+              <td class="py-2 pr-4">Business-use % of payments. Logbook method recommended.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Fuel</td>
+              <td class="py-2 pr-4">$5,000–$10,000</td>
+              <td class="py-2 pr-4">Business-use % (typically 80-95% for dedicated teaching vehicle).</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Insurance (commercial + dual control)</td>
+              <td class="py-2 pr-4">$2,500–$5,000</td>
+              <td class="py-2 pr-4">Fully deductible for dedicated business vehicle.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Dual control installation/maintenance</td>
+              <td class="py-2 pr-4">$2,000–$4,000 install + $500/year maintenance</td>
+              <td class="py-2 pr-4">Fully deductible. Installation may be depreciable over 5 years.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Servicing and tyres</td>
+              <td class="py-2 pr-4">$2,000–$4,000</td>
+              <td class="py-2 pr-4">Business-use %. Teaching vehicles need more frequent servicing.</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Registration</td>
+              <td class="py-2 pr-4">$800–$1,200</td>
+              <td class="py-2 pr-4">Business-use %</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Signage and branding</td>
+              <td class="py-2 pr-4">$500–$2,000</td>
+              <td class="py-2 pr-4">Fully deductible — magnetic signs or vinyl wrap</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Other Tax Deductions</h3>
+      <ul>
+        <li><strong>Instructor licence renewal:</strong> $200–$500 depending on state</li>
+        <li><strong>CPD and training:</strong> First aid courses, advanced driving courses</li>
+        <li><strong>Phone and data:</strong> Business-use % (booking calls, GPS, booking app)</li>
+        <li><strong>Booking software:</strong> Driving school management apps ($20–$100/month)</li>
+        <li><strong>Public liability insurance:</strong> $300–$800/year</li>
+        <li><strong>Working With Children Check:</strong> Free in VIC (employee), $80 in NSW — required if teaching under-18s</li>
+        <li><strong>Dashcam:</strong> $100–$400 — useful for insurance claims and lesson review</li>
+      </ul>
+
+      <h2>GST for Driving Instructors</h2>
+      <p>Driving lessons are standard GST-applicable supplies. Key points:</p>
+      <ul>
+        <li><strong>Must register for GST:</strong> If your turnover exceeds $75,000/year (most full-time instructors will)</li>
+        <li><strong>Charge GST on all lessons:</strong> Per-lesson, packages, test day fees, cancellation fees</li>
+        <li><strong>Claim input tax credits:</strong> GST on fuel, vehicle costs, insurance, software, phones</li>
+        <li><strong>BAS reporting:</strong> Most instructors report quarterly. Cash basis accounting is simplest.</li>
+        <li><strong>keys2drive payment:</strong> The $140 payment includes GST — report it as GST-inclusive income</li>
+      </ul>
+
+      <h2>Invoicing Parents vs Students</h2>
+      <p>Most learner drivers are teenagers, but the parent typically pays. Be clear on your invoices:</p>
+      <ul>
+        <li><strong>Bill to parent:</strong> Use parent's name as the billing contact (they're the one paying and potentially claiming tax deductions if applicable)</li>
+        <li><strong>Student reference:</strong> Include the student's name and learner permit number on the invoice for tracking</li>
+        <li><strong>Receipt for parent:</strong> Issue a proper tax invoice/receipt — some parents may claim lessons as a gift for tax purposes or need it for family court documentation</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-personal-trainers-fitness-australia" class="text-teal-400 hover:text-teal-300 underline">Personal Trainer Invoicing</a> — Session-based billing and package structures</li>
+        <li><a href="/blog/invoicing-tutors-private-teachers-australia" class="text-teal-400 hover:text-teal-300 underline">Tutor Invoicing</a> — Per-session and term-based billing for education</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Complete GST breakdown for Australian sole traders</li>
+        <li><a href="/blog/vehicle-travel-expenses-freelancers-australia" class="text-teal-400 hover:text-teal-300 underline">Vehicle Expenses</a> — Comprehensive vehicle deduction guide</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional driving school invoices instantly</li>
+      </ul>
+    `,
+  },
 };
