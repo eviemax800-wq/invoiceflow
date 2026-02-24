@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Button from '@/components/ui/Button';
 import type { Metadata } from 'next';
 import { blogPosts } from '../posts';
+import StickyBlogCTA from './StickyBlogCTA';
 
 const allSlugs = Object.keys(blogPosts);
 
@@ -199,6 +200,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         )}
       </main>
 
+      <StickyBlogCTA />
       <footer className="border-t border-white/10 mt-24">
         <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between text-slate-400 text-sm">
           <span>&copy; 2026 InvoiceFlow. All rights reserved.</span>
