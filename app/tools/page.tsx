@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 16 calculators and generators including GST, invoices, rates, tax, super, billable hours, revenue planning, payment reminders, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 18 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -159,6 +159,24 @@ const tools = [
     href: '/tools/payment-reminder-generator',
     icon: '\u{1F4E7}',
     color: 'from-rose-400 to-pink-500',
+    badge: '',
+  },
+  {
+    title: 'Break-Even Calculator',
+    description:
+      'Find how many billable hours or projects you need to cover fixed costs and start profiting. Includes contribution margin and safety margin.',
+    href: '/tools/break-even-calculator',
+    icon: '\u{2696}',
+    color: 'from-amber-400 to-yellow-500',
+    badge: 'New',
+  },
+  {
+    title: 'Discount & Markup Calculator',
+    description:
+      'Calculate discounts, markups, and convert between margin and markup. Batch discounts, GST handling, and industry reference tables.',
+    href: '/tools/discount-markup-calculator',
+    icon: '\u{1F3F7}',
+    color: 'from-fuchsia-400 to-purple-500',
     badge: 'New',
   },
 ];
