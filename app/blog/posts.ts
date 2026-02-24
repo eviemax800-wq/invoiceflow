@@ -26401,4 +26401,1272 @@ Yours sincerely,
       </ul>
     `,
   },
+
+  'invoicing-lawyers-solicitors-legal-consultants-australia': {
+    slug: 'invoicing-lawyers-solicitors-legal-consultants-australia',
+    title: 'How to Invoice as a Freelance Lawyer, Solicitor, or Legal Consultant in Australia',
+    excerpt: 'Complete invoicing guide for freelance lawyers and legal consultants in Australia — 6-minute billing units, trust account compliance, contingency fees, barrister briefs, costs agreements, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '15 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Lawyer, Solicitor, or Legal Consultant in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance lawyer and solicitor invoicing guide. 6-minute billing units, trust accounts, contingency fees, costs agreements, disbursements, court appearances, and professional obligations.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Legal billing is one of the most regulated and complex invoicing environments in Australia. Whether you're a sole practitioner solicitor, a freelance legal consultant, or a barrister accepting briefs, your invoices must comply with state and territory legal profession regulations, trust account rules, and costs disclosure obligations. Getting it wrong isn't just unprofessional — it can result in disciplinary action, costs disputes, or trust account violations. Here's the complete guide.</p>
+
+      <h2>Billing Models for Legal Professionals</h2>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Billing Model</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Rate Range</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Best For</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Time-based (6-minute units)</td>
+              <td class="py-2 pr-4">$200–$800+/hr</td>
+              <td class="py-2 pr-4">Litigation, advisory work, general practice</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Fixed fee</td>
+              <td class="py-2 pr-4">$500–$50,000+</td>
+              <td class="py-2 pr-4">Conveyancing, wills, simple contracts, company setup</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Capped fee</td>
+              <td class="py-2 pr-4">Hourly rate with cap</td>
+              <td class="py-2 pr-4">Complex matters where scope is uncertain</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Contingency / no-win-no-fee</td>
+              <td class="py-2 pr-4">25%–40% of settlement</td>
+              <td class="py-2 pr-4">Personal injury, class actions (state-specific rules)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Retainer (ongoing)</td>
+              <td class="py-2 pr-4">$2,000–$20,000/mo</td>
+              <td class="py-2 pr-4">Corporate clients, in-house counsel replacement</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Barrister brief fee</td>
+              <td class="py-2 pr-4">$2,000–$50,000+ per brief</td>
+              <td class="py-2 pr-4">Court appearances, opinions, mediations</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Legal consulting (non-practising)</td>
+              <td class="py-2 pr-4">$150–$500/hr</td>
+              <td class="py-2 pr-4">Policy, compliance, training, legal tech</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>The 6-Minute Unit System</h2>
+      <p>Australian legal billing traditionally uses 6-minute (0.1 hour) increments. This is the standard that courts reference when assessing costs.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Time Spent</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Units Billed</th>
+              <th class="text-left py-2 pr-4 text-slate-300">At $400/hr</th>
+              <th class="text-left py-2 pr-4 text-slate-300">At $600/hr</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">1–6 minutes</td>
+              <td class="py-2 pr-4">1 unit (0.1 hr)</td>
+              <td class="py-2 pr-4">$40</td>
+              <td class="py-2 pr-4">$60</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">7–12 minutes</td>
+              <td class="py-2 pr-4">2 units (0.2 hr)</td>
+              <td class="py-2 pr-4">$80</td>
+              <td class="py-2 pr-4">$120</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">13–18 minutes</td>
+              <td class="py-2 pr-4">3 units (0.3 hr)</td>
+              <td class="py-2 pr-4">$120</td>
+              <td class="py-2 pr-4">$180</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">19–24 minutes</td>
+              <td class="py-2 pr-4">4 units (0.4 hr)</td>
+              <td class="py-2 pr-4">$160</td>
+              <td class="py-2 pr-4">$240</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">25–30 minutes</td>
+              <td class="py-2 pr-4">5 units (0.5 hr)</td>
+              <td class="py-2 pr-4">$200</td>
+              <td class="py-2 pr-4">$300</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">60 minutes</td>
+              <td class="py-2 pr-4">10 units (1.0 hr)</td>
+              <td class="py-2 pr-4">$400</td>
+              <td class="py-2 pr-4">$600</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 border border-teal-400/20 bg-teal-500/5 my-6">
+        <p class="text-teal-400 font-semibold mb-2">Important: Time recording requirements</p>
+        <p class="text-slate-400">Your invoice must include a detailed narrative for each time entry. A compliant entry reads: "12 Feb 2026 — 0.4 hrs ($160) — Reviewing and advising on proposed variation to Clause 7.2 of supply agreement." Vague entries like "Work on matter" or "Various attendances" will be struck down in costs assessments.</p>
+      </div>
+
+      <h2>Hourly Rates by Experience Level</h2>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Experience Level</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Hourly Rate</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Context</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Junior solicitor (1–3 years PAE)</td>
+              <td class="py-2 pr-4">$200–$350/hr</td>
+              <td class="py-2 pr-4">Research, document drafting, support tasks</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Mid-level solicitor (4–8 years PAE)</td>
+              <td class="py-2 pr-4">$350–$550/hr</td>
+              <td class="py-2 pr-4">Client-facing advisory, litigation prep, transactions</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Senior solicitor / Special counsel</td>
+              <td class="py-2 pr-4">$500–$800/hr</td>
+              <td class="py-2 pr-4">Complex matters, expert opinions, strategy</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Junior counsel (barrister)</td>
+              <td class="py-2 pr-4">$3,000–$8,000/day</td>
+              <td class="py-2 pr-4">Court hearings, opinions, mediations</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Senior counsel (SC/KC)</td>
+              <td class="py-2 pr-4">$8,000–$25,000+/day</td>
+              <td class="py-2 pr-4">Complex litigation, high-value disputes, appeals</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Legal consultant (non-practising)</td>
+              <td class="py-2 pr-4">$150–$500/hr</td>
+              <td class="py-2 pr-4">Compliance, policy, legal operations, training</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Fixed Fee Pricing</h2>
+      <p>Many routine legal services are priced as fixed fees. This is increasingly expected by clients and required under some state pricing disclosure rules.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Fixed Fee Range</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Simple will</td>
+              <td class="py-2 pr-4">$300–$800</td>
+              <td class="py-2 pr-4">Single person, straightforward estate</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Mirror wills (couple)</td>
+              <td class="py-2 pr-4">$500–$1,200</td>
+              <td class="py-2 pr-4">Standard for married couples</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Power of attorney</td>
+              <td class="py-2 pr-4">$200–$500 each</td>
+              <td class="py-2 pr-4">Financial and/or medical</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Residential conveyancing</td>
+              <td class="py-2 pr-4">$800–$2,500</td>
+              <td class="py-2 pr-4">Purchase or sale + settlement attendance</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Commercial lease review</td>
+              <td class="py-2 pr-4">$1,500–$5,000</td>
+              <td class="py-2 pr-4">Depends on lease complexity</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Company setup (Pty Ltd)</td>
+              <td class="py-2 pr-4">$800–$2,000</td>
+              <td class="py-2 pr-4">ASIC registration + constitution + shareholders agreement</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Contract drafting (standard)</td>
+              <td class="py-2 pr-4">$1,000–$5,000</td>
+              <td class="py-2 pr-4">Supply, service, partnership agreements</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Trademark application</td>
+              <td class="py-2 pr-4">$1,200–$3,000</td>
+              <td class="py-2 pr-4">Search + application + ATMOSS filing (ex-govt fees)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Costs Agreements — Legal Requirements</h2>
+      <p>Before you can bill a client, you must have a compliant costs agreement or costs disclosure in place. This is a legal obligation under state legislation.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">State/Territory</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Legislation</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Disclosure Threshold</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">NSW</td>
+              <td class="py-2 pr-4">Legal Profession Uniform Law (NSW)</td>
+              <td class="py-2 pr-4">Must disclose if costs likely to exceed $750</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">VIC</td>
+              <td class="py-2 pr-4">Legal Profession Uniform Law (Vic)</td>
+              <td class="py-2 pr-4">Must disclose if costs likely to exceed $750</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">QLD</td>
+              <td class="py-2 pr-4">Legal Profession Act 2007 (Qld)</td>
+              <td class="py-2 pr-4">Must disclose if costs likely to exceed $1,500</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">WA</td>
+              <td class="py-2 pr-4">Legal Profession Act 2008 (WA)</td>
+              <td class="py-2 pr-4">Must disclose if costs likely to exceed $1,500</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">SA</td>
+              <td class="py-2 pr-4">Legal Practitioners Act 1981 (SA)</td>
+              <td class="py-2 pr-4">Must disclose for all matters</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 border border-teal-400/20 bg-teal-500/5 my-6">
+        <p class="text-teal-400 font-semibold mb-2">Costs agreement must include:</p>
+        <ul class="text-slate-400 space-y-1 mt-2">
+          <li>• Basis of charging (hourly rate, fixed fee, or conditional)</li>
+          <li>• An estimate or range of total costs (including GST)</li>
+          <li>• How disbursements will be charged</li>
+          <li>• Client's right to negotiate costs</li>
+          <li>• Client's right to seek costs assessment or mediation</li>
+          <li>• Billing intervals (monthly is standard)</li>
+          <li>• Interest on unpaid accounts (if applicable)</li>
+        </ul>
+      </div>
+
+      <h2>Trust Accounts — Critical Compliance</h2>
+      <p>If you hold money on behalf of a client (retainers, settlement funds, deposits), you must hold it in a trust account. This is non-negotiable and heavily audited.</p>
+
+      <ul>
+        <li><strong>Trust account required:</strong> Any money received on behalf of a client (not your own fees) must go into a designated trust account at an approved ADI</li>
+        <li><strong>Annual audit:</strong> Trust accounts must be independently audited annually (even small practices)</li>
+        <li><strong>Trust receipts:</strong> Issue a trust receipt within 5 business days of receiving trust money</li>
+        <li><strong>Disbursement of trust money:</strong> Only with client authorisation. Never use trust money to pay your own fees without written direction</li>
+        <li><strong>Trust-to-office transfer:</strong> When billing against a retainer, invoice first, then transfer from trust to your office account. The invoice triggers the transfer, not the other way around.</li>
+        <li><strong>Minimum records:</strong> Trust ledger per client, trust journal, trust account receipts, trust account statements, controlled money register</li>
+        <li><strong>Penalties:</strong> Trust account violations can result in practising certificate suspension, fines up to $55,000 (per breach), and referral to the Legal Services Commissioner</li>
+      </ul>
+
+      <h2>Disbursements — What You Can Pass Through</h2>
+      <p>Disbursements are third-party costs incurred on behalf of the client. They must be itemised separately on your invoice.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Disbursement</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Cost</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Court filing fees</td>
+              <td class="py-2 pr-4">$100–$5,000+</td>
+              <td class="py-2 pr-4">Varies by jurisdiction and matter type</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">ASIC search fees</td>
+              <td class="py-2 pr-4">$9–$42 per search</td>
+              <td class="py-2 pr-4">Company/director searches</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Title searches (land)</td>
+              <td class="py-2 pr-4">$15–$50 per search</td>
+              <td class="py-2 pr-4">State land registry fees</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Barrister's fees</td>
+              <td class="py-2 pr-4">$2,000–$25,000+/day</td>
+              <td class="py-2 pr-4">If you brief counsel on client's behalf</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Expert reports</td>
+              <td class="py-2 pr-4">$1,500–$15,000</td>
+              <td class="py-2 pr-4">Medical, forensic, valuations</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Process server fees</td>
+              <td class="py-2 pr-4">$80–$300</td>
+              <td class="py-2 pr-4">Per service attempt</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Photocopying/printing</td>
+              <td class="py-2 pr-4">$0.20–$0.50/page</td>
+              <td class="py-2 pr-4">Must be at-cost or reasonable; can't charge $1/page</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Travel expenses</td>
+              <td class="py-2 pr-4">At cost</td>
+              <td class="py-2 pr-4">Must be disclosed in costs agreement</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 border border-teal-400/20 bg-teal-500/5 my-6">
+        <p class="text-teal-400 font-semibold mb-2">Disbursement markup rules</p>
+        <p class="text-slate-400">You can only charge disbursements at cost. Adding a markup to disbursements (e.g., charging $2/page for photocopying that costs $0.10/page) is considered overcharging and can be challenged in costs assessment. The only exception is where the costs agreement explicitly provides for an administration fee on disbursements — and even then, it must be reasonable.</p>
+      </div>
+
+      <h2>Contingency Fees — No Win, No Fee</h2>
+      <p>Conditional costs agreements (no-win-no-fee) are permitted in most Australian jurisdictions but are heavily regulated.</p>
+
+      <ul>
+        <li><strong>Permitted areas:</strong> Personal injury, workers' compensation, consumer disputes, some commercial litigation</li>
+        <li><strong>Prohibited areas:</strong> Criminal matters, family law (most states), migration</li>
+        <li><strong>Uplift fee:</strong> You can charge a premium (uplift) of up to 25% above normal fees if you win. In NSW/VIC (Uniform Law), the uplift cannot exceed 25% of the legal costs (not the settlement amount)</li>
+        <li><strong>No percentage of recovery:</strong> Unlike the US, Australian lawyers cannot charge a percentage of the settlement or judgment (except in specific class action arrangements)</li>
+        <li><strong>Disbursements still payable:</strong> Even under no-win-no-fee, the client typically remains liable for disbursements. Make this crystal clear in your costs agreement</li>
+        <li><strong>Costs order risk:</strong> If you lose, the client may be ordered to pay the other side's costs. Disclose this risk prominently</li>
+      </ul>
+
+      <h2>Barrister Billing</h2>
+      <p>Barristers have different billing customs than solicitors. If you're a barrister, here's how billing typically works:</p>
+
+      <ul>
+        <li><strong>Brief fee:</strong> A lump sum for preparation and the first day of hearing. Covers reading the brief, conferences, and Day 1 in court</li>
+        <li><strong>Daily refresher:</strong> Fee for each additional hearing day after Day 1 (typically 60–80% of the brief fee per day)</li>
+        <li><strong>Opinions:</strong> Fixed fee or hourly, depending on complexity ($2,000–$15,000+)</li>
+        <li><strong>Conferences:</strong> Typically billed at hourly rate or as part of the brief fee</li>
+        <li><strong>Cancellation/vacation fee:</strong> If a hearing settles or is vacated close to the date, barristers charge a percentage (typically 50–100% of brief fee if cancelled within 14 days)</li>
+        <li><strong>Payment terms:</strong> Barristers typically invoice the instructing solicitor (not the client directly). The solicitor pays from trust then invoices the client</li>
+      </ul>
+
+      <h2>Sample Legal Invoice</h2>
+      <div class="glass rounded-xl p-6 border border-slate-700 my-6">
+        <pre class="text-sm text-slate-300 whitespace-pre-wrap font-mono">
+TAX INVOICE
+
+[Your Name] — Solicitor
+Australian Legal Practitioner
+Practising Certificate No: [Number]
+ABN: [Your ABN]
+
+To:       [Client Name]
+Date:     24 February 2026
+Invoice:  INV-2026-0042
+Matter:   [Client] v [Other Party] — Contract Dispute
+Your Ref: [Client reference / file number]
+
+PROFESSIONAL FEES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+12 Feb — 0.4 hrs — Reviewing proposed variation
+         to Clause 7.2 of supply agreement
+         and advising client by email           $200.00
+
+14 Feb — 1.2 hrs — Preparing and filing
+         amended statement of claim with
+         supporting affidavit                    $600.00
+
+18 Feb — 0.6 hrs — Telephone conference with
+         opposing counsel re: mediation
+         scheduling and discovery timetable      $300.00
+
+20 Feb — 2.0 hrs — Attending mediation at
+         VCAT (half day) and preparing
+         settlement position paper              $1,000.00
+
+Total Professional Fees (4.2 hrs @ $500/hr)   $2,100.00
+
+DISBURSEMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VCAT filing fee                                  $214.50
+Title search — Lot 12 PS123456                    $15.40
+Photocopying (120 pages @ $0.25)                  $30.00
+Total Disbursements                              $259.90
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subtotal                                       $2,359.90
+GST (10%)                                        $235.99
+TOTAL DUE                                      $2,595.89
+
+Payment Terms: 14 days from date of invoice
+Trust Account Credit: ($1,500.00) [from initial retainer]
+AMOUNT NOW DUE: $1,095.89
+
+Bank: [Bank Name]
+BSB: XXX-XXX | Account: XXXXXXXX
+Reference: INV-2026-0042
+
+Note: You have the right to request an itemised bill
+and to have costs assessed by the Costs Court if you
+are dissatisfied with these charges.
+        </pre>
+      </div>
+
+      <h2>Tax Deductions for Legal Professionals</h2>
+      <ul>
+        <li><strong>Practising certificate renewal:</strong> $600–$2,500/year depending on jurisdiction and category</li>
+        <li><strong>Professional indemnity insurance:</strong> $2,000–$15,000+/year (mandatory for practising solicitors)</li>
+        <li><strong>Law society/bar association memberships:</strong> $500–$2,500/year</li>
+        <li><strong>CPD (Continuing Professional Development):</strong> Minimum 10 CPD points/year in most states — courses, seminars, conferences ($500–$5,000/year)</li>
+        <li><strong>Legal research subscriptions:</strong> LexisNexis ($3,000–$15,000/year), Westlaw ($2,000–$10,000/year), CCH, Jade (free)</li>
+        <li><strong>Practice management software:</strong> LEAP ($200–$500/mo), Smokeball ($150–$400/mo), Actionstep, FilePro</li>
+        <li><strong>Trust accounting software:</strong> LEAP Trust, Smokeball Trust ($50–$200/mo additional)</li>
+        <li><strong>Home office:</strong> If you practise from home, claim occupancy costs proportionally</li>
+        <li><strong>Library:</strong> Legal textbooks, loose-leaf services, updates ($500–$5,000/year)</li>
+      </ul>
+
+      <h2>GST for Legal Services</h2>
+      <p>Legal services are standard GST-applicable supplies. Key considerations:</p>
+      <ul>
+        <li><strong>GST on fees:</strong> All professional fees attract GST if you're registered (mandatory over $75K turnover)</li>
+        <li><strong>GST on disbursements:</strong> If the disbursement itself includes GST (e.g., expert fees), pass through the GST-inclusive amount and claim the input tax credit. If it's GST-free (e.g., court filing fees from government), pass through without GST</li>
+        <li><strong>Trust account money:</strong> GST only applies when you transfer trust money to your office account as payment for fees. Money sitting in trust is not a taxable supply</li>
+        <li><strong>Pro bono work:</strong> No GST applies to genuinely free legal services (no supply for consideration)</li>
+        <li><strong>International clients:</strong> Legal services provided to overseas clients may be GST-free if the supply is connected to offshore activity</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-consultants-australia" class="text-teal-400 hover:text-teal-300 underline">Consultant Invoicing</a> — Hourly, day rate, and retainer billing models</li>
+        <li><a href="/blog/invoicing-accountants-tax-agents-bas-agents-australia" class="text-teal-400 hover:text-teal-300 underline">Accountant Invoicing</a> — Fixed-fee packages and professional registration requirements</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Complete GST breakdown for sole traders</li>
+        <li><a href="/blog/how-to-create-tax-invoice-australia" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Guide</a> — ATO-compliant invoice requirements</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional legal invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-nutritionists-dietitians-australia': {
+    slug: 'invoicing-nutritionists-dietitians-australia',
+    title: 'How to Invoice as a Freelance Nutritionist or Dietitian in Australia',
+    excerpt: 'Complete invoicing guide for freelance nutritionists and dietitians in Australia — consultation fees, meal plan packages, health fund rebates, NDIS billing, corporate wellness, Medicare items, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '13 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Nutritionist or Dietitian in Australia | 2026 Guide',
+    seoDescription: 'Australian nutritionist and dietitian invoicing guide. Consultation fees, meal plan packages, health fund rebates, NDIS billing, Medicare chronic disease items, corporate wellness contracts, and GST.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Nutrition is a growing field in Australia, but the invoicing landscape is complicated by the distinction between dietitians and nutritionists, health fund claiming rules, Medicare eligibility, and NDIS billing requirements. Whether you're seeing private clients for weight management, running corporate wellness programs, or billing NDIS participants for mealtime management, your invoicing needs to be precise and compliant. Here's everything you need to know.</p>
+
+      <h2>Dietitian vs Nutritionist — It Matters for Billing</h2>
+      <p>In Australia, these titles have different regulatory standing, which directly affects how you can bill.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Factor</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Accredited Practising Dietitian (APD)</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Nutritionist (non-APD)</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Qualification</td>
+              <td class="py-2 pr-4">University degree (accredited by DAA)</td>
+              <td class="py-2 pr-4">Varies — certificate to degree</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Medicare rebates</td>
+              <td class="py-2 pr-4">Yes (under CDM/Team Care items)</td>
+              <td class="py-2 pr-4">No</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Health fund rebates</td>
+              <td class="py-2 pr-4">Yes (most funds)</td>
+              <td class="py-2 pr-4">Limited (some funds, if ANTA registered)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">NDIS provider</td>
+              <td class="py-2 pr-4">Yes (registered or unregistered)</td>
+              <td class="py-2 pr-4">Limited — meal prep support only, not clinical</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">DVA billing</td>
+              <td class="py-2 pr-4">Yes</td>
+              <td class="py-2 pr-4">No</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Typical hourly rate</td>
+              <td class="py-2 pr-4">$120–$250/hr</td>
+              <td class="py-2 pr-4">$80–$180/hr</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Consultation Pricing Models</h2>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Duration</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Fee</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Initial consultation (comprehensive assessment)</td>
+              <td class="py-2 pr-4">60–90 min</td>
+              <td class="py-2 pr-4">$150–$280</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Follow-up consultation</td>
+              <td class="py-2 pr-4">30–45 min</td>
+              <td class="py-2 pr-4">$90–$160</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Telehealth consultation</td>
+              <td class="py-2 pr-4">30–60 min</td>
+              <td class="py-2 pr-4">$80–$200</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Group session / workshop</td>
+              <td class="py-2 pr-4">60–90 min</td>
+              <td class="py-2 pr-4">$200–$500 (total)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Supermarket tour</td>
+              <td class="py-2 pr-4">60–90 min</td>
+              <td class="py-2 pr-4">$150–$250</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Pantry audit + meal planning session</td>
+              <td class="py-2 pr-4">90–120 min</td>
+              <td class="py-2 pr-4">$200–$400</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Cooking demonstration / class</td>
+              <td class="py-2 pr-4">2–3 hours</td>
+              <td class="py-2 pr-4">$300–$800</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Package Pricing</h2>
+      <p>Packages increase client commitment and average revenue per client. Common structures:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Package</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Inclusions</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Price Range</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Starter (4 weeks)</td>
+              <td class="py-2 pr-4">Initial + 2 follow-ups + meal plan</td>
+              <td class="py-2 pr-4">$350–$550</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Transformation (8 weeks)</td>
+              <td class="py-2 pr-4">Initial + 4 follow-ups + meal plans + recipes + email support</td>
+              <td class="py-2 pr-4">$600–$1,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Premium (12 weeks)</td>
+              <td class="py-2 pr-4">Initial + 6 follow-ups + meal plans + body comp tracking + weekly check-ins</td>
+              <td class="py-2 pr-4">$900–$1,800</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Sports nutrition (ongoing)</td>
+              <td class="py-2 pr-4">Monthly consult + race/event day plans + supplement protocols</td>
+              <td class="py-2 pr-4">$300–$600/month</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Custom meal plan only</td>
+              <td class="py-2 pr-4">7-day plan with recipes, shopping list, macros</td>
+              <td class="py-2 pr-4">$100–$300</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Medicare Billing for Dietitians (CDM Items)</h2>
+      <p>APDs can bill Medicare under the Chronic Disease Management (CDM) program, formerly known as Enhanced Primary Care (EPC).</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Item Number</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Description</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Medicare Rebate</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">10954</td>
+              <td class="py-2 pr-4">Individual allied health service — dietetics (face-to-face)</td>
+              <td class="py-2 pr-4">~$56.90</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">10962</td>
+              <td class="py-2 pr-4">Group allied health service — dietetics</td>
+              <td class="py-2 pr-4">~$18.75 per participant</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">10970</td>
+              <td class="py-2 pr-4">Telehealth allied health service — dietetics</td>
+              <td class="py-2 pr-4">~$56.90</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 border border-teal-400/20 bg-teal-500/5 my-6">
+        <p class="text-teal-400 font-semibold mb-2">Medicare billing requirements</p>
+        <ul class="text-slate-400 space-y-1 mt-2">
+          <li>• Client must have a GP Management Plan (item 721) and Team Care Arrangement (item 723)</li>
+          <li>• Maximum 5 allied health visits per calendar year (shared across all allied health providers)</li>
+          <li>• You can bulk bill (accept the rebate as full payment) or charge a gap fee</li>
+          <li>• Your invoice must include the client's Medicare number, referral date, and referring GP details</li>
+          <li>• You must be registered with Medicare as an eligible APD provider</li>
+        </ul>
+      </div>
+
+      <h2>Health Fund Rebates</h2>
+      <p>Most private health funds offer rebates for APD consultations under their extras cover.</p>
+
+      <ul>
+        <li><strong>HICAPS/Tyro:</strong> Process claims on-the-spot — client pays the gap at checkout. The fund pays you directly within days.</li>
+        <li><strong>Manual claims:</strong> Issue a receipt with your provider number, the service date, and the amount charged. The client claims from their fund.</li>
+        <li><strong>Typical rebates:</strong> $30–$60 per consultation depending on the fund and level of cover</li>
+        <li><strong>Annual limits:</strong> Most funds cap dietetics rebates at $300–$800/year per member</li>
+        <li><strong>Provider number:</strong> Register with individual funds (Medibank, Bupa, HCF, etc.) or through HICAPS provider registration</li>
+      </ul>
+
+      <h2>NDIS Billing for Dietitians</h2>
+      <p>Dietitians provide services under the NDIS for participants with nutrition-related disability needs. Key billing details:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">NDIS Price Limit (2025-26)</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Category</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Assessment and dietetic management</td>
+              <td class="py-2 pr-4">$214.41/hr</td>
+              <td class="py-2 pr-4">Improved Health and Wellbeing</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Mealtime management assessment</td>
+              <td class="py-2 pr-4">$214.41/hr</td>
+              <td class="py-2 pr-4">Improved Daily Living</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Report writing (non-face-to-face)</td>
+              <td class="py-2 pr-4">$214.41/hr</td>
+              <td class="py-2 pr-4">Same line item, indirect service</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Travel</td>
+              <td class="py-2 pr-4">$107.21/hr (capped at actual)</td>
+              <td class="py-2 pr-4">Provider travel</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 border border-teal-400/20 bg-teal-500/5 my-6">
+        <p class="text-teal-400 font-semibold mb-2">NDIS invoicing requirements</p>
+        <ul class="text-slate-400 space-y-1 mt-2">
+          <li>• Invoice must include: participant name, NDIS number, date of service, line item number, hours/units, rate, total</li>
+          <li>• Three management types: NDIA-managed (submit via myplace portal), plan-managed (invoice the plan manager), self-managed (invoice the participant directly)</li>
+          <li>• NDIA-managed requires you to be a registered NDIS provider. Plan-managed and self-managed do not.</li>
+          <li>• Cancellation: You can charge the full amount if a participant cancels with less than 2 business days' notice (short notice cancellation policy)</li>
+        </ul>
+      </div>
+
+      <h2>Corporate Wellness Contracts</h2>
+      <p>Corporate work is high-value and recurring. Common engagement types:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Pricing</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Lunch-and-learn presentation</td>
+              <td class="py-2 pr-4">$300–$800 per session</td>
+              <td class="py-2 pr-4">45–60 min presentation to staff</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Wellness program (4–8 weeks)</td>
+              <td class="py-2 pr-4">$2,000–$8,000</td>
+              <td class="py-2 pr-4">Group sessions + resources + individual consults</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">On-site consultations</td>
+              <td class="py-2 pr-4">$150–$250/consult</td>
+              <td class="py-2 pr-4">Weekly/fortnightly at client's office</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Menu review / catering advisory</td>
+              <td class="py-2 pr-4">$500–$3,000</td>
+              <td class="py-2 pr-4">For cafeterias, aged care, childcare</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Content creation (blog, social media)</td>
+              <td class="py-2 pr-4">$100–$500/piece</td>
+              <td class="py-2 pr-4">Ghostwritten nutrition content for brands</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Sample Dietitian Invoice</h2>
+      <div class="glass rounded-xl p-6 border border-slate-700 my-6">
+        <pre class="text-sm text-slate-300 whitespace-pre-wrap font-mono">
+TAX INVOICE
+
+[Your Name] — Accredited Practising Dietitian
+APD Credential No: [Number]
+Medicare Provider No: [Number]
+ABN: [Your ABN]
+
+To:       [Client Name]
+Date:     24 February 2026
+Invoice:  INV-2026-0085
+Medicare: [Client Medicare number]
+Ref GP:   Dr [Name], [Clinic] — Referral dated [Date]
+
+SERVICE                                    FEE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Initial nutrition assessment (60 min)
+  — Comprehensive diet history, body
+    composition, goal setting,
+    personalised meal plan               $180.00
+
+Custom 7-day meal plan with
+  shopping list and recipes               $120.00
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subtotal                                  $300.00
+GST (10%)                                  $30.00
+TOTAL                                     $330.00
+
+Less: Medicare rebate (Item 10954)        -$56.90
+AMOUNT DUE (gap payment)                  $273.10
+
+Payment: HICAPS processed at consultation
+         or bank transfer within 7 days
+
+Bank: [Bank Name]
+BSB: XXX-XXX | Account: XXXXXXXX
+Reference: INV-2026-0085
+        </pre>
+      </div>
+
+      <h2>Tax Deductions for Nutritionists & Dietitians</h2>
+      <ul>
+        <li><strong>DAA membership/APD credential:</strong> $300–$600/year</li>
+        <li><strong>Professional indemnity insurance:</strong> $300–$1,000/year</li>
+        <li><strong>Body composition equipment:</strong> Scales ($200–$5,000), InBody scanner lease ($200–$500/mo), skin fold callipers ($50–$300)</li>
+        <li><strong>Nutrition analysis software:</strong> FoodWorks ($500–$1,500/year), Nutritics, Easy Diet Diary Pro</li>
+        <li><strong>HICAPS terminal lease:</strong> $30–$80/month</li>
+        <li><strong>Practice management software:</strong> Cliniko ($45–$100/mo), Power Diary, Halaxy (free to $59/mo)</li>
+        <li><strong>CPD courses:</strong> Conferences, webinars, advanced certifications (sports nutrition, diabetes education)</li>
+        <li><strong>Kitchen equipment:</strong> If you run cooking classes — utensils, appliances, ingredients (proportional use)</li>
+        <li><strong>Home office:</strong> If consulting from home — proportional rent, utilities, internet</li>
+        <li><strong>Vehicle:</strong> Travel between clients, home visits, corporate sites — logbook or cents-per-km method</li>
+      </ul>
+
+      <h2>GST for Nutrition Services</h2>
+      <ul>
+        <li><strong>Dietetic services:</strong> GST-free if provided by an APD as a "health service" under Division 38 of the GST Act (similar to other allied health professionals)</li>
+        <li><strong>Nutritionist services:</strong> Generally GST-applicable (10%) because nutritionists without APD status may not qualify for the health service exemption</li>
+        <li><strong>Product sales:</strong> Supplements, meal prep kits, cookbooks — standard GST applies</li>
+        <li><strong>Corporate wellness:</strong> Presentations and group workshops for corporates — GST applies (not individual health service)</li>
+        <li><strong>Online programs:</strong> Pre-recorded courses, meal plan downloads — standard GST applies</li>
+        <li><strong>NDIS:</strong> Services funded under NDIS are GST-free</li>
+      </ul>
+
+      <div class="glass rounded-xl p-6 border border-teal-400/20 bg-teal-500/5 my-6">
+        <p class="text-teal-400 font-semibold mb-2">GST trap: Mixed services</p>
+        <p class="text-slate-400">If you're an APD offering both clinical consultations (GST-free) and corporate workshops (GST-applicable), you have a mixed supply. You must track and report these separately on your BAS. Accounting software like Xero or MYOB handles this with GST tax codes — but you need to categorise correctly at the invoice level.</p>
+      </div>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-massage-therapists-allied-health-australia" class="text-teal-400 hover:text-teal-300 underline">Massage Therapist & Allied Health Invoicing</a> — Health fund claiming and HICAPS billing</li>
+        <li><a href="/blog/invoicing-psychologists-counsellors-therapists-australia" class="text-teal-400 hover:text-teal-300 underline">Psychologist Invoicing</a> — Medicare rebates and Better Access program billing</li>
+        <li><a href="/blog/invoicing-personal-trainers-fitness-australia" class="text-teal-400 hover:text-teal-300 underline">Personal Trainer Invoicing</a> — Session packs and online coaching tiers</li>
+        <li><a href="/blog/gst-guide-australian-freelancers" class="text-teal-400 hover:text-teal-300 underline">GST Guide</a> — Complete GST breakdown for sole traders</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional nutrition practice invoices instantly</li>
+      </ul>
+    `,
+  },
+
+  'invoicing-mobile-app-developers-australia': {
+    slug: 'invoicing-mobile-app-developers-australia',
+    title: 'How to Invoice as a Freelance Mobile App Developer in Australia',
+    excerpt: 'Complete invoicing guide for freelance mobile app developers in Australia — project-based pricing, milestone payments, hourly vs fixed, app store submission, maintenance retainers, IP ownership, and tax deductions.',
+    category: 'Invoicing',
+    readTime: '14 min read',
+    date: 'February 2026',
+    seoTitle: 'How to Invoice as a Freelance Mobile App Developer in Australia | 2026 Guide',
+    seoDescription: 'Australian freelance mobile app developer invoicing guide. Project pricing, milestone payments, hourly rates, maintenance retainers, app store submission billing, IP ownership, and tax deductions.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Mobile app development is high-stakes freelance work — projects range from $5,000 MVPs to $500,000+ enterprise builds, and the invoicing complexity scales with the project. Whether you're building iOS apps in Swift, Android apps in Kotlin, or cross-platform with React Native or Flutter, your invoicing needs to protect you from scope creep, delayed payments, and IP disputes. Here's the complete guide for Australian freelance app developers.</p>
+
+      <h2>Pricing Models for App Development</h2>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Pricing Model</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Range</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Best For</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Hourly rate</td>
+              <td class="py-2 pr-4">$100–$250/hr</td>
+              <td class="py-2 pr-4">Ongoing work, maintenance, unclear scope</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Fixed project price</td>
+              <td class="py-2 pr-4">$5,000–$500,000+</td>
+              <td class="py-2 pr-4">Well-defined scope with detailed spec</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Day rate</td>
+              <td class="py-2 pr-4">$800–$2,000/day</td>
+              <td class="py-2 pr-4">Embedded team work, sprints, workshops</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Retainer (monthly)</td>
+              <td class="py-2 pr-4">$2,000–$15,000/mo</td>
+              <td class="py-2 pr-4">Ongoing maintenance, feature updates, support</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Sprint-based</td>
+              <td class="py-2 pr-4">$5,000–$30,000/sprint</td>
+              <td class="py-2 pr-4">Agile projects with 2-week delivery cycles</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Revenue share / equity</td>
+              <td class="py-2 pr-4">5–20% equity or rev share</td>
+              <td class="py-2 pr-4">Startup co-founder arrangements (HIGH RISK)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Hourly Rates by Specialisation</h2>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Specialisation</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Junior (1–3 yrs)</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Mid (3–6 yrs)</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Senior (6+ yrs)</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">iOS (Swift/SwiftUI)</td>
+              <td class="py-2 pr-4">$100–$140/hr</td>
+              <td class="py-2 pr-4">$140–$200/hr</td>
+              <td class="py-2 pr-4">$200–$300/hr</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Android (Kotlin/Compose)</td>
+              <td class="py-2 pr-4">$100–$140/hr</td>
+              <td class="py-2 pr-4">$140–$200/hr</td>
+              <td class="py-2 pr-4">$200–$280/hr</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">React Native</td>
+              <td class="py-2 pr-4">$90–$130/hr</td>
+              <td class="py-2 pr-4">$130–$180/hr</td>
+              <td class="py-2 pr-4">$180–$250/hr</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Flutter/Dart</td>
+              <td class="py-2 pr-4">$90–$130/hr</td>
+              <td class="py-2 pr-4">$130–$180/hr</td>
+              <td class="py-2 pr-4">$180–$250/hr</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Full-stack mobile (app + API)</td>
+              <td class="py-2 pr-4">$110–$150/hr</td>
+              <td class="py-2 pr-4">$150–$220/hr</td>
+              <td class="py-2 pr-4">$220–$300/hr</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">AR/VR / IoT / Embedded</td>
+              <td class="py-2 pr-4">$120–$160/hr</td>
+              <td class="py-2 pr-4">$160–$240/hr</td>
+              <td class="py-2 pr-4">$240–$350/hr</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Project-Based Pricing by App Type</h2>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">App Type</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Single Platform</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Cross-Platform</th>
+              <th class="text-left py-2 pr-4 text-slate-300">iOS + Android Native</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Simple app (5–10 screens, no backend)</td>
+              <td class="py-2 pr-4">$5,000–$15,000</td>
+              <td class="py-2 pr-4">$7,000–$18,000</td>
+              <td class="py-2 pr-4">$10,000–$25,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Standard app (15–25 screens, auth, API)</td>
+              <td class="py-2 pr-4">$15,000–$50,000</td>
+              <td class="py-2 pr-4">$20,000–$60,000</td>
+              <td class="py-2 pr-4">$30,000–$80,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Complex app (payments, real-time, maps)</td>
+              <td class="py-2 pr-4">$50,000–$150,000</td>
+              <td class="py-2 pr-4">$60,000–$180,000</td>
+              <td class="py-2 pr-4">$80,000–$250,000</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Enterprise app (custom backend, integrations)</td>
+              <td class="py-2 pr-4">$100,000–$300,000</td>
+              <td class="py-2 pr-4">$120,000–$350,000</td>
+              <td class="py-2 pr-4">$200,000–$500,000+</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">MVP/prototype (design + core features)</td>
+              <td class="py-2 pr-4">$5,000–$20,000</td>
+              <td class="py-2 pr-4">$8,000–$25,000</td>
+              <td class="py-2 pr-4">$15,000–$40,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Milestone Payment Structure</h2>
+      <p>For fixed-price projects, milestone payments protect both you and the client. Here's the standard approach:</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Milestone</th>
+              <th class="text-left py-2 pr-4 text-slate-300">% of Total</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Deliverable</th>
+              <th class="text-left py-2 pr-4 text-slate-300">When</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">1. Project kickoff</td>
+              <td class="py-2 pr-4">30%</td>
+              <td class="py-2 pr-4">Signed contract + project plan + wireframes</td>
+              <td class="py-2 pr-4">Before development starts</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">2. Design approval</td>
+              <td class="py-2 pr-4">20%</td>
+              <td class="py-2 pr-4">Complete UI/UX designs in Figma + design system</td>
+              <td class="py-2 pr-4">After design sign-off</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">3. Core build complete</td>
+              <td class="py-2 pr-4">25%</td>
+              <td class="py-2 pr-4">Working app with core features on TestFlight/internal testing</td>
+              <td class="py-2 pr-4">After feature-complete build</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">4. Final delivery</td>
+              <td class="py-2 pr-4">20%</td>
+              <td class="py-2 pr-4">Bug fixes, QA, performance optimisation, app store submission</td>
+              <td class="py-2 pr-4">After client UAT</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">5. Post-launch</td>
+              <td class="py-2 pr-4">5%</td>
+              <td class="py-2 pr-4">30-day support period, critical bug fixes, store approval</td>
+              <td class="py-2 pr-4">30 days after store approval</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 border border-teal-400/20 bg-teal-500/5 my-6">
+        <p class="text-teal-400 font-semibold mb-2">Critical: Never start without a deposit</p>
+        <p class="text-slate-400">The 30% upfront deposit is non-negotiable. It covers your initial investment in architecture, wireframing, and project setup. If a client pushes back on the deposit, it's a red flag — they may not pay the remaining milestones either. For clients you haven't worked with before, consider 40% upfront.</p>
+      </div>
+
+      <h2>App Store Submission Billing</h2>
+      <p>App store submission is a separate billable item that many developers undercharge for. It involves significant non-coding work:</p>
+
+      <ul>
+        <li><strong>Apple App Store submission:</strong> $500–$2,000 — includes App Store Connect setup, screenshots (6 sizes), app description, keywords, privacy policy URL, app review compliance, and managing the review process. Apple Developer Program fee ($149 AUD/year) is a pass-through to the client.</li>
+        <li><strong>Google Play Store submission:</strong> $300–$1,500 — includes Play Console setup, store listing (screenshots, descriptions), content rating questionnaire, data safety section, review compliance. One-time $25 USD registration fee is a pass-through.</li>
+        <li><strong>App review rejection handling:</strong> Bill at hourly rate. Apple rejections can take 2–5 rounds. Budget 4–10 hours for complex apps. Document each rejection and fix for the client.</li>
+        <li><strong>App Store Optimisation (ASO):</strong> $500–$3,000 as an add-on — keyword research, A/B testing screenshots, description optimisation. Some developers offer this as a separate engagement.</li>
+      </ul>
+
+      <h2>Maintenance Retainer Pricing</h2>
+      <p>Post-launch maintenance is where freelance app developers build recurring revenue.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Tier</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Monthly Fee</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Inclusions</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Basic maintenance</td>
+              <td class="py-2 pr-4">$500–$1,500/mo</td>
+              <td class="py-2 pr-4">Critical bug fixes, OS compatibility updates, store compliance</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Standard support</td>
+              <td class="py-2 pr-4">$1,500–$5,000/mo</td>
+              <td class="py-2 pr-4">Bug fixes + minor feature updates (up to X hours/mo) + monitoring</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Premium / dedicated</td>
+              <td class="py-2 pr-4">$5,000–$15,000/mo</td>
+              <td class="py-2 pr-4">Priority support + feature development + analytics + performance optimisation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="glass rounded-xl p-6 border border-teal-400/20 bg-teal-500/5 my-6">
+        <p class="text-teal-400 font-semibold mb-2">Retainer tip: Hours bank model</p>
+        <p class="text-slate-400">Many app developers use a "hours bank" retainer — the client pre-pays for a block of hours (e.g., 20 hours at $180/hr = $3,600/mo). Unused hours can roll over for 1 month, then expire. This gives the client flexibility while guaranteeing you income. Track hours transparently with a shared Toggl or Harvest report.</p>
+      </div>
+
+      <h2>Change Requests and Scope Creep</h2>
+      <p>Scope creep is the #1 profitability killer in app development. Your contract and invoicing must handle it explicitly.</p>
+
+      <ul>
+        <li><strong>Change request process:</strong> Any work outside the original scope document requires a written change request (CR) with estimated hours, cost, and timeline impact. The client must approve the CR in writing before work begins.</li>
+        <li><strong>CR pricing:</strong> Change requests are billed at your standard hourly rate (often with a premium — e.g., 1.2x standard rate for mid-project changes that disrupt sprint planning)</li>
+        <li><strong>Out-of-scope definition:</strong> Be specific in your contract. "Add a chat feature" when the spec only covers messaging is a change request. "Fix a bug in the chat feature" is warranty work.</li>
+        <li><strong>Free revision rounds:</strong> For design work, include 2 rounds of revisions in the project price. Additional rounds at hourly rate. For code, there are no "revision rounds" — it either meets the spec or it doesn't.</li>
+      </ul>
+
+      <h2>IP Ownership and Licensing</h2>
+      <p>IP ownership is a critical invoicing consideration because it affects what you're actually selling.</p>
+
+      <ul>
+        <li><strong>Full IP transfer (most common):</strong> Client owns all custom code, designs, and assets upon full payment. This is the default expectation for fixed-price projects. Your contract should explicitly state that IP transfers on receipt of final payment.</li>
+        <li><strong>Licensed code:</strong> You retain ownership of reusable components, libraries, and frameworks you built before or during the project. The client gets a perpetual, non-exclusive licence. This is fair and standard — don't give away your boilerplate.</li>
+        <li><strong>Open source components:</strong> Clearly document which parts use open source libraries and their licences (MIT, Apache, GPL). The client needs to know about any GPL code that could affect their ability to keep the app proprietary.</li>
+        <li><strong>Third-party APIs/SDKs:</strong> Document all third-party dependencies and their ongoing costs (Firebase, AWS, Stripe, Mapbox, etc.). These are the client's responsibility post-handover.</li>
+      </ul>
+
+      <h2>Infrastructure Pass-Through Costs</h2>
+      <p>App development involves ongoing infrastructure costs that you should either pass through or factor into your pricing.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700">
+              <th class="text-left py-2 pr-4 text-slate-300">Service</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Typical Monthly Cost</th>
+              <th class="text-left py-2 pr-4 text-slate-300">Who Pays</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-400">
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Apple Developer Program</td>
+              <td class="py-2 pr-4">$149 AUD/year</td>
+              <td class="py-2 pr-4">Client (their account)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Google Play Developer</td>
+              <td class="py-2 pr-4">$25 USD one-time</td>
+              <td class="py-2 pr-4">Client (their account)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Backend hosting (AWS/GCP/Azure)</td>
+              <td class="py-2 pr-4">$50–$5,000+/mo</td>
+              <td class="py-2 pr-4">Client (set up in their account)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Firebase / Supabase</td>
+              <td class="py-2 pr-4">$0–$300+/mo</td>
+              <td class="py-2 pr-4">Client (free tiers available)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">Push notification service</td>
+              <td class="py-2 pr-4">$0–$200/mo</td>
+              <td class="py-2 pr-4">Client</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">CI/CD (Bitrise, Codemagic)</td>
+              <td class="py-2 pr-4">$0–$300/mo</td>
+              <td class="py-2 pr-4">You (during build), Client (post-handover)</td>
+            </tr>
+            <tr class="border-b border-slate-800">
+              <td class="py-2 pr-4">TestFlight / Firebase App Distribution</td>
+              <td class="py-2 pr-4">Free</td>
+              <td class="py-2 pr-4">Via developer account</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Sample Mobile App Development Invoice</h2>
+      <div class="glass rounded-xl p-6 border border-slate-700 my-6">
+        <pre class="text-sm text-slate-300 whitespace-pre-wrap font-mono">
+TAX INVOICE
+
+[Your Name / Studio Name]
+ABN: [Your ABN]
+
+To:        [Client Name / Company]
+Date:      24 February 2026
+Invoice:   INV-2026-0023
+Project:   [App Name] — iOS + Android Mobile App
+Milestone: 3 of 5 — Core Build Complete
+
+MILESTONE 3: CORE BUILD                    FEE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Core build complete (25% of $60,000)
+  — Authentication flow (email + Apple/
+    Google sign-in)
+  — Dashboard, profile, settings screens
+  — API integration (REST endpoints)
+  — Push notifications (Firebase)
+  — Offline data sync
+  — TestFlight + internal APK delivered    $15,000.00
+
+CHANGE REQUESTS (approved)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CR-003: Add dark mode toggle
+  (8 hrs @ $180/hr)                         $1,440.00
+CR-004: Integrate Stripe in-app purchases
+  (12 hrs @ $180/hr)                        $2,160.00
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subtotal                                   $18,600.00
+GST (10%)                                   $1,860.00
+TOTAL DUE                                  $20,460.00
+
+Payment Terms: 7 days from delivery of
+               TestFlight/APK build
+
+Bank: [Bank Name]
+BSB: XXX-XXX | Account: XXXXXXXX
+Reference: INV-2026-0023
+
+Project Summary:
+  Total contract: $60,000 + CRs
+  Paid to date:   $30,000 (Milestones 1+2)
+  This invoice:   $20,460 (inc. GST)
+  Remaining:      $15,000 + GST (Milestones 4+5)
+        </pre>
+      </div>
+
+      <h2>Tax Deductions for App Developers</h2>
+      <ul>
+        <li><strong>Apple Developer Program:</strong> $149 AUD/year (if you use your own account for testing)</li>
+        <li><strong>Devices for testing:</strong> iPhones ($1,500–$2,500), Android devices ($500–$2,000), tablets ($600–$2,000) — claim if primarily for development/testing</li>
+        <li><strong>Software subscriptions:</strong> Xcode (free), Android Studio (free), Figma ($20–$45/mo), JetBrains ($300–$650/year), GitHub/GitLab ($5–$20/mo)</li>
+        <li><strong>CI/CD tools:</strong> Bitrise ($90–$270/mo), Codemagic ($50–$120/mo), Fastlane (free)</li>
+        <li><strong>Cloud services:</strong> AWS, GCP, Firebase accounts used for development ($50–$500/mo)</li>
+        <li><strong>Computer equipment:</strong> MacBook Pro ($3,500–$6,000), external monitors ($500–$2,000), keyboards, mice — instant asset write-off if under threshold</li>
+        <li><strong>Courses and certifications:</strong> iOS/Android certification courses, Udemy/Pluralsight ($200–$2,000/year), WWDC tickets ($2,500 USD)</li>
+        <li><strong>Home office:</strong> Proportional rent, electricity, internet if working from home</li>
+        <li><strong>Professional indemnity insurance:</strong> $400–$1,500/year</li>
+      </ul>
+
+      <h2>GST for App Development</h2>
+      <ul>
+        <li><strong>Development services:</strong> Standard GST applies (10%) if you're registered (mandatory over $75K turnover)</li>
+        <li><strong>Australian clients:</strong> Charge GST on all invoices</li>
+        <li><strong>Overseas clients:</strong> If the client is overseas and the work is connected to an overseas activity, the supply may be GST-free (export of services)</li>
+        <li><strong>App store revenue:</strong> If you build and sell your own apps, the app store handles GST collection for Australian consumers. For B2B sales, different rules apply.</li>
+        <li><strong>SaaS subscriptions:</strong> If the app you built generates subscription revenue, the client collects GST on those — not you (unless you're the business operator)</li>
+      </ul>
+
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="/blog/invoicing-web-developers-australia" class="text-teal-400 hover:text-teal-300 underline">Web Developer Invoicing</a> — Hourly, project, and retainer billing for web projects</li>
+        <li><a href="/blog/invoicing-ux-ui-designers-australia" class="text-teal-400 hover:text-teal-300 underline">UX/UI Designer Invoicing</a> — Design sprint pricing and phase-based billing</li>
+        <li><a href="/blog/invoicing-consultants-australia" class="text-teal-400 hover:text-teal-300 underline">Consultant Invoicing</a> — Day rates and retainer structures</li>
+        <li><a href="/blog/deposit-invoicing-milestone-payments-freelancer" class="text-teal-400 hover:text-teal-300 underline">Milestone Payments Guide</a> — Deposit and progress billing strategies</li>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Free Invoice Generator</a> — Create professional app development invoices instantly</li>
+      </ul>
+    `,
+  },
 };
