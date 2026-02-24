@@ -105,6 +105,24 @@ const tools = [
     href: '/tools/billable-hours-calculator',
     icon: '\u{231B}',
     color: 'from-orange-400 to-red-500',
+    badge: '',
+  },
+  {
+    title: 'Quote & Estimate Builder',
+    description:
+      'Build itemised project quotes with line items, expenses, contingency buffer, and GST. Copy and send to clients.',
+    href: '/tools/quote-calculator',
+    icon: '\u{1F4DD}',
+    color: 'from-indigo-400 to-violet-500',
+    badge: 'New',
+  },
+  {
+    title: 'Cash Flow Forecast',
+    description:
+      'Project your cash position over 3-12 months. Factor in payment terms, expenses, tax, and outstanding invoices.',
+    href: '/tools/cashflow-forecast',
+    icon: '\u{1F4C8}',
+    color: 'from-emerald-400 to-teal-500',
     badge: 'New',
   },
 ];
