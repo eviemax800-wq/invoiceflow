@@ -123,6 +123,24 @@ const tools = [
     href: '/tools/cashflow-forecast',
     icon: '\u{1F4C8}',
     color: 'from-emerald-400 to-teal-500',
+    badge: '',
+  },
+  {
+    title: 'Salary to Hourly Rate Converter',
+    description:
+      'Convert your annual salary to a freelance hourly rate. Accounts for super, leave, tax, and business overheads.',
+    href: '/tools/salary-to-hourly',
+    icon: '\u{1F504}',
+    color: 'from-pink-400 to-rose-500',
+    badge: 'New',
+  },
+  {
+    title: 'Expense & Deduction Calculator',
+    description:
+      'Enter your business expenses and see your tax savings instantly. 12 ATO deduction categories with 2025-26 rates.',
+    href: '/tools/expense-deduction-calculator',
+    icon: '\u{1F9FE}',
+    color: 'from-yellow-400 to-amber-500',
     badge: 'New',
   },
 ];
