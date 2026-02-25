@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { tools, CATEGORY_META, CATEGORY_SLUGS } from './tools-data';
 
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
@@ -16,318 +17,24 @@ export const metadata: Metadata = {
   },
 };
 
-const tools = [
-  {
-    title: 'GST Calculator',
-    description:
-      'Add or remove 10% GST from any amount. Includes batch calculator for multi-line invoices.',
-    href: '/tools/gst-calculator',
-    icon: '%',
-    color: 'from-teal-400 to-emerald-500',
-    badge: 'Most popular',
-  },
-  {
-    title: 'Invoice Template Generator',
-    description:
-      'Create professional, GST-compliant invoices with your ABN. Download as PDF instantly.',
-    href: '/tools/invoice-generator',
-    icon: '\u{1F4C4}',
-    color: 'from-blue-400 to-cyan-500',
-    badge: '',
-  },
-  {
-    title: 'ABN Lookup',
-    description:
-      'Verify any Australian Business Number instantly. Check validity, entity type, and link to full ABR details.',
-    href: '/tools/abn-lookup',
-    icon: '\u{1F50D}',
-    color: 'from-purple-400 to-pink-500',
-    badge: '',
-  },
-  {
-    title: 'Freelance Rate Calculator',
-    description:
-      'Calculate your ideal hourly rate based on income goals, expenses, super, tax, and billable hours.',
-    href: '/tools/rate-calculator',
-    icon: '$',
-    color: 'from-amber-400 to-orange-500',
-    badge: '',
-  },
-  {
-    title: 'Late Payment Interest Calculator',
-    description:
-      'Calculate interest on overdue invoices. Simple, monthly, or daily compounding with Australian business rates.',
-    href: '/tools/late-payment-calculator',
-    icon: '\u{23F0}',
-    color: 'from-red-400 to-rose-500',
-    badge: '',
-  },
-  {
-    title: 'Freelance Tax Estimator',
-    description:
-      'Estimate your income tax, Medicare levy, and super obligations using 2025-26 ATO brackets.',
-    href: '/tools/tax-estimator',
-    icon: '\u{1F4CA}',
-    color: 'from-violet-400 to-indigo-500',
-    badge: '',
-  },
-  {
-    title: 'Contractor vs Employee Calculator',
-    description:
-      'Determine if a worker is an independent contractor or employee using the ATO multi-factor test.',
-    href: '/tools/contractor-employee-calculator',
-    icon: '\u{1F465}',
-    color: 'from-sky-400 to-blue-500',
-    badge: '',
-  },
-  {
-    title: 'Profit Margin Calculator',
-    description:
-      'Calculate your real take-home profit after costs, income tax, Medicare levy, and super.',
-    href: '/tools/profit-margin-calculator',
-    icon: '\u{1F4B0}',
-    color: 'from-lime-400 to-emerald-500',
-    badge: '',
-  },
-  {
-    title: 'Superannuation Calculator',
-    description:
-      'Calculate your recommended super contributions, tax savings, and payment schedule as a sole trader.',
-    href: '/tools/super-calculator',
-    icon: '\u{1F3E6}',
-    color: 'from-cyan-400 to-blue-500',
-    badge: '',
-  },
-  {
-    title: 'Billable Hours Calculator',
-    description:
-      'Find your utilization rate, effective hourly rate, and annual earning capacity. Track non-billable time.',
-    href: '/tools/billable-hours-calculator',
-    icon: '\u{231B}',
-    color: 'from-orange-400 to-red-500',
-    badge: '',
-  },
-  {
-    title: 'Quote & Estimate Builder',
-    description:
-      'Build itemised project quotes with line items, expenses, contingency buffer, and GST. Copy and send to clients.',
-    href: '/tools/quote-calculator',
-    icon: '\u{1F4DD}',
-    color: 'from-indigo-400 to-violet-500',
-    badge: '',
-  },
-  {
-    title: 'Cash Flow Forecast',
-    description:
-      'Project your cash position over 3-12 months. Factor in payment terms, expenses, tax, and outstanding invoices.',
-    href: '/tools/cashflow-forecast',
-    icon: '\u{1F4C8}',
-    color: 'from-emerald-400 to-teal-500',
-    badge: '',
-  },
-  {
-    title: 'Salary to Hourly Rate Converter',
-    description:
-      'Convert your annual salary to a freelance hourly rate. Accounts for super, leave, tax, and business overheads.',
-    href: '/tools/salary-to-hourly',
-    icon: '\u{1F504}',
-    color: 'from-pink-400 to-rose-500',
-    badge: '',
-  },
-  {
-    title: 'Expense & Deduction Calculator',
-    description:
-      'Enter your business expenses and see your tax savings instantly. 12 ATO deduction categories with 2025-26 rates.',
-    href: '/tools/expense-deduction-calculator',
-    icon: '\u{1F9FE}',
-    color: 'from-yellow-400 to-amber-500',
-    badge: '',
-  },
-  {
-    title: 'Revenue Goal Planner',
-    description:
-      'Break your annual income target into monthly, weekly, and daily billing targets. Factor in tax, super, expenses, and leave.',
-    href: '/tools/revenue-goal-planner',
-    icon: '\u{1F3AF}',
-    color: 'from-teal-400 to-cyan-500',
-    badge: '',
-  },
-  {
-    title: 'Payment Reminder Generator',
-    description:
-      'Generate professional payment reminder emails for overdue invoices. 4 tones from friendly to final notice.',
-    href: '/tools/payment-reminder-generator',
-    icon: '\u{1F4E7}',
-    color: 'from-rose-400 to-pink-500',
-    badge: '',
-  },
-  {
-    title: 'Break-Even Calculator',
-    description:
-      'Find how many billable hours or projects you need to cover fixed costs and start profiting. Includes contribution margin and safety margin.',
-    href: '/tools/break-even-calculator',
-    icon: '\u{2696}',
-    color: 'from-amber-400 to-yellow-500',
-    badge: '',
-  },
-  {
-    title: 'Discount & Markup Calculator',
-    description:
-      'Calculate discounts, markups, and convert between margin and markup. Batch discounts, GST handling, and industry reference tables.',
-    href: '/tools/discount-markup-calculator',
-    icon: '\u{1F3F7}',
-    color: 'from-fuchsia-400 to-purple-500',
-    badge: '',
-  },
-  {
-    title: 'Payment Terms Calculator',
-    description:
-      'Calculate invoice due dates for Net 7/14/30/60/90 and EOM terms. Includes early payment discounts and milestone payment schedules.',
-    href: '/tools/payment-terms-calculator',
-    icon: '\u{1F4C5}',
-    color: 'from-sky-400 to-indigo-500',
-    badge: '',
-  },
-  {
-    title: 'Client Retainer Calculator',
-    description:
-      'Price monthly retainers based on hours, discount rate, and billing cycle. Compare tiers and project annual retainer revenue.',
-    href: '/tools/retainer-calculator',
-    icon: '\u{1F91D}',
-    color: 'from-emerald-400 to-cyan-500',
-    badge: '',
-  },
-  {
-    title: 'Project Profitability Calculator',
-    description:
-      'Track revenue, hours, and expenses per project. Compare profit margins, find your most profitable work, and spot unprofitable projects.',
-    href: '/tools/project-profitability',
-    icon: '\u{1F4CA}',
-    color: 'from-violet-400 to-purple-500',
-    badge: '',
-  },
-  {
-    title: 'Business Health Score',
-    description:
-      'Score your freelance business across 6 key areas: income stability, client diversification, pricing, reserves, cash flow, and growth.',
-    href: '/tools/business-health-score',
-    icon: '\u{1F3AF}',
-    color: 'from-rose-400 to-pink-500',
-    badge: '',
-  },
-  {
-    title: 'Scope of Work Generator',
-    description:
-      'Generate professional scope of work documents with deliverables, timelines, payment milestones, and revision policies. Copy and send to clients.',
-    href: '/tools/scope-of-work-generator',
-    icon: '\u{1F4CB}',
-    color: 'from-indigo-400 to-blue-500',
-    badge: '',
-  },
-  {
-    title: 'Meeting Cost Calculator',
-    description:
-      'Calculate the true cost of meetings. See per-minute costs, annual impact, and how much you could save by making meetings more efficient.',
-    href: '/tools/meeting-cost-calculator',
-    icon: '\u{1F4B8}',
-    color: 'from-amber-400 to-rose-500',
-    badge: '',
-  },
-  {
-    title: 'Contract Clause Generator',
-    description:
-      'Generate professional freelance contract clauses for scope, payment, IP, confidentiality, termination, and more. Copy and send to clients.',
-    href: '/tools/contract-clause-generator',
-    icon: '\u{1F4DC}',
-    color: 'from-cyan-400 to-teal-500',
-    badge: '',
-  },
-  {
-    title: 'ATO Tax Calendar',
-    description:
-      'Track all your ATO deadlines — BAS quarterly/monthly, PAYG instalments, super, income tax, and more. Never miss a due date.',
-    href: '/tools/tax-calendar',
-    icon: '\u{1F4C6}',
-    color: 'from-purple-400 to-indigo-500',
-    badge: '',
-  },
-  {
-    title: 'WFH Deduction Calculator',
-    description:
-      'Compare the ATO fixed rate (67c/hr) vs actual cost method for working from home deductions. Includes equipment depreciation and 2025-26 tax savings.',
-    href: '/tools/wfh-deduction-calculator',
-    icon: '\u{1F3E0}',
-    color: 'from-teal-400 to-blue-500',
-    badge: '',
-  },
-  {
-    title: 'Proposal Template Generator',
-    description:
-      'Generate professional freelance proposals with deliverables, pricing, timelines, and terms. 7 project type presets with realistic Australian pricing.',
-    href: '/tools/proposal-generator',
-    icon: '📨',
-    color: 'from-violet-400 to-blue-500',
-    badge: '',
-  },
-  {
-    title: 'Hourly vs Project Pricing',
-    description:
-      'Compare hourly vs fixed project pricing side-by-side. Factor in scope creep, revisions, and admin overhead to find the best pricing model for each project.',
-    href: '/tools/pricing-comparison',
-    icon: '\u{2696}',
-    color: 'from-blue-400 to-indigo-500',
-    badge: 'New',
-  },
-  {
-    title: 'Client Lifetime Value',
-    description:
-      'Calculate how much each client is worth over time. See lifetime revenue, profit, referral value, CLV:CAC ratio, and payback period.',
-    href: '/tools/client-lifetime-value',
-    icon: '\u{1F48E}',
-    color: 'from-emerald-400 to-teal-500',
-    badge: '',
-  },
-  {
-    title: 'Invoice Aging Report',
-    description:
-      'Track overdue invoices with aging buckets (current, 30, 60, 90+ days). Prioritize collections and spot payment patterns.',
-    href: '/tools/invoice-aging-report',
-    icon: '\u{1F4CA}',
-    color: 'from-red-400 to-amber-500',
-    badge: 'New',
-  },
-  {
-    title: 'Freelance Budget Planner',
-    description:
-      'Budget for irregular freelance income. Calculate tax reserves, emergency fund targets, and monthly allocations with Australian tax rates.',
-    href: '/tools/budget-planner',
-    icon: '\u{1F4B5}',
-    color: 'from-teal-400 to-emerald-500',
-    badge: '',
-  },
-  {
-    title: 'Net Income Calculator',
-    description:
-      'See your real take-home pay after income tax, Medicare, super, HELP debt, and business expenses. Full ATO 2024-25 waterfall breakdown.',
-    href: '/tools/net-income-calculator',
-    icon: '\u{1F4B6}',
-    color: 'from-emerald-400 to-teal-500',
-    badge: 'New',
-  },
-  {
-    title: 'Depreciation Calculator',
-    description:
-      'Calculate ATO depreciation on business assets. Instant asset write-off, diminishing value, and prime cost methods with year-by-year schedules.',
-    href: '/tools/depreciation-calculator',
-    icon: '\u{1F4C9}',
-    color: 'from-amber-400 to-orange-500',
-    badge: 'New',
-  },
-];
-
 export default function ToolsPage() {
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://invoiceflow-teal.vercel.app';
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Free Business Tools for Freelancers',
+    description: 'Free calculators and generators for Australian freelancers and small businesses.',
+    url: `${siteUrl}/tools`,
+    inLanguage: 'en-AU',
+    numberOfItems: tools.length,
+    isPartOf: { '@type': 'WebSite', name: 'InvoiceFlow', url: siteUrl },
+  };
+
   return (
     <div className="min-h-screen page-bg">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
@@ -355,7 +62,7 @@ export default function ToolsPage() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-slate-200 mb-6">
             <span className="h-2 w-2 rounded-full bg-emerald-400" />
-            100% free — no signup required
+            {tools.length} free tools — no signup required
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-white heading-font mb-4">
             Free <span className="gradient-text">Business Tools</span>
@@ -364,6 +71,22 @@ export default function ToolsPage() {
             Essential calculators and generators for Australian freelancers and small businesses.
             No account needed.
           </p>
+        </div>
+
+        {/* Category Navigation */}
+        <div className="flex flex-wrap justify-center gap-2 mb-10">
+          <span className="text-sm px-4 py-2 rounded-full bg-teal-400/20 text-teal-400 border border-teal-400/30">
+            All Tools
+          </span>
+          {CATEGORY_SLUGS.map((slug) => (
+            <Link
+              key={slug}
+              href={`/tools/category/${slug}`}
+              className="text-sm px-4 py-2 rounded-full glass text-slate-400 hover:text-white border border-white/5 hover:border-white/20 transition-all"
+            >
+              {CATEGORY_META[slug].heading}
+            </Link>
+          ))}
         </div>
 
         <div className="grid sm:grid-cols-2 gap-6">

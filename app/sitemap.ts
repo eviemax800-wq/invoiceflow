@@ -40,6 +40,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tools/proposal-generator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/pricing-comparison`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/client-lifetime-value`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/invoice-aging-report`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/budget-planner`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/net-income-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/depreciation-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    ...['tax-compliance', 'invoicing-documents', 'pricing-rates', 'financial-planning', 'business-analytics'].map((cat) => ({
+      url: `${baseUrl}/tools/category/${cat}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
     { url: `${baseUrl}/compare`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     ...competitors.map((slug) => ({
       url: `${baseUrl}/compare/${slug}`,
