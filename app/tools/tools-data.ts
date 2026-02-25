@@ -446,7 +446,7 @@ export const tools: Tool[] = [
     href: '/tools/recurring-revenue-calculator',
     icon: '\u{1F504}',
     color: 'from-green-400 to-emerald-500',
-    badge: 'New',
+    badge: '',
     category: 'Financial Planning',
   },
   {
@@ -456,7 +456,27 @@ export const tools: Tool[] = [
     href: '/tools/savings-goal-calculator',
     icon: '\u{1F3AF}',
     color: 'from-violet-400 to-purple-500',
-    badge: 'New',
+    badge: '',
     category: 'Financial Planning',
+  },
+  {
+    title: 'Expense Report Generator',
+    description:
+      'Generate formatted expense reports for tax time, client billing, or personal records. 12 ATO categories, GST tracking, and tax deduction estimates.',
+    href: '/tools/expense-report-generator',
+    icon: '\u{1F9FE}',
+    color: 'from-lime-400 to-teal-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
+  {
+    title: 'Project ROI Calculator',
+    description:
+      'Calculate the real return on investment for freelance projects. Compare profitability across projects with opportunity cost analysis.',
+    href: '/tools/project-roi-calculator',
+    icon: '\u{1F4C8}',
+    color: 'from-cyan-400 to-blue-500',
+    badge: 'New',
+    category: 'Business Analytics',
   },
 ];
