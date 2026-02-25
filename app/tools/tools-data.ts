@@ -466,7 +466,7 @@ export const tools: Tool[] = [
     href: '/tools/expense-report-generator',
     icon: '\u{1F9FE}',
     color: 'from-lime-400 to-teal-500',
-    badge: 'New',
+    badge: '',
     category: 'Business Analytics',
   },
   {
@@ -486,7 +486,7 @@ export const tools: Tool[] = [
     href: '/tools/business-structure-calculator',
     icon: '\u{1F3DB}',
     color: 'from-indigo-400 to-purple-500',
-    badge: 'New',
+    badge: '',
     category: 'Tax & Compliance',
   },
   {
@@ -496,6 +496,26 @@ export const tools: Tool[] = [
     href: '/tools/insurance-cost-estimator',
     icon: '\u{1F6E1}',
     color: 'from-emerald-400 to-cyan-500',
+    badge: '',
+    category: 'Business Analytics',
+  },
+  {
+    title: 'Client Onboarding Checklist',
+    description:
+      'Generate a professional client onboarding checklist customized to your project type. Contract, payment, kickoff, and technical setup tasks included.',
+    href: '/tools/client-onboarding-checklist',
+    icon: '\u{2705}',
+    color: 'from-teal-400 to-emerald-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Scope Change Calculator',
+    description:
+      'Calculate the cost and timeline impact of scope changes. Generate professional change order documents with scope creep analysis and deadline adjustments.',
+    href: '/tools/scope-change-calculator',
+    icon: '\u{1F504}',
+    color: 'from-amber-400 to-orange-500',
     badge: 'New',
     category: 'Business Analytics',
   },
