@@ -639,4 +639,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Invoicing & Documents',
   },
+  {
+    title: 'Freelance Contract Generator',
+    description:
+      'Generate professional freelance contracts and service agreements with scope, payment terms, IP clauses, confidentiality, termination, and GST — customised to your project type and Australian law.',
+    href: '/tools/contract-generator',
+    icon: '\u{1F4DD}',
+    color: 'from-indigo-400 to-teal-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Client Feedback Survey',
+    description:
+      'Create professional post-project feedback surveys to collect testimonials, measure client satisfaction, calculate NPS, and identify improvement areas. Customised to your service type.',
+    href: '/tools/client-feedback-survey',
+    icon: '\u{2B50}',
+    color: 'from-amber-400 to-teal-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
 ];
