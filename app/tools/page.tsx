@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 26 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 28 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -240,7 +240,7 @@ const tools = [
     href: '/tools/contract-clause-generator',
     icon: '\u{1F4DC}',
     color: 'from-cyan-400 to-teal-500',
-    badge: 'New',
+    badge: '',
   },
   {
     title: 'ATO Tax Calendar',
@@ -249,6 +249,24 @@ const tools = [
     href: '/tools/tax-calendar',
     icon: '\u{1F4C6}',
     color: 'from-purple-400 to-indigo-500',
+    badge: '',
+  },
+  {
+    title: 'WFH Deduction Calculator',
+    description:
+      'Compare the ATO fixed rate (67c/hr) vs actual cost method for working from home deductions. Includes equipment depreciation and 2025-26 tax savings.',
+    href: '/tools/wfh-deduction-calculator',
+    icon: '\u{1F3E0}',
+    color: 'from-teal-400 to-blue-500',
+    badge: '',
+  },
+  {
+    title: 'Proposal Template Generator',
+    description:
+      'Generate professional freelance proposals with deliverables, pricing, timelines, and terms. 7 project type presets with realistic Australian pricing.',
+    href: '/tools/proposal-generator',
+    icon: '📨',
+    color: 'from-violet-400 to-blue-500',
     badge: 'New',
   },
 ];
