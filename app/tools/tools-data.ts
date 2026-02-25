@@ -546,7 +546,7 @@ export const tools: Tool[] = [
     href: '/tools/eofy-checklist',
     icon: '\u{1F4CB}',
     color: 'from-amber-400 to-teal-500',
-    badge: 'New',
+    badge: '',
     category: 'Tax & Compliance',
   },
   {
@@ -566,7 +566,7 @@ export const tools: Tool[] = [
     href: '/tools/credit-note-generator',
     icon: '\u{1F4DD}',
     color: 'from-indigo-400 to-teal-500',
-    badge: 'New',
+    badge: '',
     category: 'Invoicing & Documents',
   },
   {
@@ -576,7 +576,27 @@ export const tools: Tool[] = [
     href: '/tools/receipt-generator',
     icon: '\u{1F9FE}',
     color: 'from-emerald-400 to-blue-500',
+    badge: '',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Letter of Demand Generator',
+    description:
+      'Generate a formal letter of demand for unpaid invoices. The essential legal step before court or tribunal action — with interest calculations, response deadlines, and state-by-state tribunal guidance.',
+    href: '/tools/letter-of-demand',
+    icon: '\u{2696}',
+    color: 'from-rose-400 to-orange-500',
     badge: 'New',
     category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Annual Revenue Report',
+    description:
+      'Generate a comprehensive annual revenue report for your freelance business. Client breakdown, monthly trends, GST collected, profit margins, and key business insights — ready for your accountant.',
+    href: '/tools/annual-revenue-report',
+    icon: '\u{1F4CA}',
+    color: 'from-teal-400 to-blue-500',
+    badge: 'New',
+    category: 'Financial Planning',
   },
 ];
