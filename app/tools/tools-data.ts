@@ -476,6 +476,26 @@ export const tools: Tool[] = [
     href: '/tools/project-roi-calculator',
     icon: '\u{1F4C8}',
     color: 'from-cyan-400 to-blue-500',
+    badge: '',
+    category: 'Business Analytics',
+  },
+  {
+    title: 'Business Structure Calculator',
+    description:
+      'Compare Sole Trader vs Company vs Trust structures side-by-side. Calculate tax, take-home pay, and compliance costs for each Australian business structure.',
+    href: '/tools/business-structure-calculator',
+    icon: '\u{1F3DB}',
+    color: 'from-indigo-400 to-purple-500',
+    badge: 'New',
+    category: 'Tax & Compliance',
+  },
+  {
+    title: 'Insurance Cost Estimator',
+    description:
+      'Estimate insurance costs for Australian freelancers. Professional indemnity, public liability, cyber, income protection, and more — with tax deduction savings.',
+    href: '/tools/insurance-cost-estimator',
+    icon: '\u{1F6E1}',
+    color: 'from-emerald-400 to-cyan-500',
     badge: 'New',
     category: 'Business Analytics',
   },

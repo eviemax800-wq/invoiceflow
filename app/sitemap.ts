@@ -52,6 +52,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tools/savings-goal-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/expense-report-generator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/project-roi-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/business-structure-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/insurance-cost-estimator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     ...['tax-compliance', 'invoicing-documents', 'pricing-rates', 'financial-planning', 'business-analytics'].map((cat) => ({
       url: `${baseUrl}/tools/category/${cat}`,
       lastModified: new Date(),
