@@ -526,7 +526,7 @@ export const tools: Tool[] = [
     href: '/tools/startup-cost-calculator',
     icon: '\u{1F680}',
     color: 'from-violet-400 to-blue-500',
-    badge: 'New',
+    badge: '',
     category: 'Financial Planning',
   },
   {
@@ -536,7 +536,27 @@ export const tools: Tool[] = [
     href: '/tools/profit-loss-statement',
     icon: '\u{1F4CA}',
     color: 'from-emerald-400 to-blue-500',
-    badge: 'New',
+    badge: '',
     category: 'Financial Planning',
+  },
+  {
+    title: 'EOFY Tax Checklist',
+    description:
+      'Generate a personalised End of Financial Year checklist for your freelance business. Tax deductions, BAS reconciliation, super contributions, and record-keeping tasks before June 30.',
+    href: '/tools/eofy-checklist',
+    icon: '\u{1F4CB}',
+    color: 'from-amber-400 to-teal-500',
+    badge: 'New',
+    category: 'Tax & Compliance',
+  },
+  {
+    title: 'Overdue Invoice Follow-Up',
+    description:
+      'Generate professional overdue invoice follow-up emails and letters. Friendly reminders to formal demands — escalating templates for 7, 14, 30, and 60+ day overdue invoices.',
+    href: '/tools/overdue-follow-up',
+    icon: '\u{1F4E8}',
+    color: 'from-rose-400 to-orange-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
   },
 ];

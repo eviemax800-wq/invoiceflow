@@ -58,6 +58,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tools/scope-change-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/startup-cost-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/profit-loss-statement`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/eofy-checklist`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/overdue-follow-up`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     ...['tax-compliance', 'invoicing-documents', 'pricing-rates', 'financial-planning', 'business-analytics'].map((cat) => ({
       url: `${baseUrl}/tools/category/${cat}`,
       lastModified: new Date(),
