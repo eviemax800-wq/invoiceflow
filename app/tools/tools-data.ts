@@ -360,6 +360,16 @@ export const tools: Tool[] = [
     category: 'Business Analytics',
   },
   {
+    title: 'Client Concentration Risk Analyzer',
+    description:
+      'Analyze your client portfolio for revenue concentration risk. Calculate HHI score, identify dangerous dependency, and get a diversification plan.',
+    href: '/tools/client-risk-analyzer',
+    icon: '\u{1F6E1}',
+    color: 'from-orange-400 to-rose-500',
+    badge: 'NEW',
+    category: 'Business Analytics',
+  },
+  {
     title: 'Invoice Aging Report',
     description:
       'Track overdue invoices with aging buckets (current, 30, 60, 90+ days). Prioritize collections and spot payment patterns.',
@@ -406,7 +416,7 @@ export const tools: Tool[] = [
     href: '/tools/timesheet-calculator',
     icon: '\u{1F552}',
     color: 'from-blue-400 to-cyan-500',
-    badge: 'New',
+    badge: '',
     category: 'Pricing & Rates',
   },
   {
@@ -416,7 +426,27 @@ export const tools: Tool[] = [
     href: '/tools/vehicle-expense-calculator',
     icon: '\u{1F697}',
     color: 'from-sky-400 to-indigo-500',
-    badge: 'New',
+    badge: '',
     category: 'Tax & Compliance',
+  },
+  {
+    title: 'Payment Plan Calculator',
+    description:
+      'Create structured payment plans for large projects. Split totals into installments with deposit, due dates, GST, and late payment terms.',
+    href: '/tools/payment-plan-calculator',
+    icon: '\u{1F4C5}',
+    color: 'from-teal-400 to-emerald-500',
+    badge: 'New',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'Client Concentration Risk',
+    description:
+      'Analyse your client portfolio for revenue concentration risk. HHI index, dependency scoring, what-if analysis, and diversification recommendations.',
+    href: '/tools/client-risk-analyzer',
+    icon: '\u{1F6E1}',
+    color: 'from-orange-400 to-rose-500',
+    badge: 'New',
+    category: 'Business Analytics',
   },
 ];
