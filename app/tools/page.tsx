@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 30 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, pricing comparison, client lifetime value, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 32 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, pricing comparison, client lifetime value, invoice aging report, budget planner, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -285,6 +285,24 @@ const tools = [
     href: '/tools/client-lifetime-value',
     icon: '\u{1F48E}',
     color: 'from-emerald-400 to-teal-500',
+    badge: '',
+  },
+  {
+    title: 'Invoice Aging Report',
+    description:
+      'Track overdue invoices with aging buckets (current, 30, 60, 90+ days). Prioritize collections and spot payment patterns.',
+    href: '/tools/invoice-aging-report',
+    icon: '\u{1F4CA}',
+    color: 'from-red-400 to-amber-500',
+    badge: 'New',
+  },
+  {
+    title: 'Freelance Budget Planner',
+    description:
+      'Budget for irregular freelance income. Calculate tax reserves, emergency fund targets, and monthly allocations with Australian tax rates.',
+    href: '/tools/budget-planner',
+    icon: '\u{1F4B5}',
+    color: 'from-teal-400 to-emerald-500',
     badge: 'New',
   },
 ];
