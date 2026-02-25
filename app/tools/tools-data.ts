@@ -596,6 +596,26 @@ export const tools: Tool[] = [
     href: '/tools/annual-revenue-report',
     icon: '\u{1F4CA}',
     color: 'from-teal-400 to-blue-500',
+    badge: '',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'BAS Preparation Checklist',
+    description:
+      'Generate a personalised BAS preparation checklist for your freelance business. GST reconciliation, PAYG instalments, income verification, expense review, and lodgement checks — quarterly BAS made simple.',
+    href: '/tools/bas-preparation',
+    icon: '\u{1F4CB}',
+    color: 'from-violet-400 to-teal-500',
+    badge: 'New',
+    category: 'Tax & Compliance',
+  },
+  {
+    title: 'Milestone Payment Calculator',
+    description:
+      'Create milestone-based payment schedules for freelance projects. Split totals into deposits and milestones with GST, due dates, and payment terms. Quick presets for common splits.',
+    href: '/tools/milestone-payment-calculator',
+    icon: '\u{1F3AF}',
+    color: 'from-blue-400 to-purple-500',
     badge: 'New',
     category: 'Financial Planning',
   },
