@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 28 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 30 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, pricing comparison, client lifetime value, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -267,6 +267,24 @@ const tools = [
     href: '/tools/proposal-generator',
     icon: '📨',
     color: 'from-violet-400 to-blue-500',
+    badge: '',
+  },
+  {
+    title: 'Hourly vs Project Pricing',
+    description:
+      'Compare hourly vs fixed project pricing side-by-side. Factor in scope creep, revisions, and admin overhead to find the best pricing model for each project.',
+    href: '/tools/pricing-comparison',
+    icon: '\u{2696}',
+    color: 'from-blue-400 to-indigo-500',
+    badge: 'New',
+  },
+  {
+    title: 'Client Lifetime Value',
+    description:
+      'Calculate how much each client is worth over time. See lifetime revenue, profit, referral value, CLV:CAC ratio, and payback period.',
+    href: '/tools/client-lifetime-value',
+    icon: '\u{1F48E}',
+    color: 'from-emerald-400 to-teal-500',
     badge: 'New',
   },
 ];
