@@ -616,7 +616,27 @@ export const tools: Tool[] = [
     href: '/tools/milestone-payment-calculator',
     icon: '\u{1F3AF}',
     color: 'from-blue-400 to-purple-500',
-    badge: 'New',
+    badge: '',
     category: 'Financial Planning',
+  },
+  {
+    title: 'Price Increase Letter Generator',
+    description:
+      'Generate professional rate increase letters for freelance clients. State current and new rates, explain the reasons, set an effective date, and maintain client relationships — with GST-inclusive amounts.',
+    href: '/tools/price-increase-letter',
+    icon: '\u{1F4C8}',
+    color: 'from-amber-400 to-rose-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Project Completion Certificate',
+    description:
+      'Generate a professional project completion certificate with deliverables checklist, financial summary, warranty terms, and sign-off section. Formally close projects and trigger final payment.',
+    href: '/tools/project-completion-certificate',
+    icon: '\u{1F4DC}',
+    color: 'from-teal-400 to-blue-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
   },
 ];
