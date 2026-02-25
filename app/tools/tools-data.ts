@@ -656,6 +656,26 @@ export const tools: Tool[] = [
     href: '/tools/client-feedback-survey',
     icon: '\u{2B50}',
     color: 'from-amber-400 to-teal-500',
+    badge: '',
+    category: 'Business Analytics',
+  },
+  {
+    title: 'International Invoice Calculator',
+    description:
+      'Calculate currency conversions, compare international payment fees (Wise, PayPal, SWIFT, Stripe), check GST-free export rules, and find the cheapest way to get paid by overseas clients.',
+    href: '/tools/international-invoice-calculator',
+    icon: '\u{1F30F}',
+    color: 'from-cyan-400 to-indigo-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Business Registration Checklist',
+    description:
+      'Generate a personalised checklist to start freelancing in Australia. ABN registration, GST, insurance, super, bank accounts, and business essentials — customised to your industry and structure.',
+    href: '/tools/business-registration-checklist',
+    icon: '\u{1F4CB}',
+    color: 'from-teal-400 to-purple-500',
     badge: 'New',
     category: 'Business Analytics',
   },
