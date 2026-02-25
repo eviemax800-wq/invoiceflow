@@ -506,7 +506,7 @@ export const tools: Tool[] = [
     href: '/tools/client-onboarding-checklist',
     icon: '\u{2705}',
     color: 'from-teal-400 to-emerald-500',
-    badge: 'New',
+    badge: '',
     category: 'Invoicing & Documents',
   },
   {
@@ -516,7 +516,27 @@ export const tools: Tool[] = [
     href: '/tools/scope-change-calculator',
     icon: '\u{1F504}',
     color: 'from-amber-400 to-orange-500',
-    badge: 'New',
+    badge: '',
     category: 'Business Analytics',
+  },
+  {
+    title: 'Startup Cost Calculator',
+    description:
+      'Calculate the total cost to start freelancing in Australia. One-time setup costs, monthly ongoing expenses, break-even timeline, cash flow projections, and smart recommendations by business type.',
+    href: '/tools/startup-cost-calculator',
+    icon: '\u{1F680}',
+    color: 'from-violet-400 to-blue-500',
+    badge: 'New',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'Profit & Loss Statement',
+    description:
+      'Generate a complete P&L statement for your freelance business. Income sources, ATO-aligned expense categories, tax estimates, profit margins, and financial ratios.',
+    href: '/tools/profit-loss-statement',
+    icon: '\u{1F4CA}',
+    color: 'from-emerald-400 to-blue-500',
+    badge: 'New',
+    category: 'Financial Planning',
   },
 ];
