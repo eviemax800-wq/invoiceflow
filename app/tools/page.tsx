@@ -5,7 +5,7 @@ import { tools, CATEGORY_META, CATEGORY_SLUGS } from './tools-data';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 38 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, pricing comparison, client lifetime value, invoice aging report, budget planner, net income calculator, depreciation calculator, timesheet calculator, vehicle expense calculator, payment plan calculator, client concentration risk analyser, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 40 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, pricing comparison, client lifetime value, invoice aging report, budget planner, net income calculator, depreciation calculator, timesheet calculator, vehicle expense calculator, payment plan calculator, client concentration risk analyser, recurring revenue calculator, savings goal calculator, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:

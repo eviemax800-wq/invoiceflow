@@ -366,7 +366,7 @@ export const tools: Tool[] = [
     href: '/tools/client-risk-analyzer',
     icon: '\u{1F6E1}',
     color: 'from-orange-400 to-rose-500',
-    badge: 'NEW',
+    badge: '',
     category: 'Business Analytics',
   },
   {
@@ -436,17 +436,27 @@ export const tools: Tool[] = [
     href: '/tools/payment-plan-calculator',
     icon: '\u{1F4C5}',
     color: 'from-teal-400 to-emerald-500',
+    badge: '',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'Recurring Revenue Calculator',
+    description:
+      'Calculate MRR, ARR, and project recurring revenue growth. Factor in churn, client acquisition, and revenue concentration for freelance retainers.',
+    href: '/tools/recurring-revenue-calculator',
+    icon: '\u{1F504}',
+    color: 'from-green-400 to-emerald-500',
     badge: 'New',
     category: 'Financial Planning',
   },
   {
-    title: 'Client Concentration Risk',
+    title: 'Savings Goal Calculator',
     description:
-      'Analyse your client portfolio for revenue concentration risk. HHI index, dependency scoring, what-if analysis, and diversification recommendations.',
-    href: '/tools/client-risk-analyzer',
-    icon: '\u{1F6E1}',
-    color: 'from-orange-400 to-rose-500',
+      'Set financial goals and track progress. Priority-based savings allocation, timeline projections, and extra billable hours needed to reach goals faster.',
+    href: '/tools/savings-goal-calculator',
+    icon: '\u{1F3AF}',
+    color: 'from-violet-400 to-purple-500',
     badge: 'New',
-    category: 'Business Analytics',
+    category: 'Financial Planning',
   },
 ];
