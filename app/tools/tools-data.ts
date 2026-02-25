@@ -556,6 +556,26 @@ export const tools: Tool[] = [
     href: '/tools/overdue-follow-up',
     icon: '\u{1F4E8}',
     color: 'from-rose-400 to-orange-500',
+    badge: '',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Credit Note Generator',
+    description:
+      'Generate professional, GST-compliant credit notes for overcharges, refunds, and invoice adjustments. Automatic GST calculations, ABN formatting, and ATO-aligned templates.',
+    href: '/tools/credit-note-generator',
+    icon: '\u{1F4DD}',
+    color: 'from-indigo-400 to-teal-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Payment Receipt Generator',
+    description:
+      'Create professional payment receipts confirming funds received. GST breakdown, payment method tracking, invoice references, and ATO-compliant formatting.',
+    href: '/tools/receipt-generator',
+    icon: '\u{1F9FE}',
+    color: 'from-emerald-400 to-blue-500',
     badge: 'New',
     category: 'Invoicing & Documents',
   },
