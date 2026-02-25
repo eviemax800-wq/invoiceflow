@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Free Business Tools for Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 32 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, pricing comparison, client lifetime value, invoice aging report, budget planner, and more. No signup required.',
+    'Free tools for Australian freelancers and small businesses. 34 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, pricing comparison, client lifetime value, invoice aging report, budget planner, net income calculator, depreciation calculator, and more. No signup required.',
   openGraph: {
     title: 'Free Business Tools for Freelancers | InvoiceFlow',
     description:
@@ -303,6 +303,24 @@ const tools = [
     href: '/tools/budget-planner',
     icon: '\u{1F4B5}',
     color: 'from-teal-400 to-emerald-500',
+    badge: '',
+  },
+  {
+    title: 'Net Income Calculator',
+    description:
+      'See your real take-home pay after income tax, Medicare, super, HELP debt, and business expenses. Full ATO 2024-25 waterfall breakdown.',
+    href: '/tools/net-income-calculator',
+    icon: '\u{1F4B6}',
+    color: 'from-emerald-400 to-teal-500',
+    badge: 'New',
+  },
+  {
+    title: 'Depreciation Calculator',
+    description:
+      'Calculate ATO depreciation on business assets. Instant asset write-off, diminishing value, and prime cost methods with year-by-year schedules.',
+    href: '/tools/depreciation-calculator',
+    icon: '\u{1F4C9}',
+    color: 'from-amber-400 to-orange-500',
     badge: 'New',
   },
 ];
