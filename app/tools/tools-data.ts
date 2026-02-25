@@ -366,7 +366,7 @@ export const tools: Tool[] = [
     href: '/tools/invoice-aging-report',
     icon: '\u{1F4CA}',
     color: 'from-red-400 to-amber-500',
-    badge: 'New',
+    badge: '',
     category: 'Invoicing & Documents',
   },
   {
@@ -386,7 +386,7 @@ export const tools: Tool[] = [
     href: '/tools/net-income-calculator',
     icon: '\u{1F4B6}',
     color: 'from-emerald-400 to-teal-500',
-    badge: 'New',
+    badge: '',
     category: 'Tax & Compliance',
   },
   {
@@ -396,6 +396,26 @@ export const tools: Tool[] = [
     href: '/tools/depreciation-calculator',
     icon: '\u{1F4C9}',
     color: 'from-amber-400 to-orange-500',
+    badge: '',
+    category: 'Tax & Compliance',
+  },
+  {
+    title: 'Timesheet Calculator',
+    description:
+      'Track daily hours, calculate weekly and monthly pay, manage overtime, and export formatted timesheets. Quick-fill and apply-to-all for fast entry.',
+    href: '/tools/timesheet-calculator',
+    icon: '\u{1F552}',
+    color: 'from-blue-400 to-cyan-500',
+    badge: 'New',
+    category: 'Pricing & Rates',
+  },
+  {
+    title: 'Vehicle Expense Calculator',
+    description:
+      'Compare ATO cents-per-km (85c/km) vs logbook methods for vehicle deductions. Includes depreciation, fuel, rego, and other travel expenses.',
+    href: '/tools/vehicle-expense-calculator',
+    icon: '\u{1F697}',
+    color: 'from-sky-400 to-indigo-500',
     badge: 'New',
     category: 'Tax & Compliance',
   },

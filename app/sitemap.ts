@@ -44,6 +44,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tools/budget-planner`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/net-income-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools/depreciation-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/timesheet-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/tools/vehicle-expense-calculator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     ...['tax-compliance', 'invoicing-documents', 'pricing-rates', 'financial-planning', 'business-analytics'].map((cat) => ({
       url: `${baseUrl}/tools/category/${cat}`,
       lastModified: new Date(),
