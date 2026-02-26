@@ -759,4 +759,44 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Tax & Compliance',
   },
+  {
+    title: 'Tax Deduction Finder',
+    description:
+      'Find all the tax deductions you can claim as an Australian freelancer. Interactive 4-step tool — select your industry, work arrangements, and income to get a personalised deduction checklist with ATO-accurate 2025-26 rates.',
+    href: '/tools/tax-deduction-finder',
+    icon: '\u{1F50D}',
+    color: 'from-emerald-400 to-green-500',
+    badge: 'New',
+    category: 'Tax & Compliance',
+  },
+  {
+    title: 'Client Communication Templates',
+    description:
+      'Professional email templates for common freelance scenarios — project delays, scope changes, rate increases, pausing work, ending relationships, boundary setting, milestone updates, and client welcome emails. 3 tones for each.',
+    href: '/tools/client-communication-templates',
+    icon: '\u{1F4E7}',
+    color: 'from-rose-400 to-pink-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Privacy Policy Generator',
+    description:
+      'Generate a professional, Australian Privacy Act compliant privacy policy for your freelance business or website. Covers data collection, APPs, GDPR, cookies, and third-party sharing — customised to your business.',
+    href: '/tools/privacy-policy-generator',
+    icon: '\u{1F512}',
+    color: 'from-teal-400 to-cyan-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Terms of Service Generator',
+    description:
+      'Generate professional terms of service for Australian freelancers and small businesses. Payment terms, IP ownership, liability, refunds, termination, and Australian Consumer Law compliance — all customised to your services.',
+    href: '/tools/terms-of-service-generator',
+    icon: '\u{1F4DC}',
+    color: 'from-amber-400 to-orange-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
 ];
