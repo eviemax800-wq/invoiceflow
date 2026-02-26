@@ -679,4 +679,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Business Analytics',
   },
+  {
+    title: 'Emergency Fund Calculator',
+    description:
+      'Calculate how much emergency savings you need as an Australian freelancer. Personalised targets based on expenses, income variability, dependents, and risk profile — with timeline projections.',
+    href: '/tools/emergency-fund-calculator',
+    icon: '\u{1F6E1}',
+    color: 'from-emerald-400 to-green-500',
+    badge: 'New',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'Invoice Dispute Resolution',
+    description:
+      'Generate professional dispute response letters when clients challenge your invoices. Address amount disputes, scope disagreements, quality issues — with evidence references, resolution proposals, and escalation paths.',
+    href: '/tools/invoice-dispute-resolution',
+    icon: '\u{2696}',
+    color: 'from-purple-400 to-indigo-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
 ];
