@@ -699,4 +699,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Invoicing & Documents',
   },
+  {
+    title: 'Invoice Email Template Generator',
+    description:
+      'Generate professional email templates for sending invoices, chasing overdue payments, and confirming receipt. 6 email types with 3 tone options — copy and send in seconds.',
+    href: '/tools/invoice-email-template',
+    icon: '\u{1F4E7}',
+    color: 'from-sky-400 to-blue-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Business Valuation Calculator',
+    description:
+      'Estimate the value of your freelance business using SDE multiple, revenue multiple, and asset-based methods. Personalised factors, value range, and tips to increase your business worth.',
+    href: '/tools/business-valuation-calculator',
+    icon: '\u{1F4B0}',
+    color: 'from-amber-400 to-yellow-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
 ];
