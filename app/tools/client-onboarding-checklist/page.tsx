@@ -2,27 +2,28 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ClientOnboardingChecklist from './ClientOnboardingChecklist';
 
-const title = 'Free Client Onboarding Checklist Generator for Freelancers — InvoiceFlow';
+const title =
+  'Client Onboarding Checklist Generator | Free Freelance Project Setup Template — InvoiceFlow';
 const description =
-  'Generate a professional client onboarding checklist for your freelance business. Customized by project type with contract, payment, kickoff, and technical setup tasks. Free — no signup required.';
+  'Free client onboarding checklist generator for freelancers. Create a personalised project kickoff checklist covering communication, payments, deliverables, and legal setup. No signup required.';
 
 export const metadata: Metadata = {
   title,
   description,
   keywords: [
-    'client onboarding checklist freelance',
+    'client onboarding checklist freelancer',
+    'new client checklist template freelancer',
     'freelance client onboarding template',
-    'new client checklist freelancer',
-    'client onboarding process freelance',
     'freelance project kickoff checklist',
-    'client welcome checklist template',
-    'freelance client intake form',
-    'new project checklist freelancer australia',
+    'how to onboard a new client freelancer',
+    'client onboarding process freelancer',
+    'freelance project setup checklist',
   ],
   openGraph: {
-    title: 'Client Onboarding Checklist Generator — Free Tool | InvoiceFlow',
+    title:
+      'Client Onboarding Checklist Generator — Free Tool for Freelancers | InvoiceFlow',
     description:
-      'Generate a professional client onboarding checklist customized to your project type. Free for Australian freelancers.',
+      'Generate a personalised client onboarding checklist for your freelance projects. Communication setup, payment terms, deliverables, legal admin — all in one checklist.',
     url: 'https://www.invoiceflow.au/tools/client-onboarding-checklist',
     siteName: 'InvoiceFlow',
     locale: 'en_AU',
@@ -30,9 +31,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Client Onboarding Checklist Generator — Free Tool | InvoiceFlow',
+    title:
+      'Client Onboarding Checklist Generator — Free Freelance Tool | InvoiceFlow',
     description:
-      'Generate a professional client onboarding checklist customized to your project type.',
+      'Create a personalised client onboarding checklist for your freelance projects. Free tool — no signup required.',
   },
   alternates: {
     canonical: 'https://www.invoiceflow.au/tools/client-onboarding-checklist',
@@ -42,9 +44,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebApplication',
-  name: 'Client Onboarding Checklist Generator',
+  name: 'Client Onboarding Checklist Generator for Freelancers',
   description:
-    'Generate a professional client onboarding checklist for freelancers. Customized by project type with contract, payment, kickoff, and technical setup sections.',
+    'A 4-step wizard that generates a personalised client onboarding checklist for freelancers. Covers project details, communication setup, payment and legal, and produces a comprehensive checklist across six categories: Pre-Start, Communication Setup, Payment Setup, Project Kickoff, Deliverables & Timeline, and Legal & Admin. Free — no signup required.',
   url: 'https://www.invoiceflow.au/tools/client-onboarding-checklist',
   applicationCategory: 'BusinessApplication',
   operatingSystem: 'Any',
@@ -103,95 +105,107 @@ export default function ClientOnboardingChecklistPage() {
         <main className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
           {/* Hero Section */}
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-teal-500/10 border border-teal-500/20 rounded-full mb-6">
-              <div className="w-2 h-2 bg-teal-400 rounded-full" />
-              <span className="text-teal-400 text-sm font-medium">100% Free</span>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-emerald-400/10 border border-emerald-400/20 rounded-full mb-6">
+              <div className="w-2 h-2 bg-emerald-400 rounded-full" />
+              <span className="text-emerald-400 text-sm font-medium">100% Free</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-white heading-font mb-4">
               Client Onboarding{' '}
-              <span className="gradient-text">Checklist Generator</span>
+              <span className="bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
+                Checklist Generator
+              </span>
             </h1>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-              Never miss a step when onboarding a new client. Generate a professional checklist
-              customised to your project type — covering contracts, payments, kickoff tasks, and
-              technical setup. Built for Australian freelancers.
+              Generate a personalised project onboarding checklist in 4 steps. Cover every
+              base — communication, payment terms, legal setup, deliverables, and kickoff
+              tasks. Built for Australian freelancers who want to start every project right.
             </p>
           </div>
 
-          {/* Calculator */}
+          {/* Tool */}
           <ClientOnboardingChecklist />
 
           {/* SEO Content Sections */}
           <section className="mt-16 space-y-12">
-            {/* Section 1: Why Freelancers Need an Onboarding Checklist */}
+            {/* Section 1: Why Client Onboarding Matters for Freelancers */}
             <div className="glass rounded-2xl p-8">
               <h2 className="text-2xl font-bold text-white heading-font mb-4">
-                Why Freelancers Need an Onboarding Checklist
+                Why Client Onboarding Matters for Freelancers
               </h2>
               <div className="space-y-4 text-slate-300">
                 <p>
-                  <strong className="text-white">
-                    The first 48 hours of a new client relationship set the tone for the entire project.
-                  </strong>{' '}
-                  A structured onboarding process communicates professionalism, reduces misunderstandings,
-                  and protects both you and your client from the scope creep, payment disputes, and
-                  communication breakdowns that plague disorganised freelancers.
+                  The first 72 hours of a new client relationship shape everything that follows.
+                  Freelancers who invest in a structured onboarding process consistently report
+                  fewer payment disputes, less scope creep, faster project turnarounds, and higher
+                  client satisfaction scores. Those who skip it spend twice as much time managing
+                  confusion, chasing approvals, and defending boundaries.
                 </p>
-                <p>
-                  Research from the Freelancers Union found that 71% of freelancers have struggled to
-                  collect payment at least once in their career. A proper onboarding process — with signed
-                  contracts, clear payment terms, and documented scope — dramatically reduces the risk of
-                  non-payment and protects your legal position if disputes arise.
-                </p>
-                <div className="bg-white/5 rounded-xl p-4 mt-4">
-                  <h4 className="text-white font-semibold mb-3">Key Benefits of Structured Onboarding</h4>
-                  <ul className="space-y-3 text-sm">
-                    <li className="flex items-start gap-2">
-                      <span className="text-teal-400 mt-0.5 font-bold">1.</span>
-                      <span>
-                        <strong className="text-white">Fewer payment disputes.</strong> When payment
-                        terms, deposit requirements, and late fees are agreed before work starts, clients
-                        are far more likely to pay on time. Written confirmation eliminates the
-                        &ldquo;but I thought&rdquo; arguments.
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-teal-400 mt-0.5 font-bold">2.</span>
-                      <span>
-                        <strong className="text-white">Reduced scope creep.</strong> A signed scope of
-                        work and clear inclusions/exclusions list gives you grounds to push back when
-                        clients ask for &ldquo;just one more thing.&rdquo; Without documentation, saying
-                        no becomes much harder.
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-teal-400 mt-0.5 font-bold">3.</span>
-                      <span>
-                        <strong className="text-white">Faster project starts.</strong> Collecting all
-                        logins, brand assets, and briefs upfront means you can start productive work
-                        immediately — instead of chasing down credentials halfway through week two.
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-teal-400 mt-0.5 font-bold">4.</span>
-                      <span>
-                        <strong className="text-white">Professional reputation.</strong> Clients notice
-                        when a freelancer has systems. A polished onboarding process signals that you
-                        take your business seriously — making clients more confident in their decision
-                        to hire you, and more likely to refer you.
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-teal-400 mt-0.5 font-bold">5.</span>
-                      <span>
-                        <strong className="text-white">Legal protection.</strong> Signed contracts, NDA
-                        agreements, and IP terms aren&apos;t just paperwork — they&apos;re your safety
-                        net. In Australia, verbal agreements are harder to enforce than written ones, and
-                        the Australian Consumer Law (ACL) expects service providers to be clear about
-                        what they&apos;re delivering.
-                      </span>
-                    </li>
-                  </ul>
+                <div className="grid sm:grid-cols-2 gap-4 mt-4">
+                  <div className="bg-white/5 rounded-xl p-4">
+                    <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-sm font-bold">01</span>
+                      Setting Expectations Early
+                    </h4>
+                    <p className="text-sm">
+                      Most freelancer-client conflicts are not about the work — they are about
+                      mismatched expectations. Onboarding gives you a structured opportunity to
+                      align on scope, timelines, communication style, and what &ldquo;done&rdquo;
+                      actually means before a single hour of billable work begins. Written
+                      agreement, not verbal assumption, is the foundation of a clean project.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4">
+                    <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-sm font-bold">02</span>
+                      Preventing Scope Creep
+                    </h4>
+                    <p className="text-sm">
+                      Scope creep is the single biggest profit killer for Australian freelancers.
+                      A documented scope of work, signed during onboarding, gives you a clear
+                      reference point when clients request additions. Without it, every
+                      &ldquo;small extra thing&rdquo; is a negotiation you will likely lose. With
+                      it, scope changes become billable variations — not free favours.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4">
+                    <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-sm font-bold">03</span>
+                      Establishing Professionalism
+                    </h4>
+                    <p className="text-sm">
+                      Clients judge your professionalism in the first interaction. A polished
+                      onboarding process — with a structured checklist, signed agreement, and clear
+                      payment process — signals that you operate a serious business, not a hobby.
+                      This directly impacts what clients are willing to pay you and how they treat
+                      you throughout the project.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4">
+                    <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-sm font-bold">04</span>
+                      Legal and Financial Protection
+                    </h4>
+                    <p className="text-sm">
+                      In Australia, verbal agreements are technically enforceable under contract
+                      law — but extremely difficult to prove. A signed contract and deposit payment
+                      processed during onboarding creates the paper trail you need if a client
+                      disputes scope, refuses to pay, or claims ownership of your intellectual
+                      property. Protection costs 10 minutes. Disputes cost weeks.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-gradient-to-r from-emerald-400/10 to-teal-500/10 border border-emerald-400/20 rounded-xl p-5 mt-4">
+                  <p className="text-sm text-emerald-400 font-medium mb-2">
+                    The Professional Edge
+                  </p>
+                  <p className="text-sm">
+                    According to Australian freelance surveys, freelancers who use a structured
+                    client onboarding process are 60% less likely to experience late or non-payment
+                    and report significantly higher client retention rates. The investment is
+                    minimal — a good checklist and 30 minutes at the start of every project.
+                    The return is a business that runs cleanly, pays reliably, and scales without
+                    drama.
+                  </p>
                 </div>
               </div>
             </div>
@@ -203,212 +217,233 @@ export default function ClientOnboardingChecklistPage() {
               </h2>
               <div className="space-y-4 text-slate-300">
                 <p>
-                  A complete client onboarding process covers seven key areas. The specific items within
-                  each area vary by project type — a web developer needs hosting credentials while a
-                  photographer needs location details — but the framework stays the same.
+                  A complete client onboarding process for Australian freelancers covers six
+                  distinct areas. The specific tasks within each area vary by service type —
+                  a web developer needs hosting credentials, a photographer needs shot list
+                  confirmation, a consultant needs access to the relevant business data — but
+                  the framework is universal.
                 </p>
-                <div className="space-y-4 mt-4">
+                <div className="space-y-3 mt-4">
                   <div className="bg-white/5 rounded-xl p-4">
                     <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
-                      <span className="text-teal-400 font-bold">1.</span>
-                      Client Information Gathering
+                      <span className="text-emerald-400 font-bold">1.</span>
+                      Communication Channels and Cadence
                     </h4>
                     <p className="text-sm">
-                      Collect the client&apos;s legal business name, ABN, primary contact details, and
-                      billing information. For Australian clients, confirming their ABN and GST
-                      registration status upfront ensures your invoices are correct from the start.
-                      Also collect brand assets, style preferences, and any existing materials that
-                      will inform your work.
+                      Agree upfront on how you will communicate (email, Slack, phone calls —
+                      not text messages after hours), how often you will provide updates, and
+                      what the client should expect from your response times. Set your working
+                      hours in writing. Unspoken communication expectations are the source of
+                      most client frustration.
                     </p>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4">
                     <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
-                      <span className="text-teal-400 font-bold">2.</span>
-                      Contract and Legal Documents
+                      <span className="text-emerald-400 font-bold">2.</span>
+                      Payment Setup and Deposit Collection
                     </h4>
                     <p className="text-sm">
-                      Never start work without a signed agreement. At minimum, your contract should
-                      cover scope of work, payment terms, intellectual property ownership, revision
-                      limits, cancellation terms, and confidentiality. For Australian freelancers,
-                      the contract should reference whether GST is included or excluded in your pricing.
+                      Never begin work without a deposit. Industry standard for Australian
+                      freelancers is 25–50% upfront. Send your deposit invoice the moment
+                      the contract is signed and make work commencement conditional on payment
+                      clearing. Confirm the client&apos;s preferred payment method, GST registration
+                      status, and invoicing contact at this stage.
                     </p>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4">
                     <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
-                      <span className="text-teal-400 font-bold">3.</span>
-                      Payment Setup
+                      <span className="text-emerald-400 font-bold">3.</span>
+                      Scope of Work Documentation
                     </h4>
                     <p className="text-sm">
-                      Send your deposit invoice immediately after the contract is signed. Confirm the
-                      client&apos;s preferred payment method, and make sure they understand your payment
-                      schedule. For larger projects, milestone-based payments (such as 50/50 or three
-                      milestone splits) protect your cash flow and reduce exposure.
+                      Your scope document should be specific enough that a stranger could read
+                      it and understand exactly what is and is not included. List deliverables,
+                      exclusions, revision rounds, turnaround times, and dependencies. A vague
+                      scope is an open invitation to scope creep. A specific scope is your
+                      protection against it.
                     </p>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4">
                     <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
-                      <span className="text-teal-400 font-bold">4.</span>
-                      Project Kickoff
+                      <span className="text-emerald-400 font-bold">4.</span>
+                      Legal Protections
                     </h4>
                     <p className="text-sm">
-                      Schedule a kickoff meeting or call to align on the brief, timeline, and
-                      communication expectations. Set up your shared tools (Slack channel, project
-                      board, file sharing), confirm key milestones, and explain your feedback and
-                      revision process. This is also the time to clarify response times and
-                      availability.
+                      At minimum: a signed service agreement covering IP ownership, cancellation
+                      terms, and late payment fees. For projects involving sensitive information,
+                      add an NDA. For retainer arrangements, define the monthly deliverables and
+                      rollover policy clearly. Australian Consumer Law (ACL) requires service
+                      providers to be transparent about what they are delivering — your contract
+                      is how you meet that obligation.
                     </p>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4">
                     <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
-                      <span className="text-teal-400 font-bold">5.</span>
-                      Technical, Brand, or Content Requirements
+                      <span className="text-emerald-400 font-bold">5.</span>
+                      Asset and Access Collection
                     </h4>
                     <p className="text-sm">
-                      Depending on your service type, collect the specific assets and access you need.
-                      Web developers need hosting and CMS credentials. Designers need logo files, fonts,
-                      and colour codes. Content writers need tone of voice guidelines and audience
-                      personas. Collecting everything upfront prevents the back-and-forth that delays
-                      projects.
+                      Collect every login, brand asset, and piece of content you need before
+                      the project timeline starts. Every hour spent chasing down a logo file
+                      or waiting for hosting credentials is a delay you will be blamed for,
+                      even if it was the client&apos;s fault. Create a clear asset checklist
+                      and make it a prerequisite for the project start date.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Section 3: Onboarding Mistakes That Cost Freelancers Money */}
+            {/* Section 3: Common Client Onboarding Mistakes Freelancers Make */}
             <div className="glass rounded-2xl p-8">
               <h2 className="text-2xl font-bold text-white heading-font mb-4">
-                Onboarding Mistakes That Cost Freelancers Money
+                Common Client Onboarding Mistakes Freelancers Make
               </h2>
               <div className="space-y-4 text-slate-300">
                 <p>
-                  Most freelancer-client conflicts can be traced back to a rushed or incomplete
-                  onboarding process. Here are the five most expensive mistakes and how to avoid them.
+                  Most painful freelance experiences can be traced back to a specific onboarding
+                  failure. Here are the five most costly mistakes Australian freelancers make when
+                  starting new projects — and exactly how to avoid each one.
                 </p>
-                <ol className="space-y-4 list-decimal list-inside">
-                  <li>
-                    <strong className="text-white">Starting work before the contract is signed.</strong>{' '}
-                    This is the single most common and most expensive mistake. Without a signed
-                    agreement, you have minimal legal recourse if the client refuses to pay, disputes
-                    the scope, or claims ownership of your work. In Australia, verbal agreements are
-                    technically enforceable but extremely difficult to prove. A signed contract takes
-                    10 minutes to set up and can save you thousands.
-                  </li>
-                  <li>
-                    <strong className="text-white">Skipping the deposit.</strong>{' '}
-                    A deposit serves two purposes: it provides immediate cash flow, and it filters out
-                    clients who aren&apos;t serious. Industry standard for Australian freelancers is
-                    25-50% upfront. If a client pushes back on a deposit, that&apos;s a red flag — not
-                    a negotiation point. Clients who resist paying deposits are statistically more likely
-                    to be late or default on final payments.
-                  </li>
-                  <li>
-                    <strong className="text-white">Vague scope documentation.</strong>{' '}
-                    &ldquo;Build a website&rdquo; is not a scope of work. &ldquo;Build a 5-page
-                    responsive website including homepage, about, services, portfolio, and contact pages
-                    with a WordPress CMS, mobile responsive design, and basic SEO setup — excluding
-                    content writing, photography, and ongoing maintenance&rdquo; is. The more specific
-                    your scope, the stronger your position when clients ask for extras.
-                  </li>
-                  <li>
-                    <strong className="text-white">Not collecting assets upfront.</strong>{' '}
-                    Every hour you spend chasing down login credentials, brand guidelines, or content
-                    briefs is an hour you&apos;re not doing billable work. Create a client intake form
-                    or asset collection checklist and send it alongside your contract. Make it clear
-                    that project timelines don&apos;t start until all required materials are received.
-                  </li>
-                  <li>
-                    <strong className="text-white">Unclear communication expectations.</strong>{' '}
-                    If you don&apos;t set boundaries, clients will call you at 9pm on a Saturday.
-                    During onboarding, specify your working hours, preferred communication channel
-                    (email, Slack, not text messages), response time expectations, and how feedback
-                    should be submitted. Written expectations prevent 90% of communication frustrations.
-                  </li>
-                </ol>
+                <div className="space-y-3 mt-4">
+                  <div className="bg-white/5 rounded-xl p-4 border-l-2 border-rose-500/40">
+                    <h4 className="text-white font-semibold mb-1">
+                      Mistake 1 — Starting work without a signed contract
+                    </h4>
+                    <p className="text-sm">
+                      This is the most expensive mistake a freelancer can make. Without a signed
+                      agreement, you have no legal protection if the client ghosts, disputes scope,
+                      claims your work as their own, or refuses to pay. &ldquo;But we discussed it
+                      over email&rdquo; is not a contract. A signed service agreement takes 10
+                      minutes to set up and can save you thousands. Make it non-negotiable.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4 border-l-2 border-rose-500/40">
+                    <h4 className="text-white font-semibold mb-1">
+                      Mistake 2 — Skipping the deposit
+                    </h4>
+                    <p className="text-sm">
+                      A deposit serves two purposes: immediate cash flow, and client commitment
+                      filtering. Clients who resist paying a deposit are statistically more likely
+                      to be late on final payment, request excessive revisions, and disappear after
+                      delivery. Australian freelancers should require 25–50% upfront on all
+                      projects over $500. No deposit cleared, no work started. Full stop.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4 border-l-2 border-rose-500/40">
+                    <h4 className="text-white font-semibold mb-1">
+                      Mistake 3 — Unclear timelines and no kill fee
+                    </h4>
+                    <p className="text-sm">
+                      Projects without defined milestones and completion dates drag on
+                      indefinitely. Clients deprioritise your project, go quiet for weeks, then
+                      expect an urgent turnaround. Establish a clear project timeline at kickoff
+                      and include a kill fee clause in your contract — typically 25–50% of the
+                      remaining project value if the client cancels after work has begun. This
+                      protects your time and keeps clients accountable.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4 border-l-2 border-rose-500/40">
+                    <h4 className="text-white font-semibold mb-1">
+                      Mistake 4 — Not setting communication boundaries
+                    </h4>
+                    <p className="text-sm">
+                      If you do not specify your working hours and communication channels during
+                      onboarding, clients will call you at 9pm on a Sunday and expect immediate
+                      responses. Specify in writing: your working hours, your preferred contact
+                      method (email or Slack — not mobile unless urgent), and your target response
+                      time. Clients who get this information upfront respect it. Clients who are
+                      never told will always push boundaries.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4 border-l-2 border-rose-500/40">
+                    <h4 className="text-white font-semibold mb-1">
+                      Mistake 5 — Treating retainers like individual projects
+                    </h4>
+                    <p className="text-sm">
+                      Retainer clients require different onboarding than one-off project clients.
+                      For ongoing arrangements, you need to define the monthly deliverable scope
+                      clearly (what is included, what is billable as extra), establish a monthly
+                      reporting cadence, and set a rollover policy for unused hours or tasks. Without
+                      this, retainers quietly balloon in scope until they are no longer profitable.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            {/* Section 4: Client Onboarding vs Project Kickoff */}
+            {/* Section 4: How InvoiceFlow Streamlines Client Management */}
             <div className="glass rounded-2xl p-8">
               <h2 className="text-2xl font-bold text-white heading-font mb-4">
-                Client Onboarding vs Project Kickoff — What&apos;s the Difference?
+                How InvoiceFlow Streamlines Client Management
               </h2>
               <div className="space-y-4 text-slate-300">
                 <p>
-                  These terms are often used interchangeably, but they cover different stages of the
-                  client relationship. Understanding the distinction helps you build a more robust
-                  process.
+                  A great onboarding process is only the beginning. Managing clients well across
+                  the full project lifecycle — from first invoice to final payment — is where
+                  InvoiceFlow gives Australian freelancers a real edge.
                 </p>
-                <div className="grid sm:grid-cols-2 gap-4 mt-4">
+                <div className="grid sm:grid-cols-3 gap-3 mt-4">
                   <div className="bg-white/5 rounded-xl p-4">
-                    <h4 className="text-teal-400 font-semibold mb-2">Client Onboarding</h4>
-                    <p className="text-sm mb-3">
-                      The <strong className="text-white">administrative and legal setup</strong> that
-                      happens before productive work begins.
+                    <h4 className="text-white font-semibold text-sm mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-lg">1.</span> Professional Invoicing
+                    </h4>
+                    <p className="text-xs text-slate-400">
+                      Send polished invoices with your ABN, GST details, and payment terms
+                      instantly. First impressions matter — professional invoices signal a
+                      professional business and get paid faster.
                     </p>
-                    <ul className="space-y-2 text-sm">
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-400 mt-0.5">-</span>
-                        <span>Collecting client contact and billing details</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-400 mt-0.5">-</span>
-                        <span>Signing contracts and NDAs</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-400 mt-0.5">-</span>
-                        <span>Processing deposits and confirming payment terms</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-400 mt-0.5">-</span>
-                        <span>Gathering logins, assets, and access credentials</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-400 mt-0.5">-</span>
-                        <span>Setting up communication and project tools</span>
-                      </li>
-                    </ul>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4">
-                    <h4 className="text-blue-400 font-semibold mb-2">Project Kickoff</h4>
-                    <p className="text-sm mb-3">
-                      The <strong className="text-white">strategic and creative alignment</strong> that
-                      happens when work is about to begin.
+                    <h4 className="text-white font-semibold text-sm mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-lg">2.</span> Deposit Tracking
+                    </h4>
+                    <p className="text-xs text-slate-400">
+                      Track deposits, milestone payments, and final invoices in one place. Always
+                      know what has been paid, what is outstanding, and what is overdue — without
+                      digging through spreadsheets.
                     </p>
-                    <ul className="space-y-2 text-sm">
-                      <li className="flex items-start gap-2">
-                        <span className="text-blue-400 mt-0.5">-</span>
-                        <span>Reviewing and confirming the project brief in detail</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-blue-400 mt-0.5">-</span>
-                        <span>Walking through the timeline, milestones, and deadlines</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-blue-400 mt-0.5">-</span>
-                        <span>Discussing creative direction and preferences</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-blue-400 mt-0.5">-</span>
-                        <span>Identifying risks, dependencies, and blockers</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-blue-400 mt-0.5">-</span>
-                        <span>Agreeing on feedback cycles and approval workflows</span>
-                      </li>
-                    </ul>
                   </div>
-                </div>
-                <div className="bg-white/5 rounded-xl p-4 mt-4">
-                  <h4 className="text-white font-semibold mb-2">The Right Order</h4>
-                  <p className="text-sm">
-                    Onboarding comes first. You should never schedule a project kickoff until the
-                    contract is signed, the deposit is paid, and all required assets are collected.
-                    Mixing these stages together leads to situations where you&apos;re deep into
-                    creative work with no signed contract — the most vulnerable position a freelancer
-                    can be in. Complete onboarding fully, then schedule the kickoff as a separate
-                    milestone. This also gives you a natural project start date for your timeline.
-                  </p>
+                  <div className="bg-white/5 rounded-xl p-4">
+                    <h4 className="text-white font-semibold text-sm mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-lg">3.</span> Automated Reminders
+                    </h4>
+                    <p className="text-xs text-slate-400">
+                      Stop chasing late payments manually. InvoiceFlow sends automatic payment
+                      reminders at the intervals you set — so you get paid without the awkward
+                      follow-up conversations.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4">
+                    <h4 className="text-white font-semibold text-sm mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-lg">4.</span> Client Records
+                    </h4>
+                    <p className="text-xs text-slate-400">
+                      Keep a complete record of every client — contact details, project history,
+                      payment records, and notes. When a client returns 12 months later, you
+                      have the full context at your fingertips.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4">
+                    <h4 className="text-white font-semibold text-sm mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-lg">5.</span> GST-Ready Reports
+                    </h4>
+                    <p className="text-xs text-slate-400">
+                      Generate BAS-ready income and GST reports with one click. Every invoice
+                      feeds into real-time financial dashboards that make tax time straightforward
+                      instead of stressful.
+                    </p>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4">
+                    <h4 className="text-white font-semibold text-sm mb-2 flex items-center gap-2">
+                      <span className="text-emerald-400 text-lg">6.</span> Late Payment Protection
+                    </h4>
+                    <p className="text-xs text-slate-400">
+                      Built-in late payment fee calculations and overdue invoice tracking give
+                      you the tools to enforce your payment terms professionally — without
+                      needing a debt collector.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -417,19 +452,30 @@ export default function ClientOnboardingChecklistPage() {
           {/* CTA */}
           <section className="mt-16 text-center glass rounded-2xl p-10">
             <h3 className="text-3xl font-bold text-white heading-font mb-4">
-              Onboard clients. <span className="gradient-text">Get paid faster.</span>
+              Onboard clients like a pro.{' '}
+              <span className="bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
+                Get paid like one too.
+              </span>
             </h3>
             <p className="text-slate-300 max-w-xl mx-auto mb-6">
-              InvoiceFlow helps Australian freelancers send professional invoices, track payments,
-              and manage client relationships — from onboarding to final payment. Stop chasing
-              invoices and start getting paid on time.
+              InvoiceFlow handles everything from first invoice to final payment — so you can
+              focus on doing great work and stop chasing money. Built for Australian freelancers
+              who run serious businesses.
             </p>
-            <Link
-              href="/signup"
-              className="inline-block px-6 py-3 rounded-lg bg-gradient-to-r from-teal-500 to-blue-500 text-white font-semibold hover:opacity-90 transition-opacity"
-            >
-              Start Free — 5 Invoices/Month
-            </Link>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                href="/signup"
+                className="inline-block px-6 py-3 rounded-lg bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-semibold hover:opacity-90 transition-opacity"
+              >
+                Start Free — 5 Invoices/Month
+              </Link>
+              <Link
+                href="/tools/scope-of-work-generator"
+                className="inline-block px-6 py-3 rounded-lg bg-white/5 border border-white/10 text-white font-medium hover:bg-white/10 transition-all"
+              >
+                Try Scope of Work Generator
+              </Link>
+            </div>
           </section>
         </main>
 

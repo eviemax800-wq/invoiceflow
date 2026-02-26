@@ -919,4 +919,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Invoicing & Documents',
   },
+  {
+    title: 'Client Onboarding Checklist',
+    description:
+      'Generate a personalised client onboarding checklist for freelance projects. Covers communication setup, payment terms, deliverables, legal admin, and project kickoff — customised to your service type and project scope.',
+    href: '/tools/client-onboarding-checklist',
+    icon: '\u{2705}',
+    color: 'from-emerald-400 to-teal-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
+  {
+    title: 'Workspace Cost Calculator',
+    description:
+      'Compare the true cost of home office, coworking, and private office setups for Australian freelancers. Includes tax deductions, net cost after savings, break-even analysis, and a personalised recommendation.',
+    href: '/tools/workspace-cost-calculator',
+    icon: '\u{1F3E2}',
+    color: 'from-sky-400 to-blue-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
 ];
