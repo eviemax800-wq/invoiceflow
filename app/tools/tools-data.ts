@@ -859,4 +859,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Tax & Compliance',
   },
+  {
+    title: 'Client Red Flag Checker',
+    description:
+      'Interactive quiz to assess potential client risk before signing a contract. Evaluate communication patterns, payment signals, and business legitimacy to get a risk score with actionable advice and a protection checklist.',
+    href: '/tools/client-red-flag-checker',
+    icon: '\u{1F6A9}',
+    color: 'from-amber-400 to-orange-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
+  {
+    title: 'Financial Year Planner',
+    description:
+      'Plan your full FY2025-26 as an Australian freelancer. Quarterly revenue targets, ATO deadline calendar, tax reserves, super set-aside, billable hours breakdown, cash reserve recommendations, and quarterly action items.',
+    href: '/tools/financial-year-planner',
+    icon: '\u{1F4C5}',
+    color: 'from-rose-400 to-pink-500',
+    badge: 'New',
+    category: 'Financial Planning',
+  },
 ];
