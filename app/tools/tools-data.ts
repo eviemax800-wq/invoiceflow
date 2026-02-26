@@ -879,4 +879,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Financial Planning',
   },
+  {
+    title: 'Debt Recovery Cost Calculator',
+    description:
+      'Calculate whether it\'s worth pursuing an unpaid invoice. Compare recovery methods — Letter of Demand, debt collection agencies, state tribunals (VCAT/NCAT/QCAT), and courts — with real Australian costs, success rates, and ROI analysis.',
+    href: '/tools/debt-recovery-calculator',
+    icon: '\u{2696}',
+    color: 'from-red-400 to-rose-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Project Timeline Calculator',
+    description:
+      'Estimate realistic project delivery dates using three-point PERT estimation. Task breakdown templates, client delay factors, buffer calculations, Gantt-style timeline, and a shareable client summary.',
+    href: '/tools/project-timeline-calculator',
+    icon: '\u{1F4C5}',
+    color: 'from-indigo-400 to-cyan-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
 ];
