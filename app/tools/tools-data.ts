@@ -916,7 +916,7 @@ export const tools: Tool[] = [
     href: '/tools/client-onboarding-checklist',
     icon: '\u{2705}',
     color: 'from-emerald-400 to-teal-500',
-    badge: 'New',
+    badge: '',
     category: 'Business Analytics',
   },
   {
@@ -948,5 +948,25 @@ export const tools: Tool[] = [
     color: 'from-violet-400 to-purple-500',
     badge: 'New',
     category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Client Intake Form Generator',
+    description:
+      'Generate customised client intake questionnaires for new projects. 8 pre-built question sections, smart defaults by service type, custom questions — copy, print, or email to clients before kickoff.',
+    href: '/tools/client-intake-form',
+    icon: '\u{1F4CB}',
+    color: 'from-cyan-400 to-teal-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
+  {
+    title: 'Service Package Builder',
+    description:
+      'Build professional 3-tier service packages with smart pricing. Create Starter, Standard, and Premium offerings with deliverables, turnaround times, revisions, and add-ons — stop selling hours, start selling value.',
+    href: '/tools/service-package-builder',
+    icon: '\u{1F4E6}',
+    color: 'from-rose-400 to-pink-500',
+    badge: 'New',
+    category: 'Pricing & Rates',
   },
 ];
