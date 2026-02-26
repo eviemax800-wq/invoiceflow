@@ -969,4 +969,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Pricing & Rates',
   },
+  {
+    title: 'Invoice Numbering System Generator',
+    description:
+      'Design a professional invoice numbering system for your freelance business. Choose prefix, date codes, separators, sequential digits, and reset periods — with live preview, printable reference card, and Australian FY alignment.',
+    href: '/tools/invoice-numbering-system',
+    icon: '#',
+    color: 'from-cyan-400 to-teal-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Freelance Benefits Cost Calculator',
+    description:
+      'Calculate the true cost of being self-employed vs employed. Compare salary + super + leave + insurance + equipment to find the minimum freelance rate you need to match employee compensation. Australian rates and entitlements.',
+    href: '/tools/benefits-cost-calculator',
+    icon: '\u{1F4B6}',
+    color: 'from-emerald-400 to-green-500',
+    badge: 'New',
+    category: 'Pricing & Rates',
+  },
 ];
