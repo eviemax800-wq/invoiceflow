@@ -819,4 +819,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Business Analytics',
   },
+  {
+    title: 'Marketing Budget Calculator',
+    description:
+      'Calculate your optimal freelance marketing budget by business stage and growth targets. Per-channel allocation, ROI projections, estimated new clients per month, and time vs money recommendations.',
+    href: '/tools/marketing-budget-calculator',
+    icon: '\u{1F4E3}',
+    color: 'from-amber-400 to-orange-500',
+    badge: 'New',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'Client Acquisition Cost Calculator',
+    description:
+      'Calculate your CAC per marketing channel including time costs. CLV:CAC ratio analysis, payback period, channel efficiency comparison, and budget reallocation recommendations.',
+    href: '/tools/acquisition-cost-calculator',
+    icon: '\u{1F3AF}',
+    color: 'from-cyan-400 to-sky-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
 ];
