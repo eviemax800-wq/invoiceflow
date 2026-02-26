@@ -27669,4 +27669,177 @@ Project Summary:
       </ul>
     `,
   },
+  '100-free-business-tools-australian-freelancers': {
+    slug: '100-free-business-tools-australian-freelancers',
+    title: '100 Free Business Tools for Australian Freelancers (2026)',
+    excerpt: 'The complete collection of 100 free business tools built specifically for Australian freelancers and sole traders. Tax calculators, invoice generators, contract templates, financial planners, and more — no signup required.',
+    category: 'Resources',
+    readTime: '15 min read',
+    date: 'February 2026',
+    seoTitle: '100 Free Business Tools for Australian Freelancers | InvoiceFlow',
+    seoDescription: 'Browse 100 free business tools for Australian freelancers. GST calculators, invoice generators, contract templates, rate calculators, tax planners — no signup, no credit card.',
+    content: `
+      <p class="text-lg text-slate-300 mb-8">Running a freelance business in Australia means juggling invoicing, tax compliance, pricing, financial planning, and client management — often without a dedicated finance team. We built <strong class="text-white">100 free tools</strong> specifically for Australian freelancers and sole traders to handle all of it. Every tool is free, requires no signup, and works instantly in your browser.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">All tools are 100% free</h3>
+        <p class="text-slate-300 text-sm">No signup, no credit card, no email required. Just open and use. Every tool is built with Australian tax law, ATO requirements, and local business practices in mind.</p>
+      </div>
+
+      <h2>Tax & Compliance (18 Tools)</h2>
+      <p>Stay ATO-compliant with calculators for GST, income tax, superannuation, depreciation, BAS preparation, and more. All aligned with 2025-26 Australian tax rates.</p>
+      <ul>
+        <li><a href="/tools/gst-calculator" class="text-teal-400 hover:text-teal-300 underline">GST Calculator</a> — Add or remove 10% GST from any amount instantly</li>
+        <li><a href="/tools/tax-estimator" class="text-teal-400 hover:text-teal-300 underline">Freelance Tax Estimator</a> — Estimate your annual tax bill with ATO 2025-26 brackets</li>
+        <li><a href="/tools/contractor-employee-calculator" class="text-teal-400 hover:text-teal-300 underline">Contractor vs Employee Calculator</a> — Compare the true cost of contracting vs employment</li>
+        <li><a href="/tools/super-calculator" class="text-teal-400 hover:text-teal-300 underline">Superannuation Calculator</a> — Calculate super contributions at 11.5%</li>
+        <li><a href="/tools/expense-deduction-calculator" class="text-teal-400 hover:text-teal-300 underline">Expense & Deduction Calculator</a> — Find and calculate your eligible tax deductions</li>
+        <li><a href="/tools/tax-calendar" class="text-teal-400 hover:text-teal-300 underline">ATO Tax Calendar</a> — Never miss a BAS, super, or tax deadline</li>
+        <li><a href="/tools/wfh-deduction-calculator" class="text-teal-400 hover:text-teal-300 underline">WFH Deduction Calculator</a> — Calculate work-from-home deductions (67c/hr method)</li>
+        <li><a href="/tools/net-income-calculator" class="text-teal-400 hover:text-teal-300 underline">Net Income Calculator</a> — See your take-home pay after tax, Medicare, and super</li>
+        <li><a href="/tools/depreciation-calculator" class="text-teal-400 hover:text-teal-300 underline">Depreciation Calculator</a> — Calculate asset depreciation for tax purposes</li>
+        <li><a href="/tools/vehicle-expense-calculator" class="text-teal-400 hover:text-teal-300 underline">Vehicle Expense Calculator</a> — Compare logbook vs cents-per-km methods</li>
+        <li><a href="/tools/business-structure-calculator" class="text-teal-400 hover:text-teal-300 underline">Business Structure Calculator</a> — Compare sole trader, company, partnership, and trust structures</li>
+        <li><a href="/tools/eofy-checklist" class="text-teal-400 hover:text-teal-300 underline">EOFY Tax Checklist</a> — Personalised end-of-financial-year preparation checklist</li>
+        <li><a href="/tools/bas-preparation" class="text-teal-400 hover:text-teal-300 underline">BAS Preparation Checklist</a> — Step-by-step guide to completing your Business Activity Statement</li>
+        <li><a href="/tools/payg-calculator" class="text-teal-400 hover:text-teal-300 underline">PAYG Installment Calculator</a> — Calculate quarterly PAYG installments</li>
+        <li><a href="/tools/tax-deduction-finder" class="text-teal-400 hover:text-teal-300 underline">Tax Deduction Finder</a> — Interactive tool to discover deductions you might be missing</li>
+        <li><a href="/tools/business-trip-calculator" class="text-teal-400 hover:text-teal-300 underline">Business Trip Expense Calculator</a> — Calculate travel deductions with ATO reasonable amounts</li>
+        <li><a href="/tools/vehicle-logbook-generator" class="text-teal-400 hover:text-teal-300 underline">Vehicle Logbook Generator</a> — Create an ATO-compliant 12-week motor vehicle logbook</li>
+        <li><a href="/tools/tax-invoice-checker" class="text-teal-400 hover:text-teal-300 underline">Tax Invoice Compliance Checker</a> — Verify your invoices meet ATO requirements</li>
+      </ul>
+
+      <h2>Invoicing & Documents (27 Tools)</h2>
+      <p>Generate professional invoices, contracts, proposals, NDAs, and every other document a freelancer needs. All templates follow Australian legal requirements.</p>
+      <ul>
+        <li><a href="/tools/invoice-generator" class="text-teal-400 hover:text-teal-300 underline">Invoice Template Generator</a> — Create GST-compliant invoices with your ABN</li>
+        <li><a href="/tools/quote-calculator" class="text-teal-400 hover:text-teal-300 underline">Quote & Estimate Builder</a> — Generate professional project quotes</li>
+        <li><a href="/tools/payment-reminder-generator" class="text-teal-400 hover:text-teal-300 underline">Payment Reminder Generator</a> — Create polite but firm payment reminder emails</li>
+        <li><a href="/tools/scope-of-work-generator" class="text-teal-400 hover:text-teal-300 underline">Scope of Work Generator</a> — Define project scope, deliverables, and timelines</li>
+        <li><a href="/tools/contract-clause-generator" class="text-teal-400 hover:text-teal-300 underline">Contract Clause Generator</a> — Generate standard contract clauses for your agreements</li>
+        <li><a href="/tools/proposal-generator" class="text-teal-400 hover:text-teal-300 underline">Proposal Template Generator</a> — Build professional project proposals</li>
+        <li><a href="/tools/invoice-aging-report" class="text-teal-400 hover:text-teal-300 underline">Invoice Aging Report</a> — Track outstanding invoices by age</li>
+        <li><a href="/tools/overdue-follow-up" class="text-teal-400 hover:text-teal-300 underline">Overdue Invoice Follow-Up</a> — Generate escalating follow-up emails for unpaid invoices</li>
+        <li><a href="/tools/credit-note-generator" class="text-teal-400 hover:text-teal-300 underline">Credit Note Generator</a> — Create GST-compliant credit notes</li>
+        <li><a href="/tools/receipt-generator" class="text-teal-400 hover:text-teal-300 underline">Payment Receipt Generator</a> — Generate professional payment receipts</li>
+        <li><a href="/tools/letter-of-demand" class="text-teal-400 hover:text-teal-300 underline">Letter of Demand Generator</a> — Create formal payment demand letters</li>
+        <li><a href="/tools/price-increase-letter" class="text-teal-400 hover:text-teal-300 underline">Price Increase Letter Generator</a> — Communicate rate increases professionally</li>
+        <li><a href="/tools/project-completion-certificate" class="text-teal-400 hover:text-teal-300 underline">Project Completion Certificate</a> — Generate formal project sign-off documents</li>
+        <li><a href="/tools/contract-generator" class="text-teal-400 hover:text-teal-300 underline">Freelance Contract Generator</a> — Full service agreement with scope, payment, and IP terms</li>
+        <li><a href="/tools/international-invoice-calculator" class="text-teal-400 hover:text-teal-300 underline">International Invoice Calculator</a> — Currency conversion and payment fee comparison for overseas clients</li>
+        <li><a href="/tools/invoice-dispute-resolution" class="text-teal-400 hover:text-teal-300 underline">Invoice Dispute Resolution</a> — Generate professional responses to invoice disputes</li>
+        <li><a href="/tools/invoice-email-template" class="text-teal-400 hover:text-teal-300 underline">Invoice Email Template Generator</a> — Professional email templates for sending invoices</li>
+        <li><a href="/tools/subcontractor-agreement" class="text-teal-400 hover:text-teal-300 underline">Subcontractor Agreement Generator</a> — Create legally structured subcontractor contracts</li>
+        <li><a href="/tools/nda-generator" class="text-teal-400 hover:text-teal-300 underline">NDA / Confidentiality Agreement</a> — Generate mutual or one-way NDAs</li>
+        <li><a href="/tools/client-communication-templates" class="text-teal-400 hover:text-teal-300 underline">Client Communication Templates</a> — 24 email templates for common client scenarios</li>
+        <li><a href="/tools/privacy-policy-generator" class="text-teal-400 hover:text-teal-300 underline">Privacy Policy Generator</a> — Australian Privacy Act compliant privacy policies</li>
+        <li><a href="/tools/terms-of-service-generator" class="text-teal-400 hover:text-teal-300 underline">Terms of Service Generator</a> — Professional T&Cs with ACL compliance</li>
+        <li><a href="/tools/debt-recovery-calculator" class="text-teal-400 hover:text-teal-300 underline">Debt Recovery Cost Calculator</a> — Compare 6 recovery methods with real Australian costs</li>
+        <li><a href="/tools/income-proof-generator" class="text-teal-400 hover:text-teal-300 underline">Income Proof Generator</a> — Self-employed income declaration letters for loans and rentals</li>
+        <li><a href="/tools/project-handover-generator" class="text-teal-400 hover:text-teal-300 underline">Project Handover Generator</a> — Comprehensive project handover documents</li>
+        <li><a href="/tools/project-brief-generator" class="text-teal-400 hover:text-teal-300 underline">Project Brief Generator</a> — Professional project briefs with scope and timeline</li>
+        <li><a href="/tools/invoice-numbering-system" class="text-teal-400 hover:text-teal-300 underline">Invoice Numbering System Generator</a> — Design a professional invoice numbering scheme</li>
+      </ul>
+
+      <h2>Pricing & Rates (11 Tools)</h2>
+      <p>Set the right prices for your services. Calculate hourly rates, compare pricing models, build retainers, and create professional rate cards.</p>
+      <ul>
+        <li><a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Rate Calculator</a> — Calculate your ideal hourly, daily, or project rate</li>
+        <li><a href="/tools/profit-margin-calculator" class="text-teal-400 hover:text-teal-300 underline">Profit Margin Calculator</a> — Calculate profit margins on projects and services</li>
+        <li><a href="/tools/billable-hours-calculator" class="text-teal-400 hover:text-teal-300 underline">Billable Hours Calculator</a> — Track and calculate billable time and revenue</li>
+        <li><a href="/tools/salary-to-hourly" class="text-teal-400 hover:text-teal-300 underline">Salary to Hourly Rate Converter</a> — Convert salary benchmarks to freelance rates</li>
+        <li><a href="/tools/discount-markup-calculator" class="text-teal-400 hover:text-teal-300 underline">Discount & Markup Calculator</a> — Calculate discounts, markups, and margins</li>
+        <li><a href="/tools/retainer-calculator" class="text-teal-400 hover:text-teal-300 underline">Client Retainer Calculator</a> — Structure and price retainer agreements</li>
+        <li><a href="/tools/pricing-comparison" class="text-teal-400 hover:text-teal-300 underline">Hourly vs Project Pricing</a> — Compare pricing models for your services</li>
+        <li><a href="/tools/timesheet-calculator" class="text-teal-400 hover:text-teal-300 underline">Timesheet Calculator</a> — Calculate billable amounts from timesheets</li>
+        <li><a href="/tools/service-package-builder" class="text-teal-400 hover:text-teal-300 underline">Service Package Builder</a> — Create professional 3-tier service packages</li>
+        <li><a href="/tools/benefits-cost-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Benefits Cost Calculator</a> — Compare employee benefits vs freelance compensation</li>
+        <li><a href="/tools/rate-card-generator" class="text-teal-400 hover:text-teal-300 underline">Rate Card Generator</a> — Build a professional rate card for your services</li>
+      </ul>
+
+      <h2>Financial Planning (19 Tools)</h2>
+      <p>Plan your freelance finances with cash flow forecasting, budgeting, retirement planning, and revenue goal setting. All built with Australian tax rates and super requirements.</p>
+      <ul>
+        <li><a href="/tools/late-payment-calculator" class="text-teal-400 hover:text-teal-300 underline">Late Payment Interest Calculator</a> — Calculate interest on overdue invoices</li>
+        <li><a href="/tools/cashflow-forecast" class="text-teal-400 hover:text-teal-300 underline">Cash Flow Forecast</a> — Project future cash flow from current pipeline</li>
+        <li><a href="/tools/revenue-goal-planner" class="text-teal-400 hover:text-teal-300 underline">Revenue Goal Planner</a> — Set and track annual revenue targets</li>
+        <li><a href="/tools/break-even-calculator" class="text-teal-400 hover:text-teal-300 underline">Break-Even Calculator</a> — Find your break-even point for projects and services</li>
+        <li><a href="/tools/payment-terms-calculator" class="text-teal-400 hover:text-teal-300 underline">Payment Terms Calculator</a> — Optimise payment terms for cash flow</li>
+        <li><a href="/tools/budget-planner" class="text-teal-400 hover:text-teal-300 underline">Freelance Budget Planner</a> — Plan monthly business and personal budgets</li>
+        <li><a href="/tools/payment-plan-calculator" class="text-teal-400 hover:text-teal-300 underline">Payment Plan Calculator</a> — Structure payment plans for large projects</li>
+        <li><a href="/tools/recurring-revenue-calculator" class="text-teal-400 hover:text-teal-300 underline">Recurring Revenue Calculator</a> — Track and forecast recurring income</li>
+        <li><a href="/tools/savings-goal-calculator" class="text-teal-400 hover:text-teal-300 underline">Savings Goal Calculator</a> — Plan savings targets with timeline projections</li>
+        <li><a href="/tools/startup-cost-calculator" class="text-teal-400 hover:text-teal-300 underline">Startup Cost Calculator</a> — Estimate costs to start your freelance business</li>
+        <li><a href="/tools/profit-loss-statement" class="text-teal-400 hover:text-teal-300 underline">Profit & Loss Statement</a> — Generate P&L statements for your business</li>
+        <li><a href="/tools/annual-revenue-report" class="text-teal-400 hover:text-teal-300 underline">Annual Revenue Report</a> — Create income summary reports for accountants</li>
+        <li><a href="/tools/milestone-payment-calculator" class="text-teal-400 hover:text-teal-300 underline">Milestone Payment Calculator</a> — Structure milestone-based payment schedules</li>
+        <li><a href="/tools/emergency-fund-calculator" class="text-teal-400 hover:text-teal-300 underline">Emergency Fund Calculator</a> — Calculate your ideal emergency savings target</li>
+        <li><a href="/tools/retirement-calculator" class="text-teal-400 hover:text-teal-300 underline">Freelance Retirement Calculator</a> — Project super balance and plan for retirement</li>
+        <li><a href="/tools/pay-yourself-calculator" class="text-teal-400 hover:text-teal-300 underline">Pay Yourself Calculator</a> — Calculate a consistent salary from irregular freelance income</li>
+        <li><a href="/tools/marketing-budget-calculator" class="text-teal-400 hover:text-teal-300 underline">Marketing Budget Calculator</a> — Plan marketing spend by channel with ROI projections</li>
+        <li><a href="/tools/profit-first-calculator" class="text-teal-400 hover:text-teal-300 underline">Profit First Calculator</a> — Implement the Profit First methodology for your business</li>
+        <li><a href="/tools/financial-year-planner" class="text-teal-400 hover:text-teal-300 underline">Financial Year Planner</a> — Plan your FY2025-26 with quarterly targets and ATO deadlines</li>
+      </ul>
+
+      <h2>Business Analytics (24 Tools)</h2>
+      <p>Understand your business performance with client analytics, project profitability tracking, risk assessment, and health scores.</p>
+      <ul>
+        <li><a href="/tools/abn-lookup" class="text-teal-400 hover:text-teal-300 underline">ABN Lookup</a> — Verify any Australian Business Number instantly</li>
+        <li><a href="/tools/project-profitability" class="text-teal-400 hover:text-teal-300 underline">Project Profitability Calculator</a> — Analyse profit margins on individual projects</li>
+        <li><a href="/tools/business-health-score" class="text-teal-400 hover:text-teal-300 underline">Business Health Score</a> — Get an overall health assessment of your freelance business</li>
+        <li><a href="/tools/meeting-cost-calculator" class="text-teal-400 hover:text-teal-300 underline">Meeting Cost Calculator</a> — Calculate the real cost of meetings in billable hours</li>
+        <li><a href="/tools/client-lifetime-value" class="text-teal-400 hover:text-teal-300 underline">Client Lifetime Value</a> — Calculate the long-term value of each client relationship</li>
+        <li><a href="/tools/client-risk-analyzer" class="text-teal-400 hover:text-teal-300 underline">Client Concentration Risk Analyzer</a> — Assess revenue concentration risk across clients</li>
+        <li><a href="/tools/expense-report-generator" class="text-teal-400 hover:text-teal-300 underline">Expense Report Generator</a> — Create professional expense reports</li>
+        <li><a href="/tools/project-roi-calculator" class="text-teal-400 hover:text-teal-300 underline">Project ROI Calculator</a> — Calculate return on investment for projects</li>
+        <li><a href="/tools/insurance-cost-estimator" class="text-teal-400 hover:text-teal-300 underline">Insurance Cost Estimator</a> — Estimate business insurance costs by type</li>
+        <li><a href="/tools/scope-change-calculator" class="text-teal-400 hover:text-teal-300 underline">Scope Change Calculator</a> — Calculate the cost impact of project scope changes</li>
+        <li><a href="/tools/client-feedback-survey" class="text-teal-400 hover:text-teal-300 underline">Client Feedback Survey</a> — Generate post-project feedback surveys</li>
+        <li><a href="/tools/business-registration-checklist" class="text-teal-400 hover:text-teal-300 underline">Business Registration Checklist</a> — Personalised setup checklist by business type</li>
+        <li><a href="/tools/business-valuation-calculator" class="text-teal-400 hover:text-teal-300 underline">Business Valuation Calculator</a> — Estimate what your freelance business is worth</li>
+        <li><a href="/tools/capacity-planner" class="text-teal-400 hover:text-teal-300 underline">Work Capacity Planner</a> — Calculate max concurrent clients and utilisation</li>
+        <li><a href="/tools/acquisition-cost-calculator" class="text-teal-400 hover:text-teal-300 underline">Client Acquisition Cost Calculator</a> — Track CAC across marketing channels</li>
+        <li><a href="/tools/client-red-flag-checker" class="text-teal-400 hover:text-teal-300 underline">Client Red Flag Checker</a> — 10-question quiz to assess potential client risk</li>
+        <li><a href="/tools/project-timeline-calculator" class="text-teal-400 hover:text-teal-300 underline">Project Timeline Calculator</a> — PERT-based project estimation with confidence intervals</li>
+        <li><a href="/tools/client-onboarding-checklist" class="text-teal-400 hover:text-teal-300 underline">Client Onboarding Checklist</a> — Personalised onboarding checklist for new clients</li>
+        <li><a href="/tools/workspace-cost-calculator" class="text-teal-400 hover:text-teal-300 underline">Workspace Cost Calculator</a> — Compare home office vs coworking vs private office costs</li>
+        <li><a href="/tools/client-intake-form" class="text-teal-400 hover:text-teal-300 underline">Client Intake Form Generator</a> — Create customised client intake questionnaires</li>
+        <li><a href="/tools/referral-request-generator" class="text-teal-400 hover:text-teal-300 underline">Client Referral Request Generator</a> — Generate professional referral request messages</li>
+        <li><a href="/tools/annual-business-review" class="text-teal-400 hover:text-teal-300 underline">Annual Business Review Generator</a> — Create comprehensive annual business review documents</li>
+        <li><a href="/tools/meeting-agenda-generator" class="text-teal-400 hover:text-teal-300 underline">Meeting Agenda Generator</a> — Generate structured meeting agendas by meeting type</li>
+        <li><a href="/tools/freelance-scorecard" class="text-teal-400 hover:text-teal-300 underline">Freelance Business Scorecard</a> — 8-pillar assessment with radar chart and recommendations</li>
+      </ul>
+
+      <h2>How to Get the Most From These Tools</h2>
+      <p>These tools work best when used together. Here are some workflows that Australian freelancers find most valuable:</p>
+
+      <h3>Setting Up a New Freelance Business</h3>
+      <p>Start with the <a href="/tools/business-registration-checklist" class="text-teal-400 hover:text-teal-300 underline">Business Registration Checklist</a>, then use the <a href="/tools/business-structure-calculator" class="text-teal-400 hover:text-teal-300 underline">Business Structure Calculator</a> to choose your entity type. Set your rates with the <a href="/tools/rate-calculator" class="text-teal-400 hover:text-teal-300 underline">Rate Calculator</a>, create your <a href="/tools/contract-generator" class="text-teal-400 hover:text-teal-300 underline">contract template</a>, and generate a <a href="/tools/privacy-policy-generator" class="text-teal-400 hover:text-teal-300 underline">privacy policy</a> and <a href="/tools/terms-of-service-generator" class="text-teal-400 hover:text-teal-300 underline">terms of service</a>.</p>
+
+      <h3>Onboarding a New Client</h3>
+      <p>Use the <a href="/tools/client-red-flag-checker" class="text-teal-400 hover:text-teal-300 underline">Client Red Flag Checker</a> to vet prospects, the <a href="/tools/client-intake-form" class="text-teal-400 hover:text-teal-300 underline">Client Intake Form</a> to gather requirements, the <a href="/tools/proposal-generator" class="text-teal-400 hover:text-teal-300 underline">Proposal Generator</a> to win the project, and the <a href="/tools/client-onboarding-checklist" class="text-teal-400 hover:text-teal-300 underline">Onboarding Checklist</a> to start strong.</p>
+
+      <h3>End of Financial Year</h3>
+      <p>Run through the <a href="/tools/eofy-checklist" class="text-teal-400 hover:text-teal-300 underline">EOFY Checklist</a>, use the <a href="/tools/tax-deduction-finder" class="text-teal-400 hover:text-teal-300 underline">Tax Deduction Finder</a> to maximise deductions, generate your <a href="/tools/annual-revenue-report" class="text-teal-400 hover:text-teal-300 underline">Annual Revenue Report</a>, and prepare your <a href="/tools/bas-preparation" class="text-teal-400 hover:text-teal-300 underline">BAS</a>.</p>
+
+      <h3>Chasing Unpaid Invoices</h3>
+      <p>Start with a <a href="/tools/payment-reminder-generator" class="text-teal-400 hover:text-teal-300 underline">Payment Reminder</a>, escalate to the <a href="/tools/overdue-follow-up" class="text-teal-400 hover:text-teal-300 underline">Overdue Follow-Up</a>, then the <a href="/tools/letter-of-demand" class="text-teal-400 hover:text-teal-300 underline">Letter of Demand</a>. Use the <a href="/tools/debt-recovery-calculator" class="text-teal-400 hover:text-teal-300 underline">Debt Recovery Calculator</a> to decide if formal recovery is worth it.</p>
+
+      <div class="glass rounded-xl p-6 my-8 border border-teal-400/20 bg-teal-500/5">
+        <h3 class="text-teal-400 font-semibold mb-2">Want to automate your invoicing?</h3>
+        <p class="text-slate-300 text-sm">These free tools are just the start. <a href="/signup" class="text-teal-400 hover:text-teal-300 underline font-semibold">InvoiceFlow</a> automates the entire invoicing process — from creating GST-compliant invoices to tracking payments and preparing for BAS. Start free with 5 invoices per month, no credit card required.</p>
+      </div>
+
+      <h2>Built for Australia</h2>
+      <p>Every tool in this collection is designed specifically for Australian freelancers and sole traders. That means:</p>
+      <ul>
+        <li><strong>ATO-aligned tax rates</strong> — 2025-26 brackets, 11.5% super, Medicare levy</li>
+        <li><strong>GST compliance</strong> — 10% GST calculations built into every relevant tool</li>
+        <li><strong>State-specific data</strong> — Workers comp rates, tribunal info, public holidays by state</li>
+        <li><strong>Australian legal requirements</strong> — Privacy Act, ACL compliance, ABN requirements</li>
+        <li><strong>Local currency</strong> — Everything in AUD with Australian formatting</li>
+      </ul>
+      <p>Bookmark this page and come back whenever you need a tool. We regularly add new ones based on what Australian freelancers tell us they need.</p>
+    `,
+  },
 };
