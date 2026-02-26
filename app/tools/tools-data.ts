@@ -739,4 +739,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Invoicing & Documents',
   },
+  {
+    title: 'NDA / Confidentiality Agreement',
+    description:
+      'Generate professional Non-Disclosure Agreements for freelance projects. Mutual or one-way NDAs with confidential information definitions, exclusions, duration, governing law, and additional clauses — customised to Australian law.',
+    href: '/tools/nda-generator',
+    icon: '\u{1F512}',
+    color: 'from-slate-400 to-zinc-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'PAYG Installment Calculator',
+    description:
+      'Calculate your quarterly PAYG installments using the rate or amount method. Compare against estimated actual tax, see shortfall or surplus, and plan your cash flow with BAS due dates and monthly set-aside amounts.',
+    href: '/tools/payg-calculator',
+    icon: '\u{1F4B3}',
+    color: 'from-violet-400 to-purple-500',
+    badge: 'New',
+    category: 'Tax & Compliance',
+  },
 ];
