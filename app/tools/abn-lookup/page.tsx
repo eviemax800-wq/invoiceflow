@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ABNLookup from './ABNLookup';
+import RelatedTools from '../components/RelatedTools';
 
 export const metadata: Metadata = {
   title:
@@ -420,6 +421,8 @@ export default function ABNLookupPage() {
             </div>
           </div>
         </section>
+
+        <RelatedTools currentSlug="abn-lookup" category="Business Analytics" />
 
         {/* CTA */}
         <section className="mt-16 text-center glass rounded-2xl p-10">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import TaxEstimator from './TaxEstimator';
+import RelatedTools from '../components/RelatedTools';
 
 export const metadata: Metadata = {
   title: 'Free Freelance Tax Calculator Australia 2025-26 — Income Tax Estimator | InvoiceFlow',
@@ -329,6 +330,8 @@ export default function TaxEstimatorPage() {
             </p>
           </div>
         </section>
+
+        <RelatedTools currentSlug="tax-estimator" category="Tax & Compliance" />
 
         {/* CTA */}
         <section className="mt-16 text-center glass rounded-2xl p-10">

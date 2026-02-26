@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PrivacyPolicyGenerator from './PrivacyPolicyGenerator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Privacy Policy Generator Australia | Free Template for Freelancers — InvoiceFlow';
@@ -570,6 +571,8 @@ export default function PrivacyPolicyGeneratorPage() {
               </div>
             </div>
           </section>
+
+          <RelatedTools currentSlug="privacy-policy-generator" category="Invoicing & Documents" />
 
           {/* CTA */}
           <section className="mt-16 text-center glass rounded-2xl p-10">

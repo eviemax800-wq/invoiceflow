@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ContractGenerator from './ContractGenerator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Freelance Contract & Service Agreement Generator Australia | Free Template — InvoiceFlow';
@@ -469,6 +470,8 @@ export default function ContractGeneratorPage() {
               </div>
             </div>
           </section>
+
+          <RelatedTools currentSlug="contract-generator" category="Invoicing & Documents" />
 
           {/* CTA */}
           <section className="mt-16 text-center glass rounded-2xl p-10">

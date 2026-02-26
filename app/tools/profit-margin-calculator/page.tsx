@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProfitMarginCalculator from './ProfitMarginCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Freelance Profit Margin Calculator Australia | Free Tool — InvoiceFlow';
 const description =
@@ -303,6 +304,8 @@ export default function ProfitMarginCalculatorPage() {
               </div>
             </div>
           </section>
+
+          <RelatedTools currentSlug="profit-margin-calculator" category="Financial Planning" />
 
           {/* CTA */}
           <section className="mt-16 text-center glass rounded-2xl p-10">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import InvoiceGenerator from './InvoiceGenerator';
+import RelatedTools from '../components/RelatedTools';
 
 export const metadata: Metadata = {
   title: 'Free Invoice Generator Australia — Create GST-Compliant Invoices | InvoiceFlow',
@@ -159,6 +160,8 @@ export default function InvoiceGeneratorPage() {
             </div>
           </div>
         </section>
+
+        <RelatedTools currentSlug="invoice-generator" category="Invoicing & Documents" />
 
         {/* CTA */}
         <section className="mt-16 text-center glass rounded-2xl p-10">

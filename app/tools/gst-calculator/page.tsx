@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import GSTCalculator from './GSTCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 export const metadata: Metadata = {
   title: 'Free GST Calculator Australia — Add or Remove GST Instantly | InvoiceFlow',
@@ -232,6 +233,8 @@ export default function GSTCalculatorPage() {
             </div>
           </div>
         </section>
+
+        <RelatedTools currentSlug="gst-calculator" category="Tax & Compliance" />
 
         {/* CTA */}
         <section className="mt-16 text-center glass rounded-2xl p-10">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RateCalculator from './RateCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 export const metadata: Metadata = {
   title:
@@ -268,6 +269,8 @@ export default function RateCalculatorPage() {
             </div>
           </div>
         </section>
+
+        <RelatedTools currentSlug="rate-calculator" category="Pricing & Rates" />
 
         {/* CTA */}
         <section className="mt-16 text-center glass rounded-2xl p-10">
