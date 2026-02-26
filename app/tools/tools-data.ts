@@ -899,4 +899,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Business Analytics',
   },
+  {
+    title: 'Income Proof Generator',
+    description:
+      'Generate professional income declaration letters for rental applications, mortgage applications, car finance, and loan applications. Customised for Australian freelancers and sole traders with ABN, income details, and supporting documents checklist.',
+    href: '/tools/income-proof-generator',
+    icon: '\u{1F4C4}',
+    color: 'from-purple-400 to-violet-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
+  {
+    title: 'Project Handover Generator',
+    description:
+      'Generate comprehensive project handover documents with deliverables inventory, access credentials register, hosting details, warranty terms, and maintenance recommendations. Close projects professionally and trigger final payment.',
+    href: '/tools/project-handover-generator',
+    icon: '\u{1F4CB}',
+    color: 'from-teal-400 to-cyan-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
 ];
