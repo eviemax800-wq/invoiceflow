@@ -989,4 +989,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Pricing & Rates',
   },
+  {
+    title: 'Rate Card Generator',
+    description:
+      'Create a professional rate card with hourly, project, day rate, and retainer pricing across your services. Add terms, availability, GST status, and payment methods — then copy or print a polished rate card to share with clients.',
+    href: '/tools/rate-card-generator',
+    icon: '\u{1F4B3}',
+    color: 'from-amber-400 to-yellow-500',
+    badge: 'New',
+    category: 'Pricing & Rates',
+  },
+  {
+    title: 'Client Referral Request Generator',
+    description:
+      'Generate professional referral request emails for your best clients. Choose the perfect timing scenario, tone, and optional referral incentive — then copy a personalised email ready to send. Turn happy clients into your growth engine.',
+    href: '/tools/referral-request-generator',
+    icon: '\u{1F91D}',
+    color: 'from-violet-400 to-purple-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
 ];
