@@ -839,4 +839,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Business Analytics',
   },
+  {
+    title: 'Profit First Calculator',
+    description:
+      'Implement the Profit First method for your freelance business. Allocate revenue into Owner\'s Pay, Profit, Tax, Super, and OpEx accounts with Australian tax rates. Gap analysis, quarterly distributions, and small-plate recommendations.',
+    href: '/tools/profit-first-calculator',
+    icon: '\u{1F4B0}',
+    color: 'from-green-400 to-emerald-500',
+    badge: 'New',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'Business Trip Expense Calculator',
+    description:
+      'Calculate deductible travel expenses for business trips using ATO reasonable travel amounts. Domestic and international rates, meal allowances, accommodation, mixed-purpose trip apportionment, and tax savings estimate.',
+    href: '/tools/business-trip-calculator',
+    icon: '\u{2708}',
+    color: 'from-sky-400 to-blue-500',
+    badge: 'New',
+    category: 'Tax & Compliance',
+  },
 ];
