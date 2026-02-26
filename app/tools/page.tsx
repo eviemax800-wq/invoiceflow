@@ -3,13 +3,13 @@ import Link from 'next/link';
 import { tools, CATEGORY_META, CATEGORY_SLUGS } from './tools-data';
 
 export const metadata: Metadata = {
-  title: 'Free Business Tools for Freelancers | InvoiceFlow',
+  title: '100 Free Business Tools for Australian Freelancers | InvoiceFlow',
   description:
-    'Free tools for Australian freelancers and small businesses. 64 calculators and generators including GST, invoices, rates, tax, super, billable hours, break-even analysis, markup, revenue planning, payment reminders, payment terms, retainer pricing, project profitability, business health score, scope of work generator, meeting cost calculator, contract clause generator, ATO tax calendar, WFH deduction calculator, proposal generator, pricing comparison, client lifetime value, invoice aging report, budget planner, net income calculator, depreciation calculator, timesheet calculator, vehicle expense calculator, payment plan calculator, client concentration risk analyser, recurring revenue calculator, savings goal calculator, expense report generator, project ROI calculator, client onboarding checklist, scope change calculator, EOFY tax checklist, overdue invoice follow-up, credit note generator, payment receipt generator, letter of demand generator, annual revenue report, BAS preparation checklist, milestone payment calculator, price increase letter, project completion certificate, freelance contract generator, client feedback survey, international invoice calculator, business registration checklist, emergency fund calculator, invoice dispute resolution, and more. No signup required.',
+    '100 free tools for Australian freelancers and small businesses. GST calculator, invoice generator, tax estimator, ABN lookup, contract generator, rate calculator, PAYG calculator, BAS checklist, profit margin calculator, super calculator, privacy policy generator, terms of service generator, NDA generator, and 87 more. No signup required.',
   openGraph: {
-    title: 'Free Business Tools for Freelancers | InvoiceFlow',
+    title: '100 Free Business Tools for Australian Freelancers | InvoiceFlow',
     description:
-      'Free tools for Australian freelancers. GST calculator, invoice templates, and more.',
+      '100 free calculators, generators, and templates for Australian freelancers. GST, invoicing, tax, contracts, and more. No signup required.',
     type: 'website',
   },
   alternates: {
