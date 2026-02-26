@@ -500,16 +500,6 @@ export const tools: Tool[] = [
     category: 'Business Analytics',
   },
   {
-    title: 'Client Onboarding Checklist',
-    description:
-      'Generate a professional client onboarding checklist customized to your project type. Contract, payment, kickoff, and technical setup tasks included.',
-    href: '/tools/client-onboarding-checklist',
-    icon: '\u{2705}',
-    color: 'from-teal-400 to-emerald-500',
-    badge: '',
-    category: 'Invoicing & Documents',
-  },
-  {
     title: 'Scope Change Calculator',
     description:
       'Calculate the cost and timeline impact of scope changes. Generate professional change order documents with scope creep analysis and deadline adjustments.',
@@ -938,5 +928,25 @@ export const tools: Tool[] = [
     color: 'from-sky-400 to-blue-500',
     badge: 'New',
     category: 'Business Analytics',
+  },
+  {
+    title: 'Vehicle Logbook Generator',
+    description:
+      'Generate an ATO-compliant 12-week motor vehicle logbook for Australian freelancers. Track business vs personal trips, calculate business use percentage, compare logbook method vs 85c/km method, and produce a print-ready logbook document.',
+    href: '/tools/vehicle-logbook-generator',
+    icon: '\u{1F697}',
+    color: 'from-amber-400 to-orange-500',
+    badge: 'New',
+    category: 'Tax & Compliance',
+  },
+  {
+    title: 'Project Brief Generator',
+    description:
+      'Generate professional project brief documents for freelance projects. Capture goals, scope, deliverables, timeline, budget, communication plan, and stakeholders — produce a client-ready brief with sign-off section.',
+    href: '/tools/project-brief-generator',
+    icon: '\u{1F4DD}',
+    color: 'from-violet-400 to-purple-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
   },
 ];
