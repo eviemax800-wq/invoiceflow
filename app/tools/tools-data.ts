@@ -1029,4 +1029,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Business Analytics',
   },
+  {
+    title: 'Meeting Agenda Generator',
+    description:
+      'Create professional meeting agendas for client kickoff meetings, progress reviews, feedback sessions, and project wrap-ups. Pre-populated templates by meeting type, time allocation tracking, attendees, and action items section.',
+    href: '/tools/meeting-agenda-generator',
+    icon: '\u{1F4CB}',
+    color: 'from-indigo-400 to-violet-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
+  {
+    title: 'Freelance Business Scorecard',
+    description:
+      'Rate your freelance business across 8 key pillars — revenue stability, client portfolio, pricing power, marketing pipeline, operational efficiency, financial health, growth trajectory, and work-life sustainability. Get a personalised score with radar chart and actionable recommendations.',
+    href: '/tools/freelance-scorecard',
+    icon: '\u{1F3AF}',
+    color: 'from-rose-400 to-pink-500',
+    badge: '\u{1F389} #100',
+    category: 'Business Analytics',
+  },
 ];
