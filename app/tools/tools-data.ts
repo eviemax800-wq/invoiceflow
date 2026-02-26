@@ -1009,4 +1009,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Business Analytics',
   },
+  {
+    title: 'Tax Invoice Compliance Checker',
+    description:
+      'Check if your invoice meets all ATO requirements for a valid tax invoice. Enter your invoice details and get an instant compliance report with pass/fail on every requirement, ATO references, and specific fix advice.',
+    href: '/tools/tax-invoice-checker',
+    icon: '\u{2705}',
+    color: 'from-emerald-400 to-teal-500',
+    badge: 'New',
+    category: 'Tax & Compliance',
+  },
+  {
+    title: 'Annual Business Review Generator',
+    description:
+      'Create a professional year-in-review report for your freelance business. Analyse revenue, review clients, celebrate wins, learn from challenges, and set informed goals — with quarterly charts and colour-coded performance metrics.',
+    href: '/tools/annual-business-review',
+    icon: '\u{1F4CA}',
+    color: 'from-sky-400 to-blue-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
 ];
