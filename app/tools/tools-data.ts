@@ -799,4 +799,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Invoicing & Documents',
   },
+  {
+    title: 'Pay Yourself Calculator',
+    description:
+      'Calculate a consistent monthly salary from variable freelance income. Tax set-aside, super contributions, GST reserve, expense buffer, income stability scoring, and cash runway — using 2025-26 ATO rates.',
+    href: '/tools/pay-yourself-calculator',
+    icon: '\u{1F4B0}',
+    color: 'from-lime-400 to-green-500',
+    badge: 'New',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'Work Capacity Planner',
+    description:
+      'Calculate how many clients you can realistically handle. Billable hours breakdown, capacity utilisation gauge, revenue projections, burnout risk assessment, time allocation planner, and optimal client mix recommendations.',
+    href: '/tools/capacity-planner',
+    icon: '\u{1F4CA}',
+    color: 'from-indigo-400 to-violet-500',
+    badge: 'New',
+    category: 'Business Analytics',
+  },
 ];
