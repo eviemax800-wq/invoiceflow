@@ -719,4 +719,24 @@ export const tools: Tool[] = [
     badge: 'New',
     category: 'Business Analytics',
   },
+  {
+    title: 'Freelance Retirement Calculator',
+    description:
+      'Plan your retirement as an Australian freelancer. Project your super balance, calculate contribution gaps, see tax savings from salary sacrifice, and get a year-by-year growth timeline.',
+    href: '/tools/retirement-calculator',
+    icon: '\u{1F3D6}',
+    color: 'from-emerald-400 to-teal-500',
+    badge: 'New',
+    category: 'Financial Planning',
+  },
+  {
+    title: 'Subcontractor Agreement Generator',
+    description:
+      'Generate professional subcontractor agreements for hiring other freelancers. Independent contractor clauses, IP ownership, confidentiality, payment terms, and GST handling — customised to Australian law.',
+    href: '/tools/subcontractor-agreement',
+    icon: '\u{1F4DD}',
+    color: 'from-cyan-400 to-blue-500',
+    badge: 'New',
+    category: 'Invoicing & Documents',
+  },
 ];
