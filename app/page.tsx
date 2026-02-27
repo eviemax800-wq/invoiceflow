@@ -204,6 +204,9 @@ export default function HomePage() {
             { title: 'For Photographers', desc: 'Deposit tracking, milestone payments, and usage rights invoicing for wedding, portrait, and commercial photographers.', href: '/for/photographers', color: 'from-cyan-500/10 to-sky-500/10', border: 'hover:border-cyan-500/30' },
             { title: 'For Virtual Assistants', desc: 'Multi-client billing, hourly rate tracking, and professional invoicing for VAs and online business managers.', href: '/for/virtual-assistants', color: 'from-indigo-500/10 to-violet-500/10', border: 'hover:border-indigo-500/30' },
             { title: 'For Personal Trainers', desc: 'Session tracking, package billing, and tax invoices for PTs, yoga teachers, and fitness professionals.', href: '/for/personal-trainers', color: 'from-red-500/10 to-rose-500/10', border: 'hover:border-red-500/30' },
+            { title: 'For Web Developers', desc: 'Project-based billing, milestone payments, and scope change invoicing for freelance developers and designers.', href: '/for/web-developers', color: 'from-blue-500/10 to-cyan-500/10', border: 'hover:border-blue-500/30' },
+            { title: 'For Writers', desc: 'Per-word and per-article invoicing, kill fees, and retainer billing for copywriters and content writers.', href: '/for/writers', color: 'from-amber-500/10 to-yellow-500/10', border: 'hover:border-amber-500/30' },
+            { title: 'For Marketing Pros', desc: 'Retainer invoicing, ad spend pass-through billing, and campaign-based packages for digital marketers.', href: '/for/marketing-professionals', color: 'from-fuchsia-500/10 to-pink-500/10', border: 'hover:border-fuchsia-500/30' },
           ].map((persona) => (
             <Link key={persona.href} href={persona.href} className={`glass rounded-2xl p-6 border border-white/5 ${persona.border} transition-colors bg-gradient-to-br ${persona.color}`}>
               <h3 className="text-lg font-semibold text-white mb-2">{persona.title}</h3>
@@ -246,12 +249,18 @@ export default function HomePage() {
             <Link href="/for/photographers" className="hover:text-white">Photographers</Link>
             <Link href="/for/virtual-assistants" className="hover:text-white">VAs</Link>
             <Link href="/for/personal-trainers" className="hover:text-white">Personal Trainers</Link>
+            <Link href="/for/web-developers" className="hover:text-white">Web Developers</Link>
+            <Link href="/for/writers" className="hover:text-white">Writers</Link>
+            <Link href="/for/marketing-professionals" className="hover:text-white">Marketing Pros</Link>
             <Link href="/in/melbourne" className="hover:text-white">Melbourne</Link>
             <Link href="/in/sydney" className="hover:text-white">Sydney</Link>
             <Link href="/in/brisbane" className="hover:text-white">Brisbane</Link>
             <Link href="/in/perth" className="hover:text-white">Perth</Link>
             <Link href="/in/adelaide" className="hover:text-white">Adelaide</Link>
             <Link href="/in/gold-coast" className="hover:text-white">Gold Coast</Link>
+            <Link href="/in/canberra" className="hover:text-white">Canberra</Link>
+            <Link href="/in/hobart" className="hover:text-white">Hobart</Link>
+            <Link href="/in/darwin" className="hover:text-white">Darwin</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
           </div>
