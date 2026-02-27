@@ -4,6 +4,7 @@ import QuoteCalculator from './QuoteCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 
 const title = 'Freelance Quote & Estimate Calculator Australia | Free Tool — InvoiceFlow';
 const description =
@@ -67,6 +68,21 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: "Is this tool free to use?",
+    answer: "Yes, this tool is completely free with no signup required. Generate unlimited documents directly in your browser."
+  },
+  {
+    question: "Are the generated documents legally compliant in Australia?",
+    answer: "Templates follow Australian business standards and ATO invoicing requirements. For legally binding contracts or agreements, we recommend having a solicitor review important documents."
+  },
+  {
+    question: "Can I customise the output?",
+    answer: "Yes, all fields are fully customisable. You can modify the content, copy the output to your clipboard, or print it directly from your browser."
+  }
+];
+
 export default function QuoteCalculatorPage() {
   return (
     <>
@@ -74,6 +90,7 @@ export default function QuoteCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">

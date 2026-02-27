@@ -4,6 +4,7 @@ import MarketingBudgetCalculator from './MarketingBudgetCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 
 const title =
   'Freelance Marketing Budget Calculator | Free Marketing Planner — InvoiceFlow';
@@ -68,6 +69,21 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: "Is this tool free to use?",
+    answer: "Yes, this tool is completely free. No account or credit card needed — just enter your details and get instant results."
+  },
+  {
+    question: "How reliable are the projections?",
+    answer: "Projections use standard financial formulas and current ATO rates for the 2025-26 financial year. They're designed for planning purposes — consult a financial adviser for complex decisions."
+  },
+  {
+    question: "Is my financial data stored anywhere?",
+    answer: "No. All calculations happen locally in your browser. InvoiceFlow never sends, stores, or shares your financial information from free tools."
+  }
+];
+
 export default function MarketingBudgetCalculatorPage() {
   return (
     <>
@@ -75,6 +91,7 @@ export default function MarketingBudgetCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">

@@ -4,6 +4,7 @@ import TaxDeductionFinder from './TaxDeductionFinder';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 
 const title =
   'Tax Deduction Finder for Australian Freelancers | Free Sole Trader Deductions Checklist — InvoiceFlow';
@@ -66,6 +67,21 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: "Is this tool free to use?",
+    answer: "Yes, this tool is completely free with no account required. All calculations happen in your browser — we don't store any of your financial data."
+  },
+  {
+    question: "Are the tax rates current for 2025-26?",
+    answer: "Yes, this tool uses the latest ATO rates and thresholds for the 2025-26 financial year, including updated income tax brackets, Medicare levy rates, and the superannuation guarantee of 11.5%."
+  },
+  {
+    question: "Can I use the results for my tax return or BAS?",
+    answer: "This tool provides estimates to help you plan and prepare. For your official tax return or BAS lodgement, we recommend verifying figures with a registered tax agent or the ATO."
+  }
+];
+
 export default function TaxDeductionFinderPage() {
   return (
     <>
@@ -73,6 +89,7 @@ export default function TaxDeductionFinderPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">

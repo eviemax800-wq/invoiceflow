@@ -4,6 +4,7 @@ import TimesheetCalculator from './TimesheetCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 
 const title = 'Freelance Timesheet Calculator Australia | Free Tool — InvoiceFlow';
 const description = 'Free timesheet calculator for Australian freelancers. Track daily hours, calculate weekly and monthly pay, manage overtime, and export formatted timesheets. Built for sole traders and contractors.';
@@ -53,6 +54,21 @@ const jsonLd = {
   creator: { '@type': 'Organization', name: 'InvoiceFlow', url: 'https://www.invoiceflow.au' },
 };
 
+const faqs = [
+  {
+    question: "Is this tool free to use?",
+    answer: "Yes, this tool is completely free with no registration needed. All calculations are performed privately in your browser."
+  },
+  {
+    question: "How accurate are the calculations?",
+    answer: "Calculations use current Australian tax rates (2025-26 ATO brackets), industry benchmarks, and standard business formulas. Results are estimates to help you make informed pricing decisions."
+  },
+  {
+    question: "Do I need an ABN to use this tool?",
+    answer: "No ABN is required. This tool works for anyone planning freelance pricing — whether you're already registered or exploring freelancing as a career option."
+  }
+];
+
 export default function TimesheetCalculatorPage() {
   return (
     <>
@@ -60,6 +76,7 @@ export default function TimesheetCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
 
       <div className="min-h-screen bg-[#0a0a0f] text-white">
         {/* Header */}

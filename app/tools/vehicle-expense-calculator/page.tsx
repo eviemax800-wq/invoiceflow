@@ -4,6 +4,7 @@ import VehicleExpenseCalculator from './VehicleExpenseCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 
 const title = 'Vehicle & Travel Expense Calculator Australia | Free ATO Tool — InvoiceFlow';
 const description = 'Free vehicle and travel expense calculator for Australian freelancers. Compare ATO cents-per-km vs logbook methods. Calculate business travel deductions, fuel costs, and car expense claims for sole traders and contractors.';
@@ -53,6 +54,21 @@ const jsonLd = {
   creator: { '@type': 'Organization', name: 'InvoiceFlow', url: 'https://www.invoiceflow.au' },
 };
 
+const faqs = [
+  {
+    question: "Is this tool free to use?",
+    answer: "Yes, this tool is completely free with no account required. All calculations happen in your browser — we don't store any of your financial data."
+  },
+  {
+    question: "Are the tax rates current for 2025-26?",
+    answer: "Yes, this tool uses the latest ATO rates and thresholds for the 2025-26 financial year, including updated income tax brackets, Medicare levy rates, and the superannuation guarantee of 11.5%."
+  },
+  {
+    question: "Can I use the results for my tax return or BAS?",
+    answer: "This tool provides estimates to help you plan and prepare. For your official tax return or BAS lodgement, we recommend verifying figures with a registered tax agent or the ATO."
+  }
+];
+
 export default function VehicleExpenseCalculatorPage() {
   return (
     <>
@@ -60,6 +76,7 @@ export default function VehicleExpenseCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
 
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-[#0B1120]/80 backdrop-blur-xl">

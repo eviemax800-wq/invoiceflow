@@ -4,6 +4,7 @@ import PricingComparison from './PricingComparison';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 
 const title = 'Hourly vs Project Pricing Calculator Australia | Free Tool — InvoiceFlow';
 const description =
@@ -65,6 +66,21 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: "Is this tool free to use?",
+    answer: "Yes, this tool is completely free with no registration needed. All calculations are performed privately in your browser."
+  },
+  {
+    question: "How accurate are the calculations?",
+    answer: "Calculations use current Australian tax rates (2025-26 ATO brackets), industry benchmarks, and standard business formulas. Results are estimates to help you make informed pricing decisions."
+  },
+  {
+    question: "Do I need an ABN to use this tool?",
+    answer: "No ABN is required. This tool works for anyone planning freelance pricing — whether you're already registered or exploring freelancing as a career option."
+  }
+];
+
 export default function PricingComparisonPage() {
   return (
     <>
@@ -72,6 +88,7 @@ export default function PricingComparisonPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">

@@ -4,6 +4,7 @@ import PAYGCalculator from './PAYGCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Free PAYG Installment Calculator Australia 2025-26 — Quarterly Tax Payments | InvoiceFlow',
@@ -53,6 +54,21 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: "Is this tool free to use?",
+    answer: "Yes, this tool is completely free with no account required. All calculations happen in your browser — we don't store any of your financial data."
+  },
+  {
+    question: "Are the tax rates current for 2025-26?",
+    answer: "Yes, this tool uses the latest ATO rates and thresholds for the 2025-26 financial year, including updated income tax brackets, Medicare levy rates, and the superannuation guarantee of 11.5%."
+  },
+  {
+    question: "Can I use the results for my tax return or BAS?",
+    answer: "This tool provides estimates to help you plan and prepare. For your official tax return or BAS lodgement, we recommend verifying figures with a registered tax agent or the ATO."
+  }
+];
+
 export default function PAYGCalculatorPage() {
   return (
     <div className="min-h-screen page-bg">
@@ -60,6 +76,7 @@ export default function PAYGCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
 
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">

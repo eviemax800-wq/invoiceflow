@@ -4,6 +4,7 @@ import InsuranceCostEstimator from './InsuranceCostEstimator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
 import BreadcrumbSchema from '../components/BreadcrumbSchema';
+import FAQSchema from '../components/FAQSchema';
 
 const title = 'Freelance Insurance Cost Estimator Australia | Free Business Insurance Calculator — InvoiceFlow';
 const description =
@@ -67,6 +68,21 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: "Is this tool free to use?",
+    answer: "Yes, this tool is completely free with no account needed. Enter your details and get instant analysis."
+  },
+  {
+    question: "How current is the data used?",
+    answer: "This tool uses the latest available Australian business data and ATO 2025-26 rates. Industry benchmarks are based on current market research."
+  },
+  {
+    question: "Can I export or save my results?",
+    answer: "You can copy results to your clipboard or print the page directly from your browser. For ongoing tracking and analytics, InvoiceFlow offers a free plan."
+  }
+];
+
 export default function InsuranceCostEstimatorPage() {
   return (
     <>
@@ -74,6 +90,7 @@ export default function InsuranceCostEstimatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">
