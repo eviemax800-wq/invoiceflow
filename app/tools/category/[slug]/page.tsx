@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { tools, CATEGORY_META, CATEGORY_SLUGS } from '../../tools-data';
+import EmailCapture from '../../components/EmailCapture';
 
 export function generateStaticParams() {
   return CATEGORY_SLUGS.map((slug) => ({ slug }));
@@ -52,14 +53,33 @@ export default async function ToolCategoryPage({
     inLanguage: 'en-AU',
     numberOfItems: categoryTools.length,
     isPartOf: { '@type': 'WebSite', name: 'InvoiceFlow', url: siteUrl },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: categoryTools.length,
+      itemListElement: categoryTools.map((tool, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: tool.title,
+        url: `${siteUrl}${tool.href}`,
+        description: tool.description,
+      })),
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Free Tools', item: `${siteUrl}/tools` },
+      { '@type': 'ListItem', position: 3, name: meta.heading, item: `${siteUrl}/tools/category/${slug}` },
+    ],
   };
 
   return (
     <div className="min-h-screen page-bg">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -194,6 +214,8 @@ export default async function ToolCategoryPage({
             })}
           </div>
         </section>
+
+        <EmailCapture />
 
         {/* CTA */}
         <section className="mt-16 text-center glass rounded-2xl p-10">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { tools, CATEGORY_META, CATEGORY_SLUGS } from './tools-data';
+import EmailCapture from './components/EmailCapture';
 
 export const metadata: Metadata = {
   title: '100 Free Business Tools for Australian Freelancers | InvoiceFlow',
@@ -29,11 +30,32 @@ export default function ToolsPage() {
     inLanguage: 'en-AU',
     numberOfItems: tools.length,
     isPartOf: { '@type': 'WebSite', name: 'InvoiceFlow', url: siteUrl },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: tools.length,
+      itemListElement: tools.map((tool, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: tool.title,
+        url: `${siteUrl}${tool.href}`,
+        description: tool.description,
+      })),
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Free Tools', item: `${siteUrl}/tools` },
+    ],
   };
 
   return (
     <div className="min-h-screen page-bg">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -119,6 +141,8 @@ export default function ToolsPage() {
             </Link>
           ))}
         </div>
+
+        <EmailCapture />
 
         {/* CTA */}
         <section className="mt-16 text-center glass rounded-2xl p-10">
