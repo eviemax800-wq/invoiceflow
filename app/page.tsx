@@ -192,7 +192,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="mt-28 grid md:grid-cols-3 gap-6">
+        <section className="mt-28 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {[
             { title: 'For Sole Traders', desc: 'Simple invoicing without the Xero price tag. GST tracking, BAS exports, and tools built for one-person businesses.', href: '/for/sole-traders', color: 'from-emerald-500/10 to-teal-500/10', border: 'hover:border-emerald-500/30' },
             { title: 'For Freelancers', desc: 'Invoice generator, rate calculator, and 30+ profession guides. Get paid faster with less admin.', href: '/for/freelancers', color: 'from-purple-500/10 to-pink-500/10', border: 'hover:border-purple-500/30' },
@@ -200,6 +200,10 @@ export default function HomePage() {
             { title: 'For Tradies', desc: 'Mobile invoicing for plumbers, sparkies, and builders. Invoice on-site, get paid faster, GST sorted.', href: '/for/tradies', color: 'from-amber-500/10 to-yellow-500/10', border: 'hover:border-amber-500/30' },
             { title: 'For Consultants', desc: 'Retainer tracking, time-based billing, and professional invoicing. Stop trading billable hours for admin.', href: '/for/consultants', color: 'from-violet-500/10 to-indigo-500/10', border: 'hover:border-violet-500/30' },
             { title: 'For Creatives', desc: 'Project-based billing, deposit tracking, and usage rights documentation for designers and photographers.', href: '/for/creatives', color: 'from-rose-500/10 to-pink-500/10', border: 'hover:border-rose-500/30' },
+            { title: 'For Coaches', desc: 'Session billing, package invoicing, and recurring payments for business, life, and executive coaches.', href: '/for/coaches', color: 'from-emerald-500/10 to-green-500/10', border: 'hover:border-emerald-500/30' },
+            { title: 'For Photographers', desc: 'Deposit tracking, milestone payments, and usage rights invoicing for wedding, portrait, and commercial photographers.', href: '/for/photographers', color: 'from-cyan-500/10 to-sky-500/10', border: 'hover:border-cyan-500/30' },
+            { title: 'For Virtual Assistants', desc: 'Multi-client billing, hourly rate tracking, and professional invoicing for VAs and online business managers.', href: '/for/virtual-assistants', color: 'from-indigo-500/10 to-violet-500/10', border: 'hover:border-indigo-500/30' },
+            { title: 'For Personal Trainers', desc: 'Session tracking, package billing, and tax invoices for PTs, yoga teachers, and fitness professionals.', href: '/for/personal-trainers', color: 'from-red-500/10 to-rose-500/10', border: 'hover:border-red-500/30' },
           ].map((persona) => (
             <Link key={persona.href} href={persona.href} className={`glass rounded-2xl p-6 border border-white/5 ${persona.border} transition-colors bg-gradient-to-br ${persona.color}`}>
               <h3 className="text-lg font-semibold text-white mb-2">{persona.title}</h3>
@@ -238,6 +242,10 @@ export default function HomePage() {
             <Link href="/for/tradies" className="hover:text-white">Tradies</Link>
             <Link href="/for/consultants" className="hover:text-white">Consultants</Link>
             <Link href="/for/creatives" className="hover:text-white">Creatives</Link>
+            <Link href="/for/coaches" className="hover:text-white">Coaches</Link>
+            <Link href="/for/photographers" className="hover:text-white">Photographers</Link>
+            <Link href="/for/virtual-assistants" className="hover:text-white">VAs</Link>
+            <Link href="/for/personal-trainers" className="hover:text-white">Personal Trainers</Link>
             <Link href="/in/melbourne" className="hover:text-white">Melbourne</Link>
             <Link href="/in/sydney" className="hover:text-white">Sydney</Link>
             <Link href="/in/brisbane" className="hover:text-white">Brisbane</Link>
