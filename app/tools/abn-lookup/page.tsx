@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ABNLookup from './ABNLookup';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
@@ -452,6 +453,7 @@ export default function ABNLookupPage() {
           </div>
         </section>
 
+        <EmailCapture />
         <RelatedTools currentSlug="abn-lookup" category="Business Analytics" />
 
         {/* CTA */}

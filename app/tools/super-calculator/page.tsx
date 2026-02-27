@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import SuperCalculator from './SuperCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 import FAQSchema from '../components/FAQSchema';
 
 const title = 'Self-Employed Superannuation Calculator Australia | Free Tool — InvoiceFlow';
@@ -358,6 +359,7 @@ export default function SuperCalculatorPage() {
             </div>
           </section>
 
+          <EmailCapture />
           <RelatedTools currentSlug="super-calculator" category="Tax & Compliance" />
 
           {/* CTA */}

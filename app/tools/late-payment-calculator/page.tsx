@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import LatePaymentCalculator from './LatePaymentCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 import FAQSchema from '../components/FAQSchema';
 
 const title = 'Late Payment Interest Calculator Australia | Free Invoice Tool — InvoiceFlow';
@@ -347,6 +348,7 @@ export default function LatePaymentCalculatorPage() {
             </section>
           </div>
 
+          <EmailCapture />
           <RelatedTools currentSlug="late-payment-calculator" category="Invoicing & Documents" />
 
           {/* CTA Section */}

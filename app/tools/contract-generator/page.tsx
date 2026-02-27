@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ContractGenerator from './ContractGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 import FAQSchema from '../components/FAQSchema';
 
 const title =
@@ -501,6 +502,7 @@ export default function ContractGeneratorPage() {
             </div>
           </section>
 
+          <EmailCapture />
           <RelatedTools currentSlug="contract-generator" category="Invoicing & Documents" />
 
           {/* CTA */}

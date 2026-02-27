@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import PrivacyPolicyGenerator from './PrivacyPolicyGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 import FAQSchema from '../components/FAQSchema';
 
 const title =
@@ -602,6 +603,7 @@ export default function PrivacyPolicyGeneratorPage() {
             </div>
           </section>
 
+          <EmailCapture />
           <RelatedTools currentSlug="privacy-policy-generator" category="Invoicing & Documents" />
 
           {/* CTA */}

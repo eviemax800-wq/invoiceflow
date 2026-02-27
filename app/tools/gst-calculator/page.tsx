@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import GSTCalculator from './GSTCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
@@ -264,6 +265,7 @@ export default function GSTCalculatorPage() {
           </div>
         </section>
 
+        <EmailCapture />
         <RelatedTools currentSlug="gst-calculator" category="Tax & Compliance" />
 
         {/* CTA */}

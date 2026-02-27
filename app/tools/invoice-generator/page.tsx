@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import InvoiceGenerator from './InvoiceGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
@@ -191,6 +192,7 @@ export default function InvoiceGeneratorPage() {
           </div>
         </section>
 
+        <EmailCapture />
         <RelatedTools currentSlug="invoice-generator" category="Invoicing & Documents" />
 
         {/* CTA */}
