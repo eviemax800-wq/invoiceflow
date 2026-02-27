@@ -238,6 +238,12 @@ export default function HomePage() {
             <Link href="/for/tradies" className="hover:text-white">Tradies</Link>
             <Link href="/for/consultants" className="hover:text-white">Consultants</Link>
             <Link href="/for/creatives" className="hover:text-white">Creatives</Link>
+            <Link href="/in/melbourne" className="hover:text-white">Melbourne</Link>
+            <Link href="/in/sydney" className="hover:text-white">Sydney</Link>
+            <Link href="/in/brisbane" className="hover:text-white">Brisbane</Link>
+            <Link href="/in/perth" className="hover:text-white">Perth</Link>
+            <Link href="/in/adelaide" className="hover:text-white">Adelaide</Link>
+            <Link href="/in/gold-coast" className="hover:text-white">Gold Coast</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
           </div>
