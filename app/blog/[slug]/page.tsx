@@ -4,6 +4,7 @@ import Button from '@/components/ui/Button';
 import type { Metadata } from 'next';
 import { blogPosts } from '../posts';
 import StickyBlogCTA from './StickyBlogCTA';
+import RelatedBlogTools from './RelatedBlogTools';
 
 const allSlugs = Object.keys(blogPosts);
 
@@ -177,6 +178,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </Link>
           </div>
         </div>
+
+        {/* Related Tools */}
+        <RelatedBlogTools blogCategory={post.category} />
 
         {/* Related Articles */}
         {relatedPosts.length > 0 && (
