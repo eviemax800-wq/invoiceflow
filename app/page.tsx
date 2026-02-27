@@ -194,6 +194,9 @@ export default function HomePage() {
             { title: 'For Sole Traders', desc: 'Simple invoicing without the Xero price tag. GST tracking, BAS exports, and tools built for one-person businesses.', href: '/for/sole-traders', color: 'from-emerald-500/10 to-teal-500/10', border: 'hover:border-emerald-500/30' },
             { title: 'For Freelancers', desc: 'Invoice generator, rate calculator, and 30+ profession guides. Get paid faster with less admin.', href: '/for/freelancers', color: 'from-purple-500/10 to-pink-500/10', border: 'hover:border-purple-500/30' },
             { title: 'For Contractors', desc: 'Milestone payments, ABN compliance, PAYG calculator, and subcontractor agreement generator.', href: '/for/contractors', color: 'from-amber-500/10 to-orange-500/10', border: 'hover:border-amber-500/30' },
+            { title: 'For Tradies', desc: 'Mobile invoicing for plumbers, sparkies, and builders. Invoice on-site, get paid faster, GST sorted.', href: '/for/tradies', color: 'from-amber-500/10 to-yellow-500/10', border: 'hover:border-amber-500/30' },
+            { title: 'For Consultants', desc: 'Retainer tracking, time-based billing, and professional invoicing. Stop trading billable hours for admin.', href: '/for/consultants', color: 'from-violet-500/10 to-indigo-500/10', border: 'hover:border-violet-500/30' },
+            { title: 'For Creatives', desc: 'Project-based billing, deposit tracking, and usage rights documentation for designers and photographers.', href: '/for/creatives', color: 'from-rose-500/10 to-pink-500/10', border: 'hover:border-rose-500/30' },
           ].map((persona) => (
             <Link key={persona.href} href={persona.href} className={`glass rounded-2xl p-6 border border-white/5 ${persona.border} transition-colors bg-gradient-to-br ${persona.color}`}>
               <h3 className="text-lg font-semibold text-white mb-2">{persona.title}</h3>
@@ -228,6 +231,9 @@ export default function HomePage() {
             <Link href="/for/sole-traders" className="hover:text-white">Sole Traders</Link>
             <Link href="/for/freelancers" className="hover:text-white">Freelancers</Link>
             <Link href="/for/contractors" className="hover:text-white">Contractors</Link>
+            <Link href="/for/tradies" className="hover:text-white">Tradies</Link>
+            <Link href="/for/consultants" className="hover:text-white">Consultants</Link>
+            <Link href="/for/creatives" className="hover:text-white">Creatives</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
           </div>
