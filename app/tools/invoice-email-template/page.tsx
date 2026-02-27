@@ -3,6 +3,7 @@ import Link from 'next/link';
 import InvoiceEmailTemplate from './InvoiceEmailTemplate';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Free Invoice Email Template Generator | Professional Invoice Cover Emails — InvoiceFlow';
 const description =

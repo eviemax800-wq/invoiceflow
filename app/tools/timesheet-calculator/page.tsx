@@ -3,6 +3,7 @@ import Link from 'next/link';
 import TimesheetCalculator from './TimesheetCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Freelance Timesheet Calculator Australia | Free Tool — InvoiceFlow';
 const description = 'Free timesheet calculator for Australian freelancers. Track daily hours, calculate weekly and monthly pay, manage overtime, and export formatted timesheets. Built for sole traders and contractors.';

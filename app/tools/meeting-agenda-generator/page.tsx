@@ -3,6 +3,7 @@ import Link from 'next/link';
 import MeetingAgendaGenerator from './MeetingAgendaGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Meeting Agenda Generator | Free Freelance Tool — InvoiceFlow';
 const description =

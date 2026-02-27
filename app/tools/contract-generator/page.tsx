@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ContractGenerator from './ContractGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 
 const title =
@@ -502,6 +503,7 @@ export default function ContractGeneratorPage() {
             </div>
           </section>
 
+          <BreadcrumbSchema slug="contract-generator" />
           <EmailCapture />
           <RelatedTools currentSlug="contract-generator" category="Invoicing & Documents" />
 

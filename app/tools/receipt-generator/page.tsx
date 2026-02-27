@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ReceiptGenerator from './ReceiptGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Free Receipt Generator for Australian Freelancers — Create Payment Receipts | InvoiceFlow';

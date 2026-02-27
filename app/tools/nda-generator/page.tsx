@@ -3,6 +3,7 @@ import Link from 'next/link';
 import NDAGenerator from './NDAGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Freelance NDA Generator Australia | Free Non-Disclosure Agreement Template — InvoiceFlow';

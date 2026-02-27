@@ -3,6 +3,7 @@ import Link from 'next/link';
 import GSTCalculator from './GSTCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
@@ -265,7 +266,8 @@ export default function GSTCalculatorPage() {
           </div>
         </section>
 
-        <EmailCapture />
+        <BreadcrumbSchema slug="gst-calculator" />
+          <EmailCapture />
         <RelatedTools currentSlug="gst-calculator" category="Tax & Compliance" />
 
         {/* CTA */}

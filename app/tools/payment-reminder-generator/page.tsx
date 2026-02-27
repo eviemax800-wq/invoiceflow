@@ -3,6 +3,7 @@ import Link from 'next/link';
 import PaymentReminderGenerator from './PaymentReminderGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Free Payment Reminder Email Generator | Overdue Invoice Templates — InvoiceFlow';
 const description =

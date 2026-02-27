@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ProfitMarginCalculator from './ProfitMarginCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 
 const title = 'Freelance Profit Margin Calculator Australia | Free Tool — InvoiceFlow';
@@ -336,6 +337,7 @@ export default function ProfitMarginCalculatorPage() {
             </div>
           </section>
 
+          <BreadcrumbSchema slug="profit-margin-calculator" />
           <EmailCapture />
           <RelatedTools currentSlug="profit-margin-calculator" category="Financial Planning" />
 

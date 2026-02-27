@@ -3,6 +3,7 @@ import Link from 'next/link';
 import TermsOfServiceGenerator from './TermsOfServiceGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Terms of Service Generator Australia | Free T&C Template for Freelancers — InvoiceFlow';

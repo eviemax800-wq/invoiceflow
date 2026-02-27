@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ProjectProfitabilityCalculator from './ProjectProfitabilityCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Project Profitability Calculator Australia | Track Freelance Project Profits — InvoiceFlow';
 const description =

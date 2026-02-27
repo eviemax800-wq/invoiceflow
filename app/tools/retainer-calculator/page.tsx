@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RetainerCalculator from './RetainerCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Client Retainer Calculator Australia | Monthly Retainer Pricing — InvoiceFlow';
 const description =

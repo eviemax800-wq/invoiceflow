@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ClientRedFlagChecker from './ClientRedFlagChecker';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Client Red Flag Checker | Free Client Risk Assessment Quiz for Freelancers — InvoiceFlow';

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import TaxCalendar from './TaxCalendar';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'ATO Tax Calendar & BAS Deadline Tracker Australia | Free Tool — InvoiceFlow';
 const description =

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import BenefitsCostCalculator from './BenefitsCostCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Freelance Benefits Cost Calculator Australia | Employee vs Contractor Comparison — InvoiceFlow';

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import EmergencyFundCalculator from './EmergencyFundCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Free Freelance Emergency Fund Calculator Australia — How Much Savings Do You Need? | InvoiceFlow';

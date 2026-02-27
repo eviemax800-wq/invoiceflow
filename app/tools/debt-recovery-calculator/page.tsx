@@ -3,6 +3,7 @@ import Link from 'next/link';
 import DebtRecoveryCostCalculator from './DebtRecoveryCostCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Debt Recovery Cost Calculator | Free Unpaid Invoice Recovery Tool for Australian Freelancers — InvoiceFlow';

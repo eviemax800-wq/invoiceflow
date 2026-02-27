@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ClientOnboardingChecklist from './ClientOnboardingChecklist';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Client Onboarding Checklist Generator | Free Freelance Project Setup Template — InvoiceFlow';

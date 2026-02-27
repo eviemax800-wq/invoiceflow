@@ -3,6 +3,7 @@ import Link from 'next/link';
 import BasPreparation from './BasPreparation';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Free BAS Preparation Checklist for Australian Freelancers — Quarterly BAS Lodgement Guide | InvoiceFlow';

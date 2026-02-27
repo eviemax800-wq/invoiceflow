@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ProjectBriefGenerator from './ProjectBriefGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Client Project Brief Generator | Free Template for Freelancers — InvoiceFlow';

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import BreakEvenCalculator from './BreakEvenCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Freelance Break-Even Calculator Australia | Free Tool — InvoiceFlow';
 const description =

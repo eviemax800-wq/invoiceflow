@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RateCalculator from './RateCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
@@ -301,7 +302,8 @@ export default function RateCalculatorPage() {
           </div>
         </section>
 
-        <EmailCapture />
+        <BreadcrumbSchema slug="rate-calculator" />
+          <EmailCapture />
         <RelatedTools currentSlug="rate-calculator" category="Pricing & Rates" />
 
         {/* CTA */}

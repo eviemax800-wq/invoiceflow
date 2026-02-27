@@ -3,6 +3,7 @@ import Link from 'next/link';
 import RetirementCalculator from './RetirementCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Freelance Retirement Calculator Australia | Super & Retirement Planning for Self-Employed — InvoiceFlow';
 const description =

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import MilestonePaymentCalculator from './MilestonePaymentCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Free Milestone Payment Schedule Calculator for Freelancers — InvoiceFlow';

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import WfhDeductionCalculator from './WfhDeductionCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Working from Home Tax Deduction Calculator Australia | Free WFH Tool — InvoiceFlow';

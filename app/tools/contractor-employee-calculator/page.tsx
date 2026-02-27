@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ContractorEmployeeCalculator from './ContractorEmployeeCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Contractor vs Employee Calculator Australia | ATO Multi-Factor Test — InvoiceFlow';
 const description =

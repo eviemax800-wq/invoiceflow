@@ -3,6 +3,7 @@ import Link from 'next/link';
 import InvoiceNumberingSystem from './InvoiceNumberingSystem';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Invoice Numbering System Generator | Design Professional Invoice Numbers — InvoiceFlow';

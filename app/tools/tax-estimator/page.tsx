@@ -3,6 +3,7 @@ import Link from 'next/link';
 import TaxEstimator from './TaxEstimator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
@@ -362,7 +363,8 @@ export default function TaxEstimatorPage() {
           </div>
         </section>
 
-        <EmailCapture />
+        <BreadcrumbSchema slug="tax-estimator" />
+          <EmailCapture />
         <RelatedTools currentSlug="tax-estimator" category="Tax & Compliance" />
 
         {/* CTA */}

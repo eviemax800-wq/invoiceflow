@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ClientIntakeFormGenerator from './ClientIntakeFormGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Client Intake Form Generator | Free Questionnaire Template for Freelancers — InvoiceFlow';

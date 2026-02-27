@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ProjectHandoverGenerator from './ProjectHandoverGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Project Handover Document Generator | Free Freelance Handover Template — InvoiceFlow';

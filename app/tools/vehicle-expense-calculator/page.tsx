@@ -3,6 +3,7 @@ import Link from 'next/link';
 import VehicleExpenseCalculator from './VehicleExpenseCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Vehicle & Travel Expense Calculator Australia | Free ATO Tool — InvoiceFlow';
 const description = 'Free vehicle and travel expense calculator for Australian freelancers. Compare ATO cents-per-km vs logbook methods. Calculate business travel deductions, fuel costs, and car expense claims for sole traders and contractors.';

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import InternationalInvoiceCalculator from './InternationalInvoiceCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'International Invoice Calculator for Australian Freelancers | Free Tool — InvoiceFlow';

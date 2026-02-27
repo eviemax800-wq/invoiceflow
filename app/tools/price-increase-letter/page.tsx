@@ -3,6 +3,7 @@ import Link from 'next/link';
 import PriceIncreaseLetter from './PriceIncreaseLetter';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Free Price Increase Letter Generator for Freelancers — Rate Increase Template | InvoiceFlow';

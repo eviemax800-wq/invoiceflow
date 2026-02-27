@@ -3,6 +3,7 @@ import Link from 'next/link';
 import FinancialYearPlanner from './FinancialYearPlanner';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Financial Year Planner | Free FY2025-26 Planning Tool for Freelancers — InvoiceFlow';

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import InvoiceAgingReport from './InvoiceAgingReport';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Invoice Aging Report Generator | Free Tool — InvoiceFlow';
 const description =

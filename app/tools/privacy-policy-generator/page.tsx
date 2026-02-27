@@ -3,6 +3,7 @@ import Link from 'next/link';
 import PrivacyPolicyGenerator from './PrivacyPolicyGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 import FAQSchema from '../components/FAQSchema';
 
 const title =
@@ -603,6 +604,7 @@ export default function PrivacyPolicyGeneratorPage() {
             </div>
           </section>
 
+          <BreadcrumbSchema slug="privacy-policy-generator" />
           <EmailCapture />
           <RelatedTools currentSlug="privacy-policy-generator" category="Invoicing & Documents" />
 

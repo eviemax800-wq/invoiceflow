@@ -3,6 +3,7 @@ import Link from 'next/link';
 import MarketingBudgetCalculator from './MarketingBudgetCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Freelance Marketing Budget Calculator | Free Marketing Planner — InvoiceFlow';

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import BudgetPlanner from './BudgetPlanner';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Freelance Budget Planner Australia | Free Tool — InvoiceFlow';
 const description =

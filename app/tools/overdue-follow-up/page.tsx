@@ -3,6 +3,7 @@ import Link from 'next/link';
 import OverdueFollowUp from './OverdueFollowUp';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Free Overdue Invoice Follow-Up Generator Australia — Payment Reminder Templates | InvoiceFlow';

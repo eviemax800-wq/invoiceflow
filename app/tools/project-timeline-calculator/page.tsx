@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ProjectTimelineCalculator from './ProjectTimelineCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Project Timeline Calculator | Free Freelance Project Duration Estimator — InvoiceFlow';

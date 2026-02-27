@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ClientRiskAnalyzer from './ClientRiskAnalyzer';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title = 'Client Concentration Risk Analyzer Australia | Free Portfolio Risk Tool — InvoiceFlow';
 const description =

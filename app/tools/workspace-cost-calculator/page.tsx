@@ -3,6 +3,7 @@ import Link from 'next/link';
 import WorkspaceCostCalculator from './WorkspaceCostCalculator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Workspace Cost Calculator | Home Office vs Coworking vs Private Office — InvoiceFlow';

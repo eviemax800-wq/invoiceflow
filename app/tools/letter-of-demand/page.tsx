@@ -3,6 +3,7 @@ import Link from 'next/link';
 import LetterOfDemand from './LetterOfDemand';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Free Letter of Demand Generator Australia — Formal Payment Demand Template | InvoiceFlow';

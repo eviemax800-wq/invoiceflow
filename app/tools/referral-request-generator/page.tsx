@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ReferralRequestGenerator from './ReferralRequestGenerator';
 import RelatedTools from '../components/RelatedTools';
 import EmailCapture from '../components/EmailCapture';
+import BreadcrumbSchema from '../components/BreadcrumbSchema';
 
 const title =
   'Client Referral Request Generator | Free Freelance Tool — InvoiceFlow';
