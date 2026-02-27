@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import CashFlowForecast from './CashFlowForecast';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Cash Flow Forecast Calculator Australia | Free Tool — InvoiceFlow';
 const description =

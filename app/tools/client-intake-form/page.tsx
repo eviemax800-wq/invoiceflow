@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ClientIntakeFormGenerator from './ClientIntakeFormGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Client Intake Form Generator | Free Questionnaire Template for Freelancers — InvoiceFlow';

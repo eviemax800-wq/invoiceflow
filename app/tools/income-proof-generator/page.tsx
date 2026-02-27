@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import IncomeProofGenerator from './IncomeProofGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Freelance Income Proof Generator | Free Self-Employed Income Verification Letter for Australia — InvoiceFlow';

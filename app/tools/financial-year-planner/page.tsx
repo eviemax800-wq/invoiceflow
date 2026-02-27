@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import FinancialYearPlanner from './FinancialYearPlanner';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Financial Year Planner | Free FY2025-26 Planning Tool for Freelancers — InvoiceFlow';

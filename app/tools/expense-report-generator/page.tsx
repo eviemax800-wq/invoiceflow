@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ExpenseReportGenerator from './ExpenseReportGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Expense Report Generator Australia | Free Sole Trader Expense Tool — InvoiceFlow';
 const description =

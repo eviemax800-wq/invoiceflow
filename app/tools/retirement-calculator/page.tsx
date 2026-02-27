@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RetirementCalculator from './RetirementCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Retirement Calculator Australia | Super & Retirement Planning for Self-Employed — InvoiceFlow';
 const description =

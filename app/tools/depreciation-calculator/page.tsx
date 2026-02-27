@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import DepreciationCalculator from './DepreciationCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Depreciation Calculator Australia | Free ATO Tool — InvoiceFlow';
 const description =

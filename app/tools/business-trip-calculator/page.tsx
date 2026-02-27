@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import BusinessTripCalculator from './BusinessTripCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Business Trip Expense Calculator | Free ATO Travel Deduction Calculator for Freelancers — InvoiceFlow';

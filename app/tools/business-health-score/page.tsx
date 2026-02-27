@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import BusinessHealthScore from './BusinessHealthScore';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Business Health Score Australia | Free Business Scorecard — InvoiceFlow';
 const description =

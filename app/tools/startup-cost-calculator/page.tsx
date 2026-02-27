@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import StartupCostCalculator from './StartupCostCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Free Freelance Startup Cost Calculator Australia — How Much to Start Freelancing | InvoiceFlow';
 const description =

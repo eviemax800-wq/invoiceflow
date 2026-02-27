@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import PaymentPlanCalculator from './PaymentPlanCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Payment Plan Calculator Australia | Freelance Installment Calculator — InvoiceFlow';
 const description =

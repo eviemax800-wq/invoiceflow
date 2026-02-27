@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import BusinessRegistrationChecklist from './BusinessRegistrationChecklist';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Freelance Business Registration Checklist Australia | Free Sole Trader Setup Guide — InvoiceFlow';

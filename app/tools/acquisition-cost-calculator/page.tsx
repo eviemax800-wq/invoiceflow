@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import AcquisitionCostCalculator from './AcquisitionCostCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Client Acquisition Cost Calculator | Free CAC Calculator for Freelancers — InvoiceFlow';

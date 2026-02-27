@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import QuoteCalculator from './QuoteCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Quote & Estimate Calculator Australia | Free Tool — InvoiceFlow';
 const description =

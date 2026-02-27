@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import CreditNoteGenerator from './CreditNoteGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Free Credit Note Generator for Australian Freelancers — Create Professional Credit Notes | InvoiceFlow';

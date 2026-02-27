@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import SavingsGoalClient from './SavingsGoalClient';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Free Savings Goal Calculator for Freelancers | InvoiceFlow';
 const description =

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import SubcontractorAgreement from './SubcontractorAgreement';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Subcontractor Agreement Generator Australia | Free Template for Freelancers — InvoiceFlow';

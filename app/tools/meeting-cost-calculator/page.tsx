@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import MeetingCostCalculator from './MeetingCostCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Meeting Cost Calculator Australia | How Much Do Meetings Cost? — InvoiceFlow';
 const description =

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ScopeOfWorkGenerator from './ScopeOfWorkGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Free Scope of Work Generator Australia | SOW Template Builder — InvoiceFlow';
 const description =

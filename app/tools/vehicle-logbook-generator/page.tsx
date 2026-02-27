@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import VehicleLogbookGenerator from './VehicleLogbookGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Motor Vehicle Logbook Generator | ATO-Compliant Car Expense Tracker — InvoiceFlow';

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ClientOnboardingChecklist from './ClientOnboardingChecklist';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Client Onboarding Checklist Generator | Free Freelance Project Setup Template — InvoiceFlow';

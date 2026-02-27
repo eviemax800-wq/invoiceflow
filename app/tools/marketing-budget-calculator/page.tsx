@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import MarketingBudgetCalculator from './MarketingBudgetCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Freelance Marketing Budget Calculator | Free Marketing Planner — InvoiceFlow';

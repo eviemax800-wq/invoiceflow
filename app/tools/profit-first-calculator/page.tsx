@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProfitFirstCalculator from './ProfitFirstCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Profit First Calculator | Free Income Allocation Calculator for Freelancers — InvoiceFlow';

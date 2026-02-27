@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import LetterOfDemand from './LetterOfDemand';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Free Letter of Demand Generator Australia — Formal Payment Demand Template | InvoiceFlow';

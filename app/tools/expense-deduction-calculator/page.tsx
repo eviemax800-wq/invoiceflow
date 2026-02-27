@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ExpenseDeductionCalculator from './ExpenseDeductionCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Expense & Tax Deduction Calculator Australia | Free Tool — InvoiceFlow';
 const description =

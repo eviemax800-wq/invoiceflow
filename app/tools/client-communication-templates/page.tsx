@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ClientCommunicationTemplates from './ClientCommunicationTemplates';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Free Client Communication Templates for Freelancers | Email Templates for Delays, Rate Increases & More — InvoiceFlow';

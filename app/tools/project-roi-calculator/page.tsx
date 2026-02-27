@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProjectROICalculator from './ProjectROICalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Project ROI Calculator Australia | Free Freelance Profitability Tool — InvoiceFlow';
 const description =

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import SalaryToHourly from './SalaryToHourly';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Salary to Hourly Rate Calculator Australia | Free Freelance Tool — InvoiceFlow';
 const description =

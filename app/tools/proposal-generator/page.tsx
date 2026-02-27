@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProposalGenerator from './ProposalGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Free Freelance Proposal Template Generator Australia | Project Proposal Builder — InvoiceFlow';
 const description =

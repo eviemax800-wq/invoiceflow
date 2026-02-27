@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import PAYGCalculator from './PAYGCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 export const metadata: Metadata = {
   title: 'Free PAYG Installment Calculator Australia 2025-26 — Quarterly Tax Payments | InvoiceFlow',

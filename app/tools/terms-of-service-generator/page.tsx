@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import TermsOfServiceGenerator from './TermsOfServiceGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Terms of Service Generator Australia | Free T&C Template for Freelancers — InvoiceFlow';

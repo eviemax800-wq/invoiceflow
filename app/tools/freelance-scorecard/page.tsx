@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import FreelanceScorecard from './FreelanceScorecard';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Business Scorecard | Free Assessment Tool — InvoiceFlow';
 const description =

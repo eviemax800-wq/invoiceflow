@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ReceiptGenerator from './ReceiptGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Free Receipt Generator for Australian Freelancers — Create Payment Receipts | InvoiceFlow';

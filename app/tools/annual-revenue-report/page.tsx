@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import AnnualRevenueReport from './AnnualRevenueReport';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Free Annual Revenue Report Generator for Freelancers Australia — Income Summary | InvoiceFlow';

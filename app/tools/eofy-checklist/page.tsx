@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import EofyChecklist from './EofyChecklist';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Free EOFY Tax Checklist for Freelancers Australia — End of Financial Year Preparation | InvoiceFlow';

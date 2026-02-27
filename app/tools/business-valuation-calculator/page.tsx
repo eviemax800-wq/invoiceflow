@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import BusinessValuationCalculator from './BusinessValuationCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Business Valuation Calculator Australia | How Much Is My Business Worth — InvoiceFlow';
 const description =

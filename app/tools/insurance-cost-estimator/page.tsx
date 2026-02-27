@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import InsuranceCostEstimator from './InsuranceCostEstimator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Insurance Cost Estimator Australia | Free Business Insurance Calculator — InvoiceFlow';
 const description =

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import PaymentTermsCalculator from './PaymentTermsCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Payment Terms Calculator Australia | Invoice Due Date Calculator — InvoiceFlow';
 const description =

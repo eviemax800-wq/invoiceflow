@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RevenueGoalPlanner from './RevenueGoalPlanner';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Revenue Goal Planner Australia | Free Income Calculator — InvoiceFlow';
 const description =

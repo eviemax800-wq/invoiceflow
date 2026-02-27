@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProjectTimelineCalculator from './ProjectTimelineCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Project Timeline Calculator | Free Freelance Project Duration Estimator — InvoiceFlow';

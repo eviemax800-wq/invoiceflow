@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProjectHandoverGenerator from './ProjectHandoverGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Project Handover Document Generator | Free Freelance Handover Template — InvoiceFlow';

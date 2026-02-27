@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ContractClauseGenerator from './ContractClauseGenerator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Contract Clause Generator Australia | Contractor Agreement Template — InvoiceFlow';
 const description =

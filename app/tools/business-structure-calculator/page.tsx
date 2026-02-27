@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import BusinessStructureCalculator from './BusinessStructureCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Sole Trader vs Company vs Trust Calculator Australia | Free Business Structure Tool — InvoiceFlow';
 const description =

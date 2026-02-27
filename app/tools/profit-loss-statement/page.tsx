@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProfitLossStatement from './ProfitLossStatement';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Free Profit & Loss Statement Generator for Freelancers — InvoiceFlow';
 const description =

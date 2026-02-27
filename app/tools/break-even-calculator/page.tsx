@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import BreakEvenCalculator from './BreakEvenCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Freelance Break-Even Calculator Australia | Free Tool — InvoiceFlow';
 const description =

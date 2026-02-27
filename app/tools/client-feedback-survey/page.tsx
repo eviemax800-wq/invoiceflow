@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ClientFeedbackSurvey from './ClientFeedbackSurvey';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Client Feedback Survey Generator | Free Template — InvoiceFlow';

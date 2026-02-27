@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProjectProfitabilityCalculator from './ProjectProfitabilityCalculator';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Project Profitability Calculator Australia | Track Freelance Project Profits — InvoiceFlow';
 const description =

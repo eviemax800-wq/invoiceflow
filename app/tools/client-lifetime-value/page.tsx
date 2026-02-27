@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ClientLifetimeValue from './ClientLifetimeValue';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Client Lifetime Value Calculator Australia | Free CLV Tool — InvoiceFlow';
 const description =

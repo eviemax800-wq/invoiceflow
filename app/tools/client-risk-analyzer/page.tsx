@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ClientRiskAnalyzer from './ClientRiskAnalyzer';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title = 'Client Concentration Risk Analyzer Australia | Free Portfolio Risk Tool — InvoiceFlow';
 const description =

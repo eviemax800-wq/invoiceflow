@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProjectCompletionCertificate from './ProjectCompletionCertificate';
 import RelatedTools from '../components/RelatedTools';
+import EmailCapture from '../components/EmailCapture';
 
 const title =
   'Free Project Completion Certificate Generator — Freelance Sign-Off Template | InvoiceFlow';
