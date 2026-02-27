@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import TaxEstimator from './TaxEstimator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Free Freelance Tax Calculator Australia 2025-26 — Income Tax Estimator | InvoiceFlow',
@@ -51,6 +52,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'How much tax do freelancers pay in Australia?',
+    answer:
+      'Freelancers and sole traders pay individual income tax on their net business income (gross income minus deductible expenses) at marginal tax rates ranging from 0% to 45%, plus a 2% Medicare levy. As a rough guide, freelancers earning $80,000-$120,000 net typically pay an effective tax rate of around 25-30% including Medicare.',
+  },
+  {
+    question: 'What are the 2025-26 Australian tax brackets?',
+    answer:
+      'For the 2025-26 financial year: $0-$18,200 is tax-free; $18,201-$45,000 is taxed at 16%; $45,001-$135,000 at 30%; $135,001-$190,000 at 37%; and $190,001+ at 45%. These rates reflect the Stage 3 tax cuts which reduced the 32.5% bracket to 30% and raised the upper threshold from $120,000 to $135,000.',
+  },
+  {
+    question: 'Do sole traders pay Medicare levy?',
+    answer:
+      'Yes, all Australian taxpayers including sole traders and freelancers pay a 2% Medicare levy on their taxable income. If you earn above $97,000 (singles) and do not hold private hospital cover, you also pay an additional Medicare Levy Surcharge of 1-1.5% depending on your income tier.',
+  },
+  {
+    question: 'How do freelancers pay quarterly tax in Australia?',
+    answer:
+      'After lodging your first tax return, the ATO will calculate your Pay As You Go (PAYG) installment amount, typically your estimated annual tax divided into four quarterly payments. You pay these through your Business Activity Statement (BAS) each quarter — due 28 days after the end of each quarter.',
+  },
+  {
+    question: 'What deductions can freelancers claim in Australia?',
+    answer:
+      'Freelancers can claim deductions for expenses directly related to earning income, including home office costs, internet and phone (business percentage), software subscriptions, professional development, accounting fees, business insurance, equipment, and travel for client meetings. Keep receipts for 5 years and note that items over $300 may need to be depreciated.',
+  },
+];
+
 export default function TaxEstimatorPage() {
   return (
     <div className="min-h-screen page-bg">
@@ -58,6 +87,7 @@ export default function TaxEstimatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
 
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">

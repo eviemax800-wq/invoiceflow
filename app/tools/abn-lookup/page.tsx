@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ABNLookup from './ABNLookup';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
   title:
@@ -55,6 +56,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'What is an ABN and who needs one in Australia?',
+    answer:
+      'An Australian Business Number (ABN) is a unique 11-digit identifier for businesses operating in Australia. You need an ABN if you are carrying on a business as a sole trader, partnership, company, or trust. It is required for issuing tax invoices, registering for GST, and dealing with government agencies. Applying for an ABN is free at abr.business.gov.au.',
+  },
+  {
+    question: 'How do I check if an ABN is valid?',
+    answer:
+      'You can verify an ABN using the Australian Business Register (ABR) lookup at abr.business.gov.au, or use a free ABN validator tool like this one. Every ABN contains a built-in mathematical checksum — if the 11 digits pass the ATO validation algorithm (weighted sum divisible by 89), the ABN is structurally valid.',
+  },
+  {
+    question: "What happens if you don't verify a supplier's ABN?",
+    answer:
+      'If a supplier does not provide a valid ABN, you are legally required to withhold 47% of the payment amount and remit it to the ATO under the no-ABN withholding rules. You also cannot claim GST credits on invoices with invalid ABNs, which may result in denied deductions during an ATO audit.',
+  },
+  {
+    question: 'How long does it take to get an ABN?',
+    answer:
+      'For sole traders, ABN registration is usually instant when applying online through the Australian Business Register. Companies typically receive their ABN within 1 business day. Trusts and more complex structures can take 1-20 business days. The application is completely free — avoid third-party services that charge fees.',
+  },
+  {
+    question: 'Can you have multiple ABNs?',
+    answer:
+      'Each business entity receives one ABN. However, if you operate multiple businesses through different legal structures — for example, a sole trader ABN for freelancing and a Pty Ltd company ABN for a separate venture — each entity would have its own ABN. You cannot hold two ABNs under the same entity.',
+  },
+];
+
 export default function ABNLookupPage() {
   return (
     <div className="min-h-screen page-bg">
@@ -62,6 +91,7 @@ export default function ABNLookupPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
 
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">

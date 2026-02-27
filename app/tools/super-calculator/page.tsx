@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import SuperCalculator from './SuperCalculator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 const title = 'Self-Employed Superannuation Calculator Australia | Free Tool — InvoiceFlow';
 const description =
@@ -65,6 +66,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'Do sole traders have to pay super in Australia?',
+    answer:
+      'Sole traders are not legally required to make superannuation contributions for themselves. However, the ATO strongly recommends voluntary contributions for retirement savings, and they offer significant tax benefits. If you operate through a company and pay yourself a salary, or you have employees, super obligations do apply.',
+  },
+  {
+    question: 'How much super should freelancers contribute?',
+    answer:
+      'Most financial advisors recommend freelancers contribute at least the Superannuation Guarantee rate of 11.5% of their net income to maintain parity with employees. High earners ($100K+) may benefit from contributing 15-20% or up to the $30,000 concessional cap to maximise their tax deduction.',
+  },
+  {
+    question: 'Is super tax deductible for sole traders?',
+    answer:
+      'Yes. Personal super contributions are tax deductible up to the concessional contributions cap of $30,000 per year for 2025-26. You must lodge a "Notice of Intent to Claim" with your super fund before filing your tax return. The contribution is taxed at just 15% inside the fund, compared to your marginal tax rate of up to 45%.',
+  },
+  {
+    question: 'What is the concessional super cap for 2025-26?',
+    answer:
+      'The concessional (before-tax) contributions cap for 2025-26 is $30,000 per year. This includes both employer contributions and personal deductible contributions. If you have unused cap amounts from previous years (since 2019-20) and your total super balance is under $500,000, you can carry forward the unused amounts for up to 5 years.',
+  },
+  {
+    question: 'When should freelancers pay their super?',
+    answer:
+      'Freelancers can make voluntary super contributions at any time during the financial year. Many sole traders pay quarterly to align with BAS lodgement, while others make a lump sum before 30 June to maximise their tax deduction. Contributions must be received by your super fund before 30 June to count for that financial year.',
+  },
+];
+
 export default function SuperCalculatorPage() {
   return (
     <>
@@ -72,6 +101,7 @@ export default function SuperCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">

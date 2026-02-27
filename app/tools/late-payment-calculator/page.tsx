@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import LatePaymentCalculator from './LatePaymentCalculator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 const title = 'Late Payment Interest Calculator Australia | Free Invoice Tool — InvoiceFlow';
 const description =
@@ -65,6 +66,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'Can freelancers charge interest on late invoices in Australia?',
+    answer:
+      'Yes, freelancers can charge interest on late invoices in Australia, but only if the right to charge interest is established in the original contract, terms of trade, or on the invoice itself. Australia does not have a statutory right to late payment interest for business-to-business transactions without a contractual basis, so including a clear late payment clause is essential.',
+  },
+  {
+    question: 'What is a reasonable late payment interest rate in Australia?',
+    answer:
+      'The most common late payment interest rate for B2B contracts in Australia is 8-12% per annum. Many freelancers use 10% p.a., which is widely considered commercially reasonable. Some contracts reference the RBA cash rate plus a margin (e.g., RBA cash rate + 6%). Charging an unreasonably high rate could be deemed unconscionable under Australian Consumer Law.',
+  },
+  {
+    question: 'How do you calculate late payment interest?',
+    answer:
+      'The most common method is simple interest: Principal x Annual Rate x (Days Overdue / 365). For example, a $5,000 invoice that is 45 days overdue at 10% p.a. accrues $61.64 in interest. Some contracts use monthly or daily compounding, which should be specified in your payment terms.',
+  },
+  {
+    question: 'What are your options when a client doesn\'t pay?',
+    answer:
+      'In Australia, you can send formal payment reminders, charge interest per your contract terms, engage a debt collection agency, or pursue the debt through your state\'s civil and administrative tribunal (e.g., VCAT in Victoria, NCAT in NSW) for claims typically under $25,000. The Payment Times Reporting Act 2020 also requires large businesses to publicly report their payment practices to small business suppliers.',
+  },
+  {
+    question: 'Should you include late payment terms on your invoices?',
+    answer:
+      'Yes, absolutely. Including late payment terms on every invoice reinforces your contractual right to charge interest and sets clear expectations. A typical clause states the interest rate (e.g., 10% p.a.), when interest begins accruing (the day after the due date), and your right to recover collection costs. This provides legal recourse if a client fails to pay on time.',
+  },
+];
+
 export default function LatePaymentCalculatorPage() {
   return (
     <>
@@ -72,6 +101,7 @@ export default function LatePaymentCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">

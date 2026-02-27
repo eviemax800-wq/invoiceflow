@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProfitMarginCalculator from './ProfitMarginCalculator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 const title = 'Freelance Profit Margin Calculator Australia | Free Tool — InvoiceFlow';
 const description =
@@ -65,6 +66,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'What is a good profit margin for freelancers?',
+    answer:
+      'A healthy net profit margin for service-based freelancers in Australia is typically 25-40% after all costs, tax, Medicare levy, and superannuation. Gross profit margins (before tax and super) should ideally be 50% or higher for service-based work. Software developers and consultants often achieve 35-50% net margins, while trades and event-based freelancers may see 15-30%.',
+  },
+  {
+    question: 'How do you calculate profit margin?',
+    answer:
+      'Profit margin is calculated as (Revenue - Costs) / Revenue x 100. For freelancers, gross profit margin deducts direct project costs and allocated overheads from revenue. Net profit margin further deducts income tax (16-45%), Medicare levy (2%), and superannuation (11.5%) to show your true take-home percentage.',
+  },
+  {
+    question: 'What\'s the difference between gross and net profit margin?',
+    answer:
+      'Gross profit margin measures revenue minus direct and allocated costs, showing how efficiently you deliver work. Net profit margin goes further by deducting income tax, Medicare levy (2%), and superannuation (11.5%), showing what you actually keep. For Australian freelancers, the gap between gross and net can be significant due to marginal tax rates of up to 45%.',
+  },
+  {
+    question: 'How can freelancers improve their profit margins?',
+    answer:
+      'The most effective strategies are: raising prices based on value delivered (a 10% price increase on a 50% margin project boosts profit by 20%), increasing your billable hours ratio by automating admin tasks, productising your services into fixed-price packages, and claiming all legitimate tax deductions including home office, equipment depreciation, and professional insurance.',
+  },
+  {
+    question: 'What expenses reduce freelance profit margins?',
+    answer:
+      'Common expenses that reduce margins include software subscriptions, insurance, home office costs, internet and phone, professional development, equipment, travel, and the hidden cost of unbillable hours spent on admin, marketing, and invoicing. In Australia, income tax (up to 45%), Medicare levy (2%), and super contributions (11.5%) also significantly reduce your net margin.',
+  },
+];
+
 export default function ProfitMarginCalculatorPage() {
   return (
     <>
@@ -72,6 +101,7 @@ export default function ProfitMarginCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">

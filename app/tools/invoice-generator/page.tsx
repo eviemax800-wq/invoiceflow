@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import InvoiceGenerator from './InvoiceGenerator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Free Invoice Generator Australia — Create GST-Compliant Invoices | InvoiceFlow',
@@ -50,6 +51,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'What must be on a valid Australian tax invoice?',
+    answer:
+      'A valid Australian tax invoice must include the words "Tax Invoice", your name or business name, your ABN, the invoice date, a description of items or services, the GST amount (or a statement that the total includes GST), and the total price. For invoices of $1,000 or more (inc-GST), the buyer\'s identity and ABN are also required.',
+  },
+  {
+    question: 'Do freelancers need to include GST on invoices?',
+    answer:
+      'Only if you are registered for GST. If your annual turnover is $75,000 or more, you must register for GST and include it on your invoices. If you are not GST-registered, you should not charge GST, and your invoice is a regular invoice rather than a tax invoice.',
+  },
+  {
+    question: "What's the difference between a tax invoice and a regular invoice?",
+    answer:
+      'A tax invoice is issued by GST-registered businesses and includes GST details, your ABN, and the words "Tax Invoice." It allows the buyer to claim GST credits. A regular invoice is issued by non-GST-registered businesses, does not include GST, and the buyer cannot claim GST credits from it.',
+  },
+  {
+    question: 'How long should you keep invoice records in Australia?',
+    answer:
+      'The ATO requires you to keep invoice records for at least 5 years from the date you lodge your tax return for that financial year. This applies to both invoices you issue and invoices you receive. Digital copies are acceptable as long as they are legible and complete.',
+  },
+  {
+    question: 'When should you issue an invoice?',
+    answer:
+      'If you are GST-registered, you must issue a tax invoice within 28 days of the buyer requesting one. Best practice is to invoice promptly upon completing the work or delivering goods. For ongoing retainers, monthly invoicing on a consistent date helps maintain predictable cash flow.',
+  },
+];
+
 export default function InvoiceGeneratorPage() {
   return (
     <div className="min-h-screen page-bg">
@@ -57,6 +86,7 @@ export default function InvoiceGeneratorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
 
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">

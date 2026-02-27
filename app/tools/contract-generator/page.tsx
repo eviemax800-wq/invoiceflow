@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ContractGenerator from './ContractGenerator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 const title =
   'Freelance Contract & Service Agreement Generator Australia | Free Template — InvoiceFlow';
@@ -64,6 +65,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'Do freelancers need a written contract in Australia?',
+    answer:
+      'While verbal agreements can be legally binding in Australia, they are extremely difficult to enforce. A written contract is strongly recommended for every freelance engagement. It defines the scope of work, payment terms, intellectual property ownership, and termination conditions. Australian courts and tribunals heavily favour written agreements when resolving disputes between contractors and clients.',
+  },
+  {
+    question: 'What should a freelance contract include?',
+    answer:
+      'A comprehensive freelance contract should include: scope of work with specific deliverables, payment terms (amount, schedule, late payment penalties), intellectual property assignment clause, confidentiality/NDA provisions, revision limits, termination conditions with notice period, limitation of liability, GST treatment (whether amounts are GST-inclusive or exclusive), and governing jurisdiction (which Australian state\'s laws apply).',
+  },
+  {
+    question: 'Is a freelance contract legally binding in Australia?',
+    answer:
+      'Yes, a freelance contract is legally binding in Australia once both parties agree to the terms, provided there is an offer, acceptance, consideration (payment for services), and intention to create legal relations. Written contracts do not need to be witnessed or notarised to be enforceable. However, terms that are unconscionable or unfair under the Australian Consumer Law may be voided by a court.',
+  },
+  {
+    question: 'Who owns the intellectual property in a freelance contract?',
+    answer:
+      'Under Australian copyright law, the creator of original work owns the intellectual property by default, even if the client paid for it. This means without an IP assignment clause, you technically retain ownership of the work you deliver. A properly drafted contract should include an IP assignment clause that transfers ownership to the client upon full payment, protecting both parties.',
+  },
+  {
+    question: 'How do you handle contract disputes as a freelancer?',
+    answer:
+      'In Australia, contract disputes can be resolved through direct negotiation, mediation, or through your state\'s civil and administrative tribunal (e.g., VCAT in Victoria, NCAT in NSW) for claims typically under $25,000. Your contract should specify the governing jurisdiction and dispute resolution process. Having a well-drafted written contract significantly strengthens your position in any dispute.',
+  },
+];
+
 export default function ContractGeneratorPage() {
   return (
     <>
@@ -71,6 +100,7 @@ export default function ContractGeneratorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import GSTCalculator from './GSTCalculator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Free GST Calculator Australia — Add or Remove GST Instantly | InvoiceFlow',
@@ -51,6 +52,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'What is GST in Australia?',
+    answer:
+      'GST (Goods and Services Tax) is a broad-based 10% tax on most goods, services, and other items sold or consumed in Australia. It is administered by the Australian Taxation Office (ATO) and was introduced on 1 July 2000.',
+  },
+  {
+    question: 'Do freelancers need to charge GST?',
+    answer:
+      'Freelancers must register for and charge GST once their annual GST turnover reaches $75,000 or more. Below this threshold, GST registration is optional, but you can register voluntarily to claim GST credits on business purchases.',
+  },
+  {
+    question: 'How do you calculate GST on an amount?',
+    answer:
+      'To add GST, multiply the ex-GST price by 1.10 (e.g., $1,000 x 1.10 = $1,100 inc-GST). To find the GST component of a GST-inclusive amount, divide by 11 (e.g., $1,100 / 11 = $100 GST). To remove GST, divide the inc-GST price by 1.10.',
+  },
+  {
+    question: 'When do you need to register for GST in Australia?',
+    answer:
+      'You must register for GST if your business has a GST turnover of $75,000 or more per year ($150,000 for non-profit organisations), or if you provide taxi or rideshare services regardless of turnover. Registration is done through the ATO via your ABN.',
+  },
+  {
+    question: 'How do you report GST on your BAS?',
+    answer:
+      'You report GST on your Business Activity Statement (BAS), which is lodged either quarterly or monthly with the ATO. Your BAS shows the GST you collected on sales, the GST credits you can claim on purchases, and the net amount you owe or are refunded.',
+  },
+];
+
 export default function GSTCalculatorPage() {
   return (
     <div className="min-h-screen page-bg">
@@ -58,6 +87,7 @@ export default function GSTCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
 
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">

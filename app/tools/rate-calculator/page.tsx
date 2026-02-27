@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import RateCalculator from './RateCalculator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 export const metadata: Metadata = {
   title:
@@ -53,6 +54,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'How do freelancers calculate their hourly rate in Australia?',
+    answer:
+      'Start with your desired annual take-home pay, then add income tax, Medicare levy (2%), superannuation (11.5% in 2025-26), and business expenses. Divide the total by your billable hours (typically 1,200-1,500 hours per year after accounting for non-billable time, leave, and public holidays).',
+  },
+  {
+    question: 'What expenses should freelancers factor into their rate?',
+    answer:
+      'Key expenses include superannuation (11.5%), income tax, Medicare levy (2%), professional insurance, software subscriptions, internet and phone, home office costs, accounting fees, professional development, and unpaid leave (sick days, holidays, annual leave). These typically add 40-60% on top of your desired salary.',
+  },
+  {
+    question: 'What is the average freelance rate in Australia?',
+    answer:
+      'Average freelance rates in Australia vary widely by industry. Software developers typically charge $100-$200/hour, graphic designers $80-$150/hour, copywriters $80-$120/hour, and virtual assistants $40-$70/hour. Rates are generally higher in Sydney and Melbourne compared to other cities.',
+  },
+  {
+    question: 'How much should I charge as a sole trader?',
+    answer:
+      'As a sole trader, your rate must cover everything an employer normally pays: salary, super (11.5%), leave loading, insurance, equipment, and training. A common benchmark is to take the equivalent full-time salary and multiply by 1.4-1.6, then divide by annual billable hours.',
+  },
+  {
+    question: 'Should I charge different rates for different clients?',
+    answer:
+      'Yes, many freelancers use tiered pricing. You might charge more for urgent work, complex projects, or enterprise clients, and offer slightly lower rates for long-term retainers or preferred clients. Value-based pricing (charging based on the outcome rather than hours) can also increase your effective rate.',
+  },
+];
+
 export default function RateCalculatorPage() {
   return (
     <div className="min-h-screen page-bg">
@@ -60,6 +89,7 @@ export default function RateCalculatorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
 
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import PrivacyPolicyGenerator from './PrivacyPolicyGenerator';
 import RelatedTools from '../components/RelatedTools';
+import FAQSchema from '../components/FAQSchema';
 
 const title =
   'Privacy Policy Generator Australia | Free Template for Freelancers — InvoiceFlow';
@@ -64,6 +65,34 @@ const jsonLd = {
   },
 };
 
+const faqs = [
+  {
+    question: 'Do freelancers need a privacy policy in Australia?',
+    answer:
+      'If you collect any personal information from clients or website visitors, even just a name and email address, you should have a privacy policy. While the Australian Privacy Act 1988 technically only applies to businesses with annual turnover above $3 million, having a privacy policy is best practice, increasingly expected by clients, and required by platforms like Google Analytics, Stripe, and Mailchimp.',
+  },
+  {
+    question: 'What does the Australian Privacy Act require?',
+    answer:
+      'The Privacy Act 1988 (Cth) establishes 13 Australian Privacy Principles (APPs) that regulate how personal information is collected, used, stored, and disclosed. APP 1 requires a clearly expressed, up-to-date privacy policy. APP 5 requires individuals to be notified about how their information will be handled. Penalties for serious breaches can reach up to $50 million for corporations or $2.5 million for individuals.',
+  },
+  {
+    question: 'What are the Australian Privacy Principles (APPs)?',
+    answer:
+      'The 13 APPs cover the full lifecycle of personal information: open and transparent management (APP 1), anonymity options (APP 2), collection rules (APP 3-5), use and disclosure (APP 6), direct marketing restrictions (APP 7), cross-border data transfers (APP 8), government identifiers (APP 9), data quality (APP 10), security (APP 11), and individual access and correction rights (APP 12-13).',
+  },
+  {
+    question: 'Do small businesses need to comply with the Privacy Act?',
+    answer:
+      'The Privacy Act generally applies to organisations with annual turnover above $3 million. However, smaller businesses must comply if they trade in personal information, provide health services, are government contractors, or have opted in to coverage. The Australian Government has flagged potential reforms to extend the Act to all businesses regardless of turnover, so compliance is strongly recommended.',
+  },
+  {
+    question: 'What happens if you don\'t have a privacy policy?',
+    answer:
+      'Without a privacy policy, you risk breaching platform terms of service (Google, Stripe, and Mailchimp all require one), losing client trust (enterprise and government clients increasingly check for privacy policies), and having no documented framework if a data handling dispute arises. You may also face claims of misleading conduct under the Australian Consumer Law for not disclosing your data practices.',
+  },
+];
+
 export default function PrivacyPolicyGeneratorPage() {
   return (
     <>
@@ -71,6 +100,7 @@ export default function PrivacyPolicyGeneratorPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FAQSchema faqs={faqs} />
       <div className="page-bg min-h-screen">
         {/* Header */}
         <header className="border-b border-white/10">
