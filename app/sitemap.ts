@@ -65,6 +65,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     })),
+    // Alternative-to landing pages (high buyer-intent SEO)
+    { url: `${baseUrl}/alternative-to`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    ...competitors.map((slug) => ({
+      url: `${baseUrl}/alternative-to/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    })),
     { url: `${baseUrl}/compare`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     ...competitors.map((slug) => ({
       url: `${baseUrl}/compare/${slug}`,
