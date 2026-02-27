@@ -189,6 +189,20 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="mt-28 grid md:grid-cols-3 gap-6">
+          {[
+            { title: 'For Sole Traders', desc: 'Simple invoicing without the Xero price tag. GST tracking, BAS exports, and tools built for one-person businesses.', href: '/for/sole-traders', color: 'from-emerald-500/10 to-teal-500/10', border: 'hover:border-emerald-500/30' },
+            { title: 'For Freelancers', desc: 'Invoice generator, rate calculator, and 30+ profession guides. Get paid faster with less admin.', href: '/for/freelancers', color: 'from-purple-500/10 to-pink-500/10', border: 'hover:border-purple-500/30' },
+            { title: 'For Contractors', desc: 'Milestone payments, ABN compliance, PAYG calculator, and subcontractor agreement generator.', href: '/for/contractors', color: 'from-amber-500/10 to-orange-500/10', border: 'hover:border-amber-500/30' },
+          ].map((persona) => (
+            <Link key={persona.href} href={persona.href} className={`glass rounded-2xl p-6 border border-white/5 ${persona.border} transition-colors bg-gradient-to-br ${persona.color}`}>
+              <h3 className="text-lg font-semibold text-white mb-2">{persona.title}</h3>
+              <p className="text-sm text-slate-400">{persona.desc}</p>
+              <span className="inline-block mt-3 text-sm text-teal-400">Learn more &rarr;</span>
+            </Link>
+          ))}
+        </section>
+
         <section className="mt-28 glass rounded-3xl p-10 text-center">
           <h3 className="text-4xl font-semibold text-white heading-font mb-4">
             Your bookkeeping prep, automated.
@@ -211,9 +225,11 @@ export default function HomePage() {
             <Link href="/tools" className="hover:text-white">Free Tools</Link>
             <Link href="/blog" className="hover:text-white">Blog</Link>
             <Link href="/compare" className="hover:text-white">Compare</Link>
+            <Link href="/for/sole-traders" className="hover:text-white">Sole Traders</Link>
+            <Link href="/for/freelancers" className="hover:text-white">Freelancers</Link>
+            <Link href="/for/contractors" className="hover:text-white">Contractors</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
-            <Link href="/login" className="hover:text-white">Login</Link>
           </div>
         </div>
       </footer>
