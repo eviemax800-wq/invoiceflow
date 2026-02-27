@@ -215,6 +215,10 @@ export default function HomePage() {
             { title: 'For Tutors', desc: 'Session tracking, parent invoicing, NDIS-compliant billing, and term package invoicing for private tutors.', href: '/for/tutors', color: 'from-green-500/10 to-emerald-500/10', border: 'hover:border-green-500/30' },
             { title: 'For Graphic Designers', desc: 'Project billing, deposit tracking, revision invoicing, and usage rights documentation for freelance designers.', href: '/for/graphic-designers', color: 'from-violet-500/10 to-purple-500/10', border: 'hover:border-violet-500/30' },
             { title: 'For Allied Health', desc: 'NDIS invoicing, Medicare rebate billing, and multi-source payment tracking for physios, psychologists, and more.', href: '/for/allied-health', color: 'from-teal-500/10 to-cyan-500/10', border: 'hover:border-teal-500/30' },
+            { title: 'For Lawyers', desc: 'Trust account billing, retainer tracking, 6-minute time billing, and disbursement management for solicitors and barristers.', href: '/for/lawyers', color: 'from-indigo-500/10 to-blue-500/10', border: 'hover:border-indigo-500/30' },
+            { title: 'For Architects', desc: 'Stage-based billing, percentage completion tracking, variation claims, and reimbursable expense management.', href: '/for/architects', color: 'from-amber-500/10 to-orange-500/10', border: 'hover:border-amber-500/30' },
+            { title: 'For Musicians', desc: 'Gig invoicing, multi-income tracking, session fees, and tax-compliant billing for performers and music teachers.', href: '/for/musicians', color: 'from-rose-500/10 to-pink-500/10', border: 'hover:border-rose-500/30' },
+            { title: 'For IT Consultants', desc: 'Flexible hourly, project, and retainer billing with PAYG withholding for cloud, cybersecurity, and DevOps consultants.', href: '/for/it-consultants', color: 'from-emerald-500/10 to-green-500/10', border: 'hover:border-emerald-500/30' },
           ].map((persona) => (
             <Link key={persona.href} href={persona.href} className={`glass rounded-2xl p-6 border border-white/5 ${persona.border} transition-colors bg-gradient-to-br ${persona.color}`}>
               <h3 className="text-lg font-semibold text-white mb-2">{persona.title}</h3>
@@ -268,6 +272,10 @@ export default function HomePage() {
             <Link href="/for/tutors" className="hover:text-white">Tutors</Link>
             <Link href="/for/graphic-designers" className="hover:text-white">Graphic Designers</Link>
             <Link href="/for/allied-health" className="hover:text-white">Allied Health</Link>
+            <Link href="/for/lawyers" className="hover:text-white">Lawyers</Link>
+            <Link href="/for/architects" className="hover:text-white">Architects</Link>
+            <Link href="/for/musicians" className="hover:text-white">Musicians</Link>
+            <Link href="/for/it-consultants" className="hover:text-white">IT Consultants</Link>
             <Link href="/in/melbourne" className="hover:text-white">Melbourne</Link>
             <Link href="/in/sydney" className="hover:text-white">Sydney</Link>
             <Link href="/in/brisbane" className="hover:text-white">Brisbane</Link>
