@@ -207,6 +207,10 @@ export default function HomePage() {
             { title: 'For Web Developers', desc: 'Project-based billing, milestone payments, and scope change invoicing for freelance developers and designers.', href: '/for/web-developers', color: 'from-blue-500/10 to-cyan-500/10', border: 'hover:border-blue-500/30' },
             { title: 'For Writers', desc: 'Per-word and per-article invoicing, kill fees, and retainer billing for copywriters and content writers.', href: '/for/writers', color: 'from-amber-500/10 to-yellow-500/10', border: 'hover:border-amber-500/30' },
             { title: 'For Marketing Pros', desc: 'Retainer invoicing, ad spend pass-through billing, and campaign-based packages for digital marketers.', href: '/for/marketing-professionals', color: 'from-fuchsia-500/10 to-pink-500/10', border: 'hover:border-fuchsia-500/30' },
+            { title: 'For Accountants', desc: 'Hourly billing, retainer management, and BAS-ready invoicing for accountants, bookkeepers, and tax agents.', href: '/for/accountants', color: 'from-sky-500/10 to-blue-500/10', border: 'hover:border-sky-500/30' },
+            { title: 'For Beauty & Hair', desc: 'Salon invoicing, chair rental tracking, and product sales billing for hairdressers, barbers, and beauty therapists.', href: '/for/beauty-hair', color: 'from-pink-500/10 to-fuchsia-500/10', border: 'hover:border-pink-500/30' },
+            { title: 'For Cleaners', desc: 'Quote-to-invoice, recurring billing for regular clients, and income proof for loan applications.', href: '/for/cleaners', color: 'from-teal-500/10 to-cyan-500/10', border: 'hover:border-teal-500/30' },
+            { title: 'For Event Planners', desc: 'Deposit tracking, milestone payments, and vendor reimbursement invoicing for wedding and corporate events.', href: '/for/event-planners', color: 'from-amber-500/10 to-orange-500/10', border: 'hover:border-amber-500/30' },
           ].map((persona) => (
             <Link key={persona.href} href={persona.href} className={`glass rounded-2xl p-6 border border-white/5 ${persona.border} transition-colors bg-gradient-to-br ${persona.color}`}>
               <h3 className="text-lg font-semibold text-white mb-2">{persona.title}</h3>
@@ -252,6 +256,10 @@ export default function HomePage() {
             <Link href="/for/web-developers" className="hover:text-white">Web Developers</Link>
             <Link href="/for/writers" className="hover:text-white">Writers</Link>
             <Link href="/for/marketing-professionals" className="hover:text-white">Marketing Pros</Link>
+            <Link href="/for/accountants" className="hover:text-white">Accountants</Link>
+            <Link href="/for/beauty-hair" className="hover:text-white">Beauty & Hair</Link>
+            <Link href="/for/cleaners" className="hover:text-white">Cleaners</Link>
+            <Link href="/for/event-planners" className="hover:text-white">Event Planners</Link>
             <Link href="/in/melbourne" className="hover:text-white">Melbourne</Link>
             <Link href="/in/sydney" className="hover:text-white">Sydney</Link>
             <Link href="/in/brisbane" className="hover:text-white">Brisbane</Link>
