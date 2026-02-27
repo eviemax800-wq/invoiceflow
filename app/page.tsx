@@ -89,6 +89,9 @@ export default function HomePage() {
             <Link href="/pricing" className="text-sm text-slate-300 hover:text-white transition-colors hidden sm:inline">
               Pricing
             </Link>
+            <Link href="/templates" className="text-sm text-slate-300 hover:text-white transition-colors hidden sm:inline">
+              Templates
+            </Link>
             <Link href="/login">
               <Button variant="ghost">Login</Button>
             </Link>
@@ -225,6 +228,7 @@ export default function HomePage() {
           <span>© 2026 InvoiceFlow. All rights reserved.</span>
           <div className="flex gap-6 mt-4 md:mt-0">
             <Link href="/pricing" className="hover:text-white">Pricing</Link>
+            <Link href="/templates" className="hover:text-white">Templates</Link>
             <Link href="/tools" className="hover:text-white">Free Tools</Link>
             <Link href="/blog" className="hover:text-white">Blog</Link>
             <Link href="/compare" className="hover:text-white">Compare</Link>
