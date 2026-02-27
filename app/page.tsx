@@ -82,7 +82,13 @@ export default function HomePage() {
             <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-teal-400 to-blue-500" />
             <h1 className="text-2xl font-bold gradient-text heading-font">InvoiceFlow</h1>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 items-center">
+            <Link href="/features" className="text-sm text-slate-300 hover:text-white transition-colors hidden sm:inline">
+              Features
+            </Link>
+            <Link href="/pricing" className="text-sm text-slate-300 hover:text-white transition-colors hidden sm:inline">
+              Pricing
+            </Link>
             <Link href="/login">
               <Button variant="ghost">Login</Button>
             </Link>
