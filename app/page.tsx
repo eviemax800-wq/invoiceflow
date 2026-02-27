@@ -1,10 +1,81 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Button from '@/components/ui/Button';
+
+export const metadata: Metadata = {
+  title: 'InvoiceFlow — Free Invoicing Tools & AI Invoice Management for Australian Freelancers',
+  description:
+    'Free GST calculator, invoice generator, and 100+ business tools for Australian freelancers. Plus AI-powered Gmail invoice extraction, categorization, and CSV export.',
+  alternates: { canonical: '/' },
+};
+
+const softwareSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'InvoiceFlow',
+  applicationCategory: 'BusinessApplication',
+  operatingSystem: 'Web',
+  description:
+    'AI-powered invoice management for Australian freelancers. Auto-detect invoices from Gmail, extract key fields with AI, and export to CSV or QuickBooks.',
+  offers: [
+    {
+      '@type': 'Offer',
+      name: 'Free',
+      price: '0',
+      priceCurrency: 'AUD',
+      description: '5 invoices per month, Gmail sync, CSV export',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Pro',
+      price: '19',
+      priceCurrency: 'AUD',
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: '19',
+        priceCurrency: 'AUD',
+        billingDuration: 'P1M',
+      },
+      description: 'Unlimited invoices, AI categorization, priority support',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Premium',
+      price: '39',
+      priceCurrency: 'AUD',
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: '39',
+        priceCurrency: 'AUD',
+        billingDuration: 'P1M',
+      },
+      description: 'Everything in Pro plus QuickBooks export, team access, API',
+    },
+  ],
+  featureList: [
+    'Gmail invoice auto-detection',
+    'AI-powered field extraction',
+    'Vendor categorization',
+    'CSV and QuickBooks export',
+    'GST-compliant invoicing',
+    '100+ free business tools',
+  ],
+  screenshot: 'https://invoiceflow-teal.vercel.app/opengraph-image',
+  creator: {
+    '@type': 'Organization',
+    name: 'InvoiceFlow',
+    url: 'https://invoiceflow-teal.vercel.app',
+  },
+};
 
 export const dynamic = 'force-dynamic';
 export default function HomePage() {
   return (
     <div className="min-h-screen page-bg">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
+      />
       <header className="border-b border-white/10 backdrop-blur-sm bg-black/30">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -132,6 +203,7 @@ export default function HomePage() {
           <div className="flex gap-6 mt-4 md:mt-0">
             <Link href="/pricing" className="hover:text-white">Pricing</Link>
             <Link href="/tools" className="hover:text-white">Free Tools</Link>
+            <Link href="/blog" className="hover:text-white">Blog</Link>
             <Link href="/compare" className="hover:text-white">Compare</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>

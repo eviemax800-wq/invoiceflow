@@ -45,6 +45,39 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'InvoiceFlow',
+  url: 'https://invoiceflow-teal.vercel.app',
+  logo: 'https://invoiceflow-teal.vercel.app/icon.png',
+  description: 'AI-powered invoice management for Australian freelancers and small businesses.',
+  foundingDate: '2026',
+  areaServed: { '@type': 'Country', name: 'Australia' },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'customer support',
+    availableLanguage: 'English',
+  },
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'InvoiceFlow',
+  url: 'https://invoiceflow-teal.vercel.app',
+  description: 'Free business tools, invoicing, and tax resources for Australian freelancers.',
+  publisher: { '@type': 'Organization', name: 'InvoiceFlow' },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://invoiceflow-teal.vercel.app/tools?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -52,6 +85,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+      </head>
       <body className={`${spaceGrotesk.variable} ${ibmPlex.variable}`}>
         <AuthProvider>
           {children}
