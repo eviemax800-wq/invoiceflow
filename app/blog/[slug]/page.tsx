@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 import { blogPosts } from '../posts';
 import StickyBlogCTA from './StickyBlogCTA';
 import RelatedBlogTools from './RelatedBlogTools';
+import EmailCapture from '../../tools/components/EmailCapture';
 
 const allSlugs = Object.keys(blogPosts);
 
@@ -178,6 +179,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </Link>
           </div>
         </div>
+
+        <EmailCapture />
 
         {/* Related Tools */}
         <RelatedBlogTools blogCategory={post.category} />
