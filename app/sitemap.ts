@@ -31,6 +31,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/for/beauty-hair`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/for/cleaners`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/for/event-planners`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/for/real-estate-agents`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/for/tutors`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/for/graphic-designers`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/for/allied-health`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     // City/location landing pages
     { url: `${baseUrl}/in/melbourne`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/in/sydney`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
