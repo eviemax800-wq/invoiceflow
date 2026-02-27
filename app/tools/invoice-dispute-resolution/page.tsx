@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import InvoiceDisputeResolution from './InvoiceDisputeResolution';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Free Invoice Dispute Resolution Generator Australia — Dispute Response Letter Template | InvoiceFlow';
@@ -493,7 +494,9 @@ export default function InvoiceDisputeResolutionPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="invoice-dispute-resolution" category="Invoicing & Documents" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

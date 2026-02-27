@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import EmergencyFundCalculator from './EmergencyFundCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Free Freelance Emergency Fund Calculator Australia — How Much Savings Do You Need? | InvoiceFlow';
@@ -398,7 +399,9 @@ export default function EmergencyFundCalculatorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="emergency-fund-calculator" category="Financial Planning" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

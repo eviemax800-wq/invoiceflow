@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import CapacityPlanner from './CapacityPlanner';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Work Capacity Planner | Free Freelance Workload Calculator — InvoiceFlow';
@@ -514,7 +515,9 @@ export default function CapacityPlannerPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="capacity-planner" category="Business Analytics" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

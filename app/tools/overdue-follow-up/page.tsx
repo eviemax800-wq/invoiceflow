@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import OverdueFollowUp from './OverdueFollowUp';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Free Overdue Invoice Follow-Up Generator Australia — Payment Reminder Templates | InvoiceFlow';
@@ -486,7 +487,9 @@ export default function OverdueFollowUpPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="overdue-follow-up" category="Invoicing & Documents" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

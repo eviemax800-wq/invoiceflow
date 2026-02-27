@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import InvoiceAgingReport from './InvoiceAgingReport';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Invoice Aging Report Generator | Free Tool — InvoiceFlow';
 const description =
@@ -311,7 +312,9 @@ export default function InvoiceAgingReportPage() {
               Start Free — 5 Invoices/Month
             </Link>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="invoice-aging-report" category="Invoicing & Documents" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

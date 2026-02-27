@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import BenefitsCostCalculator from './BenefitsCostCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Freelance Benefits Cost Calculator Australia | Employee vs Contractor Comparison — InvoiceFlow';
@@ -522,7 +523,9 @@ export default function BenefitsCostCalculatorPage() {
               Start Free — 5 Invoices/Month
             </Link>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="benefits-cost-calculator" category="Pricing & Rates" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

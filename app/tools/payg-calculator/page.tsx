@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PAYGCalculator from './PAYGCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 export const metadata: Metadata = {
   title: 'Free PAYG Installment Calculator Australia 2025-26 — Quarterly Tax Payments | InvoiceFlow',
@@ -346,6 +347,8 @@ export default function PAYGCalculatorPage() {
             No credit card required. Free tier includes GST-compliant invoices and BAS reporting.
           </p>
         </section>
+      
+        <RelatedTools currentSlug="payg-calculator" category="Tax & Compliance" />
       </main>
 
       <footer className="border-t border-white/10 mt-20 py-8">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProfitFirstCalculator from './ProfitFirstCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Profit First Calculator | Free Income Allocation Calculator for Freelancers — InvoiceFlow';
@@ -573,7 +574,9 @@ export default function ProfitFirstCalculatorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="profit-first-calculator" category="Financial Planning" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

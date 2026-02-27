@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import VehicleExpenseCalculator from './VehicleExpenseCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Vehicle & Travel Expense Calculator Australia | Free ATO Tool — InvoiceFlow';
 const description = 'Free vehicle and travel expense calculator for Australian freelancers. Compare ATO cents-per-km vs logbook methods. Calculate business travel deductions, fuel costs, and car expense claims for sole traders and contractors.';
@@ -321,6 +322,8 @@ export default function VehicleExpenseCalculatorPage() {
             <p className="text-sm text-gray-600">&copy; {new Date().getFullYear()} InvoiceFlow</p>
           </div>
         </footer>
+      
+        <RelatedTools currentSlug="vehicle-expense-calculator" category="Tax & Compliance" />
       </main>
     </>
   );

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProjectHandoverGenerator from './ProjectHandoverGenerator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Project Handover Document Generator | Free Freelance Handover Template — InvoiceFlow';
@@ -444,7 +445,9 @@ export default function ProjectHandoverGeneratorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="project-handover-generator" category="Invoicing & Documents" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

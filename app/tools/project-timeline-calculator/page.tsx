@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ProjectTimelineCalculator from './ProjectTimelineCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Project Timeline Calculator | Free Freelance Project Duration Estimator — InvoiceFlow';
@@ -490,7 +491,9 @@ export default function ProjectTimelineCalculatorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="project-timeline-calculator" category="Business Analytics" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

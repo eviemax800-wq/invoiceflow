@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import MilestonePaymentCalculator from './MilestonePaymentCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Free Milestone Payment Schedule Calculator for Freelancers — InvoiceFlow';
@@ -453,7 +454,9 @@ export default function MilestonePaymentCalculatorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="milestone-payment-calculator" category="Financial Planning" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import BusinessRegistrationChecklist from './BusinessRegistrationChecklist';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Freelance Business Registration Checklist Australia | Free Sole Trader Setup Guide — InvoiceFlow';
@@ -532,7 +533,9 @@ export default function BusinessRegistrationChecklistPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="business-registration-checklist" category="Business Analytics" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

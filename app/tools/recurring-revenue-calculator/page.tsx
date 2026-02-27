@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RecurringRevenueClient from './RecurringRevenueClient';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Free Recurring Revenue Calculator for Freelancers | InvoiceFlow';
 const description =
@@ -430,7 +431,9 @@ export default function RecurringRevenueCalculatorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="recurring-revenue-calculator" category="Financial Planning" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RetainerCalculator from './RetainerCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Client Retainer Calculator Australia | Monthly Retainer Pricing — InvoiceFlow';
 const description =
@@ -367,7 +368,9 @@ export default function RetainerCalculatorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="retainer-calculator" category="Pricing & Rates" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

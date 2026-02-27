@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import AnnualBusinessReview from './AnnualBusinessReview';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Annual Business Review Generator | Free Freelance Tool — InvoiceFlow';
@@ -482,7 +483,9 @@ export default function AnnualBusinessReviewPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="annual-business-review" category="Business Analytics" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import SalaryToHourly from './SalaryToHourly';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Salary to Hourly Rate Calculator Australia | Free Freelance Tool — InvoiceFlow';
 const description =
@@ -338,7 +339,9 @@ export default function SalaryToHourlyPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="salary-to-hourly" category="Pricing & Rates" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import RevenueGoalPlanner from './RevenueGoalPlanner';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Freelance Revenue Goal Planner Australia | Free Income Calculator — InvoiceFlow';
 const description =
@@ -385,7 +386,9 @@ export default function RevenueGoalPlannerPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="revenue-goal-planner" category="Financial Planning" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

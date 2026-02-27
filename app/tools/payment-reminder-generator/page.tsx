@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PaymentReminderGenerator from './PaymentReminderGenerator';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Free Payment Reminder Email Generator | Overdue Invoice Templates — InvoiceFlow';
 const description =
@@ -368,7 +369,9 @@ export default function PaymentReminderGeneratorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="payment-reminder-generator" category="Invoicing & Documents" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

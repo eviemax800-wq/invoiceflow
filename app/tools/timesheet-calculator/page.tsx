@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import TimesheetCalculator from './TimesheetCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Freelance Timesheet Calculator Australia | Free Tool — InvoiceFlow';
 const description = 'Free timesheet calculator for Australian freelancers. Track daily hours, calculate weekly and monthly pay, manage overtime, and export formatted timesheets. Built for sole traders and contractors.';
@@ -259,6 +260,8 @@ export default function TimesheetCalculatorPage() {
             </div>
           </div>
         </section>
+
+        <RelatedTools currentSlug="timesheet-calculator" category="Invoicing & Documents" />
 
         {/* Footer */}
         <footer className="border-t border-white/10 py-8 px-4">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import PricingComparison from './PricingComparison';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Hourly vs Project Pricing Calculator Australia | Free Tool — InvoiceFlow';
 const description =
@@ -282,7 +283,9 @@ export default function PricingComparisonPage() {
               Start Free — 5 Invoices/Month
             </Link>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="pricing-comparison" category="Pricing & Rates" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

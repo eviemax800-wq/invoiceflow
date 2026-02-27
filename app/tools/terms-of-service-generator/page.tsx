@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import TermsOfServiceGenerator from './TermsOfServiceGenerator';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Terms of Service Generator Australia | Free T&C Template for Freelancers — InvoiceFlow';
@@ -510,7 +511,9 @@ export default function TermsOfServiceGeneratorPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="terms-of-service-generator" category="Invoicing & Documents" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

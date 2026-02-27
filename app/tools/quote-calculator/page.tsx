@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import QuoteCalculator from './QuoteCalculator';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Freelance Quote & Estimate Calculator Australia | Free Tool — InvoiceFlow';
 const description =
@@ -306,7 +307,9 @@ export default function QuoteCalculatorPage() {
               Start Free — 5 Invoices/Month
             </Link>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="quote-calculator" category="Invoicing & Documents" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

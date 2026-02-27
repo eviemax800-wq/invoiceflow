@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ExpenseReportGenerator from './ExpenseReportGenerator';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'Freelance Expense Report Generator Australia | Free Sole Trader Expense Tool — InvoiceFlow';
 const description =
@@ -360,7 +361,9 @@ export default function ExpenseReportGeneratorPage() {
               Start Free — 5 Invoices/Month
             </Link>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="expense-report-generator" category="Business Analytics" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

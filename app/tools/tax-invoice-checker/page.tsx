@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import TaxInvoiceChecker from './TaxInvoiceChecker';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Tax Invoice Compliance Checker | Free ATO Tool — InvoiceFlow';
@@ -476,7 +477,9 @@ export default function TaxInvoiceCheckerPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="tax-invoice-checker" category="Tax & Compliance" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

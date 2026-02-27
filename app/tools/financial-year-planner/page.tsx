@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import FinancialYearPlanner from './FinancialYearPlanner';
+import RelatedTools from '../components/RelatedTools';
 
 const title =
   'Financial Year Planner | Free FY2025-26 Planning Tool for Freelancers — InvoiceFlow';
@@ -545,7 +546,9 @@ export default function FinancialYearPlannerPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="financial-year-planner" category="Financial Planning" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">

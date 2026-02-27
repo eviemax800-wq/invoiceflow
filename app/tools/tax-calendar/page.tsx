@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import TaxCalendar from './TaxCalendar';
+import RelatedTools from '../components/RelatedTools';
 
 const title = 'ATO Tax Calendar & BAS Deadline Tracker Australia | Free Tool — InvoiceFlow';
 const description =
@@ -397,7 +398,9 @@ export default function TaxCalendarPage() {
               </Link>
             </div>
           </section>
-        </main>
+        
+        <RelatedTools currentSlug="tax-calendar" category="Tax & Compliance" />
+      </main>
 
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
