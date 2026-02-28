@@ -269,6 +269,10 @@ export default function ComparePage() {
             { title: 'QuickBooks vs FreshBooks', desc: 'Two invoicing-focused tools go head-to-head. QuickBooks caps at 2 invoices, FreshBooks caps at 5 clients.', href: '/compare/quickbooks-vs-freshbooks', colors: 'from-red-500/20 to-green-500/20' },
             { title: 'QuickBooks vs Wave', desc: 'Both rated under 1.5/5 on Trustpilot. Wave has payment holds, QuickBooks has a 2-invoice cap.', href: '/compare/quickbooks-vs-wave', colors: 'from-red-500/20 to-cyan-500/20' },
             { title: 'MYOB vs FreshBooks', desc: 'AU legacy giant meets Canadian challenger. MYOB has phone support, FreshBooks has better UX.', href: '/compare/myob-vs-freshbooks', colors: 'from-purple-500/20 to-green-500/20' },
+            { title: 'Xero vs Wave', desc: 'AU market leader (78% share, $35/mo) vs ex-free platform ($19/mo, 1.2/5 Trustpilot). Different leagues.', href: '/compare/xero-vs-wave', colors: 'from-blue-500/20 to-cyan-500/20' },
+            { title: 'FreshBooks vs Zoho', desc: 'Paid premium ($24/mo) vs free-but-capped (500/yr). Watch out for the Zoho ecosystem trap.', href: '/compare/freshbooks-vs-zoho', colors: 'from-green-500/20 to-orange-500/20' },
+            { title: 'MYOB vs Wave', desc: 'AU legacy ($34/mo, 2.1/5 Trustpilot) vs budget platform ($19/mo, 1.2/5 Trustpilot). Both have issues.', href: '/compare/myob-vs-wave', colors: 'from-purple-500/20 to-cyan-500/20' },
+            { title: 'Wave vs Zoho', desc: 'Budget battle: Wave ($19/mo, payment holds) vs Zoho (free, ecosystem lock-in). Neither is ideal.', href: '/compare/wave-vs-zoho', colors: 'from-cyan-500/20 to-orange-500/20' },
           ].map((item) => (
             <Link key={item.href} href={item.href} className={`glass rounded-2xl p-6 hover:border-teal-400/20 border border-transparent transition-colors bg-gradient-to-br ${item.colors}`}>
               <h4 className="text-lg font-semibold text-white heading-font mb-2">{item.title}</h4>
