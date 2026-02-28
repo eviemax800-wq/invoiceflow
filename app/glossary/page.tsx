@@ -40,12 +40,16 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 4,
+  numberOfItems: 8,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
     { '@type': 'ListItem', position: 3, name: 'BAS (Business Activity Statement)', url: 'https://invoiceflow-teal.vercel.app/glossary/bas' },
     { '@type': 'ListItem', position: 4, name: 'PAYG (Pay As You Go)', url: 'https://invoiceflow-teal.vercel.app/glossary/payg' },
+    { '@type': 'ListItem', position: 5, name: 'Tax Invoice', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-invoice' },
+    { '@type': 'ListItem', position: 6, name: 'Sole Trader', url: 'https://invoiceflow-teal.vercel.app/glossary/sole-trader' },
+    { '@type': 'ListItem', position: 7, name: 'Credit Note', url: 'https://invoiceflow-teal.vercel.app/glossary/credit-note' },
+    { '@type': 'ListItem', position: 8, name: 'Superannuation', url: 'https://invoiceflow-teal.vercel.app/glossary/superannuation' },
   ],
 };
 
@@ -105,15 +109,35 @@ const categories = [
       { name: 'GST', full: 'Goods and Services Tax', slug: 'gst', description: 'The 10% tax on most goods and services in Australia. Registration required at $75K.' },
       { name: 'BAS', full: 'Business Activity Statement', slug: 'bas', description: 'Your quarterly report to the ATO for GST, PAYG, and other tax obligations.' },
       { name: 'PAYG', full: 'Pay As You Go', slug: 'payg', description: 'Pre-paying your income tax in quarterly instalments to the ATO.' },
+      { name: 'Super', full: 'Superannuation', slug: 'superannuation', description: 'Australia\'s mandatory retirement savings system. 11.5% guarantee rate for 2025-26.' },
+    ],
+  },
+  {
+    name: 'Invoicing & Documents',
+    color: 'from-blue-500 to-indigo-500',
+    terms: [
+      { name: 'Tax Invoice', full: 'Tax Invoice', slug: 'tax-invoice', description: 'The GST document your clients need to claim input tax credits from the ATO.' },
+      { name: 'Credit Note', full: 'Credit Note', slug: 'credit-note', description: 'A document that reduces or cancels the amount on a previously issued invoice.' },
+    ],
+  },
+  {
+    name: 'Business Structure',
+    color: 'from-lime-500 to-green-500',
+    terms: [
+      { name: 'Sole Trader', full: 'Sole Trader', slug: 'sole-trader', description: 'The simplest business structure — an individual trading on their own.' },
     ],
   },
 ];
 
 const popularTerms = [
-  { name: 'ABN', slug: 'abn', searches: '14,800/mo', description: 'Australian Business Number — your 11-digit business identifier' },
   { name: 'GST', slug: 'gst', searches: '22,200/mo', description: 'Goods and Services Tax — 10% tax on most Australian goods and services' },
+  { name: 'Tax Invoice', slug: 'tax-invoice', searches: '18,100/mo', description: 'The document that proves GST was charged on a sale' },
+  { name: 'ABN', slug: 'abn', searches: '14,800/mo', description: 'Australian Business Number — your 11-digit business identifier' },
+  { name: 'Sole Trader', slug: 'sole-trader', searches: '14,800/mo', description: 'The simplest business structure for Australian freelancers' },
   { name: 'BAS', slug: 'bas', searches: '12,100/mo', description: 'Business Activity Statement — your quarterly ATO report' },
+  { name: 'Super', slug: 'superannuation', searches: '12,100/mo', description: 'Superannuation — Australia\'s retirement savings system' },
   { name: 'PAYG', slug: 'payg', searches: '9,900/mo', description: 'Pay As You Go — pre-paying income tax in quarterly instalments' },
+  { name: 'Credit Note', slug: 'credit-note', searches: '8,100/mo', description: 'A document that adjusts or cancels a previously issued invoice' },
 ];
 
 export default function GlossaryHub() {
@@ -145,7 +169,7 @@ export default function GlossaryHub() {
             </span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Plain-English definitions of ABN, GST, BAS, PAYG, and every other acronym the ATO throws at you. Written for humans, not accountants.
+            Plain-English definitions of ABN, GST, BAS, PAYG, tax invoices, credit notes, superannuation, and every other term the ATO throws at you. Written for humans, not accountants.
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
             <div className="flex items-center gap-2">
@@ -280,6 +304,21 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><span className="text-sky-400 font-medium">Instant Asset Write-Off</span></td>
                 <td className="px-6 py-4 text-white font-medium">$20,000</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Immediately deduct assets costing less than this</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/superannuation" className="text-sky-400 hover:text-sky-300 font-medium">Super Guarantee</Link></td>
+                <td className="px-6 py-4 text-white font-medium">11.5%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Superannuation guarantee rate for 2025-26 (12% from July 2025)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/tax-invoice" className="text-sky-400 hover:text-sky-300 font-medium">Tax Invoice Threshold</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$82.50</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Tax invoice required for GST-registered sales above this amount</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/sole-trader" className="text-sky-400 hover:text-sky-300 font-medium">Sole Traders in AU</Link></td>
+                <td className="px-6 py-4 text-white font-medium">2.47 million</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Active sole traders in Australia (ABS)</td>
               </tr>
             </tbody>
           </table>
