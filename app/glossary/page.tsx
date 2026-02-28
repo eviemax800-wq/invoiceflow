@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 24,
+  numberOfItems: 28,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -66,6 +66,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 22, name: 'Retainer Agreement', url: 'https://invoiceflow-teal.vercel.app/glossary/retainer' },
     { '@type': 'ListItem', position: 23, name: 'Quote (Quotation)', url: 'https://invoiceflow-teal.vercel.app/glossary/quote' },
     { '@type': 'ListItem', position: 24, name: 'Scope Creep', url: 'https://invoiceflow-teal.vercel.app/glossary/scope-creep' },
+    { '@type': 'ListItem', position: 25, name: 'Public Liability Insurance', url: 'https://invoiceflow-teal.vercel.app/glossary/public-liability' },
+    { '@type': 'ListItem', position: 26, name: 'Invoice Factoring', url: 'https://invoiceflow-teal.vercel.app/glossary/invoice-factoring' },
+    { '@type': 'ListItem', position: 27, name: 'Bookkeeping', url: 'https://invoiceflow-teal.vercel.app/glossary/bookkeeping' },
+    { '@type': 'ListItem', position: 28, name: 'Input Tax Credits (GST Credits)', url: 'https://invoiceflow-teal.vercel.app/glossary/input-tax-credits' },
   ],
 };
 
@@ -129,6 +133,7 @@ const categories = [
       { name: 'TFN', full: 'Tax File Number (TFN)', slug: 'tfn', description: 'Your unique 9-digit tax identifier issued by the ATO. Required for tax returns and bank accounts.' },
       { name: 'Depreciation', full: 'Depreciation', slug: 'depreciation', description: 'Spreading the cost of business assets over their useful life for tax deductions. $20K instant write-off.' },
       { name: 'Income Tax', full: 'Income Tax', slug: 'income-tax', description: 'Tax on your freelance earnings. $18,200 tax-free threshold, then progressive rates up to 45%.' },
+      { name: 'ITC', full: 'Input Tax Credits (GST Credits)', slug: 'input-tax-credits', description: 'The GST included in business purchases you can claim back from the ATO on your BAS.' },
     ],
   },
   {
@@ -150,6 +155,7 @@ const categories = [
       { name: 'AR', full: 'Accounts Receivable', slug: 'accounts-receivable', description: 'Money owed to you by clients for work completed. Your outstanding invoices.' },
       { name: 'Terms', full: 'Payment Terms', slug: 'payment-terms', description: 'Conditions for when and how invoices must be paid. Net 30, Due on Receipt, EOM, and more.' },
       { name: 'Retainer', full: 'Retainer Agreement', slug: 'retainer', description: 'A recurring fee arrangement where a client reserves your time, expertise, or deliverables on an ongoing basis.' },
+      { name: 'Factoring', full: 'Invoice Factoring', slug: 'invoice-factoring', description: 'Selling unpaid invoices to a third party at a discount for immediate cash flow.' },
     ],
   },
   {
@@ -167,6 +173,7 @@ const categories = [
     color: 'from-lime-500 to-green-500',
     terms: [
       { name: 'P&L', full: 'Profit and Loss Statement', slug: 'profit-and-loss', description: 'A summary of your income and expenses over a period, showing whether your business made a profit or loss.' },
+      { name: 'Bookkeeping', full: 'Bookkeeping', slug: 'bookkeeping', description: 'Systematic recording of all financial transactions. ATO requires records kept for 5 years.' },
     ],
   },
   {
@@ -174,6 +181,7 @@ const categories = [
     color: 'from-emerald-500 to-green-500',
     terms: [
       { name: 'PI Insurance', full: 'Professional Indemnity Insurance', slug: 'professional-indemnity', description: 'Insurance protecting against claims of negligence, errors, or bad advice. Essential for service providers.' },
+      { name: 'PLI', full: 'Public Liability Insurance', slug: 'public-liability', description: 'Insurance covering third-party injury and property damage. Essential for on-site work.' },
     ],
   },
   {
@@ -210,6 +218,10 @@ const popularTerms = [
   { name: 'Retainer', slug: 'retainer', searches: '9,900/mo', description: 'Recurring fee arrangement for ongoing client work — the "holy grail" of freelance billing' },
   { name: 'Quote', slug: 'quote', searches: '22,200/mo', description: 'A formal fixed-price document sent before work begins — becomes binding on acceptance' },
   { name: 'Scope Creep', slug: 'scope-creep', searches: '8,100/mo', description: 'Uncontrolled expansion of project requirements — the #1 profitability killer for freelancers' },
+  { name: 'Public Liability', slug: 'public-liability', searches: '18,100/mo', description: 'Insurance covering third-party injury and property damage — essential for on-site work' },
+  { name: 'Invoice Factoring', slug: 'invoice-factoring', searches: '6,600/mo', description: 'Selling unpaid invoices for immediate cash flow — an alternative to waiting 30+ days' },
+  { name: 'Bookkeeping', slug: 'bookkeeping', searches: '27,100/mo', description: 'Recording all financial transactions — ATO requires 5 years of records from sole traders' },
+  { name: 'Input Tax Credits', slug: 'input-tax-credits', searches: '9,900/mo', description: 'GST paid on business expenses you can claim back from the ATO on your BAS' },
 ];
 
 export default function GlossaryHub() {
@@ -466,6 +478,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/scope-creep" className="text-sky-400 hover:text-sky-300 font-medium">Projects Affected</Link></td>
                 <td className="px-6 py-4 text-white font-medium">52%</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Percentage of projects that experience scope creep (PMI)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/public-liability" className="text-sky-400 hover:text-sky-300 font-medium">Standard PLI Cover</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$10M-$20M</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Standard public liability cover amount required by most commercial clients</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/invoice-factoring" className="text-sky-400 hover:text-sky-300 font-medium">Factoring Fee</Link></td>
+                <td className="px-6 py-4 text-white font-medium">1-5%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical invoice factoring fee per 30 days in Australia</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/bookkeeping" className="text-sky-400 hover:text-sky-300 font-medium">Record Retention</Link></td>
+                <td className="px-6 py-4 text-white font-medium">5 years</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ATO requires financial records kept for 5 years from lodgement date</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/input-tax-credits" className="text-sky-400 hover:text-sky-300 font-medium">ITC Claim Window</Link></td>
+                <td className="px-6 py-4 text-white font-medium">4 years</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Maximum time to claim input tax credits from the date of purchase</td>
               </tr>
             </tbody>
           </table>
