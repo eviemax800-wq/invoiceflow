@@ -4,9 +4,9 @@ import Button from '@/components/ui/Button';
 import EmailCapture from '@/app/tools/components/EmailCapture';
 
 export const metadata: Metadata = {
-  title: 'Integrations — Connect Stripe, PayPal, Xero & Bank Feeds | InvoiceFlow',
+  title: 'Integrations — Connect Stripe, PayPal, Xero, MYOB, QuickBooks, Zapier & More | InvoiceFlow',
   description:
-    'Connect InvoiceFlow to Stripe, PayPal, Xero, and your bank feeds. Accept payments, sync accounting data, and match payments automatically. Built for Australian freelancers and sole traders.',
+    'Connect InvoiceFlow to Stripe, PayPal, Xero, MYOB, QuickBooks, Google Sheets, Zapier, and your bank feeds. Accept payments, sync accounting data, automate workflows. Built for Australian freelancers.',
   keywords: [
     'invoicing software integrations australia',
     'invoice payment integrations',
@@ -14,14 +14,18 @@ export const metadata: Metadata = {
     'stripe invoicing integration',
     'paypal invoice payments',
     'xero invoice sync',
+    'myob invoice integration',
+    'quickbooks invoice sync',
+    'google sheets invoice export',
+    'zapier invoice automation',
     'bank feed invoice matching',
     'freelancer invoicing integrations',
   ],
   alternates: { canonical: '/integrations' },
   openGraph: {
-    title: 'Integrations — Connect Stripe, PayPal, Xero & Bank Feeds | InvoiceFlow',
+    title: 'Integrations — Connect Stripe, PayPal, Xero, MYOB, QuickBooks, Zapier & More | InvoiceFlow',
     description:
-      'Connect InvoiceFlow to the tools you already use. Accept card payments with Stripe, offer PayPal checkout, sync to Xero, and match bank feed payments automatically. Free tier available.',
+      'Connect InvoiceFlow to 8 platforms including Stripe, PayPal, Xero, MYOB, QuickBooks, Google Sheets, Zapier, and bank feeds. Accept payments, sync accounting, automate workflows. Free tier available.',
   },
 };
 
@@ -79,6 +83,50 @@ const integrations = [
       </svg>
     ),
   },
+  {
+    name: 'Google Sheets',
+    slug: 'google-sheets',
+    description: 'Export invoices, payments, and client data to Google Sheets. Custom reports, pivot tables, real-time sync.',
+    color: 'from-lime-500 to-green-500',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 01-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0112 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M12 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 0v1.5c0 .621-.504 1.125-1.125 1.125" />
+      </svg>
+    ),
+  },
+  {
+    name: 'MYOB',
+    slug: 'myob',
+    description: 'Sync invoices to MYOB AccountRight and MYOB Business. GST codes mapped automatically.',
+    color: 'from-purple-500 to-fuchsia-500',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+      </svg>
+    ),
+  },
+  {
+    name: 'QuickBooks',
+    slug: 'quickbooks',
+    description: 'Export invoices to QuickBooks Online. GST-compliant sync with payment reconciliation.',
+    color: 'from-red-500 to-rose-500',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Zapier',
+    slug: 'zapier',
+    description: 'Connect InvoiceFlow to 6,000+ apps. Automate invoice creation, notifications, and workflows.',
+    color: 'from-orange-500 to-amber-500',
+    icon: (
+      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+      </svg>
+    ),
+  },
 ];
 
 const itemListSchema = {
@@ -101,10 +149,10 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'What payment integrations does InvoiceFlow support?',
+      name: 'What integrations does InvoiceFlow support?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'InvoiceFlow integrates with Stripe for card payments, PayPal for global payments, Xero for accounting sync, and Australian bank feeds for automatic payment matching. Each integration can be enabled in your account settings with a few clicks. All payment data is encrypted and PCI-compliant.',
+        text: 'InvoiceFlow integrates with 8 platforms: Stripe for card payments, PayPal for global payments, Xero for accounting sync, MYOB for Australian accounting, QuickBooks Online for accounting, Google Sheets for custom reporting, Zapier for workflow automation (6,000+ apps), and Australian bank feeds for automatic payment matching. Each integration can be enabled in your account settings with a few clicks.',
       },
     },
     {
@@ -218,8 +266,8 @@ export default function IntegrationsPage() {
           </span>
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-slate-400 mb-10">
-          InvoiceFlow plugs into the payment and accounting tools you already use. Accept payments, sync data,
-          and reconcile automatically — so you spend less time on admin and more time earning.
+          InvoiceFlow connects to 8 platforms — payment processors, accounting software, spreadsheets, and automation tools.
+          Accept payments, sync data, automate workflows, and reconcile automatically.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/signup">
@@ -230,7 +278,7 @@ export default function IntegrationsPage() {
           </Link>
         </div>
         <p className="mt-4 text-sm text-slate-500">
-          Free tier: Stripe + PayPal included. Xero + Bank Feeds on Pro and Premium.
+          Free tier: Stripe + PayPal included. All other integrations on Pro and Premium.
         </p>
       </section>
 
@@ -335,7 +383,7 @@ export default function IntegrationsPage() {
           Simple pricing, integrations included
         </h2>
         <p className="text-center text-slate-400 mb-12 max-w-2xl mx-auto">
-          Start free with Stripe and PayPal. Upgrade to unlock Xero sync and bank feed matching.
+          Start free with Stripe and PayPal. Upgrade to unlock Xero, MYOB, QuickBooks, Google Sheets, Zapier, and bank feeds.
         </p>
         <div className="grid md:grid-cols-3 gap-6">
           {/* Free */}
