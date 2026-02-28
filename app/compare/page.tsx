@@ -256,6 +256,24 @@ export default function ComparePage() {
           </table>
         </div>
 
+        {/* Head-to-Head Comparisons */}
+        <h3 className="text-2xl font-bold text-white mb-6 heading-font">Head-to-Head Comparisons</h3>
+        <p className="text-slate-400 mb-6">See how the big players stack up against each other — and why InvoiceFlow is the smarter choice for freelancers.</p>
+        <div className="grid md:grid-cols-2 gap-4 mb-16">
+          {[
+            { title: 'Xero vs MYOB', desc: 'Australia\'s two biggest accounting platforms compared. Both $34-35/mo for basic invoicing.', href: '/compare/xero-vs-myob', colors: 'from-blue-500/20 to-purple-500/20' },
+            { title: 'Xero vs FreshBooks', desc: 'Full accounting suite ($35/mo) vs invoicing-first platform ($24/mo). Which wins for freelancers?', href: '/compare/xero-vs-freshbooks', colors: 'from-blue-500/20 to-green-500/20' },
+            { title: 'FreshBooks vs Wave', desc: 'Wave killed their free plan. Now both charge — but there\'s still a free option.', href: '/compare/freshbooks-vs-wave', colors: 'from-green-500/20 to-cyan-500/20' },
+            { title: 'MYOB vs QuickBooks', desc: '30 years of AU heritage vs the $108B Intuit giant. Both overbuilt for freelancers.', href: '/compare/myob-vs-quickbooks', colors: 'from-purple-500/20 to-red-500/20' },
+          ].map((item) => (
+            <Link key={item.href} href={item.href} className={`glass rounded-2xl p-6 hover:border-teal-400/20 border border-transparent transition-colors bg-gradient-to-br ${item.colors}`}>
+              <h4 className="text-lg font-semibold text-white heading-font mb-2">{item.title}</h4>
+              <p className="text-sm text-slate-400 mb-3">{item.desc}</p>
+              <span className="text-xs text-teal-400">View full comparison →</span>
+            </Link>
+          ))}
+        </div>
+
         {/* Individual Competitor Breakdowns */}
         <h3 className="text-2xl font-bold text-white mb-8 heading-font">Why Freelancers Are Switching</h3>
         <div className="grid lg:grid-cols-2 gap-6 mb-16">

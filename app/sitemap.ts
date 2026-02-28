@@ -104,6 +104,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.6,
     })),
+    // Head-to-head competitor comparison pages (high buyer-intent)
+    { url: `${baseUrl}/compare/xero-vs-myob`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/compare/xero-vs-freshbooks`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/compare/freshbooks-vs-wave`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/compare/myob-vs-quickbooks`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
     { url: `${baseUrl}/blog/profession-guides`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     ...['invoicing', 'tax', 'business', 'getting-started', 'getting-paid', 'growth', 'pricing', 'profession-guides'].map((cat) => ({
