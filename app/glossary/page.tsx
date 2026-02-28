@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 8,
+  numberOfItems: 12,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -50,6 +50,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 6, name: 'Sole Trader', url: 'https://invoiceflow-teal.vercel.app/glossary/sole-trader' },
     { '@type': 'ListItem', position: 7, name: 'Credit Note', url: 'https://invoiceflow-teal.vercel.app/glossary/credit-note' },
     { '@type': 'ListItem', position: 8, name: 'Superannuation', url: 'https://invoiceflow-teal.vercel.app/glossary/superannuation' },
+    { '@type': 'ListItem', position: 9, name: 'Invoice', url: 'https://invoiceflow-teal.vercel.app/glossary/invoice' },
+    { '@type': 'ListItem', position: 10, name: 'Tax File Number (TFN)', url: 'https://invoiceflow-teal.vercel.app/glossary/tfn' },
+    { '@type': 'ListItem', position: 11, name: 'Professional Indemnity Insurance', url: 'https://invoiceflow-teal.vercel.app/glossary/professional-indemnity' },
+    { '@type': 'ListItem', position: 12, name: 'ACN (Australian Company Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/acn' },
   ],
 };
 
@@ -110,12 +114,14 @@ const categories = [
       { name: 'BAS', full: 'Business Activity Statement', slug: 'bas', description: 'Your quarterly report to the ATO for GST, PAYG, and other tax obligations.' },
       { name: 'PAYG', full: 'Pay As You Go', slug: 'payg', description: 'Pre-paying your income tax in quarterly instalments to the ATO.' },
       { name: 'Super', full: 'Superannuation', slug: 'superannuation', description: 'Australia\'s mandatory retirement savings system. 11.5% guarantee rate for 2025-26.' },
+      { name: 'TFN', full: 'Tax File Number (TFN)', slug: 'tfn', description: 'Your unique 9-digit tax identifier issued by the ATO. Required for tax returns and bank accounts.' },
     ],
   },
   {
     name: 'Invoicing & Documents',
     color: 'from-blue-500 to-indigo-500',
     terms: [
+      { name: 'Invoice', full: 'Invoice', slug: 'invoice', description: 'A commercial document requesting payment for goods or services. The foundation of getting paid.' },
       { name: 'Tax Invoice', full: 'Tax Invoice', slug: 'tax-invoice', description: 'The GST document your clients need to claim input tax credits from the ATO.' },
       { name: 'Credit Note', full: 'Credit Note', slug: 'credit-note', description: 'A document that reduces or cancels the amount on a previously issued invoice.' },
     ],
@@ -125,6 +131,14 @@ const categories = [
     color: 'from-lime-500 to-green-500',
     terms: [
       { name: 'Sole Trader', full: 'Sole Trader', slug: 'sole-trader', description: 'The simplest business structure — an individual trading on their own.' },
+      { name: 'ACN', full: 'Australian Company Number (ACN)', slug: 'acn', description: 'A 9-digit identifier for registered companies. Needed if you incorporate as a Pty Ltd.' },
+    ],
+  },
+  {
+    name: 'Business Protection',
+    color: 'from-emerald-500 to-green-500',
+    terms: [
+      { name: 'PI Insurance', full: 'Professional Indemnity Insurance', slug: 'professional-indemnity', description: 'Insurance protecting against claims of negligence, errors, or bad advice. Essential for service providers.' },
     ],
   },
 ];
@@ -138,6 +152,10 @@ const popularTerms = [
   { name: 'Super', slug: 'superannuation', searches: '12,100/mo', description: 'Superannuation — Australia\'s retirement savings system' },
   { name: 'PAYG', slug: 'payg', searches: '9,900/mo', description: 'Pay As You Go — pre-paying income tax in quarterly instalments' },
   { name: 'Credit Note', slug: 'credit-note', searches: '8,100/mo', description: 'A document that adjusts or cancels a previously issued invoice' },
+  { name: 'Invoice', slug: 'invoice', searches: '40,500/mo', description: 'A commercial document requesting payment for goods or services provided' },
+  { name: 'TFN', slug: 'tfn', searches: '12,100/mo', description: 'Tax File Number — your unique 9-digit ATO tax identifier' },
+  { name: 'PI Insurance', slug: 'professional-indemnity', searches: '6,600/mo', description: 'Professional Indemnity — insurance against negligence and errors claims' },
+  { name: 'ACN', slug: 'acn', searches: '5,400/mo', description: 'Australian Company Number — 9-digit ASIC identifier for registered companies' },
 ];
 
 export default function GlossaryHub() {
@@ -319,6 +337,21 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/sole-trader" className="text-sky-400 hover:text-sky-300 font-medium">Sole Traders in AU</Link></td>
                 <td className="px-6 py-4 text-white font-medium">2.47 million</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Active sole traders in Australia (ABS)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/tfn" className="text-sky-400 hover:text-sky-300 font-medium">TFN Withholding</Link></td>
+                <td className="px-6 py-4 text-white font-medium">47%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Highest marginal rate withheld if you don&apos;t quote your TFN</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/acn" className="text-sky-400 hover:text-sky-300 font-medium">ACN Registration</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$576</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Cost to register a Pty Ltd company with ASIC</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/professional-indemnity" className="text-sky-400 hover:text-sky-300 font-medium">PI Insurance</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$300-$700/yr</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical PI insurance cost for Australian freelancers</td>
               </tr>
             </tbody>
           </table>
