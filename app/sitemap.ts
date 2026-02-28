@@ -58,6 +58,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/in/hobart`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/in/darwin`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/templates`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    // Integration landing pages (payment/accounting SEO)
+    { url: `${baseUrl}/integrations`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/integrations/stripe`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/integrations/paypal`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/integrations/xero`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/integrations/bank-feeds`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     // Use case landing pages (billing workflow SEO)
     { url: `${baseUrl}/use-cases`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/use-cases/recurring-invoicing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
