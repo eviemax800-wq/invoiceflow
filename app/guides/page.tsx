@@ -6,7 +6,7 @@ import EmailCapture from '@/app/tools/components/EmailCapture';
 export const metadata: Metadata = {
   title: 'Free Business Guides for Australian Freelancers — InvoiceFlow',
   description:
-    'Comprehensive guides on GST, invoicing, getting paid faster, setting rates, and running a freelance business in Australia. Written for sole traders, contractors, and freelancers.',
+    'Comprehensive guides on GST, tax, ABN, invoicing, superannuation, EOFY preparation, getting paid faster, and setting rates in Australia. Written for sole traders, contractors, and freelancers.',
   alternates: { canonical: '/guides' },
   openGraph: {
     title: 'Free Business Guides — InvoiceFlow',
@@ -75,7 +75,7 @@ const itemListSchema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: 'Free Business Guides for Australian Freelancers',
-  numberOfItems: 4,
+  numberOfItems: 8,
   itemListElement: [
     {
       '@type': 'ListItem',
@@ -100,6 +100,30 @@ const itemListSchema = {
       position: 4,
       name: 'How to Set Your Freelance Rates in Australia',
       url: 'https://invoiceflow-teal.vercel.app/guides/setting-freelance-rates',
+    },
+    {
+      '@type': 'ListItem',
+      position: 5,
+      name: 'The Complete Tax Guide for Australian Freelancers',
+      url: 'https://invoiceflow-teal.vercel.app/guides/tax-guide-freelancers',
+    },
+    {
+      '@type': 'ListItem',
+      position: 6,
+      name: 'ABN Guide: Everything Freelancers Need to Know',
+      url: 'https://invoiceflow-teal.vercel.app/guides/abn-guide',
+    },
+    {
+      '@type': 'ListItem',
+      position: 7,
+      name: 'Superannuation Guide for Australian Freelancers',
+      url: 'https://invoiceflow-teal.vercel.app/guides/superannuation-for-freelancers',
+    },
+    {
+      '@type': 'ListItem',
+      position: 8,
+      name: 'End of Financial Year Guide for Australian Freelancers',
+      url: 'https://invoiceflow-teal.vercel.app/guides/eofy-guide',
     },
   ],
 };
@@ -157,6 +181,58 @@ const guides = [
       </svg>
     ),
   },
+  {
+    slug: 'tax-guide-freelancers',
+    title: 'The Complete Tax Guide for Freelancers',
+    description: 'Income tax brackets, PAYG installments, tax deductions, superannuation, record keeping, and lodging your tax return — the full picture for Australian freelancers.',
+    keywords: ['income tax', 'PAYG', 'tax brackets', 'deductions', 'tax return'],
+    readTime: '14 min read',
+    color: 'sky',
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+      </svg>
+    ),
+  },
+  {
+    slug: 'abn-guide',
+    title: 'ABN Guide: Everything You Need to Know',
+    description: 'How to apply for an ABN, when you need one, the 47% withholding rule, displaying your ABN on invoices, and managing your business number.',
+    keywords: ['ABN', '47% withholding', 'ABN application', 'business number', 'invoices'],
+    readTime: '10 min read',
+    color: 'rose',
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
+      </svg>
+    ),
+  },
+  {
+    slug: 'superannuation-for-freelancers',
+    title: 'Superannuation Guide for Freelancers',
+    description: 'Voluntary contributions, tax deductions, government co-contribution, choosing a fund, and building retirement savings when nobody pays super for you.',
+    keywords: ['superannuation', 'voluntary super', 'tax deduction', 'retirement', 'co-contribution'],
+    readTime: '11 min read',
+    color: 'teal',
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+      </svg>
+    ),
+  },
+  {
+    slug: 'eofy-guide',
+    title: 'End of Financial Year Guide',
+    description: 'The complete EOFY checklist: income reconciliation, deduction maximisation, super contributions, BAS preparation, and tax return lodging before June 30.',
+    keywords: ['EOFY', 'financial year', 'tax return', 'deductions', 'BAS'],
+    readTime: '12 min read',
+    color: 'orange',
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+      </svg>
+    ),
+  },
 ];
 
 const colorMap: Record<string, { bg: string; border: string; text: string; badge: string }> = {
@@ -164,6 +240,10 @@ const colorMap: Record<string, { bg: string; border: string; text: string; badge
   blue: { bg: 'bg-blue-500/10', border: 'border-blue-500/20', text: 'text-blue-400', badge: 'bg-blue-500/20 text-blue-300' },
   amber: { bg: 'bg-amber-500/10', border: 'border-amber-500/20', text: 'text-amber-400', badge: 'bg-amber-500/20 text-amber-300' },
   violet: { bg: 'bg-violet-500/10', border: 'border-violet-500/20', text: 'text-violet-400', badge: 'bg-violet-500/20 text-violet-300' },
+  sky: { bg: 'bg-sky-500/10', border: 'border-sky-500/20', text: 'text-sky-400', badge: 'bg-sky-500/20 text-sky-300' },
+  rose: { bg: 'bg-rose-500/10', border: 'border-rose-500/20', text: 'text-rose-400', badge: 'bg-rose-500/20 text-rose-300' },
+  teal: { bg: 'bg-teal-500/10', border: 'border-teal-500/20', text: 'text-teal-400', badge: 'bg-teal-500/20 text-teal-300' },
+  orange: { bg: 'bg-orange-500/10', border: 'border-orange-500/20', text: 'text-orange-400', badge: 'bg-orange-500/20 text-orange-300' },
 };
 
 export default function GuidesHub() {
