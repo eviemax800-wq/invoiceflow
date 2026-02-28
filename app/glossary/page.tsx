@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 20,
+  numberOfItems: 24,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -62,6 +62,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 18, name: 'Contractor vs Employee', url: 'https://invoiceflow-teal.vercel.app/glossary/contractor-vs-employee' },
     { '@type': 'ListItem', position: 19, name: 'Income Tax', url: 'https://invoiceflow-teal.vercel.app/glossary/income-tax' },
     { '@type': 'ListItem', position: 20, name: 'Purchase Order', url: 'https://invoiceflow-teal.vercel.app/glossary/purchase-order' },
+    { '@type': 'ListItem', position: 21, name: 'Profit and Loss Statement', url: 'https://invoiceflow-teal.vercel.app/glossary/profit-and-loss' },
+    { '@type': 'ListItem', position: 22, name: 'Retainer Agreement', url: 'https://invoiceflow-teal.vercel.app/glossary/retainer' },
+    { '@type': 'ListItem', position: 23, name: 'Quote (Quotation)', url: 'https://invoiceflow-teal.vercel.app/glossary/quote' },
+    { '@type': 'ListItem', position: 24, name: 'Scope Creep', url: 'https://invoiceflow-teal.vercel.app/glossary/scope-creep' },
   ],
 };
 
@@ -135,6 +139,7 @@ const categories = [
       { name: 'Tax Invoice', full: 'Tax Invoice', slug: 'tax-invoice', description: 'The GST document your clients need to claim input tax credits from the ATO.' },
       { name: 'Credit Note', full: 'Credit Note', slug: 'credit-note', description: 'A document that reduces or cancels the amount on a previously issued invoice.' },
       { name: 'PO', full: 'Purchase Order', slug: 'purchase-order', description: 'A buyer\'s document authorising a purchase. Required by corporates and government agencies.' },
+      { name: 'Quote', full: 'Quote (Quotation)', slug: 'quote', description: 'A formal document stating a fixed price for a specific scope of work. Becomes binding on acceptance.' },
     ],
   },
   {
@@ -144,6 +149,7 @@ const categories = [
       { name: 'Cash Flow', full: 'Cash Flow', slug: 'cash-flow', description: 'The movement of money in and out of your business. Positive cash flow = survival.' },
       { name: 'AR', full: 'Accounts Receivable', slug: 'accounts-receivable', description: 'Money owed to you by clients for work completed. Your outstanding invoices.' },
       { name: 'Terms', full: 'Payment Terms', slug: 'payment-terms', description: 'Conditions for when and how invoices must be paid. Net 30, Due on Receipt, EOM, and more.' },
+      { name: 'Retainer', full: 'Retainer Agreement', slug: 'retainer', description: 'A recurring fee arrangement where a client reserves your time, expertise, or deliverables on an ongoing basis.' },
     ],
   },
   {
@@ -157,10 +163,24 @@ const categories = [
     ],
   },
   {
+    name: 'Financial Reporting',
+    color: 'from-lime-500 to-green-500',
+    terms: [
+      { name: 'P&L', full: 'Profit and Loss Statement', slug: 'profit-and-loss', description: 'A summary of your income and expenses over a period, showing whether your business made a profit or loss.' },
+    ],
+  },
+  {
     name: 'Business Protection',
     color: 'from-emerald-500 to-green-500',
     terms: [
       { name: 'PI Insurance', full: 'Professional Indemnity Insurance', slug: 'professional-indemnity', description: 'Insurance protecting against claims of negligence, errors, or bad advice. Essential for service providers.' },
+    ],
+  },
+  {
+    name: 'Project Management',
+    color: 'from-red-500 to-rose-500',
+    terms: [
+      { name: 'Scope Creep', full: 'Scope Creep', slug: 'scope-creep', description: 'The gradual, uncontrolled expansion of project requirements beyond the original scope — the #1 profitability killer.' },
     ],
   },
 ];
@@ -186,6 +206,10 @@ const popularTerms = [
   { name: 'Contractor vs Employee', slug: 'contractor-vs-employee', searches: '22,200/mo', description: 'The ATO\'s multi-factor test that determines tax, super, and legal obligations' },
   { name: 'Income Tax', slug: 'income-tax', searches: '33,100/mo', description: 'How much tax freelancers pay — 2025-26 brackets, deductions, PAYG instalments' },
   { name: 'Purchase Order', slug: 'purchase-order', searches: '18,100/mo', description: 'A buyer\'s document authorising a purchase — required by corporates and government' },
+  { name: 'P&L Statement', slug: 'profit-and-loss', searches: '14,800/mo', description: 'Profit and Loss Statement — your income minus expenses, showing business health' },
+  { name: 'Retainer', slug: 'retainer', searches: '9,900/mo', description: 'Recurring fee arrangement for ongoing client work — the "holy grail" of freelance billing' },
+  { name: 'Quote', slug: 'quote', searches: '22,200/mo', description: 'A formal fixed-price document sent before work begins — becomes binding on acceptance' },
+  { name: 'Scope Creep', slug: 'scope-creep', searches: '8,100/mo', description: 'Uncontrolled expansion of project requirements — the #1 profitability killer for freelancers' },
 ];
 
 export default function GlossaryHub() {
@@ -422,6 +446,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/purchase-order" className="text-sky-400 hover:text-sky-300 font-medium">PO 3-Way Match</Link></td>
                 <td className="px-6 py-4 text-white font-medium">PO + Invoice + Delivery</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Standard corporate matching process before releasing payment</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/profit-and-loss" className="text-sky-400 hover:text-sky-300 font-medium">Healthy Net Margin</Link></td>
+                <td className="px-6 py-4 text-white font-medium">50-70%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Target net profit margin for freelance service businesses</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/retainer" className="text-sky-400 hover:text-sky-300 font-medium">Retainer Discount</Link></td>
+                <td className="px-6 py-4 text-white font-medium">10-15%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Standard discount off project rate for retainer commitment</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/quote" className="text-sky-400 hover:text-sky-300 font-medium">Quote Validity</Link></td>
+                <td className="px-6 py-4 text-white font-medium">14-30 days</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Standard validity period for freelance quotes in Australia</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/scope-creep" className="text-sky-400 hover:text-sky-300 font-medium">Projects Affected</Link></td>
+                <td className="px-6 py-4 text-white font-medium">52%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Percentage of projects that experience scope creep (PMI)</td>
               </tr>
             </tbody>
           </table>
