@@ -6,7 +6,7 @@ import EmailCapture from '@/app/tools/components/EmailCapture';
 export const metadata: Metadata = {
   title: 'Use Cases — How Australian Freelancers Use InvoiceFlow',
   description:
-    'Discover how InvoiceFlow handles recurring invoicing, milestone billing, time-based billing, quote-to-invoice, deposit invoicing, international invoicing, expense reimbursement, and batch invoicing. Built for Australian freelancers and sole traders.',
+    'Discover how InvoiceFlow handles 12 billing workflows: recurring invoicing, milestone billing, time-based billing, quote-to-invoice, deposit invoicing, international invoicing, expense reimbursement, batch invoicing, retainer billing, overdue management, credit notes, and proforma invoicing. Built for Australian freelancers.',
   alternates: { canonical: '/use-cases' },
   openGraph: {
     title: 'InvoiceFlow Use Cases — Billing Workflows for Every Freelancer',
@@ -29,7 +29,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'InvoiceFlow Use Cases',
   description: 'Billing workflows and use cases for Australian freelancers',
-  numberOfItems: 8,
+  numberOfItems: 12,
   itemListElement: [
     {
       '@type': 'ListItem',
@@ -78,6 +78,30 @@ const itemListSchema = {
       position: 8,
       name: 'Batch Invoicing',
       url: 'https://invoiceflow-teal.vercel.app/use-cases/batch-invoicing',
+    },
+    {
+      '@type': 'ListItem',
+      position: 9,
+      name: 'Retainer Billing',
+      url: 'https://invoiceflow-teal.vercel.app/use-cases/retainer-billing',
+    },
+    {
+      '@type': 'ListItem',
+      position: 10,
+      name: 'Overdue Invoice Management',
+      url: 'https://invoiceflow-teal.vercel.app/use-cases/overdue-management',
+    },
+    {
+      '@type': 'ListItem',
+      position: 11,
+      name: 'Credit Notes & Adjustments',
+      url: 'https://invoiceflow-teal.vercel.app/use-cases/credit-notes',
+    },
+    {
+      '@type': 'ListItem',
+      position: 12,
+      name: 'Proforma Invoicing',
+      url: 'https://invoiceflow-teal.vercel.app/use-cases/proforma-invoicing',
     },
   ],
 };
@@ -234,6 +258,58 @@ const useCases = [
       </svg>
     ),
   },
+  {
+    title: 'Retainer Billing',
+    description: 'Manage retainer clients with balance tracking, overage billing, rollover rules, and professional balance reports.',
+    href: '/use-cases/retainer-billing',
+    color: 'from-cyan-500 to-sky-400',
+    targets: 'Consultants, lawyers, accountants, marketing agencies, IT contractors',
+    keywords: ['retainer billing', 'retainer management', 'monthly retainer invoicing'],
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Overdue Invoice Management',
+    description: 'Automate payment reminders, track overdue invoices, calculate late fees, and escalate professionally.',
+    href: '/use-cases/overdue-management',
+    color: 'from-red-500 to-rose-400',
+    targets: 'All freelancers and sole traders dealing with late payments',
+    keywords: ['overdue invoices', 'payment reminders', 'late payment management'],
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Credit Notes & Adjustments',
+    description: 'Issue ATO-compliant credit notes for refunds, corrections, and adjustments. Linked to original invoices with GST auto-adjusted.',
+    href: '/use-cases/credit-notes',
+    color: 'from-violet-500 to-purple-400',
+    targets: 'Web developers, designers, consultants, photographers',
+    keywords: ['credit notes', 'adjustment notes', 'refund invoicing'],
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 14.25l6-6m4.5-3.493V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0c1.1.128 1.907 1.077 1.907 2.185zM9.75 9h.008v.008H9.75V9zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm4.125 4.5h.008v.008h-.008V13.5zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Proforma Invoicing',
+    description: 'Create preliminary invoices for client approval before work begins. Convert to tax invoices with one click on acceptance.',
+    href: '/use-cases/proforma-invoicing',
+    color: 'from-emerald-500 to-teal-400',
+    targets: 'Web developers, architects, consultants, tradies, photographers',
+    keywords: ['proforma invoice', 'preliminary invoice', 'pre-invoice approval'],
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25h.375a9 9 0 019 9v.375M10.125 2.25A3.375 3.375 0 0113.5 5.625v1.5c0 .621.504 1.125 1.125 1.125h1.5a3.375 3.375 0 013.375 3.375M9 15l2.25 2.25L15 12" />
+      </svg>
+    ),
+  },
 ];
 
 export default function UseCasesPage() {
@@ -289,7 +365,7 @@ export default function UseCasesPage() {
       <section className="mx-auto max-w-4xl px-6 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { num: '8', label: 'Billing workflows' },
+            { num: '12', label: 'Billing workflows' },
             { num: '$0', label: 'To start' },
             { num: '100+', label: 'Free tools' },
             { num: '30s', label: 'To create an invoice' },

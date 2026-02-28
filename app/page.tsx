@@ -298,6 +298,10 @@ export default function HomePage() {
             <Link href="/use-cases/milestone-billing" className="hover:text-white">Milestone Billing</Link>
             <Link href="/use-cases/time-billing" className="hover:text-white">Time Billing</Link>
             <Link href="/use-cases/quote-to-invoice" className="hover:text-white">Quote to Invoice</Link>
+            <Link href="/use-cases/retainer-billing" className="hover:text-white">Retainer Billing</Link>
+            <Link href="/use-cases/overdue-management" className="hover:text-white">Overdue Management</Link>
+            <Link href="/use-cases/credit-notes" className="hover:text-white">Credit Notes</Link>
+            <Link href="/use-cases/proforma-invoicing" className="hover:text-white">Proforma Invoicing</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
           </div>
