@@ -265,6 +265,10 @@ export default function ComparePage() {
             { title: 'Xero vs FreshBooks', desc: 'Full accounting suite ($35/mo) vs invoicing-first platform ($24/mo). Which wins for freelancers?', href: '/compare/xero-vs-freshbooks', colors: 'from-blue-500/20 to-green-500/20' },
             { title: 'FreshBooks vs Wave', desc: 'Wave killed their free plan. Now both charge — but there\'s still a free option.', href: '/compare/freshbooks-vs-wave', colors: 'from-green-500/20 to-cyan-500/20' },
             { title: 'MYOB vs QuickBooks', desc: '30 years of AU heritage vs the $108B Intuit giant. Both overbuilt for freelancers.', href: '/compare/myob-vs-quickbooks', colors: 'from-purple-500/20 to-red-500/20' },
+            { title: 'Xero vs QuickBooks', desc: 'AU market leader ($35/mo) vs global giant ($20/mo). Xero has 78% AU share, QuickBooks has 1.1/5 Trustpilot.', href: '/compare/xero-vs-quickbooks', colors: 'from-blue-500/20 to-red-500/20' },
+            { title: 'QuickBooks vs FreshBooks', desc: 'Two invoicing-focused tools go head-to-head. QuickBooks caps at 2 invoices, FreshBooks caps at 5 clients.', href: '/compare/quickbooks-vs-freshbooks', colors: 'from-red-500/20 to-green-500/20' },
+            { title: 'QuickBooks vs Wave', desc: 'Both rated under 1.5/5 on Trustpilot. Wave has payment holds, QuickBooks has a 2-invoice cap.', href: '/compare/quickbooks-vs-wave', colors: 'from-red-500/20 to-cyan-500/20' },
+            { title: 'MYOB vs FreshBooks', desc: 'AU legacy giant meets Canadian challenger. MYOB has phone support, FreshBooks has better UX.', href: '/compare/myob-vs-freshbooks', colors: 'from-purple-500/20 to-green-500/20' },
           ].map((item) => (
             <Link key={item.href} href={item.href} className={`glass rounded-2xl p-6 hover:border-teal-400/20 border border-transparent transition-colors bg-gradient-to-br ${item.colors}`}>
               <h4 className="text-lg font-semibold text-white heading-font mb-2">{item.title}</h4>
