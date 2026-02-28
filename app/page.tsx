@@ -293,6 +293,11 @@ export default function HomePage() {
             <Link href="/guides/invoicing-101" className="hover:text-white">Invoicing 101</Link>
             <Link href="/guides/getting-paid-faster" className="hover:text-white">Getting Paid Faster</Link>
             <Link href="/guides/setting-freelance-rates" className="hover:text-white">Setting Rates</Link>
+            <Link href="/use-cases" className="hover:text-white">Use Cases</Link>
+            <Link href="/use-cases/recurring-invoicing" className="hover:text-white">Recurring Invoicing</Link>
+            <Link href="/use-cases/milestone-billing" className="hover:text-white">Milestone Billing</Link>
+            <Link href="/use-cases/time-billing" className="hover:text-white">Time Billing</Link>
+            <Link href="/use-cases/quote-to-invoice" className="hover:text-white">Quote to Invoice</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
           </div>

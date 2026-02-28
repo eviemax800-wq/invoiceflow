@@ -50,6 +50,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/in/hobart`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/in/darwin`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/templates`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    // Use case landing pages (billing workflow SEO)
+    { url: `${baseUrl}/use-cases`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/use-cases/recurring-invoicing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/use-cases/milestone-billing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/use-cases/time-billing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/use-cases/quote-to-invoice`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     // Guides (comprehensive how-to content)
     { url: `${baseUrl}/guides`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${baseUrl}/guides/gst-for-freelancers`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
