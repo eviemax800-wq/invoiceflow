@@ -92,6 +92,9 @@ export default function HomePage() {
             <Link href="/templates" className="text-sm text-slate-300 hover:text-white transition-colors hidden sm:inline">
               Templates
             </Link>
+            <Link href="/guides" className="text-sm text-slate-300 hover:text-white transition-colors hidden sm:inline">
+              Guides
+            </Link>
             <Link href="/login">
               <Button variant="ghost">Login</Button>
             </Link>
@@ -285,6 +288,11 @@ export default function HomePage() {
             <Link href="/in/canberra" className="hover:text-white">Canberra</Link>
             <Link href="/in/hobart" className="hover:text-white">Hobart</Link>
             <Link href="/in/darwin" className="hover:text-white">Darwin</Link>
+            <Link href="/guides" className="hover:text-white">Guides</Link>
+            <Link href="/guides/gst-for-freelancers" className="hover:text-white">GST Guide</Link>
+            <Link href="/guides/invoicing-101" className="hover:text-white">Invoicing 101</Link>
+            <Link href="/guides/getting-paid-faster" className="hover:text-white">Getting Paid Faster</Link>
+            <Link href="/guides/setting-freelance-rates" className="hover:text-white">Setting Rates</Link>
             <Link href="/privacy" className="hover:text-white">Privacy</Link>
             <Link href="/terms" className="hover:text-white">Terms</Link>
           </div>
