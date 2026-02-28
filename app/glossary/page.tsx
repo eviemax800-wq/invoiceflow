@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 16,
+  numberOfItems: 20,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -58,6 +58,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 14, name: 'Cash Flow', url: 'https://invoiceflow-teal.vercel.app/glossary/cash-flow' },
     { '@type': 'ListItem', position: 15, name: 'Pty Ltd (Proprietary Limited)', url: 'https://invoiceflow-teal.vercel.app/glossary/pty-ltd' },
     { '@type': 'ListItem', position: 16, name: 'Depreciation', url: 'https://invoiceflow-teal.vercel.app/glossary/depreciation' },
+    { '@type': 'ListItem', position: 17, name: 'Payment Terms', url: 'https://invoiceflow-teal.vercel.app/glossary/payment-terms' },
+    { '@type': 'ListItem', position: 18, name: 'Contractor vs Employee', url: 'https://invoiceflow-teal.vercel.app/glossary/contractor-vs-employee' },
+    { '@type': 'ListItem', position: 19, name: 'Income Tax', url: 'https://invoiceflow-teal.vercel.app/glossary/income-tax' },
+    { '@type': 'ListItem', position: 20, name: 'Purchase Order', url: 'https://invoiceflow-teal.vercel.app/glossary/purchase-order' },
   ],
 };
 
@@ -120,6 +124,7 @@ const categories = [
       { name: 'Super', full: 'Superannuation', slug: 'superannuation', description: 'Australia\'s mandatory retirement savings system. 11.5% guarantee rate for 2025-26.' },
       { name: 'TFN', full: 'Tax File Number (TFN)', slug: 'tfn', description: 'Your unique 9-digit tax identifier issued by the ATO. Required for tax returns and bank accounts.' },
       { name: 'Depreciation', full: 'Depreciation', slug: 'depreciation', description: 'Spreading the cost of business assets over their useful life for tax deductions. $20K instant write-off.' },
+      { name: 'Income Tax', full: 'Income Tax', slug: 'income-tax', description: 'Tax on your freelance earnings. $18,200 tax-free threshold, then progressive rates up to 45%.' },
     ],
   },
   {
@@ -129,6 +134,7 @@ const categories = [
       { name: 'Invoice', full: 'Invoice', slug: 'invoice', description: 'A commercial document requesting payment for goods or services. The foundation of getting paid.' },
       { name: 'Tax Invoice', full: 'Tax Invoice', slug: 'tax-invoice', description: 'The GST document your clients need to claim input tax credits from the ATO.' },
       { name: 'Credit Note', full: 'Credit Note', slug: 'credit-note', description: 'A document that reduces or cancels the amount on a previously issued invoice.' },
+      { name: 'PO', full: 'Purchase Order', slug: 'purchase-order', description: 'A buyer\'s document authorising a purchase. Required by corporates and government agencies.' },
     ],
   },
   {
@@ -137,6 +143,7 @@ const categories = [
     terms: [
       { name: 'Cash Flow', full: 'Cash Flow', slug: 'cash-flow', description: 'The movement of money in and out of your business. Positive cash flow = survival.' },
       { name: 'AR', full: 'Accounts Receivable', slug: 'accounts-receivable', description: 'Money owed to you by clients for work completed. Your outstanding invoices.' },
+      { name: 'Terms', full: 'Payment Terms', slug: 'payment-terms', description: 'Conditions for when and how invoices must be paid. Net 30, Due on Receipt, EOM, and more.' },
     ],
   },
   {
@@ -146,6 +153,7 @@ const categories = [
       { name: 'Sole Trader', full: 'Sole Trader', slug: 'sole-trader', description: 'The simplest business structure — an individual trading on their own.' },
       { name: 'ACN', full: 'Australian Company Number (ACN)', slug: 'acn', description: 'A 9-digit identifier for registered companies. Needed if you incorporate as a Pty Ltd.' },
       { name: 'Pty Ltd', full: 'Proprietary Limited Company (Pty Ltd)', slug: 'pty-ltd', description: 'The most common company structure in Australia. Separate legal entity with limited liability.' },
+      { name: 'C vs E', full: 'Contractor vs Employee', slug: 'contractor-vs-employee', description: 'The critical distinction that determines tax, super, leave, and legal obligations. Get it wrong = penalties.' },
     ],
   },
   {
@@ -174,6 +182,10 @@ const popularTerms = [
   { name: 'Pty Ltd', slug: 'pty-ltd', searches: '22,200/mo', description: 'Proprietary Limited Company — the most common company structure in Australia' },
   { name: 'Depreciation', slug: 'depreciation', searches: '18,100/mo', description: 'Spreading asset costs over time for tax deductions. $20K instant write-off in 2025-26' },
   { name: 'Accounts Receivable', slug: 'accounts-receivable', searches: '14,800/mo', description: 'Money owed to you by clients for completed work — your outstanding invoices' },
+  { name: 'Payment Terms', slug: 'payment-terms', searches: '12,100/mo', description: 'Net 30, Due on Receipt, EOM — conditions for when and how invoices must be paid' },
+  { name: 'Contractor vs Employee', slug: 'contractor-vs-employee', searches: '22,200/mo', description: 'The ATO\'s multi-factor test that determines tax, super, and legal obligations' },
+  { name: 'Income Tax', slug: 'income-tax', searches: '33,100/mo', description: 'How much tax freelancers pay — 2025-26 brackets, deductions, PAYG instalments' },
+  { name: 'Purchase Order', slug: 'purchase-order', searches: '18,100/mo', description: 'A buyer\'s document authorising a purchase — required by corporates and government' },
 ];
 
 export default function GlossaryHub() {
@@ -390,6 +402,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/pty-ltd" className="text-sky-400 hover:text-sky-300 font-medium">Company Tax Rate</Link></td>
                 <td className="px-6 py-4 text-white font-medium">25%</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Base rate entity company tax rate (turnover under $50M)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/payment-terms" className="text-sky-400 hover:text-sky-300 font-medium">Standard Payment Terms</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Net 30</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Most common payment terms for Australian freelancers (34-day AU average)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/contractor-vs-employee" className="text-sky-400 hover:text-sky-300 font-medium">Sham Contracting Penalty</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$469,500</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Maximum penalty per contravention for sham contracting (company)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/income-tax" className="text-sky-400 hover:text-sky-300 font-medium">Top Marginal Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">45% + 2% ML</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Income over $190,000 taxed at 45% plus 2% Medicare levy</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/purchase-order" className="text-sky-400 hover:text-sky-300 font-medium">PO 3-Way Match</Link></td>
+                <td className="px-6 py-4 text-white font-medium">PO + Invoice + Delivery</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Standard corporate matching process before releasing payment</td>
               </tr>
             </tbody>
           </table>
