@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 88,
+  numberOfItems: 92,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -130,6 +130,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 86, name: 'Cash Flow Statement', url: 'https://invoiceflow-teal.vercel.app/glossary/cash-flow-statement' },
     { '@type': 'ListItem', position: 87, name: 'General Ledger', url: 'https://invoiceflow-teal.vercel.app/glossary/general-ledger' },
     { '@type': 'ListItem', position: 88, name: 'Equity (Owner\'s Equity)', url: 'https://invoiceflow-teal.vercel.app/glossary/equity' },
+    { '@type': 'ListItem', position: 89, name: 'Net 30 (Payment Terms)', url: 'https://invoiceflow-teal.vercel.app/glossary/net-30' },
+    { '@type': 'ListItem', position: 90, name: 'Intellectual Property (IP)', url: 'https://invoiceflow-teal.vercel.app/glossary/intellectual-property' },
+    { '@type': 'ListItem', position: 91, name: 'Marginal Tax Rate', url: 'https://invoiceflow-teal.vercel.app/glossary/marginal-tax-rate' },
+    { '@type': 'ListItem', position: 92, name: 'Cost of Goods Sold (COGS)', url: 'https://invoiceflow-teal.vercel.app/glossary/cost-of-goods-sold' },
   ],
 };
 
@@ -209,6 +213,7 @@ const categories = [
       { name: 'PSI', full: 'Personal Services Income (PSI)', slug: 'personal-services-income', description: 'Income mainly from your personal effort and skills. 80% rule, 4 PSB tests, restricted deductions for non-PSB freelancers.' },
       { name: 'Write-Off', full: 'Instant Asset Write-Off', slug: 'instant-asset-write-off', description: 'Immediately deduct the full cost of business assets under $20,000. Division 328 simplified depreciation for SBEs.' },
       { name: 'WFH', full: 'Work From Home Deductions', slug: 'work-from-home-deductions', description: 'Claim home office costs — 67c/hr fixed rate or actual cost method. Running expenses, occupancy, and assets.' },
+      { name: 'Marginal Rate', full: 'Marginal Tax Rate', slug: 'marginal-tax-rate', description: 'Tax rate on your NEXT dollar earned — not your entire income. 2025-26 brackets: 0%/16%/30%/37%/45%.' },
     ],
   },
   {
@@ -239,6 +244,7 @@ const categories = [
       { name: 'Pro Rata', full: 'Pro Rata', slug: 'pro-rata', description: 'Proportional calculation of amounts based on time or usage — essential for partial-period billing and refunds.' },
       { name: 'Deposit', full: 'Deposit (Upfront Payment)', slug: 'deposit', description: 'Partial upfront payment securing commitment to a project — typically 20-50% of total project value.' },
       { name: 'Strategy', full: 'Pricing Strategy', slug: 'pricing-strategy', description: 'Your approach to setting rates — hourly, project-based, value-based, or retainer. Affects revenue and positioning.' },
+      { name: 'Net 30', full: 'Net 30 (Payment Terms)', slug: 'net-30', description: 'Payment due 30 calendar days from invoice date. The most common payment term in Australian business.' },
     ],
   },
   {
@@ -289,6 +295,7 @@ const categories = [
       { name: 'CFS', full: 'Cash Flow Statement', slug: 'cash-flow-statement', description: 'Financial report showing cash inflows and outflows across operating, investing, and financing activities (AASB 107).' },
       { name: 'GL', full: 'General Ledger', slug: 'general-ledger', description: 'The master record of all financial transactions — the backbone of double-entry bookkeeping and financial reporting.' },
       { name: 'Equity', full: 'Equity (Owner\'s Equity)', slug: 'equity', description: 'What you own minus what you owe — your net worth in the business. Assets minus liabilities on the balance sheet.' },
+      { name: 'COGS', full: 'Cost of Goods Sold (COGS)', slug: 'cost-of-goods-sold', description: 'Direct costs of delivering services or products sold. Revenue minus COGS equals gross profit.' },
     ],
   },
   {
@@ -309,6 +316,7 @@ const categories = [
       { name: 'PLI', full: 'Public Liability Insurance', slug: 'public-liability', description: 'Insurance covering third-party injury and property damage. Essential for on-site work.' },
       { name: 'WorkCover', full: 'Workers Compensation', slug: 'workers-compensation', description: 'Compulsory insurance covering workplace injuries for employees. Mandatory once you hire anyone.' },
       { name: 'Insurance', full: 'Business Insurance', slug: 'business-insurance', description: 'Protection against financial losses — PI, PL, cyber, income protection, and more. Some types legally required.' },
+      { name: 'IP', full: 'Intellectual Property (IP)', slug: 'intellectual-property', description: 'Your creative works, designs, and inventions. Freelancers own IP by default in Australia (Copyright Act 1968 s35(6)).' },
     ],
   },
   {
@@ -410,6 +418,10 @@ const popularTerms = [
   { name: 'Cash Flow Statement', slug: 'cash-flow-statement', searches: '22,200/mo', description: 'Statement of cash flows — operating, investing, financing activities. AASB 107, direct vs indirect method' },
   { name: 'General Ledger', slug: 'general-ledger', searches: '18,100/mo', description: 'The master record of all financial transactions — T-accounts, journal entries, trial balance for freelancers' },
   { name: 'Equity', slug: 'equity', searches: '33,100/mo', description: 'Owner\'s equity — assets minus liabilities, your net worth in the business. Balance sheet component' },
+  { name: 'Net 30', slug: 'net-30', searches: '40,500/mo', description: 'Net 30 payment terms — 30 calendar days from invoice date, most common business payment term in Australia' },
+  { name: 'Intellectual Property', slug: 'intellectual-property', searches: '27,100/mo', description: 'IP rights for freelancers — copyright, trademarks, patents. Freelancers own IP by default (Copyright Act 1968)' },
+  { name: 'Marginal Tax Rate', slug: 'marginal-tax-rate', searches: '49,500/mo', description: 'Tax rate on next dollar earned — 2025-26 ATO brackets: 0%/16%/30%/37%/45% plus 2% Medicare Levy' },
+  { name: 'COGS', slug: 'cost-of-goods-sold', searches: '22,200/mo', description: 'Cost of Goods Sold — direct costs of delivering services. Revenue minus COGS = gross profit margin' },
 ];
 
 export default function GlossaryHub() {
@@ -996,6 +1008,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/equity" className="text-sky-400 hover:text-sky-300 font-medium">Equity Formula</Link></td>
                 <td className="px-6 py-4 text-white font-medium">Assets − Liabilities</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Owner&apos;s equity = total assets minus total liabilities — your net worth in the business</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/net-30" className="text-sky-400 hover:text-sky-300 font-medium">Net 30 Standard</Link></td>
+                <td className="px-6 py-4 text-white font-medium">30 days</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Most common business payment term — 30 calendar days from invoice date</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/intellectual-property" className="text-sky-400 hover:text-sky-300 font-medium">IP Ownership Default</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Creator owns</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Freelancers/contractors own IP by default in Australia (Copyright Act 1968 s35(6))</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/marginal-tax-rate" className="text-sky-400 hover:text-sky-300 font-medium">Common Freelancer Bracket</Link></td>
+                <td className="px-6 py-4 text-white font-medium">30% ($45K-$135K)</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Most Australian freelancers fall in the 30% marginal bracket (2025-26)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/cost-of-goods-sold" className="text-sky-400 hover:text-sky-300 font-medium">Service Business COGS</Link></td>
+                <td className="px-6 py-4 text-white font-medium">20-40%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical COGS range for service-based freelancers (subcontractors, materials, licenses)</td>
               </tr>
             </tbody>
           </table>
