@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 56,
+  numberOfItems: 60,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -98,6 +98,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 54, name: 'Net Income', url: 'https://invoiceflow-teal.vercel.app/glossary/net-income' },
     { '@type': 'ListItem', position: 55, name: 'Tax Offset', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-offset' },
     { '@type': 'ListItem', position: 56, name: 'Invoice Aging', url: 'https://invoiceflow-teal.vercel.app/glossary/invoice-aging' },
+    { '@type': 'ListItem', position: 57, name: 'Financial Year', url: 'https://invoiceflow-teal.vercel.app/glossary/financial-year' },
+    { '@type': 'ListItem', position: 58, name: 'Tax Planning', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-planning' },
+    { '@type': 'ListItem', position: 59, name: 'Billing Cycle', url: 'https://invoiceflow-teal.vercel.app/glossary/billing-cycle' },
+    { '@type': 'ListItem', position: 60, name: 'Expense Report', url: 'https://invoiceflow-teal.vercel.app/glossary/expense-report' },
   ],
 };
 
@@ -170,6 +174,8 @@ const categories = [
       { name: 'Expenses', full: 'Business Expenses', slug: 'business-expenses', description: 'Costs incurred running your business that are tax-deductible. Home office 67c/hr, vehicle 85c/km.' },
       { name: 'Records', full: 'Record Keeping', slug: 'record-keeping', description: 'Systematic retention of business documents. ATO requires 5 years of records from sole traders.' },
       { name: 'Tax Agent', full: 'Tax Agent', slug: 'tax-agent', description: 'TPB-registered professional who can lodge tax returns and BAS on your behalf. Fees $200-$600.' },
+      { name: 'FY', full: 'Financial Year', slug: 'financial-year', description: 'The 12-month accounting period (1 July to 30 June in Australia) used for tax and financial reporting.' },
+      { name: 'Tax Plan', full: 'Tax Planning', slug: 'tax-planning', description: 'Legal strategies to minimise your tax liability — timing income, maximising deductions, super contributions.' },
     ],
   },
   {
@@ -192,6 +198,7 @@ const categories = [
       { name: 'Billable Hrs', full: 'Billable Hours', slug: 'billable-hours', description: 'Time spent directly on client work that can be invoiced. Freelancers typically bill 60-70% of working hours.' },
       { name: 'Profit Margin', full: 'Profit Margin', slug: 'profit-margin', description: 'Percentage of revenue remaining as profit after expenses. Target 50-70% net margin for service businesses.' },
       { name: 'Hourly Rate', full: 'Hourly Rate', slug: 'hourly-rate', description: 'The amount you charge per hour of work. Most common freelancer pricing model. AU range: $50-$300+/hr.' },
+      { name: 'Billing Cycle', full: 'Billing Cycle', slug: 'billing-cycle', description: 'The recurring interval between invoices — weekly, monthly, or milestone-based. Affects cash flow timing.' },
     ],
   },
   {
@@ -228,6 +235,7 @@ const categories = [
       { name: 'Bookkeeping', full: 'Bookkeeping', slug: 'bookkeeping', description: 'Systematic recording of all financial transactions. ATO requires records kept for 5 years.' },
       { name: 'Dividend', full: 'Dividend', slug: 'dividend', description: 'Payment from a company to its shareholders from profits. Relevant when you incorporate as Pty Ltd.' },
       { name: 'Cash Basis', full: 'Cash Basis Accounting', slug: 'cash-basis-accounting', description: 'Recording income when received and expenses when paid. The default method for most AU sole traders.' },
+      { name: 'Expenses', full: 'Expense Report', slug: 'expense-report', description: 'A document summarising business expenses for tax deductions, BAS claims, and financial analysis.' },
     ],
   },
   {
@@ -314,6 +322,10 @@ const popularTerms = [
   { name: 'Net Income', slug: 'net-income', searches: '33,100/mo', description: 'Your actual take-home pay after expenses, tax, Medicare, and super — typically 55-65% of gross' },
   { name: 'Tax Offset', slug: 'tax-offset', searches: '18,100/mo', description: 'Dollar-for-dollar tax reduction — LITO up to $700, small business offset up to $1,000' },
   { name: 'Invoice Aging', slug: 'invoice-aging', searches: '9,900/mo', description: 'Tracking how long invoices have been unpaid — current, 30, 60, 90+ day buckets for collections' },
+  { name: 'Financial Year', slug: 'financial-year', searches: '40,500/mo', description: '1 July to 30 June in Australia — the 12-month period that determines your tax obligations and deadlines' },
+  { name: 'Tax Planning', slug: 'tax-planning', searches: '22,200/mo', description: 'Legal strategies to minimise tax — timing income, maximising deductions, super contributions' },
+  { name: 'Billing Cycle', slug: 'billing-cycle', searches: '14,800/mo', description: 'The recurring interval between invoices — weekly, fortnightly, monthly, or milestone-based' },
+  { name: 'Expense Report', slug: 'expense-report', searches: '18,100/mo', description: 'Business expense summary for tax deductions, BAS claims, and financial analysis — ATO requirements' },
 ];
 
 export default function GlossaryHub() {
@@ -735,6 +747,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/invoice-aging" className="text-sky-400 hover:text-sky-300 font-medium">Late Payment Risk</Link></td>
                 <td className="px-6 py-4 text-white font-medium">90+ days = 30%</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Invoices over 90 days overdue have only ~30% collection probability</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/financial-year" className="text-sky-400 hover:text-sky-300 font-medium">Financial Year (AU)</Link></td>
+                <td className="px-6 py-4 text-white font-medium">1 Jul – 30 Jun</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Australian financial year runs July to June — all tax obligations based on this period</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/tax-planning" className="text-sky-400 hover:text-sky-300 font-medium">Tax Reserve</Link></td>
+                <td className="px-6 py-4 text-white font-medium">30-35%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Recommended percentage of income to set aside for tax as a freelancer</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/billing-cycle" className="text-sky-400 hover:text-sky-300 font-medium">Most Common Cycle</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Monthly</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Monthly billing is the most common cycle for Australian freelancers and retainer clients</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/expense-report" className="text-sky-400 hover:text-sky-300 font-medium">Vehicle Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">85c/km</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ATO cents-per-kilometre rate for vehicle expenses in 2025-26 (max 5,000 km)</td>
               </tr>
             </tbody>
           </table>
