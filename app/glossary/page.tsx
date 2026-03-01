@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 84,
+  numberOfItems: 88,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -126,6 +126,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 82, name: 'Deposit (Upfront Payment)', url: 'https://invoiceflow-teal.vercel.app/glossary/deposit' },
     { '@type': 'ListItem', position: 83, name: 'Overhead Costs', url: 'https://invoiceflow-teal.vercel.app/glossary/overhead' },
     { '@type': 'ListItem', position: 84, name: 'Double-Entry Bookkeeping', url: 'https://invoiceflow-teal.vercel.app/glossary/double-entry-bookkeeping' },
+    { '@type': 'ListItem', position: 85, name: 'Pricing Strategy', url: 'https://invoiceflow-teal.vercel.app/glossary/pricing-strategy' },
+    { '@type': 'ListItem', position: 86, name: 'Cash Flow Statement', url: 'https://invoiceflow-teal.vercel.app/glossary/cash-flow-statement' },
+    { '@type': 'ListItem', position: 87, name: 'General Ledger', url: 'https://invoiceflow-teal.vercel.app/glossary/general-ledger' },
+    { '@type': 'ListItem', position: 88, name: 'Equity (Owner\'s Equity)', url: 'https://invoiceflow-teal.vercel.app/glossary/equity' },
   ],
 };
 
@@ -234,6 +238,7 @@ const categories = [
       { name: 'Milestone', full: 'Milestone Payment', slug: 'milestone-payment', description: 'Payment tied to specific project deliverables or phases — reduces risk for both freelancer and client.' },
       { name: 'Pro Rata', full: 'Pro Rata', slug: 'pro-rata', description: 'Proportional calculation of amounts based on time or usage — essential for partial-period billing and refunds.' },
       { name: 'Deposit', full: 'Deposit (Upfront Payment)', slug: 'deposit', description: 'Partial upfront payment securing commitment to a project — typically 20-50% of total project value.' },
+      { name: 'Strategy', full: 'Pricing Strategy', slug: 'pricing-strategy', description: 'Your approach to setting rates — hourly, project-based, value-based, or retainer. Affects revenue and positioning.' },
     ],
   },
   {
@@ -281,6 +286,9 @@ const categories = [
       { name: 'Revenue', full: 'Revenue', slug: 'revenue', description: 'The total income from business activities before expenses — the "top line" of your financials.' },
       { name: 'CoA', full: 'Chart of Accounts', slug: 'chart-of-accounts', description: 'A structured list of all financial accounts in your business — assets, liabilities, equity, income, expenses.' },
       { name: 'Double-Entry', full: 'Double-Entry Bookkeeping', slug: 'double-entry-bookkeeping', description: 'Every transaction recorded in two accounts (debit + credit). The global standard since 1494. Self-balancing and error-detecting.' },
+      { name: 'CFS', full: 'Cash Flow Statement', slug: 'cash-flow-statement', description: 'Financial report showing cash inflows and outflows across operating, investing, and financing activities (AASB 107).' },
+      { name: 'GL', full: 'General Ledger', slug: 'general-ledger', description: 'The master record of all financial transactions — the backbone of double-entry bookkeeping and financial reporting.' },
+      { name: 'Equity', full: 'Equity (Owner\'s Equity)', slug: 'equity', description: 'What you own minus what you owe — your net worth in the business. Assets minus liabilities on the balance sheet.' },
     ],
   },
   {
@@ -398,6 +406,10 @@ const popularTerms = [
   { name: 'Deposit', slug: 'deposit', searches: '14,800/mo', description: 'Upfront payment securing project commitment — typically 20-50%, GST applies on receipt' },
   { name: 'Overhead', slug: 'overhead', searches: '12,100/mo', description: 'Indirect business costs — software, insurance, marketing. Average freelancer overhead: 15-30% of revenue' },
   { name: 'Double-Entry', slug: 'double-entry-bookkeeping', searches: '9,900/mo', description: 'Double-entry bookkeeping — every transaction in two accounts (debit + credit). Global standard since 1494' },
+  { name: 'Pricing Strategy', slug: 'pricing-strategy', searches: '14,800/mo', description: 'Freelance pricing models — hourly, project-based, value-based, retainer. Rate calculation with ATO brackets' },
+  { name: 'Cash Flow Statement', slug: 'cash-flow-statement', searches: '22,200/mo', description: 'Statement of cash flows — operating, investing, financing activities. AASB 107, direct vs indirect method' },
+  { name: 'General Ledger', slug: 'general-ledger', searches: '18,100/mo', description: 'The master record of all financial transactions — T-accounts, journal entries, trial balance for freelancers' },
+  { name: 'Equity', slug: 'equity', searches: '33,100/mo', description: 'Owner\'s equity — assets minus liabilities, your net worth in the business. Balance sheet component' },
 ];
 
 export default function GlossaryHub() {
@@ -964,6 +976,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/double-entry-bookkeeping" className="text-sky-400 hover:text-sky-300 font-medium">Double-Entry Rule</Link></td>
                 <td className="px-6 py-4 text-white font-medium">Debit = Credit</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Every transaction recorded in two accounts — debits must always equal credits</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/pricing-strategy" className="text-sky-400 hover:text-sky-300 font-medium">Value-Based Premium</Link></td>
+                <td className="px-6 py-4 text-white font-medium">2-5× hourly rate</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Value-based pricing can yield 2-5× more than equivalent hourly billing</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/cash-flow-statement" className="text-sky-400 hover:text-sky-300 font-medium">CFS Sections</Link></td>
+                <td className="px-6 py-4 text-white font-medium">3 activities</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Cash flow statement covers operating, investing, and financing activities (AASB 107)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/general-ledger" className="text-sky-400 hover:text-sky-300 font-medium">GL Account Types</Link></td>
+                <td className="px-6 py-4 text-white font-medium">5 types</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Assets, liabilities, equity, income, and expenses — the five account categories in a general ledger</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/equity" className="text-sky-400 hover:text-sky-300 font-medium">Equity Formula</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Assets − Liabilities</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Owner&apos;s equity = total assets minus total liabilities — your net worth in the business</td>
               </tr>
             </tbody>
           </table>
