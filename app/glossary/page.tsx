@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 44,
+  numberOfItems: 48,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -86,6 +86,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 42, name: 'Tax Deduction', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-deduction' },
     { '@type': 'ListItem', position: 43, name: 'Gig Economy', url: 'https://invoiceflow-teal.vercel.app/glossary/gig-economy' },
     { '@type': 'ListItem', position: 44, name: 'Fringe Benefits Tax (FBT)', url: 'https://invoiceflow-teal.vercel.app/glossary/fringe-benefits-tax' },
+    { '@type': 'ListItem', position: 45, name: 'Invoice Template', url: 'https://invoiceflow-teal.vercel.app/glossary/invoice-template' },
+    { '@type': 'ListItem', position: 46, name: 'Overdue Invoice', url: 'https://invoiceflow-teal.vercel.app/glossary/overdue-invoice' },
+    { '@type': 'ListItem', position: 47, name: 'Business Expenses', url: 'https://invoiceflow-teal.vercel.app/glossary/business-expenses' },
+    { '@type': 'ListItem', position: 48, name: 'Cash Basis Accounting', url: 'https://invoiceflow-teal.vercel.app/glossary/cash-basis-accounting' },
   ],
 };
 
@@ -155,6 +159,7 @@ const categories = [
       { name: 'Withholding', full: 'Withholding Tax', slug: 'withholding-tax', description: 'Tax withheld from payments before you receive them. 47% without ABN, voluntary PAYG for freelancers.' },
       { name: 'Deduction', full: 'Tax Deduction', slug: 'tax-deduction', description: 'Expenses you can claim to reduce taxable income. Home office 67c/hr, vehicle 85c/km, $20K write-off.' },
       { name: 'FBT', full: 'Fringe Benefits Tax (FBT)', slug: 'fringe-benefits-tax', description: 'Tax on non-cash benefits provided to employees. 47% rate, separate from income tax.' },
+      { name: 'Expenses', full: 'Business Expenses', slug: 'business-expenses', description: 'Costs incurred running your business that are tax-deductible. Home office 67c/hr, vehicle 85c/km.' },
     ],
   },
   {
@@ -167,6 +172,7 @@ const categories = [
       { name: 'PO', full: 'Purchase Order', slug: 'purchase-order', description: 'A buyer\'s document authorising a purchase. Required by corporates and government agencies.' },
       { name: 'Quote', full: 'Quote (Quotation)', slug: 'quote', description: 'A formal document stating a fixed price for a specific scope of work. Becomes binding on acceptance.' },
       { name: 'SOA', full: 'Statement of Account', slug: 'statement-of-account', description: 'A summary document showing all transactions, invoices, payments, and outstanding balance with a client.' },
+      { name: 'Template', full: 'Invoice Template', slug: 'invoice-template', description: 'A pre-formatted document layout for creating professional invoices quickly and consistently.' },
     ],
   },
   {
@@ -190,6 +196,7 @@ const categories = [
       { name: 'Bad Debt', full: 'Bad Debt', slug: 'bad-debt', description: 'An amount owed that will never be collected. Tax-deductible write-off with GST adjustment available.' },
       { name: 'AP', full: 'Accounts Payable', slug: 'accounts-payable', description: 'Money you owe to suppliers and subcontractors. The opposite of accounts receivable.' },
       { name: 'Interest', full: 'Late Payment Interest', slug: 'late-payment-interest', description: 'Interest you can charge on overdue invoices. ATO GIC rate ~11% p.a. as a benchmark.' },
+      { name: 'Overdue', full: 'Overdue Invoice', slug: 'overdue-invoice', description: 'An invoice that has passed its payment due date without being paid. Recovery steps and legal rights.' },
     ],
   },
   {
@@ -210,6 +217,7 @@ const categories = [
       { name: 'P&L', full: 'Profit and Loss Statement', slug: 'profit-and-loss', description: 'A summary of your income and expenses over a period, showing whether your business made a profit or loss.' },
       { name: 'Bookkeeping', full: 'Bookkeeping', slug: 'bookkeeping', description: 'Systematic recording of all financial transactions. ATO requires records kept for 5 years.' },
       { name: 'Dividend', full: 'Dividend', slug: 'dividend', description: 'Payment from a company to its shareholders from profits. Relevant when you incorporate as Pty Ltd.' },
+      { name: 'Cash Basis', full: 'Cash Basis Accounting', slug: 'cash-basis-accounting', description: 'Recording income when received and expenses when paid. The default method for most AU sole traders.' },
     ],
   },
   {
@@ -276,6 +284,10 @@ const popularTerms = [
   { name: 'Tax Deduction', slug: 'tax-deduction', searches: '33,100/mo', description: 'Business expenses you can claim to reduce taxable income — home office, vehicle, equipment, and more' },
   { name: 'Gig Economy', slug: 'gig-economy', searches: '18,100/mo', description: 'The world of flexible, on-demand freelance work — 1.1M+ Australian gig workers and growing' },
   { name: 'FBT', slug: 'fringe-benefits-tax', searches: '12,100/mo', description: 'Fringe Benefits Tax — 47% tax on non-cash benefits like cars, parking, entertainment for employees' },
+  { name: 'Invoice Template', slug: 'invoice-template', searches: '40,500/mo', description: 'Pre-formatted invoice layouts — professional templates for Australian freelancers and sole traders' },
+  { name: 'Overdue Invoice', slug: 'overdue-invoice', searches: '14,800/mo', description: 'Invoices past their due date — recovery steps, reminder templates, and legal rights in Australia' },
+  { name: 'Business Expenses', slug: 'business-expenses', searches: '22,200/mo', description: 'Tax-deductible costs of running your business — home office, vehicle, equipment, and more' },
+  { name: 'Cash Basis Accounting', slug: 'cash-basis-accounting', searches: '12,100/mo', description: 'Recording income when received and expenses when paid — the default method for AU sole traders' },
 ];
 
 export default function GlossaryHub() {
@@ -637,6 +649,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/fringe-benefits-tax" className="text-sky-400 hover:text-sky-300 font-medium">FBT Rate</Link></td>
                 <td className="px-6 py-4 text-white font-medium">47%</td>
                 <td className="px-6 py-4 text-sm text-gray-400">FBT rate matches the top marginal tax rate — paid by the employer</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/invoice-template" className="text-sky-400 hover:text-sky-300 font-medium">Invoice Elements</Link></td>
+                <td className="px-6 py-4 text-white font-medium">7 required</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ABN, date, description, amount, GST, total, and payment terms on every tax invoice</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/overdue-invoice" className="text-sky-400 hover:text-sky-300 font-medium">Overdue Rate (AU)</Link></td>
+                <td className="px-6 py-4 text-white font-medium">54%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Percentage of Australian small business invoices paid late</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/business-expenses" className="text-sky-400 hover:text-sky-300 font-medium">Home Office Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">67c/hour</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ATO fixed-rate method for claiming home office running expenses</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/cash-basis-accounting" className="text-sky-400 hover:text-sky-300 font-medium">Cash vs Accrual</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$10M threshold</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Businesses under $10M aggregated turnover can use simpler cash basis for GST</td>
               </tr>
             </tbody>
           </table>
