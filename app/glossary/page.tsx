@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 76,
+  numberOfItems: 80,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -118,6 +118,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 74, name: 'Cash Flow Forecast', url: 'https://invoiceflow-teal.vercel.app/glossary/cash-flow-forecast' },
     { '@type': 'ListItem', position: 75, name: 'Remittance Advice', url: 'https://invoiceflow-teal.vercel.app/glossary/remittance-advice' },
     { '@type': 'ListItem', position: 76, name: 'Milestone Payment', url: 'https://invoiceflow-teal.vercel.app/glossary/milestone-payment' },
+    { '@type': 'ListItem', position: 77, name: 'Trust (Family Trust / Discretionary Trust)', url: 'https://invoiceflow-teal.vercel.app/glossary/trust' },
+    { '@type': 'ListItem', position: 78, name: 'Instant Asset Write-Off', url: 'https://invoiceflow-teal.vercel.app/glossary/instant-asset-write-off' },
+    { '@type': 'ListItem', position: 79, name: 'Work From Home Deductions', url: 'https://invoiceflow-teal.vercel.app/glossary/work-from-home-deductions' },
+    { '@type': 'ListItem', position: 80, name: 'Chart of Accounts', url: 'https://invoiceflow-teal.vercel.app/glossary/chart-of-accounts' },
   ],
 };
 
@@ -195,6 +199,8 @@ const categories = [
       { name: 'Medicare', full: 'Medicare Levy', slug: 'medicare-levy', description: '2% levy on taxable income to fund public healthcare. Plus Medicare Levy Surcharge (1-1.5%) for high earners without PHI.' },
       { name: 'Tax Res', full: 'Tax Residency', slug: 'tax-residency', description: 'Your residency status determines how Australia taxes your income — worldwide (resident) or AU-source only (non-resident).' },
       { name: 'PSI', full: 'Personal Services Income (PSI)', slug: 'personal-services-income', description: 'Income mainly from your personal effort and skills. 80% rule, 4 PSB tests, restricted deductions for non-PSB freelancers.' },
+      { name: 'Write-Off', full: 'Instant Asset Write-Off', slug: 'instant-asset-write-off', description: 'Immediately deduct the full cost of business assets under $20,000. Division 328 simplified depreciation for SBEs.' },
+      { name: 'WFH', full: 'Work From Home Deductions', slug: 'work-from-home-deductions', description: 'Claim home office costs — 67c/hr fixed rate or actual cost method. Running expenses, occupancy, and assets.' },
     ],
   },
   {
@@ -251,6 +257,7 @@ const categories = [
       { name: 'Structure', full: 'Business Structure', slug: 'business-structure', description: 'The legal framework for your business: sole trader, Pty Ltd, partnership, or trust. Affects tax, liability, and compliance.' },
       { name: 'Subcontractor', full: 'Subcontractor', slug: 'subcontractor', description: 'A person or business hired by a contractor to perform part of a project. Must have ABN, manage own tax and super.' },
       { name: 'Partnership', full: 'Partnership', slug: 'partnership', description: 'A business structure where 2+ people carry on business together. Flow-through taxation, joint liability.' },
+      { name: 'Trust', full: 'Trust (Family / Discretionary)', slug: 'trust', description: 'A legal structure where a trustee holds assets for beneficiaries. Income splitting, asset protection, 800K+ AU trusts.' },
     ],
   },
   {
@@ -266,6 +273,7 @@ const categories = [
       { name: 'Expenses', full: 'Expense Report', slug: 'expense-report', description: 'A document summarising business expenses for tax deductions, BAS claims, and financial analysis.' },
       { name: 'Balance Sheet', full: 'Balance Sheet', slug: 'balance-sheet', description: 'A snapshot of what you own (assets), owe (liabilities), and are worth (equity) at a point in time.' },
       { name: 'Revenue', full: 'Revenue', slug: 'revenue', description: 'The total income from business activities before expenses — the "top line" of your financials.' },
+      { name: 'CoA', full: 'Chart of Accounts', slug: 'chart-of-accounts', description: 'A structured list of all financial accounts in your business — assets, liabilities, equity, income, expenses.' },
     ],
   },
   {
@@ -374,6 +382,10 @@ const popularTerms = [
   { name: 'Cash Flow Forecast', slug: 'cash-flow-forecast', searches: '14,800/mo', description: 'Projecting future cash inflows and outflows — 13-week rolling forecasts most common for freelancers' },
   { name: 'Remittance Advice', slug: 'remittance-advice', searches: '12,100/mo', description: 'Payment confirmation sent by the payer — common in B2B and government, match to invoice before marking paid' },
   { name: 'Milestone Payment', slug: 'milestone-payment', searches: '9,900/mo', description: 'Payments tied to project deliverables — 30-50% upfront deposit, reduces risk for freelancer and client' },
+  { name: 'Trust', slug: 'trust', searches: '27,100/mo', description: 'Family trust / discretionary trust — income splitting, asset protection, $1.5K-$3.5K setup, 800K+ AU trusts' },
+  { name: 'Write-Off', slug: 'instant-asset-write-off', searches: '33,100/mo', description: 'Instant asset write-off — immediately deduct business assets under $20,000. Division 328 for SBEs' },
+  { name: 'WFH Deductions', slug: 'work-from-home-deductions', searches: '40,500/mo', description: 'Work from home deductions — 67c/hr fixed rate or actual cost method, running vs occupancy expenses' },
+  { name: 'Chart of Accounts', slug: 'chart-of-accounts', searches: '14,800/mo', description: 'Chart of accounts template — 5 account types, 20-40 accounts, maps to ATO tax return labels' },
 ];
 
 export default function GlossaryHub() {
@@ -900,6 +912,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/milestone-payment" className="text-sky-400 hover:text-sky-300 font-medium">Milestone Approval</Link></td>
                 <td className="px-6 py-4 text-white font-medium">5-10 business days</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Standard review period for clients to approve milestone deliverables</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/trust" className="text-sky-400 hover:text-sky-300 font-medium">Trust Setup Cost</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$1,500-$3,500</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical cost to establish a family/discretionary trust in Australia</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/instant-asset-write-off" className="text-sky-400 hover:text-sky-300 font-medium">Write-Off Threshold</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$20,000/asset</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Per-asset instant write-off threshold for SBEs (2024-25 and 2025-26)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/work-from-home-deductions" className="text-sky-400 hover:text-sky-300 font-medium">WFH Fixed Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">67c/hr</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ATO revised fixed rate method for working from home deductions (from 1 July 2022)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/chart-of-accounts" className="text-sky-400 hover:text-sky-300 font-medium">Freelancer Accounts</Link></td>
+                <td className="px-6 py-4 text-white font-medium">20-40</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical number of chart of accounts entries for a freelance business</td>
               </tr>
             </tbody>
           </table>
