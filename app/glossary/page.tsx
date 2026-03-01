@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 92,
+  numberOfItems: 96,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -134,6 +134,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 90, name: 'Intellectual Property (IP)', url: 'https://invoiceflow-teal.vercel.app/glossary/intellectual-property' },
     { '@type': 'ListItem', position: 91, name: 'Marginal Tax Rate', url: 'https://invoiceflow-teal.vercel.app/glossary/marginal-tax-rate' },
     { '@type': 'ListItem', position: 92, name: 'Cost of Goods Sold (COGS)', url: 'https://invoiceflow-teal.vercel.app/glossary/cost-of-goods-sold' },
+    { '@type': 'ListItem', position: 93, name: 'Escrow', url: 'https://invoiceflow-teal.vercel.app/glossary/escrow' },
+    { '@type': 'ListItem', position: 94, name: 'Scope of Work (SOW)', url: 'https://invoiceflow-teal.vercel.app/glossary/scope-of-work' },
+    { '@type': 'ListItem', position: 95, name: 'Markup', url: 'https://invoiceflow-teal.vercel.app/glossary/markup' },
+    { '@type': 'ListItem', position: 96, name: 'Direct Debit', url: 'https://invoiceflow-teal.vercel.app/glossary/direct-debit' },
   ],
 };
 
@@ -245,6 +249,7 @@ const categories = [
       { name: 'Deposit', full: 'Deposit (Upfront Payment)', slug: 'deposit', description: 'Partial upfront payment securing commitment to a project — typically 20-50% of total project value.' },
       { name: 'Strategy', full: 'Pricing Strategy', slug: 'pricing-strategy', description: 'Your approach to setting rates — hourly, project-based, value-based, or retainer. Affects revenue and positioning.' },
       { name: 'Net 30', full: 'Net 30 (Payment Terms)', slug: 'net-30', description: 'Payment due 30 calendar days from invoice date. The most common payment term in Australian business.' },
+      { name: 'Markup', full: 'Markup', slug: 'markup', description: 'Percentage added to cost price to set selling price. Markup formula: (Price − Cost) ÷ Cost × 100.' },
     ],
   },
   {
@@ -261,6 +266,8 @@ const categories = [
       { name: 'Interest', full: 'Late Payment Interest', slug: 'late-payment-interest', description: 'Interest you can charge on overdue invoices. ATO GIC rate ~11% p.a. as a benchmark.' },
       { name: 'Overdue', full: 'Overdue Invoice', slug: 'overdue-invoice', description: 'An invoice that has passed its payment due date without being paid. Recovery steps and legal rights.' },
       { name: 'Recovery', full: 'Debt Recovery', slug: 'debt-recovery', description: 'The process of pursuing unpaid invoices — from friendly reminders to small claims and debt collection.' },
+      { name: 'Escrow', full: 'Escrow', slug: 'escrow', description: 'A neutral third party holds payment until both sides fulfil agreed conditions — common for high-value projects.' },
+      { name: 'Direct Debit', full: 'Direct Debit', slug: 'direct-debit', description: 'Automatic bank-to-bank payments via BECS — set-and-forget billing for retainers and recurring invoices.' },
     ],
   },
   {
@@ -325,6 +332,7 @@ const categories = [
     terms: [
       { name: 'Scope Creep', full: 'Scope Creep', slug: 'scope-creep', description: 'The gradual, uncontrolled expansion of project requirements beyond the original scope — the #1 profitability killer.' },
       { name: 'Gig Economy', full: 'Gig Economy', slug: 'gig-economy', description: 'The labour market of short-term, flexible, freelance work. 1.1M+ AU gig workers with unique tax obligations.' },
+      { name: 'SOW', full: 'Scope of Work (SOW)', slug: 'scope-of-work', description: 'A document defining project deliverables, timeline, budget, and responsibilities — prevents scope creep.' },
     ],
   },
 ];
@@ -422,6 +430,10 @@ const popularTerms = [
   { name: 'Intellectual Property', slug: 'intellectual-property', searches: '27,100/mo', description: 'IP rights for freelancers — copyright, trademarks, patents. Freelancers own IP by default (Copyright Act 1968)' },
   { name: 'Marginal Tax Rate', slug: 'marginal-tax-rate', searches: '49,500/mo', description: 'Tax rate on next dollar earned — 2025-26 ATO brackets: 0%/16%/30%/37%/45% plus 2% Medicare Levy' },
   { name: 'COGS', slug: 'cost-of-goods-sold', searches: '22,200/mo', description: 'Cost of Goods Sold — direct costs of delivering services. Revenue minus COGS = gross profit margin' },
+  { name: 'Escrow', slug: 'escrow', searches: '18,100/mo', description: 'Neutral third party holds payment until conditions are met — protects both freelancer and client' },
+  { name: 'Scope of Work', slug: 'scope-of-work', searches: '14,800/mo', description: 'Document defining deliverables, timeline, budget, and responsibilities — prevents scope creep' },
+  { name: 'Markup', slug: 'markup', searches: '33,100/mo', description: 'Percentage added to cost price to determine selling price — not the same as profit margin' },
+  { name: 'Direct Debit', slug: 'direct-debit', searches: '22,200/mo', description: 'Automatic bank-to-bank payments via BECS — set-and-forget billing for retainers and recurring work' },
 ];
 
 export default function GlossaryHub() {
@@ -1028,6 +1040,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/cost-of-goods-sold" className="text-sky-400 hover:text-sky-300 font-medium">Service Business COGS</Link></td>
                 <td className="px-6 py-4 text-white font-medium">20-40%</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Typical COGS range for service-based freelancers (subcontractors, materials, licenses)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/escrow" className="text-sky-400 hover:text-sky-300 font-medium">Escrow Fee</Link></td>
+                <td className="px-6 py-4 text-white font-medium">2-5%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical escrow service fee charged on transaction value for freelance projects</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/scope-of-work" className="text-sky-400 hover:text-sky-300 font-medium">SOW Elements</Link></td>
+                <td className="px-6 py-4 text-white font-medium">10 essential</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Scope, deliverables, timeline, budget, acceptance criteria, revisions, IP, payment terms, termination, signatures</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/markup" className="text-sky-400 hover:text-sky-300 font-medium">Markup vs Margin</Link></td>
+                <td className="px-6 py-4 text-white font-medium">50% ≠ 33%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">50% markup on $100 cost = $150 price, but only 33% profit margin — know the difference</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/direct-debit" className="text-sky-400 hover:text-sky-300 font-medium">BECS Processing</Link></td>
+                <td className="px-6 py-4 text-white font-medium">1-3 business days</td>
+                <td className="px-6 py-4 text-sm text-gray-400">BECS Direct Debit processing time in Australia — cheaper than card payments at 0.1-1% per transaction</td>
               </tr>
             </tbody>
           </table>

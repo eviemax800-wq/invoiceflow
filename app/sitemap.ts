@@ -186,6 +186,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/glossary/intellectual-property`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/glossary/marginal-tax-rate`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/glossary/cost-of-goods-sold`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/glossary/escrow`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/glossary/scope-of-work`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/glossary/markup`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/glossary/direct-debit`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     // All 100 free tools — dynamically generated from tools-data.ts
     ...tools.map((tool) => ({
