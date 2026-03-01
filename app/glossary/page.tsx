@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 36,
+  numberOfItems: 44,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -78,6 +78,14 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 34, name: 'Statement of Account', url: 'https://invoiceflow-teal.vercel.app/glossary/statement-of-account' },
     { '@type': 'ListItem', position: 35, name: 'Hourly Rate', url: 'https://invoiceflow-teal.vercel.app/glossary/hourly-rate' },
     { '@type': 'ListItem', position: 36, name: 'Bad Debt', url: 'https://invoiceflow-teal.vercel.app/glossary/bad-debt' },
+    { '@type': 'ListItem', position: 37, name: 'Accounts Payable', url: 'https://invoiceflow-teal.vercel.app/glossary/accounts-payable' },
+    { '@type': 'ListItem', position: 38, name: 'Dividend', url: 'https://invoiceflow-teal.vercel.app/glossary/dividend' },
+    { '@type': 'ListItem', position: 39, name: 'Late Payment Interest', url: 'https://invoiceflow-teal.vercel.app/glossary/late-payment-interest' },
+    { '@type': 'ListItem', position: 40, name: 'Tax Return', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-return' },
+    { '@type': 'ListItem', position: 41, name: 'Withholding Tax', url: 'https://invoiceflow-teal.vercel.app/glossary/withholding-tax' },
+    { '@type': 'ListItem', position: 42, name: 'Tax Deduction', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-deduction' },
+    { '@type': 'ListItem', position: 43, name: 'Gig Economy', url: 'https://invoiceflow-teal.vercel.app/glossary/gig-economy' },
+    { '@type': 'ListItem', position: 44, name: 'Fringe Benefits Tax (FBT)', url: 'https://invoiceflow-teal.vercel.app/glossary/fringe-benefits-tax' },
   ],
 };
 
@@ -143,6 +151,10 @@ const categories = [
       { name: 'Income Tax', full: 'Income Tax', slug: 'income-tax', description: 'Tax on your freelance earnings. $18,200 tax-free threshold, then progressive rates up to 45%.' },
       { name: 'ITC', full: 'Input Tax Credits (GST Credits)', slug: 'input-tax-credits', description: 'The GST included in business purchases you can claim back from the ATO on your BAS.' },
       { name: 'CGT', full: 'Capital Gains Tax (CGT)', slug: 'capital-gains-tax', description: 'Tax on profit from selling assets like property, shares, business, or crypto. 50% discount for 12+ months.' },
+      { name: 'Tax Return', full: 'Tax Return', slug: 'tax-return', description: 'Your annual income tax return lodged with the ATO. Due 31 October (or later via tax agent).' },
+      { name: 'Withholding', full: 'Withholding Tax', slug: 'withholding-tax', description: 'Tax withheld from payments before you receive them. 47% without ABN, voluntary PAYG for freelancers.' },
+      { name: 'Deduction', full: 'Tax Deduction', slug: 'tax-deduction', description: 'Expenses you can claim to reduce taxable income. Home office 67c/hr, vehicle 85c/km, $20K write-off.' },
+      { name: 'FBT', full: 'Fringe Benefits Tax (FBT)', slug: 'fringe-benefits-tax', description: 'Tax on non-cash benefits provided to employees. 47% rate, separate from income tax.' },
     ],
   },
   {
@@ -176,6 +188,8 @@ const categories = [
       { name: 'Retainer', full: 'Retainer Agreement', slug: 'retainer', description: 'A recurring fee arrangement where a client reserves your time, expertise, or deliverables on an ongoing basis.' },
       { name: 'Factoring', full: 'Invoice Factoring', slug: 'invoice-factoring', description: 'Selling unpaid invoices to a third party at a discount for immediate cash flow.' },
       { name: 'Bad Debt', full: 'Bad Debt', slug: 'bad-debt', description: 'An amount owed that will never be collected. Tax-deductible write-off with GST adjustment available.' },
+      { name: 'AP', full: 'Accounts Payable', slug: 'accounts-payable', description: 'Money you owe to suppliers and subcontractors. The opposite of accounts receivable.' },
+      { name: 'Interest', full: 'Late Payment Interest', slug: 'late-payment-interest', description: 'Interest you can charge on overdue invoices. ATO GIC rate ~11% p.a. as a benchmark.' },
     ],
   },
   {
@@ -195,6 +209,7 @@ const categories = [
     terms: [
       { name: 'P&L', full: 'Profit and Loss Statement', slug: 'profit-and-loss', description: 'A summary of your income and expenses over a period, showing whether your business made a profit or loss.' },
       { name: 'Bookkeeping', full: 'Bookkeeping', slug: 'bookkeeping', description: 'Systematic recording of all financial transactions. ATO requires records kept for 5 years.' },
+      { name: 'Dividend', full: 'Dividend', slug: 'dividend', description: 'Payment from a company to its shareholders from profits. Relevant when you incorporate as Pty Ltd.' },
     ],
   },
   {
@@ -211,6 +226,7 @@ const categories = [
     color: 'from-red-500 to-rose-500',
     terms: [
       { name: 'Scope Creep', full: 'Scope Creep', slug: 'scope-creep', description: 'The gradual, uncontrolled expansion of project requirements beyond the original scope — the #1 profitability killer.' },
+      { name: 'Gig Economy', full: 'Gig Economy', slug: 'gig-economy', description: 'The labour market of short-term, flexible, freelance work. 1.1M+ AU gig workers with unique tax obligations.' },
     ],
   },
 ];
@@ -252,6 +268,14 @@ const popularTerms = [
   { name: 'Statement of Account', slug: 'statement-of-account', searches: '8,100/mo', description: 'A summary of all invoices, payments, and balances between you and a client over a period' },
   { name: 'Hourly Rate', slug: 'hourly-rate', searches: '22,200/mo', description: 'How much to charge per hour as a freelancer — the most common pricing model in Australia' },
   { name: 'Bad Debt', slug: 'bad-debt', searches: '14,800/mo', description: 'Unpaid invoices you can write off as a tax deduction — with GST adjustment via BAS' },
+  { name: 'Accounts Payable', slug: 'accounts-payable', searches: '12,100/mo', description: 'Money you owe to suppliers and subcontractors — your business expenses awaiting payment' },
+  { name: 'Dividend', slug: 'dividend', searches: '22,200/mo', description: 'Payments from company profits to shareholders — relevant when freelancers incorporate as Pty Ltd' },
+  { name: 'Late Payment Interest', slug: 'late-payment-interest', searches: '9,900/mo', description: 'Interest charged on overdue invoices — AU GIC rate ~11% p.a. as benchmark for freelancers' },
+  { name: 'Tax Return', slug: 'tax-return', searches: '40,500/mo', description: 'Your annual income tax return lodged with the ATO — due 31 October or later via registered agent' },
+  { name: 'Withholding Tax', slug: 'withholding-tax', searches: '14,800/mo', description: 'Tax deducted from payments before you receive them — 47% without ABN, PAYG withholding for workers' },
+  { name: 'Tax Deduction', slug: 'tax-deduction', searches: '33,100/mo', description: 'Business expenses you can claim to reduce taxable income — home office, vehicle, equipment, and more' },
+  { name: 'Gig Economy', slug: 'gig-economy', searches: '18,100/mo', description: 'The world of flexible, on-demand freelance work — 1.1M+ Australian gig workers and growing' },
+  { name: 'FBT', slug: 'fringe-benefits-tax', searches: '12,100/mo', description: 'Fringe Benefits Tax — 47% tax on non-cash benefits like cars, parking, entertainment for employees' },
 ];
 
 export default function GlossaryHub() {
@@ -573,6 +597,46 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/bad-debt" className="text-sky-400 hover:text-sky-300 font-medium">Bad Debt GST Window</Link></td>
                 <td className="px-6 py-4 text-white font-medium">12 months</td>
                 <td className="px-6 py-4 text-sm text-gray-400">GST adjustment on bad debts must be claimed within 12 months of overdue</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/accounts-payable" className="text-sky-400 hover:text-sky-300 font-medium">AP Payment Window</Link></td>
+                <td className="px-6 py-4 text-white font-medium">7-30 days</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical payment window for accounts payable to suppliers and subcontractors</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/late-payment-interest" className="text-sky-400 hover:text-sky-300 font-medium">GIC Rate (ATO)</Link></td>
+                <td className="px-6 py-4 text-white font-medium">~11% p.a.</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ATO General Interest Charge rate — benchmark for late payment interest</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/tax-return" className="text-sky-400 hover:text-sky-300 font-medium">Tax Return Due Date</Link></td>
+                <td className="px-6 py-4 text-white font-medium">31 October</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Self-lodging deadline. Tax agent clients get extensions up to 15 May</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/dividend" className="text-sky-400 hover:text-sky-300 font-medium">Franking Credit Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">25%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Base rate entity company tax already paid — attached as franking credits to dividends</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/withholding-tax" className="text-sky-400 hover:text-sky-300 font-medium">No-ABN Withholding</Link></td>
+                <td className="px-6 py-4 text-white font-medium">47%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Payers must withhold 47% from payments where ABN is not quoted</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/tax-deduction" className="text-sky-400 hover:text-sky-300 font-medium">Home Office Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">67c/hour</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ATO fixed-rate method for home office expenses (2025-26)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/gig-economy" className="text-sky-400 hover:text-sky-300 font-medium">AU Gig Workers</Link></td>
+                <td className="px-6 py-4 text-white font-medium">1.1M+</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Estimated gig economy workers in Australia (ABS/HILDA surveys)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/fringe-benefits-tax" className="text-sky-400 hover:text-sky-300 font-medium">FBT Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">47%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">FBT rate matches the top marginal tax rate — paid by the employer</td>
               </tr>
             </tbody>
           </table>
