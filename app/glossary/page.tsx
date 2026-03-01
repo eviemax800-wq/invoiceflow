@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 68,
+  numberOfItems: 72,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -110,6 +110,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 66, name: 'Bank Reconciliation', url: 'https://invoiceflow-teal.vercel.app/glossary/bank-reconciliation' },
     { '@type': 'ListItem', position: 67, name: 'Invoice Number', url: 'https://invoiceflow-teal.vercel.app/glossary/invoice-number' },
     { '@type': 'ListItem', position: 68, name: 'Debt Recovery', url: 'https://invoiceflow-teal.vercel.app/glossary/debt-recovery' },
+    { '@type': 'ListItem', position: 69, name: 'Personal Services Income (PSI)', url: 'https://invoiceflow-teal.vercel.app/glossary/personal-services-income' },
+    { '@type': 'ListItem', position: 70, name: 'Balance Sheet', url: 'https://invoiceflow-teal.vercel.app/glossary/balance-sheet' },
+    { '@type': 'ListItem', position: 71, name: 'Recurring Invoice', url: 'https://invoiceflow-teal.vercel.app/glossary/recurring-invoice' },
+    { '@type': 'ListItem', position: 72, name: 'Partnership', url: 'https://invoiceflow-teal.vercel.app/glossary/partnership' },
   ],
 };
 
@@ -186,6 +190,7 @@ const categories = [
       { name: 'Tax Plan', full: 'Tax Planning', slug: 'tax-planning', description: 'Legal strategies to minimise your tax liability — timing income, maximising deductions, super contributions.' },
       { name: 'Medicare', full: 'Medicare Levy', slug: 'medicare-levy', description: '2% levy on taxable income to fund public healthcare. Plus Medicare Levy Surcharge (1-1.5%) for high earners without PHI.' },
       { name: 'Tax Res', full: 'Tax Residency', slug: 'tax-residency', description: 'Your residency status determines how Australia taxes your income — worldwide (resident) or AU-source only (non-resident).' },
+      { name: 'PSI', full: 'Personal Services Income (PSI)', slug: 'personal-services-income', description: 'Income mainly from your personal effort and skills. 80% rule, 4 PSB tests, restricted deductions for non-PSB freelancers.' },
     ],
   },
   {
@@ -200,6 +205,7 @@ const categories = [
       { name: 'SOA', full: 'Statement of Account', slug: 'statement-of-account', description: 'A summary document showing all transactions, invoices, payments, and outstanding balance with a client.' },
       { name: 'Template', full: 'Invoice Template', slug: 'invoice-template', description: 'A pre-formatted document layout for creating professional invoices quickly and consistently.' },
       { name: 'Inv #', full: 'Invoice Number', slug: 'invoice-number', description: 'A unique sequential identifier on every invoice — ATO requirement for tax invoices under GST Act.' },
+      { name: 'Recurring', full: 'Recurring Invoice', slug: 'recurring-invoice', description: 'An invoice automatically generated at regular intervals for retainers, subscriptions, and ongoing services.' },
     ],
   },
   {
@@ -238,6 +244,7 @@ const categories = [
       { name: 'C vs E', full: 'Contractor vs Employee', slug: 'contractor-vs-employee', description: 'The critical distinction that determines tax, super, leave, and legal obligations. Get it wrong = penalties.' },
       { name: 'Structure', full: 'Business Structure', slug: 'business-structure', description: 'The legal framework for your business: sole trader, Pty Ltd, partnership, or trust. Affects tax, liability, and compliance.' },
       { name: 'Subcontractor', full: 'Subcontractor', slug: 'subcontractor', description: 'A person or business hired by a contractor to perform part of a project. Must have ABN, manage own tax and super.' },
+      { name: 'Partnership', full: 'Partnership', slug: 'partnership', description: 'A business structure where 2+ people carry on business together. Flow-through taxation, joint liability.' },
     ],
   },
   {
@@ -251,6 +258,7 @@ const categories = [
       { name: 'Accrual', full: 'Accrual Accounting', slug: 'accrual-accounting', description: 'Recording revenue when earned and expenses when incurred — required for businesses over $10M turnover.' },
       { name: 'Bank Rec', full: 'Bank Reconciliation', slug: 'bank-reconciliation', description: 'Matching accounting records against bank statements to catch errors and ensure accuracy.' },
       { name: 'Expenses', full: 'Expense Report', slug: 'expense-report', description: 'A document summarising business expenses for tax deductions, BAS claims, and financial analysis.' },
+      { name: 'Balance Sheet', full: 'Balance Sheet', slug: 'balance-sheet', description: 'A snapshot of what you own (assets), owe (liabilities), and are worth (equity) at a point in time.' },
     ],
   },
   {
@@ -350,6 +358,10 @@ const popularTerms = [
   { name: 'Bank Reconciliation', slug: 'bank-reconciliation', searches: '14,800/mo', description: 'Matching your accounting records to bank statements — essential for ATO compliance and BAS accuracy' },
   { name: 'Invoice Number', slug: 'invoice-number', searches: '18,100/mo', description: 'Unique sequential identifier required on every tax invoice — ATO GST Act Section 29-70 compliance' },
   { name: 'Debt Recovery', slug: 'debt-recovery', searches: '14,800/mo', description: 'How to recover unpaid invoices — from friendly reminders to small claims tribunals and debt collectors' },
+  { name: 'PSI', slug: 'personal-services-income', searches: '9,900/mo', description: 'Personal Services Income — ATO rules, 80% test, PSB tests, restricted deductions for freelancers' },
+  { name: 'Balance Sheet', slug: 'balance-sheet', searches: '33,100/mo', description: 'Assets = Liabilities + Equity — a snapshot of your business financial position at a point in time' },
+  { name: 'Recurring Invoice', slug: 'recurring-invoice', searches: '8,100/mo', description: 'Automated invoicing for retainers, subscriptions, and ongoing services — never miss a billing cycle' },
+  { name: 'Partnership', slug: 'partnership', searches: '22,200/mo', description: 'Business structure for 2+ people — flow-through taxation, joint liability, ABN and TFN required' },
 ];
 
 export default function GlossaryHub() {
@@ -831,6 +843,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/debt-recovery" className="text-sky-400 hover:text-sky-300 font-medium">Letter of Demand Success</Link></td>
                 <td className="px-6 py-4 text-white font-medium">70-80%</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Percentage of debts resolved after receiving a formal letter of demand</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/personal-services-income" className="text-sky-400 hover:text-sky-300 font-medium">PSI 80% Rule</Link></td>
+                <td className="px-6 py-4 text-white font-medium">80%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">If 80%+ of income from a contract is for your labour/skills, it&apos;s PSI</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/balance-sheet" className="text-sky-400 hover:text-sky-300 font-medium">Balance Sheet Equation</Link></td>
+                <td className="px-6 py-4 text-white font-medium">A = L + E</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Assets = Liabilities + Equity — must always balance, governed by AASB 101</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/recurring-invoice" className="text-sky-400 hover:text-sky-300 font-medium">Recurring Payment Speed</Link></td>
+                <td className="px-6 py-4 text-white font-medium">7 days faster</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Average payment speed improvement with automated recurring invoicing</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/partnership" className="text-sky-400 hover:text-sky-300 font-medium">Partnership Partners</Link></td>
+                <td className="px-6 py-4 text-white font-medium">2-20</td>
+                <td className="px-6 py-4 text-sm text-gray-400">General partnership allows 2-20 partners (some professions allow 100+)</td>
               </tr>
             </tbody>
           </table>
