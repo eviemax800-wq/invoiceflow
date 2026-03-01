@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 60,
+  numberOfItems: 64,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -102,6 +102,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 58, name: 'Tax Planning', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-planning' },
     { '@type': 'ListItem', position: 59, name: 'Billing Cycle', url: 'https://invoiceflow-teal.vercel.app/glossary/billing-cycle' },
     { '@type': 'ListItem', position: 60, name: 'Expense Report', url: 'https://invoiceflow-teal.vercel.app/glossary/expense-report' },
+    { '@type': 'ListItem', position: 61, name: 'Medicare Levy', url: 'https://invoiceflow-teal.vercel.app/glossary/medicare-levy' },
+    { '@type': 'ListItem', position: 62, name: 'Business Insurance', url: 'https://invoiceflow-teal.vercel.app/glossary/business-insurance' },
+    { '@type': 'ListItem', position: 63, name: 'Tax Residency', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-residency' },
+    { '@type': 'ListItem', position: 64, name: 'Subcontractor', url: 'https://invoiceflow-teal.vercel.app/glossary/subcontractor' },
   ],
 };
 
@@ -176,6 +180,8 @@ const categories = [
       { name: 'Tax Agent', full: 'Tax Agent', slug: 'tax-agent', description: 'TPB-registered professional who can lodge tax returns and BAS on your behalf. Fees $200-$600.' },
       { name: 'FY', full: 'Financial Year', slug: 'financial-year', description: 'The 12-month accounting period (1 July to 30 June in Australia) used for tax and financial reporting.' },
       { name: 'Tax Plan', full: 'Tax Planning', slug: 'tax-planning', description: 'Legal strategies to minimise your tax liability — timing income, maximising deductions, super contributions.' },
+      { name: 'Medicare', full: 'Medicare Levy', slug: 'medicare-levy', description: '2% levy on taxable income to fund public healthcare. Plus Medicare Levy Surcharge (1-1.5%) for high earners without PHI.' },
+      { name: 'Tax Res', full: 'Tax Residency', slug: 'tax-residency', description: 'Your residency status determines how Australia taxes your income — worldwide (resident) or AU-source only (non-resident).' },
     ],
   },
   {
@@ -225,6 +231,7 @@ const categories = [
       { name: 'Pty Ltd', full: 'Proprietary Limited Company (Pty Ltd)', slug: 'pty-ltd', description: 'The most common company structure in Australia. Separate legal entity with limited liability.' },
       { name: 'C vs E', full: 'Contractor vs Employee', slug: 'contractor-vs-employee', description: 'The critical distinction that determines tax, super, leave, and legal obligations. Get it wrong = penalties.' },
       { name: 'Structure', full: 'Business Structure', slug: 'business-structure', description: 'The legal framework for your business: sole trader, Pty Ltd, partnership, or trust. Affects tax, liability, and compliance.' },
+      { name: 'Subcontractor', full: 'Subcontractor', slug: 'subcontractor', description: 'A person or business hired by a contractor to perform part of a project. Must have ABN, manage own tax and super.' },
     ],
   },
   {
@@ -253,6 +260,7 @@ const categories = [
       { name: 'PI Insurance', full: 'Professional Indemnity Insurance', slug: 'professional-indemnity', description: 'Insurance protecting against claims of negligence, errors, or bad advice. Essential for service providers.' },
       { name: 'PLI', full: 'Public Liability Insurance', slug: 'public-liability', description: 'Insurance covering third-party injury and property damage. Essential for on-site work.' },
       { name: 'WorkCover', full: 'Workers Compensation', slug: 'workers-compensation', description: 'Compulsory insurance covering workplace injuries for employees. Mandatory once you hire anyone.' },
+      { name: 'Insurance', full: 'Business Insurance', slug: 'business-insurance', description: 'Protection against financial losses — PI, PL, cyber, income protection, and more. Some types legally required.' },
     ],
   },
   {
@@ -326,6 +334,10 @@ const popularTerms = [
   { name: 'Tax Planning', slug: 'tax-planning', searches: '22,200/mo', description: 'Legal strategies to minimise tax — timing income, maximising deductions, super contributions' },
   { name: 'Billing Cycle', slug: 'billing-cycle', searches: '14,800/mo', description: 'The recurring interval between invoices — weekly, fortnightly, monthly, or milestone-based' },
   { name: 'Expense Report', slug: 'expense-report', searches: '18,100/mo', description: 'Business expense summary for tax deductions, BAS claims, and financial analysis — ATO requirements' },
+  { name: 'Medicare Levy', slug: 'medicare-levy', searches: '40,500/mo', description: '2% levy on taxable income to fund public healthcare — plus MLS surcharge for high earners without PHI' },
+  { name: 'Business Insurance', slug: 'business-insurance', searches: '14,800/mo', description: 'PI, PL, cyber, income protection — comprehensive guide to insurance for Australian freelancers' },
+  { name: 'Tax Residency', slug: 'tax-residency', searches: '8,100/mo', description: 'ATO residency tests, 183-day rule, digital nomad tax — resident vs non-resident tax implications' },
+  { name: 'Subcontractor', slug: 'subcontractor', searches: '22,200/mo', description: 'Subcontractor vs contractor, ABN requirements, TPAR reporting, tax obligations — Australian rules' },
 ];
 
 export default function GlossaryHub() {
@@ -767,6 +779,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/expense-report" className="text-sky-400 hover:text-sky-300 font-medium">Vehicle Rate</Link></td>
                 <td className="px-6 py-4 text-white font-medium">85c/km</td>
                 <td className="px-6 py-4 text-sm text-gray-400">ATO cents-per-kilometre rate for vehicle expenses in 2025-26 (max 5,000 km)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/medicare-levy" className="text-sky-400 hover:text-sky-300 font-medium">Medicare Levy Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">2%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Standard Medicare Levy on taxable income — plus 1-1.5% MLS surcharge above $93K without PHI</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/business-insurance" className="text-sky-400 hover:text-sky-300 font-medium">Insurance Cost (Typical)</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$800-$2,000/yr</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Total annual cost for PI + PL + income protection for freelancers (100% tax-deductible)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/tax-residency" className="text-sky-400 hover:text-sky-300 font-medium">Non-Resident Tax Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">32.5% from $1</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Non-residents pay 32.5% from dollar one — no $18,200 tax-free threshold, no LITO</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/subcontractor" className="text-sky-400 hover:text-sky-300 font-medium">TPAR Deadline</Link></td>
+                <td className="px-6 py-4 text-white font-medium">28 August</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Taxable Payments Annual Report due date for businesses paying subcontractors in covered industries</td>
               </tr>
             </tbody>
           </table>
