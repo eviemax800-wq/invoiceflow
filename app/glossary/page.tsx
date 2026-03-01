@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 72,
+  numberOfItems: 76,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -114,6 +114,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 70, name: 'Balance Sheet', url: 'https://invoiceflow-teal.vercel.app/glossary/balance-sheet' },
     { '@type': 'ListItem', position: 71, name: 'Recurring Invoice', url: 'https://invoiceflow-teal.vercel.app/glossary/recurring-invoice' },
     { '@type': 'ListItem', position: 72, name: 'Partnership', url: 'https://invoiceflow-teal.vercel.app/glossary/partnership' },
+    { '@type': 'ListItem', position: 73, name: 'Revenue', url: 'https://invoiceflow-teal.vercel.app/glossary/revenue' },
+    { '@type': 'ListItem', position: 74, name: 'Cash Flow Forecast', url: 'https://invoiceflow-teal.vercel.app/glossary/cash-flow-forecast' },
+    { '@type': 'ListItem', position: 75, name: 'Remittance Advice', url: 'https://invoiceflow-teal.vercel.app/glossary/remittance-advice' },
+    { '@type': 'ListItem', position: 76, name: 'Milestone Payment', url: 'https://invoiceflow-teal.vercel.app/glossary/milestone-payment' },
   ],
 };
 
@@ -206,6 +210,7 @@ const categories = [
       { name: 'Template', full: 'Invoice Template', slug: 'invoice-template', description: 'A pre-formatted document layout for creating professional invoices quickly and consistently.' },
       { name: 'Inv #', full: 'Invoice Number', slug: 'invoice-number', description: 'A unique sequential identifier on every invoice — ATO requirement for tax invoices under GST Act.' },
       { name: 'Recurring', full: 'Recurring Invoice', slug: 'recurring-invoice', description: 'An invoice automatically generated at regular intervals for retainers, subscriptions, and ongoing services.' },
+      { name: 'Remittance', full: 'Remittance Advice', slug: 'remittance-advice', description: 'A document sent by the payer to confirm payment has been made — common in B2B and government payments.' },
     ],
   },
   {
@@ -216,6 +221,7 @@ const categories = [
       { name: 'Profit Margin', full: 'Profit Margin', slug: 'profit-margin', description: 'Percentage of revenue remaining as profit after expenses. Target 50-70% net margin for service businesses.' },
       { name: 'Hourly Rate', full: 'Hourly Rate', slug: 'hourly-rate', description: 'The amount you charge per hour of work. Most common freelancer pricing model. AU range: $50-$300+/hr.' },
       { name: 'Billing Cycle', full: 'Billing Cycle', slug: 'billing-cycle', description: 'The recurring interval between invoices — weekly, monthly, or milestone-based. Affects cash flow timing.' },
+      { name: 'Milestone', full: 'Milestone Payment', slug: 'milestone-payment', description: 'Payment tied to specific project deliverables or phases — reduces risk for both freelancer and client.' },
     ],
   },
   {
@@ -259,6 +265,7 @@ const categories = [
       { name: 'Bank Rec', full: 'Bank Reconciliation', slug: 'bank-reconciliation', description: 'Matching accounting records against bank statements to catch errors and ensure accuracy.' },
       { name: 'Expenses', full: 'Expense Report', slug: 'expense-report', description: 'A document summarising business expenses for tax deductions, BAS claims, and financial analysis.' },
       { name: 'Balance Sheet', full: 'Balance Sheet', slug: 'balance-sheet', description: 'A snapshot of what you own (assets), owe (liabilities), and are worth (equity) at a point in time.' },
+      { name: 'Revenue', full: 'Revenue', slug: 'revenue', description: 'The total income from business activities before expenses — the "top line" of your financials.' },
     ],
   },
   {
@@ -267,6 +274,7 @@ const categories = [
     terms: [
       { name: 'Break-Even', full: 'Break-Even Point', slug: 'break-even-point', description: 'The revenue level where total income equals total costs — neither profit nor loss. Essential for pricing.' },
       { name: 'Working Capital', full: 'Working Capital', slug: 'working-capital', description: 'Current assets minus current liabilities — your financial buffer between invoicing and getting paid.' },
+      { name: 'Forecast', full: 'Cash Flow Forecast', slug: 'cash-flow-forecast', description: 'A projection of future cash inflows and outflows — essential for managing irregular freelance income.' },
     ],
   },
   {
@@ -362,6 +370,10 @@ const popularTerms = [
   { name: 'Balance Sheet', slug: 'balance-sheet', searches: '33,100/mo', description: 'Assets = Liabilities + Equity — a snapshot of your business financial position at a point in time' },
   { name: 'Recurring Invoice', slug: 'recurring-invoice', searches: '8,100/mo', description: 'Automated invoicing for retainers, subscriptions, and ongoing services — never miss a billing cycle' },
   { name: 'Partnership', slug: 'partnership', searches: '22,200/mo', description: 'Business structure for 2+ people — flow-through taxation, joint liability, ABN and TFN required' },
+  { name: 'Revenue', slug: 'revenue', searches: '40,500/mo', description: 'Total income from business activities before expenses — the "top line" vs profit (the "bottom line")' },
+  { name: 'Cash Flow Forecast', slug: 'cash-flow-forecast', searches: '14,800/mo', description: 'Projecting future cash inflows and outflows — 13-week rolling forecasts most common for freelancers' },
+  { name: 'Remittance Advice', slug: 'remittance-advice', searches: '12,100/mo', description: 'Payment confirmation sent by the payer — common in B2B and government, match to invoice before marking paid' },
+  { name: 'Milestone Payment', slug: 'milestone-payment', searches: '9,900/mo', description: 'Payments tied to project deliverables — 30-50% upfront deposit, reduces risk for freelancer and client' },
 ];
 
 export default function GlossaryHub() {
@@ -863,6 +875,31 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/partnership" className="text-sky-400 hover:text-sky-300 font-medium">Partnership Partners</Link></td>
                 <td className="px-6 py-4 text-white font-medium">2-20</td>
                 <td className="px-6 py-4 text-sm text-gray-400">General partnership allows 2-20 partners (some professions allow 100+)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/revenue" className="text-sky-400 hover:text-sky-300 font-medium">Revenue ≠ Profit</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Top line vs bottom line</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Revenue is total income before expenses — profit is what remains after all costs</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/cash-flow-forecast" className="text-sky-400 hover:text-sky-300 font-medium">Cash Reserve Target</Link></td>
+                <td className="px-6 py-4 text-white font-medium">3 months expenses</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Recommended emergency fund for freelancers to cover income gaps</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/remittance-advice" className="text-sky-400 hover:text-sky-300 font-medium">Remittance Advice</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Issued by PAYER</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Not legally required in AU but standard in B2B and government — always match to invoice</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/milestone-payment" className="text-sky-400 hover:text-sky-300 font-medium">Upfront Deposit</Link></td>
+                <td className="px-6 py-4 text-white font-medium">30-50%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Recommended deposit amount for milestone-based freelance projects</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/milestone-payment" className="text-sky-400 hover:text-sky-300 font-medium">Milestone Approval</Link></td>
+                <td className="px-6 py-4 text-white font-medium">5-10 business days</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Standard review period for clients to approve milestone deliverables</td>
               </tr>
             </tbody>
           </table>
