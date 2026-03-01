@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 64,
+  numberOfItems: 68,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -106,6 +106,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 62, name: 'Business Insurance', url: 'https://invoiceflow-teal.vercel.app/glossary/business-insurance' },
     { '@type': 'ListItem', position: 63, name: 'Tax Residency', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-residency' },
     { '@type': 'ListItem', position: 64, name: 'Subcontractor', url: 'https://invoiceflow-teal.vercel.app/glossary/subcontractor' },
+    { '@type': 'ListItem', position: 65, name: 'Accrual Accounting', url: 'https://invoiceflow-teal.vercel.app/glossary/accrual-accounting' },
+    { '@type': 'ListItem', position: 66, name: 'Bank Reconciliation', url: 'https://invoiceflow-teal.vercel.app/glossary/bank-reconciliation' },
+    { '@type': 'ListItem', position: 67, name: 'Invoice Number', url: 'https://invoiceflow-teal.vercel.app/glossary/invoice-number' },
+    { '@type': 'ListItem', position: 68, name: 'Debt Recovery', url: 'https://invoiceflow-teal.vercel.app/glossary/debt-recovery' },
   ],
 };
 
@@ -195,6 +199,7 @@ const categories = [
       { name: 'Quote', full: 'Quote (Quotation)', slug: 'quote', description: 'A formal document stating a fixed price for a specific scope of work. Becomes binding on acceptance.' },
       { name: 'SOA', full: 'Statement of Account', slug: 'statement-of-account', description: 'A summary document showing all transactions, invoices, payments, and outstanding balance with a client.' },
       { name: 'Template', full: 'Invoice Template', slug: 'invoice-template', description: 'A pre-formatted document layout for creating professional invoices quickly and consistently.' },
+      { name: 'Inv #', full: 'Invoice Number', slug: 'invoice-number', description: 'A unique sequential identifier on every invoice — ATO requirement for tax invoices under GST Act.' },
     ],
   },
   {
@@ -220,6 +225,7 @@ const categories = [
       { name: 'AP', full: 'Accounts Payable', slug: 'accounts-payable', description: 'Money you owe to suppliers and subcontractors. The opposite of accounts receivable.' },
       { name: 'Interest', full: 'Late Payment Interest', slug: 'late-payment-interest', description: 'Interest you can charge on overdue invoices. ATO GIC rate ~11% p.a. as a benchmark.' },
       { name: 'Overdue', full: 'Overdue Invoice', slug: 'overdue-invoice', description: 'An invoice that has passed its payment due date without being paid. Recovery steps and legal rights.' },
+      { name: 'Recovery', full: 'Debt Recovery', slug: 'debt-recovery', description: 'The process of pursuing unpaid invoices — from friendly reminders to small claims and debt collection.' },
     ],
   },
   {
@@ -242,6 +248,8 @@ const categories = [
       { name: 'Bookkeeping', full: 'Bookkeeping', slug: 'bookkeeping', description: 'Systematic recording of all financial transactions. ATO requires records kept for 5 years.' },
       { name: 'Dividend', full: 'Dividend', slug: 'dividend', description: 'Payment from a company to its shareholders from profits. Relevant when you incorporate as Pty Ltd.' },
       { name: 'Cash Basis', full: 'Cash Basis Accounting', slug: 'cash-basis-accounting', description: 'Recording income when received and expenses when paid. The default method for most AU sole traders.' },
+      { name: 'Accrual', full: 'Accrual Accounting', slug: 'accrual-accounting', description: 'Recording revenue when earned and expenses when incurred — required for businesses over $10M turnover.' },
+      { name: 'Bank Rec', full: 'Bank Reconciliation', slug: 'bank-reconciliation', description: 'Matching accounting records against bank statements to catch errors and ensure accuracy.' },
       { name: 'Expenses', full: 'Expense Report', slug: 'expense-report', description: 'A document summarising business expenses for tax deductions, BAS claims, and financial analysis.' },
     ],
   },
@@ -338,6 +346,10 @@ const popularTerms = [
   { name: 'Business Insurance', slug: 'business-insurance', searches: '14,800/mo', description: 'PI, PL, cyber, income protection — comprehensive guide to insurance for Australian freelancers' },
   { name: 'Tax Residency', slug: 'tax-residency', searches: '8,100/mo', description: 'ATO residency tests, 183-day rule, digital nomad tax — resident vs non-resident tax implications' },
   { name: 'Subcontractor', slug: 'subcontractor', searches: '22,200/mo', description: 'Subcontractor vs contractor, ABN requirements, TPAR reporting, tax obligations — Australian rules' },
+  { name: 'Accrual Accounting', slug: 'accrual-accounting', searches: '12,100/mo', description: 'Recording income when earned and expenses when incurred — accrual vs cash basis for Australian businesses' },
+  { name: 'Bank Reconciliation', slug: 'bank-reconciliation', searches: '14,800/mo', description: 'Matching your accounting records to bank statements — essential for ATO compliance and BAS accuracy' },
+  { name: 'Invoice Number', slug: 'invoice-number', searches: '18,100/mo', description: 'Unique sequential identifier required on every tax invoice — ATO GST Act Section 29-70 compliance' },
+  { name: 'Debt Recovery', slug: 'debt-recovery', searches: '14,800/mo', description: 'How to recover unpaid invoices — from friendly reminders to small claims tribunals and debt collectors' },
 ];
 
 export default function GlossaryHub() {
@@ -799,6 +811,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/subcontractor" className="text-sky-400 hover:text-sky-300 font-medium">TPAR Deadline</Link></td>
                 <td className="px-6 py-4 text-white font-medium">28 August</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Taxable Payments Annual Report due date for businesses paying subcontractors in covered industries</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/accrual-accounting" className="text-sky-400 hover:text-sky-300 font-medium">Accrual Threshold</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$10M turnover</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Businesses over $10M aggregated turnover must use accrual accounting for GST purposes</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/bank-reconciliation" className="text-sky-400 hover:text-sky-300 font-medium">Reconciliation Frequency</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Monthly (min)</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Minimum recommended bank reconciliation frequency — weekly for high-volume businesses</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/invoice-number" className="text-sky-400 hover:text-sky-300 font-medium">Tax Invoice Elements</Link></td>
+                <td className="px-6 py-4 text-white font-medium">7 required fields</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Including unique identifying number — ATO GST Act Section 29-70 mandate for tax invoices</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/debt-recovery" className="text-sky-400 hover:text-sky-300 font-medium">Letter of Demand Success</Link></td>
+                <td className="px-6 py-4 text-white font-medium">70-80%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Percentage of debts resolved after receiving a formal letter of demand</td>
               </tr>
             </tbody>
           </table>
