@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 52,
+  numberOfItems: 56,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -94,6 +94,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 50, name: 'Tax Agent', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-agent' },
     { '@type': 'ListItem', position: 51, name: 'Break-Even Point', url: 'https://invoiceflow-teal.vercel.app/glossary/break-even-point' },
     { '@type': 'ListItem', position: 52, name: 'Working Capital', url: 'https://invoiceflow-teal.vercel.app/glossary/working-capital' },
+    { '@type': 'ListItem', position: 53, name: 'Registered Business Name', url: 'https://invoiceflow-teal.vercel.app/glossary/registered-business-name' },
+    { '@type': 'ListItem', position: 54, name: 'Net Income', url: 'https://invoiceflow-teal.vercel.app/glossary/net-income' },
+    { '@type': 'ListItem', position: 55, name: 'Tax Offset', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-offset' },
+    { '@type': 'ListItem', position: 56, name: 'Invoice Aging', url: 'https://invoiceflow-teal.vercel.app/glossary/invoice-aging' },
   ],
 };
 
@@ -306,6 +310,10 @@ const popularTerms = [
   { name: 'Tax Agent', slug: 'tax-agent', searches: '18,100/mo', description: 'TPB-registered professionals who lodge tax returns and BAS — fees $200-$600, Oct 31 deadline via agent' },
   { name: 'Break-Even Point', slug: 'break-even-point', searches: '14,800/mo', description: 'The revenue level where income equals costs — critical for pricing, rate-setting, and financial planning' },
   { name: 'Working Capital', slug: 'working-capital', searches: '22,200/mo', description: 'Current assets minus liabilities — your financial buffer. Healthy ratio: 1.2-2.0 for freelancers' },
+  { name: 'Business Name', slug: 'registered-business-name', searches: '14,800/mo', description: 'ASIC-registered trading name — $39/yr to register, required if not using your personal name' },
+  { name: 'Net Income', slug: 'net-income', searches: '33,100/mo', description: 'Your actual take-home pay after expenses, tax, Medicare, and super — typically 55-65% of gross' },
+  { name: 'Tax Offset', slug: 'tax-offset', searches: '18,100/mo', description: 'Dollar-for-dollar tax reduction — LITO up to $700, small business offset up to $1,000' },
+  { name: 'Invoice Aging', slug: 'invoice-aging', searches: '9,900/mo', description: 'Tracking how long invoices have been unpaid — current, 30, 60, 90+ day buckets for collections' },
 ];
 
 export default function GlossaryHub() {
@@ -707,6 +715,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/working-capital" className="text-sky-400 hover:text-sky-300 font-medium">Healthy WC Ratio</Link></td>
                 <td className="px-6 py-4 text-white font-medium">1.2-2.0</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Healthy working capital ratio range for freelancers and small businesses</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/registered-business-name" className="text-sky-400 hover:text-sky-300 font-medium">Business Name Fee</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$39/yr</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ASIC registration fee for a business name ($92 for 3 years)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/net-income" className="text-sky-400 hover:text-sky-300 font-medium">Net Income</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Revenue − All Costs</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Total revenue minus expenses, super, and tax — your actual take-home</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/tax-offset" className="text-sky-400 hover:text-sky-300 font-medium">LITO Max</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$700</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Maximum Low Income Tax Offset for taxable income up to $37,500</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/invoice-aging" className="text-sky-400 hover:text-sky-300 font-medium">Late Payment Risk</Link></td>
+                <td className="px-6 py-4 text-white font-medium">90+ days = 30%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Invoices over 90 days overdue have only ~30% collection probability</td>
               </tr>
             </tbody>
           </table>
