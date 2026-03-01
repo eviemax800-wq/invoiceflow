@@ -122,6 +122,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/glossary/invoice-factoring`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/glossary/bookkeeping`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/glossary/input-tax-credits`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/glossary/billable-hours`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/glossary/profit-margin`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/glossary/workers-compensation`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/glossary/business-structure`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/tools`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     // All 100 free tools — dynamically generated from tools-data.ts
     ...tools.map((tool) => ({

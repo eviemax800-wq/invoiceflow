@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 28,
+  numberOfItems: 32,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -70,6 +70,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 26, name: 'Invoice Factoring', url: 'https://invoiceflow-teal.vercel.app/glossary/invoice-factoring' },
     { '@type': 'ListItem', position: 27, name: 'Bookkeeping', url: 'https://invoiceflow-teal.vercel.app/glossary/bookkeeping' },
     { '@type': 'ListItem', position: 28, name: 'Input Tax Credits (GST Credits)', url: 'https://invoiceflow-teal.vercel.app/glossary/input-tax-credits' },
+    { '@type': 'ListItem', position: 29, name: 'Billable Hours', url: 'https://invoiceflow-teal.vercel.app/glossary/billable-hours' },
+    { '@type': 'ListItem', position: 30, name: 'Profit Margin', url: 'https://invoiceflow-teal.vercel.app/glossary/profit-margin' },
+    { '@type': 'ListItem', position: 31, name: 'Workers Compensation', url: 'https://invoiceflow-teal.vercel.app/glossary/workers-compensation' },
+    { '@type': 'ListItem', position: 32, name: 'Business Structure', url: 'https://invoiceflow-teal.vercel.app/glossary/business-structure' },
   ],
 };
 
@@ -148,6 +152,14 @@ const categories = [
     ],
   },
   {
+    name: 'Pricing & Billing',
+    color: 'from-sky-500 to-blue-500',
+    terms: [
+      { name: 'Billable Hrs', full: 'Billable Hours', slug: 'billable-hours', description: 'Time spent directly on client work that can be invoiced. Freelancers typically bill 60-70% of working hours.' },
+      { name: 'Profit Margin', full: 'Profit Margin', slug: 'profit-margin', description: 'Percentage of revenue remaining as profit after expenses. Target 50-70% net margin for service businesses.' },
+    ],
+  },
+  {
     name: 'Cash Flow & Payments',
     color: 'from-cyan-500 to-blue-500',
     terms: [
@@ -166,6 +178,7 @@ const categories = [
       { name: 'ACN', full: 'Australian Company Number (ACN)', slug: 'acn', description: 'A 9-digit identifier for registered companies. Needed if you incorporate as a Pty Ltd.' },
       { name: 'Pty Ltd', full: 'Proprietary Limited Company (Pty Ltd)', slug: 'pty-ltd', description: 'The most common company structure in Australia. Separate legal entity with limited liability.' },
       { name: 'C vs E', full: 'Contractor vs Employee', slug: 'contractor-vs-employee', description: 'The critical distinction that determines tax, super, leave, and legal obligations. Get it wrong = penalties.' },
+      { name: 'Structure', full: 'Business Structure', slug: 'business-structure', description: 'The legal framework for your business: sole trader, Pty Ltd, partnership, or trust. Affects tax, liability, and compliance.' },
     ],
   },
   {
@@ -182,6 +195,7 @@ const categories = [
     terms: [
       { name: 'PI Insurance', full: 'Professional Indemnity Insurance', slug: 'professional-indemnity', description: 'Insurance protecting against claims of negligence, errors, or bad advice. Essential for service providers.' },
       { name: 'PLI', full: 'Public Liability Insurance', slug: 'public-liability', description: 'Insurance covering third-party injury and property damage. Essential for on-site work.' },
+      { name: 'WorkCover', full: 'Workers Compensation', slug: 'workers-compensation', description: 'Compulsory insurance covering workplace injuries for employees. Mandatory once you hire anyone.' },
     ],
   },
   {
@@ -222,6 +236,10 @@ const popularTerms = [
   { name: 'Invoice Factoring', slug: 'invoice-factoring', searches: '6,600/mo', description: 'Selling unpaid invoices for immediate cash flow — an alternative to waiting 30+ days' },
   { name: 'Bookkeeping', slug: 'bookkeeping', searches: '27,100/mo', description: 'Recording all financial transactions — ATO requires 5 years of records from sole traders' },
   { name: 'Input Tax Credits', slug: 'input-tax-credits', searches: '9,900/mo', description: 'GST paid on business expenses you can claim back from the ATO on your BAS' },
+  { name: 'Billable Hours', slug: 'billable-hours', searches: '12,100/mo', description: 'Time spent directly on client work that can be invoiced — freelancers typically bill 60-70% of working hours' },
+  { name: 'Profit Margin', slug: 'profit-margin', searches: '22,200/mo', description: 'Percentage of revenue remaining as profit — target 50-70% net margin for service-based freelancers' },
+  { name: 'Workers Comp', slug: 'workers-compensation', searches: '14,800/mo', description: 'Workers compensation (WorkCover) — compulsory insurance for employees. Not required for solo traders.' },
+  { name: 'Business Structure', slug: 'business-structure', searches: '18,100/mo', description: 'Sole trader vs Pty Ltd vs partnership vs trust — the legal framework that defines your tax and liability' },
 ];
 
 export default function GlossaryHub() {
@@ -498,6 +516,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/input-tax-credits" className="text-sky-400 hover:text-sky-300 font-medium">ITC Claim Window</Link></td>
                 <td className="px-6 py-4 text-white font-medium">4 years</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Maximum time to claim input tax credits from the date of purchase</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/billable-hours" className="text-sky-400 hover:text-sky-300 font-medium">Billable Utilisation</Link></td>
+                <td className="px-6 py-4 text-white font-medium">60-70%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical percentage of working hours that are billable for freelancers</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/profit-margin" className="text-sky-400 hover:text-sky-300 font-medium">Healthy Net Margin</Link></td>
+                <td className="px-6 py-4 text-white font-medium">50-70%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Target net profit margin for service-based freelancers (before income tax)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/workers-compensation" className="text-sky-400 hover:text-sky-300 font-medium">WorkCover Penalty</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$100K+</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Fines for operating with employees and without workers compensation</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/business-structure" className="text-sky-400 hover:text-sky-300 font-medium">Pty Ltd Threshold</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$120K-$150K</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Income level where incorporating as Pty Ltd may save tax vs sole trader</td>
               </tr>
             </tbody>
           </table>
