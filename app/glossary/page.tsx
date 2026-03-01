@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 80,
+  numberOfItems: 84,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -122,6 +122,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 78, name: 'Instant Asset Write-Off', url: 'https://invoiceflow-teal.vercel.app/glossary/instant-asset-write-off' },
     { '@type': 'ListItem', position: 79, name: 'Work From Home Deductions', url: 'https://invoiceflow-teal.vercel.app/glossary/work-from-home-deductions' },
     { '@type': 'ListItem', position: 80, name: 'Chart of Accounts', url: 'https://invoiceflow-teal.vercel.app/glossary/chart-of-accounts' },
+    { '@type': 'ListItem', position: 81, name: 'Pro Rata', url: 'https://invoiceflow-teal.vercel.app/glossary/pro-rata' },
+    { '@type': 'ListItem', position: 82, name: 'Deposit (Upfront Payment)', url: 'https://invoiceflow-teal.vercel.app/glossary/deposit' },
+    { '@type': 'ListItem', position: 83, name: 'Overhead Costs', url: 'https://invoiceflow-teal.vercel.app/glossary/overhead' },
+    { '@type': 'ListItem', position: 84, name: 'Double-Entry Bookkeeping', url: 'https://invoiceflow-teal.vercel.app/glossary/double-entry-bookkeeping' },
   ],
 };
 
@@ -228,6 +232,8 @@ const categories = [
       { name: 'Hourly Rate', full: 'Hourly Rate', slug: 'hourly-rate', description: 'The amount you charge per hour of work. Most common freelancer pricing model. AU range: $50-$300+/hr.' },
       { name: 'Billing Cycle', full: 'Billing Cycle', slug: 'billing-cycle', description: 'The recurring interval between invoices — weekly, monthly, or milestone-based. Affects cash flow timing.' },
       { name: 'Milestone', full: 'Milestone Payment', slug: 'milestone-payment', description: 'Payment tied to specific project deliverables or phases — reduces risk for both freelancer and client.' },
+      { name: 'Pro Rata', full: 'Pro Rata', slug: 'pro-rata', description: 'Proportional calculation of amounts based on time or usage — essential for partial-period billing and refunds.' },
+      { name: 'Deposit', full: 'Deposit (Upfront Payment)', slug: 'deposit', description: 'Partial upfront payment securing commitment to a project — typically 20-50% of total project value.' },
     ],
   },
   {
@@ -274,6 +280,7 @@ const categories = [
       { name: 'Balance Sheet', full: 'Balance Sheet', slug: 'balance-sheet', description: 'A snapshot of what you own (assets), owe (liabilities), and are worth (equity) at a point in time.' },
       { name: 'Revenue', full: 'Revenue', slug: 'revenue', description: 'The total income from business activities before expenses — the "top line" of your financials.' },
       { name: 'CoA', full: 'Chart of Accounts', slug: 'chart-of-accounts', description: 'A structured list of all financial accounts in your business — assets, liabilities, equity, income, expenses.' },
+      { name: 'Double-Entry', full: 'Double-Entry Bookkeeping', slug: 'double-entry-bookkeeping', description: 'Every transaction recorded in two accounts (debit + credit). The global standard since 1494. Self-balancing and error-detecting.' },
     ],
   },
   {
@@ -283,6 +290,7 @@ const categories = [
       { name: 'Break-Even', full: 'Break-Even Point', slug: 'break-even-point', description: 'The revenue level where total income equals total costs — neither profit nor loss. Essential for pricing.' },
       { name: 'Working Capital', full: 'Working Capital', slug: 'working-capital', description: 'Current assets minus current liabilities — your financial buffer between invoicing and getting paid.' },
       { name: 'Forecast', full: 'Cash Flow Forecast', slug: 'cash-flow-forecast', description: 'A projection of future cash inflows and outflows — essential for managing irregular freelance income.' },
+      { name: 'Overhead', full: 'Overhead Costs', slug: 'overhead', description: 'Indirect business costs not tied to specific projects — software, insurance, marketing, equipment. Avg 15-30% of revenue.' },
     ],
   },
   {
@@ -386,6 +394,10 @@ const popularTerms = [
   { name: 'Write-Off', slug: 'instant-asset-write-off', searches: '33,100/mo', description: 'Instant asset write-off — immediately deduct business assets under $20,000. Division 328 for SBEs' },
   { name: 'WFH Deductions', slug: 'work-from-home-deductions', searches: '40,500/mo', description: 'Work from home deductions — 67c/hr fixed rate or actual cost method, running vs occupancy expenses' },
   { name: 'Chart of Accounts', slug: 'chart-of-accounts', searches: '14,800/mo', description: 'Chart of accounts template — 5 account types, 20-40 accounts, maps to ATO tax return labels' },
+  { name: 'Pro Rata', slug: 'pro-rata', searches: '18,100/mo', description: 'Pro rata calculation — proportional billing for partial periods, mid-cycle changes, and refunds' },
+  { name: 'Deposit', slug: 'deposit', searches: '14,800/mo', description: 'Upfront payment securing project commitment — typically 20-50%, GST applies on receipt' },
+  { name: 'Overhead', slug: 'overhead', searches: '12,100/mo', description: 'Indirect business costs — software, insurance, marketing. Average freelancer overhead: 15-30% of revenue' },
+  { name: 'Double-Entry', slug: 'double-entry-bookkeeping', searches: '9,900/mo', description: 'Double-entry bookkeeping — every transaction in two accounts (debit + credit). Global standard since 1494' },
 ];
 
 export default function GlossaryHub() {
@@ -932,6 +944,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/chart-of-accounts" className="text-sky-400 hover:text-sky-300 font-medium">Freelancer Accounts</Link></td>
                 <td className="px-6 py-4 text-white font-medium">20-40</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Typical number of chart of accounts entries for a freelance business</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/pro-rata" className="text-sky-400 hover:text-sky-300 font-medium">Pro Rata Formula</Link></td>
+                <td className="px-6 py-4 text-white font-medium">(Amount ÷ Total) × Partial</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Universal proportional calculation for partial periods, refunds, and mid-cycle adjustments</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/deposit" className="text-sky-400 hover:text-sky-300 font-medium">Project Deposit</Link></td>
+                <td className="px-6 py-4 text-white font-medium">20-50%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Recommended upfront deposit range for freelance projects — GST applies on receipt</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/overhead" className="text-sky-400 hover:text-sky-300 font-medium">Freelancer Overhead</Link></td>
+                <td className="px-6 py-4 text-white font-medium">15-30%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Average overhead as percentage of revenue for Australian freelancers and sole traders</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/double-entry-bookkeeping" className="text-sky-400 hover:text-sky-300 font-medium">Double-Entry Rule</Link></td>
+                <td className="px-6 py-4 text-white font-medium">Debit = Credit</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Every transaction recorded in two accounts — debits must always equal credits</td>
               </tr>
             </tbody>
           </table>
