@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 48,
+  numberOfItems: 52,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -90,6 +90,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 46, name: 'Overdue Invoice', url: 'https://invoiceflow-teal.vercel.app/glossary/overdue-invoice' },
     { '@type': 'ListItem', position: 47, name: 'Business Expenses', url: 'https://invoiceflow-teal.vercel.app/glossary/business-expenses' },
     { '@type': 'ListItem', position: 48, name: 'Cash Basis Accounting', url: 'https://invoiceflow-teal.vercel.app/glossary/cash-basis-accounting' },
+    { '@type': 'ListItem', position: 49, name: 'Record Keeping', url: 'https://invoiceflow-teal.vercel.app/glossary/record-keeping' },
+    { '@type': 'ListItem', position: 50, name: 'Tax Agent', url: 'https://invoiceflow-teal.vercel.app/glossary/tax-agent' },
+    { '@type': 'ListItem', position: 51, name: 'Break-Even Point', url: 'https://invoiceflow-teal.vercel.app/glossary/break-even-point' },
+    { '@type': 'ListItem', position: 52, name: 'Working Capital', url: 'https://invoiceflow-teal.vercel.app/glossary/working-capital' },
   ],
 };
 
@@ -160,6 +164,8 @@ const categories = [
       { name: 'Deduction', full: 'Tax Deduction', slug: 'tax-deduction', description: 'Expenses you can claim to reduce taxable income. Home office 67c/hr, vehicle 85c/km, $20K write-off.' },
       { name: 'FBT', full: 'Fringe Benefits Tax (FBT)', slug: 'fringe-benefits-tax', description: 'Tax on non-cash benefits provided to employees. 47% rate, separate from income tax.' },
       { name: 'Expenses', full: 'Business Expenses', slug: 'business-expenses', description: 'Costs incurred running your business that are tax-deductible. Home office 67c/hr, vehicle 85c/km.' },
+      { name: 'Records', full: 'Record Keeping', slug: 'record-keeping', description: 'Systematic retention of business documents. ATO requires 5 years of records from sole traders.' },
+      { name: 'Tax Agent', full: 'Tax Agent', slug: 'tax-agent', description: 'TPB-registered professional who can lodge tax returns and BAS on your behalf. Fees $200-$600.' },
     ],
   },
   {
@@ -218,6 +224,14 @@ const categories = [
       { name: 'Bookkeeping', full: 'Bookkeeping', slug: 'bookkeeping', description: 'Systematic recording of all financial transactions. ATO requires records kept for 5 years.' },
       { name: 'Dividend', full: 'Dividend', slug: 'dividend', description: 'Payment from a company to its shareholders from profits. Relevant when you incorporate as Pty Ltd.' },
       { name: 'Cash Basis', full: 'Cash Basis Accounting', slug: 'cash-basis-accounting', description: 'Recording income when received and expenses when paid. The default method for most AU sole traders.' },
+    ],
+  },
+  {
+    name: 'Financial Planning',
+    color: 'from-amber-500 to-orange-500',
+    terms: [
+      { name: 'Break-Even', full: 'Break-Even Point', slug: 'break-even-point', description: 'The revenue level where total income equals total costs — neither profit nor loss. Essential for pricing.' },
+      { name: 'Working Capital', full: 'Working Capital', slug: 'working-capital', description: 'Current assets minus current liabilities — your financial buffer between invoicing and getting paid.' },
     ],
   },
   {
@@ -288,6 +302,10 @@ const popularTerms = [
   { name: 'Overdue Invoice', slug: 'overdue-invoice', searches: '14,800/mo', description: 'Invoices past their due date — recovery steps, reminder templates, and legal rights in Australia' },
   { name: 'Business Expenses', slug: 'business-expenses', searches: '22,200/mo', description: 'Tax-deductible costs of running your business — home office, vehicle, equipment, and more' },
   { name: 'Cash Basis Accounting', slug: 'cash-basis-accounting', searches: '12,100/mo', description: 'Recording income when received and expenses when paid — the default method for AU sole traders' },
+  { name: 'Record Keeping', slug: 'record-keeping', searches: '14,800/mo', description: 'ATO record-keeping requirements — 5-year retention, digital records, $313 FTL penalty for non-compliance' },
+  { name: 'Tax Agent', slug: 'tax-agent', searches: '18,100/mo', description: 'TPB-registered professionals who lodge tax returns and BAS — fees $200-$600, Oct 31 deadline via agent' },
+  { name: 'Break-Even Point', slug: 'break-even-point', searches: '14,800/mo', description: 'The revenue level where income equals costs — critical for pricing, rate-setting, and financial planning' },
+  { name: 'Working Capital', slug: 'working-capital', searches: '22,200/mo', description: 'Current assets minus liabilities — your financial buffer. Healthy ratio: 1.2-2.0 for freelancers' },
 ];
 
 export default function GlossaryHub() {
@@ -669,6 +687,26 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/cash-basis-accounting" className="text-sky-400 hover:text-sky-300 font-medium">Cash vs Accrual</Link></td>
                 <td className="px-6 py-4 text-white font-medium">$10M threshold</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Businesses under $10M aggregated turnover can use simpler cash basis for GST</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/record-keeping" className="text-sky-400 hover:text-sky-300 font-medium">FTL Penalty</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$313/statement</td>
+                <td className="px-6 py-4 text-sm text-gray-400">ATO Failure to Lodge penalty for each 28-day period a statement is overdue</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/tax-agent" className="text-sky-400 hover:text-sky-300 font-medium">Tax Agent Fee</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$200-$600</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical sole trader tax return preparation fee (tax-deductible)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/break-even-point" className="text-sky-400 hover:text-sky-300 font-medium">Freelancer Break-Even</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$20K-$50K/yr</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical break-even revenue range for Australian freelancers (before tax)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/working-capital" className="text-sky-400 hover:text-sky-300 font-medium">Healthy WC Ratio</Link></td>
+                <td className="px-6 py-4 text-white font-medium">1.2-2.0</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Healthy working capital ratio range for freelancers and small businesses</td>
               </tr>
             </tbody>
           </table>
