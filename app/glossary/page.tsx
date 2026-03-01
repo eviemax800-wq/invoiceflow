@@ -40,7 +40,7 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Australian Business & Invoicing Glossary',
   description: 'Essential business terms for Australian freelancers, sole traders, and contractors.',
-  numberOfItems: 32,
+  numberOfItems: 36,
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ABN (Australian Business Number)', url: 'https://invoiceflow-teal.vercel.app/glossary/abn' },
     { '@type': 'ListItem', position: 2, name: 'GST (Goods and Services Tax)', url: 'https://invoiceflow-teal.vercel.app/glossary/gst' },
@@ -74,6 +74,10 @@ const itemListSchema = {
     { '@type': 'ListItem', position: 30, name: 'Profit Margin', url: 'https://invoiceflow-teal.vercel.app/glossary/profit-margin' },
     { '@type': 'ListItem', position: 31, name: 'Workers Compensation', url: 'https://invoiceflow-teal.vercel.app/glossary/workers-compensation' },
     { '@type': 'ListItem', position: 32, name: 'Business Structure', url: 'https://invoiceflow-teal.vercel.app/glossary/business-structure' },
+    { '@type': 'ListItem', position: 33, name: 'Capital Gains Tax (CGT)', url: 'https://invoiceflow-teal.vercel.app/glossary/capital-gains-tax' },
+    { '@type': 'ListItem', position: 34, name: 'Statement of Account', url: 'https://invoiceflow-teal.vercel.app/glossary/statement-of-account' },
+    { '@type': 'ListItem', position: 35, name: 'Hourly Rate', url: 'https://invoiceflow-teal.vercel.app/glossary/hourly-rate' },
+    { '@type': 'ListItem', position: 36, name: 'Bad Debt', url: 'https://invoiceflow-teal.vercel.app/glossary/bad-debt' },
   ],
 };
 
@@ -138,6 +142,7 @@ const categories = [
       { name: 'Depreciation', full: 'Depreciation', slug: 'depreciation', description: 'Spreading the cost of business assets over their useful life for tax deductions. $20K instant write-off.' },
       { name: 'Income Tax', full: 'Income Tax', slug: 'income-tax', description: 'Tax on your freelance earnings. $18,200 tax-free threshold, then progressive rates up to 45%.' },
       { name: 'ITC', full: 'Input Tax Credits (GST Credits)', slug: 'input-tax-credits', description: 'The GST included in business purchases you can claim back from the ATO on your BAS.' },
+      { name: 'CGT', full: 'Capital Gains Tax (CGT)', slug: 'capital-gains-tax', description: 'Tax on profit from selling assets like property, shares, business, or crypto. 50% discount for 12+ months.' },
     ],
   },
   {
@@ -149,6 +154,7 @@ const categories = [
       { name: 'Credit Note', full: 'Credit Note', slug: 'credit-note', description: 'A document that reduces or cancels the amount on a previously issued invoice.' },
       { name: 'PO', full: 'Purchase Order', slug: 'purchase-order', description: 'A buyer\'s document authorising a purchase. Required by corporates and government agencies.' },
       { name: 'Quote', full: 'Quote (Quotation)', slug: 'quote', description: 'A formal document stating a fixed price for a specific scope of work. Becomes binding on acceptance.' },
+      { name: 'SOA', full: 'Statement of Account', slug: 'statement-of-account', description: 'A summary document showing all transactions, invoices, payments, and outstanding balance with a client.' },
     ],
   },
   {
@@ -157,6 +163,7 @@ const categories = [
     terms: [
       { name: 'Billable Hrs', full: 'Billable Hours', slug: 'billable-hours', description: 'Time spent directly on client work that can be invoiced. Freelancers typically bill 60-70% of working hours.' },
       { name: 'Profit Margin', full: 'Profit Margin', slug: 'profit-margin', description: 'Percentage of revenue remaining as profit after expenses. Target 50-70% net margin for service businesses.' },
+      { name: 'Hourly Rate', full: 'Hourly Rate', slug: 'hourly-rate', description: 'The amount you charge per hour of work. Most common freelancer pricing model. AU range: $50-$300+/hr.' },
     ],
   },
   {
@@ -168,6 +175,7 @@ const categories = [
       { name: 'Terms', full: 'Payment Terms', slug: 'payment-terms', description: 'Conditions for when and how invoices must be paid. Net 30, Due on Receipt, EOM, and more.' },
       { name: 'Retainer', full: 'Retainer Agreement', slug: 'retainer', description: 'A recurring fee arrangement where a client reserves your time, expertise, or deliverables on an ongoing basis.' },
       { name: 'Factoring', full: 'Invoice Factoring', slug: 'invoice-factoring', description: 'Selling unpaid invoices to a third party at a discount for immediate cash flow.' },
+      { name: 'Bad Debt', full: 'Bad Debt', slug: 'bad-debt', description: 'An amount owed that will never be collected. Tax-deductible write-off with GST adjustment available.' },
     ],
   },
   {
@@ -240,6 +248,10 @@ const popularTerms = [
   { name: 'Profit Margin', slug: 'profit-margin', searches: '22,200/mo', description: 'Percentage of revenue remaining as profit — target 50-70% net margin for service-based freelancers' },
   { name: 'Workers Comp', slug: 'workers-compensation', searches: '14,800/mo', description: 'Workers compensation (WorkCover) — compulsory insurance for employees. Not required for solo traders.' },
   { name: 'Business Structure', slug: 'business-structure', searches: '18,100/mo', description: 'Sole trader vs Pty Ltd vs partnership vs trust — the legal framework that defines your tax and liability' },
+  { name: 'CGT', slug: 'capital-gains-tax', searches: '27,100/mo', description: 'Capital Gains Tax — tax on profit from selling assets. 50% discount for assets held 12+ months' },
+  { name: 'Statement of Account', slug: 'statement-of-account', searches: '8,100/mo', description: 'A summary of all invoices, payments, and balances between you and a client over a period' },
+  { name: 'Hourly Rate', slug: 'hourly-rate', searches: '22,200/mo', description: 'How much to charge per hour as a freelancer — the most common pricing model in Australia' },
+  { name: 'Bad Debt', slug: 'bad-debt', searches: '14,800/mo', description: 'Unpaid invoices you can write off as a tax deduction — with GST adjustment via BAS' },
 ];
 
 export default function GlossaryHub() {
@@ -536,6 +548,31 @@ export default function GlossaryHub() {
                 <td className="px-6 py-4"><Link href="/glossary/business-structure" className="text-sky-400 hover:text-sky-300 font-medium">Pty Ltd Threshold</Link></td>
                 <td className="px-6 py-4 text-white font-medium">$120K-$150K</td>
                 <td className="px-6 py-4 text-sm text-gray-400">Income level where incorporating as Pty Ltd may save tax vs sole trader</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/capital-gains-tax" className="text-sky-400 hover:text-sky-300 font-medium">CGT Discount</Link></td>
+                <td className="px-6 py-4 text-white font-medium">50%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Individuals get 50% discount on capital gains for assets held 12+ months</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/capital-gains-tax" className="text-sky-400 hover:text-sky-300 font-medium">Small Biz CGT Threshold</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$2M / $6M</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Aggregated turnover or net CGT assets test for small business concessions</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/hourly-rate" className="text-sky-400 hover:text-sky-300 font-medium">Avg Freelancer Rate (AU)</Link></td>
+                <td className="px-6 py-4 text-white font-medium">$80-$200/hr</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Typical hourly rate range for established Australian freelancers (ex-GST)</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/bad-debt" className="text-sky-400 hover:text-sky-300 font-medium">Bad Debt Rate</Link></td>
+                <td className="px-6 py-4 text-white font-medium">3-5%</td>
+                <td className="px-6 py-4 text-sm text-gray-400">Average percentage of freelancer revenue lost to uncollectable bad debts</td>
+              </tr>
+              <tr className="bg-gray-800/30 hover:bg-gray-800/50 transition-colors">
+                <td className="px-6 py-4"><Link href="/glossary/bad-debt" className="text-sky-400 hover:text-sky-300 font-medium">Bad Debt GST Window</Link></td>
+                <td className="px-6 py-4 text-white font-medium">12 months</td>
+                <td className="px-6 py-4 text-sm text-gray-400">GST adjustment on bad debts must be claimed within 12 months of overdue</td>
               </tr>
             </tbody>
           </table>
